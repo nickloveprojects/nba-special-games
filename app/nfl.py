@@ -486,7 +486,7 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "projection": projection.freeze(
                             None if projection.started(e["tip_utc"]) else projection.project(
                                 p["pos"], logs, table, oi["abbr"], today, p["id"] * 100003 + int(e["game_id"]), p["injury"],
-                                weather=weather.passing_factor(wx[e["game_id"]])),
+                                weather=weather.passing_factor(wx[e["game_id"]]), team_id=tid),
                             prior.get(p["id"]), e["tip_utc"]),
                         "_headshot": p["headshot"], "tags": tags}
                     for t in tags:
