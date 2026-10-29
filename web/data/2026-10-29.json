@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T13:08:01Z",
+ "generated_at": "2026-10-29T13:45:06Z",
  "season": "2026-27",
  "games": 3,
  "entries": [
@@ -136,7 +136,36 @@
    },
    "headshot": "img/players/4279888.png",
    "team_logo": "img/teams/POR.png",
-   "opponent_logo": "img/teams/MEM.png"
+   "opponent_logo": "img/teams/MEM.png",
+   "matchup": {
+    "group": "G",
+    "games": 3,
+    "stats": {
+     "pts": {
+      "value": 64.7,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 12.3,
+      "rank": 29,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 13.0,
+      "rank": 25,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 34,
+    "grade": "D",
+    "color": "yellow",
+    "best": "pts",
+    "note": "MEM gives up the 6th-most points to guards (64.7 a game, 3 games)."
+   }
   },
   {
    "player_id": 2991070,
@@ -271,7 +300,36 @@
    },
    "headshot": "img/players/2991070.png",
    "team_logo": "img/teams/MEM.png",
-   "opponent_logo": "img/teams/POR.png"
+   "opponent_logo": "img/teams/POR.png",
+   "matchup": {
+    "group": "F",
+    "games": 3,
+    "stats": {
+     "pts": {
+      "value": 41.3,
+      "rank": 21,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 19.3,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 7.7,
+      "rank": 15,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 46,
+    "grade": "C",
+    "color": "yellow",
+    "best": "reb",
+    "note": "POR gives up the 14th-most rebounds to forwards (19.3 a game, 3 games)."
+   }
   },
   {
    "player_id": 4594326,
@@ -403,7 +461,36 @@
    },
    "headshot": "img/players/4594326.png",
    "team_logo": "img/teams/MEM.png",
-   "opponent_logo": "img/teams/POR.png"
+   "opponent_logo": "img/teams/POR.png",
+   "matchup": {
+    "group": "F",
+    "games": 3,
+    "stats": {
+     "pts": {
+      "value": 41.3,
+      "rank": 21,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 19.3,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 7.7,
+      "rank": 15,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 46,
+    "grade": "C",
+    "color": "yellow",
+    "best": "reb",
+    "note": "POR gives up the 14th-most rebounds to forwards (19.3 a game, 3 games)."
+   }
   },
   {
    "player_id": 4703115,
@@ -466,7 +553,36 @@
    },
    "headshot": "img/players/4703115.png",
    "team_logo": "img/teams/NOP.png",
-   "opponent_logo": "img/teams/SAC.png"
+   "opponent_logo": "img/teams/SAC.png",
+   "matchup": {
+    "group": "G",
+    "games": 4,
+    "stats": {
+     "pts": {
+      "value": 58.5,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 15.0,
+      "rank": 17,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 19.0,
+      "rank": 2,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 66,
+    "grade": "B",
+    "color": "yellow",
+    "best": "ast",
+    "note": "SAC gives up the 2nd-most assists to guards (19.0 a game, 4 games)."
+   }
   },
   {
    "player_id": 5107897,
@@ -617,10 +733,41 @@
    },
    "headshot": "img/players/5107897.png",
    "team_logo": "img/teams/SAC.png",
-   "opponent_logo": "img/teams/NOP.png"
+   "opponent_logo": "img/teams/NOP.png",
+   "matchup": {
+    "group": "F",
+    "games": 4,
+    "stats": {
+     "pts": {
+      "value": 43.0,
+      "rank": 17,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 21.2,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 5.2,
+      "rank": 26,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 45,
+    "grade": "C",
+    "color": "yellow",
+    "best": "reb",
+    "note": "NOP gives up the 8th-most rebounds to forwards (21.2 a game, 4 games)."
+   }
   }
  ],
- "warnings": [],
+ "warnings": [
+  "Matchup data incomplete for 2026-10-26 (https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: Expecting value: line 1 column 1 (char 0))"
+ ],
  "matchups": [
   {
    "away": "CLE",
