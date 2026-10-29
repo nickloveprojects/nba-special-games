@@ -150,9 +150,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 9,
+      "proj": 11,
       "lo": 0,
-      "hi": 33
+      "hi": 41
      },
      {
       "label": "Rec",
@@ -208,5 +208,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T19:06:17+00:00"
+ "generated_at": "2026-10-29T19:16:45+00:00"
 }
