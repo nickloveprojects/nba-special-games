@@ -23,8 +23,6 @@ def test_lines_only_real_data():
     assert by["hometown"]["n"] == 1 and "hometown area 1 time" in by["hometown"]["text"]      # only the game in New York
     assert by["revenge"]["n"] == 1 and "since leaving" in by["revenge"]["text"]   # only the 2025-12-25 game is after the exit
     assert "holiday" not in by
-    xmas = career.lines(logs, date(2026, 12, 25), date(1999, 3, 12), [], "BOS", "Celtics")
-    assert xmas[0]["kind"] == "holiday" and xmas[0]["n"] == 1 and "Christmas" in xmas[0]["text"]
 
 
 def test_history_line_from_h2h_and_nothing_when_empty():
@@ -33,3 +31,15 @@ def test_history_line_from_h2h_and_nothing_when_empty():
     assert out[0]["text"] == "Has faced Tyler Herro 5 times (avg 14.4 pts, 9.0 reb, 3.8 ast)."
     t["h2h"]["games"] = 0
     assert career.lines([], date(2026, 10, 28), None, [t], "MIL", "Bucks") == []
+
+
+def test_holiday_tag():
+    logs = [g("2025-12-25", opp="BOS", pts=10), g("2024-12-25", opp="NYK", pts=20), g("2025-02-01", opp="BOS", pts=30)]
+    t = career.holiday_tag(logs, date(2026, 12, 25), "BOS", "Celtics")
+    assert t["category"] == "Holiday" and t["label"] == "Christmas" and t["headline"] == "Christmas game."
+    texts = [x["text"] for x in t["lines"]]
+    assert texts[0].startswith("Has played on Christmas 2 times (avg 15.0 pts")
+    assert texts[1].startswith("Has faced the Celtics 2 times in his career (avg 20.0 pts")
+    assert texts[2].startswith("On Christmas against the Celtics: 1 time")
+    assert career.holiday_tag([g("2025-02-01")], date(2026, 12, 25), "BOS", "Celtics") is None   # never played on a holiday
+    assert career.holiday_tag(logs, date(2026, 12, 24), "BOS", "Celtics") is None                # not a holiday

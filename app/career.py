@@ -85,7 +85,28 @@ def lines(logs: list[dict], slate_date: date, birth: date | None, tags: list[dic
         elif c == "Revenge" and t.get("_exit"):
             add("revenge", "Revenge", f"Has faced the {opp_name} {{n}} since leaving them ({{s}}).",
                 [g for g in past if g["opp"] == opp and g["date"] > t["_exit"]])
-    hol = holiday_name(slate_date)
-    if hol:
-        add("holiday", "Holiday", f"Has played on {hol} {{n}} ({{s}}).", holiday_games(past, hol))
     return out
+
+
+def holiday_tag(logs: list[dict], slate_date: date, opp: str, opp_name: str) -> dict | None:
+    """A Holiday flag for a player whose team plays on a holiday, but only if he has played on that holiday before.
+    Lines: his record on that holiday, his career record against tonight's opponent, and holiday games against them."""
+    name = holiday_name(slate_date)
+    if not name:
+        return None
+    past = [g for g in logs if g["date"] < slate_date.isoformat()]
+    hol = holiday_games(past, name)
+    if not hol:
+        return None
+    lines = []
+
+    def add(rows, text):
+        if rows:
+            a = avg(rows)
+            lines.append({"text": text.format(n=_times(a["n"]), s=_stats(a)), **a})
+
+    add(hol, f"Has played on {name} {{n}} ({{s}}).")
+    add([g for g in past if g["opp"] == opp], f"Has faced the {opp_name} {{n}} in his career ({{s}}).")
+    add([g for g in hol if g["opp"] == opp], f"On {name} against the {opp_name}: {{n}} ({{s}}).")
+    return {"category": "Holiday", "kind": "holiday", "label": name, "confidence": "high", "headline": f"{name} game.",
+            "detail": " ".join(x["text"] for x in lines), "lines": lines, "sources": [], "_score": 2}

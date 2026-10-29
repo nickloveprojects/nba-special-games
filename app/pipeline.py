@@ -186,17 +186,19 @@ def history_tags(conn, pa, pb, rv, slate_date, warn):
     return tag(pa, pb, h["a"], h["b"], h["a_record"]), tag(pb, pa, h["b"], h["a"], rec_b)
 
 
+def player_logs(conn, player_id, slate_date, warn):
+    """Every known game of his career (cached season logs, from his first season to now)."""
+    last = config.current_end_year(slate_date)
+    row = conn.execute("SELECT MIN(first_season) AS f FROM stints WHERE player_id=?", (player_id,)).fetchone()
+    first = int(row["f"][:4]) + 1 if row and row["f"] else last - 9
+    return games_with_ids(conn, player_id, max(first, last - 25), last, warn)
+
+
 def career_for(conn, e, m, slate_date, warn):
     """Career special-game lines for one flagged player (only lines backed by real past games)."""
     cats = {t["category"] for t in m["tags"]}
-    need_logs = bool(cats & {"Birthday", "Hometown"} or any(t.get("_exit") for t in m["tags"])
-                     or career.holiday_name(slate_date))
-    logs = []
-    if need_logs:
-        last = config.current_end_year(slate_date)
-        row = conn.execute("SELECT MIN(first_season) AS f FROM stints WHERE player_id=?", (e["player_id"],)).fetchone()
-        first = int(row["f"][:4]) + 1 if row and row["f"] else last - 9
-        logs = games_with_ids(conn, e["player_id"], max(first, last - 25), last, warn)
+    need_logs = bool(cats & {"Birthday", "Hometown"} or any(t.get("_exit") for t in m["tags"]))
+    logs = player_logs(conn, e["player_id"], slate_date, warn) if need_logs else []
     return career.lines(logs, slate_date, m["birth"], m["tags"], e["opponent"], e["opponent_name"])
 
 
@@ -339,6 +341,10 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
                     continue
                 tags, avg = player_tags(conn, pl, tid, opp, is_home, g, slate_date, season, ov, warn)
                 tags += hist.get(pl["player_id"], [])
+                if career.holiday_name(slate_date) and avg and (avg.get("min") or 0) >= 12:
+                    ht = career.holiday_tag(player_logs(conn, pl["player_id"], slate_date, warn), slate_date, abbr(opp), nick(opp))
+                    if ht:
+                        tags.append(ht)
                 meta[pl["player_id"]] = {"birth": pl["birth_date"], "tags": tags}
                 if not tags:
                     continue

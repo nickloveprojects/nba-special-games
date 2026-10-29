@@ -4,46 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Special Games</title>
-<script>try{var t=localStorage.getItem("theme");t=({navy:"night",light:"sand"})[t]||t;document.documentElement.dataset.theme=["night","sand","black"].includes(t)?t:"night"}catch(e){document.documentElement.dataset.theme="night"}</script>
+<script>try{var t=localStorage.getItem("theme");t=({navy:"sand",night:"sand",light:"white"})[t]||t;document.documentElement.dataset.theme=["sand","white","black"].includes(t)?t:"sand"}catch(e){document.documentElement.dataset.theme="sand"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap">
 <style>
 /* Layout: one column of cards. Each card = game bar (logos, time) / player row (headshot, name, team pill, position)
    / one-line reason / flag blocks (green hometown, red revenge, yellow other) / collapsible recent games. */
-/* ==== PALETTE: change these four colors to re-skin the whole site (Night and Sand themes are built from them) ==== */
+/* ==== PALETTE: the tan used across the site. Change these two to re-skin it. ==== */
 :root{
-  --sand:#e1b382; --sand-shadow:#c89666; --night:#2d545e; --night-shadow:#12343b;
+  --sand:#e1b382; --sand-shadow:#c89666;
   --font-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
   --font-body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
-/* Night (default): deep teal, sand accents */
-:root,:root[data-theme="night"]{
-  --bg:var(--night-shadow); --surface:color-mix(in srgb,var(--night) 55%,var(--night-shadow)); --ink:#f6efe4;
-  --muted:color-mix(in srgb,#f6efe4 62%,var(--night-shadow)); --line:color-mix(in srgb,var(--night) 78%,#ffffff);
-  --chip:color-mix(in srgb,var(--night) 72%,var(--night-shadow)); --focus:var(--sand); --accent:var(--sand);
-  --pill-bg:var(--sand); --pill-fg:var(--night-shadow);
-  --red:#ff9f94; --red-bg:rgba(255,120,110,.16); --green:#62dcae; --green-bg:rgba(79,209,165,.15);
-  --yellow:#ffd98a; --yellow-bg:rgba(255,211,107,.16); --yellow-line:#e0a800; --blue:#b3cdff; --blue-bg:rgba(111,155,255,.18); --blue-line:#7ea6ff;
-  --shadow:0 1px 2px rgba(3,18,22,.35),0 10px 28px rgba(3,18,22,.35); --shadow-hover:0 2px 4px rgba(3,18,22,.4),0 16px 36px rgba(3,18,22,.45);
-  color-scheme:dark;
+/* Sand (default) and White: light themes with a soft tan accent */
+:root,:root[data-theme="sand"],:root[data-theme="white"]{
+  --bg:color-mix(in srgb,var(--sand) 12%,#ffffff); --surface:color-mix(in srgb,var(--sand) 3%,#ffffff); --ink:#2b2219;
+  --muted:#6f604f; --line:color-mix(in srgb,var(--sand) 36%,#ffffff); --chip:color-mix(in srgb,var(--sand) 15%,#ffffff);
+  --accent:var(--sand); --accent-ink:#85592a; --focus:#85592a;
+  --pill-bg:color-mix(in srgb,var(--sand) 58%,#ffffff); --pill-fg:#2b2219;
+  --red:#b42318; --red-bg:#fdeceb; --green:#0b7a5e; --green-bg:#e2f4ed;
+  --yellow:#7a5200; --yellow-bg:#fff0c4; --yellow-line:#e0a800; --blue:#1e4fb8; --blue-bg:#e6eefc; --blue-line:#2f6bdc;
+  --violet:#6b3fb8; --violet-bg:#efe8fb; --violet-line:#8a5fe0;
+  --shadow:0 1px 2px rgba(43,34,25,.06),0 8px 24px rgba(43,34,25,.08); --shadow-hover:0 2px 4px rgba(43,34,25,.08),0 14px 32px rgba(43,34,25,.15);
+  color-scheme:light;
+}
+:root[data-theme="white"]{
+  --bg:#f6f6f5; --surface:#ffffff; --ink:#16181a; --muted:#656a6f; --line:#e3e3e1; --chip:#f1f1ef;
+  --pill-fg:#16181a;
+  --shadow:0 1px 2px rgba(22,24,26,.06),0 8px 24px rgba(22,24,26,.07); --shadow-hover:0 2px 4px rgba(22,24,26,.08),0 14px 32px rgba(22,24,26,.13);
 }
 /* Black */
 :root[data-theme="black"]{
-  --bg:#000000; --surface:#0e0e11; --ink:#f4f4f6; --muted:#9a9aa4; --line:#26262d; --chip:#16161a; --focus:var(--sand); --accent:var(--sand);
-  --pill-bg:var(--sand); --pill-fg:#000000;
+  --bg:#000000; --surface:#0e0e11; --ink:#f4f4f6; --muted:#9a9aa4; --line:#26262d; --chip:#16161a;
+  --accent:var(--sand); --accent-ink:var(--sand); --focus:var(--sand);
+  --pill-bg:color-mix(in srgb,var(--sand) 88%,#000000); --pill-fg:#000000;
+  --red:#ff9f94; --red-bg:rgba(255,120,110,.16); --green:#62dcae; --green-bg:rgba(79,209,165,.15);
+  --yellow:#ffd98a; --yellow-bg:rgba(255,211,107,.16); --yellow-line:#e0a800; --blue:#b3cdff; --blue-bg:rgba(111,155,255,.18); --blue-line:#7ea6ff;
+  --violet:#c9b2ff; --violet-bg:rgba(150,110,255,.17); --violet-line:#9b7bff;
   --shadow:0 1px 2px rgba(0,0,0,.7),0 10px 28px rgba(0,0,0,.7); --shadow-hover:0 2px 4px rgba(0,0,0,.8),0 16px 36px rgba(0,0,0,.8);
   color-scheme:dark;
-}
-/* Sand (light): warm paper, night-blue accents */
-:root[data-theme="sand"]{
-  --bg:color-mix(in srgb,var(--sand) 24%,#ffffff); --surface:color-mix(in srgb,var(--sand) 7%,#ffffff); --ink:var(--night-shadow);
-  --muted:color-mix(in srgb,var(--night) 82%,#ffffff); --line:color-mix(in srgb,var(--sand) 50%,#ffffff);
-  --chip:color-mix(in srgb,var(--sand) 20%,#ffffff); --focus:var(--night); --accent:var(--night);
-  --pill-bg:var(--night-shadow); --pill-fg:color-mix(in srgb,var(--sand) 24%,#ffffff);
-  --red:#b42318; --red-bg:#fdeceb; --green:#0b7a5e; --green-bg:#e2f4ed;
-  --yellow:#7a5200; --yellow-bg:#fff0c4; --yellow-line:#e0a800; --blue:#1e4fb8; --blue-bg:#e6eefc; --blue-line:#2f6bdc;
-  --shadow:0 1px 2px rgba(18,52,59,.07),0 8px 24px rgba(18,52,59,.09); --shadow-hover:0 2px 4px rgba(18,52,59,.09),0 14px 32px rgba(18,52,59,.16);
-  color-scheme:light;
 }
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:16px/1.45 var(--font-body);
@@ -60,9 +59,10 @@ button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,su
 svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .chip{display:inline-flex;gap:7px;align-items:center;font-weight:600}
 .chip b{font-variant-numeric:tabular-nums;font-weight:600;opacity:.8}
-.chip[data-c=Revenge]{color:var(--red)}.chip[data-c=Hometown]{color:var(--green)}.chip[data-c=Birthday]{color:var(--yellow)}.chip[data-c=History]{color:var(--blue)}
+.chip[data-c=Revenge]{color:var(--red)}.chip[data-c=Hometown]{color:var(--green)}.chip[data-c=Birthday]{color:var(--yellow)}.chip[data-c=History]{color:var(--blue)}.chip[data-c=Holiday]{color:var(--violet)}
 .chip[aria-pressed=true][data-c=Revenge]{background:var(--red-bg);border-color:var(--red)}
 .chip[aria-pressed=true][data-c=Hometown]{background:var(--green-bg);border-color:var(--green)}
+.chip[aria-pressed=true][data-c=Holiday]{background:var(--violet-bg);border-color:var(--violet-line)}
 .chip[aria-pressed=true][data-c=History]{background:var(--blue-bg);border-color:var(--blue-line)}
 .chip[aria-pressed=true][data-c=Birthday]{background:var(--yellow-bg);border-color:var(--yellow-line)}
 .chip[aria-pressed=false]{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
@@ -84,7 +84,7 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 .warn summary{cursor:pointer;font-weight:600}
 
 .card{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--stripe,var(--line));border-radius:10px;margin:12px 0;overflow:hidden}
-.card[data-main=Revenge]{--stripe:var(--red)}.card[data-main=Hometown]{--stripe:var(--green)}.card[data-main=Birthday]{--stripe:var(--yellow-line)}.card[data-main=History]{--stripe:var(--blue-line)}
+.card[data-main=Revenge]{--stripe:var(--red)}.card[data-main=Hometown]{--stripe:var(--green)}.card[data-main=Birthday]{--stripe:var(--yellow-line)}.card[data-main=History]{--stripe:var(--blue-line)}.card[data-main=Holiday]{--stripe:var(--violet-line)}
 .game{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;padding:7px 14px;background:var(--chip);border-bottom:1px solid var(--line)}
 .game .teams{display:flex;align-items:center;gap:7px;font:700 20px/1 var(--font-display);letter-spacing:.02em}
 .game .at{color:var(--muted);font-weight:600;font-size:16px}
@@ -109,10 +109,10 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 .why{margin:6px 14px 8px;font-weight:500;text-wrap:pretty}
 
 .flag{margin:0 14px 10px;padding:8px 10px;border-radius:8px;background:var(--bg-t);color:var(--ink);border-left:4px solid var(--c)}
-.flag.Revenge{--c:var(--red);--bg-t:var(--red-bg)}.flag.Hometown{--c:var(--green);--bg-t:var(--green-bg)}.flag.Birthday{--c:var(--yellow-line);--bg-t:var(--yellow-bg)}.flag.History{--c:var(--blue-line);--bg-t:var(--blue-bg)}
+.flag.Revenge{--c:var(--red);--bg-t:var(--red-bg)}.flag.Hometown{--c:var(--green);--bg-t:var(--green-bg)}.flag.Birthday{--c:var(--yellow-line);--bg-t:var(--yellow-bg)}.flag.History{--c:var(--blue-line);--bg-t:var(--blue-bg)}.flag.Holiday{--c:var(--violet-line);--bg-t:var(--violet-bg)}
 .flag .top{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px}
 .flag .kind{display:inline-flex;align-items:center;gap:6px;font:700 17px/1.2 var(--font-display);letter-spacing:.03em;color:var(--c)}
-.flag.Birthday .kind{color:var(--yellow)}.flag.History .kind{color:var(--blue)}
+.flag.Birthday .kind{color:var(--yellow)}.flag.History .kind{color:var(--blue)}.flag.Holiday .kind{color:var(--violet)}
 .flag .sure{font-size:13px;font-weight:600;color:var(--muted)}
 .flag .sure.high{color:var(--ink)}
 .flag p{margin:3px 0 0;font-size:15px;overflow-wrap:anywhere}
@@ -193,7 +193,7 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .themes button:hover{color:var(--ink)}
 .themes button[aria-checked=true]{background:var(--chip);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
 .themes .sw{width:14px;height:14px;border-radius:50%;border:1px solid var(--line)}
-.sw.night{background:#12343b}.sw.sand{background:#e1b382}.sw.black{background:#000}
+.sw.sand{background:#e1b382}.sw.white{background:#fff}.sw.black{background:#000}
 @media (max-width:640px){
   .sitenav .in{grid-template-columns:1fr auto;grid-template-areas:"brand themes" "tabs tabs";min-height:0;padding:8px 0 0}
   .themes button span{display:none}.themes button{padding:5px}
@@ -214,8 +214,8 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .sport p{margin:4px 0 0;color:var(--muted);font-size:15px}
 .sport .foot{margin-top:auto;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
 .sport.live{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}
-.sport.live .ico{background:color-mix(in srgb,var(--accent) 20%,transparent);color:var(--accent)}
-.sport.live .foot{color:var(--accent)}
+.sport.live .ico{background:color-mix(in srgb,var(--accent) 24%,transparent);color:var(--accent-ink)}
+.sport.live .foot{color:var(--accent-ink)}
 .sport.live:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:var(--accent)}
 .sport.live:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
 .sport.soon{opacity:.7;cursor:default;box-shadow:none}
@@ -242,8 +242,8 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
     <span class="tab soon" aria-disabled="true">NFL <small>Soon</small></span>
   </nav>
   <div class="themes" role="radiogroup" aria-label="Theme">
-    <button type="button" role="radio" data-t="night" aria-checked="true" title="Night"><i class="sw night"></i><span>Night</span></button>
-    <button type="button" role="radio" data-t="sand" aria-checked="false" title="Sand"><i class="sw sand"></i><span>Sand</span></button>
+    <button type="button" role="radio" data-t="sand" aria-checked="true" title="Sand"><i class="sw sand"></i><span>Sand</span></button>
+    <button type="button" role="radio" data-t="white" aria-checked="false" title="White"><i class="sw white"></i><span>White</span></button>
     <button type="button" role="radio" data-t="black" aria-checked="false" title="Black"><i class="sw black"></i><span>Black</span></button>
   </div>
 </div></header>
@@ -296,11 +296,12 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
   <symbol id="i-Revenge" viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
   <symbol id="i-Hometown" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h5v-6h4v6h5V10"/></symbol>
   <symbol id="i-Birthday" viewBox="0 0 24 24"><path d="M4 20h16M5 20v-6h14v6M5 14c2 0 2-2 3.500-2s2.500 2 3.500 2 2-2 3.500-2 2.500 2 3.500 2M12 9V6M12 3.500v.01"/></symbol>
+  <symbol id="i-Holiday" viewBox="0 0 24 24"><path d="M12 3l2.700 5.600 6.100.9-4.400 4.300 1 6.100L12 17l-5.400 2.900 1-6.100-4.400-4.300 6.100-.9z"/></symbol>
   <symbol id="i-History" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 8 8M12 8v4l3 2M17 3v4h4"/></symbol>
   <symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/></symbol>
 </svg>
 <script>
-const CATS=["Revenge","Hometown","Birthday","History"];
+const CATS=["Revenge","Hometown","Birthday","Holiday","History"];
 const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unknown:"Former team",
   high_school:"Grew up here",override:"Hometown (set by hand)",birthplace:"Born here",birthday:""};
 const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
@@ -358,8 +359,12 @@ function history(g,e){
   return `<details class="flag History"><summary><div class="top"><span class="kind">${icon("History")}History · ${esc(g.label||"Rivalry")} · vs ${esc(g.with)}</span><span class="sure high">Documented</span><span class="chev"><span class="c1">Hide stats</span><span class="c2">Show stats</span></span></div>
     <p>${esc(g.reason||g.detail)}</p></summary><div class="more">${body}${src}</div></details>`;
 }
+function holidayFlag(g){
+  return `<div class="flag Holiday"><div class="top"><span class="kind">${icon("Holiday")}Holiday · ${esc(g.label||"")}</span></div>${(g.lines||[]).map(l=>`<p>${esc(l.text)}</p>`).join("")}</div>`;
+}
 function flag(g,e){
   if(g.category==="History") return history(g,e);
+  if(g.category==="Holiday") return holidayFlag(g);
   const label=g.category==="Birthday"?"Birthday":g.category+(KIND[g.kind]?` · ${KIND[g.kind]}`:"");
   const sure=g.category==="Birthday"?"":`<span class="sure ${g.confidence}">${SURE[g.confidence]||""}</span>`;
   const line=g.category==="Revenge"?`<p><b>How he left:</b> ${esc(g.how_left||g.detail||"Not confirmed yet.")}</p>`
@@ -458,7 +463,7 @@ function route(){
   window.scrollTo(0,0);
 }
 document.querySelectorAll(".themes button").forEach(b=>b.addEventListener("click",()=>setTheme(b.dataset.t)));
-setTheme(document.documentElement.dataset.theme||"night");
+setTheme(document.documentElement.dataset.theme||"sand");
 window.addEventListener("hashchange",route);
 homeInfo();route();
 </script>
