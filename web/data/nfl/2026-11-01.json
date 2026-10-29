@@ -21,6 +21,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 59,
+    "wind": 3,
+    "gust": 4,
+    "rain": 0
+   },
+   "weather_text": "59\u00b0F, wind 3 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -183,6 +191,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
+    "weather_factor": 1.0,
     "opp_factor": 1.04,
     "locked": false
    },
@@ -227,6 +236,10 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
    "arena": "Ford Field",
    "location": "Detroit, MI",
    "categories": [
@@ -413,6 +426,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 30,
+    "weather_factor": 1.0,
     "opp_factor": 1.15,
     "locked": false
    },
@@ -453,6 +467,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 79,
+    "wind": 14,
+    "gust": 19,
+    "rain": 24
+   },
+   "weather_text": "79\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -601,20 +623,21 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.1,
+      "proj": 2.0,
       "lo": 0.0,
-      "hi": 5.5
+      "hi": 5.4
      },
      {
       "label": "Rec yds",
-      "proj": 27,
+      "proj": 26,
       "lo": 0,
-      "hi": 56
+      "hi": 55
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "td_prob": 0,
+    "weather_factor": 0.97,
     "opp_factor": 1.05,
     "locked": false
    },
@@ -655,6 +678,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 79,
+    "wind": 14,
+    "gust": 19,
+    "rain": 24
+   },
+   "weather_text": "79\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -830,20 +861,21 @@
      },
      {
       "label": "Rec",
-      "proj": 0.7,
+      "proj": 0.6,
       "lo": 0.0,
-      "hi": 2.0
+      "hi": 1.9
      },
      {
       "label": "Rec yds",
       "proj": 4,
       "lo": 0,
-      "hi": 31
+      "hi": 30
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "td_prob": 0,
+    "weather_factor": 0.97,
     "opp_factor": 1.0,
     "locked": false
    },
@@ -888,6 +920,14 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-01T21:25:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 82,
+    "wind": 14,
+    "gust": 17,
+    "rain": 82
+   },
+   "weather_text": "82\u00b0F, wind 14 mph, 82% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1033,6 +1073,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 66,
+    "wind": 4,
+    "gust": 7,
+    "rain": 2
+   },
+   "weather_text": "66\u00b0F, wind 4 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -1143,6 +1191,14 @@
    "game_kind": "Regular season",
    "tip": "8:20 PM ET",
    "tip_utc": "2026-11-02T01:20:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 54,
+    "wind": 5,
+    "gust": 5,
+    "rain": 0
+   },
+   "weather_text": "54\u00b0F, wind 5 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1323,6 +1379,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 50,
+    "weather_factor": 1.0,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -1362,6 +1419,10 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
    "arena": "Ford Field",
    "location": "Detroit, MI",
    "categories": [
@@ -1536,6 +1597,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 0,
+    "weather_factor": 1.0,
     "opp_factor": 0.85,
     "locked": false
    },
@@ -1576,6 +1638,14 @@
    "game_kind": "Regular season",
    "tip": "8:20 PM ET",
    "tip_utc": "2026-11-02T01:20:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 54,
+    "wind": 5,
+    "gust": 5,
+    "rain": 0
+   },
+   "weather_text": "54\u00b0F, wind 5 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1774,6 +1844,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 6,
+    "weather_factor": 1.0,
     "opp_factor": 1.1,
     "locked": false
    },
@@ -1818,6 +1889,14 @@
    "game_kind": "Regular season",
    "tip": "8:20 PM ET",
    "tip_utc": "2026-11-02T01:20:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 54,
+    "wind": 5,
+    "gust": 5,
+    "rain": 0
+   },
+   "weather_text": "54\u00b0F, wind 5 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -2016,6 +2095,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 0,
+    "weather_factor": 1.0,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -2050,6 +2130,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-01T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 66,
+    "wind": 4,
+    "gust": 7,
+    "rain": 2
+   },
+   "weather_text": "66\u00b0F, wind 4 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -2265,6 +2353,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 19,
+    "weather_factor": 1.0,
     "opp_factor": 1.12,
     "locked": false
    },
@@ -2370,5 +2459,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T19:16:45+00:00"
+ "generated_at": "2026-10-29T19:32:22+00:00"
 }

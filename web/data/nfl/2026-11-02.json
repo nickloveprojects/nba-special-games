@@ -21,6 +21,14 @@
    "game_kind": "Regular season",
    "tip": "8:15 PM ET",
    "tip_utc": "2026-11-03T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 48,
+    "wind": 5,
+    "gust": 11,
+    "rain": 9
+   },
+   "weather_text": "48\u00b0F, wind 5 mph",
    "arena": "Lumen Field",
    "location": "Seattle, WA",
    "categories": [
@@ -170,6 +178,7 @@
     "games_used": 10,
     "sims": 1000,
     "td_prob": 0,
+    "weather_factor": 1.0,
     "opp_factor": 0.92,
     "locked": false
    },
@@ -208,5 +217,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T19:16:45+00:00"
+ "generated_at": "2026-10-29T19:32:23+00:00"
 }
