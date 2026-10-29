@@ -134,6 +134,14 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 [data-m=yellow]{--m-bg:var(--yellow-bg);--m-fg:var(--yellow);--m-line:var(--yellow-line)}
 [data-m=red]{--m-bg:var(--red-bg);--m-fg:var(--red);--m-line:var(--red)}
 .mu .why2{margin:4px 0 0;font-size:13px;color:var(--muted)}
+.pj{margin:0 14px 10px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--surface)}
+.pj .row{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}
+.pj .lab{font:700 14px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.pj .st{display:inline-flex;flex-direction:column;font-variant-numeric:tabular-nums}
+.pj .st b{font:700 20px/1.05 var(--font-display)}.pj .st span{font-size:12px;color:var(--muted)}
+.pj .st i{font-style:normal;font-size:12px;color:var(--muted)}
+.pj .note{margin:5px 0 0;font-size:12px;color:var(--muted)}
+.pj .lock{font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;background:var(--chip);color:var(--muted)}
 .legend{margin:18px 0 0;font-size:13px;color:var(--muted)}
 .career{margin:0 14px 10px;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface)}
 .career summary{cursor:pointer;font:700 15px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
@@ -402,6 +410,12 @@ function matchupBox(e){
     return `<span class="mchip${k===m.best?" best":""}" data-m="${x.color}" title="${esc(x.value)} ${nm[k].toLowerCase()} a game allowed to this position (rank ${x.rank} of ${x.of}, 1 = most)"><b>${nm[k]}</b>#${x.rank}</span>`}).join("");
   return `<div class="mu"><div class="row"><span class="lab">Matchup</span><span class="grade" data-m="${m.color}" title="Matchup score ${m.score} out of 100">${m.grade}</span>${chips}</div><p class="why2">${esc(m.note)}${m.games<(sport==="nfl"?4:6)?" Small sample so far.":""}</p></div>`;
 }
+function projBox(e){
+  const p=e.projection; if(!p||!p.lines) return "";
+  const st=p.lines.map(x=>`<span class="st"><b>${esc(x.proj)}</b><span>${esc(x.label)}</span><i>${esc(x.lo)}\u2013${esc(x.hi)}</i></span>`).join("")
+    +(p.td_prob!=null?`<span class="st"><b>${esc(p.td_prob)}%</b><span>Scores a TD</span></span>`:"");
+  return `<div class="pj"><div class="row"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked at kickoff</span>':""}${st}</div><p class="note">Simulated 1,000 times from his last ${esc(p.games_used)} games and this opponent. Small type is the middle 80% of outcomes. An estimate, not betting advice.</p></div>`;
+}
 function careerBox(e){
   const c=e.career; if(!c||!c.length) return "";
   return `<details class="career"><summary>Career special games (${c.length})</summary><ul>${c.map(x=>`<li><b>${esc(x.label)}</b>${esc(x.text)}${x.scope?`<span class="sc">${esc(x.scope)}</span>`:""}</li>`).join("")}</ul></details>`;
@@ -422,7 +436,7 @@ function card(e){
       <div class="who"><h2>${esc(e.name)}</h2><div class="id"><span class="pill"${pillFor(e)}>${logo(e.team_logo,"")}${esc(team)}</span>${pos?`<span class="pos">${esc(pos)}</span>`:""}${e.status_note?`<span class="snote" data-s="${esc(e.status_note.toLowerCase().replace(/[^a-z]+/g,"-"))}">${esc(e.status_note)}</span>`:""}</div></div>
       ${e.espn_url?`<a class="espn" href="${esc(e.espn_url)}" target="_blank" rel="noopener" aria-label="${esc(e.name)} on ESPN">${icon("link")}<span>ESPN</span></a>`:""}</div>
     <p class="why">${esc(why)}</p>
-    ${matchupBox(e)}
+    ${matchupBox(e)}${projBox(e)}
     ${e.tags.map(g=>flag(g,e)).join("")}${careerBox(e)}${recent(e)}</article>`;
 }
 function render(){

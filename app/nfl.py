@@ -10,7 +10,7 @@ from pathlib import Path
 
 import yaml
 
-from . import career, config, nfl_feed as feed
+from . import career, config, nfl_feed as feed, projection
 from .matchups import _color, _letter, _ordinal
 from .net import SourceError
 from .sources import geocode, media
@@ -424,6 +424,7 @@ def build_slates(today: date | None = None) -> list[dict]:
     for day in days:
         d = date.fromisoformat(day)
         day_events = [e for e in events if e["date"] == day]
+        prior = _prior_projections(day)
         entries = []
         for e in day_events:
             for side, other in (("home", "away"), ("away", "home")):
@@ -478,6 +479,10 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "status_note": p["injury"], "espn_url": f"https://www.espn.com/nfl/player/_/id/{p['id']}",
                         "recent": recent_block(p, logs, oi["abbr"]), "matchup": matchup(table, oi["abbr"], p["pos"]),
                         "career": career_lines(p, logs, tags, oi["abbr"], oi["short"], d, id_abbr, hxy),
+                        "projection": projection.freeze(
+                            None if projection.started(e["tip_utc"]) else projection.project(
+                                p["pos"], logs, table, oi["abbr"], today, p["id"] * 100003 + int(e["game_id"]), p["injury"]),
+                            prior.get(p["id"]), e["tip_utc"]),
                         "_headshot": p["headshot"], "tags": tags}
                     for t in tags:
                         t.pop("_score", None)
@@ -498,6 +503,15 @@ def build_slates(today: date | None = None) -> list[dict]:
     if needs:
         log.info("NEEDS RESEARCH (exit not confirmed): %s", "; ".join(sorted(set(needs))))
     return slates
+
+
+def _prior_projections(day: str) -> dict:
+    """Projections already published for this day, by player id, so they can be kept once the game starts."""
+    f = OUT / f"{day}.json"
+    try:
+        return {x["player_id"]: x["projection"] for x in json.loads(f.read_text()).get("entries", []) if x.get("projection")}
+    except (OSError, ValueError, KeyError):
+        return {}
 
 
 def _logo(abbr: str) -> str | None:
