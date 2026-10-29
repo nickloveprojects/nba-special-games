@@ -34,7 +34,6 @@ STATS = {
     "TE": [("receptions", "Rec", "rec", "receivingTargets", 0.723), ("receivingYards", "Rec yds", "rec_yds", "receivingTargets", 7.27)],
 }
 SHRINK = 15.0              # weight, in units of volume, given to the league yield (backtest: 15 beat 0 and 40)
-TD_FIELDS = {"RB": ("rushingTouchdowns", "receivingTouchdowns"), "WR": ("receivingTouchdowns",), "TE": ("receivingTouchdowns",)}
 # a player listed with one of these is not expected to play, so no projection is shown
 NO_PROJECTION = ("out", "doubtful", "injured reserve", "suspended", "pup", "nfi")
 
@@ -51,19 +50,20 @@ def opp_factor(table: dict, opp: str, pos: str, key: str | None) -> float:
     return min(OPP_CLAMP[1], max(OPP_CLAMP[0], 1 + OPP_STRENGTH * (ratio - 1)))
 
 
-def recent(logs: list[dict], today: date) -> list[dict]:
-    """Newest-first list of usable games."""
-    keep = [g for g in logs if (today - date.fromisoformat(g["date"])).days <= MAX_AGE_DAYS and g["date"] < today.isoformat()]
+def recent(logs: list[dict], today: date, team_id: int | None = None) -> list[dict]:
+    """Newest-first list of usable games. With team_id, only games he played for that club count, because his role,
+    quarterback and offense were different anywhere else."""
+    keep = [g for g in logs if (today - date.fromisoformat(g["date"])).days <= MAX_AGE_DAYS and g["date"] < today.isoformat()
+            and (team_id is None or g.get("team_id") == team_id)]
     return list(reversed(keep))[:RECENT_GAMES]
 
 
-def _poisson(rng: random.Random, lam: float) -> int:
-    limit, k, p = math.exp(-lam), 0, 1.0
-    while True:
-        p *= rng.random()
-        if p <= limit:
-            return k
-        k += 1
+MIN_USAGE = {"QB": 10.0, "RB": 3.0, "WR": 1.5, "TE": 1.5}   # weighted touches a game: attempts / carries + targets / targets
+
+
+def _usage(pos: str, games: list[dict], w: list[float]) -> float:
+    keys = {"QB": ("passingAttempts",), "RB": ("rushingAttempts", "receivingTargets")}.get(pos, ("receivingTargets",))
+    return sum(sum(g["row"].get(k, 0.0) for k in keys) * x for g, x in zip(games, w)) / sum(w)
 
 
 def _pct(sorted_vals: list[float], q: float) -> float:
@@ -89,14 +89,16 @@ def _shrink_scale(games: list[dict], w: list[float], field: str, vol_field: str,
 
 
 def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed: int,
-            status: str = "", sims: int = SIMS, weather: float = 1.0) -> dict | None:
+            status: str = "", sims: int = SIMS, weather: float = 1.0, team_id: int | None = None) -> dict | None:
     """Projection for one player, or None when there is too little to go on."""
     if pos not in STATS or any(w in (status or "").lower() for w in NO_PROJECTION):
         return None
-    games = recent(logs, today)
+    games = recent(logs, today, team_id)
     if len(games) < MIN_GAMES:
         return None
     w = [0.5 ** (i / HALF_LIFE) for i in range(len(games))]
+    if _usage(pos, games, w) < MIN_USAGE[pos]:
+        return None            # a player with next to no touches lately: any number here would be noise
     rng = random.Random(seed)
     picks = rng.choices(range(len(games)), weights=w, k=sims)
     lines = []
@@ -110,13 +112,6 @@ def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed
             lo, hi = mean - (mean - lo) * YARD_SPREAD, mean + (hi - mean) * YARD_SPREAD
         lines.append({"label": label, "proj": _round(label, mean), "lo": _round(label, lo), "hi": _round(label, hi)})
     out = {"lines": lines, "games_used": len(games), "sims": sims}
-    if pos in TD_FIELDS:
-        per_game = [sum(g["row"].get(k, 0.0) for k in TD_FIELDS[pos]) for g in games]
-        lam = sum(a * b for a, b in zip(per_game, w)) / sum(w)
-        f = opp_factor(table, opp, pos, STATS[pos][-1][2]) * (1.0 if pos == "RB" else weather)
-        lam *= f
-        hit = sum(1 for _ in range(sims) if _poisson(rng, lam) >= 1) / sims
-        out["td_prob"] = round(hit * 100)
     out["weather_factor"] = round(weather, 2)
     out["opp_factor"] = round(opp_factor(table, opp, pos, STATS[pos][0][2]), 2)
     return out

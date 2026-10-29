@@ -9,15 +9,15 @@ def g(d, **r):
     return {"date": d, "post": False, "row": r}
 
 
-LOGS = [g(f"2026-10-{d:02d}", receptions=6, receivingYards=80, receivingTouchdowns=0) for d in (2, 9, 16, 23)]
+LOGS = [g(f"2026-10-{d:02d}", receptions=6, receivingTargets=9, receivingYards=80) for d in (2, 9, 16, 23)]
 TABLE = {f"T{i}": {"WR": {"rec_yds": 100.0 + i, "rec": 10.0}} for i in range(10)}
 
 
 def test_projection_tracks_recent_games_and_range_brackets_it():
     p = pj.project("WR", LOGS, {}, "X", TODAY, 1, "")
     rec, yds = p["lines"]
-    assert rec["proj"] == 6 and yds["proj"] == 80 and yds["lo"] <= 80 <= yds["hi"]
-    assert p["games_used"] == 4 and p["td_prob"] == 0
+    assert 5.5 <= rec["proj"] <= 6.1 and 74 <= yds["proj"] <= 82 and yds["lo"] <= yds["proj"] <= yds["hi"]
+    assert p["games_used"] == 4
 
 
 def test_same_seed_same_answer():
@@ -27,7 +27,7 @@ def test_same_seed_same_answer():
 def test_weak_defense_raises_and_strong_defense_lowers():
     weak = pj.project("WR", LOGS, TABLE, "T9", TODAY, 1, "")["lines"][1]["proj"]
     strong = pj.project("WR", LOGS, TABLE, "T0", TODAY, 1, "")["lines"][1]["proj"]
-    assert strong < 80 < weak
+    assert strong < weak
 
 
 def test_opponent_effect_is_clamped():
@@ -45,15 +45,23 @@ def test_too_few_games_or_out_players_get_nothing():
 
 
 def test_old_games_and_todays_game_are_ignored():
-    old = [g("2024-01-01", receptions=20, receivingYards=300)] * 5
+    old = [g("2024-01-01", receptions=20, receivingTargets=25, receivingYards=300)] * 5
     assert pj.project("WR", old, {}, "X", TODAY, 1, "") is None
-    today_game = LOGS + [g("2026-10-30", receptions=50, receivingYards=900)]
-    assert pj.project("WR", today_game, {}, "X", TODAY, 1, "")["lines"][1]["proj"] == 80
+    today_game = LOGS + [g("2026-10-30", receptions=50, receivingTargets=60, receivingYards=900)]
+    assert pj.project("WR", today_game, {}, "X", TODAY, 1, "")["lines"][1]["proj"] < 90
 
 
-def test_td_probability_from_scoring_history():
-    scorer = [g(f"2026-10-{d:02d}", receptions=5, receivingYards=60, receivingTouchdowns=1) for d in (2, 9, 16, 23)]
-    assert pj.project("WR", scorer, {}, "X", TODAY, 1, "")["td_prob"] > 55
+def test_only_games_with_current_team_count():
+    other = [dict(x, team_id=11) for x in LOGS]
+    mine = [dict(g(f"2026-10-{d:02d}", receptions=2, receivingTargets=3, receivingYards=20), team_id=30) for d in (3, 10, 17)]
+    p = pj.project("WR", other + mine, {}, "X", TODAY, 1, "", team_id=30)
+    assert p["games_used"] == 3 and p["lines"][1]["proj"] < 40
+    assert pj.project("WR", other, {}, "X", TODAY, 1, "", team_id=30) is None
+
+
+def test_negligible_role_gets_no_projection():
+    bench = [dict(g(f"2026-10-{d:02d}", rushingAttempts=0, receivingTargets=0), team_id=1) for d in (2, 9, 16, 23)]
+    assert pj.project("RB", bench, {}, "X", TODAY, 1, "", team_id=1) is None
 
 
 def test_freeze_locks_after_kickoff():
@@ -67,7 +75,7 @@ def test_freeze_locks_after_kickoff():
 
 
 def test_yardage_range_is_wider_than_raw_spread():
-    mixed = [g(f"2026-10-{d:02d}", receptions=r, receivingYards=y) for d, r, y in ((2, 3, 30), (9, 8, 110), (16, 5, 60), (23, 7, 95))]
+    mixed = [g(f"2026-10-{d:02d}", receptions=r, receivingTargets=r + 2, receivingYards=y) for d, r, y in ((2, 3, 30), (9, 8, 110), (16, 5, 60), (23, 7, 95))]
     p = pj.project("WR", mixed, {}, "X", TODAY, 3, "")
     yds = p["lines"][1]
     assert yds["lo"] <= 30 and yds["hi"] >= 110

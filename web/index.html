@@ -134,10 +134,10 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 [data-m=yellow]{--m-bg:var(--yellow-bg);--m-fg:var(--yellow);--m-line:var(--yellow-line)}
 [data-m=red]{--m-bg:var(--red-bg);--m-fg:var(--red);--m-line:var(--red)}
 .mu .why2{margin:4px 0 0;font-size:13px;color:var(--muted)}
-.mp{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-start;margin:0 14px 10px}
+.mp{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:stretch;margin:0 14px 10px}
 .mp .mu{margin:0;flex:1 1 280px;min-width:0}
 .mp .pj{flex:0 1 auto;margin-left:auto}
-.pj{border:1px solid var(--line);border-radius:8px;padding:7px 11px;background:var(--surface)}
+.pj{border:1px solid var(--line);border-radius:8px;padding:7px 11px;background:var(--surface);display:flex;align-items:center}
 .pj .row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 14px}
 .pj .lab{font:700 14px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);align-self:center}
 .pj .st{display:inline-flex;flex-direction:column;align-items:center;font-variant-numeric:tabular-nums;text-align:center}
@@ -305,7 +305,7 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
   <div class="note" id="note" role="status" aria-live="polite"></div>
   <div id="warn"></div>
   <div id="list"></div>
-  <p class="legend">Matchup grades: green = this defense gives up a lot of that stat to this position, yellow = average, red = tough. #1 means it gives up the most in the league. Built from this season’s box scores, so early-season samples are small. Not betting advice.</p>
+  <p class="legend">Matchup grades: green = this defense gives up a lot of that stat to this position, yellow = average, red = tough. #1 means it gives up the most in the league. Built from this season’s box scores, so early-season samples are small. Projections (NFL) are simulated 1,000 times from a player’s recent games with his current team, the opponent’s defense and the kickoff forecast, and are locked at kickoff; players with very little recent playing time get none. Small numbers are the middle 80% of outcomes. Estimates only, not betting advice.</p>
 </main>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-Revenge" viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
@@ -417,8 +417,8 @@ function matchupBox(e){
 function projBox(e){
   const p=e.projection; if(!p||!p.lines) return "";
   const st=p.lines.map(x=>`<span class="st"><b>${esc(x.proj)}</b><span>${esc(x.label)}</span><i>${esc(x.lo)}\u2013${esc(x.hi)}</i></span>`).join("")
-    +(p.td_prob!=null?`<span class="st"><b>${esc(p.td_prob)}%</b><span>Scores a TD</span></span>`:"");
-  return `<div class="pj"><div class="row"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked at kickoff</span>':""}${st}</div><p class="note">1,000 simulations from his last ${esc(p.games_used)} games, this opponent${e.weather_text&&e.weather_text!=="Indoors"?" and the forecast":""}. Small type = middle 80% of outcomes. Estimate, not betting advice.</p></div>`;
+;
+  return `<div class="pj" title="Simulated 1,000 times from his last ${esc(p.games_used)} games with this team, this opponent${e.weather_text&&e.weather_text!=="Indoors"?" and the forecast":""}. Small numbers = middle 80% of outcomes. Estimate, not betting advice."><div class="row"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked</span>':""}${st}</div></div>`;
 }
 function mpRow(e){
   const m=matchupBox(e),p=projBox(e);
