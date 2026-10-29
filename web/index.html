@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Special Games</title>
+<title>Backstory Sports</title>
 <script>try{var t=localStorage.getItem("theme");t=({navy:"sand",night:"sand",light:"white"})[t]||t;document.documentElement.dataset.theme=["sand","white","black"].includes(t)?t:"sand"}catch(e){document.documentElement.dataset.theme="sand"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap">
@@ -235,7 +235,7 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
 </head>
 <body>
 <header class="sitenav"><div class="in">
-  <a class="brand" href="#/" aria-label="Special Games home"><i></i>Special Games</a>
+  <a class="brand" href="#/" aria-label="Backstory Sports home"><i></i>Backstory Sports</a>
   <nav class="tabs" aria-label="Sports">
     <a class="tab" id="tab-nba" href="#/nba">NBA</a>
     <span class="tab soon" aria-disabled="true">MLB <small>Soon</small></span>
@@ -253,7 +253,7 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
   <div class="sports">
     <a class="sport live" href="#/nba" style="--i:0">
       <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 10.800 0 12.800M18.400 5.600c-3 3-3 10.800 0 12.800"/></svg></div>
-      <div><h2>NBA</h2><p>Special games for every slate.</p></div>
+      <div><h2>NBA</h2><p>The backstory behind every slate.</p></div>
       <div class="foot" id="nba-foot">Open the board &rarr;</div>
     </a>
     <div class="sport soon" style="--i:1" aria-disabled="true">
@@ -269,7 +269,7 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
   </div>
 </main>
 <main id="nba" class="view" hidden>
-  <h1>NBA special games</h1>
+  <h1>NBA backstories</h1>
   <p class="sub" id="sub">Loading…</p>
   <div class="bar filters">
     <input id="q" type="search" placeholder="Search player" aria-label="Search player">
@@ -458,7 +458,7 @@ function route(){
   const nba=location.hash.startsWith("#/nba");
   $("home").hidden=nba;$("nba").hidden=!nba;
   const t=$("tab-nba");nba?t.setAttribute("aria-current","page"):t.removeAttribute("aria-current");
-  document.title=nba?"NBA Special Games":"Special Games";
+  document.title=nba?"NBA | Backstory Sports":"Backstory Sports";
   if(nba&&!started){started=true;initNba()}
   window.scrollTo(0,0);
 }

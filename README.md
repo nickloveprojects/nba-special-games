@@ -1,4 +1,4 @@
-# NBA Special Games
+# Backstory Sports
 
 A daily tracker that flags players in the day's NBA games (or the next slate) who have a **Revenge**, **Hometown**, or **Birthday** angle. Each flag carries a confidence level and source links.
 

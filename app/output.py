@@ -37,7 +37,7 @@ def to_csv(slate: dict) -> str:
 
 
 def to_text(slate: dict, limit=25) -> str:
-    lines = [f"NBA Special Games, {slate['date']} ({slate['games']} games, {len(slate['entries'])} flagged)"]
+    lines = [f"Backstory Sports NBA, {slate['date']} ({slate['games']} games, {len(slate['entries'])} flagged)"]
     for e in slate["entries"][:limit]:
         lines.append(f"- {e['name']} ({e['team']} {'vs' if e['home_away'] == 'home' else '@'} {e['opponent']}, "
                      f"{e['tip']}) [{', '.join(e['categories'])}]: " + "; ".join(t["detail"] for t in e["tags"]))

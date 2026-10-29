@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 
 from . import config, output
 
-app = FastAPI(title="NBA Special Games")
+app = FastAPI(title="Backstory Sports")
 
 
 def _load(date: str | None):
