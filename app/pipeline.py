@@ -6,7 +6,7 @@ from datetime import date, datetime, timezone
 
 import yaml
 
-from . import config, db, matchups, output, rules
+from . import career, config, db, matchups, output, rules
 from .net import SourceError
 from .sources import bbref, espn, geocode, media, transactions
 from .teams_geo import NICK, TEAMS, abbr, nick, team_id
@@ -126,7 +126,9 @@ def ensure_games(conn, player_id, end_year, warn):
     cur = end_year == config.current_end_year()
     ttl = config.GAMELOG_TTL_HOURS / 24 if cur else 365
     if row and _age_days(row["fetched"]) < ttl:
-        return json.loads(row["json"])
+        cached = json.loads(row["json"])
+        if not cached or "venue" in cached[0]:      # older cached logs lack venue and Eastern dates: fetch again once
+            return cached
     try:
         games = espn.gamelog(player_id, end_year)
     except SourceError as e:
@@ -154,11 +156,7 @@ def games_with_ids(conn, player_id, first_end_year, last_end_year, warn):
     """Season logs that include game ids (older cached logs without them are re-fetched once)."""
     out = []
     for y in range(first_end_year, last_end_year + 1):
-        games = ensure_games(conn, player_id, y, warn)
-        if games and not games[0].get("gid"):
-            conn.execute("DELETE FROM gamelog WHERE player_id=? AND end_year=?", (player_id, y))
-            games = ensure_games(conn, player_id, y, warn)
-        out += games
+        out += ensure_games(conn, player_id, y, warn)
     return out
 
 
@@ -186,6 +184,20 @@ def history_tags(conn, pa, pb, rv, slate_date, warn):
     wl = h["a_record"].split("-")
     rec_b = f"{wl[1]}-{wl[0]}"
     return tag(pa, pb, h["a"], h["b"], h["a_record"]), tag(pb, pa, h["b"], h["a"], rec_b)
+
+
+def career_for(conn, e, m, slate_date, warn):
+    """Career special-game lines for one flagged player (only lines backed by real past games)."""
+    cats = {t["category"] for t in m["tags"]}
+    need_logs = bool(cats & {"Birthday", "Hometown"} or any(t.get("_exit") for t in m["tags"])
+                     or career.holiday_name(slate_date))
+    logs = []
+    if need_logs:
+        last = config.current_end_year(slate_date)
+        row = conn.execute("SELECT MIN(first_season) AS f FROM stints WHERE player_id=?", (e["player_id"],)).fetchone()
+        first = int(row["f"][:4]) + 1 if row and row["f"] else last - 9
+        logs = games_with_ids(conn, e["player_id"], max(first, last - 25), last, warn)
+    return career.lines(logs, slate_date, m["birth"], m["tags"], e["opponent"], e["opponent_name"])
 
 
 def recent_games(conn, player_id, opp_abbr, slate_date, warn):
@@ -254,6 +266,8 @@ def player_tags(conn, pl, tid, opp, is_home, game, slate_date, season, ov, warn)
         if used and used.get("source_url"):
             src.append({"label": "Place on Wikidata", "url": used["source_url"]})
         tag["sources"] = src
+        if used and used.get("lat") is not None:
+            tag["_place"] = (used["lat"], used["lon"])
     tags += ht
 
     # revenge / old team
@@ -273,6 +287,7 @@ def player_tags(conn, pl, tid, opp, is_home, game, slate_date, season, ov, warn)
         to_nick = nick(ext["to"]) if ext and ext.get("to") in TEAMS else None
         rv = rules.revenge_tag(st, ext, nick(opp), to_nick, manual, config.MIN_GP_FOR_REVENGE, slate_date.year)
         if rv:
+            rv["_exit"] = ext["date"] if ext else None
             rv["sources"] = src or [{"label": "ESPN career history", "url": f"https://www.espn.com/nba/player/stats/_/id/{pl['player_id']}"}]
             tags.append(rv)
     return tags, avg
@@ -300,7 +315,7 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
         warn.add("trades", f"Trade feed unavailable; using career history only ({e})")
 
     rivalries = load_rivalries()
-    entries = []
+    entries, meta = [], {}
     for g in games:
         conn.execute("INSERT OR REPLACE INTO games VALUES(?,?,?,?,?,?)",
                      (g["game_id"], g["date"], g["tip_utc"], g["home_id"], g["away_id"], g["arena"]))
@@ -324,6 +339,7 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
                     continue
                 tags, avg = player_tags(conn, pl, tid, opp, is_home, g, slate_date, season, ov, warn)
                 tags += hist.get(pl["player_id"], [])
+                meta[pl["player_id"]] = {"birth": pl["birth_date"], "tags": tags}
                 if not tags:
                     continue
                 for t in tags:
@@ -358,6 +374,7 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
     # extras for flagged players only: recent games and images
     logos = {a: media.team_logo(a) for a in {x for g in games for x in (abbr(g["home_id"]), abbr(g["away_id"]))}}
     for e in entries:
+        e["career"] = career_for(conn, e, meta[e["player_id"]], slate_date, warn)
         e["recent"] = recent_games(conn, e["player_id"], e["opponent"], slate_date, warn)
         if e["recent"]["vs"]["n"] == 0 and any(t.get("kind") in ("trade", "waived") for t in e["tags"]):
             e["recent"]["vs"]["note"] = f"First meeting with the {e['opponent_name']} since he left."

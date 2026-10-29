@@ -144,6 +144,21 @@ def career(player_id: int, season: str):
 
 
 # ------------------------------------------------------------------ game logs
+def _local_date(ts) -> str:
+    """ESPN game times are UTC; the game's calendar day is the Eastern one (an 8 PM ET tip is already tomorrow in UTC)."""
+    try:
+        return datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(ET).date().isoformat()
+    except (AttributeError, ValueError):
+        return (ts or "")[:10]
+
+
+def _venue(ev: dict) -> str:
+    try:
+        return abbr(FROM_ESPN[int(ev["homeTeamId"])])
+    except (KeyError, ValueError, TypeError):
+        return ""
+
+
 def parse_gamelog(data: dict) -> list[dict]:
     """ESPN game log -> compact list (newest first) of regular season and playoff games."""
     names = data.get("names") or []
@@ -168,7 +183,8 @@ def parse_gamelog(data: dict) -> list[dict]:
                         return float(s.get(k) or 0)
                     except ValueError:
                         return 0.0
-                games.append({"gid": str(row.get("eventId")), "date": (ev.get("gameDate") or "")[:10], "opp": abbr(opp),
+                games.append({"gid": str(row.get("eventId")), "date": _local_date(ev.get("gameDate")),
+                              "venue": _venue(ev), "opp": abbr(opp),
                               "home": ev.get("atVs") == "vs", "result": ev.get("gameResult", ""),
                               "score": ev.get("score", ""), "min": round(num("minutes")), "pts": round(num("points")),
                               "reb": round(num("totalRebounds")), "ast": round(num("assists")),

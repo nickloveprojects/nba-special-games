@@ -54,8 +54,8 @@ def test_roster_has_jersey():
 
 def test_parse_gamelog():
     data = {"names": ["minutes", "totalRebounds", "assists", "points"],
-            "events": {"1": {"gameDate": "2026-10-27T00:00:00.000+00:00", "atVs": "@", "gameResult": "W", "score": "120-110",
-                             "opponent": {"abbreviation": "GS"}},
+            "events": {"1": {"gameDate": "2026-10-28T00:30:00.000+00:00", "atVs": "@", "gameResult": "W", "score": "120-110",
+                             "homeTeamId": "9", "opponent": {"abbreviation": "GS"}},
                        "2": {"gameDate": "2026-04-01T00:00:00.000+00:00", "atVs": "vs", "gameResult": "L", "score": "99-100",
                              "opponent": {"abbreviation": "UTAH"}}},
             "seasonTypes": [{"displayName": "2026-27 Regular Season", "categories": [{"events": [
@@ -65,3 +65,11 @@ def test_parse_gamelog():
     g = espn.parse_gamelog(data)
     assert [x["opp"] for x in g] == ["GSW", "UTA"] and g[0]["pts"] == 22 and not g[0]["home"]
     assert g[1]["playoff"] and g[1]["ast"] == 6
+
+
+def test_gamelog_uses_eastern_date_and_venue():
+    data = {"names": ["points"], "events": {"1": {"gameDate": "2026-10-28T00:30:00.000+00:00", "atVs": "@", "gameResult": "W",
+            "score": "1-0", "homeTeamId": "9", "opponent": {"abbreviation": "GS"}}},
+            "seasonTypes": [{"displayName": "2026-27 Regular Season", "categories": [{"events": [{"eventId": "1", "stats": ["5"]}]}]}]}
+    g = espn.parse_gamelog(data)[0]
+    assert g["date"] == "2026-10-27" and g["venue"] == "GSW"
