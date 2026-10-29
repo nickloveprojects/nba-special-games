@@ -4,37 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Special Games</title>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")||"navy"}catch(e){document.documentElement.dataset.theme="navy"}</script>
+<script>try{var t=localStorage.getItem("theme");t=({navy:"night",light:"sand"})[t]||t;document.documentElement.dataset.theme=["night","sand","black"].includes(t)?t:"night"}catch(e){document.documentElement.dataset.theme="night"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap">
 <style>
 /* Layout: one column of cards. Each card = game bar (logos, time) / player row (headshot, name, team pill, position)
    / one-line reason / flag blocks (green hometown, red revenge, yellow other) / collapsible recent games. */
-/* Three themes. Navy is the default. */
+/* ==== PALETTE: change these four colors to re-skin the whole site (Night and Sand themes are built from them) ==== */
 :root{
+  --sand:#e1b382; --sand-shadow:#c89666; --night:#2d545e; --night-shadow:#12343b;
   --font-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
   --font-body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
-:root,:root[data-theme="navy"]{
-  --bg:#0a1630; --surface:#112347; --ink:#e9eefb; --muted:#9db0d3; --line:#23396a; --chip:#172c55; --focus:#9cc0ff; --accent:#5b95ff;
-  --pill-bg:#e9eefb; --pill-fg:#0a1630;
-  --red:#ff9a90; --red-bg:rgba(255,120,110,.15); --green:#52d9ab; --green-bg:rgba(79,209,165,.14);
-  --yellow:#ffd36b; --yellow-bg:rgba(255,211,107,.15); --yellow-line:#e0a800; --blue:#a9c6ff; --blue-bg:rgba(111,155,255,.17); --blue-line:#6f9bff;
-  --shadow:0 1px 2px rgba(2,8,24,.35),0 10px 28px rgba(2,8,24,.35); --shadow-hover:0 2px 4px rgba(2,8,24,.4),0 16px 36px rgba(2,8,24,.45);
+/* Night (default): deep teal, sand accents */
+:root,:root[data-theme="night"]{
+  --bg:var(--night-shadow); --surface:color-mix(in srgb,var(--night) 55%,var(--night-shadow)); --ink:#f6efe4;
+  --muted:color-mix(in srgb,#f6efe4 62%,var(--night-shadow)); --line:color-mix(in srgb,var(--night) 78%,#ffffff);
+  --chip:color-mix(in srgb,var(--night) 72%,var(--night-shadow)); --focus:var(--sand); --accent:var(--sand);
+  --pill-bg:var(--sand); --pill-fg:var(--night-shadow);
+  --red:#ff9f94; --red-bg:rgba(255,120,110,.16); --green:#62dcae; --green-bg:rgba(79,209,165,.15);
+  --yellow:#ffd98a; --yellow-bg:rgba(255,211,107,.16); --yellow-line:#e0a800; --blue:#b3cdff; --blue-bg:rgba(111,155,255,.18); --blue-line:#7ea6ff;
+  --shadow:0 1px 2px rgba(3,18,22,.35),0 10px 28px rgba(3,18,22,.35); --shadow-hover:0 2px 4px rgba(3,18,22,.4),0 16px 36px rgba(3,18,22,.45);
   color-scheme:dark;
 }
+/* Black */
 :root[data-theme="black"]{
-  --bg:#000000; --surface:#0e0e11; --ink:#f4f4f6; --muted:#9a9aa4; --line:#26262d; --chip:#16161a; --focus:#9cc0ff; --accent:#6ea8ff;
-  --pill-bg:#f4f4f6; --pill-fg:#000000;
+  --bg:#000000; --surface:#0e0e11; --ink:#f4f4f6; --muted:#9a9aa4; --line:#26262d; --chip:#16161a; --focus:var(--sand); --accent:var(--sand);
+  --pill-bg:var(--sand); --pill-fg:#000000;
   --shadow:0 1px 2px rgba(0,0,0,.7),0 10px 28px rgba(0,0,0,.7); --shadow-hover:0 2px 4px rgba(0,0,0,.8),0 16px 36px rgba(0,0,0,.8);
   color-scheme:dark;
 }
-:root[data-theme="light"]{
-  --bg:#e9eef4; --surface:#ffffff; --ink:#0f1a24; --muted:#546270; --line:#d0d8e0; --chip:#f1f5f9; --focus:#1d4ed8; --accent:#1d4ed8;
-  --pill-bg:#0f1a24; --pill-fg:#ffffff;
+/* Sand (light): warm paper, night-blue accents */
+:root[data-theme="sand"]{
+  --bg:color-mix(in srgb,var(--sand) 24%,#ffffff); --surface:color-mix(in srgb,var(--sand) 7%,#ffffff); --ink:var(--night-shadow);
+  --muted:color-mix(in srgb,var(--night) 82%,#ffffff); --line:color-mix(in srgb,var(--sand) 50%,#ffffff);
+  --chip:color-mix(in srgb,var(--sand) 20%,#ffffff); --focus:var(--night); --accent:var(--night);
+  --pill-bg:var(--night-shadow); --pill-fg:color-mix(in srgb,var(--sand) 24%,#ffffff);
   --red:#b42318; --red-bg:#fdeceb; --green:#0b7a5e; --green-bg:#e2f4ed;
-  --yellow:#7a5200; --yellow-bg:#fff2c2; --yellow-line:#e0a800; --blue:#1e4fb8; --blue-bg:#e6eefc; --blue-line:#2f6bdc;
-  --shadow:0 1px 2px rgba(15,26,36,.06),0 8px 24px rgba(15,26,36,.08); --shadow-hover:0 2px 4px rgba(15,26,36,.08),0 14px 32px rgba(15,26,36,.14);
+  --yellow:#7a5200; --yellow-bg:#fff0c4; --yellow-line:#e0a800; --blue:#1e4fb8; --blue-bg:#e6eefc; --blue-line:#2f6bdc;
+  --shadow:0 1px 2px rgba(18,52,59,.07),0 8px 24px rgba(18,52,59,.09); --shadow-hover:0 2px 4px rgba(18,52,59,.09),0 14px 32px rgba(18,52,59,.16);
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -185,7 +193,7 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .themes button:hover{color:var(--ink)}
 .themes button[aria-checked=true]{background:var(--chip);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
 .themes .sw{width:14px;height:14px;border-radius:50%;border:1px solid var(--line)}
-.sw.navy{background:#0a1630}.sw.light{background:#fff}.sw.black{background:#000}
+.sw.night{background:#12343b}.sw.sand{background:#e1b382}.sw.black{background:#000}
 @media (max-width:640px){
   .sitenav .in{grid-template-columns:1fr auto;grid-template-areas:"brand themes" "tabs tabs";min-height:0;padding:8px 0 0}
   .themes button span{display:none}.themes button{padding:5px}
@@ -234,8 +242,8 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
     <span class="tab soon" aria-disabled="true">NFL <small>Soon</small></span>
   </nav>
   <div class="themes" role="radiogroup" aria-label="Theme">
-    <button type="button" role="radio" data-t="navy" aria-checked="true" title="Navy"><i class="sw navy"></i><span>Navy</span></button>
-    <button type="button" role="radio" data-t="light" aria-checked="false" title="Light"><i class="sw light"></i><span>Light</span></button>
+    <button type="button" role="radio" data-t="night" aria-checked="true" title="Night"><i class="sw night"></i><span>Night</span></button>
+    <button type="button" role="radio" data-t="sand" aria-checked="false" title="Sand"><i class="sw sand"></i><span>Sand</span></button>
     <button type="button" role="radio" data-t="black" aria-checked="false" title="Black"><i class="sw black"></i><span>Black</span></button>
   </div>
 </div></header>
@@ -450,7 +458,7 @@ function route(){
   window.scrollTo(0,0);
 }
 document.querySelectorAll(".themes button").forEach(b=>b.addEventListener("click",()=>setTheme(b.dataset.t)));
-setTheme(document.documentElement.dataset.theme||"navy");
+setTheme(document.documentElement.dataset.theme||"night");
 window.addEventListener("hashchange",route);
 homeInfo();route();
 </script>
