@@ -6,7 +6,7 @@ from datetime import date, datetime, timezone
 
 import yaml
 
-from . import career, config, db, matchups, output, rules
+from . import career, config, db, matchups, nba_projection, output, projection, rules
 from .net import SourceError
 from .sources import bbref, espn, geocode, media, transactions
 from .teams_geo import NICK, TEAMS, abbr, nick, team_id
@@ -127,7 +127,7 @@ def ensure_games(conn, player_id, end_year, warn):
     ttl = config.GAMELOG_TTL_HOURS / 24 if cur else 365
     if row and _age_days(row["fetched"]) < ttl:
         cached = json.loads(row["json"])
-        if not cached or "venue" in cached[0]:      # older cached logs lack venue and Eastern dates: fetch again once
+        if not cached or ("venue" in cached[0] and "tm" in cached[0]):   # older cached logs lack venue, team or Eastern dates: fetch again once
             return cached
     try:
         games = espn.gamelog(player_id, end_year)
@@ -200,6 +200,26 @@ def career_for(conn, e, m, slate_date, warn):
     need_logs = bool(cats & {"Birthday", "Hometown"} or any(t.get("_exit") for t in m["tags"]))
     logs = player_logs(conn, e["player_id"], slate_date, warn) if need_logs else []
     return career.lines(logs, slate_date, m["birth"], m["tags"], e["opponent"], e["opponent_name"])
+
+
+def prior_projections(slate_date) -> dict:
+    """Projections already published for this day, by player id, so they can be kept once the game starts."""
+    f = config.OUT / f"{slate_date.isoformat()}.json"
+    try:
+        return {x["player_id"]: x["projection"] for x in json.loads(f.read_text()).get("entries", []) if x.get("projection")}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+def projection_for(conn, e, table, slate_date, warn, prior):
+    """Pre-game projection for one flagged player; after tip-off the one published before the game is kept."""
+    if projection.started(e["tip_utc"]):
+        return projection.freeze(None, prior.get(e["player_id"]), e["tip_utc"])
+    end = config.current_end_year(slate_date)
+    logs = ensure_games(conn, e["player_id"], end, warn) + ensure_games(conn, e["player_id"], end - 1, warn)
+    fresh = nba_projection.project(logs, e["team"], nba_projection.opp_factors(table, e["opponent"]), slate_date,
+                                   int(e["player_id"]) * 100003 + int(e["game_id"]))
+    return projection.freeze(fresh, prior.get(e["player_id"]), e["tip_utc"])
 
 
 def recent_games(conn, player_id, opp_abbr, slate_date, warn):
@@ -379,8 +399,10 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
 
     # extras for flagged players only: recent games and images
     logos = {a: media.team_logo(a) for a in {x for g in games for x in (abbr(g["home_id"]), abbr(g["away_id"]))}}
+    prior = prior_projections(slate_date)
     for e in entries:
         e["career"] = career_for(conn, e, meta[e["player_id"]], slate_date, warn)
+        e["projection"] = projection_for(conn, e, table, slate_date, warn, prior)
         e["recent"] = recent_games(conn, e["player_id"], e["opponent"], slate_date, warn)
         if e["recent"]["vs"]["n"] == 0 and any(t.get("kind") in ("trade", "waived") for t in e["tags"]):
             e["recent"]["vs"]["note"] = f"First meeting with the {e['opponent_name']} since he left."

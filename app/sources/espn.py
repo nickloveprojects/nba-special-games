@@ -183,8 +183,9 @@ def parse_gamelog(data: dict) -> list[dict]:
                         return float(s.get(k) or 0)
                     except ValueError:
                         return 0.0
+                mine = team_id(((ev.get("team") or {}).get("abbreviation")))
                 games.append({"gid": str(row.get("eventId")), "date": _local_date(ev.get("gameDate")),
-                              "venue": _venue(ev), "opp": abbr(opp),
+                              "venue": _venue(ev), "opp": abbr(opp), "tm": abbr(mine) if mine else "",
                               "home": ev.get("atVs") == "vs", "result": ev.get("gameResult", ""),
                               "score": ev.get("score", ""), "min": round(num("minutes")), "pts": round(num("points")),
                               "reb": round(num("totalRebounds")), "ast": round(num("assists")),
