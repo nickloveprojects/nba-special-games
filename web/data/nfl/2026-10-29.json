@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 52,
-    "wind": 7,
-    "gust": 18,
+    "wind": 6,
+    "gust": 14,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 7 mph",
+   "weather_text": "52\u00b0F, wind 6 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -216,5 +216,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T22:26:44+00:00"
+ "generated_at": "2026-10-29T23:01:53+00:00"
 }
