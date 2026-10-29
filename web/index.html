@@ -262,7 +262,10 @@ async function copy(text,label){
   $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
   try{
     const idx=await (await fetch("data/index.json")).json();
-    $("date").innerHTML=idx.dates.map(d=>`<option>${d}</option>`).join("");
+    const et=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
+    const name=d=>{const t=new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+      return d===et(0)?`Today, ${t}`:d===et(1)?`Tomorrow, ${t}`:t};
+    $("date").innerHTML=idx.dates.map(d=>`<option value="${d}">${name(d)}</option>`).join("");
     $("date").onchange=e=>load(e.target.value);
     await load(idx.latest);
   }catch(e){$("sub").textContent="No slate yet. Run: python -m app.cli run";}

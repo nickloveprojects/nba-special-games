@@ -12,6 +12,16 @@ def write_slate(slate: dict):
     (config.OUT / "index.json").write_text(json.dumps({"dates": dates, "latest": dates[0]}))
 
 
+def finalize(dates: list[str]):
+    """Keep only the given days (today and tomorrow): delete older/other slate files and rewrite the index.
+    The first date is the default shown on the site."""
+    keep = sorted(set(dates))
+    for p in config.OUT.glob("????-??-??.json"):
+        if p.stem not in keep:
+            p.unlink()
+    (config.OUT / "index.json").write_text(json.dumps({"dates": keep, "latest": keep[0]}))
+
+
 def to_csv(slate: dict) -> str:
     buf = io.StringIO()
     w = csv.writer(buf)

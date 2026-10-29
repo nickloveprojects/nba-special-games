@@ -3,6 +3,7 @@ name: Update site every morning
 on:
   schedule:
     - cron: "0 13 * * *"      # 13:00 UTC = 9am Eastern in summer, 8am in winter
+    - cron: "0 22 * * *"      # 6pm Eastern: refresh tomorrow's list after late news
   workflow_dispatch: {}        # lets you press "Run workflow" by hand
 
 permissions:
@@ -38,18 +39,18 @@ jobs:
           key: nba-db-${{ github.run_id }}
           restore-keys: nba-db-
 
-      - name: Build today's list
+      - name: Build today's and tomorrow's lists
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m app.cli run --notify
+        run: python -m app.cli run --days 2 --notify
 
-      - name: Keep a history of past days
+      - name: Save the lists
         run: |
           git config user.name "site-bot"
           git config user.email "site-bot@users.noreply.github.com"
-          git add web/data web/img
+          git add -A web/data web/img
           git diff --cached --quiet || (git commit -m "Update list $(date -u +%F)" && git push)
 
       - uses: actions/configure-pages@v5

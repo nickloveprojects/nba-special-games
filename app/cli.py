@@ -10,6 +10,7 @@ def main():
     r = sub.add_parser("run", help="build the slate (today ET, or next game day)")
     r.add_argument("--date", help="YYYY-MM-DD")
     r.add_argument("--preseason", action="store_true")
+    r.add_argument("--days", type=int, default=1, help="how many game days to build (2 = today and the next game day)")
     r.add_argument("--notify", action="store_true")
     t = sub.add_parser("import-transactions", help="load trades from CSV (date,player,from_team,to_team,type)")
     t.add_argument("path")
@@ -21,9 +22,17 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
     if a.cmd == "run":
-        from . import pipeline
-        slate = pipeline.run(date.fromisoformat(a.date) if a.date else None, a.preseason, a.notify)
-        print(f"{slate['date']}: {len(slate['entries'])} flagged players, {len(slate['warnings'])} warnings")
+        from datetime import timedelta
+
+        from . import output, pipeline
+        target, built = (date.fromisoformat(a.date) if a.date else None), []
+        for i in range(max(1, a.days)):
+            slate = pipeline.run(target, a.preseason, a.notify and i == 0)
+            print(f"{slate['date']}: {len(slate['entries'])} flagged players, {len(slate['warnings'])} warnings")
+            built.append(slate["date"])
+            target = date.fromisoformat(slate["date"]) + timedelta(days=1)
+        if a.days > 1:   # the site only keeps today and the next game day
+            output.finalize(built)
     elif a.cmd == "import-transactions":
         from . import db
         from .sources import transactions
