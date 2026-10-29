@@ -134,18 +134,14 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 [data-m=yellow]{--m-bg:var(--yellow-bg);--m-fg:var(--yellow);--m-line:var(--yellow-line)}
 [data-m=red]{--m-bg:var(--red-bg);--m-fg:var(--red);--m-line:var(--red)}
 .mu .why2{margin:4px 0 0;font-size:13px;color:var(--muted)}
-.mp{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:stretch;margin:0 14px 10px}
-.mp .mu{margin:0;flex:1 1 280px;min-width:0}
-.mp .pj{flex:0 1 auto;margin-left:auto}
-.pj{border:1px solid var(--line);border-radius:8px;padding:7px 11px;background:var(--surface);display:flex;align-items:center}
-.pj .row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 14px}
-.pj .lab{font:700 14px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);align-self:center}
-.pj .st{display:inline-flex;flex-direction:column;align-items:center;font-variant-numeric:tabular-nums;text-align:center}
-.pj .st b{font:700 20px/1.05 var(--font-display)}.pj .st span{font-size:12px;color:var(--muted)}
-.pj .st i{font-style:normal;font-size:11px;color:var(--muted)}
-.pj .note{margin:5px 0 0;font-size:11px;line-height:1.3;color:var(--muted);max-width:30em}
-.pj .lock{font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;background:var(--chip);color:var(--muted);align-self:center}
-@media(max-width:640px){.mp .pj{margin-left:0;width:100%}}
+.mline{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px}
+.mline .pj{margin-left:auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.pchip{display:inline-flex;gap:5px;align-items:baseline;padding:3px 9px;border-radius:999px;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;
+  background:var(--chip);color:var(--ink);border:1px solid var(--line)}
+.pchip b{font:700 16px var(--font-display);letter-spacing:.02em}
+.pj .lab{font:700 14px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.pj .lock{font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;background:var(--chip);color:var(--muted)}
+@media(max-width:700px){.mline .pj{margin-left:0}}
 .legend{margin:18px 0 0;font-size:13px;color:var(--muted)}
 .career{margin:0 14px 10px;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface)}
 .career summary{cursor:pointer;font:700 15px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
@@ -407,23 +403,24 @@ function recent(e){
   const vl=v.n?`<span><span class="lab">vs ${v.opp} (last ${v.n})</span> <b>${v.pts}</b> pts · ${v.reb} reb · ${v.ast} ast</span>`:`<span>${esc(v.note||`No games vs ${v.opp} in the last 3 seasons`)}</span>`;
   return `<details class="recent"><summary>${fl}${vl}</summary><div class="tables">${v.n?table(`Last ${v.n} vs ${v.opp}`,v.games):`<div><h3>vs ${v.opp}</h3><div class="stats">${esc(v.note||"No games in the last 3 seasons.")}</div></div>`}${table(`Last ${f.n||5} games`,f.games)}</div></details>`;
 }
-function matchupBox(e){
-  const m=e.matchup; if(!m) return "";
+function matchupParts(e){
+  const m=e.matchup; if(!m) return null;
   const nm=m.labels||{pts:"PTS",reb:"REB",ast:"AST"};
   const chips=Object.keys(m.stats).map(k=>{const x=m.stats[k];
     return `<span class="mchip${k===m.best?" best":""}" data-m="${x.color}" title="${esc(x.value)} ${nm[k].toLowerCase()} a game allowed to this position (rank ${x.rank} of ${x.of}, 1 = most)"><b>${nm[k]}</b>#${x.rank}</span>`}).join("");
-  return `<div class="mu"><div class="row"><span class="lab">Matchup</span><span class="grade" data-m="${m.color}" title="Matchup score ${m.score} out of 100">${m.grade}</span>${chips}</div><p class="why2">${esc(m.note)}${m.games<(sport==="nfl"?4:6)?" Small sample so far.":""}</p></div>`;
+  return {row:`<div class="row"><span class="lab">Matchup</span><span class="grade" data-m="${m.color}" title="Matchup score ${m.score} out of 100">${m.grade}</span>${chips}</div>`,
+    note:`<p class="why2">${esc(m.note)}${m.games<(sport==="nfl"?4:6)?" Small sample so far.":""}</p>`};
 }
+function matchupBox(e){const m=matchupParts(e); return m?`<div class="mu">${m.row}${m.note}</div>`:""}
 function projBox(e){
   const p=e.projection; if(!p||!p.lines) return "";
-  const st=p.lines.map(x=>`<span class="st"><b>${esc(x.proj)}</b><span>${esc(x.label)}</span><i>${esc(x.lo)}\u2013${esc(x.hi)}</i></span>`).join("")
-;
-  return `<div class="pj" title="Simulated 1,000 times from his last ${esc(p.games_used)} games with this team, this opponent${e.weather_text&&e.weather_text!=="Indoors"?" and the forecast":""}. Small numbers = middle 80% of outcomes. Estimate, not betting advice."><div class="row"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked</span>':""}${st}</div></div>`;
+  const tip=`Simulated 1,000 times from his last ${p.games_used} games with this team, this opponent${e.weather_text&&e.weather_text!=="Indoors"?" and the forecast":""}. Estimate, not betting advice.`;
+  const chips=p.lines.map(x=>`<span class="pchip" title="Middle 80% of outcomes: ${esc(x.lo)}\u2013${esc(x.hi)}"><b>${esc(x.proj)}</b> ${esc(x.label)}</span>`).join("");
+  return `<div class="pj row" title="${esc(tip)}"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked</span>':""}${chips}</div>`;
 }
 function mpRow(e){
-  const m=matchupBox(e),p=projBox(e);
-  if(!m&&!p) return "";
-  return `<div class="mp">${m}${p}</div>`;
+  const m=matchupParts(e); if(!m) return "";
+  return `<div class="mu"><div class="mline">${m.row}${projBox(e)}</div>${m.note}</div>`;
 }
 function careerBox(e){
   const c=e.career; if(!c||!c.length) return "";
