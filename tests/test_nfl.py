@@ -62,15 +62,37 @@ def test_exit_found_from_the_old_team_trade():
     assert ex["kind"] == "trade" and ex["date"] == "2025-03-10" and ex["text"].startswith("Traded WR Some Guy")
 
 
-def test_exit_free_agency_is_only_likely_and_needs_the_new_team_to_sign_him():
+def test_later_signing_is_reported_as_a_fact_not_as_free_agency():
     rows = [{"date": "2025-03-14", "team": "KC", "name": "Kansas City Chiefs", "text": "Signed WR Some Guy to a two-year contract."},
             {"date": "2025-03-15", "team": "ARI", "name": "Arizona Cardinals", "text": "Signed WR Some Guy to the practice squad."}]
     logs = _logs((7, ["2024-12-29"]), (12, ["2025-09-07"]))
     ex = nfl.exit_for({"name": "Some Guy"}, TEAMS[7], logs, lambda y: rows, TEAMS, "2026-10-29")
-    assert ex["kind"] == "free_agency" and "Chiefs" in ex["new"] and ex["text"].endswith("contract.")
+    assert ex["kind"] == "signed_elsewhere" and ex["new"] == "Chiefs"
     tag = nfl.revenge_tag({"name": "Some Guy"}, TEAMS[7], _logs((7, [f"2023-0{m}-10" for m in range(1, 7)]), (12, ["2025-09-07"])),
                           lambda y: rows, TEAMS, "2026-10-29")
-    assert tag["confidence"] == "medium"
+    assert tag["kind"] == "unknown" and tag["confidence"] == "low" and "next signing was with the Chiefs" in tag["how_left"]
+
+
+def test_trade_found_from_the_new_clubs_side_only():
+    rows = [{"date": "2025-03-10", "team": "KC", "name": "Kansas City Chiefs",
+             "text": "Traded a 2026 second-round pick in exchange for TE Some Guy and a 2027 fifth-round pick."}]
+    logs = _logs((7, ["2024-12-29"]), (12, ["2025-09-07"]))
+    ex = nfl.exit_for({"name": "Some Guy"}, TEAMS[7], logs, lambda y: rows, TEAMS, "2026-10-29")
+    assert ex["kind"] == "trade" and ex["date"] == "2025-03-10"
+
+
+def test_pro_bowl_games_do_not_end_the_search_window():
+    rows = [{"date": "2025-03-10", "team": "DEN", "name": "Denver Broncos", "text": "Released WR Some Guy."}]
+    logs = _logs((7, ["2024-12-29"]), (99, ["2025-02-02"]), (12, ["2025-09-07"]))     # 99 = an all-star team, not a club
+    ex = nfl.exit_for({"name": "Some Guy"}, TEAMS[7], logs, lambda y: rows, TEAMS, "2026-10-29")
+    assert ex and ex["kind"] == "waived"
+
+
+def test_clip_keeps_only_the_players_own_part():
+    sent = "Released S Rudy Ford, WR Laquon Treadwell, LBs Tyrell Adams and Chapelle Russell, DL Auzoyah Alufohai."
+    assert nfl.clip(sent, "Laquon Treadwell") == "Released WR Laquon Treadwell."
+    one = "Released WR Some Guy from the practice squad."
+    assert nfl.clip(one, "Some Guy") == one
 
 
 def test_exit_none_when_the_log_has_nothing_about_the_player():

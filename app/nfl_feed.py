@@ -110,7 +110,7 @@ def current_week_events() -> tuple[int, int, list[dict]]:
 
 # ------------------------------------------------------------------ rosters
 def roster(conn, team_id: int) -> list[dict]:
-    """Active skill-position players (QB/RB/WR/TE/K). Injured reserve and practice squad are left out."""
+    """Official-roster skill players (QB/RB/WR/TE/K), backups included. Injured reserve and practice squad are left out."""
     r = conn.execute("SELECT fetched, json FROM roster WHERE team_id=?", (team_id,)).fetchone()
     if r and _fresh(r["fetched"], 12):
         data = json.loads(r["json"])
@@ -126,9 +126,8 @@ def roster(conn, team_id: int) -> list[dict]:
             conn.commit()
     out = []
     for grp in (data or {}).get("athletes", []):
-        if grp.get("position") in ("injuredReserveOrOut", "suspended"):
-            continue
-        ps = grp.get("position") == "practiceSquad"
+        if grp.get("position") in ("injuredReserveOrOut", "suspended", "practiceSquad"):
+            continue        # only the official roster: no injured reserve, no practice squad
         for a in grp.get("items", []):
             pos = GROUP.get(((a.get("position") or {}).get("abbreviation") or "").upper())
             if not pos or (a.get("status") or {}).get("type", "active") != "active":
@@ -141,7 +140,7 @@ def roster(conn, team_id: int) -> list[dict]:
                         "dob": (a.get("dateOfBirth") or "")[:10], "city": bp.get("city", ""), "state": bp.get("state", ""),
                         "country": bp.get("country", ""), "years": (a.get("experience") or {}).get("years", 0) or 0,
                         "headshot": ((a.get("headshot") or {}).get("href")), "team_id": team_id,
-                        "practice_squad": ps, "injury": inj})
+                        "injury": inj})
     return out
 
 

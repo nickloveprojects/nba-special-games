@@ -186,40 +186,57 @@ def stint(logs: list[dict], team_id: int) -> tuple[int, int, int] | None:
 
 
 AMBIGUOUS_PLACE = {"New York", "Los Angeles"}
-HEAD = {"trade": "Traded by the {t}.", "waived": "Released by the {t}.", "free_agency": "Left the {t} in free agency."}
+HEAD = {"trade": "Traded by the {t}.", "waived": "Released by the {t}."}
+POS_CODE = r"(?:QB|RB|WR|TE|FB|PK|LS|[A-Z]{1,3}s?)"
+
+
+def clip(sent: str, name: str) -> str:
+    """ESPN packs several players into one sentence. Keep only the part about this player (never reword it)."""
+    verb = sent.split()[0]
+    pos = re.search(r"\b(" + POS_CODE + r")\s+" + re.escape(name), sent)
+    others = len(re.findall(r"\b[A-Z]{1,3}s?\s+[A-Z][a-zA-Z'.\-]+ [A-Z]", sent)) > 1
+    if pos and (others or len(sent) > 220) and verb in ("Released", "Waived", "Signed", "Re-signed", "Claimed"):
+        return f"{verb} {pos.group(1)} {name}."
+    return sent if len(sent) <= 260 else sent[:257] + "..."
 
 
 def exit_for(p, left, logs, rows_for_year, t_all, today_iso):
     """How the player left `left` (a team dict), from ESPN's transaction log between his last game for that team and his
-    first game for the next one. Returns {kind, date, text, new} or None when the log has nothing we can stand behind."""
+    first game for the next one. Returns {kind: trade|waived|signed_elsewhere, date, text, new} or None.
+    Only trades and releases are treated as confirmed; a later signing elsewhere is reported as a fact, not as a reason."""
     idx = [i for i, g in enumerate(logs) if g["team_id"] == left["id"]]
     if not idx:
         return None
     i = idx[-1]
-    nxt = next((g for g in logs[i + 1:] if g["team_id"] != left["id"]), None)
+    nxt = next((g for g in logs[i + 1:] if g["team_id"] != left["id"] and g["team_id"] in t_all), None)
     start, end = logs[i]["date"], (nxt["date"] if nxt else today_iso)
     new = t_all.get(nxt["team_id"]) if nxt else None
     place = left["name"].rsplit(" ", 1)[0]
-    firm, fa = [], []
+    name = p["name"]
+    firm, later = [], []
     for y in range(int(start[:4]), int(end[:4]) + 1):
         for r in rows_for_year(y):
-            if not (start <= r["date"] <= end) or p["name"] not in r["text"]:
+            if not (start <= r["date"] <= end) or name not in r["text"]:
                 continue
             for sent in feed._sentences(r["text"]):
-                if p["name"] not in sent:
+                if name not in sent:
                     continue
-                if r["team"] == left["abbr"] and re.match(r"(Traded|Waived|Released)\b", sent):
+                other = r["team"] != left["abbr"]
+                if not other and re.match(r"(Traded|Waived|Released)\b", sent) and "in exchange for" not in sent.split(name)[0]:
                     firm.append(("trade" if sent.startswith("Traded") else "waived", r["date"], sent))
-                elif r["team"] != left["abbr"] and re.match(r"(Acquired|Claimed)\b", sent) and " from " in sent:
+                elif other and re.match(r"(Acquired|Claimed|Received)\b", sent) and " from " in sent:
                     frm = sent.split(" from ", 1)[1]
                     if left["short"] in frm or left["name"] in frm or (place in frm and place not in AMBIGUOUS_PLACE):
-                        firm.append(("trade" if sent.startswith("Acquired") else "waived", r["date"], sent))
-                elif r["team"] != left["abbr"] and sent.startswith("Signed") and (new is None or r["team"] == new["abbr"]):
-                    fa.append(("free_agency", r["date"], sent))
-    pick = max(firm, key=lambda x: x[1]) if firm else (min(fa, key=lambda x: x[1]) if fa else None)
+                        firm.append(("waived" if sent.startswith("Claimed") else "trade", r["date"], sent))
+                elif other and new and r["team"] == new["abbr"] and sent.startswith("Traded") and "in exchange for" in sent \
+                        and name in sent.split("in exchange for", 1)[1]:
+                    firm.append(("trade", r["date"], sent))      # the new club's side of a trade for him
+                elif other and sent.startswith("Signed") and (new is None or r["team"] == new["abbr"]):
+                    later.append(("signed_elsewhere", r["date"], sent))
+    pick = max(firm, key=lambda x: x[1]) if firm else (min(later, key=lambda x: x[1]) if later else None)
     if not pick:
         return None
-    return {"kind": pick[0], "date": pick[1], "text": pick[2], "new": new["short"] if new else ""}
+    return {"kind": pick[0], "date": pick[1], "text": clip(pick[2], name), "new": new["short"] if new else ""}
 
 
 def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso):
@@ -230,18 +247,19 @@ def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso):
     span = f"in {first}" if first == last else f"from {first} to {last}"
     played = f"Played for the {opp_info['short']} {span} ({n} games)."
     ex = exit_for(p, opp_info, logs, rows_for_year, t_all, today_iso)
-    if ex:
-        kind = ex["kind"]
-        conf = "medium" if kind == "free_agency" else "high"
-        how = (f"Left the {opp_info['short']}. " if kind == "free_agency" else "") + f"{ex['text']} ({pretty_date(ex['date'])})"
+    src = []
+    if ex and ex["kind"] in HEAD:
+        kind, conf = ex["kind"], "high"
+        how = f"{ex['text']} ({pretty_date(ex['date'])})"
         src = [{"label": "ESPN transactions", "url": EXPORT_URL}]
         head = HEAD[kind].format(t=opp_info["short"])
     else:
-        kind, conf, src = "unknown", "low", []
-        how = f"{played} How he left is not confirmed."
+        kind, conf = "unknown", "low"
+        nxt = f" His next signing was with the {ex['new']} ({pretty_date(ex['date'])})." if ex and ex["new"] else ""
+        how = f"{played} No trade or release is in ESPN's log, so how he left is not confirmed.{nxt}"
         head = f"Former {opp_info['short']} player."
     return {"category": "Revenge", "kind": kind, "confidence": conf, "headline": head, "detail": played,
-            "how_left": how, "sources": src, "_score": {"trade": 5, "waived": 4, "free_agency": 3}.get(kind, 2)}
+            "how_left": how, "sources": src, "_score": {"trade": 5, "waived": 4}.get(kind, 2)}
 
 
 def birthday_tag(p, logs, d: date):
@@ -431,7 +449,7 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "categories": sorted({t["category"] for t in tags}, key=["Revenge", "Hometown", "Birthday", "Holiday", "History"].index),
                         "summary": _summary(tags[0]),
                         "score": float(sum(t["_score"] for t in tags)), "stats": {},
-                        "status_note": "Practice squad" if p["practice_squad"] else p["injury"], "espn_url": f"https://www.espn.com/nfl/player/_/id/{p['id']}",
+                        "status_note": p["injury"], "espn_url": f"https://www.espn.com/nfl/player/_/id/{p['id']}",
                         "recent": recent_block(p, logs, oi["abbr"]), "matchup": matchup(table, oi["abbr"], p["pos"]),
                         "career": career_lines(p, logs, tags, oi["abbr"], oi["short"], d, id_abbr, hxy),
                         "_headshot": p["headshot"], "tags": tags}
