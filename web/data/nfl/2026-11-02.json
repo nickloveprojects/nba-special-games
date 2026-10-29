@@ -154,34 +154,7 @@
     "note": "CHI gives up the 23rd-most receiving yards to running backs (24.4 a game, 7 games)."
    },
    "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Rush yds",
-      "proj": 6,
-      "lo": 0,
-      "hi": 28
-     },
-     {
-      "label": "Rec",
-      "proj": 0.1,
-      "lo": 0.0,
-      "hi": 1.0
-     },
-     {
-      "label": "Rec yds",
-      "proj": 0,
-      "lo": 0,
-      "hi": 0
-     }
-    ],
-    "games_used": 10,
-    "sims": 1000,
-    "td_prob": 0,
-    "weather_factor": 1.0,
-    "opp_factor": 0.92,
-    "locked": false
-   },
+   "projection": null,
    "tags": [
     {
      "category": "Revenge",
@@ -217,5 +190,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T19:32:23+00:00"
+ "generated_at": "2026-10-29T19:43:25+00:00"
 }
