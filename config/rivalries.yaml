@@ -1,0 +1,24 @@
+# Documented player-vs-player history. A History box appears on a card ONLY for pairs listed here,
+# and only when both players are on the two teams in that day's game.
+# Rules for adding one: the "reason" must be a short, checkable fact, and "sources" must have at least one link
+# that supports it. Entries without a reason or a source are ignored. Stats are never typed here:
+# they are computed from ESPN game logs (games where both players appeared in the same game).
+rivalries:
+  - players: ["Amen Thompson", "Tyler Herro"]
+    kind: Altercation
+    reason: "Both were ejected after a fight in a Heat-Rockets game in December 2024."
+    sources:
+      - {label: "NBA.com", url: "https://www.nba.com/news/amen-thompson-tyler-herro-fight-leads-to-ejections-of-multiple-players-and-coaches-in-heats-victory-in-houston"}
+      - {label: "NBC Sports", url: "https://nbcsports.com/nba/news/tyler-herro-amen-thompson-among-four-players-two-coaches-ejected-after-rockets-vs-heat-fight"}
+  - players: ["Victor Wembanyama", "Chet Holmgren"]
+    kind: Rivalry
+    reason: "The top two picks of the 2023 NBA Draft (Wembanyama No. 1, Holmgren No. 2), regularly framed as a rivalry by the league and media."
+    sources:
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/thunder/onsi/news/nba-continuing-to-push-chet-holmgren-victor-wembanyama-rivalry-01j3nn607zcy"}
+      - {label: "NBC Sports Bay Area", url: "https://www.nbcsportsbayarea.com/nba/chet-holmgren-responds-to-victor-wembanyama-flexing-on-him-in-thunder-spurs/1661634/?amp=1"}
+  - players: ["LeBron James", "Dillon Brooks"]
+    kind: Feud
+    reason: "Brooks was ejected for striking LeBron in Game 2 of their 2023 first-round series (Lakers beat Grizzlies); Brooks said \"I poke bears\" about the matchup."
+    sources:
+      - {label: "Eurohoops", url: "https://www.eurohoops.net/en/nba-news/1492914/dillon-brooks-ejected-after-striking-lebron-james-in-the-groin-nba-playoffs/amp/"}
+      - {label: "ABC30", url: "https://abc30.com/post/dillon-brooks-exchanges-words-with-lebron-james-i-poke-bears/13157564/"}

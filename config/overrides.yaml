@@ -1,0 +1,14 @@
+# Manual corrections. Loaded on every run. Match by player_id (preferred) or exact name.
+hometown:
+  # Use when the place a player grew up / went to high school differs from birthplace.
+  # - player: "Example Player"
+  #   hometown: "Akron, OH"
+  #   lat: 41.081
+  #   lon: -81.519
+  #   note: "Born in Cleveland, raised in Akron; HS: St. Vincent-St. Mary"
+revenge:
+  # Force or annotate a revenge matchup (e.g. contentious exit, trade demand, buyout).
+  # - player: "Example Player"
+  #   team: "LAL"
+  #   note: "Requested trade in 2025"
+ignore_players: []   # e.g. long-term injured / retired players the roster feed still lists

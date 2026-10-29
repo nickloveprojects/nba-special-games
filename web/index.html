@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NBA Special Games</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+<style>
+/* Layout: one column of cards. Each card = game bar (logos, time) / player row (headshot, name, team pill, position)
+   / one-line reason / flag blocks (green hometown, red revenge, yellow other) / collapsible recent games. */
+:root{
+  --bg:#e7ecf1; --surface:#ffffff; --ink:#0f1a24; --muted:#546270; --line:#d0d8e0; --chip:#f1f5f9; --focus:#1d4ed8;
+  --pill-bg:#0f1a24; --pill-fg:#ffffff;
+  --red:#b42318; --red-bg:#fdeceb;
+  --green:#0b7a5e; --green-bg:#e2f4ed;
+  --yellow:#7a5200; --yellow-bg:#fff2c2; --yellow-line:#e0a800; --blue:#1e4fb8; --blue-bg:#e6eefc; --blue-line:#2f6bdc;
+  --font-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --font-body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1218; --surface:#151e27; --ink:#eaf0f5; --muted:#97a5b2; --line:#26333f; --chip:#1b2631; --focus:#8fb0ff;
+    --pill-bg:#eaf0f5; --pill-fg:#0c1218;
+    --red:#ff8f85; --red-bg:#3a1d1b; --green:#4fd1a5; --green-bg:#123228; --yellow:#ffd36b; --yellow-bg:#3a3110; --yellow-line:#e0a800; --blue:#9bbcff; --blue-bg:#1a2742; --blue-line:#6f9bff;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1218; --surface:#151e27; --ink:#eaf0f5; --muted:#97a5b2; --line:#26333f; --chip:#1b2631; --focus:#8fb0ff;
+  --pill-bg:#eaf0f5; --pill-fg:#0c1218;
+  --red:#ff8f85; --red-bg:#3a1d1b; --green:#4fd1a5; --green-bg:#123228; --yellow:#ffd36b; --yellow-bg:#3a3110; --yellow-line:#e0a800; --blue:#9bbcff; --blue-bg:#1a2742; --blue-line:#6f9bff;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 var(--font-body);
+  padding-block:18px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:820px;margin:0 auto}
+h1{font:700 clamp(34px,8vw,54px)/1 var(--font-display);letter-spacing:.01em;margin:4px 0 4px;text-wrap:balance}
+.sub{color:var(--muted);margin:0 0 14px;font-variant-numeric:tabular-nums}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+select,input,button{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-height:40px}
+input[type=search]{flex:1 1 180px;min-width:0}
+input[type=checkbox]{min-height:0;width:18px;height:18px;padding:0;vertical-align:-3px;margin-right:6px}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.chip{display:inline-flex;gap:7px;align-items:center;font-weight:600}
+.chip b{font-variant-numeric:tabular-nums;font-weight:600;opacity:.8}
+.chip[data-c=Revenge]{color:var(--red)}.chip[data-c=Hometown]{color:var(--green)}.chip[data-c=Birthday]{color:var(--yellow)}.chip[data-c=History]{color:var(--blue)}
+.chip[aria-pressed=true][data-c=Revenge]{background:var(--red-bg);border-color:var(--red)}
+.chip[aria-pressed=true][data-c=Hometown]{background:var(--green-bg);border-color:var(--green)}
+.chip[aria-pressed=true][data-c=History]{background:var(--blue-bg);border-color:var(--blue-line)}
+.chip[aria-pressed=true][data-c=Birthday]{background:var(--yellow-bg);border-color:var(--yellow-line)}
+.chip[aria-pressed=false]{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
+.filters input[type=search]{flex:1 1 100%}
+.filters select{flex:1 1 120px;min-width:0}
+.opts{margin:0 0 6px}
+.opts summary{cursor:pointer;color:var(--muted);font-size:14px;padding:2px 0}
+.opts .bar{margin-top:8px}
+.note{color:var(--muted);font-size:14px;min-height:20px}
+.warn{border:1px solid var(--yellow-line);border-radius:8px;padding:8px 12px;margin:10px 0;background:var(--surface)}
+.warn summary{cursor:pointer;font-weight:600}
+
+.card{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--stripe,var(--line));border-radius:10px;margin:12px 0;overflow:hidden}
+.card[data-main=Revenge]{--stripe:var(--red)}.card[data-main=Hometown]{--stripe:var(--green)}.card[data-main=Birthday]{--stripe:var(--yellow-line)}.card[data-main=History]{--stripe:var(--blue-line)}
+.game{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;padding:7px 14px;background:var(--chip);border-bottom:1px solid var(--line)}
+.game .teams{display:flex;align-items:center;gap:7px;font:700 20px/1 var(--font-display);letter-spacing:.02em}
+.game .at{color:var(--muted);font-weight:600;font-size:16px}
+.logo{width:26px;height:26px;object-fit:contain}
+.game .when{margin-left:auto;color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums;text-align:right}
+
+.player{display:flex;align-items:center;gap:12px;padding:12px 14px 4px}
+.shot{position:relative;width:64px;height:48px;flex:none;border-radius:8px;background:var(--chip);overflow:hidden;
+  display:grid;place-items:center;font:700 18px var(--font-display);color:var(--muted)}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.who{min-width:0;flex:1}
+.who h2{margin:0;font:700 27px/1.05 var(--font-display);letter-spacing:.01em;overflow-wrap:anywhere}
+.id{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin-top:5px}
+.pill{display:inline-flex;align-items:center;gap:7px;background:var(--pill-bg);color:var(--pill-fg);border-radius:999px;
+  padding:3px 14px 3px 4px;font:700 19px/1.25 var(--font-display);letter-spacing:.03em;text-transform:uppercase;
+  box-shadow:0 1px 0 rgba(0,0,0,.25)}
+.pill .logo{width:26px;height:26px;background:#fff;border-radius:50%;padding:2px}
+.pos{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.espn{display:inline-flex;align-items:center;gap:6px;flex:none;align-self:flex-start;font-weight:600;font-size:14px;color:var(--ink);
+  text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface)}
+.espn:hover{border-color:var(--ink)}
+.why{margin:6px 14px 8px;font-weight:500;text-wrap:pretty}
+
+.flag{margin:0 14px 10px;padding:8px 10px;border-radius:8px;background:var(--bg-t);color:var(--ink);border-left:4px solid var(--c)}
+.flag.Revenge{--c:var(--red);--bg-t:var(--red-bg)}.flag.Hometown{--c:var(--green);--bg-t:var(--green-bg)}.flag.Birthday{--c:var(--yellow-line);--bg-t:var(--yellow-bg)}.flag.History{--c:var(--blue-line);--bg-t:var(--blue-bg)}
+.flag .top{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px}
+.flag .kind{display:inline-flex;align-items:center;gap:6px;font:700 17px/1.2 var(--font-display);letter-spacing:.03em;color:var(--c)}
+.flag.Birthday .kind{color:var(--yellow)}.flag.History .kind{color:var(--blue)}
+.flag .sure{font-size:13px;font-weight:600;color:var(--muted)}
+.flag .sure.high{color:var(--ink)}
+.flag p{margin:3px 0 0;font-size:15px;overflow-wrap:anywhere}
+.flag .src{margin-top:3px;font-size:13px;color:var(--muted)}
+.flag .src a{color:inherit}
+.recent{margin:0 14px 12px;border-top:1px solid var(--line);padding-top:8px}
+.recent summary{cursor:pointer;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;gap:2px 18px}
+.recent summary b{color:var(--ink);font-weight:600}
+.recent summary .lab{font-weight:600;color:var(--ink)}
+/* history box (same look as the other flag boxes, collapsible) */
+details.flag>summary{list-style:none;cursor:pointer}
+details.flag>summary::-webkit-details-marker{display:none}
+details.flag .more{margin-top:8px;border-top:1px solid color-mix(in srgb,var(--c) 35%,transparent);padding-top:8px}
+.flag .chev{margin-left:auto;font-size:13px;color:var(--muted);font-weight:600}
+details.flag[open] .chev .c2,details.flag:not([open]) .chev .c1{display:none}
+.h2h{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:6px 16px}
+.h2h .p b{display:block;font:700 16px var(--font-display);letter-spacing:.02em}
+.h2h .p span{font-size:15px;font-variant-numeric:tabular-nums}
+.h2h-note{font-size:13px;color:var(--muted);margin-top:6px}
+.tables{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 18px;margin-top:8px}
+.tables > div{min-width:0}
+.tables h3{margin:0 0 4px;font:600 14px var(--font-body)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:3px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{color:var(--muted);font-weight:600}
+.W{color:var(--green);font-weight:600}.L{color:var(--red);font-weight:600}
+.empty{padding:32px 8px;text-align:center;color:var(--muted)}
+@media (max-width:520px){
+  body{padding-block:12px 48px}
+  h1{margin:0}
+  .sub{font-size:14px;margin-bottom:10px}
+  .bar{gap:6px;margin-bottom:6px}
+  select,input,button{min-height:38px;padding:6px 9px}
+  #cats .chip{padding:5px 9px;gap:5px;font-size:15px}
+  .espn span{display:none}
+  .who h2{font-size:24px}
+  .game .when{margin-left:0;text-align:left;flex-basis:100%}
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>NBA special games</h1>
+  <p class="sub" id="sub">Loading…</p>
+  <div class="bar filters">
+    <input id="q" type="search" placeholder="Search player" aria-label="Search player">
+    <select id="date" aria-label="Game day"></select>
+    <select id="team" aria-label="Team"><option value="">All teams</option></select>
+  </div>
+  <div class="bar" id="cats"></div>
+  <details class="opts">
+    <summary>More options</summary>
+    <div class="bar">
+      <label><input type="checkbox" id="strict">Revenge: only confirmed trades and waivers</label>
+      <span style="flex:1"></span>
+      <button id="csv" type="button">Copy as CSV</button>
+      <button id="json" type="button">Copy as JSON</button>
+    </div>
+  </details>
+  <div class="note" id="note" role="status" aria-live="polite"></div>
+  <div id="warn"></div>
+  <div id="list"></div>
+</main>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-Revenge" viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+  <symbol id="i-Hometown" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h5v-6h4v6h5V10"/></symbol>
+  <symbol id="i-Birthday" viewBox="0 0 24 24"><path d="M4 20h16M5 20v-6h14v6M5 14c2 0 2-2 3.500-2s2.500 2 3.500 2 2-2 3.500-2 2.500 2 3.500 2M12 9V6M12 3.500v.01"/></symbol>
+  <symbol id="i-History" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 8 8M12 8v4l3 2M17 3v4h4"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/></symbol>
+</svg>
+<script>
+const CATS=["Revenge","Hometown","Birthday","History"];
+const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unknown:"Former team",
+  high_school:"Grew up here",override:"Hometown (set by hand)",birthplace:"Born here",birthday:""};
+const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
+let slate=null,active=new Set(CATS);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const icon=n=>`<svg class="i" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+const logo=(src,alt)=>src?`<img class="logo" src="${esc(src)}" alt="${esc(alt)}" onerror="this.remove()">`:"";
+const initials=n=>n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("");
+const fmtDate=d=>new Date(d+"T12:00").toLocaleDateString(undefined,{month:"short",day:"numeric"});
+
+async function load(date){
+  slate=await (await fetch(`data/${date}.json`)).json();
+  const teams=[...new Set(slate.entries.flatMap(e=>[e.team,e.opponent]))].sort();
+  $("team").innerHTML='<option value="">All teams</option>'+teams.map(t=>`<option>${t}</option>`).join("");
+  const day=new Date(slate.date+"T12:00").toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
+  $("sub").textContent=`${day}: ${slate.games} games, ${slate.entries.length} players flagged. Updated ${new Date(slate.generated_at).toLocaleString()}.`;
+  $("warn").innerHTML=slate.warnings.length?`<details class="warn"><summary>${slate.warnings.length} data warning(s): some sources were unavailable</summary><ul>${slate.warnings.map(w=>`<li>${esc(w)}</li>`).join("")}</ul></details>`:"";
+  drawChips();render();
+}
+function drawChips(){
+  const n=c=>slate.entries.filter(e=>e.categories.includes(c)).length;
+  $("cats").innerHTML=CATS.map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${active.has(c)}">${icon(c)}${c}<b>${n(c)}</b></button>`).join("");
+}
+const weak=g=>g.category==="Revenge"&&(g.kind==="free_agency"||g.kind==="unknown"||(!g.kind&&g.confidence==="low"));
+function filtered(){
+  const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
+  return slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))
+   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t));
+}
+const stat=m=>m&&m.n?`${m.pts} pts · ${m.reb} reb · ${m.ast} ast`:"no games";
+function history(g,e){
+  const h=g.h2h,src=(g.sources||[]).length?`<div class="src">Source: ${g.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(", ")}</div>`:"";
+  let body;
+  if(h&&h.games){
+    body=`<div class="h2h"><div class="p"><b>${esc(e.name)}</b><span>${stat(h.me)}</span></div><div class="p"><b>${esc(g.with)}</b><span>${stat(h.them)}</span></div></div>
+      <div class="h2h-note">Averages in the ${h.games} game${h.games>1?"s":""} where both played (${esc(h.scope)}). ${esc(e.name.split(" ").slice(-1)[0])}'s team went ${esc(h.record)}.</div>`;
+  } else body=`<div class="h2h-note">No past games found where both players appeared (${esc(h?h.scope:"")}), so no head-to-head stats are shown.</div>`;
+  return `<details class="flag History"><summary><div class="top"><span class="kind">${icon("History")}History · ${esc(g.label||"Rivalry")} · vs ${esc(g.with)}</span><span class="sure high">Documented</span><span class="chev"><span class="c1">Hide stats</span><span class="c2">Show stats</span></span></div>
+    <p>${esc(g.reason||g.detail)}</p></summary><div class="more">${body}${src}</div></details>`;
+}
+function flag(g,e){
+  if(g.category==="History") return history(g,e);
+  const label=g.category==="Birthday"?"Birthday":g.category+(KIND[g.kind]?` · ${KIND[g.kind]}`:"");
+  const sure=g.category==="Birthday"?"":`<span class="sure ${g.confidence}">${SURE[g.confidence]||""}</span>`;
+  const line=g.category==="Revenge"?`<p><b>How he left:</b> ${esc(g.how_left||g.detail||"Not confirmed yet.")}</p>`
+    :g.category==="Hometown"?`<p>${esc(g.detail||"")}</p>`:(g.headline?"":`<p>${esc(g.detail||"")}</p>`);
+  const src=(g.sources||[]).length?`<div class="src">Source: ${g.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(", ")}</div>`:"";
+  return `<div class="flag ${g.category}"><div class="top"><span class="kind">${icon(g.category)}${esc(label)}</span>${sure}</div>${line}${src}</div>`;
+}
+const row=g=>`<tr><td>${fmtDate(g.date)}</td><td>${g.home?"vs":"@"} ${g.opp}</td><td class="${g.result}">${g.result||""}</td><td>${g.min}</td><td>${g.pts}</td><td>${g.reb}</td><td>${g.ast}</td></tr>`;
+const table=(title,list)=>`<div><h3>${title}</h3>${list.length?`<div class="scroll"><table><thead><tr><th>Date</th><th>Opp</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th></tr></thead><tbody>${list.map(row).join("")}</tbody></table></div>`:'<div class="stats">No games found.</div>'}</div>`;
+function recent(e){
+  const r=e.recent; if(!r) return "";
+  const f=r.form,v=r.vs;
+  const fl=f.n?`<span><span class="lab">Last ${f.n}</span> <b>${f.pts}</b> pts · ${f.reb} reb · ${f.ast} ast</span>`:"<span>No recent games</span>";
+  const vl=v.n?`<span><span class="lab">vs ${v.opp} (last ${v.n})</span> <b>${v.pts}</b> pts · ${v.reb} reb · ${v.ast} ast</span>`:`<span>${esc(v.note||`No games vs ${v.opp} in the last 3 seasons`)}</span>`;
+  return `<details class="recent"><summary>${fl}${vl}</summary><div class="tables">${v.n?table(`Last ${v.n} vs ${v.opp}`,v.games):`<div><h3>vs ${v.opp}</h3><div class="stats">${esc(v.note||"No games in the last 3 seasons.")}</div></div>`}${table(`Last ${f.n||5} games`,f.games)}</div></details>`;
+}
+function card(e){
+  const main=CATS.find(c=>e.tags.some(t=>t.category===c));
+  const why=e.summary||e.tags.map(t=>t.headline||t.detail).join(" ");
+  const pos=[e.position,e.jersey?`#${e.jersey}`:""].filter(Boolean).join(" · ");
+  const team=e.team_name||e.team;
+  return `<article class="card" data-main="${main}">
+    <div class="game"><div class="teams">${logo(e.team_logo,e.team)}${e.team} <span class="at">${e.home_away==="home"?"vs":"@"}</span> ${logo(e.opponent_logo,e.opponent)}${e.opponent}</div>
+      <div class="when">${esc(e.tip)}, ${esc(e.arena||e.location)}</div></div>
+    <div class="player"><div class="shot"><span>${esc(initials(e.name))}</span>${e.headshot?`<img src="${esc(e.headshot)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
+      <div class="who"><h2>${esc(e.name)}</h2><div class="id"><span class="pill">${logo(e.team_logo,"")}${esc(team)}</span>${pos?`<span class="pos">${esc(pos)}</span>`:""}</div></div>
+      ${e.espn_url?`<a class="espn" href="${esc(e.espn_url)}" target="_blank" rel="noopener" aria-label="${esc(e.name)} on ESPN">${icon("link")}<span>ESPN</span></a>`:""}</div>
+    <p class="why">${esc(why)}</p>
+    ${e.tags.map(g=>flag(g,e)).join("")}${recent(e)}</article>`;
+}
+function render(){
+  const rows=filtered();
+  $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
+}
+function csv(){
+  const h=["player","team","opponent","tip","categories","why","how_he_left"];
+  const rows=filtered().map(e=>[e.name,e.team,e.opponent,e.tip,e.categories.join("/"),e.summary||"",e.tags.map(t=>t.how_left||"").filter(Boolean).join(" | ")]);
+  return [h,...rows].map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(",")).join("\n");
+}
+async function copy(text,label){
+  try{await navigator.clipboard.writeText(text);$("note").textContent=`${label} copied.`;}
+  catch(e){const t=document.createElement("textarea");t.value=text;document.body.appendChild(t);t.select();
+    let ok=false;try{ok=document.execCommand("copy")}catch(_){}t.remove();
+    $("note").textContent=ok?`${label} copied.`:"Copy was blocked by the browser. Select the list and copy it by hand.";}
+}
+(async()=>{
+  $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));render()};
+  ["q","team","strict"].forEach(i=>$(i).addEventListener("input",render));
+  $("csv").onclick=()=>copy(csv(),"CSV");
+  $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
+  try{
+    const idx=await (await fetch("data/index.json")).json();
+    $("date").innerHTML=idx.dates.map(d=>`<option>${d}</option>`).join("");
+    $("date").onchange=e=>load(e.target.value);
+    await load(idx.latest);
+  }catch(e){$("sub").textContent="No slate yet. Run: python -m app.cli run";}
+})();
+</script>
+</body>
+</html>
