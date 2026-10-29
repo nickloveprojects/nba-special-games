@@ -33,7 +33,7 @@ VENUE = {
     "CAR": (35.226, -80.853), "CHI": (41.862, -87.617), "CIN": (39.095, -84.516), "CLE": (41.506, -81.699),
     "DAL": (32.748, -97.093), "DEN": (39.744, -105.020), "DET": (42.340, -83.046), "GB": (44.501, -88.062),
     "HOU": (29.685, -95.411), "IND": (39.760, -86.164), "JAX": (30.324, -81.637), "KC": (39.049, -94.484),
-    "LV": (36.091, -115.184), "LAC": (33.953, -118.339), "LAR": (33.953, -118.339), "MIA": (25.958, -80.239),
+    "LV": (36.091, -115.184), "LA": (33.953, -118.339), "LAC": (33.953, -118.339), "LAR": (33.953, -118.339), "MIA": (25.958, -80.239),
     "MIN": (44.974, -93.258), "NE": (42.091, -71.264), "NO": (29.951, -90.081), "NYG": (40.814, -74.074),
     "NYJ": (40.814, -74.074), "PHI": (39.901, -75.168), "PIT": (40.447, -80.016), "SF": (37.403, -121.970),
     "SEA": (47.595, -122.332), "TB": (27.976, -82.503), "TEN": (36.166, -86.771), "WSH": (38.908, -76.864)}
@@ -90,7 +90,7 @@ def parse_events(data: dict) -> list[dict]:
             "tip": tip.astimezone(ET).strftime("%-I:%M %p ET"), "week": (e.get("week") or {}).get("number"),
             "completed": bool(e["status"]["type"].get("completed")), "neutral": bool(comp.get("neutralSite")),
             "kind": {1: "Preseason", 2: "Regular season", 3: "Playoffs"}.get(e.get("season", {}).get("type"), "Game"),
-            "arena": v.get("fullName", ""), "venue_city": addr.get("city", ""), "venue_state": addr.get("state", ""),
+            "indoor": bool(v.get("indoor")), "arena": v.get("fullName", ""), "venue_city": addr.get("city", ""), "venue_state": addr.get("state", ""),
             "home": sides["home"], "away": sides["away"]})
     return out
 

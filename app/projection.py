@@ -89,7 +89,7 @@ def _shrink_scale(games: list[dict], w: list[float], field: str, vol_field: str,
 
 
 def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed: int,
-            status: str = "", sims: int = SIMS) -> dict | None:
+            status: str = "", sims: int = SIMS, weather: float = 1.0) -> dict | None:
     """Projection for one player, or None when there is too little to go on."""
     if pos not in STATS or any(w in (status or "").lower() for w in NO_PROJECTION):
         return None
@@ -101,7 +101,7 @@ def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed
     picks = rng.choices(range(len(games)), weights=w, k=sims)
     lines = []
     for field, label, key, vol_field, league in STATS[pos]:
-        f = opp_factor(table, opp, pos, key)
+        f = opp_factor(table, opp, pos, key) * (1.0 if field == "rushingYards" else weather)
         scale = _shrink_scale(games, w, field, vol_field, league)
         vals = sorted(games[i]["row"].get(field, 0.0) * f * scale for i in picks)
         mean = sum(vals) / len(vals)
@@ -113,10 +113,11 @@ def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed
     if pos in TD_FIELDS:
         per_game = [sum(g["row"].get(k, 0.0) for k in TD_FIELDS[pos]) for g in games]
         lam = sum(a * b for a, b in zip(per_game, w)) / sum(w)
-        f = opp_factor(table, opp, pos, STATS[pos][-1][2])
+        f = opp_factor(table, opp, pos, STATS[pos][-1][2]) * (1.0 if pos == "RB" else weather)
         lam *= f
         hit = sum(1 for _ in range(sims) if _poisson(rng, lam) >= 1) / sims
         out["td_prob"] = round(hit * 100)
+    out["weather_factor"] = round(weather, 2)
     out["opp_factor"] = round(opp_factor(table, opp, pos, STATS[pos][0][2]), 2)
     return out
 
