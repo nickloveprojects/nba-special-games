@@ -1,0 +1,52 @@
+# Researched, sourced reasons a player left a former team (NFL). These override ESPN's transaction log.
+# Rules: only add an entry you can back with a link; "kind" is trade, waived (released/waived/cut) or free_agency
+# (contract ran out and he signed elsewhere); "how" is one plain sentence of fact and should include the date
+# ("date"/"when" are only notes for you). The board shows the sources next to the reason.
+exits:
+  - player: "Geno Smith"
+    from_team: LV
+    kind: trade
+    how: "Traded to the Jets in March 2026: the Raiders sent Smith and a seventh-round pick for a sixth-round pick."
+    when: "March 2026"
+    sources:
+      - {label: "AP via WTOP", url: "https://wtop.com/nfl/2026/03/geno-smith-set-to-return-to-the-jets-in-a-trade-with-the-raiders-ap-source-says/"}
+      - {label: "NFL.com", url: "https://www.nfl.com/_amp/raiders-trading-qb-geno-smith-to-jets-in-late-round-pick-swap"}
+  - player: "Ameer Abdullah"
+    from_team: IND
+    kind: free_agency
+    how: "Reached free agency after the 2025 season (the Colts could have re-signed him); signed with the Jaguars on May 11, 2026."
+    date: "2026-05-11"
+    sources:
+      - {label: "Yahoo Sports (Feb 20, 2026)", url: "https://sports.yahoo.com/articles/ameer-abdullah-contract-projection-colts-193653697.html"}
+      - {label: "Heavy.com", url: "https://heavy.com/sports/nfl/indianapolis-colts/colts-ameer-abdullah-signs-rival-jaguars/"}
+  - player: "Tyler Conklin"
+    from_team: MIN
+    kind: free_agency
+    how: "Became a free agent and agreed to a three-year, $21 million deal with the Jets."
+    date: "2022-03-16"
+    sources:
+      - {label: "ABC7 New York", url: "https://abc7ny.com/post/new-york-jets-reach-free-agent-deal-with-tyler-conklin-source-says/11657320/"}
+  - player: "Zach Ertz"
+    from_team: WSH
+    kind: free_agency
+    how: "His one-year contract (signed March 2025) ran out after a 2025 season that ended with a torn ACL; he reached free agency and signed with the Eagles' practice squad on Sep 21, 2026."
+    date: "2026-09-21"
+    sources:
+      - {label: "NBC Sports (Pro Football Talk)", url: "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-ertz-returning-to-philadelphia-will-sign-with-eagles-practice-squad"}
+      - {label: "NFL Trade Rumors", url: "https://nfltraderumors.co/commanders-leaving-door-cracked-for-bobby-wagner-zach-ertz-to-return-eventually/"}
+  - player: "AJ Dillon"
+    from_team: GB
+    kind: free_agency
+    how: "His one-year deal (re-signed in 2024) ran out after he missed the 2024 season on injured reserve with a neck injury; he signed with the Eagles on the first day of the new league year."
+    date: "2025-03-12"
+    sources:
+      - {label: "Acme Packing Company", url: "https://www.acmepackingcompany.com/2025/3/12/24384433/green-bay-packers-news-aj-dillon-signs-philadelphia-eagles-running-back-injury-update"}
+      - {label: "Philadelphia Eagles", url: "https://www.philadelphiaeagles.com/news/eagles-aj-dillon-agree-to-terms-on-one-year-deal"}
+  - player: "Velus Jones Jr."
+    from_team: CHI
+    kind: waived
+    how: "Waived by the Bears on Oct 25, 2024, after being a healthy scratch for five straight games."
+    date: "2024-10-25"
+    sources:
+      - {label: "Yahoo Sports", url: "https://ca.sports.yahoo.com/news/bears-waive-velus-jones-jr-204335870.html"}
+      - {label: "Pro Football Rumors", url: "https://www.profootballrumors.com/transactions/page/304"}

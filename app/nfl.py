@@ -27,6 +27,7 @@ MATCHUP = {"QB": [("pass_yds", "PASS YDS", "passing yards"), ("pass_td", "PASS T
            "WR": [("rec_yds", "REC YDS", "receiving yards"), ("rec", "REC", "catches")],
            "TE": [("rec_yds", "REC YDS", "receiving yards"), ("rec", "REC", "catches")]}
 EXPORT_URL = "https://www.espn.com/nfl/transactions"
+EXITS = config.ROOT / "config" / "exits_nfl.yaml"
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
@@ -186,7 +187,7 @@ def stint(logs: list[dict], team_id: int) -> tuple[int, int, int] | None:
 
 
 AMBIGUOUS_PLACE = {"New York", "Los Angeles"}
-HEAD = {"trade": "Traded by the {t}.", "waived": "Released by the {t}."}
+HEAD = {"trade": "Traded by the {t}.", "waived": "Released by the {t}.", "free_agency": "Left the {t} in free agency."}
 POS_CODE = r"(?:QB|RB|WR|TE|FB|PK|LS|[A-Z]{1,3}s?)"
 
 
@@ -239,16 +240,34 @@ def exit_for(p, left, logs, rows_for_year, t_all, today_iso):
     return {"kind": pick[0], "date": pick[1], "text": clip(pick[2], name), "new": new["short"] if new else ""}
 
 
-def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso):
+def load_exits(warn=None) -> dict:
+    """Researched, sourced exits from config/exits_nfl.yaml, keyed by (player name, former team abbreviation)."""
+    try:
+        rows = (yaml.safe_load(EXITS.read_text()) or {}).get("exits") or [] if EXITS.exists() else []
+    except yaml.YAMLError as e:
+        if warn:
+            warn.add("exits", f"exits_nfl.yaml could not be read ({e})")
+        return {}
+    return {(r["player"], r["from_team"]): r for r in rows
+            if r.get("player") and r.get("from_team") and r.get("kind") in HEAD and r.get("how") and r.get("sources")}
+
+
+def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso, curated=None):
     s = stint(logs, opp_info["id"])
     if not s or s[0] < MIN_GAMES_REVENGE:
         return None
     n, first, last = s
     span = f"in {first}" if first == last else f"from {first} to {last}"
     played = f"Played for the {opp_info['short']} {span} ({n} games)."
+    cur = (curated or {}).get((p["name"], opp_info["abbr"]))
+    if cur:
+        kind = cur["kind"]
+        return {"category": "Revenge", "kind": kind, "confidence": "high", "headline": HEAD[kind].format(t=opp_info["short"]),
+                "detail": played, "how_left": cur["how"], "sources": cur["sources"],
+                "_score": {"trade": 5, "waived": 4, "free_agency": 3}[kind]}
     ex = exit_for(p, opp_info, logs, rows_for_year, t_all, today_iso)
     src = []
-    if ex and ex["kind"] in HEAD | {"trade_new_side": ""}:
+    if ex and ex["kind"] in {"trade", "waived", "trade_new_side"}:
         kind, conf = ("trade" if ex["kind"] == "trade_new_side" else ex["kind"]), "high"
         how = f"{ex['text']} ({pretty_date(ex['date'])})"
         if ex["kind"] == "trade_new_side":
@@ -360,9 +379,10 @@ def recent_block(p, logs, opp):
                    "note": f"No games vs {opp} in the last 8 seasons."}}
 
 
-def _summary(t: dict) -> str:
-    if t["category"] == "Revenge" and t["kind"] != "unknown":
-        return t["how_left"]
+def _summary(t: dict, opp: str) -> str:
+    if t["category"] == "Revenge":
+        return {"trade": f"Faces the {opp}, who traded him.", "waived": f"Faces the {opp}, who released him.",
+                "free_agency": f"Faces the {opp}, his former team."}.get(t["kind"], f"Faces the {opp}, his former team.")
     return t.get("headline") or t.get("detail") or ""
 
 
@@ -397,6 +417,8 @@ def build_slates(today: date | None = None) -> list[dict]:
                 tx_seen[y] = []
         return tx_seen[y]
     rivalries = load_rivalries(warn)
+    curated = load_exits(warn)
+    needs = []
     geocode.reset()
     slates = []
     for day in days:
@@ -432,9 +454,11 @@ def build_slates(today: date | None = None) -> list[dict]:
                         warn.add("gamelog", f"Game log unavailable for {p['name']} ({ex})")
                         continue
                     if revenge_cand:
-                        rv = revenge_tag(p, oi, logs, rows_for_year, t_all, day)
+                        rv = revenge_tag(p, oi, logs, rows_for_year, t_all, day, curated)
                         if rv:
                             tags.append(rv)
+                            if rv["kind"] == "unknown":
+                                needs.append(f"{p['name']} ({mi['abbr']}) left {oi['abbr']} [{oi['id']}]")
                     if hol:
                         ht = holiday_tag(p, logs, d, oi["abbr"], oi["short"])
                         if ht:
@@ -449,7 +473,7 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "game_id": e["game_id"], "game_kind": e["kind"], "tip": e["tip"], "tip_utc": e["tip_utc"],
                         "arena": e["arena"], "location": ", ".join(x for x in (e["venue_city"], e["venue_state"]) if x),
                         "categories": sorted({t["category"] for t in tags}, key=["Revenge", "Hometown", "Birthday", "Holiday", "History"].index),
-                        "summary": _summary(tags[0]),
+                        "summary": _summary(tags[0], oi["short"]),
                         "score": float(sum(t["_score"] for t in tags)), "stats": {},
                         "status_note": p["injury"], "espn_url": f"https://www.espn.com/nfl/player/_/id/{p['id']}",
                         "recent": recent_block(p, logs, oi["abbr"]), "matchup": matchup(table, oi["abbr"], p["pos"]),
@@ -471,6 +495,8 @@ def build_slates(today: date | None = None) -> list[dict]:
         slates.append({"date": day, "sport": "nfl", "week": week, "games": len(day_events), "entries": entries,
                        "matchups": matchups, "warnings": warn.items,
                        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    if needs:
+        log.info("NEEDS RESEARCH (exit not confirmed): %s", "; ".join(sorted(set(needs))))
     return slates
 
 

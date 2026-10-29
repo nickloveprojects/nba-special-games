@@ -347,7 +347,7 @@ function drawChips(){
   drawGames();
   $("cats").innerHTML=CATS.map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${active.has(c)}">${icon(c)}${c}<b>${n(c)}</b></button>`).join("");
 }
-const weak=g=>g.category==="Revenge"&&(g.kind==="free_agency"||g.kind==="unknown"||(!g.kind&&g.confidence==="low"));
+const weak=g=>g.category==="Revenge"&&((g.kind==="free_agency"&&g.confidence!=="high")||g.kind==="unknown"||(!g.kind&&g.confidence==="low"));
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
   return slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))

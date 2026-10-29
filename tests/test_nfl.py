@@ -132,3 +132,23 @@ def test_holiday_tag_uses_only_past_holiday_games():
     t = nfl.holiday_tag({"pos": "WR"}, [past], d, "DAL", "Cowboys")
     assert t["label"] == "Thanksgiving" and "1 time" in t["lines"][0]["text"] and len(t["lines"]) == 3
     assert nfl.holiday_tag({"pos": "WR"}, [], d, "DAL", "Cowboys") is None
+
+
+def test_researched_exit_wins_over_the_espn_log_and_needs_sources():
+    opp = TEAMS[7]
+    many = _logs((7, [f"2023-0{m}-10" for m in range(1, 8)]), (12, ["2025-09-07"]))
+    cur = nfl.load_exits.__wrapped__ if hasattr(nfl.load_exits, "__wrapped__") else None
+    curated = {("Some Guy", "DEN"): {"player": "Some Guy", "from_team": "DEN", "kind": "free_agency",
+                                      "how": "Deal ran out; signed with the Chiefs.", "date": "2025-03-12",
+                                      "sources": [{"label": "X", "url": "https://example.com"}]}}
+    t = nfl.revenge_tag({"name": "Some Guy"}, opp, many, lambda y: [], TEAMS, "2026-10-29", curated)
+    assert t["kind"] == "free_agency" and t["confidence"] == "high" and t["how_left"] == "Deal ran out; signed with the Chiefs."
+    assert t["sources"][0]["url"] == "https://example.com" and t["headline"] == "Left the Broncos in free agency."
+
+
+def test_exits_file_entries_all_have_sources_and_valid_kinds():
+    ex = nfl.load_exits()
+    assert len(ex) >= 6
+    for (name, team), r in ex.items():
+        assert r["sources"] and all(s["url"].startswith("https://") for s in r["sources"]), name
+        assert r["kind"] in nfl.HEAD
