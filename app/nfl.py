@@ -222,7 +222,7 @@ def exit_for(p, left, logs, rows_for_year, t_all, today_iso):
                 if name not in sent:
                     continue
                 other = r["team"] != left["abbr"]
-                if not other and re.match(r"(Traded|Waived|Released)\b", sent) and "in exchange for" not in sent.split(name)[0]:
+                if not other and re.match(r"(Traded|Waived|Released?|Terminated)\b", sent) and "in exchange for" not in sent.split(name)[0]:
                     firm.append(("trade" if sent.startswith("Traded") else "waived", r["date"], sent))
                 elif other and re.match(r"(Acquired|Claimed|Received)\b", sent) and " from " in sent:
                     frm = sent.split(" from ", 1)[1]
@@ -230,10 +230,10 @@ def exit_for(p, left, logs, rows_for_year, t_all, today_iso):
                         firm.append(("waived" if sent.startswith("Claimed") else "trade", r["date"], sent))
                 elif other and new and r["team"] == new["abbr"] and sent.startswith("Traded") and "in exchange for" in sent \
                         and name in sent.split("in exchange for", 1)[1]:
-                    firm.append(("trade", r["date"], sent))      # the new club's side of a trade for him
+                    firm.append(("trade_new_side", r["date"], sent))      # the new club's side of a trade for him
                 elif other and sent.startswith("Signed") and (new is None or r["team"] == new["abbr"]):
                     later.append(("signed_elsewhere", r["date"], sent))
-    pick = max(firm, key=lambda x: x[1]) if firm else (min(later, key=lambda x: x[1]) if later else None)
+    pick = max(firm, key=lambda x: (x[0] != "trade_new_side", x[1])) if firm else (min(later, key=lambda x: x[1]) if later else None)
     if not pick:
         return None
     return {"kind": pick[0], "date": pick[1], "text": clip(pick[2], name), "new": new["short"] if new else ""}
@@ -248,9 +248,11 @@ def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso):
     played = f"Played for the {opp_info['short']} {span} ({n} games)."
     ex = exit_for(p, opp_info, logs, rows_for_year, t_all, today_iso)
     src = []
-    if ex and ex["kind"] in HEAD:
-        kind, conf = ex["kind"], "high"
+    if ex and ex["kind"] in HEAD | {"trade_new_side": ""}:
+        kind, conf = ("trade" if ex["kind"] == "trade_new_side" else ex["kind"]), "high"
         how = f"{ex['text']} ({pretty_date(ex['date'])})"
+        if ex["kind"] == "trade_new_side":
+            how = f"Traded to the {ex['new']}. ESPN's log: {how}"
         src = [{"label": "ESPN transactions", "url": EXPORT_URL}]
         head = HEAD[kind].format(t=opp_info["short"])
     else:

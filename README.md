@@ -84,3 +84,16 @@ No API keys are required. Optional notifications: Discord webhook or Telegram bo
 ## History (player vs player)
 `config/rivalries.yaml` lists documented rivalries (reason + source links). A History box shows on a card only when both players are on the two teams that day. Head-to-head stats are computed from ESPN game logs (games where both played, matched by game id) and are never typed in. To add one, give it a short factual reason and at least one source link; entries without both are ignored.
 Images are cached in `web/img/` and Basketball-Reference pages are fetched slowly (one every ~3 s), so the first run for a new slate takes a while; later runs use the cache. GitHub's servers may be blocked by Basketball-Reference, in which case revenge confidence falls back to ESPN data.
+
+
+## NFL board
+
+`python -m app.cli nfl` builds the current NFL week (every game day from today) into `web/data/nfl/`.
+It covers quarterbacks, running backs, receivers, tight ends and kickers on the official roster (backups included,
+practice squad and injured reserve left out), with the same Revenge / Hometown / Birthday / Holiday / History flags
+and position-based matchup grades from real box scores.
+
+- Revenge exits come from ESPN's transaction log (it keeps one log per calendar year, back to about 2015). Only trades
+  and releases found in the log are shown as confirmed. If the log has nothing, the card says the exit is not confirmed.
+- History boxes need sourced entries in `config/rivalries_nfl.yaml` (none yet).
+- Data is cached in `data/nfl.sqlite`; the first build is slow (about 25 minutes), later ones are quick.

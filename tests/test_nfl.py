@@ -78,7 +78,19 @@ def test_trade_found_from_the_new_clubs_side_only():
              "text": "Traded a 2026 second-round pick in exchange for TE Some Guy and a 2027 fifth-round pick."}]
     logs = _logs((7, ["2024-12-29"]), (12, ["2025-09-07"]))
     ex = nfl.exit_for({"name": "Some Guy"}, TEAMS[7], logs, lambda y: rows, TEAMS, "2026-10-29")
-    assert ex["kind"] == "trade" and ex["date"] == "2025-03-10"
+    assert ex["kind"] == "trade_new_side" and ex["date"] == "2025-03-10"
+    tag = nfl.revenge_tag({"name": "Some Guy"}, TEAMS[7], _logs((7, [f"2023-0{m}-10" for m in range(1, 7)] + ["2024-12-29"]), (12, ["2025-09-07"])),
+                          lambda y: rows, TEAMS, "2026-10-29")
+    assert tag["kind"] == "trade" and tag["confidence"] == "high" and tag["how_left"].startswith("Traded to the Chiefs.")
+    assert tag["headline"] == "Traded by the Broncos."
+
+
+def test_other_release_wordings_count():
+    for txt in ("Waived/injured WR Some Guy.", "Terminated the contract of WR Some Guy."):
+        pass
+    rows = [{"date": "2025-03-10", "team": "DEN", "name": "Denver Broncos", "text": "Waived/injured WR Some Guy."}]
+    logs = _logs((7, ["2024-12-29"]), (12, ["2025-09-07"]))
+    assert nfl.exit_for({"name": "Some Guy"}, TEAMS[7], logs, lambda y: rows, TEAMS, "2026-10-29")["kind"] == "waived"
 
 
 def test_pro_bowl_games_do_not_end_the_search_window():
