@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T19:46:03Z",
+ "generated_at": "2026-10-29T20:28:33Z",
  "season": "2026-27",
  "games": 3,
  "entries": [
@@ -58,6 +58,7 @@
        "date": "2026-10-27",
        "venue": "LAL",
        "opp": "LAL",
+       "tm": "POR",
        "home": false,
        "result": "W",
        "score": "136-129",
@@ -72,6 +73,7 @@
        "date": "2026-10-23",
        "venue": "SAC",
        "opp": "SAC",
+       "tm": "POR",
        "home": false,
        "result": "W",
        "score": "128-120",
@@ -86,6 +88,7 @@
        "date": "2026-10-21",
        "venue": "POR",
        "opp": "PHX",
+       "tm": "POR",
        "home": true,
        "result": "W",
        "score": "124-83",
@@ -100,6 +103,7 @@
        "date": "2026-01-21",
        "venue": "MEM",
        "opp": "ATL",
+       "tm": "MEM",
        "home": true,
        "result": "L",
        "score": "124-122",
@@ -114,6 +118,7 @@
        "date": "2026-01-18",
        "venue": "MEM",
        "opp": "ORL",
+       "tm": "MEM",
        "home": true,
        "result": "W",
        "score": "126-109",
@@ -173,7 +178,34 @@
     "best": "pts",
     "note": "MEM gives up the 3rd-most points to guards (66.0 a game, 4 games)."
    },
-   "career": []
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 18,
+      "lo": 11,
+      "hi": 27
+     },
+     {
+      "label": "Reb",
+      "proj": 2.9,
+      "lo": 0,
+      "hi": 5
+     },
+     {
+      "label": "Ast",
+      "proj": 7.7,
+      "lo": 3,
+      "hi": 12
+     }
+    ],
+    "games_used": 3,
+    "minutes": 27,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   },
   {
    "player_id": 2991070,
@@ -229,6 +261,7 @@
        "date": "2026-10-26",
        "venue": "UTA",
        "opp": "UTA",
+       "tm": "MEM",
        "home": false,
        "result": "W",
        "score": "110-105",
@@ -243,6 +276,7 @@
        "date": "2026-10-25",
        "venue": "SAC",
        "opp": "SAC",
+       "tm": "MEM",
        "home": false,
        "result": "W",
        "score": "123-112",
@@ -257,6 +291,7 @@
        "date": "2026-10-23",
        "venue": "GSW",
        "opp": "GSW",
+       "tm": "MEM",
        "home": false,
        "result": "W",
        "score": "111-108",
@@ -271,6 +306,7 @@
        "date": "2026-10-21",
        "venue": "MEM",
        "opp": "UTA",
+       "tm": "MEM",
        "home": true,
        "result": "W",
        "score": "123-103",
@@ -285,6 +321,7 @@
        "date": "2026-04-28",
        "venue": "SAS",
        "opp": "SAS",
+       "tm": "POR",
        "home": false,
        "result": "L",
        "score": "114-95",
@@ -344,7 +381,34 @@
     "best": "reb",
     "note": "POR gives up the 14th-most rebounds to forwards (19.3 a game, 3 games)."
    },
-   "career": []
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 13,
+      "lo": 4,
+      "hi": 23
+     },
+     {
+      "label": "Reb",
+      "proj": 2.7,
+      "lo": 1,
+      "hi": 5
+     },
+     {
+      "label": "Ast",
+      "proj": 1.5,
+      "lo": 0,
+      "hi": 3
+     }
+    ],
+    "games_used": 4,
+    "minutes": 24,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   },
   {
    "player_id": 4594326,
@@ -400,6 +464,7 @@
        "date": "2026-10-23",
        "venue": "GSW",
        "opp": "GSW",
+       "tm": "MEM",
        "home": false,
        "result": "W",
        "score": "111-108",
@@ -414,6 +479,7 @@
        "date": "2026-04-28",
        "venue": "SAS",
        "opp": "SAS",
+       "tm": "POR",
        "home": false,
        "result": "L",
        "score": "114-95",
@@ -428,6 +494,7 @@
        "date": "2026-04-26",
        "venue": "POR",
        "opp": "SAS",
+       "tm": "POR",
        "home": true,
        "result": "L",
        "score": "114-93",
@@ -442,6 +509,7 @@
        "date": "2026-04-24",
        "venue": "POR",
        "opp": "SAS",
+       "tm": "POR",
        "home": true,
        "result": "L",
        "score": "120-108",
@@ -456,6 +524,7 @@
        "date": "2026-04-21",
        "venue": "SAS",
        "opp": "SAS",
+       "tm": "POR",
        "home": false,
        "result": "W",
        "score": "106-103",
@@ -515,7 +584,8 @@
     "best": "reb",
     "note": "POR gives up the 14th-most rebounds to forwards (19.3 a game, 3 games)."
    },
-   "career": []
+   "career": [],
+   "projection": null
   },
   {
    "player_id": 4703115,
@@ -608,7 +678,8 @@
     "best": "ast",
     "note": "SAC gives up the 1st-most assists to guards (19.0 a game, 4 games)."
    },
-   "career": []
+   "career": [],
+   "projection": null
   },
   {
    "player_id": 5107897,
@@ -657,6 +728,7 @@
        "date": "2026-10-27",
        "venue": "SAS",
        "opp": "SAS",
+       "tm": "SAC",
        "home": false,
        "result": "L",
        "score": "130-103",
@@ -671,6 +743,7 @@
        "date": "2026-10-25",
        "venue": "SAC",
        "opp": "MEM",
+       "tm": "SAC",
        "home": true,
        "result": "L",
        "score": "123-112",
@@ -685,6 +758,7 @@
        "date": "2026-10-21",
        "venue": "LAC",
        "opp": "LAC",
+       "tm": "SAC",
        "home": false,
        "result": "L",
        "score": "121-96",
@@ -699,6 +773,7 @@
        "date": "2026-04-23",
        "venue": "TOR",
        "opp": "CLE",
+       "tm": "TOR",
        "home": true,
        "result": "W",
        "score": "126-104",
@@ -713,6 +788,7 @@
        "date": "2026-04-18",
        "venue": "CLE",
        "opp": "CLE",
+       "tm": "TOR",
        "home": false,
        "result": "L",
        "score": "126-113",
@@ -737,6 +813,7 @@
        "date": "2026-03-27",
        "venue": "TOR",
        "opp": "NOP",
+       "tm": "TOR",
        "home": true,
        "result": "W",
        "score": "119-106",
@@ -751,6 +828,7 @@
        "date": "2024-11-27",
        "venue": "NOP",
        "opp": "NOP",
+       "tm": "TOR",
        "home": false,
        "result": "W",
        "score": "119-93",
@@ -811,7 +889,34 @@
      "ast": 1.0,
      "scope": ""
     }
-   ]
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 4,
+      "lo": 0,
+      "hi": 12
+     },
+     {
+      "label": "Reb",
+      "proj": 3.7,
+      "lo": 0,
+      "hi": 9
+     },
+     {
+      "label": "Ast",
+      "proj": 1.3,
+      "lo": 0,
+      "hi": 3
+     }
+    ],
+    "games_used": 3,
+    "minutes": 15,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   }
  ],
  "warnings": [],
