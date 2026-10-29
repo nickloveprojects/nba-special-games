@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T13:45:06Z",
+ "generated_at": "2026-10-29T13:57:29Z",
  "season": "2026-27",
  "games": 3,
  "entries": [
@@ -139,32 +139,32 @@
    "opponent_logo": "img/teams/MEM.png",
    "matchup": {
     "group": "G",
-    "games": 3,
+    "games": 4,
     "stats": {
      "pts": {
-      "value": 64.7,
-      "rank": 6,
+      "value": 66.0,
+      "rank": 3,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 12.3,
-      "rank": 29,
+      "value": 18.0,
+      "rank": 6,
       "of": 30,
-      "color": "red"
+      "color": "green"
      },
      "ast": {
-      "value": 13.0,
-      "rank": 25,
+      "value": 15.2,
+      "rank": 17,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 34,
-    "grade": "D",
-    "color": "yellow",
+    "score": 74,
+    "grade": "B",
+    "color": "green",
     "best": "pts",
-    "note": "MEM gives up the 6th-most points to guards (64.7 a game, 3 games)."
+    "note": "MEM gives up the 3rd-most points to guards (66.0 a game, 4 games)."
    }
   },
   {
@@ -307,7 +307,7 @@
     "stats": {
      "pts": {
       "value": 41.3,
-      "rank": 21,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -324,7 +324,7 @@
       "color": "yellow"
      }
     },
-    "score": 46,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -468,7 +468,7 @@
     "stats": {
      "pts": {
       "value": 41.3,
-      "rank": 21,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -485,7 +485,7 @@
       "color": "yellow"
      }
     },
-    "score": 46,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -560,28 +560,28 @@
     "stats": {
      "pts": {
       "value": 58.5,
-      "rank": 14,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 15.0,
-      "rank": 17,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 19.0,
-      "rank": 2,
+      "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 66,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "SAC gives up the 2nd-most assists to guards (19.0 a game, 4 games)."
+    "note": "SAC gives up the 1st-most assists to guards (19.0 a game, 4 games)."
    }
   },
   {
@@ -746,28 +746,26 @@
      },
      "reb": {
       "value": 21.2,
-      "rank": 8,
+      "rank": 11,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "ast": {
       "value": 5.2,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 45,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "NOP gives up the 8th-most rebounds to forwards (21.2 a game, 4 games)."
+    "note": "NOP gives up the 11th-most rebounds to forwards (21.2 a game, 4 games)."
    }
   }
  ],
- "warnings": [
-  "Matchup data incomplete for 2026-10-26 (https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: Expecting value: line 1 column 1 (char 0))"
- ],
+ "warnings": [],
  "matchups": [
   {
    "away": "CLE",

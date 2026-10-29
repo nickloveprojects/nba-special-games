@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-29T13:45:29Z",
+ "generated_at": "2026-10-29T13:57:40Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -141,32 +141,32 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 52.8,
-      "rank": 23,
+      "value": 50.2,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 9,
+      "value": 16.4,
+      "rank": 13,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "ast": {
-      "value": 17.0,
-      "rank": 8,
+      "value": 16.8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 57,
+    "score": 52,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "CHA gives up the 8th-most assists to guards (17.0 a game, 4 games)."
+    "note": "CHA gives up the 7th-most assists to guards (16.8 a game, 5 games)."
    }
   },
   {
@@ -355,19 +355,19 @@
      },
      "reb": {
       "value": 17.5,
-      "rank": 8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 16.5,
-      "rank": 15,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 76,
-    "grade": "B",
+    "score": 82,
+    "grade": "A",
     "color": "green",
     "best": "pts",
     "note": "LAC gives up the 1st-most points to guards (75.2 a game, 4 games)."
@@ -562,32 +562,32 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "group": "F",
-    "games": 2,
+    "games": 3,
     "stats": {
      "pts": {
-      "value": 43.5,
-      "rank": 13,
+      "value": 31.0,
+      "rank": 29,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
-      "value": 19.5,
-      "rank": 13,
+      "value": 15.0,
+      "rank": 28,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 9.5,
-      "rank": 9,
+      "value": 7.3,
+      "rank": 19,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      }
     },
-    "score": 63,
-    "grade": "B",
-    "color": "yellow",
+    "score": 16,
+    "grade": "F",
+    "color": "red",
     "best": "ast",
-    "note": "PHX gives up the 9th-most assists to forwards (9.5 a game, 2 games)."
+    "note": "PHX gives up the 19th-most assists to forwards (7.3 a game, 3 games)."
    }
   },
   {
@@ -750,22 +750,22 @@
      },
      "reb": {
       "value": 13.0,
-      "rank": 3,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 2.2,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 71,
+    "score": 69,
     "grade": "B",
     "color": "green",
     "best": "reb",
-    "note": "PHI gives up the 3rd-most rebounds to centers (13.0 a game, 5 games)."
+    "note": "PHI gives up the 4th-most rebounds to centers (13.0 a game, 5 games)."
    }
   },
   {
@@ -922,28 +922,28 @@
     "stats": {
      "pts": {
       "value": 8.8,
-      "rank": 25,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 9.8,
-      "rank": 15,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 3.0,
-      "rank": 7,
+      "rank": 8,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 49,
+    "score": 47,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "TOR gives up the 7th-most assists to centers (3.0 a game, 4 games)."
+    "note": "TOR gives up the 8th-most assists to centers (3.0 a game, 4 games)."
    }
   },
   {
@@ -1109,32 +1109,32 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "group": "F",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
       "value": 42.2,
-      "rank": 19,
-      "of": 30,
-      "color": "yellow"
-     },
-     "reb": {
-      "value": 18.5,
       "rank": 18,
       "of": 30,
       "color": "yellow"
      },
+     "reb": {
+      "value": 17.0,
+      "rank": 21,
+      "of": 30,
+      "color": "red"
+     },
      "ast": {
-      "value": 10.8,
-      "rank": 2,
+      "value": 9.6,
+      "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 59,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "GSW gives up the 2nd-most assists to forwards (10.8 a game, 4 games)."
+    "note": "GSW gives up the 4th-most assists to forwards (9.6 a game, 5 games)."
    }
   },
   {
@@ -1277,22 +1277,22 @@
      },
      "reb": {
       "value": 7.6,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 3.2,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 44,
+    "score": 41,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "NYK gives up the 6th-most assists to centers (3.2 a game, 5 games)."
+    "note": "NYK gives up the 7th-most assists to centers (3.2 a game, 5 games)."
    }
   },
   {
@@ -1445,32 +1445,32 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "group": "G",
-    "games": 2,
+    "games": 3,
     "stats": {
      "pts": {
-      "value": 63.5,
-      "rank": 8,
+      "value": 73.3,
+      "rank": 2,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 15.5,
-      "rank": 16,
+      "value": 16.7,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 17.0,
+      "value": 16.7,
       "rank": 8,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 67,
+    "score": 79,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "PHX gives up the 8th-most points to guards (63.5 a game, 2 games)."
+    "note": "PHX gives up the 2nd-most points to guards (73.3 a game, 3 games)."
    }
   },
   {
@@ -1675,32 +1675,32 @@
    "opponent_logo": "img/teams/MIN.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 45.8,
-      "rank": 29,
-      "of": 30,
-      "color": "red"
-     },
-     "reb": {
-      "value": 14.2,
-      "rank": 18,
+      "value": 55.8,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
+     "reb": {
+      "value": 17.0,
+      "rank": 9,
+      "of": 30,
+      "color": "green"
+     },
      "ast": {
-      "value": 12.0,
-      "rank": 29,
+      "value": 14.4,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 16,
-    "grade": "F",
-    "color": "red",
+    "score": 44,
+    "grade": "C",
+    "color": "yellow",
     "best": "reb",
-    "note": "MIN gives up the 18th-most rebounds to guards (14.2 a game, 4 games)."
+    "note": "MIN gives up the 9th-most rebounds to guards (17.0 a game, 5 games)."
    }
   },
   {
@@ -1909,28 +1909,28 @@
     "stats": {
      "pts": {
       "value": 43.2,
-      "rank": 15,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 16.0,
-      "rank": 27,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 7.5,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 33,
+    "score": 37,
     "grade": "D",
-    "color": "red",
+    "color": "yellow",
     "best": "pts",
-    "note": "BKN gives up the 15th-most points to forwards (43.2 a game, 4 games)."
+    "note": "BKN gives up the 14th-most points to forwards (43.2 a game, 4 games)."
    }
   },
   {
@@ -2135,32 +2135,32 @@
    "opponent_logo": "img/teams/DEN.png",
    "matchup": {
     "group": "G",
-    "games": 3,
+    "games": 4,
     "stats": {
      "pts": {
-      "value": 57.0,
-      "rank": 17,
+      "value": 58.8,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 16.7,
-      "rank": 11,
+      "value": 17.2,
+      "rank": 8,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
-      "value": 16.3,
-      "rank": 16,
+      "value": 16.2,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 53,
-    "grade": "C",
+    "score": 61,
+    "grade": "B",
     "color": "yellow",
     "best": "reb",
-    "note": "DEN gives up the 11th-most rebounds to guards (16.7 a game, 3 games)."
+    "note": "DEN gives up the 8th-most rebounds to guards (17.2 a game, 4 games)."
    }
   },
   {
@@ -2381,12 +2381,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 17,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 68,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -2586,32 +2586,32 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "group": "F",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 46.0,
+      "value": 47.0,
       "rank": 7,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 16.5,
-      "rank": 24,
+      "value": 16.6,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 6.8,
-      "rank": 20,
+      "value": 5.8,
+      "rank": 26,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      }
     },
-    "score": 45,
-    "grade": "C",
+    "score": 39,
+    "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "CHA gives up the 7th-most points to forwards (46.0 a game, 4 games)."
+    "note": "CHA gives up the 7th-most points to forwards (47.0 a game, 5 games)."
    }
   },
   {
@@ -2836,16 +2836,16 @@
      },
      "ast": {
       "value": 10.6,
-      "rank": 4,
+      "rank": 2,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 74,
+    "score": 76,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "NYK gives up the 4th-most assists to forwards (10.6 a game, 5 games)."
+    "note": "NYK gives up the 2nd-most assists to forwards (10.6 a game, 5 games)."
    }
   },
   {
@@ -3058,19 +3058,19 @@
     "stats": {
      "pts": {
       "value": 43.2,
-      "rank": 15,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 20.0,
-      "rank": 10,
+      "rank": 13,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "ast": {
       "value": 10.2,
-      "rank": 5,
+      "rank": 3,
       "of": 30,
       "color": "green"
      }
@@ -3079,7 +3079,7 @@
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "ORL gives up the 5th-most assists to forwards (10.2 a game, 4 games)."
+    "note": "ORL gives up the 3rd-most assists to forwards (10.2 a game, 4 games)."
    }
   },
   {
@@ -3249,32 +3249,32 @@
    "opponent_logo": "img/teams/HOU.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 58.0,
-      "rank": 15,
+      "value": 59.4,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 16.0,
-      "rank": 14,
+      "value": 14.8,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 13.0,
+      "value": 14.0,
       "rank": 25,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 41,
-    "grade": "C",
+    "score": 38,
+    "grade": "D",
     "color": "yellow",
-    "best": "reb",
-    "note": "HOU gives up the 14th-most rebounds to guards (16.0 a game, 4 games)."
+    "best": "pts",
+    "note": "HOU gives up the 12th-most points to guards (59.4 a game, 5 games)."
    }
   },
   {
@@ -3470,32 +3470,32 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 61.2,
-      "rank": 12,
+      "value": 59.0,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 9,
+      "value": 14.6,
+      "rank": 21,
       "of": 30,
-      "color": "green"
+      "color": "red"
      },
      "ast": {
-      "value": 19.5,
-      "rank": 1,
+      "value": 17.4,
+      "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 78,
-    "grade": "B",
-    "color": "green",
+    "score": 59,
+    "grade": "C",
+    "color": "yellow",
     "best": "ast",
-    "note": "DAL gives up the 1st-most assists to guards (19.5 a game, 4 games)."
+    "note": "DAL gives up the 4th-most assists to guards (17.4 a game, 5 games)."
    }
   },
   {
@@ -3612,32 +3612,32 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 53.8,
-      "rank": 21,
+      "value": 54.2,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 14.2,
-      "rank": 18,
+      "value": 15.8,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 11.2,
-      "rank": 30,
+      "value": 13.0,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 24,
+    "score": 29,
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "IND gives up the 18th-most rebounds to guards (14.2 a game, 4 games)."
+    "note": "IND gives up the 15th-most rebounds to guards (15.8 a game, 5 games)."
    }
   },
   {
@@ -3846,32 +3846,32 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "group": "G",
-    "games": 4,
+    "games": 5,
     "stats": {
      "pts": {
-      "value": 53.8,
-      "rank": 21,
+      "value": 54.2,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 14.2,
-      "rank": 18,
+      "value": 15.8,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 11.2,
-      "rank": 30,
+      "value": 13.0,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 24,
+    "score": 29,
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "IND gives up the 18th-most rebounds to guards (14.2 a game, 4 games)."
+    "note": "IND gives up the 15th-most rebounds to guards (15.8 a game, 5 games)."
    }
   },
   {
@@ -4084,28 +4084,28 @@
     "stats": {
      "pts": {
       "value": 63.6,
-      "rank": 7,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 18.6,
-      "rank": 6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 16.6,
-      "rank": 14,
+      "rank": 9,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 72,
-    "grade": "B",
+    "score": 82,
+    "grade": "A",
     "color": "green",
-    "best": "reb",
-    "note": "LAL gives up the 6th-most rebounds to guards (18.6 a game, 5 games)."
+    "best": "pts",
+    "note": "LAL gives up the 5th-most points to guards (63.6 a game, 5 games)."
    }
   },
   {
@@ -4258,32 +4258,32 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "group": "F",
-    "games": 2,
+    "games": 3,
     "stats": {
      "pts": {
-      "value": 43.5,
-      "rank": 13,
+      "value": 31.0,
+      "rank": 29,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
-      "value": 19.5,
-      "rank": 13,
+      "value": 15.0,
+      "rank": 28,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 9.5,
-      "rank": 9,
+      "value": 7.3,
+      "rank": 19,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      }
     },
-    "score": 63,
-    "grade": "B",
-    "color": "yellow",
+    "score": 16,
+    "grade": "F",
+    "color": "red",
     "best": "ast",
-    "note": "PHX gives up the 9th-most assists to forwards (9.5 a game, 2 games)."
+    "note": "PHX gives up the 19th-most assists to forwards (7.3 a game, 3 games)."
    }
   },
   {
@@ -4483,28 +4483,28 @@
     "stats": {
      "pts": {
       "value": 63.6,
-      "rank": 7,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 18.6,
-      "rank": 6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 16.6,
-      "rank": 14,
+      "rank": 9,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 72,
-    "grade": "B",
+    "score": 82,
+    "grade": "A",
     "color": "green",
-    "best": "reb",
-    "note": "LAL gives up the 6th-most rebounds to guards (18.6 a game, 5 games)."
+    "best": "pts",
+    "note": "LAL gives up the 5th-most points to guards (63.6 a game, 5 games)."
    }
   },
   {
@@ -4702,32 +4702,32 @@
    "opponent_logo": "img/teams/DEN.png",
    "matchup": {
     "group": "G",
-    "games": 3,
+    "games": 4,
     "stats": {
      "pts": {
-      "value": 57.0,
-      "rank": 17,
+      "value": 58.8,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 16.7,
-      "rank": 11,
+      "value": 17.2,
+      "rank": 8,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
-      "value": 16.3,
-      "rank": 16,
+      "value": 16.2,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 53,
-    "grade": "C",
+    "score": 61,
+    "grade": "B",
     "color": "yellow",
     "best": "reb",
-    "note": "DEN gives up the 11th-most rebounds to guards (16.7 a game, 3 games)."
+    "note": "DEN gives up the 8th-most rebounds to guards (17.2 a game, 4 games)."
    }
   },
   {
@@ -4831,32 +4831,32 @@
    "opponent_logo": "img/teams/DEN.png",
    "matchup": {
     "group": "F",
-    "games": 3,
+    "games": 4,
     "stats": {
      "pts": {
-      "value": 30.3,
-      "rank": 29,
+      "value": 37.5,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 9.3,
+      "value": 12.5,
       "rank": 30,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 5.7,
-      "rank": 25,
+      "value": 8.0,
+      "rank": 13,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 7,
-    "grade": "F",
+    "score": 25,
+    "grade": "D",
     "color": "red",
     "best": "ast",
-    "note": "DEN gives up the 25th-most assists to forwards (5.7 a game, 3 games)."
+    "note": "DEN gives up the 13th-most assists to forwards (8.0 a game, 4 games)."
    }
   },
   {
@@ -5065,38 +5065,36 @@
    "opponent_logo": "img/teams/DEN.png",
    "matchup": {
     "group": "F",
-    "games": 3,
+    "games": 4,
     "stats": {
      "pts": {
-      "value": 30.3,
-      "rank": 29,
+      "value": 37.5,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 9.3,
+      "value": 12.5,
       "rank": 30,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 5.7,
-      "rank": 25,
+      "value": 8.0,
+      "rank": 13,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 7,
-    "grade": "F",
+    "score": 25,
+    "grade": "D",
     "color": "red",
     "best": "ast",
-    "note": "DEN gives up the 25th-most assists to forwards (5.7 a game, 3 games)."
+    "note": "DEN gives up the 13th-most assists to forwards (8.0 a game, 4 games)."
    }
   }
  ],
- "warnings": [
-  "Matchup data incomplete for 2026-10-26 (https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: Expecting value: line 1 column 1 (char 0))"
- ],
+ "warnings": [],
  "matchups": [
   {
    "away": "CHA",
