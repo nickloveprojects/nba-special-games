@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS gl(athlete_id INTEGER, season INTEGER, fetched TEXT, 
 CREATE TABLE IF NOT EXISTS teamhist(athlete_id INTEGER PRIMARY KEY, fetched TEXT, json TEXT);
 CREATE TABLE IF NOT EXISTS roster(team_id INTEGER PRIMARY KEY, fetched TEXT, json TEXT);
 CREATE TABLE IF NOT EXISTS box(game_id TEXT PRIMARY KEY, json TEXT);
-CREATE TABLE IF NOT EXISTS tx(id INTEGER PRIMARY KEY CHECK (id=1), fetched TEXT, json TEXT);
+CREATE TABLE IF NOT EXISTS tx2(year INTEGER PRIMARY KEY, fetched TEXT, json TEXT);
 """
 
 # Stadium coordinates (home venue of each club, ESPN abbreviations); used for hometown and career hometown games.
@@ -126,17 +126,22 @@ def roster(conn, team_id: int) -> list[dict]:
             conn.commit()
     out = []
     for grp in (data or {}).get("athletes", []):
-        if grp.get("position") in ("injuredReserveOrOut", "practiceSquad", "suspended"):
+        if grp.get("position") in ("injuredReserveOrOut", "suspended"):
             continue
+        ps = grp.get("position") == "practiceSquad"
         for a in grp.get("items", []):
             pos = GROUP.get(((a.get("position") or {}).get("abbreviation") or "").upper())
             if not pos or (a.get("status") or {}).get("type", "active") != "active":
                 continue
+            inj = ((a.get("injuries") or [{}])[0].get("status") or "").strip()
+            if any(w in inj.lower() for w in ("reserve", "suspend", "pup", "nfi")):
+                continue        # injured reserve etc: not playing this week
             bp = a.get("birthPlace") or {}
             out.append({"id": int(a["id"]), "name": a["fullName"], "pos": pos, "jersey": a.get("jersey") or "",
                         "dob": (a.get("dateOfBirth") or "")[:10], "city": bp.get("city", ""), "state": bp.get("state", ""),
                         "country": bp.get("country", ""), "years": (a.get("experience") or {}).get("years", 0) or 0,
-                        "headshot": ((a.get("headshot") or {}).get("href")), "team_id": team_id})
+                        "headshot": ((a.get("headshot") or {}).get("href")), "team_id": team_id,
+                        "practice_squad": ps, "injury": inj})
     return out
 
 
@@ -216,15 +221,15 @@ def past_teams(conn, athlete_id: int) -> dict[int, str]:
     return teams
 
 
-# ------------------------------------------------------------------ transactions (ESPN only keeps the current calendar year)
-def transactions(conn) -> list[dict]:
-    r = conn.execute("SELECT fetched, json FROM tx WHERE id=1").fetchone()
-    if r and _fresh(r["fetched"], 6):
+# ------------------------------------------------------------------ transactions (ESPN keeps a log per calendar year)
+def transactions_year(conn, year: int, current_year: int) -> list[dict]:
+    r = conn.execute("SELECT fetched, json FROM tx2 WHERE year=?", (year,)).fetchone()
+    if r and _fresh(r["fetched"], 6 if year >= current_year else 24 * 60):
         return json.loads(r["json"])
     rows = []
     try:
-        for pg in range(1, 12):
-            d = _get(f"{SITE}/transactions", {"limit": 500, "page": pg})
+        for pg in range(1, 40):
+            d = _get(f"{SITE}/transactions", {"season": year, "limit": 500, "page": pg})
             for t in d.get("transactions") or []:
                 if (t.get("description") or "").strip():
                     rows.append({"date": t["date"][:10], "team": t["team"]["abbreviation"],
@@ -235,33 +240,13 @@ def transactions(conn) -> list[dict]:
         if r:
             return json.loads(r["json"])
         raise
-    conn.execute("INSERT OR REPLACE INTO tx VALUES(1,?,?)", (_now().isoformat(timespec="seconds"), json.dumps(rows)))
+    conn.execute("INSERT OR REPLACE INTO tx2 VALUES(?,?,?)", (year, _now().isoformat(timespec="seconds"), json.dumps(rows)))
     conn.commit()
     return rows
 
 
 def _sentences(text: str) -> list[str]:
-    return [s.strip() + "." for s in re.split(r"(?<=[a-z0-9\)])\.\s+", text) if s.strip()]
-
-
-def find_exit(rows: list[dict], player: str, left_abbr: str, left_name: str, now_abbr: str) -> dict | None:
-    """A 2026 transaction that moved the player off the club he is now facing. None when ESPN's log has nothing."""
-    nick = left_name.split()[-1] if left_name else ""
-    place = " ".join(left_name.split()[:-1]) if left_name else ""
-    for t in sorted(rows, key=lambda x: x["date"], reverse=True):
-        if player not in t["text"]:
-            continue
-        for s in _sentences(t["text"]):
-            if player not in s:
-                continue
-            if t["team"] == left_abbr and re.match(r"(Traded|Waived|Released)", s):
-                kind = "trade" if s.startswith("Traded") else "waived"
-                return {"kind": kind, "date": t["date"], "text": s}
-            if t["team"] == now_abbr and s.startswith("Acquired") and " from " in s:
-                frm = s.split(" from ", 1)[1]
-                if (place and place.split()[-1] in frm) or (nick and nick in frm):
-                    return {"kind": "trade", "date": t["date"], "text": s}
-    return None
+    return [x.strip() + ("" if x.strip().endswith(".") else ".") for x in re.split(r"(?<=[a-z0-9\)])\.\s+(?=[A-Z])", text) if x.strip()]
 
 
 # ------------------------------------------------------------------ box scores (for matchup grades)
