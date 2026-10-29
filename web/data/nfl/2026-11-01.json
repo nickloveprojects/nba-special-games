@@ -138,7 +138,7 @@
     "stats": {
      "pass_yds": {
       "value": 245.1,
-      "rank": 6,
+      "rank": 7,
       "of": 32,
       "color": "green"
      },
@@ -153,7 +153,7 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 87,
+    "score": 85,
     "grade": "A",
     "color": "green",
     "best": "pass_td",
@@ -534,7 +534,7 @@
      },
      "rec": {
       "value": 11.5,
-      "rank": 9,
+      "rank": 10,
       "of": 32,
       "color": "green"
      }
@@ -543,7 +543,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 79,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "rec_yds",
@@ -736,7 +736,7 @@
      },
      "rec_yds": {
       "value": 33.7,
-      "rank": 10,
+      "rank": 11,
       "of": 32,
       "color": "green"
      }
@@ -745,11 +745,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 61,
+    "score": 60,
     "grade": "B",
     "color": "yellow",
     "best": "rec_yds",
-    "note": "IND gives up the 10th-most receiving yards to running backs (33.7 a game, 7 games)."
+    "note": "IND gives up the 11th-most receiving yards to running backs (33.7 a game, 7 games)."
    },
    "career": [],
    "tags": [
@@ -1377,13 +1377,13 @@
     "games": 6,
     "stats": {
      "rec_yds": {
-      "value": 38.8,
-      "rank": 26,
+      "value": 35.0,
+      "rank": 29,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 3.0,
+      "value": 2.2,
       "rank": 32,
       "of": 32,
       "color": "red"
@@ -1393,11 +1393,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 5,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "MIN gives up the 26th-most receiving yards to tight ends (38.8 a game, 6 games)."
+    "note": "MIN gives up the 29th-most receiving yards to tight ends (35 a game, 6 games)."
    },
    "career": [],
    "tags": [
@@ -2162,5 +2162,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T18:06:18+00:00"
+ "generated_at": "2026-10-29T18:33:24+00:00"
 }

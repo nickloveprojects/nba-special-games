@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-29T16:56:42Z",
+ "generated_at": "2026-10-29T18:20:15Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -375,12 +375,12 @@
      },
      "ast": {
       "value": 16.5,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 82,
+    "score": 80,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -1208,7 +1208,7 @@
       "color": "yellow"
      },
      "reb": {
-      "value": 17.0,
+      "value": 17.2,
       "rank": 21,
       "of": 30,
       "color": "red"
@@ -3081,16 +3081,16 @@
      },
      "ast": {
       "value": 10.6,
-      "rank": 2,
+      "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 76,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "NYK gives up the 2nd-most assists to forwards (10.6 a game, 5 games)."
+    "note": "NYK gives up the 1st-most assists to forwards (10.6 a game, 5 games)."
    },
    "career": [
     {
@@ -3544,8 +3544,8 @@
       "color": "yellow"
      },
      "reb": {
-      "value": 14.8,
-      "rank": 20,
+      "value": 15.0,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -3556,7 +3556,7 @@
       "color": "red"
      }
     },
-    "score": 38,
+    "score": 39,
     "grade": "D",
     "color": "yellow",
     "best": "pts",
@@ -4026,7 +4026,7 @@
        "score": "129-117",
        "min": 22,
        "pts": 14,
-       "reb": 3,
+       "reb": 2,
        "ast": 1,
        "playoff": false
       },
@@ -4089,7 +4089,7 @@
      ],
      "n": 5,
      "pts": 7.0,
-     "reb": 2.6,
+     "reb": 2.4,
      "ast": 0.8,
      "min": 19.6
     },

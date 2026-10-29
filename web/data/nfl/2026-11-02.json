@@ -124,7 +124,7 @@
     "stats": {
      "rush_yds": {
       "value": 70.4,
-      "rank": 26,
+      "rank": 25,
       "of": 32,
       "color": "red"
      },
@@ -139,7 +139,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 24,
+    "score": 26,
     "grade": "D",
     "color": "red",
     "best": "rec_yds",
@@ -181,5 +181,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T18:06:18+00:00"
+ "generated_at": "2026-10-29T18:33:44+00:00"
 }
