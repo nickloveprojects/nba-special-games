@@ -471,7 +471,7 @@
     "temp": 79,
     "wind": 14,
     "gust": 19,
-    "rain": 24
+    "rain": 20
    },
    "weather_text": "79\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
@@ -681,7 +681,7 @@
     "temp": 79,
     "wind": 14,
     "gust": 19,
-    "rain": 24
+    "rain": 20
    },
    "weather_text": "79\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
@@ -896,9 +896,9 @@
     "temp": 82,
     "wind": 14,
     "gust": 17,
-    "rain": 82
+    "rain": 84
    },
-   "weather_text": "82\u00b0F, wind 14 mph, 82% rain",
+   "weather_text": "82\u00b0F, wind 14 mph, 84% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1049,7 +1049,7 @@
     "temp": 66,
     "wind": 4,
     "gust": 7,
-    "rain": 2
+    "rain": 1
    },
    "weather_text": "66\u00b0F, wind 4 mph",
    "arena": "Acrisure Stadium",
@@ -2082,7 +2082,7 @@
     "temp": 66,
     "wind": 4,
     "gust": 7,
-    "rain": 2
+    "rain": 1
    },
    "weather_text": "66\u00b0F, wind 4 mph",
    "arena": "Acrisure Stadium",
@@ -2405,5 +2405,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T20:30:06+00:00"
+ "generated_at": "2026-10-29T20:58:37+00:00"
 }

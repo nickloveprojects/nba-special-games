@@ -23,12 +23,12 @@
    "tip_utc": "2026-10-30T00:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 51,
-    "wind": 6,
-    "gust": 16,
+    "temp": 52,
+    "wind": 7,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "51\u00b0F, wind 6 mph",
+   "weather_text": "52\u00b0F, wind 7 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -216,5 +216,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T20:30:05+00:00"
+ "generated_at": "2026-10-29T20:58:37+00:00"
 }
