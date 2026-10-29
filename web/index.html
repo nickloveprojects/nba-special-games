@@ -431,7 +431,7 @@ function card(e){
   const team=e.team_name||e.team;
   return `<article class="card" data-main="${main}">
     <div class="game"><div class="teams">${logo(e.team_logo,e.team)}${e.team} <span class="at">${e.home_away==="home"?"vs":"@"}</span> ${logo(e.opponent_logo,e.opponent)}${e.opponent}</div>
-      <div class="when">${esc(e.tip)}, ${esc(e.arena||e.location)}</div></div>
+      <div class="when">${esc(e.tip)}, ${esc(e.arena||e.location)}${e.weather_text?` · <span class="wx" title="Forecast for kickoff">${esc(e.weather_text)}</span>`:""}</div></div>
     <div class="player"><div class="shot"><span>${esc(initials(e.name))}</span>${e.headshot?`<img src="${esc(e.headshot)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
       <div class="who"><h2>${esc(e.name)}</h2><div class="id"><span class="pill"${pillFor(e)}>${logo(e.team_logo,"")}${esc(team)}</span>${pos?`<span class="pos">${esc(pos)}</span>`:""}${e.status_note?`<span class="snote" data-s="${esc(e.status_note.toLowerCase().replace(/[^a-z]+/g,"-"))}">${esc(e.status_note)}</span>`:""}</div></div>
       ${e.espn_url?`<a class="espn" href="${esc(e.espn_url)}" target="_blank" rel="noopener" aria-label="${esc(e.name)} on ESPN">${icon("link")}<span>ESPN</span></a>`:""}</div>

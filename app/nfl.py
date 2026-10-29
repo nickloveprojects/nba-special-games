@@ -10,7 +10,7 @@ from pathlib import Path
 
 import yaml
 
-from . import career, config, nfl_feed as feed, projection
+from . import career, config, nfl_feed as feed, projection, weather
 from .matchups import _color, _letter, _ordinal
 from .net import SourceError
 from .sources import geocode, media
@@ -425,6 +425,10 @@ def build_slates(today: date | None = None) -> list[dict]:
         d = date.fromisoformat(day)
         day_events = [e for e in events if e["date"] == day]
         prior = _prior_projections(day)
+        wx = {}
+        for e in day_events:
+            xy = feed.VENUE.get(id_abbr[int(e["home"]["id"])])
+            wx[e["game_id"]] = None if (e["neutral"] or not xy) else weather.forecast(xy[0], xy[1], e["tip_utc"], e["indoor"])
         entries = []
         for e in day_events:
             for side, other in (("home", "away"), ("away", "home")):
@@ -472,7 +476,7 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "team_color": mi["color"], "team_alt": mi["alt"], "opponent": oi["abbr"], "opponent_name": oi["short"],
                         "opponent_color": oi["color"], "position": p["pos"], "jersey": p["jersey"], "home_away": side,
                         "game_id": e["game_id"], "game_kind": e["kind"], "tip": e["tip"], "tip_utc": e["tip_utc"],
-                        "arena": e["arena"], "location": ", ".join(x for x in (e["venue_city"], e["venue_state"]) if x),
+                        "weather": wx[e["game_id"]], "weather_text": weather.label(wx[e["game_id"]]), "arena": e["arena"], "location": ", ".join(x for x in (e["venue_city"], e["venue_state"]) if x),
                         "categories": sorted({t["category"] for t in tags}, key=["Revenge", "Hometown", "Birthday", "Holiday", "History"].index),
                         "summary": _summary(tags[0], oi["short"]),
                         "score": float(sum(t["_score"] for t in tags)), "stats": {},
@@ -481,7 +485,8 @@ def build_slates(today: date | None = None) -> list[dict]:
                         "career": career_lines(p, logs, tags, oi["abbr"], oi["short"], d, id_abbr, hxy),
                         "projection": projection.freeze(
                             None if projection.started(e["tip_utc"]) else projection.project(
-                                p["pos"], logs, table, oi["abbr"], today, p["id"] * 100003 + int(e["game_id"]), p["injury"]),
+                                p["pos"], logs, table, oi["abbr"], today, p["id"] * 100003 + int(e["game_id"]), p["injury"],
+                                weather=weather.passing_factor(wx[e["game_id"]])),
                             prior.get(p["id"]), e["tip_utc"]),
                         "_headshot": p["headshot"], "tags": tags}
                     for t in tags:
