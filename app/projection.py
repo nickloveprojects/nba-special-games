@@ -22,13 +22,18 @@ OPP_STRENGTH = 0.5         # how much of the opponent's gap from average is appl
 OPP_CLAMP = (0.85, 1.15)
 YARD_SPREAD = 1.25        # backtest: yardage ranges held 71-76% of results, so they are stretched toward 80%
 
-# position -> [(gamelog field, label, matchup table key)]
+# position -> [(gamelog field, label, matchup table key, volume field, league yield per unit of volume)]
+# League yields (2024-26 regular season) pull a thin sample toward the norm: a catch rate or yards per carry from a few
+# games is mostly luck, while volume (targets, carries, attempts) carries over from week to week.
 STATS = {
-    "QB": [("passingYards", "Pass yds", "pass_yds"), ("passingTouchdowns", "Pass TD", "pass_td"), ("rushingYards", "Rush yds", None)],
-    "RB": [("rushingYards", "Rush yds", "rush_yds"), ("receptions", "Rec", None), ("receivingYards", "Rec yds", "rec_yds")],
-    "WR": [("receptions", "Rec", "rec"), ("receivingYards", "Rec yds", "rec_yds")],
-    "TE": [("receptions", "Rec", "rec"), ("receivingYards", "Rec yds", "rec_yds")],
+    "QB": [("passingYards", "Pass yds", "pass_yds", "passingAttempts", 7.07), ("passingTouchdowns", "Pass TD", "pass_td", "passingAttempts", 0.046),
+           ("rushingYards", "Rush yds", None, "rushingAttempts", 4.51)],
+    "RB": [("rushingYards", "Rush yds", "rush_yds", "rushingAttempts", 4.32), ("receptions", "Rec", None, "receivingTargets", 0.788),
+           ("receivingYards", "Rec yds", "rec_yds", "receivingTargets", 5.87)],
+    "WR": [("receptions", "Rec", "rec", "receivingTargets", 0.628), ("receivingYards", "Rec yds", "rec_yds", "receivingTargets", 7.95)],
+    "TE": [("receptions", "Rec", "rec", "receivingTargets", 0.723), ("receivingYards", "Rec yds", "rec_yds", "receivingTargets", 7.27)],
 }
+SHRINK = 15.0              # weight, in units of volume, given to the league yield (backtest: 15 beat 0 and 40)
 TD_FIELDS = {"RB": ("rushingTouchdowns", "receivingTouchdowns"), "WR": ("receivingTouchdowns",), "TE": ("receivingTouchdowns",)}
 # a player listed with one of these is not expected to play, so no projection is shown
 NO_PROJECTION = ("out", "doubtful", "injured reserve", "suspended", "pup", "nfi")
@@ -70,6 +75,19 @@ def _round(label: str, v: float) -> float:
     return round(v, 1) if label in ("Rec", "Pass TD") else round(v)
 
 
+def _shrink_scale(games: list[dict], w: list[float], field: str, vol_field: str, league: float) -> float:
+    """Ratio that moves the weighted average to volume x shrunk yield, so thin-sample luck counts for less."""
+    tw = sum(w)
+    raw = sum(g["row"].get(field, 0.0) * x for g, x in zip(games, w)) / tw
+    vol = sum(g["row"].get(vol_field, 0.0) * x for g, x in zip(games, w)) / tw
+    if raw <= 0 or vol < 1.0:
+        return 1.0
+    y = sum(g["row"].get(field, 0.0) * x for g, x in zip(games, w))
+    v = sum(g["row"].get(vol_field, 0.0) * x for g, x in zip(games, w))
+    shrunk = vol * (y + SHRINK * league) / (v + SHRINK)
+    return min(1.3, max(0.7, shrunk / raw))
+
+
 def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed: int,
             status: str = "", sims: int = SIMS) -> dict | None:
     """Projection for one player, or None when there is too little to go on."""
@@ -82,9 +100,10 @@ def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed
     rng = random.Random(seed)
     picks = rng.choices(range(len(games)), weights=w, k=sims)
     lines = []
-    for field, label, key in STATS[pos]:
+    for field, label, key, vol_field, league in STATS[pos]:
         f = opp_factor(table, opp, pos, key)
-        vals = sorted(games[i]["row"].get(field, 0.0) * f for i in picks)
+        scale = _shrink_scale(games, w, field, vol_field, league)
+        vals = sorted(games[i]["row"].get(field, 0.0) * f * scale for i in picks)
         mean = sum(vals) / len(vals)
         lo, hi = _pct(vals, 0.1), _pct(vals, 0.9)
         if "yds" in label:

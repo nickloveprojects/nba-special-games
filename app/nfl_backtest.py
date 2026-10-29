@@ -27,7 +27,7 @@ def evaluate(players: list[tuple[str, list[dict]]], sims: int = 400) -> dict:
             if not p:
                 continue
             prior = projection.recent(logs[:i], d)
-            for (field, label, _k), line in zip(projection.STATS[pos], p["lines"]):
+            for (field, label, *_rest), line in zip(projection.STATS[pos], p["lines"]):
                 actual = g["row"].get(field, 0.0)
                 vals = [x["row"].get(field, 0.0) for x in prior]
                 s = acc.setdefault(f"{pos} {label}", {"n": 0, "model": 0.0, "avg": 0.0, "last": 0.0, "in": 0})

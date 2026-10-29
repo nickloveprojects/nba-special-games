@@ -71,3 +71,9 @@ def test_yardage_range_is_wider_than_raw_spread():
     p = pj.project("WR", mixed, {}, "X", TODAY, 3, "")
     yds = p["lines"][1]
     assert yds["lo"] <= 30 and yds["hi"] >= 110
+
+
+def test_lucky_efficiency_is_pulled_toward_league_norm():
+    lucky = [g(f"2026-10-{d:02d}", receptions=3, receivingTargets=3, receivingYards=60) for d in (2, 9, 16, 23)]  # 20 yds/target
+    p = pj.project("WR", lucky, {}, "X", TODAY, 1, "")
+    assert 3 * 7.95 < p["lines"][1]["proj"] < 60
