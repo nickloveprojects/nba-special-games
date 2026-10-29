@@ -38,7 +38,9 @@ jobs:
       - name: Restore saved player data
         uses: actions/cache@v4
         with:
-          path: data/nba.sqlite
+          path: |
+            data/nba.sqlite
+            data/nfl.sqlite
           key: nba-db-${{ github.run_id }}
           restore-keys: nba-db-
 
@@ -48,6 +50,10 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m app.cli run --days 2 --notify
+
+      - name: Build this week's NFL lists
+        continue-on-error: true   # an NFL hiccup should never stop the NBA page from updating
+        run: python -m app.cli nfl
 
       - name: Save the lists
         run: |
