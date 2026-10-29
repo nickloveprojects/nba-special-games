@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 13 * * *"      # 13:00 UTC = 9am Eastern in summer, 8am in winter
     - cron: "0 22 * * *"      # 6pm Eastern: refresh tomorrow's list after late news
+    - cron: "30 15,17,19 * * 0"   # Sundays before each kickoff window: pick up inactives and refresh projections
+    - cron: "30 22 * * 1,4"       # Thursday and Monday night games
   push:
     branches: [main]
     paths: ["web/index.html", "app/**", "config/**", ".github/workflows/daily.yml"]

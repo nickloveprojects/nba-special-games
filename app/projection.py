@@ -20,6 +20,7 @@ MAX_AGE_DAYS = 420         # ignore games older than this (about one season plus
 MIN_GAMES = 3
 OPP_STRENGTH = 0.5         # how much of the opponent's gap from average is applied
 OPP_CLAMP = (0.85, 1.15)
+YARD_SPREAD = 1.25        # backtest: yardage ranges held 71-76% of results, so they are stretched toward 80%
 
 # position -> [(gamelog field, label, matchup table key)]
 STATS = {
@@ -85,8 +86,10 @@ def project(pos: str, logs: list[dict], table: dict, opp: str, today: date, seed
         f = opp_factor(table, opp, pos, key)
         vals = sorted(games[i]["row"].get(field, 0.0) * f for i in picks)
         mean = sum(vals) / len(vals)
-        lines.append({"label": label, "proj": _round(label, mean), "lo": _round(label, _pct(vals, 0.1)),
-                      "hi": _round(label, _pct(vals, 0.9))})
+        lo, hi = _pct(vals, 0.1), _pct(vals, 0.9)
+        if "yds" in label:
+            lo, hi = mean - (mean - lo) * YARD_SPREAD, mean + (hi - mean) * YARD_SPREAD
+        lines.append({"label": label, "proj": _round(label, mean), "lo": _round(label, lo), "hi": _round(label, hi)})
     out = {"lines": lines, "games_used": len(games), "sims": sims}
     if pos in TD_FIELDS:
         per_game = [sum(g["row"].get(k, 0.0) for k in TD_FIELDS[pos]) for g in games]

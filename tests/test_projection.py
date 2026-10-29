@@ -64,3 +64,10 @@ def test_freeze_locks_after_kickoff():
     assert pj.freeze(fresh, old, tip, before) == {"lines": [1], "locked": False}
     assert pj.freeze(None, old, tip, after) == {"lines": [2], "locked": True}
     assert pj.freeze(None, None, tip, after) is None
+
+
+def test_yardage_range_is_wider_than_raw_spread():
+    mixed = [g(f"2026-10-{d:02d}", receptions=r, receivingYards=y) for d, r, y in ((2, 3, 30), (9, 8, 110), (16, 5, 60), (23, 7, 95))]
+    p = pj.project("WR", mixed, {}, "X", TODAY, 3, "")
+    yds = p["lines"][1]
+    assert yds["lo"] <= 30 and yds["hi"] >= 110
