@@ -12,6 +12,8 @@ def main():
     r.add_argument("--preseason", action="store_true")
     r.add_argument("--days", type=int, default=1, help="how many game days to build (2 = today and the next game day)")
     r.add_argument("--notify", action="store_true")
+    n = sub.add_parser("nfl", help="build the NFL week (every game day from today)")
+    n.add_argument("--date", help="pretend today is YYYY-MM-DD")
     t = sub.add_parser("import-transactions", help="load trades from CSV (date,player,from_team,to_team,type)")
     t.add_argument("path")
     d = sub.add_parser("daemon", help="run the pipeline every morning (APScheduler)")
@@ -33,6 +35,11 @@ def main():
             target = date.fromisoformat(slate["date"]) + timedelta(days=1)
         if a.days > 1:   # the site only keeps today and the next game day
             output.finalize(built)
+    elif a.cmd == "nfl":
+        from . import nfl
+        slates = nfl.run(date.fromisoformat(a.date) if a.date else None)
+        for s in slates:
+            print(f"{s['date']}: {s['games']} games, {len(s['entries'])} flagged players, {len(s['warnings'])} warnings")
     elif a.cmd == "import-transactions":
         from . import db
         from .sources import transactions

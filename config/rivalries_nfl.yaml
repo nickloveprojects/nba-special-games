@@ -1,0 +1,4 @@
+# Documented player-vs-player history for the NFL board. Same rules as rivalries.yaml:
+# a History box appears ONLY for pairs listed here, when both players are on the two teams in that game,
+# and each entry needs a short checkable "reason" and at least one source link. Stats are computed, never typed.
+rivalries: []
