@@ -1,0 +1,185 @@
+{
+ "date": "2026-11-02",
+ "sport": "nfl",
+ "week": 8,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 4035693,
+   "name": "Velus Jones Jr.",
+   "team": "SEA",
+   "team_name": "Seahawks",
+   "team_color": "#002a5c",
+   "team_alt": "#69be28",
+   "opponent": "CHI",
+   "opponent_name": "Bears",
+   "opponent_color": "#0b1c3a",
+   "position": "RB",
+   "jersey": "33",
+   "home_away": "home",
+   "game_id": "401873036",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-03T01:15:00+00:00",
+   "arena": "Lumen Field",
+   "location": "Seattle, WA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Bears, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "Questionable",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4035693",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 5.6 rush yds, 0 TD, 0.2 rec",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "KC",
+       "result": "W",
+       "cells": [
+        "5",
+        "8",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-15",
+       "home": false,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "4",
+        "20",
+        "0",
+        "1",
+        "-1"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "WSH",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "CHI",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs CHI in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "RB",
+    "games": 7,
+    "stats": {
+     "rush_yds": {
+      "value": 70.4,
+      "rank": 26,
+      "of": 32,
+      "color": "red"
+     },
+     "rec_yds": {
+      "value": 24.4,
+      "rank": 23,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 24,
+    "grade": "D",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "CHI gives up the 23rd-most receiving yards to running backs (24.4 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Bears.",
+     "detail": "Played for the Bears from 2022 to 2024 (27 games).",
+     "how_left": "Waived by the Bears on Oct 25, 2024, after being a healthy scratch for five straight games.",
+     "sources": [
+      {
+       "label": "Yahoo Sports",
+       "url": "https://ca.sports.yahoo.com/news/bears-waive-velus-jones-jr-204335870.html"
+      },
+      {
+       "label": "Pro Football Rumors",
+       "url": "https://www.profootballrumors.com/transactions/page/304"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/4035693.png",
+   "team_logo": "img/nfl/teams/SEA.png",
+   "opponent_logo": "img/nfl/teams/CHI.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "CHI",
+   "home": "SEA",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/CHI.png",
+   "home_logo": "img/nfl/teams/SEA.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-10-29T18:06:18+00:00"
+}

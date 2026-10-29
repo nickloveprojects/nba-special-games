@@ -1,0 +1,2166 @@
+{
+ "date": "2026-11-01",
+ "sport": "nfl",
+ "week": 8,
+ "games": 12,
+ "entries": [
+  {
+   "player_id": 15864,
+   "name": "Geno Smith",
+   "team": "NYJ",
+   "team_name": "Jets",
+   "team_color": "#115740",
+   "team_alt": "#ffffff",
+   "opponent": "LV",
+   "opponent_name": "Raiders",
+   "opponent_color": "#000000",
+   "position": "QB",
+   "jersey": "7",
+   "home_away": "home",
+   "game_id": "401873029",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "MetLife Stadium",
+   "location": "East Rutherford, NJ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Raiders, who traded him.",
+   "score": 5.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/15864",
+   "recent": {
+    "cols": [
+     "C/ATT",
+     "YDS",
+     "TD",
+     "INT",
+     "RUSH"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 232.2 pass yds, 1.8 TD, 0.4 INT",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "MIA",
+       "result": "L",
+       "cells": [
+        "23/30",
+        "287",
+        "3",
+        "1",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "20/30",
+        "252",
+        "1",
+        "1",
+        "-1"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "CLE",
+       "result": "W",
+       "cells": [
+        "17/30",
+        "182",
+        "1",
+        "0",
+        "7"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "8/15",
+        "119",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "31/37",
+        "321",
+        "3",
+        "0",
+        "12"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "LV",
+     "n": 1,
+     "text": "avg 328 pass yds, 2 TD, 1 INT",
+     "games": [
+      {
+       "date": "2022-11-27",
+       "home": true,
+       "opp": "LV",
+       "result": "L",
+       "cells": [
+        "27/37",
+        "328",
+        "2",
+        "1",
+        "22"
+       ]
+      }
+     ],
+     "note": "No games vs LV in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "QB",
+    "games": 7,
+    "stats": {
+     "pass_yds": {
+      "value": 245.1,
+      "rank": 6,
+      "of": 32,
+      "color": "green"
+     },
+     "pass_td": {
+      "value": 2.3,
+      "rank": 4,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "pass_yds": "PASS YDS",
+     "pass_td": "PASS TD"
+    },
+    "score": 87,
+    "grade": "A",
+    "color": "green",
+    "best": "pass_td",
+    "note": "LV gives up the 4th-most passing touchdowns to quarterbacks (2.3 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Traded by the Raiders.",
+     "detail": "Played for the Raiders in 2025 (15 games).",
+     "how_left": "Traded to the Jets in March 2026: the Raiders sent Smith and a seventh-round pick for a sixth-round pick.",
+     "sources": [
+      {
+       "label": "AP via WTOP",
+       "url": "https://wtop.com/nfl/2026/03/geno-smith-set-to-return-to-the-jets-in-a-trade-with-the-raiders-ap-source-says/"
+      },
+      {
+       "label": "NFL.com",
+       "url": "https://www.nfl.com/_amp/raiders-trading-qb-geno-smith-to-jets-in-late-round-pick-swap"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/15864.png",
+   "team_logo": "img/nfl/teams/NYJ.png",
+   "opponent_logo": "img/nfl/teams/LV.png"
+  },
+  {
+   "player_id": 4036133,
+   "name": "T.J. Hockenson",
+   "team": "MIN",
+   "team_name": "Vikings",
+   "team_color": "#4f2683",
+   "team_alt": "#ffc62f",
+   "opponent": "DET",
+   "opponent_name": "Lions",
+   "opponent_color": "#0076b6",
+   "position": "TE",
+   "jersey": "87",
+   "home_away": "away",
+   "game_id": "401873030",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "Ford Field",
+   "location": "Detroit, MI",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Lions, who traded him.",
+   "score": 5.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4036133",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 4.6 rec, 40.2 yds, 0.2 TD",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "IND",
+       "result": "W",
+       "cells": [
+        "4",
+        "5",
+        "35",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "NO",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "7",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "13",
+        "13",
+        "119",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "TB",
+       "result": "W",
+       "cells": [
+        "2",
+        "4",
+        "11",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": false,
+       "opp": "CHI",
+       "result": "W",
+       "cells": [
+        "3",
+        "4",
+        "29",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "DET",
+     "n": 4,
+     "text": "avg 3.5 rec, 38.8 yds, 0.2 TD",
+     "games": [
+      {
+       "date": "2025-11-02",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "2",
+        "3",
+        "11",
+        "1"
+       ]
+      },
+      {
+       "date": "2025-01-05",
+       "home": false,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "2",
+        "8",
+        "9",
+        "0"
+       ]
+      },
+      {
+       "date": "2023-12-24",
+       "home": true,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "4",
+        "4",
+        "58",
+        "0"
+       ]
+      },
+      {
+       "date": "2022-12-11",
+       "home": false,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "6",
+        "8",
+        "77",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs DET in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "TE",
+    "games": 6,
+    "stats": {
+     "rec_yds": {
+      "value": 100.3,
+      "rank": 1,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 9.3,
+      "rank": 1,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 100,
+    "grade": "A",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "DET gives up the 1st-most receiving yards to tight ends (100.3 a game, 6 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Traded by the Lions.",
+     "detail": "Played for the Lions from 2019 to 2022 (47 games).",
+     "how_left": "Traded to the Vikings. ESPN's log: Traded a 2023 second-round and a 2024 third-round draft pick in exchange for TE T.J. Hockenson, a 2023 fourth-round pick and a 2024 conditional fourth round pick. (Nov 1, 2022)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/4036133.png",
+   "team_logo": "img/nfl/teams/MIN.png",
+   "opponent_logo": "img/nfl/teams/DET.png"
+  },
+  {
+   "player_id": 3051889,
+   "name": "Laquon Treadwell",
+   "team": "IND",
+   "team_name": "Colts",
+   "team_color": "#003b75",
+   "team_alt": "#ffffff",
+   "opponent": "JAX",
+   "opponent_name": "Jaguars",
+   "opponent_color": "#007487",
+   "position": "WR",
+   "jersey": "13",
+   "home_away": "away",
+   "game_id": "401873028",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "EverBank Stadium",
+   "location": "Jacksonville, FL",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Jaguars, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3051889",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 2.4 rec, 27.2 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "2",
+        "2",
+        "19",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "TEN",
+       "result": "L",
+       "cells": [
+        "2",
+        "5",
+        "21",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "PIT",
+       "result": "L",
+       "cells": [
+        "2",
+        "8",
+        "34",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "5",
+        "6",
+        "42",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "HOU",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "20",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "JAX",
+     "n": 2,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2025-12-28",
+       "home": true,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-12-07",
+       "home": false,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs JAX in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "WR",
+    "games": 6,
+    "stats": {
+     "rec_yds": {
+      "value": 169.5,
+      "rank": 6,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 11.5,
+      "rank": 9,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 79,
+    "grade": "B",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "JAX gives up the 6th-most receiving yards to receivers (169.5 a game, 6 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Jaguars.",
+     "detail": "Played for the Jaguars in 2021 (12 games).",
+     "how_left": "Released WR Laquon Treadwell. (Aug 24, 2022)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/3051889.png",
+   "team_logo": "img/nfl/teams/IND.png",
+   "opponent_logo": "img/nfl/teams/JAX.png"
+  },
+  {
+   "player_id": 2576336,
+   "name": "Ameer Abdullah",
+   "team": "JAX",
+   "team_name": "Jaguars",
+   "team_color": "#007487",
+   "team_alt": "#d7a22a",
+   "opponent": "IND",
+   "opponent_name": "Colts",
+   "opponent_color": "#003b75",
+   "position": "RB",
+   "jersey": "20",
+   "home_away": "home",
+   "game_id": "401873028",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "EverBank Stadium",
+   "location": "Jacksonville, FL",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Colts, his former team.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/2576336",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 2.6 rush yds, 0 TD, 0.2 rec",
+     "games": [
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "HOU",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "PHI",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "CIN",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "NE",
+       "result": "W",
+       "cells": [
+        "3",
+        "2",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": false,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "3",
+        "11",
+        "0",
+        "1",
+        "2"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "IND",
+     "n": 3,
+     "text": "avg 1.3 rush yds, 0 TD, 1.7 rec",
+     "games": [
+      {
+       "date": "2023-12-31",
+       "home": false,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "1",
+        "4",
+        "0",
+        "1",
+        "18"
+       ]
+      },
+      {
+       "date": "2022-11-13",
+       "home": true,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "4",
+        "33"
+       ]
+      },
+      {
+       "date": "2020-09-20",
+       "home": false,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs IND in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "RB",
+    "games": 7,
+    "stats": {
+     "rush_yds": {
+      "value": 83.7,
+      "rank": 16,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec_yds": {
+      "value": 33.7,
+      "rank": 10,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 61,
+    "grade": "B",
+    "color": "yellow",
+    "best": "rec_yds",
+    "note": "IND gives up the 10th-most receiving yards to running backs (33.7 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "free_agency",
+     "confidence": "high",
+     "headline": "Left the Colts in free agency.",
+     "detail": "Played for the Colts in 2025 (13 games).",
+     "how_left": "Reached free agency after the 2025 season (the Colts could have re-signed him); signed with the Jaguars on May 11, 2026.",
+     "sources": [
+      {
+       "label": "Yahoo Sports (Feb 20, 2026)",
+       "url": "https://sports.yahoo.com/articles/ameer-abdullah-contract-projection-colts-193653697.html"
+      },
+      {
+       "label": "Heavy.com",
+       "url": "https://heavy.com/sports/nfl/indianapolis-colts/colts-ameer-abdullah-signs-rival-jaguars/"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/2576336.png",
+   "team_logo": "img/nfl/teams/JAX.png",
+   "opponent_logo": "img/nfl/teams/IND.png"
+  },
+  {
+   "player_id": 4569923,
+   "name": "Andy Borregales",
+   "team": "NE",
+   "team_name": "Patriots",
+   "team_color": "#002a5c",
+   "team_alt": "#c60c30",
+   "opponent": "MIA",
+   "opponent_name": "Dolphins",
+   "opponent_color": "#008e97",
+   "position": "K",
+   "jersey": "8",
+   "home_away": "away",
+   "game_id": "401873034",
+   "game_kind": "Regular season",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-01T21:25:00+00:00",
+   "arena": "Hard Rock Stadium",
+   "location": "Miami Gardens, FL",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4569923",
+   "recent": {
+    "cols": [
+     "FG",
+     "XP"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1.2 FG, 2.8 XP",
+     "games": [
+      {
+       "date": "2026-10-22",
+       "home": false,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "1/1",
+        "3/3"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "2/2",
+        "2/3"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "6/6"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "BUF",
+       "result": "W",
+       "cells": [
+        "0/0",
+        "3/3"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "2/3",
+        "0/0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "MIA",
+     "n": 2,
+     "text": "avg 1.5 FG, 3 XP",
+     "games": [
+      {
+       "date": "2026-01-04",
+       "home": true,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "1/2",
+        "5/5"
+       ]
+      },
+      {
+       "date": "2025-09-14",
+       "home": false,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "2/2",
+        "1/3"
+       ]
+      }
+     ],
+     "note": "No games vs MIA in the last 8 seasons."
+    }
+   },
+   "matchup": null,
+   "career": [
+    {
+     "label": "Hometown games",
+     "text": " In his hometown area: 1 time (avg 2 FG, 1 XP).",
+     "scope": "since 2025"
+    }
+   ],
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Miami, FL, about 13 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q8652"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/4569923.png",
+   "team_logo": "img/nfl/teams/NE.png",
+   "opponent_logo": "img/nfl/teams/MIA.png"
+  },
+  {
+   "player_id": 5081508,
+   "name": "Eli Heidenreich",
+   "team": "PIT",
+   "team_name": "Steelers",
+   "team_color": "#000000",
+   "team_alt": "#ffb612",
+   "opponent": "CLE",
+   "opponent_name": "Browns",
+   "opponent_color": "#472a08",
+   "position": "RB",
+   "jersey": "29",
+   "home_away": "home",
+   "game_id": "401873027",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "Acrisure Stadium",
+   "location": "Pittsburgh, PA",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/5081508",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 1,
+     "text": "avg 0 rush yds, 0 TD, 0 rec",
+     "games": [
+      {
+       "date": "2026-09-20",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "CLE",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs CLE in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "RB",
+    "games": 7,
+    "stats": {
+     "rush_yds": {
+      "value": 104.0,
+      "rank": 4,
+      "of": 32,
+      "color": "green"
+     },
+     "rec_yds": {
+      "value": 20.0,
+      "rank": 27,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 53,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rush_yds",
+    "note": "CLE gives up the 4th-most rushing yards to running backs (104 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Pittsburgh, PA, about 1 mile from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q1342"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/5081508.png",
+   "team_logo": "img/nfl/teams/PIT.png",
+   "opponent_logo": "img/nfl/teams/CLE.png"
+  },
+  {
+   "player_id": 2976212,
+   "name": "Stefon Diggs",
+   "team": "WSH",
+   "team_name": "Commanders",
+   "team_color": "#5a1414",
+   "team_alt": "#ffb612",
+   "opponent": "PHI",
+   "opponent_name": "Eagles",
+   "opponent_color": "#06424d",
+   "position": "WR",
+   "jersey": "3",
+   "home_away": "home",
+   "game_id": "401873035",
+   "game_kind": "Regular season",
+   "tip": "8:20 PM ET",
+   "tip_utc": "2026-11-02T01:20:00+00:00",
+   "arena": "Northwest Stadium",
+   "location": "Landover, MD",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "Questionable",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/2976212",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 4.8 rec, 42.8 yds, 0.8 TD",
+     "games": [
+      {
+       "date": "2026-10-19",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "6",
+        "7",
+        "44",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "5",
+        "9",
+        "35",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "SEA",
+       "result": "W",
+       "cells": [
+        "4",
+        "7",
+        "33",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": false,
+       "opp": "DAL",
+       "result": "L",
+       "cells": [
+        "5",
+        "6",
+        "47",
+        "2"
+       ]
+      },
+      {
+       "date": "2026-09-13",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "4",
+        "9",
+        "55",
+        "1"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "PHI",
+     "n": 3,
+     "text": "avg 5.7 rec, 98.7 yds, 1.7 TD",
+     "games": [
+      {
+       "date": "2026-09-13",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "4",
+        "9",
+        "55",
+        "1"
+       ]
+      },
+      {
+       "date": "2023-11-26",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "6",
+        "11",
+        "74",
+        "1"
+       ]
+      },
+      {
+       "date": "2019-10-13",
+       "home": true,
+       "opp": "PHI",
+       "result": "W",
+       "cells": [
+        "7",
+        "11",
+        "167",
+        "3"
+       ]
+      }
+     ],
+     "note": "No games vs PHI in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "WR",
+    "games": 7,
+    "stats": {
+     "rec_yds": {
+      "value": 178.1,
+      "rank": 3,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 12.1,
+      "rank": 7,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 87,
+    "grade": "A",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "PHI gives up the 3rd-most receiving yards to receivers (178.1 a game, 7 games)."
+   },
+   "career": [
+    {
+     "label": "Hometown games",
+     "text": " In his hometown area: 3 times (avg 5.7 rec, 59.7 yds, 0 TD).",
+     "scope": "since 2019"
+    }
+   ],
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Gaithersburg, MD, about 24 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q752719"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/2976212.png",
+   "team_logo": "img/nfl/teams/WSH.png",
+   "opponent_logo": "img/nfl/teams/PHI.png"
+  },
+  {
+   "player_id": 3915486,
+   "name": "Tyler Conklin",
+   "team": "DET",
+   "team_name": "Lions",
+   "team_color": "#0076b6",
+   "team_alt": "#bbbbbb",
+   "opponent": "MIN",
+   "opponent_name": "Vikings",
+   "opponent_color": "#4f2683",
+   "position": "TE",
+   "jersey": "83",
+   "home_away": "home",
+   "game_id": "401873030",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "Ford Field",
+   "location": "Detroit, MI",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Vikings, his former team.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3915486",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0.4 rec, 2 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "GB",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "4",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "ARI",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-17",
+       "home": false,
+       "opp": "BUF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-13",
+       "home": true,
+       "opp": "NO",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-01-04",
+       "home": false,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "6",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "MIN",
+     "n": 3,
+     "text": "avg 2.7 rec, 21.3 yds, 0 TD",
+     "games": [
+      {
+       "date": "2025-10-23",
+       "home": true,
+       "opp": "MIN",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2024-10-06",
+       "home": true,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "6",
+        "9",
+        "55",
+        "0"
+       ]
+      },
+      {
+       "date": "2022-12-04",
+       "home": false,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "2",
+        "7",
+        "9",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs MIN in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "TE",
+    "games": 6,
+    "stats": {
+     "rec_yds": {
+      "value": 38.8,
+      "rank": 26,
+      "of": 32,
+      "color": "red"
+     },
+     "rec": {
+      "value": 3.0,
+      "rank": 32,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 10,
+    "grade": "F",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "MIN gives up the 26th-most receiving yards to tight ends (38.8 a game, 6 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "free_agency",
+     "confidence": "high",
+     "headline": "Left the Vikings in free agency.",
+     "detail": "Played for the Vikings from 2019 to 2021 (50 games).",
+     "how_left": "Became a free agent and agreed to a three-year, $21 million deal with the Jets.",
+     "sources": [
+      {
+       "label": "ABC7 New York",
+       "url": "https://abc7ny.com/post/new-york-jets-reach-free-agent-deal-with-tyler-conklin-source-says/11657320/"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/3915486.png",
+   "team_logo": "img/nfl/teams/DET.png",
+   "opponent_logo": "img/nfl/teams/MIN.png"
+  },
+  {
+   "player_id": 15835,
+   "name": "Zach Ertz",
+   "team": "PHI",
+   "team_name": "Eagles",
+   "team_color": "#06424d",
+   "team_alt": "#000000",
+   "opponent": "WSH",
+   "opponent_name": "Commanders",
+   "opponent_color": "#5a1414",
+   "position": "TE",
+   "jersey": "86",
+   "home_away": "away",
+   "game_id": "401873035",
+   "game_kind": "Regular season",
+   "tip": "8:20 PM ET",
+   "tip_utc": "2026-11-02T01:20:00+00:00",
+   "arena": "Northwest Stadium",
+   "location": "Landover, MD",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Commanders, his former team.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/15835",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 2.8 rec, 27.8 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "2",
+        "4",
+        "13",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-28",
+       "home": false,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "1",
+        "2",
+        "9",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-12-07",
+       "home": false,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "1",
+        "2",
+        "11",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-11-30",
+       "home": true,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "10",
+        "13",
+        "106",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "WSH",
+     "n": 5,
+     "text": "avg 4.4 rec, 34 yds, 0.4 TD",
+     "games": [
+      {
+       "date": "2023-09-10",
+       "home": false,
+       "opp": "WSH",
+       "result": "L",
+       "cells": [
+        "6",
+        "10",
+        "21",
+        "0"
+       ]
+      },
+      {
+       "date": "2021-01-03",
+       "home": true,
+       "opp": "WSH",
+       "result": "L",
+       "cells": [
+        "3",
+        "6",
+        "16",
+        "0"
+       ]
+      },
+      {
+       "date": "2020-09-13",
+       "home": false,
+       "opp": "WSH",
+       "result": "L",
+       "cells": [
+        "3",
+        "7",
+        "18",
+        "1"
+       ]
+      },
+      {
+       "date": "2019-12-15",
+       "home": false,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "5",
+        "10",
+        "61",
+        "1"
+       ]
+      },
+      {
+       "date": "2019-09-08",
+       "home": true,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "5",
+        "7",
+        "54",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs WSH in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "TE",
+    "games": 6,
+    "stats": {
+     "rec_yds": {
+      "value": 73.5,
+      "rank": 4,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 6.2,
+      "rank": 7,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 85,
+    "grade": "A",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "WSH gives up the 4th-most receiving yards to tight ends (73.5 a game, 6 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "free_agency",
+     "confidence": "high",
+     "headline": "Left the Commanders in free agency.",
+     "detail": "Played for the Commanders from 2024 to 2025 (33 games).",
+     "how_left": "His one-year contract (signed March 2025) ran out after a 2025 season that ended with a torn ACL; he reached free agency and signed with the Eagles' practice squad on Sep 21, 2026.",
+     "sources": [
+      {
+       "label": "NBC Sports (Pro Football Talk)",
+       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-ertz-returning-to-philadelphia-will-sign-with-eagles-practice-squad"
+      },
+      {
+       "label": "NFL Trade Rumors",
+       "url": "https://nfltraderumors.co/commanders-leaving-door-cracked-for-bobby-wagner-zach-ertz-to-return-eventually/"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/15835.png",
+   "team_logo": "img/nfl/teams/PHI.png",
+   "opponent_logo": "img/nfl/teams/WSH.png"
+  },
+  {
+   "player_id": 4361577,
+   "name": "Dyami Brown",
+   "team": "WSH",
+   "team_name": "Commanders",
+   "team_color": "#5a1414",
+   "team_alt": "#ffb612",
+   "opponent": "PHI",
+   "opponent_name": "Eagles",
+   "opponent_color": "#06424d",
+   "position": "WR",
+   "jersey": "6",
+   "home_away": "home",
+   "game_id": "401873035",
+   "game_kind": "Regular season",
+   "tip": "8:20 PM ET",
+   "tip_utc": "2026-11-02T01:20:00+00:00",
+   "arena": "Northwest Stadium",
+   "location": "Landover, MD",
+   "categories": [
+    "Birthday"
+   ],
+   "summary": "Birthday game.",
+   "score": 1.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4361577",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1.8 rec, 18.8 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-19",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "6",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "NYG",
+       "result": "T",
+       "cells": [
+        "1",
+        "2",
+        "2",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "3",
+        "4",
+        "65",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "SEA",
+       "result": "W",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": false,
+       "opp": "DAL",
+       "result": "L",
+       "cells": [
+        "4",
+        "6",
+        "21",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "PHI",
+     "n": 5,
+     "text": "avg 1.6 rec, 20.4 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-09-13",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-01-26",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "3",
+        "5",
+        "42",
+        "0"
+       ]
+      },
+      {
+       "date": "2024-12-22",
+       "home": true,
+       "opp": "PHI",
+       "result": "W",
+       "cells": [
+        "4",
+        "5",
+        "56",
+        "0"
+       ]
+      },
+      {
+       "date": "2024-11-14",
+       "home": false,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "1",
+        "2",
+        "4",
+        "0"
+       ]
+      },
+      {
+       "date": "2023-10-29",
+       "home": true,
+       "opp": "PHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs PHI in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "WR",
+    "games": 7,
+    "stats": {
+     "rec_yds": {
+      "value": 178.1,
+      "rank": 3,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 12.1,
+      "rank": 7,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 87,
+    "grade": "A",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "PHI gives up the 3rd-most receiving yards to receivers (178.1 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Birthday",
+     "kind": "birthday",
+     "confidence": "high",
+     "headline": "Birthday game.",
+     "detail": "Turns 27 today.",
+     "sources": []
+    }
+   ],
+   "headshot": "img/nfl/players/4361577.png",
+   "team_logo": "img/nfl/teams/WSH.png",
+   "opponent_logo": "img/nfl/teams/PHI.png"
+  },
+  {
+   "player_id": 4569987,
+   "name": "Jaylen Warren",
+   "team": "PIT",
+   "team_name": "Steelers",
+   "team_color": "#000000",
+   "team_alt": "#ffb612",
+   "opponent": "CLE",
+   "opponent_name": "Browns",
+   "opponent_color": "#472a08",
+   "position": "RB",
+   "jersey": "30",
+   "home_away": "home",
+   "game_id": "401873027",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-01T18:00:00+00:00",
+   "arena": "Acrisure Stadium",
+   "location": "Pittsburgh, PA",
+   "categories": [
+    "Birthday"
+   ],
+   "summary": "Birthday game.",
+   "score": 1.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4569987",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 94.4 rush yds, 0.4 TD, 3.4 rec",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "NO",
+       "result": "W",
+       "cells": [
+        "18",
+        "101",
+        "0",
+        "3",
+        "36"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "TB",
+       "result": "W",
+       "cells": [
+        "14",
+        "50",
+        "0",
+        "2",
+        "28"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "IND",
+       "result": "W",
+       "cells": [
+        "15",
+        "101",
+        "2",
+        "6",
+        "87"
+       ]
+      },
+      {
+       "date": "2026-10-01",
+       "home": false,
+       "opp": "CLE",
+       "result": "L",
+       "cells": [
+        "17",
+        "93",
+        "0",
+        "3",
+        "33"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "CIN",
+       "result": "W",
+       "cells": [
+        "17",
+        "127",
+        "0",
+        "3",
+        "49"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "CLE",
+     "n": 5,
+     "text": "avg 60.2 rush yds, 0.2 TD, 2 rec",
+     "games": [
+      {
+       "date": "2026-10-01",
+       "home": false,
+       "opp": "CLE",
+       "result": "L",
+       "cells": [
+        "17",
+        "93",
+        "0",
+        "3",
+        "33"
+       ]
+      },
+      {
+       "date": "2025-12-28",
+       "home": false,
+       "opp": "CLE",
+       "result": "L",
+       "cells": [
+        "12",
+        "64",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-10-12",
+       "home": true,
+       "opp": "CLE",
+       "result": "W",
+       "cells": [
+        "11",
+        "52",
+        "0",
+        "2",
+        "11"
+       ]
+      },
+      {
+       "date": "2024-12-08",
+       "home": true,
+       "opp": "CLE",
+       "result": "W",
+       "cells": [
+        "9",
+        "47",
+        "0",
+        "2",
+        "25"
+       ]
+      },
+      {
+       "date": "2024-11-21",
+       "home": false,
+       "opp": "CLE",
+       "result": "L",
+       "cells": [
+        "11",
+        "45",
+        "1",
+        "3",
+        "19"
+       ]
+      }
+     ],
+     "note": "No games vs CLE in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "group": "RB",
+    "games": 7,
+    "stats": {
+     "rush_yds": {
+      "value": 104.0,
+      "rank": 4,
+      "of": 32,
+      "color": "green"
+     },
+     "rec_yds": {
+      "value": 20.0,
+      "rank": 27,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 53,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rush_yds",
+    "note": "CLE gives up the 4th-most rushing yards to running backs (104 a game, 7 games)."
+   },
+   "career": [],
+   "tags": [
+    {
+     "category": "Birthday",
+     "kind": "birthday",
+     "confidence": "high",
+     "headline": "Birthday game.",
+     "detail": "Turns 28 today.",
+     "sources": []
+    }
+   ],
+   "headshot": "img/nfl/players/4569987.png",
+   "team_logo": "img/nfl/teams/PIT.png",
+   "opponent_logo": "img/nfl/teams/CLE.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "BAL",
+   "home": "BUF",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/BAL.png",
+   "home_logo": "img/nfl/teams/BUF.png"
+  },
+  {
+   "away": "TEN",
+   "home": "CIN",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/TEN.png",
+   "home_logo": "img/nfl/teams/CIN.png"
+  },
+  {
+   "away": "ARI",
+   "home": "DAL",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/ARI.png",
+   "home_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "away": "MIN",
+   "home": "DET",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/MIN.png",
+   "home_logo": "img/nfl/teams/DET.png"
+  },
+  {
+   "away": "LV",
+   "home": "NYJ",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/LV.png",
+   "home_logo": "img/nfl/teams/NYJ.png"
+  },
+  {
+   "away": "CLE",
+   "home": "PIT",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/CLE.png",
+   "home_logo": "img/nfl/teams/PIT.png"
+  },
+  {
+   "away": "ATL",
+   "home": "TB",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/ATL.png",
+   "home_logo": "img/nfl/teams/TB.png"
+  },
+  {
+   "away": "IND",
+   "home": "JAX",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/IND.png",
+   "home_logo": "img/nfl/teams/JAX.png"
+  },
+  {
+   "away": "LAC",
+   "home": "LAR",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/LAC.png",
+   "home_logo": "img/nfl/teams/LAR.png"
+  },
+  {
+   "away": "KC",
+   "home": "DEN",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/KC.png",
+   "home_logo": "img/nfl/teams/DEN.png"
+  },
+  {
+   "away": "NE",
+   "home": "MIA",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/NE.png",
+   "home_logo": "img/nfl/teams/MIA.png"
+  },
+  {
+   "away": "PHI",
+   "home": "WSH",
+   "tip": "8:20 PM ET",
+   "away_logo": "img/nfl/teams/PHI.png",
+   "home_logo": "img/nfl/teams/WSH.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-10-29T18:06:18+00:00"
+}

@@ -52,6 +52,7 @@ jobs:
         run: python -m app.cli run --days 2 --notify
 
       - name: Build this week's NFL lists
+        timeout-minutes: 60
         continue-on-error: true   # an NFL hiccup should never stop the NBA page from updating
         run: python -m app.cli nfl
 
