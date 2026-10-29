@@ -146,6 +146,33 @@
     "note": "GB gives up the 12th-most receiving yards to running backs (32.9 a game, 7 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 9,
+      "lo": 0,
+      "hi": 33
+     },
+     {
+      "label": "Rec",
+      "proj": 0.5,
+      "lo": 0.0,
+      "hi": 1.0
+     },
+     {
+      "label": "Rec yds",
+      "proj": 2,
+      "lo": 0,
+      "hi": 6
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 0,
+    "opp_factor": 1.02,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -181,5 +208,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T18:22:23+00:00"
+ "generated_at": "2026-10-29T19:06:17+00:00"
 }

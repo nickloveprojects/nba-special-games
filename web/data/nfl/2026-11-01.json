@@ -160,6 +160,32 @@
     "note": "LV gives up the 4th-most passing touchdowns to quarterbacks (2.3 a game, 7 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pass yds",
+      "proj": 235,
+      "lo": 97,
+      "hi": 361
+     },
+     {
+      "label": "Pass TD",
+      "proj": 1.8,
+      "lo": 1.1,
+      "hi": 3.4
+     },
+     {
+      "label": "Rush yds",
+      "proj": 4,
+      "lo": 0,
+      "hi": 14
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "opp_factor": 1.04,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -369,6 +395,27 @@
     "note": "DET gives up the 1st-most receiving yards to tight ends (100.3 a game, 6 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 4.8,
+      "lo": 1.1,
+      "hi": 14.9
+     },
+     {
+      "label": "Rec yds",
+      "proj": 44,
+      "lo": 0,
+      "hi": 160
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 30,
+    "opp_factor": 1.15,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -550,6 +597,27 @@
     "note": "JAX gives up the 6th-most receiving yards to receivers (169.5 a game, 6 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 2.0,
+      "lo": 0.0,
+      "hi": 5.3
+     },
+     {
+      "label": "Rec yds",
+      "proj": 26,
+      "lo": 0,
+      "hi": 53
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 0,
+    "opp_factor": 1.05,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -752,6 +820,33 @@
     "note": "IND gives up the 11th-most receiving yards to running backs (33.7 a game, 7 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 5,
+      "lo": 0,
+      "hi": 18
+     },
+     {
+      "label": "Rec",
+      "proj": 0.7,
+      "lo": 0.0,
+      "hi": 2.0
+     },
+     {
+      "label": "Rec yds",
+      "proj": 4,
+      "lo": 0,
+      "hi": 31
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 0,
+    "opp_factor": 1.0,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -901,6 +996,7 @@
      "scope": "since 2025"
     }
    ],
+   "projection": null,
    "tags": [
     {
      "category": "Hometown",
@@ -1010,6 +1106,7 @@
     "note": "CLE gives up the 4th-most rushing yards to running backs (104 a game, 7 games)."
    },
    "career": [],
+   "projection": null,
    "tags": [
     {
      "category": "Hometown",
@@ -1208,6 +1305,27 @@
      "scope": "since 2019"
     }
    ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 4.8,
+      "lo": 3.3,
+      "hi": 6.5
+     },
+     {
+      "label": "Rec yds",
+      "proj": 44,
+      "lo": 13,
+      "hi": 57
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 50,
+    "opp_factor": 1.08,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Hometown",
@@ -1400,6 +1518,27 @@
     "note": "MIN gives up the 29th-most receiving yards to tight ends (35 a game, 6 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 0.3,
+      "lo": 0.0,
+      "hi": 0.8
+     },
+     {
+      "label": "Rec yds",
+      "proj": 2,
+      "lo": 0,
+      "hi": 6
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 0,
+    "opp_factor": 0.85,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -1617,6 +1756,27 @@
     "note": "WSH gives up the 4th-most receiving yards to tight ends (73.5 a game, 6 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 3.1,
+      "lo": 0.0,
+      "hi": 11.0
+     },
+     {
+      "label": "Rec yds",
+      "proj": 32,
+      "lo": 0,
+      "hi": 144
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 6,
+    "opp_factor": 1.1,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -1838,6 +1998,27 @@
     "note": "PHI gives up the 3rd-most receiving yards to receivers (178.1 a game, 7 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 1.3,
+      "lo": 0.0,
+      "hi": 4.3
+     },
+     {
+      "label": "Rec yds",
+      "proj": 14,
+      "lo": 0,
+      "hi": 90
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 0,
+    "opp_factor": 1.08,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Birthday",
@@ -2060,6 +2241,33 @@
     "note": "CLE gives up the 4th-most rushing yards to running backs (104 a game, 7 games)."
    },
    "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 88,
+      "lo": 38,
+      "hi": 119
+     },
+     {
+      "label": "Rec",
+      "proj": 3.2,
+      "lo": 1.0,
+      "hi": 6.0
+     },
+     {
+      "label": "Rec yds",
+      "proj": 32,
+      "lo": 0,
+      "hi": 84
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "td_prob": 19,
+    "opp_factor": 1.12,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Birthday",
@@ -2162,5 +2370,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-29T18:33:24+00:00"
+ "generated_at": "2026-10-29T19:06:17+00:00"
 }
