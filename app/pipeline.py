@@ -6,7 +6,7 @@ from datetime import date, datetime, timezone
 
 import yaml
 
-from . import config, db, output, rules
+from . import config, db, matchups, output, rules
 from .net import SourceError
 from .sources import bbref, espn, geocode, media, transactions
 from .teams_geo import NICK, TEAMS, abbr, nick, team_id
@@ -345,6 +345,15 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
                     "stats": avg, "espn_url": f"https://www.espn.com/nba/player/_/id/{pl['player_id']}",
                     "recent": None, "headshot": None, "team_logo": None, "opponent_logo": None})
     conn.commit()
+
+    # how soft or tough each opponent's defense is for the player's position (from this season's box scores)
+    try:
+        table = matchups.build_table(matchups.load_boxes(conn, slate_date, warn))
+    except Exception as e:   # never lose the whole slate over this extra
+        warn.add("matchups", f"Matchup grades unavailable ({e})")
+        table = {}
+    for e in entries:
+        e["matchup"] = matchups.matchup(table, e["opponent"], e["position"])
 
     # extras for flagged players only: recent games and images
     logos = {a: media.team_logo(a) for a in {x for g in games for x in (abbr(g["home_id"]), abbr(g["away_id"]))}}

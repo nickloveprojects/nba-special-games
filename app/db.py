@@ -30,6 +30,8 @@ CREATE TABLE IF NOT EXISTS bbref_profiles(      -- high schools + transaction lo
   player_id INTEGER PRIMARY KEY, slug TEXT, hs_json TEXT, tx_json TEXT, fetched TEXT, found INTEGER);
 CREATE TABLE IF NOT EXISTS gamelog(             -- compact per-season game logs
   player_id INTEGER, end_year INTEGER, fetched TEXT, json TEXT, PRIMARY KEY(player_id, end_year));
+CREATE TABLE IF NOT EXISTS box(game_id TEXT PRIMARY KEY, date TEXT, json TEXT);   -- per-game production by position
+CREATE TABLE IF NOT EXISTS box_days(date TEXT PRIMARY KEY);
 CREATE TABLE IF NOT EXISTS runs(
   id INTEGER PRIMARY KEY AUTOINCREMENT, started TEXT, finished TEXT, slate_date TEXT,
   status TEXT, warnings TEXT);

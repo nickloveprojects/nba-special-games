@@ -106,6 +106,20 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 .flag p{margin:3px 0 0;font-size:15px;overflow-wrap:anywhere}
 .flag .src{margin-top:3px;font-size:13px;color:var(--muted)}
 .flag .src a{color:inherit}
+.mu{margin:0 14px 10px}
+.mu .row{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.mu .lab{font:700 14px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.grade{display:inline-grid;place-items:center;min-width:34px;height:30px;padding:0 8px;border-radius:8px;font:700 20px/1 var(--font-display);
+  background:var(--m-bg);color:var(--m-fg);border:1px solid var(--m-line)}
+.mchip{display:inline-flex;gap:5px;align-items:baseline;padding:3px 9px;border-radius:999px;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;
+  background:var(--m-bg);color:var(--m-fg);border:1px solid var(--m-line)}
+.mchip b{font:700 15px var(--font-display);letter-spacing:.03em}
+.mchip.best{outline:2px solid var(--m-line);outline-offset:1px}
+[data-m=green]{--m-bg:var(--green-bg);--m-fg:var(--green);--m-line:var(--green)}
+[data-m=yellow]{--m-bg:var(--yellow-bg);--m-fg:var(--yellow);--m-line:var(--yellow-line)}
+[data-m=red]{--m-bg:var(--red-bg);--m-fg:var(--red);--m-line:var(--red)}
+.mu .why2{margin:4px 0 0;font-size:13px;color:var(--muted)}
+.legend{margin:18px 0 0;font-size:13px;color:var(--muted)}
 .recent{margin:0 14px 12px;border-top:1px solid var(--line);padding-top:8px}
 .recent summary{cursor:pointer;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;gap:2px 18px}
 .recent summary b{color:var(--ink);font-weight:600}
@@ -166,6 +180,7 @@ th{color:var(--muted);font-weight:600}
   <div class="note" id="note" role="status" aria-live="polite"></div>
   <div id="warn"></div>
   <div id="list"></div>
+  <p class="legend">Matchup grades: green = this defense gives up a lot of that stat to this position, yellow = average, red = tough. #1 means it gives up the most in the league. Built from this season’s box scores, so early-season samples are small. Not betting advice.</p>
 </main>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-Revenge" viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
@@ -251,6 +266,13 @@ function recent(e){
   const vl=v.n?`<span><span class="lab">vs ${v.opp} (last ${v.n})</span> <b>${v.pts}</b> pts · ${v.reb} reb · ${v.ast} ast</span>`:`<span>${esc(v.note||`No games vs ${v.opp} in the last 3 seasons`)}</span>`;
   return `<details class="recent"><summary>${fl}${vl}</summary><div class="tables">${v.n?table(`Last ${v.n} vs ${v.opp}`,v.games):`<div><h3>vs ${v.opp}</h3><div class="stats">${esc(v.note||"No games in the last 3 seasons.")}</div></div>`}${table(`Last ${f.n||5} games`,f.games)}</div></details>`;
 }
+function matchupBox(e){
+  const m=e.matchup; if(!m) return "";
+  const nm={pts:"PTS",reb:"REB",ast:"AST"};
+  const chips=["pts","reb","ast"].map(k=>{const x=m.stats[k];
+    return `<span class="mchip${k===m.best?" best":""}" data-m="${x.color}" title="${esc(x.value)} ${nm[k].toLowerCase()} a game allowed to this position (rank ${x.rank} of ${x.of}, 1 = most)"><b>${nm[k]}</b>#${x.rank}</span>`}).join("");
+  return `<div class="mu"><div class="row"><span class="lab">Matchup</span><span class="grade" data-m="${m.color}" title="Matchup score ${m.score} out of 100">${m.grade}</span>${chips}</div><p class="why2">${esc(m.note)}${m.games<6?" Small sample so far.":""}</p></div>`;
+}
 function card(e){
   const main=CATS.find(c=>e.tags.some(t=>t.category===c));
   const why=e.summary||e.tags.map(t=>t.headline||t.detail).join(" ");
@@ -263,6 +285,7 @@ function card(e){
       <div class="who"><h2>${esc(e.name)}</h2><div class="id"><span class="pill">${logo(e.team_logo,"")}${esc(team)}</span>${pos?`<span class="pos">${esc(pos)}</span>`:""}</div></div>
       ${e.espn_url?`<a class="espn" href="${esc(e.espn_url)}" target="_blank" rel="noopener" aria-label="${esc(e.name)} on ESPN">${icon("link")}<span>ESPN</span></a>`:""}</div>
     <p class="why">${esc(why)}</p>
+    ${matchupBox(e)}
     ${e.tags.map(g=>flag(g,e)).join("")}${recent(e)}</article>`;
 }
 function render(){
