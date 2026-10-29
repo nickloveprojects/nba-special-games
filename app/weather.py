@@ -26,18 +26,23 @@ def pick(hourly: dict, tip_utc: str) -> dict | None:
             "rain": round(rain) if rain is not None else None}
 
 
-def forecast(lat: float, lon: float, tip_utc: str, indoor: bool = False) -> dict | None:
-    if indoor:
-        return {"indoor": True}
+def forecast_many(games: list[dict]) -> dict:
+    """games: [{"id", "lat", "lon", "tip_utc", "indoor"}] -> {id: forecast or None}. One request covers every outdoor game."""
+    out = {g["id"]: ({"indoor": True} if g["indoor"] else None) for g in games}
+    wet = [g for g in games if not g["indoor"]]
+    if not wet:
+        return out
     try:
         data = get_json(URL, params={
-            "latitude": lat, "longitude": lon, "timezone": "UTC", "forecast_days": 10,
-            "temperature_unit": "fahrenheit", "wind_speed_unit": "mph",
-            "hourly": "temperature_2m,precipitation_probability,wind_speed_10m,wind_gusts_10m"}, retries=3, timeout=20)
-        return pick(data.get("hourly") or {}, tip_utc)
-    except (SourceError, ValueError, KeyError) as e:
+            "latitude": ",".join(str(g["lat"]) for g in wet), "longitude": ",".join(str(g["lon"]) for g in wet),
+            "timezone": "UTC", "forecast_days": 10, "temperature_unit": "fahrenheit", "wind_speed_unit": "mph",
+            "hourly": "temperature_2m,precipitation_probability,wind_speed_10m,wind_gusts_10m"}, retries=3, timeout=30)
+        blocks = data if isinstance(data, list) else [data]
+        for g, blk in zip(wet, blocks):
+            out[g["id"]] = pick(blk.get("hourly") or {}, g["tip_utc"])
+    except (SourceError, ValueError, KeyError, TypeError) as e:
         log.warning("weather unavailable: %s", e)
-        return None
+    return out
 
 
 def label(w: dict | None) -> str:

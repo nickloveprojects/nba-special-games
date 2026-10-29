@@ -425,10 +425,10 @@ def build_slates(today: date | None = None) -> list[dict]:
         d = date.fromisoformat(day)
         day_events = [e for e in events if e["date"] == day]
         prior = _prior_projections(day)
-        wx = {}
-        for e in day_events:
-            xy = feed.VENUE.get(id_abbr[int(e["home"]["id"])])
-            wx[e["game_id"]] = None if (e["neutral"] or not xy) else weather.forecast(xy[0], xy[1], e["tip_utc"], e["indoor"])
+        wx = weather.forecast_many([
+            {"id": e["game_id"], "lat": xy[0], "lon": xy[1], "tip_utc": e["tip_utc"], "indoor": e["indoor"]}
+            for e in day_events if not e["neutral"] and (xy := feed.VENUE.get(id_abbr[int(e["home"]["id"])]))])
+        wx = {e["game_id"]: wx.get(e["game_id"]) for e in day_events}
         entries = []
         for e in day_events:
             for side, other in (("home", "away"), ("away", "home")):
