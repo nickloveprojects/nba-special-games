@@ -31,17 +31,20 @@ def test_hot_week_is_pulled_back_toward_his_normal_rate():
     assert 20 < npj.project(hot, "MEM", {}, TODAY, 1)["lines"][0]["proj"] < 40
 
 
-def test_only_current_team_and_regular_season_games():
-    other = [g(f"2026-10-{d:02d}", tm="LAL", pts=50) for d in (3, 6, 9, 12, 15, 18)]
-    assert npj.project(other, "MEM", {}, TODAY, 1) is None
+def test_minutes_come_from_current_team_but_rate_travels():
+    other = [g(f"2026-09-{d:02d}", tm="LAL", min=20, pts=20) for d in (3, 6, 9, 12, 15, 18)]   # 1.0 pts a minute
+    mine = [g(f"2026-10-{d:02d}", min=30, pts=30) for d in (20, 23, 26)]                       # 1.0 pts a minute
+    p = npj.project(other + mine, "MEM", {}, TODAY, 1)
+    assert p["minutes"] == 30 and p["games_used"] == 3 and p["lines"][0]["proj"] == 30
+    assert npj.project(other, "MEM", {}, TODAY, 1) is None            # no games with the new team yet
+    assert npj.project(other + mine[:2], "MEM", {}, TODAY, 1) is None  # needs three
     po = [g(f"2026-10-{d:02d}", playoff=True) for d in (3, 6, 9, 12, 15, 18)]
     assert npj.project(po, "MEM", {}, TODAY, 1) is None
-    assert npj.project(other + LOGS, "MEM", {}, TODAY, 1)["lines"][0]["proj"] == 20
 
 
 def test_today_game_ignored_and_too_few_or_low_minutes_get_none():
     assert npj.project(LOGS + [g("2026-10-29", pts=60)], "MEM", {}, TODAY, 1)["lines"][0]["proj"] == 20
-    assert npj.project(LOGS[:4], "MEM", {}, TODAY, 1) is None
+    assert npj.project(LOGS[:2], "MEM", {}, TODAY, 1) is None
     bench = [g(f"2026-10-{d:02d}", min=6, pts=2) for d in (2, 5, 8, 11, 14, 17)]
     assert npj.project(bench, "MEM", {}, TODAY, 1) is None
     assert npj.project(LOGS, "MEM", {}, TODAY, 1, status="Out") is None

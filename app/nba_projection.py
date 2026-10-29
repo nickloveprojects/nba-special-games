@@ -1,6 +1,6 @@
 """One pre-game points / rebounds / assists projection per flagged NBA player.
 
-Minutes are the biggest driver of an NBA box score, so the projection is: expected minutes (recent games count more)
+Minutes are the biggest driver of an NBA box score, so the projection is: expected minutes with his current team (recent games count more)
 x his per-minute rate (pulled toward his own longer-run rate so a hot or cold week counts for less) x how generous
 the opponent has been to opposing teams, softened. Backtested on the 2025-26 regular season (12,800 player-games):
 about 2% less error than a last-10-game average, with the longer window (about 20 games) beating shorter ones.
@@ -15,7 +15,7 @@ from datetime import date
 HALF_LIFE = 10.0
 WINDOW = 20             # recent games that carry weight
 HISTORY = 60            # games used for his longer-run rate
-MIN_GAMES = 5
+MIN_GAMES = 3           # games with his current team (that is where his minutes come from)
 MIN_MINUTES = 12.0      # weighted minutes a game; below this the box score is too random to project
 SHRINK_MIN = 150.0      # minutes of his longer-run rate blended into the recent rate
 OPP_STRENGTH = 0.5
@@ -49,33 +49,38 @@ def usable(logs: list[dict], team: str | None, today: date) -> list[dict]:
 
 def project(logs: list[dict], team: str | None, factors: dict, today: date, seed: int,
             status: str = "", sims: int = 1000) -> dict | None:
+    """Minutes come only from games with his current team, since that is his role now. His per-minute rate uses all
+    recent games, because scoring, rebounding and passing skill travel with a player."""
     if any(w in (status or "").lower() for w in NO_PROJECTION):
         return None
-    games = usable(logs, team, today)
-    if len(games) < MIN_GAMES:
+    mine = usable(logs, team, today)
+    if len(mine) < MIN_GAMES:
         return None
-    recent = games[:WINDOW]
-    w = [0.5 ** (i / HALF_LIFE) for i in range(len(recent))]
-    sw = sum(w)
-    mins = sum(g["min"] * x for g, x in zip(recent, w)) / sw
+    allg = usable(logs, None, today)
+    cur = mine[:WINDOW]
+    w = [0.5 ** (i / HALF_LIFE) for i in range(len(cur))]
+    mins = sum(g["min"] * x for g, x in zip(cur, w)) / sum(w)
     if mins < MIN_MINUTES:
         return None
-    total_min = sum(g["min"] for g in games)
+    rec = allg[:WINDOW]
+    wr = [0.5 ** (i / HALF_LIFE) for i in range(len(rec))]
+    sw = sum(wr)
+    total_min = sum(g["min"] for g in allg)
     rng = random.Random(seed)
-    picks = rng.choices(range(len(recent)), weights=w, k=sims)
+    picks = rng.choices(range(len(rec)), weights=wr, k=sims)
     lines = []
     for k, label in STATS:
-        long_rate = sum(g[k] for g in games) / total_min
-        wmean_w = sw / len(recent)
-        rate = (sum(g[k] * x for g, x in zip(recent, w)) + SHRINK_MIN * long_rate * wmean_w) / \
-               (sum(g["min"] * x for g, x in zip(recent, w)) + SHRINK_MIN * wmean_w)
+        long_rate = sum(g[k] for g in allg) / total_min
+        wmean_w = sw / len(rec)
+        rate = (sum(g[k] * x for g, x in zip(rec, wr)) + SHRINK_MIN * long_rate * wmean_w) / \
+               (sum(g["min"] * x for g, x in zip(rec, wr)) + SHRINK_MIN * wmean_w)
         proj = mins * rate * factors.get(k, 1.0)
-        raw = sum(g[k] * x for g, x in zip(recent, w)) / sw
+        raw = sum(g[k] * x for g, x in zip(rec, wr)) / sw
         scale = proj / raw if raw > 0 else 1.0
-        vals = sorted(max(0.0, recent[i][k] * scale) for i in picks)
+        vals = sorted(max(0.0, rec[i][k] * scale) for i in picks)
         lo, hi = vals[int(0.1 * sims)], vals[min(sims - 1, int(0.9 * sims))]
         lo, hi = proj - (proj - lo) * RANGE_SPREAD, proj + (hi - proj) * RANGE_SPREAD
         lines.append({"label": label, "proj": round(proj, 1) if k != "pts" else round(proj),
                       "lo": round(max(0, lo)), "hi": round(hi)})
-    return {"lines": lines, "games_used": len(recent), "minutes": round(mins), "sims": sims,
+    return {"lines": lines, "games_used": len(cur), "minutes": round(mins), "sims": sims,
             "opp_factor": round(factors.get("pts", 1.0), 2)}
