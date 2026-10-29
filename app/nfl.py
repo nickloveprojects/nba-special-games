@@ -189,8 +189,8 @@ def revenge_tag(p, opp_info, logs, tx, now_abbr):
     if not s or s[0] < MIN_GAMES_REVENGE:
         return None
     n, first, last = s
-    span = f"{first}" if first == last else f"{first} to {last}"
-    played = f"Played for the {opp_info['short']} in {span} ({n} games)."
+    span = f"in {first}" if first == last else f"from {first} to {last}"
+    played = f"Played for the {opp_info['short']} {span} ({n} games)."
     ex = feed.find_exit(tx, p["name"], opp_info["abbr"], opp_info["name"], now_abbr)
     if ex:
         kind, conf = ex["kind"], "high"
@@ -231,7 +231,7 @@ def hometown_tag(conn, p, venue_abbr, warn):
     if d > config.HOMETOWN_RADIUS_MI:
         return None
     return {"category": "Hometown", "kind": "birthplace", "confidence": "high", "headline": "Hometown game.",
-            "detail": f"Born in {p['city']}, {p['state'] or p['country']}, about {round(d)} miles from the stadium.",
+            "detail": f"Born in {p['city']}, {p['state'] or p['country']}, about {round(d)} {'mile' if round(d) == 1 else 'miles'} from the stadium.",
             "sources": [{"label": "Wikidata", "url": place["source_url"]}], "_score": 3, "_place": (place["lat"], place["lon"])}
 
 

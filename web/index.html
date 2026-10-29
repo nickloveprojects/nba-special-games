@@ -475,7 +475,7 @@ async function homeInfo(){
       const s=await (await fetch(`${dir}/${idx.dates[0]}.json`)).json();
       const et=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
       const when=idx.dates[0]===et(0)?"Today":idx.dates[0]===et(1)?"Tomorrow":new Date(idx.dates[0]+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
-      $(k+"-foot").textContent=`${when}: ${s.games} games \u00b7 ${s.entries.length} flagged \u2192`;
+      $(k+"-foot").textContent=`${when}: ${s.games} game${s.games===1?"":"s"} \u00b7 ${s.entries.length} flagged \u2192`;
     }catch(e){}
   }
 }

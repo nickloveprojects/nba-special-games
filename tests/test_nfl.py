@@ -56,7 +56,7 @@ def test_revenge_needs_real_games_with_the_team():
     assert nfl.revenge_tag({"name": "X"}, opp, few, [], "KC") is None
     many = [dict(LOG(), team_id=7, season=2023)] * 4 + [dict(LOG(), team_id=7, season=2025)] * 4
     t = nfl.revenge_tag({"name": "X"}, opp, many, [], "KC")
-    assert t["kind"] == "unknown" and t["confidence"] == "low" and "2023 to 2025 (8 games)" in t["how_left"]
+    assert t["kind"] == "unknown" and t["confidence"] == "low" and "from 2023 to 2025 (8 games)" in t["how_left"]
 
 
 def test_holiday_tag_uses_only_past_holiday_games():
