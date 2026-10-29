@@ -56,6 +56,14 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 .chip[aria-pressed=false]{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
 .filters input[type=search]{flex:1 1 100%}
 .filters select{flex:1 1 120px;min-width:0}
+.games{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;margin:0 -2px 6px;scroll-snap-type:x proximity;scrollbar-width:thin}
+.gbtn{flex:none;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-height:0;padding:6px 10px;text-align:left;line-height:1.15}
+.gbtn .t{display:flex;align-items:center;gap:5px;font:700 16px/1 var(--font-display);letter-spacing:.02em;white-space:nowrap}
+.gbtn .t .logo{width:20px;height:20px}
+.gbtn .m{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.gbtn[aria-pressed=true]{background:var(--pill-bg);color:var(--pill-fg);border-color:var(--pill-bg)}
+.gbtn[aria-pressed=true] .m{color:inherit;opacity:.8}
+.gbtn[data-n="0"]{opacity:.55}
 .opts{margin:0 0 6px}
 .opts summary{cursor:pointer;color:var(--muted);font-size:14px;padding:2px 0}
 .opts .bar{margin-top:8px}
@@ -145,6 +153,7 @@ th{color:var(--muted);font-weight:600}
     <select id="team" aria-label="Team"><option value="">All teams</option></select>
   </div>
   <div class="bar" id="cats"></div>
+  <div class="games" id="games" role="group" aria-label="Filter by game"></div>
   <details class="opts">
     <summary>More options</summary>
     <div class="bar">
@@ -170,7 +179,7 @@ const CATS=["Revenge","Hometown","Birthday","History"];
 const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unknown:"Former team",
   high_school:"Grew up here",override:"Hometown (set by hand)",birthplace:"Born here",birthday:""};
 const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
-let slate=null,active=new Set(CATS);
+let slate=null,active=new Set(CATS),game="";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const icon=n=>`<svg class="i" aria-hidden="true"><use href="#i-${n}"/></svg>`;
@@ -185,17 +194,33 @@ async function load(date){
   const day=new Date(slate.date+"T12:00").toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
   $("sub").textContent=`${day}: ${slate.games} games, ${slate.entries.length} players flagged. Updated ${new Date(slate.generated_at).toLocaleString()}.`;
   $("warn").innerHTML=slate.warnings.length?`<details class="warn"><summary>${slate.warnings.length} data warning(s): some sources were unavailable</summary><ul>${slate.warnings.map(w=>`<li>${esc(w)}</li>`).join("")}</ul></details>`:"";
-  drawChips();render();
+  game="";drawChips();render();
 }
+function matchups(){
+  if(slate.matchups&&slate.matchups.length) return slate.matchups;
+  const seen=new Map();
+  slate.entries.forEach(e=>{const h=e.home_away==="home"?e.team:e.opponent,a=e.home_away==="home"?e.opponent:e.team;
+    seen.set(a+"@"+h,{away:a,home:h,tip:e.tip})});
+  return [...seen.values()];
+}
+const inGame=(e,g)=>(e.team===g.away&&e.opponent===g.home)||(e.team===g.home&&e.opponent===g.away);
+function drawGames(){
+  const list=slate.entries.filter(e=>e.tags.some(t=>active.has(t.category)));
+  $("games").innerHTML=`<button class="gbtn" type="button" data-g="" aria-pressed="${game===""}"><span class="t">All games</span><span class="m">${list.length} players</span></button>`+
+   matchups().map(g=>{const k=g.away+"@"+g.home,n=list.filter(e=>inGame(e,g)).length;
+    return `<button class="gbtn" type="button" data-g="${k}" data-n="${n}" aria-pressed="${game===k}"><span class="t">${logo(g.away_logo,g.away)}${g.away} @ ${logo(g.home_logo,g.home)}${g.home}</span><span class="m">${esc(g.tip||"")} · ${n} player${n===1?"":"s"}</span></button>`}).join("");
+}
+function redrawGames(){const x=$("games").scrollLeft;drawGames();$("games").scrollLeft=x}
 function drawChips(){
   const n=c=>slate.entries.filter(e=>e.categories.includes(c)).length;
+  drawGames();
   $("cats").innerHTML=CATS.map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${active.has(c)}">${icon(c)}${c}<b>${n(c)}</b></button>`).join("");
 }
 const weak=g=>g.category==="Revenge"&&(g.kind==="free_agency"||g.kind==="unknown"||(!g.kind&&g.confidence==="low"));
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
   return slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))
-   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t));
+   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})));
 }
 const stat=m=>m&&m.n?`${m.pts} pts · ${m.reb} reb · ${m.ast} ast`:"no games";
 function history(g,e){
@@ -256,7 +281,8 @@ async function copy(text,label){
     $("note").textContent=ok?`${label} copied.`:"Copy was blocked by the browser. Select the list and copy it by hand.";}
 }
 (async()=>{
-  $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));render()};
+  $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));redrawGames();render()};
+  $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
   ["q","team","strict"].forEach(i=>$(i).addEventListener("input",render));
   $("csv").onclick=()=>copy(csv(),"CSV");
   $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");

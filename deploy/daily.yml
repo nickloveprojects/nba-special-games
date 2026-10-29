@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 13 * * *"      # 13:00 UTC = 9am Eastern in summer, 8am in winter
     - cron: "0 22 * * *"      # 6pm Eastern: refresh tomorrow's list after late news
+  push:
+    branches: [main]
+    paths: ["web/index.html", "app/**", "config/**", ".github/workflows/daily.yml"]
   workflow_dispatch: {}        # lets you press "Run workflow" by hand
 
 permissions:
