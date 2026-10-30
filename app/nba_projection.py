@@ -37,18 +37,24 @@ STATS = (("pts", "Pts"), ("reb", "Reb"), ("ast", "Ast"))
 NO_PROJECTION = ("out", "doubtful", "injured reserve", "suspended")
 
 
-def opp_factors(table: dict, opp: str) -> dict:
-    """{stat: factor} from the opponent's per-game points/rebounds/assists allowed vs the league average."""
+def opp_factors(table: dict, opp: str, group: str | None = None) -> dict:
+    """{stat: factor} from what the opponent allows per game, softened. With a position group (G/F/C) the factor is
+    the average of the team-wide ratio and the ratio for that position, so it agrees with the matchup grade on the card.
+    Scaled down by how few games it rests on, so early in the season it barely moves a number."""
     out = {k: 1.0 for k, _ in STATS}
     if opp not in table or table[opp].get("n", 0) < 5 or len(table) < 8:
         return out
     n = table[opp]["n"]
     strength = OPP_STRENGTH * n / (n + OPP_SAMPLE_K)
     for k, _ in STATS:
-        vals = [t["ALL"][k] for t in table.values() if t.get("ALL")]
-        mean = sum(vals) / len(vals) if vals else 0
-        if mean > 0:
-            ratio = table[opp]["ALL"][k] / mean
+        ratios = []
+        for g in ("ALL", group) if group in ("G", "F", "C") else ("ALL",):
+            vals = [t[g][k] for t in table.values() if t.get(g)]
+            mean = sum(vals) / len(vals) if vals else 0
+            if mean > 0 and table[opp].get(g):
+                ratios.append(table[opp][g][k] / mean)
+        if ratios:
+            ratio = sum(ratios) / len(ratios)
             out[k] = min(OPP_CLAMP[1], max(OPP_CLAMP[0], 1 + strength * (ratio - 1)))
     return out
 
