@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+data/*.sqlite-shm
+data/*.sqlite-wal
