@@ -26,7 +26,7 @@
     "temp": 49,
     "wind": 3,
     "gust": 2,
-    "rain": 5
+    "rain": 3
    },
    "weather_text": "49\u00b0F, wind 3 mph",
    "arena": "Lumen Field",
@@ -190,5 +190,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-30T13:56:47+00:00"
+ "generated_at": "2026-10-30T17:16:40+00:00"
 }
