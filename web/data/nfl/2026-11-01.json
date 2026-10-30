@@ -468,12 +468,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 14,
-    "gust": 20,
-    "rain": 27
+    "temp": 76,
+    "wind": 12,
+    "gust": 21,
+    "rain": 39
    },
-   "weather_text": "78\u00b0F, wind 14 mph",
+   "weather_text": "76\u00b0F, wind 12 mph, 39% rain",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -678,12 +678,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 14,
-    "gust": 20,
-    "rain": 27
+    "temp": 76,
+    "wind": 12,
+    "gust": 21,
+    "rain": 39
    },
-   "weather_text": "78\u00b0F, wind 14 mph",
+   "weather_text": "76\u00b0F, wind 12 mph, 39% rain",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -894,11 +894,11 @@
    "weather": {
     "indoor": false,
     "temp": 82,
-    "wind": 17,
-    "gust": 21,
-    "rain": 78
+    "wind": 18,
+    "gust": 24,
+    "rain": 80
    },
-   "weather_text": "82\u00b0F, wind 17 mph, 78% rain",
+   "weather_text": "82\u00b0F, wind 18 mph, 80% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1046,12 +1046,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 64,
     "wind": 5,
-    "gust": 8,
-    "rain": 0
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "66\u00b0F, wind 5 mph",
+   "weather_text": "64\u00b0F, wind 5 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -2079,12 +2079,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 64,
     "wind": 5,
-    "gust": 8,
-    "rain": 0
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "66\u00b0F, wind 5 mph",
+   "weather_text": "64\u00b0F, wind 5 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -2405,5 +2405,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-30T17:16:39+00:00"
+ "generated_at": "2026-10-30T22:24:03+00:00"
 }
