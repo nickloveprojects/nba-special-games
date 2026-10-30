@@ -13,6 +13,7 @@ import yaml
 from . import career, config, nfl_feed as feed, projection, weather
 from .matchups import _color, _letter, _ordinal
 from .net import SourceError
+from .rules import norm_name
 from .sources import geocode, media
 
 log = logging.getLogger("nba")
@@ -355,16 +356,21 @@ def holiday_tag(p, logs, d: date, opp, opp_name):
 
 
 def history_tags(p, opp_ids, rivalries, roster_names):
+    """Documented player-vs-player history for this player against anyone on the opposing roster (any position)."""
     out = []
+    names = {norm_name(n): n for n in roster_names}
+    me = norm_name(p["name"])
     for r in rivalries:
-        a, b = r.get("players", [None, None])
-        if not (r.get("reason") and r.get("sources")):
+        pair = r.get("players") or []
+        if len(pair) != 2 or not (r.get("reason") and r.get("sources")):
             continue
-        other = b if p["name"] == a else a if p["name"] == b else None
-        if other and other in roster_names:
-            out.append({"category": "History", "kind": "rivalry", "label": r.get("kind", "Rivalry"), "with": other,
-                        "confidence": "high", "headline": f"{r.get('kind', 'Rivalry')} with {other}.", "reason": r["reason"],
-                        "detail": r["reason"], "sources": r["sources"], "_score": 3})
+        a, b = norm_name(pair[0]), norm_name(pair[1])
+        other = names.get(b) if me == a else names.get(a) if me == b else None
+        if other:
+            kind = r.get("kind", "Rivalry")
+            out.append({"category": "History", "kind": "rivalry", "label": kind, "with": other,
+                        "confidence": "high", "headline": f"{kind} history with {other}.", "reason": r["reason"],
+                        "detail": r["reason"], "sources": r["sources"], "_score": 8})
     return out
 
 
@@ -435,7 +441,10 @@ def build_slates(today: date | None = None) -> list[dict]:
                 me, opp = e[side], e[other]
                 tid, oid = int(me["id"]), int(opp["id"])
                 mi, oi = t_all[tid], t_all[oid]
-                roster_names = {p["name"] for p in rosters.get(oid, [])}
+                try:
+                    roster_names = feed.roster_names(conn, oid)
+                except SourceError:
+                    roster_names = {p["name"] for p in rosters.get(oid, [])}
                 for p in rosters.get(tid, []):
                     tags, tx_logs = [], None
                     # cheap flags first (no extra requests)

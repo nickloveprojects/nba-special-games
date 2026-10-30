@@ -152,3 +152,23 @@ def test_exits_file_entries_all_have_sources_and_valid_kinds():
     for (name, team), r in ex.items():
         assert r["sources"] and all(s["url"].startswith("https://") for s in r["sources"]), name
         assert r["kind"] in nfl.HEAD
+
+
+def test_history_tags_match_any_position_and_spelling():
+    rivals = [{"players": ["Amon-Ra St. Brown", "Jourdan Lewis"], "kind": "Feud", "reason": "r", "sources": [{"label": "x", "url": "https://x"}]},
+              {"players": ["A B", "C D"], "kind": "Feud", "reason": "", "sources": []}]
+    wr = {"name": "Amon-Ra St. Brown"}
+    tags = nfl.history_tags(wr, {1}, rivals, {"Jourdan Lewis", "Someone Else"})
+    assert len(tags) == 1 and tags[0]["with"] == "Jourdan Lewis" and tags[0]["category"] == "History"
+    assert nfl.history_tags(wr, {1}, rivals, {"Someone Else"}) == []          # he is not on the other roster
+    assert nfl.history_tags({"name": "Amon Ra St Brown"}, {1}, rivals, {"Jourdan Lewis"})   # spelling-tolerant
+    assert nfl.history_tags({"name": "A B"}, {1}, rivals, {"C D"}) == []                    # entries need a reason and a source
+
+
+def test_rivalry_files_are_complete():
+    import yaml
+    for f in ("rivalries.yaml", "rivalries_nfl.yaml"):
+        data = yaml.safe_load((nfl.config.ROOT / "config" / f).read_text())
+        for r in data["rivalries"]:
+            assert len(r["players"]) == 2 and r["reason"].strip() and r["kind"], r
+            assert r["sources"] and all(s["url"].startswith("https://") and s["label"] for s in r["sources"]), r

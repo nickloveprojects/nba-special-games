@@ -1,4 +1,26 @@
 # Documented player-vs-player history for the NFL board. Same rules as rivalries.yaml:
-# a History box appears ONLY for pairs listed here, when both players are on the two teams in that game,
-# and each entry needs a short checkable "reason" and at least one source link. Stats are computed, never typed.
-rivalries: []
+# a History box appears ONLY for pairs listed here, when both players are on the two teams in that game
+# (the other player can be any position, but the card is shown for QB/RB/WR/TE/K), and each entry needs a short
+# checkable "reason" and at least one source link. Stats are computed, never typed.
+rivalries:
+  - players: ["Amon-Ra St. Brown", "Jourdan Lewis"]
+    kind: Feud
+    reason: "After Lewis trash-talked him in a Week 17 game in 2023, St. Brown named Lewis his least favorite defensive back to face (July 2024). Lewis is from Detroit."
+    sources:
+      - {label: "FanSided", url: "https://fansided.com/posts/amon-ra-st-brown-is-getting-heated-in-beef-with-trash-talking-cowboys-cb-01j2hx42j20n"}
+  - players: ["Michael Wilson", "Keisean Nixon"]
+    kind: Feud
+    reason: "Wilson said they have had \"a little bit of beef\" since his second season, tracing back to a 2024 Packers-Cardinals game. They exchanged words again at a joint practice on Aug. 26, 2026."
+    sources:
+      - {label: "ClutchPoints", url: "https://clutchpoints.com/nfl/arizona-cardinals/cardinals-news-michael-wilson-gets-brutally-honest-about-keisean-nixon-beef"}
+  - players: ["Jordan Addison", "Christian Gonzalez"]
+    kind: Feud
+    reason: "Both from the 2023 draft class, they traded jabs on social media in March 2026 about how they matched up at last summer's joint practices."
+    sources:
+      - {label: "Vikings Territory", url: "https://vikingsterritory.com/2026/news/top_news/jordan-addison-patriots-defender"}
+  - players: ["Mike Evans", "Marshon Lattimore"]
+    kind: Altercation
+    reason: "Evans was suspended one game after a 2017 fight in which he hit Lattimore, and the two fought again in 2022, which led to a second one-game suspension for Evans."
+    sources:
+      - {label: "The Ringer", url: "https://www.theringer.com/2025/07/01/nfl/cornerback-wide-receiver-beef-rivalries-steve-smith-aqib-talib-michael-crabtree"}
+      - {label: "Yardbarker", url: "https://www.yardbarker.com/nfl/articles/mike_evans_addresses_fights_with_marshon_lattimore_in_buccaneers_saints_rivalry/s1_16691_43741273"}

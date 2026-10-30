@@ -22,3 +22,86 @@ rivalries:
     sources:
       - {label: "Eurohoops", url: "https://www.eurohoops.net/en/nba-news/1492914/dillon-brooks-ejected-after-striking-lebron-james-in-the-groin-nba-playoffs/amp/"}
       - {label: "ABC30", url: "https://abc30.com/post/dillon-brooks-exchanges-words-with-lebron-james-i-poke-bears/13157564/"}
+
+  # ---- added from reported incidents; every claim below is limited to what the linked articles state
+  - players: ["Joel Embiid", "Karl-Anthony Towns"]
+    kind: Altercation
+    reason: "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019."
+    sources:
+      - {label: "Fox News", url: "https://www.foxnews.com/sports/philadelphia-76ers-joel-embiid-ejected-brawl-minnesota-timberwolves-karl-anthony-towns"}
+  - players: ["Miles Bridges", "Jalen Duren"]
+    kind: Altercation
+    reason: "Bridges threw a punch at Duren in a Pistons-Hornets brawl in February 2026. Both were ejected; the NBA suspended Bridges four games and Duren two."
+    sources:
+      - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
+  - players: ["Moussa Diabate", "Jalen Duren"]
+    kind: Altercation
+    reason: "A foul and a shove between them started the February 2026 Pistons-Hornets brawl. Both were ejected; the NBA suspended Diabate four games and Duren two."
+    sources:
+      - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
+  - players: ["Isaiah Stewart", "Miles Bridges"]
+    kind: Altercation
+    reason: "Stewart left the bench and fought Bridges in the February 2026 Pistons-Hornets brawl. Both were ejected; the NBA suspended Stewart seven games and Bridges four."
+    sources:
+      - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
+  - players: ["Ajay Mitchell", "Justin Champagnie"]
+    kind: Altercation
+    reason: "Each was suspended one game without pay for fighting in the Thunder-Wizards game on March 21, 2026."
+    sources:
+      - {label: "AP via Rutland Herald", url: "https://www.rutlandherald.com/sports/pro_national_sports/wizards-forward-justin-champagnie-and-thunder-guard-ajay-mitchell-suspended-1-game-for-fighting/article_5edf2ffb-b7fb-5b3a-b8f2-e2f1bcb45b76.html"}
+      - {label: "AP via WTOP", url: "https://wtop.com/washington-wizards/2026/03/altercation-late-in-first-half-leads-to-4-ejected-from-thunder-wizards"}
+  - players: ["Jaylin Williams", "Justin Champagnie"]
+    kind: Altercation
+    reason: "They shoved each other under the basket in the Thunder-Wizards game in March 2026, and both were ejected with two technical fouls each."
+    sources:
+      - {label: "AP via WTOP", url: "https://wtop.com/washington-wizards/2026/03/altercation-late-in-first-half-leads-to-4-ejected-from-thunder-wizards"}
+  - players: ["Jusuf Nurkic", "Naji Marshall"]
+    kind: Altercation
+    reason: "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected."
+    sources:
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"}
+  - players: ["Jusuf Nurkic", "P.J. Washington"]
+    kind: Altercation
+    reason: "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected."
+    sources:
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"}
+  - players: ["Mitchell Robinson", "Dyson Daniels"]
+    kind: Altercation
+    reason: "Both were ejected in Game 6 of the 2026 first-round Knicks-Hawks series (April 30, 2026) after getting tangled during a free throw. The NBA fined Robinson $50,000 and Daniels $25,000."
+    sources:
+      - {label: "AP via AJC", url: "https://images.ajc.com/news/2026/05/robinson-fined-50000-daniels-fined-25000-for-roles-in-knicks-hawks-altercation/"}
+  - players: ["Nikola Jokic", "Jaden McDaniels"]
+    kind: Altercation
+    reason: "After McDaniels took a late layup in Game 4 of their 2026 first-round series (April 25, 2026), Jokic ran down the court to confront him. Jokic was ejected and fined $50,000."
+    sources:
+      - {label: "Bleacher Report", url: "https://bleacherreport.com/articles/25422580-nikola-jokic-jaden-mcdaniels-have-heated-altercation-video-after-wolves-go-3-1-nuggets"}
+      - {label: "AP via Bakersfield Californian", url: "https://www.bakersfield.com/ap/sports/jokic-fined-50-000-randle-fined-35-000-for-nuggets-wolves-incident/article_a4556ac6-f672-5172-9b2c-0fd29e63259b.html"}
+  - players: ["Nikola Jokic", "Julius Randle"]
+    kind: Altercation
+    reason: "Both were ejected in the Game 4 altercation of their 2026 first-round series (April 25, 2026). The NBA fined Jokic $50,000 and Randle $35,000."
+    sources:
+      - {label: "Bleacher Report", url: "https://bleacherreport.com/articles/25422580-nikola-jokic-jaden-mcdaniels-have-heated-altercation-video-after-wolves-go-3-1-nuggets"}
+      - {label: "AP via Bakersfield Californian", url: "https://www.bakersfield.com/ap/sports/jokic-fined-50-000-randle-fined-35-000-for-nuggets-wolves-incident/article_a4556ac6-f672-5172-9b2c-0fd29e63259b.html"}
+  - players: ["Isaiah Stewart", "Donte DiVincenzo"]
+    kind: Altercation
+    reason: "Stewart bumped DiVincenzo and drew a technical, then a brawl broke out in a Pistons-Timberwolves game on March 30, 2025. Both were ejected."
+    sources:
+      - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
+  - players: ["Ronald Holland II", "Naz Reid"]
+    kind: Altercation
+    reason: "Holland slapped the ball from Reid's hands and the two exchanged words before a brawl broke out in a Pistons-Timberwolves game on March 30, 2025. Both were ejected."
+    sources:
+      - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
+  - players: ["Ronald Holland II", "Donte DiVincenzo"]
+    kind: Altercation
+    reason: "DiVincenzo grabbed Holland's jersey, and all 10 players on the court got involved in a Pistons-Timberwolves brawl on March 30, 2025. Both were ejected."
+    sources:
+      - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
+  - players: ["Jerami Grant", "Yves Missi"]
+    kind: Altercation
+    reason: "Both were ejected after a physical altercation under the basket in a Blazers-Pelicans game on Nov. 13, 2025."
+    sources:
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/trailblazers/onsi/news/blazers-pelicans-frontcourt-stars-ejected-from-ongoing-game-after-fight"}

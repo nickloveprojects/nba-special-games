@@ -109,21 +109,37 @@ def current_week_events() -> tuple[int, int, list[dict]]:
 
 
 # ------------------------------------------------------------------ rosters
-def roster(conn, team_id: int) -> list[dict]:
-    """Official-roster skill players (QB/RB/WR/TE/K), backups included. Injured reserve and practice squad are left out."""
+def _roster_json(conn, team_id: int) -> dict:
     r = conn.execute("SELECT fetched, json FROM roster WHERE team_id=?", (team_id,)).fetchone()
     if r and _fresh(r["fetched"], 12):
-        data = json.loads(r["json"])
-    else:
-        try:
-            data = _get(f"{SITE}/teams/{team_id}/roster")
-        except SourceError:
-            if not r:
-                raise
-            data = json.loads(r["json"])
-        else:
-            conn.execute("INSERT OR REPLACE INTO roster VALUES(?,?,?)", (team_id, _now().isoformat(timespec="seconds"), json.dumps(data)))
-            conn.commit()
+        return json.loads(r["json"])
+    try:
+        data = _get(f"{SITE}/teams/{team_id}/roster")
+    except SourceError:
+        if not r:
+            raise
+        return json.loads(r["json"])
+    conn.execute("INSERT OR REPLACE INTO roster VALUES(?,?,?)", (team_id, _now().isoformat(timespec="seconds"), json.dumps(data)))
+    conn.commit()
+    return data
+
+
+def roster_names(conn, team_id: int) -> set[str]:
+    """Names of every player on the official active roster, any position (used to match documented player-vs-player
+    history, where the other player can be a lineman or defensive back)."""
+    out = set()
+    for grp in (_roster_json(conn, team_id) or {}).get("athletes", []):
+        if grp.get("position") in ("injuredReserveOrOut", "suspended", "practiceSquad"):
+            continue
+        for a in grp.get("items", []):
+            if (a.get("status") or {}).get("type", "active") == "active":
+                out.add(a["fullName"])
+    return out
+
+
+def roster(conn, team_id: int) -> list[dict]:
+    """Official-roster skill players (QB/RB/WR/TE/K), backups included. Injured reserve and practice squad are left out."""
+    data = _roster_json(conn, team_id)
     out = []
     for grp in (data or {}).get("athletes", []):
         if grp.get("position") in ("injuredReserveOrOut", "suspended", "practiceSquad"):
