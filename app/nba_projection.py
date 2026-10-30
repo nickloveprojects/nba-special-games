@@ -1,5 +1,10 @@
 """One pre-game points / rebounds / assists projection per flagged NBA player.
 
+This season's games lead. Games from earlier seasons count at a quarter of the weight, only games with his current team are used, and a player
+with fewer than 3 games this season on his current team gets no projection. (Backtest on the start of 2025-26: 1-4% less error than the
+old version over a player's first ten games, and no worse later; a model with no earlier-season games at all was about as accurate.)
+Opponent defense is softened further by how few games it rests on: backtested, it improves accuracy only slightly, so it is a small nudge.
+
 Minutes are the biggest driver of an NBA box score, so the projection is: expected minutes with his current team (recent games count more)
 x his per-minute rate (pulled toward his own longer-run rate so a hot or cold week counts for less) x how generous
 the opponent has been to opposing teams, softened. Backtested on the 2025-26 regular season (12,800 player-games):
@@ -15,7 +20,9 @@ from datetime import date
 HALF_LIFE = 10.0
 WINDOW = 20             # recent games that carry weight
 HISTORY = 60            # games used for his longer-run rate
-MIN_GAMES = 3           # games with his current team (that is where his minutes come from)
+MIN_GAMES = 3           # games THIS season with his current team (that is where his minutes come from)
+PRIOR_WEIGHT = 0.25     # weight of a game from an earlier season relative to one this season
+OPP_SAMPLE_K = 10.0     # opponent factor is scaled by n / (n + K), n = games it is built from
 MIN_MINUTES = 12.0      # weighted minutes a game; below this the box score is too random to project
 SHRINK_MIN = 150.0      # minutes of his longer-run rate blended into the recent rate
 OPP_STRENGTH = 0.5
@@ -30,13 +37,19 @@ def opp_factors(table: dict, opp: str) -> dict:
     out = {k: 1.0 for k, _ in STATS}
     if opp not in table or table[opp].get("n", 0) < 5 or len(table) < 8:
         return out
+    n = table[opp]["n"]
+    strength = OPP_STRENGTH * n / (n + OPP_SAMPLE_K)
     for k, _ in STATS:
         vals = [t["ALL"][k] for t in table.values() if t.get("ALL")]
         mean = sum(vals) / len(vals) if vals else 0
         if mean > 0:
             ratio = table[opp]["ALL"][k] / mean
-            out[k] = min(OPP_CLAMP[1], max(OPP_CLAMP[0], 1 + OPP_STRENGTH * (ratio - 1)))
+            out[k] = min(OPP_CLAMP[1], max(OPP_CLAMP[0], 1 + strength * (ratio - 1)))
     return out
+
+
+def season_start(today: date) -> str:
+    return date(today.year if today.month >= 8 else today.year - 1, 8, 1).isoformat()
 
 
 def usable(logs: list[dict], team: str | None, today: date) -> list[dict]:
@@ -53,17 +66,19 @@ def project(logs: list[dict], team: str | None, factors: dict, today: date, seed
     recent games, because scoring, rebounding and passing skill travel with a player."""
     if any(w in (status or "").lower() for w in NO_PROJECTION):
         return None
+    start = season_start(today)
     mine = usable(logs, team, today)
-    if len(mine) < MIN_GAMES:
-        return None
-    allg = usable(logs, None, today)
+    if sum(g["date"] >= start for g in mine) < MIN_GAMES:
+        return None            # not enough games this season with this team: any number would lean on old data
+    allg = mine                # rate and minutes both come from games with his current team
     cur = mine[:WINDOW]
-    w = [0.5 ** (i / HALF_LIFE) for i in range(len(cur))]
+    pw = lambda gs: [(1.0 if g["date"] >= start else PRIOR_WEIGHT) for g in gs]
+    w = [0.5 ** (i / HALF_LIFE) * a for i, a in enumerate(pw(cur))]
     mins = sum(g["min"] * x for g, x in zip(cur, w)) / sum(w)
     if mins < MIN_MINUTES:
         return None
     rec = allg[:WINDOW]
-    wr = [0.5 ** (i / HALF_LIFE) for i in range(len(rec))]
+    wr = [0.5 ** (i / HALF_LIFE) * a for i, a in enumerate(pw(rec))]
     sw = sum(wr)
     total_min = sum(g["min"] for g in allg)
     rng = random.Random(seed)
@@ -82,5 +97,5 @@ def project(logs: list[dict], team: str | None, factors: dict, today: date, seed
         lo, hi = proj - (proj - lo) * RANGE_SPREAD, proj + (hi - proj) * RANGE_SPREAD
         lines.append({"label": label, "proj": round(proj, 1) if k != "pts" else round(proj),
                       "lo": round(max(0, lo)), "hi": round(hi)})
-    return {"lines": lines, "games_used": len(cur), "minutes": round(mins), "sims": sims,
+    return {"lines": lines, "games_used": sum(g["date"] >= start for g in cur), "minutes": round(mins), "sims": sims,
             "opp_factor": round(factors.get("pts", 1.0), 2)}

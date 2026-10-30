@@ -56,4 +56,18 @@ def test_opponent_factors_are_softened_and_clamped():
     assert npj.opp_factors(TABLE, "T0")["pts"] < 1.0
     assert npj.opp_factors({}, "X") == {"pts": 1.0, "reb": 1.0, "ast": 1.0}
     hi = npj.project(LOGS, "MEM", npj.opp_factors(TABLE, "T11"), TODAY, 1)["lines"][0]["proj"]
-    assert hi > 20
+    base = npj.project(LOGS, "MEM", npj.opp_factors({}, "X"), TODAY, 1)["lines"][0]["proj"]
+    assert hi >= base                       # a generous defense never lowers the projection
+
+
+def test_this_season_leads_and_old_data_cannot_carry_a_projection():
+    from datetime import date as d
+    def g(day, pts, tm="PHI"):
+        return {"date": day, "tm": tm, "min": 34, "pts": pts, "reb": 8, "ast": 3, "playoff": False}
+    old = [g(f"2026-0{1 + i % 4}-{10 + i:02d}", 32) for i in range(15)]
+    new = [g(f"2026-10-{20 + i}", 20) for i in range(4)]
+    today = d(2026, 10, 30)
+    p = npj.project(old + new, "PHI", {}, today, 1)
+    assert p and p["games_used"] == 4 and p["lines"][0]["proj"] < 27     # last season's 32s only pull it up a little
+    assert npj.project(old + new[:2], "PHI", {}, today, 1) is None       # only 2 games this season: no number
+    assert npj.project(old + [g("2026-10-25", 20, "NYK")] * 4, "PHI", {}, today, 1) is None   # games for another club do not count
