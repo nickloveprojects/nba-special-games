@@ -71,3 +71,14 @@ def test_this_season_leads_and_old_data_cannot_carry_a_projection():
     assert p and p["games_used"] == 4 and p["lines"][0]["proj"] < 27     # last season's 32s only pull it up a little
     assert npj.project(old + new[:2], "PHI", {}, today, 1) is None       # only 2 games this season: no number
     assert npj.project(old + [g("2026-10-25", 20, "NYK")] * 4, "PHI", {}, today, 1) is None   # games for another club do not count
+
+
+def test_position_group_matchup_agrees_with_the_grade_direction():
+    tbl = {f"T{i}": {"n": 10, "ALL": {"pts": 100.0, "reb": 40.0, "ast": 24.0},
+                     "F": {"pts": 38.0 + (4 if i == 11 else 0), "reb": 14.0, "ast": 6.0}} for i in range(12)}
+    team_only = npj.opp_factors(tbl, "T11")["pts"]
+    fwd = npj.opp_factors(tbl, "T11", "F")["pts"]
+    assert team_only == 1.0 and 1.0 < fwd <= 1.12                     # forwards are fed by this defense, the team total is average
+    assert npj.opp_factors(tbl, "T11", "C")["pts"] == 1.0              # no center data: team-wide only
+    thin = {**tbl, "T11": {**tbl["T11"], "n": 5}}
+    assert 1.0 < npj.opp_factors(thin, "T11", "F")["pts"] < fwd        # fewer games, smaller nudge

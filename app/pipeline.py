@@ -217,7 +217,7 @@ def projection_for(conn, e, table, slate_date, warn, prior):
         return projection.freeze(None, prior.get(e["player_id"]), e["tip_utc"])
     end = config.current_end_year(slate_date)
     logs = ensure_games(conn, e["player_id"], end, warn) + ensure_games(conn, e["player_id"], end - 1, warn)
-    fresh = nba_projection.project(logs, e["team"], nba_projection.opp_factors(table, e["opponent"]), slate_date,
+    fresh = nba_projection.project(logs, e["team"], nba_projection.opp_factors(table, e["opponent"], matchups.group(e.get("position"))), slate_date,
                                    int(e["player_id"]) * 100003 + int(e["game_id"]))
     return projection.freeze(fresh, prior.get(e["player_id"]), e["tip_utc"])
 
