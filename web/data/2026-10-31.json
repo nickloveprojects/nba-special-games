@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-30T13:56:41Z",
+ "generated_at": "2026-10-30T17:16:30Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -1307,8 +1307,8 @@
      {
       "label": "Pts",
       "proj": 21,
-      "lo": 12,
-      "hi": 31
+      "lo": 11,
+      "hi": 30
      },
      {
       "label": "Reb",
@@ -2672,8 +2672,8 @@
      {
       "label": "Pts",
       "proj": 23,
-      "lo": 18,
-      "hi": 30
+      "lo": 17,
+      "hi": 29
      },
      {
       "label": "Reb",
@@ -3260,7 +3260,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 14,
+      "proj": 13,
       "lo": 9,
       "hi": 17
      },
@@ -3580,8 +3580,8 @@
      {
       "label": "Pts",
       "proj": 23,
-      "lo": 13,
-      "hi": 34
+      "lo": 12,
+      "hi": 33
      },
      {
       "label": "Reb",
@@ -4877,7 +4877,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 16,
+      "proj": 15,
       "lo": 6,
       "hi": 21
      },
@@ -5408,9 +5408,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 19,
+      "proj": 18,
       "lo": 9,
-      "hi": 26
+      "hi": 25
      },
      {
       "label": "Reb",
@@ -5697,8 +5697,8 @@
      {
       "label": "Pts",
       "proj": 24,
-      "lo": 18,
-      "hi": 29
+      "lo": 17,
+      "hi": 28
      },
      {
       "label": "Reb",
@@ -6537,7 +6537,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 18,
+      "proj": 17,
       "lo": 6,
       "hi": 25
      },
@@ -7084,7 +7084,7 @@
      {
       "label": "Pts",
       "proj": 2,
-      "lo": 0,
+      "lo": 1,
       "hi": 5
      },
      {
@@ -7659,9 +7659,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 24,
-      "lo": 19,
-      "hi": 31
+      "proj": 23,
+      "lo": 18,
+      "hi": 30
      },
      {
       "label": "Reb",
@@ -8425,7 +8425,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 5,
+      "proj": 6,
       "lo": 0,
       "hi": 15
      },
@@ -9002,7 +9002,7 @@
      {
       "label": "Pts",
       "proj": 15,
-      "lo": 8,
+      "lo": 7,
       "hi": 18
      },
      {
@@ -9274,7 +9274,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 3,
+      "proj": 4,
       "lo": 0,
       "hi": 7
      },
@@ -10602,8 +10602,8 @@
      {
       "label": "Pts",
       "proj": 20,
-      "lo": 16,
-      "hi": 27
+      "lo": 15,
+      "hi": 26
      },
      {
       "label": "Reb",
@@ -10859,9 +10859,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 25,
+      "proj": 24,
       "lo": 13,
-      "hi": 35
+      "hi": 34
      },
      {
       "label": "Reb",
@@ -12246,9 +12246,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 27,
-      "lo": 23,
-      "hi": 32
+      "proj": 26,
+      "lo": 22,
+      "hi": 31
      },
      {
       "label": "Reb",
@@ -13722,9 +13722,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 20,
+      "proj": 19,
       "lo": 12,
-      "hi": 27
+      "hi": 26
      },
      {
       "label": "Reb",
@@ -13965,7 +13965,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 15,
+      "proj": 14,
       "lo": 7,
       "hi": 22
      },
@@ -14255,7 +14255,7 @@
       "label": "Pts",
       "proj": 8,
       "lo": 2,
-      "hi": 10
+      "hi": 11
      },
      {
       "label": "Reb",
@@ -14771,7 +14771,7 @@
       "label": "Pts",
       "proj": 13,
       "lo": 8,
-      "hi": 30
+      "hi": 29
      },
      {
       "label": "Reb",
@@ -16624,7 +16624,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 15,
+      "proj": 14,
       "lo": 7,
       "hi": 17
      },
@@ -17200,7 +17200,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 13,
+      "proj": 12,
       "lo": 4,
       "hi": 23
      },
@@ -17776,7 +17776,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 17,
+      "proj": 16,
       "lo": 9,
       "hi": 27
      },
@@ -18072,8 +18072,8 @@
      {
       "label": "Pts",
       "proj": 25,
-      "lo": 20,
-      "hi": 33
+      "lo": 19,
+      "hi": 32
      },
      {
       "label": "Reb",
@@ -18359,7 +18359,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 19,
+      "proj": 18,
       "lo": 11,
       "hi": 24
      },
@@ -18892,7 +18892,7 @@
       "label": "Pts",
       "proj": 19,
       "lo": 12,
-      "hi": 27
+      "hi": 26
      },
      {
       "label": "Reb",
@@ -19180,7 +19180,7 @@
       "label": "Pts",
       "proj": 15,
       "lo": 8,
-      "hi": 22
+      "hi": 21
      },
      {
       "label": "Reb",
@@ -21690,7 +21690,7 @@
       "label": "Pts",
       "proj": 7,
       "lo": 0,
-      "hi": 14
+      "hi": 15
      },
      {
       "label": "Reb",
@@ -21900,7 +21900,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 7,
+      "proj": 8,
       "lo": 3,
       "hi": 10
      },
@@ -22190,7 +22190,7 @@
       "label": "Pts",
       "proj": 8,
       "lo": 0,
-      "hi": 13
+      "hi": 14
      },
      {
       "label": "Reb",
@@ -23858,7 +23858,7 @@
       "label": "Pts",
       "proj": 17,
       "lo": 14,
-      "hi": 24
+      "hi": 23
      },
      {
       "label": "Reb",
@@ -24144,9 +24144,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 27,
-      "lo": 12,
-      "hi": 36
+      "proj": 26,
+      "lo": 11,
+      "hi": 35
      },
      {
       "label": "Reb",
@@ -24705,9 +24705,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 23,
-      "lo": 16,
-      "hi": 36
+      "proj": 22,
+      "lo": 15,
+      "hi": 35
      },
      {
       "label": "Reb",
@@ -24994,8 +24994,8 @@
      {
       "label": "Pts",
       "proj": 22,
-      "lo": 14,
-      "hi": 28
+      "lo": 13,
+      "hi": 27
      },
      {
       "label": "Reb",
@@ -25281,8 +25281,8 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 19,
-      "lo": 15,
+      "proj": 18,
+      "lo": 14,
       "hi": 22
      },
      {
@@ -25541,7 +25541,7 @@
       "label": "Pts",
       "proj": 8,
       "lo": 3,
-      "hi": 15
+      "hi": 16
      },
      {
       "label": "Reb",

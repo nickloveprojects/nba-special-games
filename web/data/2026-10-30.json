@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T13:56:33Z",
+ "generated_at": "2026-10-30T17:15:33Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -323,9 +323,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 25,
+      "proj": 24,
       "lo": 13,
-      "hi": 36
+      "hi": 35
      },
      {
       "label": "Reb",
@@ -666,7 +666,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 21,
+      "proj": 20,
       "lo": 18,
       "hi": 26
      },
@@ -687,6 +687,584 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.99,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 3945274,
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "team_name": "Lakers",
+   "opponent": "GSW",
+   "opponent_name": "Warriors",
+   "position": "G",
+   "jersey": "77",
+   "home_away": "away",
+   "game_id": "401909285",
+   "game_kind": "Regular season",
+   "tip": "10:00 PM ET",
+   "tip_utc": "2026-10-31T02:00:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "History"
+   ],
+   "summary": "Feud history with Yaxel Lendeborg.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Feud",
+     "confidence": "high",
+     "headline": "Feud history with Yaxel Lendeborg.",
+     "reason": "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\"",
+     "detail": "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\"",
+     "with": "Yaxel Lendeborg",
+     "with_id": 5175737,
+     "with_team": "GSW",
+     "sources": [
+      {
+       "label": "AP via News4Jax",
+       "url": "https://www.news4jax.com/sports/2026/10/22/warriors-rookie-yaxel-lendeborg-calls-out-luka-doncic-both-on-court-and-after-huge-loss-to-lakers/"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 1,
+      "me": {
+       "n": 1,
+       "min": 30.0,
+       "pts": 28.0,
+       "reb": 8.0,
+       "ast": 7.0
+      },
+      "them": {
+       "n": 1,
+       "min": 29.0,
+       "pts": 12.0,
+       "reb": 3.0,
+       "ast": 2.0
+      },
+      "record": "1-0",
+      "recent": [
+       {
+        "date": "2026-10-21",
+        "me": 28,
+        "them": 12,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 4,
+    "min": 35.5,
+    "pts": 36.0,
+    "reb": 6.8,
+    "ast": 8.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3945274",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909880",
+       "date": "2026-10-27",
+       "venue": "LAL",
+       "opp": "POR",
+       "tm": "LAL",
+       "home": true,
+       "result": "L",
+       "score": "136-129",
+       "min": 37,
+       "pts": 41,
+       "reb": 5,
+       "ast": 9,
+       "playoff": false
+      },
+      {
+       "gid": "401909861",
+       "date": "2026-10-25",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "LAL",
+       "home": false,
+       "result": "W",
+       "score": "132-123",
+       "min": 38,
+       "pts": 52,
+       "reb": 8,
+       "ast": 10,
+       "playoff": false
+      },
+      {
+       "gid": "401909851",
+       "date": "2026-10-23",
+       "venue": "LAL",
+       "opp": "LAC",
+       "tm": "LAL",
+       "home": true,
+       "result": "W",
+       "score": "125-117",
+       "min": 37,
+       "pts": 23,
+       "reb": 6,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909092",
+       "date": "2026-10-21",
+       "venue": "LAL",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": true,
+       "result": "W",
+       "score": "127-105",
+       "min": 30,
+       "pts": 28,
+       "reb": 8,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401810971",
+       "date": "2026-04-02",
+       "venue": "OKC",
+       "opp": "OKC",
+       "tm": "LAL",
+       "home": false,
+       "result": "L",
+       "score": "139-96",
+       "min": 26,
+       "pts": 12,
+       "reb": 4,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 31.2,
+     "reb": 6.2,
+     "ast": 8.0,
+     "min": 33.6
+    },
+    "vs": {
+     "opp": "GSW",
+     "games": [
+      {
+       "gid": "401909092",
+       "date": "2026-10-21",
+       "venue": "LAL",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": true,
+       "result": "W",
+       "score": "127-105",
+       "min": 30,
+       "pts": 28,
+       "reb": 8,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401810721",
+       "date": "2026-02-28",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": false,
+       "result": "W",
+       "score": "129-101",
+       "min": 29,
+       "pts": 26,
+       "reb": 6,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401809244",
+       "date": "2025-10-21",
+       "venue": "LAL",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": true,
+       "result": "L",
+       "score": "119-109",
+       "min": 41,
+       "pts": 43,
+       "reb": 12,
+       "ast": 9,
+       "playoff": false
+      },
+      {
+       "gid": "401705683",
+       "date": "2025-04-03",
+       "venue": "LAL",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": true,
+       "result": "L",
+       "score": "123-116",
+       "min": 38,
+       "pts": 19,
+       "reb": 8,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401737912",
+       "date": "2024-12-15",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "DAL",
+       "home": false,
+       "result": "W",
+       "score": "143-133",
+       "min": 38,
+       "pts": 45,
+       "reb": 11,
+       "ast": 13,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 32.2,
+     "reb": 9.0,
+     "ast": 8.8,
+     "min": 35.2
+    }
+   },
+   "headshot": "img/players/3945274.png",
+   "team_logo": "img/teams/LAL.png",
+   "opponent_logo": "img/teams/GSW.png",
+   "matchup": {
+    "group": "G",
+    "games": 5,
+    "stats": {
+     "pts": {
+      "value": 63.4,
+      "rank": 5,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 15.6,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 16.4,
+      "rank": 13,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 62,
+    "grade": "B",
+    "color": "yellow",
+    "best": "pts",
+    "note": "GSW gives up the 5th-most points to guards (63.4 a game, 5 games)."
+   },
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 1,
+     "pts": 28.0,
+     "reb": 8.0,
+     "ast": 7.0,
+     "text": "Has faced Yaxel Lendeborg 1 time (avg 28.0 pts, 8.0 reb, 7.0 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 35,
+      "lo": 21,
+      "hi": 50
+     },
+     {
+      "label": "Reb",
+      "proj": 6.9,
+      "lo": 5,
+      "hi": 9
+     },
+     {
+      "label": "Ast",
+      "proj": 8.2,
+      "lo": 6,
+      "hi": 10
+     }
+    ],
+    "games_used": 4,
+    "minutes": 36,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 5175737,
+   "name": "Yaxel Lendeborg",
+   "team": "GSW",
+   "team_name": "Warriors",
+   "opponent": "LAL",
+   "opponent_name": "Lakers",
+   "position": "F",
+   "jersey": "1",
+   "home_away": "home",
+   "game_id": "401909285",
+   "game_kind": "Regular season",
+   "tip": "10:00 PM ET",
+   "tip_utc": "2026-10-31T02:00:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "History"
+   ],
+   "summary": "Feud history with Luka Doncic.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Feud",
+     "confidence": "high",
+     "headline": "Feud history with Luka Doncic.",
+     "reason": "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\"",
+     "detail": "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\"",
+     "with": "Luka Doncic",
+     "with_id": 3945274,
+     "with_team": "LAL",
+     "sources": [
+      {
+       "label": "AP via News4Jax",
+       "url": "https://www.news4jax.com/sports/2026/10/22/warriors-rookie-yaxel-lendeborg-calls-out-luka-doncic-both-on-court-and-after-huge-loss-to-lakers/"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 1,
+      "me": {
+       "n": 1,
+       "min": 29.0,
+       "pts": 12.0,
+       "reb": 3.0,
+       "ast": 2.0
+      },
+      "them": {
+       "n": 1,
+       "min": 30.0,
+       "pts": 28.0,
+       "reb": 8.0,
+       "ast": 7.0
+      },
+      "record": "0-1",
+      "recent": [
+       {
+        "date": "2026-10-21",
+        "me": 12,
+        "them": 28,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 4,
+    "min": 33.3,
+    "pts": 21.8,
+    "reb": 9.3,
+    "ast": 4.8
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/5175737",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909888",
+       "date": "2026-10-28",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "GSW",
+       "home": false,
+       "result": "W",
+       "score": "119-114",
+       "min": 35,
+       "pts": 26,
+       "reb": 9,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909876",
+       "date": "2026-10-26",
+       "venue": "DEN",
+       "opp": "DEN",
+       "tm": "GSW",
+       "home": false,
+       "result": "W",
+       "score": "134-114",
+       "min": 31,
+       "pts": 31,
+       "reb": 12,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401909860",
+       "date": "2026-10-24",
+       "venue": "PHX",
+       "opp": "PHX",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "131-122",
+       "min": 36,
+       "pts": 26,
+       "reb": 9,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909850",
+       "date": "2026-10-23",
+       "venue": "GSW",
+       "opp": "MEM",
+       "tm": "GSW",
+       "home": true,
+       "result": "L",
+       "score": "111-108",
+       "min": 37,
+       "pts": 18,
+       "reb": 13,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401909092",
+       "date": "2026-10-21",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "127-105",
+       "min": 29,
+       "pts": 12,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 22.6,
+     "reb": 9.2,
+     "ast": 4.0,
+     "min": 33.6
+    },
+    "vs": {
+     "opp": "LAL",
+     "games": [
+      {
+       "gid": "401909092",
+       "date": "2026-10-21",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "127-105",
+       "min": 29,
+       "pts": 12,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 1,
+     "pts": 12.0,
+     "reb": 3.0,
+     "ast": 2.0,
+     "min": 29.0
+    }
+   },
+   "headshot": "img/players/5175737.png",
+   "team_logo": "img/teams/GSW.png",
+   "opponent_logo": "img/teams/LAL.png",
+   "matchup": {
+    "group": "F",
+    "games": 5,
+    "stats": {
+     "pts": {
+      "value": 38.8,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 14.6,
+      "rank": 29,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 6.8,
+      "rank": 22,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 18,
+    "grade": "F",
+    "color": "red",
+    "best": "ast",
+    "note": "LAL gives up the 22nd-most assists to forwards (6.8 a game, 5 games)."
+   },
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 1,
+     "pts": 12.0,
+     "reb": 3.0,
+     "ast": 2.0,
+     "text": "Has faced Luka Doncic 1 time (avg 12.0 pts, 3.0 reb, 2.0 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 22,
+      "lo": 11,
+      "hi": 30
+     },
+     {
+      "label": "Reb",
+      "proj": 9.1,
+      "lo": 3,
+      "hi": 13
+     },
+     {
+      "label": "Ast",
+      "proj": 4.0,
+      "lo": 1,
+      "hi": 6
+     }
+    ],
+    "games_used": 5,
+    "minutes": 34,
+    "sims": 1000,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -1579,7 +2157,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 6,
+      "proj": 7,
       "lo": 2,
       "hi": 12
      },
@@ -4316,8 +4894,8 @@
      {
       "label": "Pts",
       "proj": 21,
-      "lo": 18,
-      "hi": 25
+      "lo": 17,
+      "hi": 24
      },
      {
       "label": "Reb",
@@ -6303,9 +6881,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 25,
-      "lo": 3,
-      "hi": 43
+      "proj": 24,
+      "lo": 2,
+      "hi": 42
      },
      {
       "label": "Reb",
