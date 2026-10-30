@@ -35,7 +35,7 @@ def test_minutes_come_from_current_team_but_rate_travels():
     other = [g(f"2026-09-{d:02d}", tm="LAL", min=20, pts=20) for d in (3, 6, 9, 12, 15, 18)]   # 1.0 pts a minute
     mine = [g(f"2026-10-{d:02d}", min=30, pts=30) for d in (20, 23, 26)]                       # 1.0 pts a minute
     p = npj.project(other + mine, "MEM", {}, TODAY, 1)
-    assert p["minutes"] == 30 and p["games_used"] == 3 and p["lines"][0]["proj"] == 30
+    assert p["minutes"] == 30 and p["games_used"] == 3 and abs(p["lines"][0]["proj"] - 30) <= 1
     assert npj.project(other, "MEM", {}, TODAY, 1) is None            # no games with the new team yet
     assert npj.project(other + mine[:2], "MEM", {}, TODAY, 1) is None  # needs three
     po = [g(f"2026-10-{d:02d}", playoff=True) for d in (3, 6, 9, 12, 15, 18)]

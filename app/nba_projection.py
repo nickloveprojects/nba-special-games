@@ -28,6 +28,11 @@ SHRINK_MIN = 150.0      # minutes of his longer-run rate blended into the recent
 OPP_STRENGTH = 0.5
 OPP_CLAMP = (0.88, 1.12)
 RANGE_SPREAD = 1.0
+# Backtest (13,800 player-games, 2025-26 before mid-Feb): points projections ran high for big scorers and low for
+# low scorers (projected 20-25: +0.65 too high; 25+: +0.89; under 10: -0.29), the usual pull of extreme projections
+# back toward the middle. Points are pulled back by this share of their distance from the league-typical 11.
+PTS_PULL = 0.055
+PTS_CENTER = 11.0
 STATS = (("pts", "Pts"), ("reb", "Reb"), ("ast", "Ast"))
 NO_PROJECTION = ("out", "doubtful", "injured reserve", "suspended")
 
@@ -62,8 +67,8 @@ def usable(logs: list[dict], team: str | None, today: date) -> list[dict]:
 
 def project(logs: list[dict], team: str | None, factors: dict, today: date, seed: int,
             status: str = "", sims: int = 1000) -> dict | None:
-    """Minutes come only from games with his current team, since that is his role now. His per-minute rate uses all
-    recent games, because scoring, rebounding and passing skill travel with a player."""
+    """Minutes and per-minute rate both come only from games with his current team: his role and usage there are what
+    matter, and the backtest found no gain from borrowing other clubs' games."""
     if any(w in (status or "").lower() for w in NO_PROJECTION):
         return None
     start = season_start(today)
@@ -95,6 +100,9 @@ def project(logs: list[dict], team: str | None, factors: dict, today: date, seed
         vals = sorted(max(0.0, rec[i][k] * scale) for i in picks)
         lo, hi = vals[int(0.1 * sims)], vals[min(sims - 1, int(0.9 * sims))]
         lo, hi = proj - (proj - lo) * RANGE_SPREAD, proj + (hi - proj) * RANGE_SPREAD
+        if k == "pts":
+            shift = PTS_PULL * (proj - PTS_CENTER)
+            proj, lo, hi = proj - shift, lo - shift, hi - shift
         lines.append({"label": label, "proj": round(proj, 1) if k != "pts" else round(proj),
                       "lo": round(max(0, lo)), "hi": round(hi)})
     return {"lines": lines, "games_used": sum(g["date"] >= start for g in cur), "minutes": round(mins), "sims": sims,

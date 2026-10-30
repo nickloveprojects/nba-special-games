@@ -111,3 +111,8 @@ rivalries:
     sources:
       - {label: "Philadelphia Inquirer", url: "https://www.inquirer.com/sixers/jaylen-brown-cap-emoji-jayson-tatum-response-celtics-sixers-20261024.html"}
       - {label: "BroBible", url: "https://brobible.com/sports/article/jaylen-brown-calls-out-jayson-tatum-celtics-sixers-trade-reaction/"}
+  - players: ["Yaxel Lendeborg", "Luka Doncic"]
+    kind: Feud
+    reason: "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\""
+    sources:
+      - {label: "AP via News4Jax", url: "https://www.news4jax.com/sports/2026/10/22/warriors-rookie-yaxel-lendeborg-calls-out-luka-doncic-both-on-court-and-after-huge-loss-to-lakers/"}
