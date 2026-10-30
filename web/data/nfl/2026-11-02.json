@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-03T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 48,
-    "wind": 1,
-    "gust": 1,
+    "temp": 49,
+    "wind": 3,
+    "gust": 2,
     "rain": 5
    },
-   "weather_text": "48\u00b0F, wind 1 mph",
+   "weather_text": "49\u00b0F, wind 3 mph",
    "arena": "Lumen Field",
    "location": "Seattle, WA",
    "categories": [
@@ -190,5 +190,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-30T10:34:19+00:00"
+ "generated_at": "2026-10-30T12:18:32+00:00"
 }

@@ -25,7 +25,7 @@
     "indoor": false,
     "temp": 59,
     "wind": 4,
-    "gust": 4,
+    "gust": 5,
     "rain": 0
    },
    "weather_text": "59\u00b0F, wind 4 mph",
@@ -468,12 +468,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 80,
-    "wind": 15,
+    "temp": 78,
+    "wind": 14,
     "gust": 20,
     "rain": 14
    },
-   "weather_text": "80\u00b0F, wind 15 mph",
+   "weather_text": "78\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -622,20 +622,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 1.8,
+      "proj": 2.0,
       "lo": 0.0,
-      "hi": 4.9
+      "hi": 5.4
      },
      {
       "label": "Rec yds",
-      "proj": 24,
+      "proj": 26,
       "lo": 0,
-      "hi": 50
+      "hi": 55
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.88,
+    "weather_factor": 0.97,
     "opp_factor": 1.05,
     "locked": false
    },
@@ -678,12 +678,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 80,
-    "wind": 15,
+    "temp": 78,
+    "wind": 14,
     "gust": 20,
     "rain": 14
    },
-   "weather_text": "80\u00b0F, wind 15 mph",
+   "weather_text": "78\u00b0F, wind 14 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -894,11 +894,11 @@
    "weather": {
     "indoor": false,
     "temp": 82,
-    "wind": 18,
-    "gust": 22,
+    "wind": 17,
+    "gust": 21,
     "rain": 77
    },
-   "weather_text": "82\u00b0F, wind 18 mph, 77% rain",
+   "weather_text": "82\u00b0F, wind 17 mph, 77% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1048,7 +1048,7 @@
     "indoor": false,
     "temp": 66,
     "wind": 5,
-    "gust": 7,
+    "gust": 8,
     "rain": 0
    },
    "weather_text": "66\u00b0F, wind 5 mph",
@@ -1164,12 +1164,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 54,
+    "temp": 53,
     "wind": 4,
-    "gust": 5,
+    "gust": 4,
     "rain": 0
    },
-   "weather_text": "54\u00b0F, wind 4 mph",
+   "weather_text": "53\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1589,12 +1589,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 54,
+    "temp": 53,
     "wind": 4,
-    "gust": 5,
+    "gust": 4,
     "rain": 0
    },
-   "weather_text": "54\u00b0F, wind 4 mph",
+   "weather_text": "53\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1839,12 +1839,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 54,
+    "temp": 53,
     "wind": 4,
-    "gust": 5,
+    "gust": 4,
     "rain": 0
    },
-   "weather_text": "54\u00b0F, wind 4 mph",
+   "weather_text": "53\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -2081,7 +2081,7 @@
     "indoor": false,
     "temp": 66,
     "wind": 5,
-    "gust": 7,
+    "gust": 8,
     "rain": 0
    },
    "weather_text": "66\u00b0F, wind 5 mph",
@@ -2405,5 +2405,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-30T10:34:19+00:00"
+ "generated_at": "2026-10-30T12:18:32+00:00"
 }
