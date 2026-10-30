@@ -1,9 +1,695 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-29T23:01:49Z",
+ "generated_at": "2026-10-30T10:18:04Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
+  {
+   "player_id": 3059318,
+   "name": "Joel Embiid",
+   "team": "PHI",
+   "team_name": "76ers",
+   "opponent": "NYK",
+   "opponent_name": "Knicks",
+   "position": "C",
+   "jersey": "21",
+   "home_away": "home",
+   "game_id": "401909280",
+   "game_kind": "Regular season",
+   "tip": "7:30 PM ET",
+   "tip_utc": "2026-10-30T23:30:00+00:00",
+   "arena": "Xfinity Mobile Arena",
+   "location": "Philadelphia, PA",
+   "categories": [
+    "History"
+   ],
+   "summary": "Altercation history with Karl-Anthony Towns.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with Karl-Anthony Towns.",
+     "reason": "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019.",
+     "detail": "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019.",
+     "with": "Karl-Anthony Towns",
+     "with_id": 3136195,
+     "with_team": "NYK",
+     "sources": [
+      {
+       "label": "Fox News",
+       "url": "https://www.foxnews.com/sports/philadelphia-76ers-joel-embiid-ejected-brawl-minnesota-timberwolves-karl-anthony-towns"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 16,
+      "me": {
+       "n": 16,
+       "min": 31.4,
+       "pts": 26.6,
+       "reb": 8.7,
+       "ast": 3.9
+      },
+      "them": {
+       "n": 16,
+       "min": 30.3,
+       "pts": 18.9,
+       "reb": 9.7,
+       "ast": 3.2
+      },
+      "record": "9-7",
+      "recent": [
+       {
+        "date": "2026-10-20",
+        "me": 13,
+        "them": 19,
+        "playoff": false
+       },
+       {
+        "date": "2026-05-10",
+        "me": 24,
+        "them": 17,
+        "playoff": true
+       },
+       {
+        "date": "2026-05-08",
+        "me": 18,
+        "them": 8,
+        "playoff": true
+       },
+       {
+        "date": "2026-05-04",
+        "me": 14,
+        "them": 17,
+        "playoff": true
+       },
+       {
+        "date": "2026-01-24",
+        "me": 38,
+        "them": 10,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 3,
+    "min": 34.7,
+    "pts": 21.7,
+    "reb": 9.7,
+    "ast": 5.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3059318",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909884",
+       "date": "2026-10-28",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "PHI",
+       "home": false,
+       "result": "W",
+       "score": "114-109",
+       "min": 39,
+       "pts": 21,
+       "reb": 11,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909855",
+       "date": "2026-10-24",
+       "venue": "PHI",
+       "opp": "MIL",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "127-116",
+       "min": 36,
+       "pts": 28,
+       "reb": 11,
+       "ast": 10,
+       "playoff": false
+      },
+      {
+       "gid": "401909093",
+       "date": "2026-10-22",
+       "venue": "PHI",
+       "opp": "CLE",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "114-106",
+       "min": 34,
+       "pts": 24,
+       "reb": 7,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909089",
+       "date": "2026-10-20",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": false,
+       "result": "W",
+       "score": "106-100",
+       "min": 33,
+       "pts": 13,
+       "reb": 11,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401871162",
+       "date": "2026-05-10",
+       "venue": "PHI",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "144-114",
+       "min": 28,
+       "pts": 24,
+       "reb": 5,
+       "ast": 4,
+       "playoff": true
+      }
+     ],
+     "n": 5,
+     "pts": 22.0,
+     "reb": 9.0,
+     "ast": 4.6,
+     "min": 34.0
+    },
+    "vs": {
+     "opp": "NYK",
+     "games": [
+      {
+       "gid": "401909089",
+       "date": "2026-10-20",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": false,
+       "result": "W",
+       "score": "106-100",
+       "min": 33,
+       "pts": 13,
+       "reb": 11,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401871162",
+       "date": "2026-05-10",
+       "venue": "PHI",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "144-114",
+       "min": 28,
+       "pts": 24,
+       "reb": 5,
+       "ast": 4,
+       "playoff": true
+      },
+      {
+       "gid": "401871161",
+       "date": "2026-05-08",
+       "venue": "PHI",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "108-94",
+       "min": 35,
+       "pts": 18,
+       "reb": 6,
+       "ast": 5,
+       "playoff": true
+      },
+      {
+       "gid": "401871159",
+       "date": "2026-05-04",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": false,
+       "result": "L",
+       "score": "137-98",
+       "min": 25,
+       "pts": 14,
+       "reb": 4,
+       "ast": 1,
+       "playoff": true
+      },
+      {
+       "gid": "401810498",
+       "date": "2026-01-24",
+       "venue": "PHI",
+       "opp": "NYK",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "112-109",
+       "min": 36,
+       "pts": 38,
+       "reb": 11,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 21.4,
+     "reb": 7.4,
+     "ast": 4.2,
+     "min": 31.4
+    }
+   },
+   "headshot": "img/players/3059318.png",
+   "team_logo": "img/teams/PHI.png",
+   "opponent_logo": "img/teams/NYK.png",
+   "matchup": {
+    "group": "C",
+    "games": 5,
+    "stats": {
+     "pts": {
+      "value": 10.8,
+      "rank": 24,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 7.6,
+      "rank": 24,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 3.2,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 40,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "NYK gives up the 7th-most assists to centers (3.2 a game, 5 games)."
+   },
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 16,
+     "pts": 26.6,
+     "reb": 8.7,
+     "ast": 3.9,
+     "text": "Has faced Karl-Anthony Towns 16 times (avg 26.6 pts, 8.7 reb, 3.9 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 27,
+      "lo": 19,
+      "hi": 35
+     },
+     {
+      "label": "Reb",
+      "proj": 9.0,
+      "lo": 6,
+      "hi": 12
+     },
+     {
+      "label": "Ast",
+      "proj": 4.7,
+      "lo": 1,
+      "hi": 10
+     }
+    ],
+    "games_used": 20,
+    "minutes": 35,
+    "sims": 1000,
+    "opp_factor": 0.98,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 3136195,
+   "name": "Karl-Anthony Towns",
+   "team": "NYK",
+   "team_name": "Knicks",
+   "opponent": "PHI",
+   "opponent_name": "76ers",
+   "position": "C",
+   "jersey": "32",
+   "home_away": "away",
+   "game_id": "401909280",
+   "game_kind": "Regular season",
+   "tip": "7:30 PM ET",
+   "tip_utc": "2026-10-30T23:30:00+00:00",
+   "arena": "Xfinity Mobile Arena",
+   "location": "Philadelphia, PA",
+   "categories": [
+    "History"
+   ],
+   "summary": "Altercation history with Joel Embiid.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with Joel Embiid.",
+     "reason": "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019.",
+     "detail": "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019.",
+     "with": "Joel Embiid",
+     "with_id": 3059318,
+     "with_team": "PHI",
+     "sources": [
+      {
+       "label": "Fox News",
+       "url": "https://www.foxnews.com/sports/philadelphia-76ers-joel-embiid-ejected-brawl-minnesota-timberwolves-karl-anthony-towns"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 16,
+      "me": {
+       "n": 16,
+       "min": 30.3,
+       "pts": 18.9,
+       "reb": 9.7,
+       "ast": 3.2
+      },
+      "them": {
+       "n": 16,
+       "min": 31.4,
+       "pts": 26.6,
+       "reb": 8.7,
+       "ast": 3.9
+      },
+      "record": "7-9",
+      "recent": [
+       {
+        "date": "2026-10-20",
+        "me": 19,
+        "them": 13,
+        "playoff": false
+       },
+       {
+        "date": "2026-05-10",
+        "me": 17,
+        "them": 24,
+        "playoff": true
+       },
+       {
+        "date": "2026-05-08",
+        "me": 8,
+        "them": 18,
+        "playoff": true
+       },
+       {
+        "date": "2026-05-04",
+        "me": 17,
+        "them": 14,
+        "playoff": true
+       },
+       {
+        "date": "2026-01-24",
+        "me": 10,
+        "them": 38,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 4,
+    "min": 31.8,
+    "pts": 22.5,
+    "reb": 14.0,
+    "ast": 2.8
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3136195",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909886",
+       "date": "2026-10-28",
+       "venue": "CHI",
+       "opp": "CHI",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "133-127",
+       "min": 28,
+       "pts": 19,
+       "reb": 13,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909878",
+       "date": "2026-10-27",
+       "venue": "NYK",
+       "opp": "DET",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "111-97",
+       "min": 33,
+       "pts": 27,
+       "reb": 20,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909863",
+       "date": "2026-10-25",
+       "venue": "NYK",
+       "opp": "ORL",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "111-102",
+       "min": 33,
+       "pts": 22,
+       "reb": 14,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909095",
+       "date": "2026-10-23",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "NYK",
+       "home": false,
+       "result": "L",
+       "score": "107-103",
+       "min": 37,
+       "pts": 22,
+       "reb": 10,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909089",
+       "date": "2026-10-20",
+       "venue": "NYK",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "106-100",
+       "min": 24,
+       "pts": 19,
+       "reb": 12,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 21.8,
+     "reb": 13.8,
+     "ast": 3.2,
+     "min": 31.0
+    },
+    "vs": {
+     "opp": "PHI",
+     "games": [
+      {
+       "gid": "401909089",
+       "date": "2026-10-20",
+       "venue": "NYK",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "106-100",
+       "min": 24,
+       "pts": 19,
+       "reb": 12,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401871162",
+       "date": "2026-05-10",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "144-114",
+       "min": 20,
+       "pts": 17,
+       "reb": 4,
+       "ast": 10,
+       "playoff": true
+      },
+      {
+       "gid": "401871161",
+       "date": "2026-05-08",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "108-94",
+       "min": 26,
+       "pts": 8,
+       "reb": 12,
+       "ast": 7,
+       "playoff": true
+      },
+      {
+       "gid": "401871160",
+       "date": "2026-05-06",
+       "venue": "NYK",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "108-102",
+       "min": 27,
+       "pts": 20,
+       "reb": 10,
+       "ast": 7,
+       "playoff": true
+      },
+      {
+       "gid": "401871159",
+       "date": "2026-05-04",
+       "venue": "NYK",
+       "opp": "PHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "137-98",
+       "min": 20,
+       "pts": 17,
+       "reb": 6,
+       "ast": 6,
+       "playoff": true
+      }
+     ],
+     "n": 5,
+     "pts": 16.2,
+     "reb": 8.8,
+     "ast": 6.2,
+     "min": 23.4
+    }
+   },
+   "headshot": "img/players/3136195.png",
+   "team_logo": "img/teams/NYK.png",
+   "opponent_logo": "img/teams/PHI.png",
+   "matchup": {
+    "group": "C",
+    "games": 5,
+    "stats": {
+     "pts": {
+      "value": 17.0,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 13.0,
+      "rank": 4,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 2.2,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 70,
+    "grade": "B",
+    "color": "green",
+    "best": "reb",
+    "note": "PHI gives up the 4th-most rebounds to centers (13.0 a game, 5 games)."
+   },
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 16,
+     "pts": 18.9,
+     "reb": 9.7,
+     "ast": 3.2,
+     "text": "Has faced Joel Embiid 16 times (avg 18.9 pts, 9.7 reb, 3.2 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 20,
+      "lo": 15,
+      "hi": 26
+     },
+     {
+      "label": "Reb",
+      "proj": 13.5,
+      "lo": 9,
+      "hi": 22
+     },
+     {
+      "label": "Ast",
+      "proj": 3.4,
+      "lo": 1,
+      "hi": 5
+     }
+    ],
+    "games_used": 20,
+    "minutes": 30,
+    "sims": 1000,
+    "opp_factor": 0.97,
+    "locked": false
+   }
+  },
   {
    "player_id": 4432819,
    "name": "Tre Mann",
@@ -880,7 +1566,7 @@
     "stats": {
      "pts": {
       "value": 17.0,
-      "rank": 8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
@@ -897,7 +1583,7 @@
       "color": "yellow"
      }
     },
-    "score": 69,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -1109,13 +1795,13 @@
     "stats": {
      "pts": {
       "value": 8.8,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 9.8,
-      "rank": 14,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
@@ -1126,7 +1812,7 @@
       "color": "green"
      }
     },
-    "score": 47,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -1327,7 +2013,7 @@
     "stats": {
      "pts": {
       "value": 42.2,
-      "rank": 18,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -1339,16 +2025,16 @@
      },
      "ast": {
       "value": 9.6,
-      "rank": 4,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 54,
+    "score": 52,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "GSW gives up the 4th-most assists to forwards (9.6 a game, 5 games)."
+    "note": "GSW gives up the 5th-most assists to forwards (9.6 a game, 5 games)."
    },
    "career": [
     {
@@ -1508,7 +2194,7 @@
     "stats": {
      "pts": {
       "value": 10.8,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -1525,7 +2211,7 @@
       "color": "green"
      }
     },
-    "score": 41,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -2252,7 +2938,7 @@
     "stats": {
      "pts": {
       "value": 43.2,
-      "rank": 14,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
@@ -2269,11 +2955,11 @@
       "color": "yellow"
      }
     },
-    "score": 37,
+    "score": 34,
     "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "BKN gives up the 14th-most points to forwards (43.2 a game, 4 games)."
+    "note": "BKN gives up the 16th-most points to forwards (43.2 a game, 4 games)."
    },
    "career": [
     {
@@ -2515,7 +3201,7 @@
     "stats": {
      "pts": {
       "value": 58.8,
-      "rank": 15,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
@@ -2527,7 +3213,7 @@
      },
      "ast": {
       "value": 16.2,
-      "rank": 14,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
@@ -2804,7 +3490,7 @@
     "stats": {
      "pts": {
       "value": 59.2,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
@@ -2816,7 +3502,7 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 15,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      }
@@ -3082,7 +3768,7 @@
     "stats": {
      "pts": {
       "value": 47.0,
-      "rank": 7,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
@@ -3094,7 +3780,7 @@
      },
      "ast": {
       "value": 5.8,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
@@ -3103,7 +3789,7 @@
     "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "CHA gives up the 7th-most points to forwards (47.0 a game, 5 games)."
+    "note": "CHA gives up the 6th-most points to forwards (47.0 a game, 5 games)."
    },
    "career": [
     {
@@ -3375,28 +4061,28 @@
     "stats": {
      "pts": {
       "value": 47.2,
-      "rank": 6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 18.8,
-      "rank": 16,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 10.6,
-      "rank": 1,
+      "rank": 2,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 77,
+    "score": 78,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "NYK gives up the 1st-most assists to forwards (10.6 a game, 5 games)."
+    "note": "NYK gives up the 2nd-most assists to forwards (10.6 a game, 5 games)."
    },
    "career": [
     {
@@ -3668,28 +4354,28 @@
     "stats": {
      "pts": {
       "value": 43.2,
-      "rank": 14,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 20.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 10.2,
-      "rank": 3,
+      "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 69,
+    "score": 67,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "ORL gives up the 3rd-most assists to forwards (10.2 a game, 4 games)."
+    "note": "ORL gives up the 4th-most assists to forwards (10.2 a game, 4 games)."
    },
    "career": [
     {
@@ -3916,13 +4602,13 @@
     "stats": {
      "pts": {
       "value": 59.4,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 15.0,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
@@ -3937,7 +4623,7 @@
     "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "HOU gives up the 12th-most points to guards (59.4 a game, 5 games)."
+    "note": "HOU gives up the 11th-most points to guards (59.4 a game, 5 games)."
    },
    "career": [
     {
@@ -4194,13 +4880,13 @@
     "stats": {
      "pts": {
       "value": 59.0,
-      "rank": 14,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 14.6,
-      "rank": 21,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -4211,7 +4897,7 @@
       "color": "green"
      }
     },
-    "score": 59,
+    "score": 57,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -4355,7 +5041,7 @@
     "stats": {
      "pts": {
       "value": 54.2,
-      "rank": 22,
+      "rank": 21,
       "of": 30,
       "color": "red"
      },
@@ -4372,7 +5058,7 @@
       "color": "red"
      }
     },
-    "score": 29,
+    "score": 30,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -4611,7 +5297,7 @@
     "stats": {
      "pts": {
       "value": 54.2,
-      "rank": 22,
+      "rank": 21,
       "of": 30,
       "color": "red"
      },
@@ -4628,7 +5314,7 @@
       "color": "red"
      }
     },
-    "score": 29,
+    "score": 30,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -4904,7 +5590,7 @@
     "stats": {
      "pts": {
       "value": 63.6,
-      "rank": 5,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
@@ -4921,11 +5607,11 @@
       "color": "green"
      }
     },
-    "score": 82,
+    "score": 83,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "LAL gives up the 5th-most points to guards (63.6 a game, 5 games)."
+    "note": "LAL gives up the 4th-most points to guards (63.6 a game, 5 games)."
    },
    "career": [
     {
@@ -5374,7 +6060,7 @@
     "stats": {
      "pts": {
       "value": 63.6,
-      "rank": 5,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
@@ -5391,11 +6077,11 @@
       "color": "green"
      }
     },
-    "score": 82,
+    "score": 83,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "LAL gives up the 5th-most points to guards (63.6 a game, 5 games)."
+    "note": "LAL gives up the 4th-most points to guards (63.6 a game, 5 games)."
    },
    "career": [
     {
@@ -5656,7 +6342,7 @@
     "stats": {
      "pts": {
       "value": 58.8,
-      "rank": 15,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
@@ -5668,7 +6354,7 @@
      },
      "ast": {
       "value": 16.2,
-      "rank": 14,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
@@ -6148,7 +6834,9 @@
    }
   }
  ],
- "warnings": [],
+ "warnings": [
+  "Matchup data incomplete for 2026-10-27 (https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: Expecting value: line 1 column 1 (char 0))"
+ ],
  "matchups": [
   {
    "away": "CHA",
