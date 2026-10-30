@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T17:21:07Z",
+ "generated_at": "2026-10-30T21:30:12Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -324,12 +324,12 @@
      {
       "label": "Pts",
       "proj": 24,
-      "lo": 13,
-      "hi": 35
+      "lo": 12,
+      "hi": 34
      },
      {
       "label": "Reb",
-      "proj": 9.4,
+      "proj": 9.3,
       "lo": 6,
       "hi": 11
      },
@@ -343,7 +343,7 @@
     "games_used": 4,
     "minutes": 35,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -666,15 +666,15 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 20,
+      "proj": 21,
       "lo": 18,
       "hi": 26
      },
      {
       "label": "Reb",
-      "proj": 13.5,
+      "proj": 13.7,
       "lo": 10,
-      "hi": 20
+      "hi": 21
      },
      {
       "label": "Ast",
@@ -686,7 +686,7 @@
     "games_used": 5,
     "minutes": 31,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -986,18 +986,18 @@
      {
       "label": "Pts",
       "proj": 35,
-      "lo": 21,
-      "hi": 50
+      "lo": 22,
+      "hi": 51
      },
      {
       "label": "Reb",
-      "proj": 6.9,
+      "proj": 7.0,
       "lo": 5,
       "hi": 9
      },
      {
       "label": "Ast",
-      "proj": 8.2,
+      "proj": 8.1,
       "lo": 6,
       "hi": 10
      }
@@ -1250,13 +1250,13 @@
      },
      {
       "label": "Reb",
-      "proj": 9.1,
+      "proj": 9.0,
       "lo": 3,
       "hi": 13
      },
      {
       "label": "Ast",
-      "proj": 4.0,
+      "proj": 3.9,
       "lo": 1,
       "hi": 6
      }
@@ -1264,7 +1264,7 @@
     "games_used": 5,
     "minutes": 34,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 0.99,
     "locked": false
    }
   },
@@ -2163,7 +2163,7 @@
      },
      {
       "label": "Reb",
-      "proj": 7.8,
+      "proj": 7.9,
       "lo": 2,
       "hi": 14
      },
@@ -2177,7 +2177,7 @@
     "games_used": 5,
     "minutes": 13,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -4083,7 +4083,7 @@
       "label": "Pts",
       "proj": 9,
       "lo": 5,
-      "hi": 14
+      "hi": 15
      },
      {
       "label": "Reb",
@@ -4093,7 +4093,7 @@
      },
      {
       "label": "Ast",
-      "proj": 2.0,
+      "proj": 2.1,
       "lo": 0,
       "hi": 5
      }
@@ -4101,7 +4101,7 @@
     "games_used": 5,
     "minutes": 25,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -5147,7 +5147,7 @@
      },
      {
       "label": "Reb",
-      "proj": 1.5,
+      "proj": 1.6,
       "lo": 1,
       "hi": 3
      },
@@ -5161,7 +5161,7 @@
     "games_used": 5,
     "minutes": 21,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -6135,7 +6135,7 @@
      },
      {
       "label": "Reb",
-      "proj": 2.9,
+      "proj": 3.0,
       "lo": 2,
       "hi": 4
      },
@@ -6149,7 +6149,7 @@
     "games_used": 5,
     "minutes": 16,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -6601,11 +6601,11 @@
       "label": "Pts",
       "proj": 10,
       "lo": 0,
-      "hi": 26
+      "hi": 27
      },
      {
       "label": "Reb",
-      "proj": 3.7,
+      "proj": 3.8,
       "lo": 1,
       "hi": 6
      },
@@ -6619,7 +6619,7 @@
     "games_used": 5,
     "minutes": 22,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
