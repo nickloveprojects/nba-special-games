@@ -105,3 +105,9 @@ rivalries:
     reason: "Both were ejected after a physical altercation under the basket in a Blazers-Pelicans game on Nov. 13, 2025."
     sources:
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/trailblazers/onsi/news/blazers-pelicans-frontcourt-stars-ejected-from-ongoing-game-after-fight"}
+  - players: ["Jaylen Brown", "Jayson Tatum"]
+    kind: Feud
+    reason: "Former Celtics co-stars. After Tatum said he was \"caught off guard\" by the trade that sent Brown to the 76ers, Brown replied with a cap (lying) emoji on Oct. 23, 2026."
+    sources:
+      - {label: "Philadelphia Inquirer", url: "https://www.inquirer.com/sixers/jaylen-brown-cap-emoji-jayson-tatum-response-celtics-sixers-20261024.html"}
+      - {label: "BroBible", url: "https://brobible.com/sports/article/jaylen-brown-calls-out-jayson-tatum-celtics-sixers-trade-reaction/"}
