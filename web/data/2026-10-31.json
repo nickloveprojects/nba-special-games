@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31T04:46:32Z",
+ "generated_at": "2026-10-31T04:54:08Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -229,7 +229,7 @@
     "games_used": 6,
     "minutes": 27,
     "sims": 1000,
-    "opp_factor": 1.01,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -784,7 +784,7 @@
     "games_used": 6,
     "minutes": 30,
     "sims": 1000,
-    "opp_factor": 1.01,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -980,16 +980,16 @@
      },
      "ast": {
       "value": 9.4,
-      "rank": 8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "CLE gives up the 8th-most assists to forwards (9.4 a game, 5 games)."
+    "note": "CLE gives up the 7th-most assists to forwards (9.4 a game, 5 games)."
    },
    "career": [
     {
@@ -1326,7 +1326,7 @@
     "games_used": 6,
     "minutes": 31,
     "sims": 1000,
-    "opp_factor": 1.01,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -1499,7 +1499,7 @@
     "stats": {
      "pts": {
       "value": 10.8,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -1516,7 +1516,7 @@
       "color": "red"
      }
     },
-    "score": 22,
+    "score": 23,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -2359,12 +2359,12 @@
      },
      "ast": {
       "value": 16.6,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -2644,12 +2644,12 @@
      },
      "ast": {
       "value": 8.8,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 74,
+    "score": 75,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -2671,7 +2671,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 23,
+      "proj": 24,
       "lo": 17,
       "hi": 29
      },
@@ -2902,7 +2902,7 @@
     "stats": {
      "pts": {
       "value": 37.8,
-      "rank": 25,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -2919,7 +2919,7 @@
       "color": "yellow"
      }
     },
-    "score": 25,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -3233,12 +3233,12 @@
      },
      "ast": {
       "value": 8.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 80,
+    "score": 82,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -3280,7 +3280,7 @@
     "games_used": 5,
     "minutes": 27,
     "sims": 1000,
-    "opp_factor": 1.03,
+    "opp_factor": 1.04,
     "locked": false
    }
   },
@@ -5680,12 +5680,12 @@
      },
      "ast": {
       "value": 6.8,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 57,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -5956,7 +5956,7 @@
     "stats": {
      "pts": {
       "value": 10.8,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -5973,7 +5973,7 @@
       "color": "red"
      }
     },
-    "score": 22,
+    "score": 23,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -8117,7 +8117,7 @@
     "stats": {
      "pts": {
       "value": 10.8,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -8134,7 +8134,7 @@
       "color": "red"
      }
     },
-    "score": 22,
+    "score": 23,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -8985,12 +8985,12 @@
      },
      "ast": {
       "value": 6.8,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 57,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -9508,12 +9508,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -10069,12 +10069,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 77,
+    "score": 78,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -10327,12 +10327,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 77,
+    "score": 78,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -10585,12 +10585,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -11131,12 +11131,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -11678,7 +11678,7 @@
      },
      "reb": {
       "value": 16.3,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -11689,11 +11689,11 @@
       "color": "red"
      }
     },
-    "score": 6,
+    "score": 7,
     "grade": "F",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 26th-most rebounds to forwards (16.3 a game, 6 games)."
+    "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
    "career": [],
    "projection": {
@@ -11936,7 +11936,7 @@
      },
      "reb": {
       "value": 16.3,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -11947,11 +11947,11 @@
       "color": "red"
      }
     },
-    "score": 6,
+    "score": 7,
     "grade": "F",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 26th-most rebounds to forwards (16.3 a game, 6 games)."
+    "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
    "career": [],
    "projection": {
@@ -12230,12 +12230,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -12488,12 +12488,12 @@
      },
      "ast": {
       "value": 16.0,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -16608,12 +16608,12 @@
      },
      "ast": {
       "value": 8.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 80,
+    "score": 82,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -16644,7 +16644,7 @@
     "games_used": 4,
     "minutes": 27,
     "sims": 1000,
-    "opp_factor": 1.03,
+    "opp_factor": 1.04,
     "locked": false
    }
   },
@@ -17172,7 +17172,7 @@
     "stats": {
      "pts": {
       "value": 36.4,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -17184,7 +17184,7 @@
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
@@ -17748,7 +17748,7 @@
     "stats": {
      "pts": {
       "value": 36.4,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -17760,7 +17760,7 @@
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
@@ -18055,12 +18055,12 @@
      },
      "ast": {
       "value": 16.6,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -18331,13 +18331,13 @@
     "stats": {
      "pts": {
       "value": 13.6,
-      "rank": 17,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 8.8,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
@@ -18371,7 +18371,7 @@
      },
      {
       "label": "Ast",
-      "proj": 3.7,
+      "proj": 3.8,
       "lo": 2,
       "hi": 7
      }
@@ -18874,12 +18874,12 @@
      },
      "ast": {
       "value": 16.6,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -19150,13 +19150,13 @@
     "stats": {
      "pts": {
       "value": 13.6,
-      "rank": 17,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 8.8,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
@@ -19450,12 +19450,12 @@
      },
      "ast": {
       "value": 16.6,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -19723,12 +19723,12 @@
      },
      "ast": {
       "value": 8.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 80,
+    "score": 82,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -19759,7 +19759,7 @@
     "games_used": 5,
     "minutes": 25,
     "sims": 1000,
-    "opp_factor": 1.03,
+    "opp_factor": 1.04,
     "locked": false
    }
   },
@@ -20287,7 +20287,7 @@
     "stats": {
      "pts": {
       "value": 36.4,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -20299,7 +20299,7 @@
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
@@ -20849,12 +20849,12 @@
      },
      "ast": {
       "value": 8.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 80,
+    "score": 82,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -21111,16 +21111,16 @@
      },
      "ast": {
       "value": 9.4,
-      "rank": 8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "CLE gives up the 8th-most assists to forwards (9.4 a game, 5 games)."
+    "note": "CLE gives up the 7th-most assists to forwards (9.4 a game, 5 games)."
    },
    "career": [],
    "projection": {
@@ -21884,12 +21884,12 @@
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 66,
+    "score": 64,
     "grade": "B",
     "color": "yellow",
     "best": "pts",
@@ -22415,12 +22415,12 @@
      },
      "ast": {
       "value": 16.6,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -22691,7 +22691,7 @@
     "stats": {
      "pts": {
       "value": 36.4,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -22703,7 +22703,7 @@
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
@@ -22991,16 +22991,16 @@
      },
      "ast": {
       "value": 3.8,
-      "rank": 6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 59,
-    "grade": "C",
+    "score": 60,
+    "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "SAS gives up the 6th-most assists to centers (3.8 a game, 5 games)."
+    "note": "SAS gives up the 5th-most assists to centers (3.8 a game, 5 games)."
    },
    "career": [],
    "projection": {
@@ -23862,7 +23862,7 @@
      },
      {
       "label": "Reb",
-      "proj": 6.1,
+      "proj": 6.0,
       "lo": 4,
       "hi": 8
      },
@@ -25545,7 +25545,7 @@
      },
      {
       "label": "Reb",
-      "proj": 1.4,
+      "proj": 1.3,
       "lo": 1,
       "hi": 2
      },
@@ -26084,12 +26084,12 @@
      },
      "ast": {
       "value": 8.8,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 74,
+    "score": 75,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -26948,12 +26948,12 @@
      },
      "ast": {
       "value": 8.8,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 74,
+    "score": 75,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -27212,7 +27212,7 @@
     "stats": {
      "pts": {
       "value": 10.8,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -27229,7 +27229,7 @@
       "color": "red"
      }
     },
-    "score": 22,
+    "score": 23,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -27449,7 +27449,7 @@
      },
      "reb": {
       "value": 16.3,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -27460,11 +27460,11 @@
       "color": "red"
      }
     },
-    "score": 6,
+    "score": 7,
     "grade": "F",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 26th-most rebounds to forwards (16.3 a game, 6 games)."
+    "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
    "career": [
     {
