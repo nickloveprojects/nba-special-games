@@ -302,7 +302,8 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
       <option value="best">Best matchup</option>
       <option value="worst">Toughest</option>
     </select>
-    <span class="lab" id="cnt" role="status" aria-live="polite" style="flex:1 1 100%"></span>
+    <span class="lab" id="cnt" role="status" aria-live="polite" style="flex:1 1 auto"></span>
+    <button id="reset" type="button" hidden>Reset filters</button>
   </div>
   <div class="games" id="games" role="group" aria-label="Filter by game"></div>
   <details class="opts">
@@ -486,6 +487,8 @@ function card(e){
 }
 function render(){
   const rows=filtered();
+  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||$("q").value||$("team").value||game||active.size<CATS.length;
+  $("reset").hidden=!dirty;
   $("cnt").textContent=`${rows.length} player${rows.length===1?"":"s"} shown`;
   $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
 }
@@ -508,6 +511,10 @@ async function initBoard(){
     $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
     ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",render));
     $("grades").onclick=e=>{const b=e.target.closest("[data-gr]");if(!b)return;const g=b.dataset.gr;grades.has(g)?grades.delete(g):grades.add(g);b.setAttribute("aria-pressed",grades.has(g));render()};
+    $("reset").onclick=()=>{grades=new Set(GRADES);active=new Set(CATS);game="";
+      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");
+      document.querySelectorAll("#grades [data-gr]").forEach(b=>b.setAttribute("aria-pressed","true"));
+      drawChips();render()};
     $("csv").onclick=()=>copy(csv(),"CSV");
     $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
     $("date").onchange=e=>load(e.target.value);
