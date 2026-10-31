@@ -288,6 +288,22 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
     <select id="team" aria-label="Team"><option value="">All teams</option></select>
   </div>
   <div class="bar" id="cats"></div>
+  <div class="bar" id="grades" role="group" aria-label="Matchup grade"></div>
+  <div class="bar filters" id="mf">
+    <select id="stat" aria-label="Matchup stat"></select>
+    <select id="feel" aria-label="Matchup is">
+      <option value="">Any matchup</option>
+      <option value="green">Favorable</option>
+      <option value="yellow">Average</option>
+      <option value="red">Tough</option>
+    </select>
+    <select id="sort" aria-label="Sort by">
+      <option value="">Sort: default</option>
+      <option value="best">Best matchup</option>
+      <option value="worst">Toughest</option>
+    </select>
+    <span class="lab" id="cnt" role="status" aria-live="polite" style="flex:1 1 100%"></span>
+  </div>
   <div class="games" id="games" role="group" aria-label="Filter by game"></div>
   <details class="opts">
     <summary>More options</summary>
@@ -317,7 +333,8 @@ const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unk
   high_school:"Grew up here",override:"Hometown (set by hand)",birthplace:"Born here",birthday:""};
 const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
 const SPORTS={nba:{dir:"data",name:"NBA"},nfl:{dir:"data/nfl",name:"NFL"}};
-let sport="nba",slate=null,active=new Set(CATS),game="";
+const GRADES=["A","B","C","D","F"];
+let sport="nba",slate=null,active=new Set(CATS),game="",grades=new Set(GRADES);
 const dataUrl=f=>`${SPORTS[sport].dir}/${f}`;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -352,14 +369,36 @@ function drawGames(){
 function redrawGames(){const x=$("games").scrollLeft;drawGames();$("games").scrollLeft=x}
 function drawChips(){
   const n=c=>slate.entries.filter(e=>e.categories.includes(c)).length;
-  drawGames();
+  drawGames();drawMF();
   $("cats").innerHTML=CATS.map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${active.has(c)}">${icon(c)}${c}<b>${n(c)}</b></button>`).join("");
 }
 const weak=g=>g.category==="Revenge"&&((g.kind==="free_agency"&&g.confidence!=="high")||g.kind==="unknown"||(!g.kind&&g.confidence==="low"));
+function drawMF(){
+  $("grades").innerHTML=`<span class="lab">Matchup grade</span>`+GRADES.map(g=>`<button class="chip" type="button" data-gr="${g}" aria-pressed="${grades.has(g)}">${g}</button>`).join("");
+  const labels={};
+  slate.entries.forEach(e=>{const m=e.matchup;if(m)Object.keys(m.stats).forEach(k=>labels[k]=(m.labels&&m.labels[k])||k.toUpperCase())});
+  const cur=$("stat").value;
+  $("stat").innerHTML=`<option value="">Any stat</option>`+Object.keys(labels).map(k=>`<option value="${k}">${esc(labels[k])}</option>`).join("");
+  $("stat").value=labels[cur]?cur:"";
+}
+function sortKey(e,mode,k){
+  const m=e.matchup; if(!m) return null;
+  const v=k&&m.stats[k]?100-(m.stats[k].rank-1)/Math.max(1,m.stats[k].of-1)*100:m.score;   // higher = more generous defense
+  return mode==="worst"?-v:v;
+}
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
-  return slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))
-   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})));
+  const k=$("stat").value,feel=$("feel").value,mode=$("sort").value,gAll=grades.size===GRADES.length;
+  let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))
+   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})))
+   .filter(e=>{const m=e.matchup;
+     if(!gAll&&!(m&&grades.has(m.grade))) return false;
+     if(k||feel){ if(!m) return false;
+       if(k&&!m.stats[k]) return false;
+       if(feel){ if(k) return m.stats[k].color===feel; return Object.values(m.stats).some(x=>x.color===feel) } }
+     return true});
+  if(mode) rows=rows.map((e,i)=>({e,i,s:sortKey(e,mode,k)})).sort((a,b)=>(b.s??-1e9)-(a.s??-1e9)||a.i-b.i).map(x=>x.e);
+  return rows;
 }
 const stat=m=>m&&m.n?`${m.pts} pts · ${m.reb} reb · ${m.ast} ast`:"no games";
 function history(g,e){
@@ -447,6 +486,7 @@ function card(e){
 }
 function render(){
   const rows=filtered();
+  $("cnt").textContent=`${rows.length} player${rows.length===1?"":"s"} shown`;
   $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
 }
 function csv(){
@@ -466,12 +506,13 @@ async function initBoard(){
     bound=true;
     $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));redrawGames();render()};
     $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
-    ["q","team","strict"].forEach(i=>$(i).addEventListener("input",render));
+    ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",render));
+    $("grades").onclick=e=>{const b=e.target.closest("[data-gr]");if(!b)return;const g=b.dataset.gr;grades.has(g)?grades.delete(g):grades.add(g);b.setAttribute("aria-pressed",grades.has(g));render()};
     $("csv").onclick=()=>copy(csv(),"CSV");
     $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
     $("date").onchange=e=>load(e.target.value);
   }
-  slate=null;game="";active=new Set(CATS);
+  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";$("stat").innerHTML="";$("grades").innerHTML="";
   $("h1").textContent=`${SPORTS[sport].name} backstories`;
   $("sub").textContent="Loading\u2026";$("list").innerHTML="";$("cats").innerHTML="";$("games").innerHTML="";$("date").innerHTML="";$("q").value="";
   try{
