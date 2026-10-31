@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-31T04:47:02Z",
+ "generated_at": "2026-10-31T04:54:14Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -863,13 +863,13 @@
      },
      "reb": {
       "value": 17.0,
-      "rank": 22,
+      "rank": 21,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 7.2,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      }
@@ -1164,7 +1164,7 @@
     "games_used": 5,
     "minutes": 16,
     "sims": 1000,
-    "opp_factor": 1.03,
+    "opp_factor": 1.02,
     "locked": false
    }
   },
@@ -1457,7 +1457,7 @@
     "games_used": 5,
     "minutes": 22,
     "sims": 1000,
-    "opp_factor": 1.03,
+    "opp_factor": 1.02,
     "locked": false
    }
   },
