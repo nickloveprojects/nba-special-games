@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-31T13:42:58Z",
+ "generated_at": "2026-10-31T22:25:54Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -43,10 +43,10 @@
    ],
    "score": 14.4,
    "stats": {
-    "gp": 4,
-    "min": 22.8,
-    "pts": 9.5,
-    "reb": 4.0,
+    "gp": 6,
+    "min": 23.5,
+    "pts": 9.2,
+    "reb": 5.2,
     "ast": 1.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4278580",
@@ -185,7 +185,7 @@
     "stats": {
      "pts": {
       "value": 44.2,
-      "rank": 18,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -197,12 +197,12 @@
      },
      "ast": {
       "value": 6.4,
-      "rank": 25,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 36,
+    "score": 38,
     "grade": "D",
     "color": "yellow",
     "best": "reb",
@@ -276,11 +276,11 @@
    ],
    "score": 14.08,
    "stats": {
-    "gp": 3,
-    "min": 8.0,
-    "pts": 1.7,
-    "reb": 2.0,
-    "ast": 1.3
+    "gp": 5,
+    "min": 9.2,
+    "pts": 2.6,
+    "reb": 2.2,
+    "ast": 1.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6478",
    "recent": {
@@ -475,12 +475,12 @@
      },
      "ast": {
       "value": 1.4,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 21,
+    "score": 20,
     "grade": "D",
     "color": "red",
     "best": "pts",
@@ -528,11 +528,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 1,
-    "min": 0.0,
-    "pts": 0.0,
+    "gp": 3,
+    "min": 5.7,
+    "pts": 0.3,
     "reb": 0.0,
-    "ast": 0.0
+    "ast": 0.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5105854",
    "recent": {
@@ -670,11 +670,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 4,
-    "min": 23.3,
-    "pts": 15.8,
-    "reb": 5.0,
-    "ast": 1.5
+    "gp": 5,
+    "min": 22.8,
+    "pts": 15.2,
+    "reb": 5.2,
+    "ast": 1.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4278355",
    "recent": {
@@ -857,7 +857,7 @@
     "stats": {
      "pts": {
       "value": 45.2,
-      "rank": 13,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
@@ -874,11 +874,11 @@
       "color": "yellow"
      }
     },
-    "score": 41,
+    "score": 44,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "BKN gives up the 13th-most points to forwards (45.2 a game, 5 games)."
+    "note": "BKN gives up the 11th-most points to forwards (45.2 a game, 5 games)."
    },
    "career": [
     {
@@ -963,11 +963,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 4,
-    "min": 16.5,
-    "pts": 11.0,
-    "reb": 3.0,
-    "ast": 3.0
+    "gp": 6,
+    "min": 16.2,
+    "pts": 10.7,
+    "reb": 2.8,
+    "ast": 2.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4397040",
    "recent": {
@@ -1164,7 +1164,7 @@
     "games_used": 6,
     "minutes": 16,
     "sims": 1000,
-    "opp_factor": 1.02,
+    "opp_factor": 1.03,
     "locked": false
    }
   },
@@ -1211,11 +1211,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 4,
-    "min": 21.8,
-    "pts": 9.5,
-    "reb": 3.0,
-    "ast": 2.5
+    "gp": 6,
+    "min": 21.3,
+    "pts": 10.3,
+    "reb": 3.8,
+    "ast": 2.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4066436",
    "recent": {
@@ -1457,7 +1457,7 @@
     "games_used": 6,
     "minutes": 22,
     "sims": 1000,
-    "opp_factor": 1.02,
+    "opp_factor": 1.03,
     "locked": false
    }
   },
@@ -1504,9 +1504,9 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 1,
-    "min": 7.0,
-    "pts": 2.0,
+    "gp": 2,
+    "min": 4.0,
+    "pts": 1.0,
     "reb": 0.0,
     "ast": 0.0
    },
@@ -1652,7 +1652,7 @@
      },
      "reb": {
       "value": 13.4,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -1663,7 +1663,7 @@
       "color": "red"
      }
     },
-    "score": 17,
+    "score": 16,
     "grade": "F",
     "color": "red",
     "best": "pts",

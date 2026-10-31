@@ -26,7 +26,7 @@
     "temp": 50,
     "wind": 1,
     "gust": 1,
-    "rain": 2
+    "rain": 0
    },
    "weather_text": "50\u00b0F, wind 1 mph",
    "arena": "Lumen Field",
@@ -37,7 +37,7 @@
    "summary": "Faces the Bears, who released him.",
    "score": 4.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4035693",
    "recent": {
     "cols": [
@@ -138,7 +138,7 @@
      },
      "rec_yds": {
       "value": 24.4,
-      "rank": 23,
+      "rank": 22,
       "of": 32,
       "color": "red"
      }
@@ -147,11 +147,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 26,
+    "score": 27,
     "grade": "D",
     "color": "red",
     "best": "rec_yds",
-    "note": "CHI gives up the 23rd-most receiving yards to running backs (24.4 a game, 7 games)."
+    "note": "CHI gives up the 22nd-most receiving yards to running backs (24.4 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -190,5 +190,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-31T13:43:07+00:00"
+ "generated_at": "2026-10-31T22:26:55+00:00"
 }
