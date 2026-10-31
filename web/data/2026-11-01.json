@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-31T04:54:14Z",
+ "generated_at": "2026-10-31T13:42:58Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -53,6 +53,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909285",
+       "date": "2026-10-30",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": false,
+       "result": "L",
+       "score": "112-95",
+       "min": 20,
+       "pts": 4,
+       "reb": 7,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909892",
        "date": "2026-10-28",
@@ -112,28 +127,13 @@
        "reb": 5,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909092",
-       "date": "2026-10-21",
-       "venue": "LAL",
-       "opp": "GSW",
-       "tm": "LAL",
-       "home": true,
-       "result": "W",
-       "score": "127-105",
-       "min": 22,
-       "pts": 5,
-       "reb": 4,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 10.2,
-     "reb": 4.8,
-     "ast": 1.8,
-     "min": 24.2
+     "pts": 10.0,
+     "reb": 5.4,
+     "ast": 1.4,
+     "min": 23.8
     },
     "vs": {
      "opp": "TOR",
@@ -213,24 +213,24 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 10,
-      "lo": 5,
+      "proj": 9,
+      "lo": 4,
       "hi": 17
      },
      {
       "label": "Reb",
-      "proj": 4.8,
+      "proj": 5.2,
       "lo": 3,
       "hi": 8
      },
      {
       "label": "Ast",
-      "proj": 1.8,
+      "proj": 1.4,
       "lo": 0,
       "hi": 3
      }
     ],
-    "games_used": 5,
+    "games_used": 6,
     "minutes": 24,
     "sims": 1000,
     "opp_factor": 1.0,
@@ -974,6 +974,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909285",
+       "date": "2026-10-30",
+       "venue": "GSW",
+       "opp": "LAL",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "112-95",
+       "min": 17,
+       "pts": 9,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909888",
        "date": "2026-10-28",
        "venue": "MIN",
@@ -1032,28 +1047,13 @@
        "reb": 2,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909092",
-       "date": "2026-10-21",
-       "venue": "LAL",
-       "opp": "LAL",
-       "tm": "GSW",
-       "home": false,
-       "result": "L",
-       "score": "127-105",
-       "min": 18,
-       "pts": 14,
-       "reb": 4,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 11.0,
-     "reb": 3.0,
-     "ast": 2.6,
-     "min": 16.0
+     "pts": 10.0,
+     "reb": 2.6,
+     "ast": 2.2,
+     "min": 15.8
     },
     "vs": {
      "opp": "LAC",
@@ -1150,18 +1150,18 @@
      },
      {
       "label": "Reb",
-      "proj": 3.0,
+      "proj": 2.8,
       "lo": 2,
       "hi": 4
      },
      {
       "label": "Ast",
-      "proj": 2.6,
+      "proj": 2.3,
       "lo": 1,
       "hi": 5
      }
     ],
-    "games_used": 5,
+    "games_used": 6,
     "minutes": 16,
     "sims": 1000,
     "opp_factor": 1.02,
@@ -1222,6 +1222,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909285",
+       "date": "2026-10-30",
+       "venue": "GSW",
+       "opp": "LAL",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "112-95",
+       "min": 21,
+       "pts": 16,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      },
+      {
        "gid": "401909888",
        "date": "2026-10-28",
        "venue": "MIN",
@@ -1280,27 +1295,12 @@
        "reb": 1,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909092",
-       "date": "2026-10-21",
-       "venue": "LAL",
-       "opp": "LAL",
-       "tm": "GSW",
-       "home": false,
-       "result": "L",
-       "score": "127-105",
-       "min": 21,
-       "pts": 0,
-       "reb": 2,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 9.2,
-     "reb": 3.6,
-     "ast": 2.0,
+     "pts": 12.4,
+     "reb": 4.2,
+     "ast": 2.2,
      "min": 21.4
     },
     "vs": {
@@ -1437,24 +1437,24 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 10,
+      "proj": 11,
       "lo": 0,
-      "hi": 27
+      "hi": 26
      },
      {
       "label": "Reb",
-      "proj": 3.8,
+      "proj": 3.9,
       "lo": 1,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 2.3,
+      "proj": 2.4,
       "lo": 0,
       "hi": 5
      }
     ],
-    "games_used": 5,
+    "games_used": 6,
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.02,
@@ -1515,6 +1515,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909285",
+       "date": "2026-10-30",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "LAL",
+       "home": false,
+       "result": "L",
+       "score": "112-95",
+       "min": 1,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909092",
        "date": "2026-10-21",
        "venue": "LAL",
@@ -1573,28 +1588,13 @@
        "reb": 0,
        "ast": 1,
        "playoff": true
-      },
-      {
-       "gid": "401869409",
-       "date": "2026-05-01",
-       "venue": "HOU",
-       "opp": "HOU",
-       "tm": "LAL",
-       "home": false,
-       "result": "W",
-       "score": "98-78",
-       "min": 3,
-       "pts": 0,
-       "reb": 1,
-       "ast": 1,
-       "playoff": true
       }
      ],
      "n": 5,
      "pts": 0.8,
-     "reb": 0.2,
-     "ast": 0.6,
-     "min": 3.6
+     "reb": 0.0,
+     "ast": 0.4,
+     "min": 3.2
     },
     "vs": {
      "opp": "TOR",
