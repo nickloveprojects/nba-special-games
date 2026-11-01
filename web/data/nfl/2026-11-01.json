@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 61,
-    "wind": 4,
-    "gust": 6,
+    "wind": 2,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 4 mph",
+   "weather_text": "61\u00b0F, wind 2 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -468,12 +468,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 11,
-    "gust": 19,
+    "temp": 77,
+    "wind": 10,
+    "gust": 18,
     "rain": 12
    },
-   "weather_text": "78\u00b0F, wind 11 mph",
+   "weather_text": "77\u00b0F, wind 10 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -678,12 +678,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 11,
-    "gust": 19,
+    "temp": 77,
+    "wind": 10,
+    "gust": 18,
     "rain": 12
    },
-   "weather_text": "78\u00b0F, wind 11 mph",
+   "weather_text": "77\u00b0F, wind 10 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -893,12 +893,12 @@
    "tip_utc": "2026-11-01T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 6,
-    "gust": 20,
-    "rain": 65
+    "temp": 77,
+    "wind": 13,
+    "gust": 26,
+    "rain": 76
    },
-   "weather_text": "78\u00b0F, wind 6 mph, 65% rain",
+   "weather_text": "77\u00b0F, wind 13 mph, 76% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1047,11 +1047,11 @@
    "weather": {
     "indoor": false,
     "temp": 66,
-    "wind": 6,
-    "gust": 14,
+    "wind": 5,
+    "gust": 11,
     "rain": 5
    },
-   "weather_text": "66\u00b0F, wind 6 mph",
+   "weather_text": "66\u00b0F, wind 5 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -1164,12 +1164,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
+    "temp": 51,
+    "wind": 4,
     "gust": 6,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1589,12 +1589,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
+    "temp": 51,
+    "wind": 4,
     "gust": 6,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1839,12 +1839,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
+    "temp": 51,
+    "wind": 4,
     "gust": 6,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -2080,11 +2080,11 @@
    "weather": {
     "indoor": false,
     "temp": 66,
-    "wind": 6,
-    "gust": 14,
+    "wind": 5,
+    "gust": 11,
     "rain": 5
    },
-   "weather_text": "66\u00b0F, wind 6 mph",
+   "weather_text": "66\u00b0F, wind 5 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -2320,6 +2320,27 @@
  ],
  "matchups": [
   {
+   "away": "LAC",
+   "home": "LAR",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/LAC.png",
+   "home_logo": "img/nfl/teams/LAR.png"
+  },
+  {
+   "away": "KC",
+   "home": "DEN",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/KC.png",
+   "home_logo": "img/nfl/teams/DEN.png"
+  },
+  {
+   "away": "NE",
+   "home": "MIA",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/NE.png",
+   "home_logo": "img/nfl/teams/MIA.png"
+  },
+  {
    "away": "BAL",
    "home": "BUF",
    "tip": "1:00 PM ET",
@@ -2376,27 +2397,6 @@
    "home_logo": "img/nfl/teams/JAX.png"
   },
   {
-   "away": "LAC",
-   "home": "LAR",
-   "tip": "4:05 PM ET",
-   "away_logo": "img/nfl/teams/LAC.png",
-   "home_logo": "img/nfl/teams/LAR.png"
-  },
-  {
-   "away": "KC",
-   "home": "DEN",
-   "tip": "4:25 PM ET",
-   "away_logo": "img/nfl/teams/KC.png",
-   "home_logo": "img/nfl/teams/DEN.png"
-  },
-  {
-   "away": "NE",
-   "home": "MIA",
-   "tip": "4:25 PM ET",
-   "away_logo": "img/nfl/teams/NE.png",
-   "home_logo": "img/nfl/teams/MIA.png"
-  },
-  {
    "away": "PHI",
    "home": "WSH",
    "tip": "8:20 PM ET",
@@ -2405,5 +2405,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-01T19:59:50+00:00"
+ "generated_at": "2026-11-01T22:22:23+00:00"
 }

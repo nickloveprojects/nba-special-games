@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-11-01T19:59:19Z",
+ "generated_at": "2026-11-01T22:22:07Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -887,11 +887,11 @@
     "note": "BKN gives up the 8th-most points to forwards (45.2 a game, 5 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Toppin (back) is questionable for Sunday's game against the Nets.",
-    "date": "2026-10-31T21:10Z"
+    "status": "Out",
+    "note": "Toppin (back) is out for Sunday's game against the Nets, Alex Golden of SI.com reports.",
+    "date": "2026-11-01T20:29Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "hometown",
@@ -904,33 +904,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 15,
-      "lo": 11,
-      "hi": 20
-     },
-     {
-      "label": "Reb",
-      "proj": 5.1,
-      "lo": 3,
-      "hi": 6
-     },
-     {
-      "label": "Ast",
-      "proj": 1.8,
-      "lo": 0,
-      "hi": 3
-     }
-    ],
-    "games_used": 5,
-    "minutes": 22,
-    "sims": 1000,
-    "opp_factor": 1.01,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4397040,

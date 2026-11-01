@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-01T19:59:40Z",
+ "generated_at": "2026-11-01T22:22:19Z",
  "season": "2026-27",
  "games": 15,
  "entries": [
@@ -2594,8 +2594,12 @@
     "best": "pts",
     "note": "TOR gives up the 13th-most points to forwards (44.2 a game, 5 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
+    "date": "2026-11-01T20:17Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": null
   },
