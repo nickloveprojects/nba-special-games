@@ -82,3 +82,13 @@ def test_position_group_matchup_agrees_with_the_grade_direction():
     assert npj.opp_factors(tbl, "T11", "C")["pts"] == 1.0              # no center data: team-wide only
     thin = {**tbl, "T11": {**tbl["T11"], "n": 5}}
     assert 1.0 < npj.opp_factors(thin, "T11", "F")["pts"] < fwd        # fewer games, smaller nudge
+
+
+def test_injury_report_parse_and_out_players_get_no_projection():
+    from app.sources import espn
+    inj = espn.parse_injuries({"injuries": [{"injuries": [
+        {"status": "Out", "shortComment": "Knee.", "date": "2026-10-30T10:00Z", "athlete": {"id": "123"}},
+        {"status": "Day-To-Day", "athlete": {"links": [{"href": "https://www.espn.com/nba/player/_/id/456/x"}]}}]}]})
+    assert inj[123]["status"] == "Out" and inj[456]["status"] == "Day-To-Day"
+    assert npj.project(LOGS, "MEM", {}, TODAY, 1, status="Out") is None
+    assert npj.project(LOGS, "MEM", {}, TODAY, 1, status="Day-To-Day") is not None
