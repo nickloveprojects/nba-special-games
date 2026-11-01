@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-03T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 51,
+    "temp": 50,
     "wind": 1,
-    "gust": 1,
+    "gust": 2,
     "rain": 0
    },
-   "weather_text": "51\u00b0F, wind 1 mph",
+   "weather_text": "50\u00b0F, wind 1 mph",
    "arena": "Lumen Field",
    "location": "Seattle, WA",
    "categories": [
@@ -131,27 +131,27 @@
     "games": 7,
     "stats": {
      "rush_yds": {
-      "value": 70.4,
+      "value": 71.6,
       "rank": 25,
       "of": 32,
       "color": "red"
      },
      "rec_yds": {
-      "value": 24.4,
-      "rank": 22,
+      "value": 26.1,
+      "rank": 21,
       "of": 32,
-      "color": "red"
+      "color": "yellow"
      }
     },
     "labels": {
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 27,
+    "score": 29,
     "grade": "D",
     "color": "red",
     "best": "rec_yds",
-    "note": "CHI gives up the 22nd-most receiving yards to running backs (24.4 a game, 7 games)."
+    "note": "CHI gives up the 21st-most receiving yards to running backs (26.1 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -190,5 +190,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-01T03:26:12+00:00"
+ "generated_at": "2026-11-01T13:48:01+00:00"
 }
