@@ -106,6 +106,22 @@ def parse_roster(data: dict) -> list[dict]:
     return out
 
 
+def parse_injuries(data: dict) -> dict:
+    """{player_id: {"status": "Out", "note": short comment, "date": ISO}} from ESPN's league-wide injury report."""
+    out = {}
+    for t in data.get("injuries", []):
+        for i in t.get("injuries", []):
+            a = i.get("athlete") or {}
+            pid = a.get("id") or next((l["href"].split("/id/")[1].split("/")[0] for l in a.get("links", []) if "/id/" in l.get("href", "")), None)
+            if pid and i.get("status"):
+                out[int(pid)] = {"status": i["status"], "note": i.get("shortComment") or "", "date": i.get("date") or ""}
+    return out
+
+
+def injuries() -> dict:
+    return parse_injuries(_get(f"{SITE}/injuries"))
+
+
 def roster(team_id_: int, season: str = "") -> list[dict]:
     return parse_roster(_get(f"{SITE}/teams/{ESPN_ID[abbr(team_id_)]}/roster"))
 

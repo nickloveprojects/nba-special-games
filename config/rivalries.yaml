@@ -116,3 +116,23 @@ rivalries:
     reason: "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\""
     sources:
       - {label: "AP via News4Jax", url: "https://www.news4jax.com/sports/2026/10/22/warriors-rookie-yaxel-lendeborg-calls-out-luka-doncic-both-on-court-and-after-huge-loss-to-lakers/"}
+  - players: ["Victor Wembanyama", "Naz Reid"]
+    kind: Altercation
+    reason: "Wembanyama was ejected for a Flagrant 2 foul after throwing an elbow at Reid's throat in Game 4 of the 2026 second-round Spurs-Timberwolves series (May 10, 2026)."
+    sources:
+      - {label: "AP via Eagle-Tribune", url: "https://www.eagletribune.com/wembanyama-gets-ejected-early-in-spurs-wolves-game-4-for-elbowing-reid-and-drawing-a/article_322dec19-b341-5d07-93a8-8da126d16813.html"}
+  - players: ["Jalen Suggs", "Andre Drummond"]
+    kind: Altercation
+    reason: "In a Magic-76ers game in Philadelphia in November 2025, Suggs shoved Drummond. No punches were thrown. Suggs was ejected with two technical fouls and Drummond got one."
+    sources:
+      - {label: "AP via WTOP", url: "https://wtop.com/sports/2025/11/orlandos-jalen-suggs-ejected-in-first-half-after-heated-altercation-with-andre-drummond-76ers"}
+  - players: ["Jalen Suggs", "Jabari Walker"]
+    kind: Altercation
+    reason: "Walker stepped between Suggs and Drummond in a Magic-76ers game in November 2025 and Suggs took issue with him. More shoving followed and Suggs was ejected."
+    sources:
+      - {label: "AP via WTOP", url: "https://wtop.com/sports/2025/11/orlandos-jalen-suggs-ejected-in-first-half-after-heated-altercation-with-andre-drummond-76ers"}
+  - players: ["Jaylen Brown", "Duncan Robinson"]
+    kind: Feud
+    reason: "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\""
+    sources:
+      - {label: "FadeAway World", url: "https://fadeawayworld.net/leaked-audio-fiery-trash-talk-jaylen-brown-duncan-robinson-flagrant-foul"}

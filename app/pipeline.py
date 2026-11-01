@@ -218,7 +218,7 @@ def projection_for(conn, e, table, slate_date, warn, prior):
     end = config.current_end_year(slate_date)
     logs = ensure_games(conn, e["player_id"], end, warn) + ensure_games(conn, e["player_id"], end - 1, warn)
     fresh = nba_projection.project(logs, e["team"], nba_projection.opp_factors(table, e["opponent"], matchups.group(e.get("position"))), slate_date,
-                                   int(e["player_id"]) * 100003 + int(e["game_id"]))
+                                   int(e["player_id"]) * 100003 + int(e["game_id"]), status=(e.get("injury") or {}).get("status", ""))
     return projection.freeze(fresh, prior.get(e["player_id"]), e["tip_utc"])
 
 
@@ -400,7 +400,15 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
     # extras for flagged players only: recent games and images
     logos = {a: media.team_logo(a) for a in {x for g in games for x in (abbr(g["home_id"]), abbr(g["away_id"]))}}
     prior = prior_projections(slate_date)
+    try:
+        injured = espn.injuries()
+    except SourceError as ex:
+        injured = {}
+        warn.add("injuries", f"Injury report unavailable; no injury notes on cards ({ex})")
     for e in entries:
+        inj = injured.get(int(e["player_id"]))
+        e["injury"] = inj
+        e["status_note"] = inj["status"] if inj else None
         e["career"] = career_for(conn, e, meta[e["player_id"]], slate_date, warn)
         e["projection"] = projection_for(conn, e, table, slate_date, warn, prior)
         e["recent"] = recent_games(conn, e["player_id"], e["opponent"], slate_date, warn)
