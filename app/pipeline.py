@@ -213,6 +213,9 @@ def prior_projections(slate_date) -> dict:
 
 def projection_for(conn, e, table, slate_date, warn, prior):
     """Pre-game projection for one flagged player; after tip-off the one published before the game is kept."""
+    status = ((e.get("injury") or {}).get("status") or "").lower()
+    if any(w in status for w in nba_projection.NO_PROJECTION):
+        return None            # ruled out: no number, even if one was published earlier
     if projection.started(e["tip_utc"]):
         return projection.freeze(None, prior.get(e["player_id"]), e["tip_utc"])
     end = config.current_end_year(slate_date)
