@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31T22:24:47Z",
+ "generated_at": "2026-11-01T03:12:04Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -204,6 +204,8 @@
     "best": "ast",
     "note": "NOP gives up the 2nd-most assists to guards (18.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -230,7 +232,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -448,6 +450,12 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports.",
+    "date": "2026-10-31T21:24Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -485,7 +493,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -748,6 +756,8 @@
     "best": "ast",
     "note": "NOP gives up the 2nd-most assists to guards (18.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -785,7 +795,7 @@
     "minutes": 30,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -991,6 +1001,8 @@
     "best": "ast",
     "note": "CLE gives up the 7th-most assists to forwards (9.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -1290,6 +1302,8 @@
     "best": "ast",
     "note": "NOP gives up the 2nd-most assists to guards (18.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -1327,7 +1341,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -1545,6 +1559,8 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -1582,7 +1598,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -1860,6 +1876,8 @@
     "best": "ast",
     "note": "HOU gives up the 27th-most assists to centers (1.3 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -1897,7 +1915,7 @@
     "minutes": 23,
     "sims": 1000,
     "opp_factor": 0.94,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2175,6 +2193,8 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to guards (62.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -2212,7 +2232,7 @@
     "minutes": 26,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2460,6 +2480,8 @@
     "best": "reb",
     "note": "OKC gives up the 2nd-most rebounds to forwards (23.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -2497,7 +2519,7 @@
     "minutes": 35,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2730,6 +2752,8 @@
     "best": "ast",
     "note": "SAS gives up the 16th-most assists to forwards (7.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -2767,7 +2791,7 @@
     "minutes": 16,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3049,6 +3073,8 @@
     "best": "pts",
     "note": "SAC gives up the 1st-most points to forwards (56.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -3086,7 +3112,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.04,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3368,6 +3394,8 @@
     "best": "ast",
     "note": "CLE gives up the 11th-most assists to guards (16.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -3405,7 +3433,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3651,6 +3679,8 @@
     "best": "ast",
     "note": "CLE gives up the 11th-most assists to guards (16.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -3908,6 +3938,12 @@
     "best": "pts",
     "note": "POR gives up the 12th-most points to centers (15.2 a game, 4 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports.",
+    "date": "2026-10-07T23:07Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -4171,6 +4207,8 @@
     "best": "reb",
     "note": "MIN gives up the 7th-most rebounds to guards (17.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -4434,6 +4472,12 @@
     "best": "ast",
     "note": "OKC gives up the 22nd-most assists to centers (1.6 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his right soleus strain, Lachard Binkley of SI.com reports.",
+    "date": "2026-10-26T22:52Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -4621,6 +4665,8 @@
     "best": "reb",
     "note": "UTA gives up the 20th-most rebounds to centers (8.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": null
   },
@@ -4853,6 +4899,8 @@
     "best": "pts",
     "note": "POR gives up the 23rd-most points to guards (52.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -5141,6 +5189,8 @@
     "best": "ast",
     "note": "POR gives up the 1st-most assists to forwards (11.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -5384,6 +5434,8 @@
     "best": "pts",
     "note": "UTA gives up the 6th-most points to guards (63.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -5672,6 +5724,8 @@
     "best": "reb",
     "note": "UTA gives up the 6th-most rebounds to forwards (22.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -5960,6 +6014,8 @@
     "best": "reb",
     "note": "UTA gives up the 20th-most rebounds to centers (8.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -6240,6 +6296,12 @@
     "best": "pts",
     "note": "UTA gives up the 6th-most points to guards (63.2 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
+    "date": "2026-10-30T18:45Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -6513,6 +6575,12 @@
     "best": "ast",
     "note": "POR gives up the 1st-most assists to forwards (11.0 a game, 4 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
+    "date": "2026-10-27T19:25Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -6771,6 +6839,8 @@
     "best": "pts",
     "note": "POR gives up the 12th-most points to centers (15.2 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -7059,6 +7129,8 @@
     "best": "pts",
     "note": "POR gives up the 23rd-most points to guards (52.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -7347,6 +7419,8 @@
     "best": "pts",
     "note": "UTA gives up the 6th-most points to guards (63.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -7635,6 +7709,8 @@
     "best": "pts",
     "note": "POR gives up the 23rd-most points to guards (52.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -7893,6 +7969,8 @@
     "best": "ast",
     "note": "POR gives up the 1st-most assists to forwards (11.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -8121,6 +8199,8 @@
     "best": "reb",
     "note": "UTA gives up the 20th-most rebounds to centers (8.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -8401,6 +8481,8 @@
     "best": "pts",
     "note": "UTA gives up the 6th-most points to guards (63.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -8689,6 +8771,8 @@
     "best": "pts",
     "note": "POR gives up the 23rd-most points to guards (52.0 a game, 4 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -8977,6 +9061,8 @@
     "best": "reb",
     "note": "UTA gives up the 6th-most rebounds to forwards (22.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -9250,6 +9336,8 @@
     "best": "ast",
     "note": "CHA gives up the 11th-most assists to centers (2.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -9500,6 +9588,8 @@
     "best": "reb",
     "note": "CHA gives up the 11th-most rebounds to guards (16.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -9788,6 +9878,8 @@
     "best": "pts",
     "note": "CHA gives up the 6th-most points to forwards (48.2 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -10061,6 +10153,8 @@
     "best": "reb",
     "note": "PHI gives up the 1st-most rebounds to guards (21.0 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -10319,6 +10413,8 @@
     "best": "reb",
     "note": "PHI gives up the 1st-most rebounds to guards (21.0 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -10577,6 +10673,8 @@
     "best": "reb",
     "note": "CHA gives up the 11th-most rebounds to guards (16.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -10835,6 +10933,12 @@
     "best": "ast",
     "note": "CHA gives up the 11th-most assists to centers (2.7 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Embiid (foot) is out for Saturday's game in Charlotte.",
+    "date": "2026-10-31T17:12Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -11123,6 +11227,8 @@
     "best": "reb",
     "note": "CHA gives up the 11th-most rebounds to guards (16.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -11388,6 +11494,12 @@
     "best": "pts",
     "note": "CHA gives up the 6th-most points to forwards (48.2 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "James (back) has been ruled out for Saturday's meeting in Charlotte.",
+    "date": "2026-10-31T17:16Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -11676,6 +11788,8 @@
     "best": "reb",
     "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -11934,6 +12048,8 @@
     "best": "reb",
     "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -12222,6 +12338,8 @@
     "best": "reb",
     "note": "CHA gives up the 11th-most rebounds to guards (16.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -12480,6 +12598,8 @@
     "best": "reb",
     "note": "CHA gives up the 11th-most rebounds to guards (16.7 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -12753,6 +12873,8 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -12779,7 +12901,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -12996,6 +13118,8 @@
     "best": "pts",
     "note": "ATL gives up the 1st-most points to centers (25.0 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": null
   },
@@ -13213,6 +13337,8 @@
     "best": "pts",
     "note": "ATL gives up the 1st-most points to centers (25.0 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -13239,7 +13365,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 1.07,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -13425,6 +13551,8 @@
     "best": "pts",
     "note": "ATL gives up the 11th-most points to forwards (46.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -13451,7 +13579,7 @@
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -13698,6 +13826,12 @@
     "best": "reb",
     "note": "NOP gives up the 4th-most rebounds to forwards (22.8 a game, 5 games)."
    },
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Johnson (ankle) did not return to Saturday's 121-99 loss to the Pelicans. He finished with 13 points (5-11 FG, 1-3 3Pt, 2-2 FT), seven rebounds, four assists and one block over 28 minutes.",
+    "date": "2026-11-01T01:43Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [],
    "projection": {
     "lines": [
@@ -13724,7 +13858,7 @@
     "minutes": 34,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -13941,6 +14075,8 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -13967,7 +14103,7 @@
     "minutes": 26,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -14229,6 +14365,12 @@
     "best": "ast",
     "note": "NOP gives up the 3rd-most assists to centers (4.4 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Landale (hip) won't return to Saturday's game against the Pelicans.",
+    "date": "2026-11-01T00:05Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -14255,7 +14397,7 @@
     "minutes": 18,
     "sims": 1000,
     "opp_factor": 1.03,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -14517,6 +14659,12 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Poole (ankle) has been ruled out for Saturday's game against the Hawks.",
+    "date": "2026-10-30T21:25Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -14543,7 +14691,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -14745,6 +14893,8 @@
     "best": "pts",
     "note": "ATL gives up the 11th-most points to forwards (46.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -14771,7 +14921,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -14973,6 +15123,8 @@
     "best": "reb",
     "note": "NOP gives up the 4th-most rebounds to forwards (22.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -14999,7 +15151,7 @@
     "minutes": 29,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -15246,6 +15398,8 @@
     "best": "pts",
     "note": "ATL gives up the 11th-most points to forwards (46.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": null
   },
@@ -15463,6 +15617,8 @@
     "best": "pts",
     "note": "ATL gives up the 11th-most points to forwards (46.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -15489,7 +15645,7 @@
     "minutes": 33,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -15736,6 +15892,12 @@
     "best": "pts",
     "note": "ATL gives up the 1st-most points to centers (25.0 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Missi (knee) won't play in Saturday's game against Atlanta.",
+    "date": "2026-10-30T21:32Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": null
   },
@@ -15938,6 +16100,8 @@
     "best": "pts",
     "note": "ATL gives up the 11th-most points to forwards (46.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -15964,7 +16128,7 @@
     "minutes": 32,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -16226,6 +16390,8 @@
     "best": "ast",
     "note": "CLE gives up the 11th-most assists to guards (16.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -16252,7 +16418,7 @@
     "minutes": 23,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -16514,6 +16680,8 @@
     "best": "reb",
     "note": "SAS gives up the 2nd-most rebounds to guards (20.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -16540,7 +16708,7 @@
     "minutes": 29,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -16802,6 +16970,8 @@
     "best": "ast",
     "note": "SAC gives up the 1st-most assists to guards (19.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -16828,7 +16998,7 @@
     "minutes": 20,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -17075,6 +17245,8 @@
     "best": "pts",
     "note": "SAC gives up the 1st-most points to forwards (56.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -17101,7 +17273,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.04,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -17363,6 +17535,8 @@
     "best": "reb",
     "note": "MIN gives up the 7th-most rebounds to guards (17.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -17389,7 +17563,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -17651,6 +17825,8 @@
     "best": "reb",
     "note": "MEM gives up the 17th-most rebounds to forwards (18.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -17677,7 +17853,7 @@
     "minutes": 29,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -17939,6 +18115,8 @@
     "best": "reb",
     "note": "MIN gives up the 7th-most rebounds to guards (17.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -17965,7 +18143,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -18227,6 +18405,8 @@
     "best": "reb",
     "note": "MEM gives up the 17th-most rebounds to forwards (18.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -18253,7 +18433,7 @@
     "minutes": 35,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -18522,6 +18702,8 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to guards (62.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -18548,7 +18730,7 @@
     "minutes": 34,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -18810,6 +18992,8 @@
     "best": "ast",
     "note": "MIL gives up the 8th-most assists to centers (3.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -18836,7 +19020,7 @@
     "minutes": 33,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -19083,6 +19267,8 @@
     "best": "reb",
     "note": "SAC gives up the 12th-most rebounds to centers (9.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -19109,7 +19295,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -19341,6 +19527,8 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to guards (62.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -19367,7 +19555,7 @@
     "minutes": 35,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -19629,6 +19817,8 @@
     "best": "ast",
     "note": "MIL gives up the 8th-most assists to centers (3.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -19655,7 +19845,7 @@
     "minutes": 28,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -19917,6 +20107,12 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to guards (62.6 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.",
+    "date": "2026-10-30T20:52Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -19943,7 +20139,7 @@
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -20190,6 +20386,8 @@
     "best": "pts",
     "note": "SAC gives up the 1st-most points to forwards (56.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -20216,7 +20414,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 1.04,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -20478,6 +20676,8 @@
     "best": "ast",
     "note": "MIN gives up the 17th-most assists to forwards (7.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -20504,7 +20704,7 @@
     "minutes": 28,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -20766,6 +20966,12 @@
     "best": "reb",
     "note": "MEM gives up the 17th-most rebounds to forwards (18.6 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
+    "date": "2026-10-26T22:01Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": null
   },
@@ -21028,6 +21234,8 @@
     "best": "ast",
     "note": "MIN gives up the 17th-most assists to forwards (7.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -21054,7 +21262,7 @@
     "minutes": 23,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -21316,6 +21524,8 @@
     "best": "ast",
     "note": "CLE gives up the 7th-most assists to forwards (9.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -21342,7 +21552,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -21589,6 +21799,8 @@
     "best": "reb",
     "note": "SAS gives up the 2nd-most rebounds to guards (20.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -21615,7 +21827,7 @@
     "minutes": 26,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -21801,6 +22013,8 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to forwards (48.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -21827,7 +22041,7 @@
     "minutes": 18,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -22089,6 +22303,8 @@
     "best": "reb",
     "note": "CLE gives up the 10th-most rebounds to centers (11.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -22115,7 +22331,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -22332,6 +22548,8 @@
     "best": "pts",
     "note": "MIL gives up the 7th-most points to guards (62.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -22358,7 +22576,7 @@
     "minutes": 29,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -22620,6 +22838,8 @@
     "best": "reb",
     "note": "MEM gives up the 17th-most rebounds to forwards (18.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -22646,7 +22866,7 @@
     "minutes": 30,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -22908,6 +23128,12 @@
     "best": "ast",
     "note": "SAS gives up the 5th-most assists to centers (3.8 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Gobert (back) is out for Saturday's game against the Spurs, Dane Moore of 'The Dane Moore NBA Podcast' reports.",
+    "date": "2026-10-31T22:18Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -22934,7 +23160,7 @@
     "minutes": 30,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -23196,6 +23422,8 @@
     "best": "ast",
     "note": "CLE gives up the 11th-most assists to guards (16.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -23222,7 +23450,7 @@
     "minutes": 28,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -23469,6 +23697,12 @@
     "best": "ast",
     "note": "SAC gives up the 1st-most assists to guards (19.2 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Pippen (back) has been ruled out for Saturday's game against the Kings, Chris Herrington of The Daily Memphian reports.",
+    "date": "2026-10-31T23:22Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -23495,7 +23729,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -23757,6 +23991,8 @@
     "best": "reb",
     "note": "MIN gives up the 7th-most rebounds to guards (17.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -23783,7 +24019,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -24045,6 +24281,8 @@
     "best": "ast",
     "note": "MIN gives up the 17th-most assists to forwards (7.5 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -24071,7 +24309,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -24318,6 +24556,8 @@
     "best": "reb",
     "note": "SAC gives up the 12th-most rebounds to centers (9.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -24344,7 +24584,7 @@
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -24606,6 +24846,8 @@
     "best": "reb",
     "note": "MEM gives up the 5th-most rebounds to guards (18.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -24632,7 +24874,7 @@
     "minutes": 34,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -24894,6 +25136,8 @@
     "best": "ast",
     "note": "OKC gives up the 22nd-most assists to centers (1.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -24920,7 +25164,7 @@
     "minutes": 33,
     "sims": 1000,
     "opp_factor": 0.97,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -25182,6 +25426,8 @@
     "best": "reb",
     "note": "OKC gives up the 8th-most rebounds to guards (17.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -25208,7 +25454,7 @@
     "minutes": 36,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -25440,6 +25686,8 @@
     "best": "reb",
     "note": "OKC gives up the 8th-most rebounds to guards (17.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -25466,7 +25714,7 @@
     "minutes": 13,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -25713,6 +25961,8 @@
     "best": "ast",
     "note": "OKC gives up the 22nd-most assists to centers (1.6 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -25739,7 +25989,7 @@
     "minutes": 15,
     "sims": 1000,
     "opp_factor": 0.97,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -25986,6 +26236,12 @@
     "best": "reb",
     "note": "OKC gives up the 8th-most rebounds to guards (17.0 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "VanVleet (knee) won't play Saturday against the Thunder.",
+    "date": "2026-10-31T17:31Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -26012,7 +26268,7 @@
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -26274,6 +26530,8 @@
     "best": "reb",
     "note": "OKC gives up the 2nd-most rebounds to forwards (23.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -26300,7 +26558,7 @@
     "minutes": 35,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -26562,6 +26820,8 @@
     "best": "pts",
     "note": "HOU gives up the 17th-most points to guards (56.2 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -26588,7 +26848,7 @@
     "minutes": 13,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -26850,6 +27110,8 @@
     "best": "reb",
     "note": "OKC gives up the 8th-most rebounds to guards (17.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -26876,7 +27138,7 @@
     "minutes": 21,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -27138,6 +27400,12 @@
     "best": "reb",
     "note": "OKC gives up the 8th-most rebounds to guards (17.0 a game, 5 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Sheppard (back) is out for Saturday's game against the Thunder.",
+    "date": "2026-10-31T17:33Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": {
     "lines": [
@@ -27164,7 +27432,7 @@
     "minutes": 24,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -27426,6 +27694,8 @@
     "best": "reb",
     "note": "OKC gives up the 2nd-most rebounds to forwards (23.8 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -27452,7 +27722,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -27708,6 +27978,8 @@
     "best": "reb",
     "note": "UTA gives up the 20th-most rebounds to centers (8.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -27939,6 +28211,12 @@
     "best": "reb",
     "note": "PHI gives up the 25th-most rebounds to forwards (16.3 a game, 6 games)."
    },
+   "injury": {
+    "status": "Out",
+    "note": "Williams (hamstring) will be re-evaluated following Charlotte's upcoming two-game road trip, Rod Boone reports.",
+    "date": "2026-10-26T22:34Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "hometown",
@@ -28044,6 +28322,8 @@
     "best": "reb",
     "note": "ATL gives up the 20th-most rebounds to guards (14.8 a game, 6 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": null
   }

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-31T22:25:54Z",
+ "generated_at": "2026-11-01T03:12:12Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -185,13 +185,13 @@
     "stats": {
      "pts": {
       "value": 44.2,
-      "rank": 17,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 18.8,
-      "rank": 16,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -202,12 +202,14 @@
       "color": "red"
      }
     },
-    "score": 38,
-    "grade": "D",
+    "score": 41,
+    "grade": "C",
     "color": "yellow",
-    "best": "reb",
-    "note": "TOR gives up the 16th-most rebounds to forwards (18.8 a game, 5 games)."
+    "best": "pts",
+    "note": "TOR gives up the 13th-most points to forwards (44.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -463,29 +465,31 @@
     "stats": {
      "pts": {
       "value": 13.0,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 6.2,
-      "rank": 28,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 1.4,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 20,
+    "score": 21,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "BOS gives up the 19th-most points to centers (13.0 a game, 5 games)."
+    "note": "BOS gives up the 18th-most points to centers (13.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": null
   },
@@ -594,15 +598,15 @@
     "stats": {
      "pts": {
       "value": 56.6,
-      "rank": 16,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 16.6,
-      "rank": 12,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
       "value": 18.2,
@@ -611,12 +615,14 @@
       "color": "green"
      }
     },
-    "score": 68,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "ast",
     "note": "BKN gives up the 3rd-most assists to guards (18.2 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -857,15 +863,15 @@
     "stats": {
      "pts": {
       "value": 45.2,
-      "rank": 11,
+      "rank": 8,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
       "value": 17.0,
-      "rank": 21,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      },
      "ast": {
       "value": 7.2,
@@ -874,12 +880,18 @@
       "color": "yellow"
      }
     },
-    "score": 44,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "BKN gives up the 11th-most points to forwards (45.2 a game, 5 games)."
+    "note": "BKN gives up the 8th-most points to forwards (45.2 a game, 5 games)."
    },
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Toppin (back) is questionable for Sunday's game against the Nets.",
+    "date": "2026-10-31T21:10Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -1111,13 +1123,13 @@
      },
      "reb": {
       "value": 16.8,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 17.4,
-      "rank": 5,
+      "rank": 6,
       "of": 30,
       "color": "green"
      }
@@ -1128,6 +1140,8 @@
     "best": "pts",
     "note": "LAC gives up the 1st-most points to guards (75.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -1404,13 +1418,13 @@
      },
      "reb": {
       "value": 16.8,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 17.4,
-      "rank": 5,
+      "rank": 6,
       "of": 30,
       "color": "green"
      }
@@ -1421,6 +1435,8 @@
     "best": "pts",
     "note": "LAC gives up the 1st-most points to guards (75.4 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -1652,13 +1668,13 @@
      },
      "reb": {
       "value": 13.4,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 14.0,
-      "rank": 25,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
@@ -1666,9 +1682,11 @@
     "score": 16,
     "grade": "F",
     "color": "red",
-    "best": "pts",
-    "note": "TOR gives up the 25th-most points to guards (50.0 a game, 5 games)."
+    "best": "ast",
+    "note": "TOR gives up the 24th-most assists to guards (14.0 a game, 5 games)."
    },
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",

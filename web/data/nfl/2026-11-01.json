@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
+    "temp": 60,
     "wind": 3,
-    "gust": 5,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 3 mph",
+   "weather_text": "60\u00b0F, wind 3 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -468,12 +468,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 79,
-    "wind": 12,
-    "gust": 19,
-    "rain": 26
+    "temp": 75,
+    "wind": 10,
+    "gust": 22,
+    "rain": 17
    },
-   "weather_text": "79\u00b0F, wind 12 mph",
+   "weather_text": "75\u00b0F, wind 10 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -678,12 +678,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 79,
-    "wind": 12,
-    "gust": 19,
-    "rain": 26
+    "temp": 75,
+    "wind": 10,
+    "gust": 22,
+    "rain": 17
    },
-   "weather_text": "79\u00b0F, wind 12 mph",
+   "weather_text": "75\u00b0F, wind 10 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -894,11 +894,11 @@
    "weather": {
     "indoor": false,
     "temp": 78,
-    "wind": 9,
-    "gust": 23,
-    "rain": 46
+    "wind": 12,
+    "gust": 26,
+    "rain": 43
    },
-   "weather_text": "78\u00b0F, wind 9 mph, 46% rain",
+   "weather_text": "78\u00b0F, wind 12 mph, 43% rain",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -1046,12 +1046,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
-    "wind": 4,
-    "gust": 12,
-    "rain": 7
+    "temp": 68,
+    "wind": 6,
+    "gust": 9,
+    "rain": 6
    },
-   "weather_text": "59\u00b0F, wind 4 mph",
+   "weather_text": "68\u00b0F, wind 6 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -1164,12 +1164,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
-    "gust": 6,
+    "temp": 51,
+    "wind": 4,
+    "gust": 5,
     "rain": 2
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1589,12 +1589,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
-    "gust": 6,
+    "temp": 51,
+    "wind": 4,
+    "gust": 5,
     "rain": 2
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1839,12 +1839,12 @@
    "tip_utc": "2026-11-02T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
-    "gust": 6,
+    "temp": 51,
+    "wind": 4,
+    "gust": 5,
     "rain": 2
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 4 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -2079,12 +2079,12 @@
    "tip_utc": "2026-11-01T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
-    "wind": 4,
-    "gust": 12,
-    "rain": 7
+    "temp": 68,
+    "wind": 6,
+    "gust": 9,
+    "rain": 6
    },
-   "weather_text": "59\u00b0F, wind 4 mph",
+   "weather_text": "68\u00b0F, wind 6 mph",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -2405,5 +2405,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-10-31T22:26:23+00:00"
+ "generated_at": "2026-11-01T03:12:17+00:00"
 }
