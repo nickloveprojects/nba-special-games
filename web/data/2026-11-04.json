@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-02T22:28:41Z",
+ "generated_at": "2026-11-02T23:02:33Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -7774,12 +7774,8 @@
     "best": "ast",
     "note": "NYK gives up the 4th-most assists to forwards (10.3 a game, 6 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Awaka (ankle) is probable for Monday's game against Philadelphia.",
-    "date": "2026-11-01T21:17Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
