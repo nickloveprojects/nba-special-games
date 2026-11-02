@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T14:11:02Z",
+ "generated_at": "2026-11-02T22:28:20Z",
  "season": "2026-27",
  "games": 15,
  "entries": [
@@ -2596,8 +2596,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Los Angeles assigned Ingram (Achilles) to the G League's San Diego Clippers on Saturday.",
-    "date": "2026-11-01T16:04Z"
+    "note": "The Clippers recalled Ingram (Achilles) from the G League's San Diego Clippers on Sunday.",
+    "date": "2026-11-02T16:01Z"
    },
    "status_note": "Out",
    "career": [],
@@ -5077,8 +5077,12 @@
     "best": "pts",
     "note": "ATL gives up the 5th-most points to forwards (48.1 a game, 7 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Nance (illness) is doubtful for Monday against the Hawks.",
+    "date": "2026-11-02T18:16Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",

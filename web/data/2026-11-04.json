@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-02T14:12:49Z",
+ "generated_at": "2026-11-02T22:28:41Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -2425,12 +2425,8 @@
     "best": "pts",
     "note": "MIA gives up the 3rd-most points to guards (66.8 a game, 6 games)."
    },
-   "injury": {
-    "status": "Out",
-    "note": "Strus (foot) practiced and participated in 5-on-5 with the San Diego Clippers on Saturday, Los Angeles Clippers sideline reporter/host Ohm Youngmisuk reports.",
-    "date": "2026-11-02T00:45Z"
-   },
-   "status_note": "Out",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -4121,8 +4117,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Joe (hip) is questionable for Friday's game against the Hornets.",
-    "date": "2026-11-01T22:17Z"
+    "note": "Joe (hip) is out for Monday against the Hornets.",
+    "date": "2026-11-02T17:35Z"
    },
    "status_note": "Out",
    "career": [
@@ -6008,11 +6004,11 @@
     "note": "MIA gives up the 3rd-most assists to forwards (10.5 a game, 6 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.",
-    "date": "2026-11-02T03:47Z"
+    "status": "Out",
+    "note": "Jones (knee) has been ruled out for Monday's game against the Raptors.",
+    "date": "2026-11-02T21:12Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -6025,33 +6021,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 11,
-      "lo": 6,
-      "hi": 16
-     },
-     {
-      "label": "Reb",
-      "proj": 4.5,
-      "lo": 1,
-      "hi": 7
-     },
-     {
-      "label": "Ast",
-      "proj": 1.4,
-      "lo": 0,
-      "hi": 5
-     }
-    ],
-    "games_used": 6,
-    "minutes": 28,
-    "sims": 1000,
-    "opp_factor": 1.01,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4222252,
@@ -6538,11 +6508,11 @@
     "note": "ATL gives up the 1st-most points to centers (22.6 a game, 7 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Sarr (knee) is questionable to play in Monday's game against the Magic.",
-    "date": "2026-11-01T21:45Z"
+    "status": "Out",
+    "note": "Sarr (knee) is out for Monday's game against Orlando.",
+    "date": "2026-11-02T18:03Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "hometown",
@@ -6555,33 +6525,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 12,
-      "lo": 3,
-      "hi": 21
-     },
-     {
-      "label": "Reb",
-      "proj": 6.2,
-      "lo": 2,
-      "hi": 10
-     },
-     {
-      "label": "Ast",
-      "proj": 2.5,
-      "lo": 0,
-      "hi": 6
-     }
-    ],
-    "games_used": 6,
-    "minutes": 25,
-    "sims": 1000,
-    "opp_factor": 1.06,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4431714,
