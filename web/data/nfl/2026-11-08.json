@@ -132,7 +132,7 @@
     "stats": {
      "pass_yds": {
       "value": 208.4,
-      "rank": 24,
+      "rank": 26,
       "of": 32,
       "color": "red"
      },
@@ -147,7 +147,7 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 53,
+    "score": 50,
     "grade": "C",
     "color": "yellow",
     "best": "pass_td",
@@ -310,7 +310,7 @@
      },
      "rec_yds": {
       "value": 31.0,
-      "rank": 13,
+      "rank": 14,
       "of": 32,
       "color": "yellow"
      }
@@ -319,11 +319,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 50,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
-    "note": "NE gives up the 13th-most receiving yards to running backs (31 a game, 8 games)."
+    "note": "NE gives up the 14th-most receiving yards to running backs (31 a game, 8 games)."
    },
    "career": [],
    "projection": {
@@ -332,7 +332,7 @@
       "label": "Rush yds",
       "proj": 11,
       "lo": 0,
-      "hi": 42
+      "hi": 41
      },
      {
       "label": "Rec",
@@ -350,7 +350,7 @@
     "games_used": 4,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.98,
+    "opp_factor": 0.97,
     "locked": false
    },
    "tags": [
@@ -509,13 +509,13 @@
     "stats": {
      "rec_yds": {
       "value": 96.5,
-      "rank": 28,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
       "value": 8.0,
-      "rank": 30,
+      "rank": 32,
       "of": 32,
       "color": "red"
      }
@@ -524,11 +524,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 3,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (96.5 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -909,27 +909,27 @@
     "games": 7,
     "stats": {
      "rush_yds": {
-      "value": 101.4,
-      "rank": 9,
+      "value": 117.6,
+      "rank": 2,
       "of": 32,
       "color": "green"
      },
      "rec_yds": {
-      "value": 30.9,
-      "rank": 14,
+      "value": 33.9,
+      "rank": 9,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      }
     },
     "labels": {
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 66,
-    "grade": "B",
-    "color": "yellow",
+    "score": 85,
+    "grade": "A",
+    "color": "green",
     "best": "rush_yds",
-    "note": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games)."
+    "note": "NO gives up the 2nd-most rushing yards to running backs (117.6 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -1072,13 +1072,13 @@
     "stats": {
      "rec_yds": {
       "value": 123.5,
-      "rank": 20,
+      "rank": 21,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
       "value": 9.6,
-      "rank": 19,
+      "rank": 20,
       "of": 32,
       "color": "yellow"
      }
@@ -1087,11 +1087,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 40,
-    "grade": "C",
+    "score": 37,
+    "grade": "D",
     "color": "yellow",
     "best": "rec",
-    "note": "CLE gives up the 19th-most catches to receivers (9.6 a game, 8 games)."
+    "note": "CLE gives up the 20th-most catches to receivers (9.6 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -1270,9 +1270,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 87,
-      "lo": 29,
-      "hi": 169
+      "proj": 86,
+      "lo": 28,
+      "hi": 167
      },
      {
       "label": "Rec",
@@ -1290,7 +1290,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.91,
+    "opp_factor": 0.9,
     "locked": false
    },
    "tags": [
@@ -1459,13 +1459,13 @@
     "stats": {
      "rec_yds": {
       "value": 96.5,
-      "rank": 28,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
       "value": 8.0,
-      "rank": 30,
+      "rank": 32,
       "of": 32,
       "color": "red"
      }
@@ -1474,11 +1474,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 3,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (96.5 a game, 8 games)."
    },
    "career": [
     {
@@ -1493,11 +1493,11 @@
       "label": "Rec",
       "proj": 3.9,
       "lo": 2.6,
-      "hi": 5.2
+      "hi": 5.1
      },
      {
       "label": "Rec yds",
-      "proj": 39,
+      "proj": 38,
       "lo": 29,
       "hi": 46
      }
@@ -2049,27 +2049,27 @@
     "games": 7,
     "stats": {
      "rush_yds": {
-      "value": 101.4,
-      "rank": 9,
+      "value": 117.6,
+      "rank": 2,
       "of": 32,
       "color": "green"
      },
      "rec_yds": {
-      "value": 30.9,
-      "rank": 14,
+      "value": 33.9,
+      "rank": 9,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      }
     },
     "labels": {
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 66,
-    "grade": "B",
-    "color": "yellow",
+    "score": 85,
+    "grade": "A",
+    "color": "green",
     "best": "rush_yds",
-    "note": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games)."
+    "note": "NO gives up the 2nd-most rushing yards to running backs (117.6 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -2285,7 +2285,7 @@
       "label": "Rush yds",
       "proj": 58,
       "lo": 0,
-      "hi": 119
+      "hi": 118
      },
      {
       "label": "Rec",
@@ -2446,13 +2446,13 @@
     "stats": {
      "rush_yds": {
       "value": 93.0,
-      "rank": 13,
+      "rank": 14,
       "of": 32,
       "color": "yellow"
      },
      "rec_yds": {
       "value": 38.5,
-      "rank": 5,
+      "rank": 6,
       "of": 32,
       "color": "green"
      }
@@ -2461,11 +2461,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 74,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "rec_yds",
-    "note": "IND gives up the 5th-most receiving yards to running backs (38.5 a game, 8 games)."
+    "note": "IND gives up the 6th-most receiving yards to running backs (38.5 a game, 8 games)."
    },
    "career": [],
    "projection": {
@@ -2492,7 +2492,7 @@
     "games_used": 6,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.04,
+    "opp_factor": 1.03,
     "locked": false
    },
    "tags": [
@@ -2606,5 +2606,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-03T18:01:12+00:00"
+ "generated_at": "2026-11-03T18:05:15+00:00"
 }
