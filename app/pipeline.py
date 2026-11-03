@@ -236,7 +236,13 @@ def recent_games(conn, player_id, opp_abbr, slate_date, warn):
         if len(games) >= 5 and len(vs) >= 5:
             break
     games.sort(key=lambda g: g["date"], reverse=True)
-    return rules.recent_summary(games, opp_abbr)
+    out = rules.recent_summary(games, opp_abbr)
+    first = conn.execute("SELECT MIN(first_season) AS f FROM stints WHERE player_id=?", (player_id,)).fetchone()
+    first_year = int(first["f"][:4]) + 1 if first and first["f"] else None
+    # say "career" when his whole career fits inside the window we looked at, not a season count he never played
+    out["vs"]["note"] = (f"No games vs {opp_abbr} in his NBA career so far." if first_year and first_year > end - 2
+                         else f"No games vs {opp_abbr} in the last 3 seasons.")
+    return out
 
 
 def load_roster(conn, tid, season, warn):

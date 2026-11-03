@@ -383,7 +383,8 @@ def recent_block(p, logs, opp):
     return {"cols": COLS[pos],
             "form": {"n": len(cur), "text": summary(pos, cur) if cur else "", "games": game_rows(pos, cur)},
             "vs": {"opp": opp, "n": len(vs), "text": summary(pos, vs) if vs else "", "games": game_rows(pos, vs),
-                   "note": f"No games vs {opp} in the last 8 seasons."}}
+                   "note": (f"No games vs {opp} in the last 8 seasons." if (p.get("years") or 0) >= 8
+                            else f"No games vs {opp} in his NFL career so far.")}}
 
 
 def _summary(t: dict, opp: str) -> str:

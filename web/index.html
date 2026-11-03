@@ -242,10 +242,18 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .who h2{font-weight:800;font-size:clamp(29px,6vw,35px);letter-spacing:.005em}
 button:hover,select:hover,.espn:hover{border-color:var(--accent)}
 .gbtn[aria-pressed=true]:hover{border-color:var(--pill-bg)}
-#recency{align-items:center;gap:12px}
-#recency input[type=range]{flex:1 1 160px;min-width:120px;accent-color:var(--ink)}
-#recency output{font-weight:600;min-width:84px;font-variant-numeric:tabular-nums}
-#recency .lab{white-space:nowrap}
+.dual{flex:1 1 200px;min-width:160px;display:grid;gap:2px;padding:0 4px}
+.dual .dl{display:flex;justify-content:space-between;gap:8px;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.03em}
+.dual output{color:var(--ink);font-variant-numeric:tabular-nums}
+.dtrack{position:relative;height:24px}
+.dtrack::before{content:"";position:absolute;left:0;right:0;top:50%;height:4px;margin-top:-2px;border-radius:99px;background:var(--chip);box-shadow:inset 0 0 0 1px var(--line)}
+.dtrack #dfill{position:absolute;top:50%;height:4px;margin-top:-2px;border-radius:99px;background:var(--accent)}
+.dtrack input[type=range]{border:0;padding:0;box-shadow:none;min-height:0;border-radius:0;position:absolute;left:0;top:0;width:100%;height:24px;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.dtrack input[type=range]::-webkit-slider-runnable-track{background:none;height:24px}
+.dtrack input[type=range]::-moz-range-track{background:none;height:24px}
+.dtrack input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:16px;height:16px;margin-top:4px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);box-shadow:0 1px 3px rgba(0,0,0,.25);cursor:grab}
+.dtrack input[type=range]::-moz-range-thumb{pointer-events:auto;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);cursor:grab}
+.dtrack input[type=range]:focus-visible::-webkit-slider-thumb{outline:2px solid var(--ink);outline-offset:2px}
 .wxd{margin:22px 0 8px;font:700 18px var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .wxg{border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:0 0 14px;overflow:hidden;scroll-margin-top:84px}
 .wxg.hl{box-shadow:0 0 0 2px var(--accent)}
@@ -334,11 +342,6 @@ a.wx:hover{color:var(--ink)}
   </div>
   <div class="bar" id="cats"></div>
   <div class="bar" id="grades" role="group" aria-label="Matchup grade"></div>
-  <div class="bar" id="recency">
-    <label for="rec" class="lab">How recent</label>
-    <input id="rec" type="range" min="0" max="5" step="1" value="5" aria-describedby="recv">
-    <output id="recv" for="rec">Any time</output>
-  </div>
   <div class="bar filters" id="mf">
     <select id="stat" aria-label="Matchup stat"></select>
     <select id="feel" aria-label="Matchup is">
@@ -352,6 +355,13 @@ a.wx:hover{color:var(--ink)}
       <option value="best">Best matchup</option>
       <option value="worst">Toughest</option>
     </select>
+    <div class="dual" id="recency" role="group" aria-label="How recent the revenge or beef event is">
+      <span class="dl"><span>How recent</span><output id="recv" for="rec0 rec1">Any time</output></span>
+      <div class="dtrack"><i id="dfill"></i>
+        <input id="rec0" type="range" min="0" max="6" step="1" value="0" aria-label="Most recent allowed">
+        <input id="rec1" type="range" min="0" max="6" step="1" value="6" aria-label="Oldest allowed">
+      </div>
+    </div>
     <span class="lab" id="cnt" role="status" aria-live="polite" style="flex:1 1 auto"></span>
     <button id="reset" type="button" hidden>Reset filters</button>
   </div>
@@ -385,7 +395,27 @@ const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unk
 const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
 const SPORTS={nba:{dir:"data",name:"NBA"},nfl:{dir:"data/nfl",name:"NFL"}};
 const GRADES=["A","B","C","D","F"];
-const RECENT=[{l:"6 months",d:183},{l:"1 year",d:365},{l:"2 years",d:730},{l:"3 years",d:1095},{l:"5 years",d:1826},{l:"Any time",d:null}];
+const RECENT=[{l:"now",d:0},{l:"6 mo",d:183},{l:"1 yr",d:365},{l:"2 yr",d:730},{l:"3 yr",d:1095},{l:"5 yr",d:1826},{l:"any",d:Infinity}];
+function recentRange(){
+  const a=+$("rec0").value,b=+$("rec1").value;
+  if(a===b&&a>0&&a<6) return [RECENT[a-1].d,RECENT[a+1].d];     // both handles on one step: the stretch around it
+  return [RECENT[a].d,RECENT[b].d];
+}
+function recentLabel(){
+  const a=+$("rec0").value,b=+$("rec1").value;
+  if(a===0&&b===6) return "Any time";
+  if(a===b) return a===0?"Now":a===6?"Any time":`Around ${RECENT[a].l}`;
+  if(a===0) return `Within ${RECENT[b].l}`;
+  if(b===6) return `Older than ${RECENT[a].l}`;
+  return `${RECENT[a].l} to ${RECENT[b].l} ago`;
+}
+function syncRecent(fromLow){
+  let a=+$("rec0").value,b=+$("rec1").value;
+  if(a>b){ if(fromLow){$("rec1").value=b=a}else{$("rec0").value=a=b} }
+  const f=$("dfill");f.style.left=(a/6*100)+"%";f.style.width=((b-a)/6*100)+"%";
+  $("recv").textContent=recentLabel();
+}
+function resetRecent(){$("rec0").value=0;$("rec1").value=6;syncRecent(true)}
 function eventAge(w,today){   // days since a revenge or beef event; null when unknown
   if(!w) return null;
   const f=/^\d{4}$/.test(w)?w+"-07-01":/^\d{4}-\d{2}$/.test(w)?w+"-15":w;
@@ -446,9 +476,9 @@ function sortKey(e,mode,k){
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
   const k=$("stat").value,feel=$("feel").value,mode=$("sort").value,gAll=grades.size===GRADES.length;
-  const lim=RECENT[+$("rec").value].d,now=Date.now();
-  const fresh=g=>{if(lim==null||!(g.category==="Revenge"||g.category==="History")) return true;
-    const a=eventAge(g.when,now); return a==null||a<=lim};   // no date known: keep it rather than hide it
+  const [lo,hi]=recentRange(),now=Date.now();
+  const fresh=g=>{if((lo===0&&hi===Infinity)||!(g.category==="Revenge"||g.category==="History")) return true;
+    const a=eventAge(g.when,now); return a==null||(a>=lo&&a<=hi)};   // no date known: keep it rather than hide it
   let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g))&&fresh(g))}))
    .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})))
    .filter(e=>{const m=e.matchup;
@@ -499,8 +529,8 @@ function recent(e){
   if(r.cols) return recentG(e);
   const f=r.form,v=r.vs;
   const fl=f.n?`<span><span class="lab">Last ${f.n}</span> <b>${f.pts}</b> pts · ${f.reb} reb · ${f.ast} ast</span>`:"<span>No recent games</span>";
-  const vl=v.n?`<span><span class="lab">vs ${v.opp} (last ${v.n})</span> <b>${v.pts}</b> pts · ${v.reb} reb · ${v.ast} ast</span>`:`<span>${esc(v.note||`No games vs ${v.opp} in the last 3 seasons`)}</span>`;
-  return `<details class="recent"><summary>${fl}${vl}</summary><div class="tables">${v.n?table(`Last ${v.n} vs ${v.opp}`,v.games):`<div><h3>vs ${v.opp}</h3><div class="stats">${esc(v.note||"No games in the last 3 seasons.")}</div></div>`}${table(`Last ${f.n||5} games`,f.games)}</div></details>`;
+  const vl=v.n?`<span><span class="lab">vs ${v.opp} (last ${v.n})</span> <b>${v.pts}</b> pts · ${v.reb} reb · ${v.ast} ast</span>`:`<span>${esc(v.note||`No games vs ${v.opp} so far`)}</span>`;
+  return `<details class="recent"><summary>${fl}${vl}</summary><div class="tables">${v.n?table(`Last ${v.n} vs ${v.opp}`,v.games):`<div><h3>vs ${v.opp}</h3><div class="stats">${esc(v.note||"No games against this team so far.")}</div></div>`}${table(`Last ${f.n||5} games`,f.games)}</div></details>`;
 }
 function matchupParts(e){
   const m=e.matchup; if(!m) return null;
@@ -546,7 +576,7 @@ function card(e){
 }
 function render(){
   const rows=filtered();
-  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||$("rec").value!=="5"||$("q").value||$("team").value||game||active.size<CATS.length;
+  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||($("rec0").value!=="0"||$("rec1").value!=="6")||$("q").value||$("team").value||game||active.size<CATS.length;
   $("reset").hidden=!dirty;
   $("cnt").textContent=`${rows.length} player${rows.length===1?"":"s"} shown`;
   $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
@@ -569,17 +599,19 @@ async function initBoard(){
     $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));redrawGames();render()};
     $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
     ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",render));
-    $("rec").addEventListener("input",()=>{$("recv").textContent=RECENT[+$("rec").value].l;render()});
+    $("rec0").addEventListener("input",()=>{syncRecent(true);render()});
+    $("rec1").addEventListener("input",()=>{syncRecent(false);render()});
+    syncRecent(true);
     $("grades").onclick=e=>{const b=e.target.closest("[data-gr]");if(!b)return;const g=b.dataset.gr;grades.has(g)?grades.delete(g):grades.add(g);b.setAttribute("aria-pressed",grades.has(g));render()};
     $("reset").onclick=()=>{grades=new Set(GRADES);active=new Set(CATS);game="";
-      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");$("rec").value=5;$("recv").textContent="Any time";
+      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");resetRecent();
       document.querySelectorAll("#grades [data-gr]").forEach(b=>b.setAttribute("aria-pressed","true"));
       drawChips();render()};
     $("csv").onclick=()=>copy(csv(),"CSV");
     $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
     $("date").onchange=e=>load(e.target.value);
   }
-  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";$("rec").value=5;$("recv").textContent="Any time";$("stat").innerHTML="";$("grades").innerHTML="";
+  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";resetRecent();$("stat").innerHTML="";$("grades").innerHTML="";
   $("h1").textContent=`${SPORTS[sport].name} backstories`;
   $("sub").textContent="Loading\u2026";$("list").innerHTML="";$("cats").innerHTML="";$("games").innerHTML="";$("date").innerHTML="";$("q").value="";
   try{

@@ -182,3 +182,10 @@ def test_history_entries_carry_a_date_for_the_recency_filter():
     tags = nfl.history_tags({"name": "A B"}, {1}, [{"players": ["A B", "C D"], "reason": "r", "date": "2025-03",
                                                     "sources": [{"label": "x", "url": "https://x"}]}], {"C D"})
     assert tags[0]["when"] == "2025-03"
+
+
+def test_no_games_note_does_not_claim_seasons_he_never_played():
+    rookie = {"pos": "RB", "years": 2, "name": "A B"}
+    note = nfl.recent_block(rookie, [], "CHI")["vs"]["note"]
+    assert "8 seasons" not in note and "career" in note
+    assert "last 8 seasons" in nfl.recent_block({**rookie, "years": 9}, [], "CHI")["vs"]["note"]
