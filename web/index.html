@@ -288,6 +288,34 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
 a.wx{color:inherit;text-decoration:underline dotted;text-underline-offset:3px;cursor:pointer}
 a.wx:hover{color:var(--ink)}
 @media(max-width:640px){.wxg-h .meta{margin-left:0;text-align:left;flex-basis:100%}.hrs{grid-template-columns:repeat(2,minmax(0,1fr))}.dial{width:100%}}
+.wxs{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px;margin:0 0 14px}
+.wxs h2{margin:0 0 4px;font:700 20px var(--font-display);letter-spacing:.05em;text-transform:uppercase}
+.wxs .sd{margin:0 0 10px;color:var(--muted);font-size:13.5px}
+.rk{display:grid;grid-template-columns:26px minmax(120px,170px) 1fr;gap:6px 12px;align-items:center;padding:8px 6px;border-top:1px solid var(--line);text-decoration:none;color:inherit}
+.rk:hover{background:var(--chip)}
+.rk .n{font:700 18px var(--font-display);color:var(--muted);text-align:center}
+.rk .g{display:flex;flex-direction:column;gap:1px;font:700 17px var(--font-display);letter-spacing:.02em}
+.rk .g small{font:500 12.5px var(--font-body);color:var(--muted);letter-spacing:0}
+.rk .m{display:grid;gap:3px}
+.rk .tr{display:flex;align-items:center;gap:8px}
+.rk .tr b{flex:none;min-width:108px;font:700 15px var(--font-display);font-variant-numeric:tabular-nums}
+.rk .bk{flex:1;height:8px;border-radius:99px;background:var(--chip);overflow:hidden}
+.rk .bk i{display:block;height:100%;border-radius:99px;background:var(--muted)}
+.rk[data-l=minor] .bk i{background:var(--yellow)}
+.rk[data-l=moderate] .bk i{background:#d9822b}
+.rk[data-l=strong] .bk i{background:var(--red)}
+.rk .why{font-size:12.5px;color:var(--muted)}
+.rk .lv{flex:none;font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px;background:var(--chip);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line)}
+.rk[data-l=strong] .lv{color:var(--red);background:color-mix(in srgb,var(--red) 10%,var(--surface))}
+.rk[data-l=moderate] .lv{color:#9a5a12;background:color-mix(in srgb,#d9822b 12%,var(--surface))}
+.rk[data-l=minor] .lv{color:#8a6100;background:color-mix(in srgb,#e0a800 14%,var(--surface))}
+.dry{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted)}
+.base{display:grid;grid-template-columns:minmax(120px,170px) 1fr;gap:6px 14px;font-size:14px;margin:6px 0 0}
+.base dt{font-weight:700}.base dd{margin:0;color:var(--muted)}
+.base dd b{color:var(--ink);font-weight:600}
+.imp{display:inline-block;margin-left:8px;font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px;background:var(--chip);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line);vertical-align:middle}
+.imp[data-l=strong]{color:var(--red)}.imp[data-l=moderate]{color:#9a5a12}.imp[data-l=minor]{color:#8a6100}
+@media(max-width:640px){.rk{grid-template-columns:22px 1fr}.rk .m{grid-column:1/-1}.base{grid-template-columns:1fr}.base dt{margin-top:6px}}
 </style>
 </head>
 <body>
@@ -329,6 +357,7 @@ a.wx:hover{color:var(--ink)}
 <main id="wxv" class="view" hidden>
   <h1>NFL game weather</h1>
   <p class="sub" id="wxsub">Loading…</p>
+  <div id="wxsum"></div>
   <div id="wxlist"></div>
   <p class="legend">Forecasts come from Open-Meteo and are re-pulled with every update. They change, especially more than three days out. Wind and cold are the only conditions that adjust our NFL projections (both were backtested on past games); rain, humidity and cloud are shown for context. Wind direction is the way the wind blows toward on the field, from the weather model at stadium coordinates. We don't yet know each stadium's orientation, so we can't say whether it helps or hurts a given offense.</p>
 </main>
@@ -653,7 +682,7 @@ function dial(h){
 }
 function wxCard(g){
   const head=`<div class="wxg-h"><span class="tm">${logo(g.away_logo,g.away)}${esc(g.away)}</span><span class="at">@</span><span class="tm">${logo(g.home_logo,g.home)}${esc(g.home)}</span>
-    <div class="meta"><b>${esc(g.tip)}</b><br>${esc(g.arena)}${g.location?`, ${esc(g.location)}`:""}</div></div>`;
+    <div class="meta"><b>${esc(g.tip)}</b>${g.report&&g.report.impact&&!g.report.indoor?`<span class="imp" data-l="${esc(g.report.impact.level)}" title="Average cut to passing and receiving projections">${g.report.impact.pct>0?"\u2212"+esc(g.report.impact.pct)+"% passing":"no change"}</span>`:""}<br>${esc(g.arena)}${g.location?`, ${esc(g.location)}`:""}</div></div>`;
   const r=g.report;
   if(!r) return `<article class="wxg" id="g-${esc(g.id)}">${head}<div class="wxg-in">No forecast available for this game yet.</div></article>`;
   if(r.indoor) return `<article class="wxg" id="g-${esc(g.id)}">${head}<div class="wxg-in">Played indoors, so weather doesn't affect this game.</div></article>`;
@@ -667,6 +696,32 @@ function wxCard(g){
   return `<article class="wxg" id="g-${esc(g.id)}">${head}<div class="wxg-b">${dial(k)}<div class="hrs">${cols}</div></div>
     <div class="wxg-f"><ul>${eff}</ul></div></article>`;
 }
+const LV={none:"No impact",minor:"Minor",moderate:"Moderate",strong:"Strong"};
+function wxSummary(games){
+  const out=games.filter(g=>g.report&&!g.report.indoor&&g.report.impact);
+  if(!out.length&&!games.some(g=>g.report&&g.report.indoor)) return "";
+  const ranked=[...out].sort((a,b)=>b.report.impact.pct-a.report.impact.pct||Math.max(...b.report.hours.map(h=>h.wind))-Math.max(...a.report.hours.map(h=>h.wind)));
+  const day=d=>new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"short"});
+  const rows=ranked.map((g,i)=>{const im=g.report.impact,why=im.drivers.length?im.drivers.join(", "):"calm and mild";
+    return `<a class="rk" data-l="${esc(im.level)}" href="#/weather/${esc(g.id)}"><span class="n">${i+1}</span>
+      <span class="g">${esc(g.away)} @ ${esc(g.home)}<small>${esc(day(g.date))} ${esc(g.tip)}</small></span>
+      <span class="m"><span class="tr"><b>${im.pct>0?"\u2212"+esc(im.pct)+"% passing":"no change"}</b><span class="bk"><i style="width:${Math.min(100,im.pct*5)}%"></i></span><span class="lv">${esc(LV[im.level])}</span></span><span class="why">${esc(why)}</span></span></a>`}).join("");
+  const dome=games.filter(g=>g.report&&g.report.indoor).map(g=>`${g.away} @ ${g.home}`);
+  const nof=games.filter(g=>!g.report).length;
+  return `<section class="wxs" aria-labelledby="wxr"><h2 id="wxr">Weather impact ranking</h2>
+    <p class="sd">How much each forecast is expected to cut passing and receiving yards, using the same adjustment our projections apply, averaged over the four hours below. Most affected first.</p>${rows}
+    ${dome.length?`<p class="dry"><b>No impact, played indoors (${dome.length}):</b> ${esc(dome.join(", "))}.</p>`:""}${nof?`<p class="dry">${nof} game${nof===1?"":"s"} without a forecast yet.</p>`:""}</section>
+    <section class="wxs" aria-labelledby="wxb"><h2 id="wxb">Where weather starts to matter</h2>
+    <p class="sd">What we measured in 2024\u201326 NFL games, and what our projections do about it.</p>
+    <dl class="base">
+      <dt>Wind under 8 mph</dt><dd>Nothing measurable, so no adjustment.</dd>
+      <dt>Wind 8\u201314 mph</dt><dd>Small. We trim passing and receiving projections <b>3%</b>.</dd>
+      <dt>Wind 15 mph or more</dt><dd>The clear line. Team passing fell about <b>15%</b> in past games; we trim <b>12%</b>.</dd>
+      <dt>Cold under 40\u00b0F</dt><dd>Passing fell about <b>7%</b>; we trim <b>5%</b>. It stacks with wind.</dd>
+      <dt>Rain or snow</dt><dd>We couldn't measure a reliable effect, so it's shown for context and <b>not</b> adjusted.</dd>
+      <dt>Rushing</dt><dd>No reliable change in any weather, so it's never adjusted.</dd>
+      <dt>Roof or dome</dt><dd>No weather effect.</dd></dl></section>`;
+}
 async function showWeather(id){
   if(!wxData&&!wxLoading){
     wxLoading=true;
@@ -677,6 +732,7 @@ async function showWeather(id){
   const upd=new Date(wxData.generated_at).toLocaleString(undefined,{weekday:"short",hour:"numeric",minute:"2-digit"});
   $("wxsub").textContent=`Week ${wxData.week} \u00b7 ${wxData.games.length} games \u00b7 forecast pulled ${upd}`;
   const byDay={};wxData.games.forEach(g=>(byDay[g.date]=byDay[g.date]||[]).push(g));
+  $("wxsum").innerHTML=wxSummary(wxData.games);
   $("wxlist").innerHTML=Object.keys(byDay).sort().map(d=>`<h2 class="wxd">${esc(new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"}))}</h2>`+byDay[d].map(wxCard).join("")).join("");
   const el=id&&document.getElementById("g-"+id);
   if(el){el.classList.add("hl");el.scrollIntoView({block:"start"})}else window.scrollTo(0,0);

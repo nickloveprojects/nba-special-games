@@ -33,3 +33,15 @@ def test_full_report_helpers():
 def test_low_rain_chance_is_not_called_drizzle():
     assert weather.condition(51, 1, 10) == "Clear" and weather.condition(61, 10, 90) == "Overcast"
     assert weather.condition(61, 60, 90) == "Light rain" and weather.condition(0, 0, 0) == "Clear"
+
+
+def test_impact_uses_the_projection_trims_and_levels():
+    calm = [{"wind": 3, "temp": 60, "rain": 10}] * 4
+    assert weather.impact(calm) == {"pct": 0, "level": "none", "drivers": []}
+    windy = [{"wind": 20, "temp": 60, "rain": 0}] * 4
+    assert weather.impact(windy)["pct"] == 12 and weather.impact(windy)["level"] == "strong"
+    cold = [{"wind": 3, "temp": 30, "rain": 0}] * 4
+    assert weather.impact(cold)["pct"] == 5 and weather.impact(cold)["level"] == "moderate"
+    both = [{"wind": 20, "temp": 30, "rain": 70}] * 4
+    assert weather.impact(both)["pct"] == 16 and any("not scored" in d for d in weather.impact(both)["drivers"])
+    assert weather.impact([{"wind": 9, "temp": 60, "rain": 0}] * 4)["level"] == "minor"

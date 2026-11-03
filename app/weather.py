@@ -111,10 +111,31 @@ def effects(w: dict | None) -> list[str]:
     return out
 
 
+def impact(hours: list[dict]) -> dict:
+    """How much this forecast changes passing, using the same backtested trims as the projections, averaged over the
+    four hours shown. pct = average cut to passing and receiving yards. Rain and snow are context only (no reliable effect found)."""
+    if not hours:
+        return {"pct": 0, "level": "none", "drivers": []}
+    f = sum(passing_factor({"wind": h["wind"], "temp": h["temp"], "indoor": False}) for h in hours) / len(hours)
+    pct = round((1 - f) * 100)
+    wind = max(h["wind"] for h in hours)
+    cold = min(h["temp"] for h in hours)
+    drivers = []
+    if wind >= 8:
+        drivers.append(f"wind up to {wind} mph")
+    if cold < 40:
+        drivers.append(f"cold, down to {cold}\u00b0F")
+    wet = max((h.get("rain") or 0) for h in hours)
+    if wet >= 50:
+        drivers.append(f"{wet}% chance of precipitation (not scored)")
+    level = "none" if pct <= 0 else "minor" if pct < 5 else "moderate" if pct < 12 else "strong"
+    return {"pct": pct, "level": level, "drivers": drivers}
+
+
 def report_many(games: list[dict]) -> dict:
     """games: [{"id","lat","lon","tip_utc","indoor"}] -> {id: {"indoor": bool, "hours": [...], "effects": [...]}} or None.
     Four hourly readings starting at kickoff. One request covers every outdoor game."""
-    out = {g["id"]: ({"indoor": True, "hours": [], "effects": []} if g["indoor"] else None) for g in games}
+    out = {g["id"]: ({"indoor": True, "hours": [], "effects": [], "impact": {"pct": 0, "level": "none", "drivers": []}} if g["indoor"] else None) for g in games}
     wet = [g for g in games if not g["indoor"]]
     if not wet:
         return out
@@ -147,7 +168,7 @@ def report_many(games: list[dict]) -> dict:
                               "cond": condition(at("weather_code", i), at("precipitation_probability", i), at("cloud_cover", i))})
             if hours:
                 k = hours[0]
-                out[g["id"]] = {"indoor": False, "hours": hours, "effects": effects({**k, "indoor": False})}
+                out[g["id"]] = {"indoor": False, "hours": hours, "effects": effects({**k, "indoor": False}), "impact": impact(hours)}
     except (SourceError, ValueError, KeyError, TypeError) as e:
         log.warning("weather report unavailable: %s", e)
     return out
