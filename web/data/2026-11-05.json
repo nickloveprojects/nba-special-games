@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-03T18:23:51Z",
+ "generated_at": "2026-11-03T18:29:04Z",
  "season": "2026-27",
  "games": 2,
  "entries": [
@@ -197,6 +197,11 @@
    "team_logo": "img/teams/MIA.png",
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
+    "notes": {
+     "pts": "GSW gives up the 17th-most points to forwards (41.6 a game, 8 games).",
+     "reb": "GSW gives up the 19th-most rebounds to forwards (18.0 a game, 8 games).",
+     "ast": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+    },
     "group": "F",
     "games": 8,
     "stats": {
@@ -439,6 +444,11 @@
    "team_logo": "img/teams/GSW.png",
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
+    "notes": {
+     "pts": "MIA gives up the 14th-most points to forwards (42.6 a game, 7 games).",
+     "reb": "MIA gives up the 14th-most rebounds to forwards (19.1 a game, 7 games).",
+     "ast": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -710,6 +720,11 @@
    "team_logo": "img/teams/MIA.png",
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
+    "notes": {
+     "pts": "GSW gives up the 7th-most points to guards (61.6 a game, 8 games).",
+     "reb": "GSW gives up the 15th-most rebounds to guards (15.9 a game, 8 games).",
+     "ast": "GSW gives up the 12th-most assists to guards (16.4 a game, 8 games)."
+    },
     "group": "G",
     "games": 8,
     "stats": {
@@ -958,6 +973,11 @@
    "team_logo": "img/teams/ORL.png",
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
+    "notes": {
+     "pts": "PHX gives up the 1st-most points to guards (72.0 a game, 5 games).",
+     "reb": "PHX gives up the 9th-most rebounds to guards (17.0 a game, 5 games).",
+     "ast": "PHX gives up the 21st-most assists to guards (14.6 a game, 5 games)."
+    },
     "group": "G",
     "games": 5,
     "stats": {
@@ -1133,6 +1153,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/ORL.png",
    "matchup": {
+    "notes": {
+     "pts": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games).",
+     "reb": "ORL gives up the 18th-most rebounds to forwards (18.1 a game, 7 games).",
+     "ast": "ORL gives up the 2nd-most assists to forwards (10.7 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -1377,6 +1402,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/ORL.png",
    "matchup": {
+    "notes": {
+     "pts": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games).",
+     "reb": "ORL gives up the 18th-most rebounds to forwards (18.1 a game, 7 games).",
+     "ast": "ORL gives up the 2nd-most assists to forwards (10.7 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -1618,6 +1648,11 @@
    "team_logo": "img/teams/MIA.png",
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
+    "notes": {
+     "pts": "GSW gives up the 17th-most points to forwards (41.6 a game, 8 games).",
+     "reb": "GSW gives up the 19th-most rebounds to forwards (18.0 a game, 8 games).",
+     "ast": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+    },
     "group": "F",
     "games": 8,
     "stats": {

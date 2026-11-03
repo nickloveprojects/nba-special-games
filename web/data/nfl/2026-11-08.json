@@ -127,6 +127,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "pass_yds": "NYJ gives up the 24th-most passing yards to quarterbacks (208.4 a game, 8 games).",
+     "pass_td": "NYJ gives up the 7th-most passing touchdowns to quarterbacks (1.8 a game, 8 games)."
+    },
     "group": "QB",
     "games": 8,
     "stats": {
@@ -299,6 +303,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "NE gives up the 20th-most rushing yards to running backs (82.2 a game, 8 games).",
+     "rec_yds": "NE gives up the 13th-most receiving yards to running backs (31 a game, 8 games)."
+    },
     "group": "RB",
     "games": 8,
     "stats": {
@@ -504,6 +512,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rec_yds": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games).",
+     "rec": "LAR gives up the 30th-most catches to receivers (8 a game, 8 games)."
+    },
     "group": "WR",
     "games": 8,
     "stats": {
@@ -723,6 +735,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "pass_yds": "CIN gives up the 4th-most passing yards to quarterbacks (261 a game, 7 games).",
+     "pass_td": "CIN gives up the 24th-most passing touchdowns to quarterbacks (1.1 a game, 7 games)."
+    },
     "group": "QB",
     "games": 7,
     "stats": {
@@ -905,6 +921,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games).",
+     "rec_yds": "NO gives up the 14th-most receiving yards to running backs (30.9 a game, 7 games)."
+    },
     "group": "RB",
     "games": 7,
     "stats": {
@@ -1067,6 +1087,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rec_yds": "CLE gives up the 20th-most receiving yards to receivers (123.5 a game, 8 games).",
+     "rec": "CLE gives up the 19th-most catches to receivers (9.6 a game, 8 games)."
+    },
     "group": "WR",
     "games": 8,
     "stats": {
@@ -1239,6 +1263,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "CHI gives up the 24th-most rushing yards to running backs (70.2 a game, 8 games).",
+     "rec_yds": "CHI gives up the 22nd-most receiving yards to running backs (24.6 a game, 8 games)."
+    },
     "group": "RB",
     "games": 8,
     "stats": {
@@ -1454,6 +1482,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rec_yds": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games).",
+     "rec": "LAR gives up the 30th-most catches to receivers (8 a game, 8 games)."
+    },
     "group": "WR",
     "games": 8,
     "stats": {
@@ -1693,6 +1725,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rec_yds": "NE gives up the 19th-most receiving yards to tight ends (48.9 a game, 8 games).",
+     "rec": "NE gives up the 16th-most catches to tight ends (5 a game, 8 games)."
+    },
     "group": "TE",
     "games": 8,
     "stats": {
@@ -1868,6 +1904,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "CIN gives up the 19th-most rushing yards to running backs (85.7 a game, 7 games).",
+     "rec_yds": "CIN gives up the 16th-most receiving yards to running backs (29.9 a game, 7 games)."
+    },
     "group": "RB",
     "games": 7,
     "stats": {
@@ -2045,6 +2085,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games).",
+     "rec_yds": "NO gives up the 14th-most receiving yards to running backs (30.9 a game, 7 games)."
+    },
     "group": "RB",
     "games": 7,
     "stats": {
@@ -2252,6 +2296,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "NYG gives up the 15th-most rushing yards to running backs (88.9 a game, 7 games).",
+     "rec_yds": "NYG gives up the 25th-most receiving yards to running backs (20.6 a game, 7 games)."
+    },
     "group": "RB",
     "games": 7,
     "stats": {
@@ -2441,6 +2489,10 @@
     }
    },
    "matchup": {
+    "notes": {
+     "rush_yds": "IND gives up the 13th-most rushing yards to running backs (93 a game, 8 games).",
+     "rec_yds": "IND gives up the 5th-most receiving yards to running backs (38.5 a game, 8 games)."
+    },
     "group": "RB",
     "games": 8,
     "stats": {
@@ -2606,5 +2658,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-03T18:23:56+00:00"
+ "generated_at": "2026-11-03T18:29:13+00:00"
 }

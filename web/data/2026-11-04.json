@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-03T18:23:47Z",
+ "generated_at": "2026-11-03T18:29:00Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -281,6 +281,11 @@
    "team_logo": "img/teams/DET.png",
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
+    "notes": {
+     "pts": "PHI gives up the 29th-most points to forwards (33.6 a game, 8 games).",
+     "reb": "PHI gives up the 15th-most rebounds to forwards (18.8 a game, 8 games).",
+     "ast": "PHI gives up the 30th-most assists to forwards (5.6 a game, 8 games)."
+    },
     "group": "F",
     "games": 8,
     "stats": {
@@ -628,6 +633,11 @@
    "team_logo": "img/teams/PHI.png",
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
+    "notes": {
+     "pts": "DET gives up the 29th-most points to guards (44.4 a game, 7 games).",
+     "reb": "DET gives up the 29th-most rebounds to guards (11.4 a game, 7 games).",
+     "ast": "DET gives up the 29th-most assists to guards (12.7 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -876,6 +886,11 @@
    "team_logo": "img/teams/ATL.png",
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
+    "notes": {
+     "pts": "WAS gives up the 4th-most points to forwards (47.7 a game, 7 games).",
+     "reb": "WAS gives up the 6th-most rebounds to forwards (21.3 a game, 7 games).",
+     "ast": "WAS gives up the 26th-most assists to forwards (6.6 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -1067,6 +1082,11 @@
    "team_logo": "img/teams/WAS.png",
    "opponent_logo": "img/teams/ATL.png",
    "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 28th-most points to guards (46.0 a game, 8 games).",
+     "reb": "ATL gives up the 22nd-most rebounds to guards (14.8 a game, 8 games).",
+     "ast": "ATL gives up the 23rd-most assists to guards (14.2 a game, 8 games)."
+    },
     "group": "G",
     "games": 8,
     "stats": {
@@ -1289,6 +1309,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
+    "notes": {
+     "pts": "POR gives up the 7th-most points to centers (16.7 a game, 6 games).",
+     "reb": "POR gives up the 21st-most rebounds to centers (8.2 a game, 6 games).",
+     "ast": "POR gives up the 24th-most assists to centers (1.8 a game, 6 games)."
+    },
     "group": "C",
     "games": 6,
     "stats": {
@@ -1556,6 +1581,11 @@
    "team_logo": "img/teams/DET.png",
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
+    "notes": {
+     "pts": "PHI gives up the 29th-most points to forwards (33.6 a game, 8 games).",
+     "reb": "PHI gives up the 15th-most rebounds to forwards (18.8 a game, 8 games).",
+     "ast": "PHI gives up the 30th-most assists to forwards (5.6 a game, 8 games)."
+    },
     "group": "F",
     "games": 8,
     "stats": {
@@ -1834,6 +1864,11 @@
    "team_logo": "img/teams/ATL.png",
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
+    "notes": {
+     "pts": "WAS gives up the 29th-most points to guards (44.4 a game, 7 games).",
+     "reb": "WAS gives up the 26th-most rebounds to guards (12.7 a game, 7 games).",
+     "ast": "WAS gives up the 18th-most assists to guards (15.1 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -2127,6 +2162,11 @@
    "team_logo": "img/teams/CHA.png",
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
+    "notes": {
+     "pts": "BKN gives up the 24th-most points to forwards (39.1 a game, 7 games).",
+     "reb": "BKN gives up the 24th-most rebounds to forwards (16.0 a game, 7 games).",
+     "ast": "BKN gives up the 24th-most assists to forwards (6.7 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -2414,6 +2454,11 @@
    "team_logo": "img/teams/LAC.png",
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
+    "notes": {
+     "pts": "MIA gives up the 2nd-most points to guards (70.4 a game, 7 games).",
+     "reb": "MIA gives up the 3rd-most rebounds to guards (18.3 a game, 7 games).",
+     "ast": "MIA gives up the 1st-most assists to guards (18.6 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -2666,6 +2711,11 @@
    "team_logo": "img/teams/CHA.png",
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
+    "notes": {
+     "pts": "BKN gives up the 13th-most points to guards (59.0 a game, 7 games).",
+     "reb": "BKN gives up the 17th-most rebounds to guards (15.4 a game, 7 games).",
+     "ast": "BKN gives up the 4th-most assists to guards (17.1 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -2959,6 +3009,11 @@
    "team_logo": "img/teams/CLE.png",
    "opponent_logo": "img/teams/OKC.png",
    "matchup": {
+    "notes": {
+     "pts": "OKC gives up the 24th-most points to guards (50.9 a game, 7 games).",
+     "reb": "OKC gives up the 6th-most rebounds to guards (17.3 a game, 7 games).",
+     "ast": "OKC gives up the 20th-most assists to guards (14.7 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -3237,6 +3292,11 @@
    "team_logo": "img/teams/DEN.png",
    "opponent_logo": "img/teams/TOR.png",
    "matchup": {
+    "notes": {
+     "pts": "TOR gives up the 10th-most points to guards (60.7 a game, 7 games).",
+     "reb": "TOR gives up the 13th-most rebounds to guards (16.4 a game, 7 games).",
+     "ast": "TOR gives up the 13th-most assists to guards (16.3 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -3530,6 +3590,11 @@
    "team_logo": "img/teams/SAS.png",
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
+    "notes": {
+     "pts": "DAL gives up the 12th-most points to forwards (43.0 a game, 7 games).",
+     "reb": "DAL gives up the 17th-most rebounds to forwards (18.4 a game, 7 games).",
+     "ast": "DAL gives up the 21st-most assists to forwards (7.0 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -3823,6 +3888,11 @@
    "team_logo": "img/teams/NYK.png",
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
+    "notes": {
+     "pts": "CHI gives up the 4th-most points to centers (18.9 a game, 7 games).",
+     "reb": "CHI gives up the 6th-most rebounds to centers (12.0 a game, 7 games).",
+     "ast": "CHI gives up the 15th-most assists to centers (2.4 a game, 7 games)."
+    },
     "group": "C",
     "games": 7,
     "stats": {
@@ -4116,6 +4186,11 @@
    "team_logo": "img/teams/DET.png",
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
+    "notes": {
+     "pts": "PHI gives up the 20th-most points to guards (55.2 a game, 8 games).",
+     "reb": "PHI gives up the 4th-most rebounds to guards (18.2 a game, 8 games).",
+     "ast": "PHI gives up the 17th-most assists to guards (15.4 a game, 8 games)."
+    },
     "group": "G",
     "games": 8,
     "stats": {
@@ -4372,6 +4447,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
+    "notes": {
+     "pts": "POR gives up the 22nd-most points to guards (52.5 a game, 6 games).",
+     "reb": "POR gives up the 28th-most rebounds to guards (12.0 a game, 6 games).",
+     "ast": "POR gives up the 28th-most assists to guards (12.8 a game, 6 games)."
+    },
     "group": "G",
     "games": 6,
     "stats": {
@@ -4639,6 +4719,11 @@
    "team_logo": "img/teams/UTA.png",
    "opponent_logo": "img/teams/NOP.png",
    "matchup": {
+    "notes": {
+     "pts": "NOP gives up the 11th-most points to centers (15.6 a game, 7 games).",
+     "reb": "NOP gives up the 18th-most rebounds to centers (8.9 a game, 7 games).",
+     "ast": "NOP gives up the 6th-most assists to centers (3.6 a game, 7 games)."
+    },
     "group": "C",
     "games": 7,
     "stats": {
@@ -4932,6 +5017,11 @@
    "team_logo": "img/teams/LAL.png",
    "opponent_logo": "img/teams/SAC.png",
    "matchup": {
+    "notes": {
+     "pts": "SAC gives up the 1st-most points to forwards (63.6 a game, 7 games).",
+     "reb": "SAC gives up the 1st-most rebounds to forwards (23.9 a game, 7 games).",
+     "ast": "SAC gives up the 5th-most assists to forwards (9.9 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -5225,6 +5315,11 @@
    "team_logo": "img/teams/PHI.png",
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
+    "notes": {
+     "pts": "DET gives up the 29th-most points to guards (44.4 a game, 7 games).",
+     "reb": "DET gives up the 29th-most rebounds to guards (11.4 a game, 7 games).",
+     "ast": "DET gives up the 29th-most assists to guards (12.7 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -5473,6 +5568,11 @@
    "team_logo": "img/teams/IND.png",
    "opponent_logo": "img/teams/MEM.png",
    "matchup": {
+    "notes": {
+     "pts": "MEM gives up the 29th-most points to centers (8.7 a game, 7 games).",
+     "reb": "MEM gives up the 30th-most rebounds to centers (5.6 a game, 7 games).",
+     "ast": "MEM gives up the 25th-most assists to centers (1.7 a game, 7 games)."
+    },
     "group": "C",
     "games": 7,
     "stats": {
@@ -5755,6 +5855,11 @@
    "team_logo": "img/teams/SAC.png",
    "opponent_logo": "img/teams/LAL.png",
    "matchup": {
+    "notes": {
+     "pts": "LAL gives up the 5th-most points to guards (62.5 a game, 8 games).",
+     "reb": "LAL gives up the 5th-most rebounds to guards (17.4 a game, 8 games).",
+     "ast": "LAL gives up the 5th-most assists to guards (17.0 a game, 8 games)."
+    },
     "group": "G",
     "games": 8,
     "stats": {
@@ -6018,6 +6123,11 @@
    "team_logo": "img/teams/LAC.png",
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
+    "notes": {
+     "pts": "MIA gives up the 14th-most points to forwards (42.6 a game, 7 games).",
+     "reb": "MIA gives up the 14th-most rebounds to forwards (19.1 a game, 7 games).",
+     "ast": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -6285,6 +6395,11 @@
    "team_logo": "img/teams/OKC.png",
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
+    "notes": {
+     "pts": "CLE gives up the 6th-most points to centers (17.4 a game, 7 games).",
+     "reb": "CLE gives up the 2nd-most rebounds to centers (14.0 a game, 7 games).",
+     "ast": "CLE gives up the 15th-most assists to centers (2.4 a game, 7 games)."
+    },
     "group": "C",
     "games": 7,
     "stats": {
@@ -6566,6 +6681,11 @@
    "team_logo": "img/teams/WAS.png",
    "opponent_logo": "img/teams/ATL.png",
    "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 1st-most points to centers (22.5 a game, 8 games).",
+     "reb": "ATL gives up the 9th-most rebounds to centers (11.1 a game, 8 games).",
+     "ast": "ATL gives up the 1st-most assists to centers (5.2 a game, 8 games)."
+    },
     "group": "C",
     "games": 8,
     "stats": {
@@ -6849,6 +6969,11 @@
    "team_logo": "img/teams/ATL.png",
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
+    "notes": {
+     "pts": "WAS gives up the 4th-most points to forwards (47.7 a game, 7 games).",
+     "reb": "WAS gives up the 6th-most rebounds to forwards (21.3 a game, 7 games).",
+     "ast": "WAS gives up the 26th-most assists to forwards (6.6 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -7108,6 +7233,11 @@
    "team_logo": "img/teams/PHI.png",
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
+    "notes": {
+     "pts": "DET gives up the 29th-most points to guards (44.4 a game, 7 games).",
+     "reb": "DET gives up the 29th-most rebounds to guards (11.4 a game, 7 games).",
+     "ast": "DET gives up the 29th-most assists to guards (12.7 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -7404,6 +7534,11 @@
    "team_logo": "img/teams/NYK.png",
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
+    "notes": {
+     "pts": "CHI gives up the 6th-most points to guards (62.0 a game, 7 games).",
+     "reb": "CHI gives up the 14th-most rebounds to guards (16.3 a game, 7 games).",
+     "ast": "CHI gives up the 10th-most assists to guards (16.7 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -7700,6 +7835,11 @@
    "team_logo": "img/teams/NYK.png",
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
+    "notes": {
+     "pts": "CHI gives up the 4th-most points to centers (18.9 a game, 7 games).",
+     "reb": "CHI gives up the 6th-most rebounds to centers (12.0 a game, 7 games).",
+     "ast": "CHI gives up the 15th-most assists to centers (2.4 a game, 7 games)."
+    },
     "group": "C",
     "games": 7,
     "stats": {
@@ -7901,6 +8041,11 @@
    "team_logo": "img/teams/CHI.png",
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
+    "notes": {
+     "pts": "NYK gives up the 12th-most points to forwards (43.0 a game, 7 games).",
+     "reb": "NYK gives up the 16th-most rebounds to forwards (18.6 a game, 7 games).",
+     "ast": "NYK gives up the 4th-most assists to forwards (10.0 a game, 7 games)."
+    },
     "group": "F",
     "games": 7,
     "stats": {
@@ -7998,6 +8143,11 @@
    "team_logo": "img/teams/NOP.png",
    "opponent_logo": "img/teams/UTA.png",
    "matchup": {
+    "notes": {
+     "pts": "UTA gives up the 7th-most points to guards (61.6 a game, 7 games).",
+     "reb": "UTA gives up the 23rd-most rebounds to guards (14.4 a game, 7 games).",
+     "ast": "UTA gives up the 18th-most assists to guards (15.1 a game, 7 games)."
+    },
     "group": "G",
     "games": 7,
     "stats": {
@@ -8152,6 +8302,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
+    "notes": {
+     "pts": "POR gives up the 21st-most points to forwards (40.2 a game, 6 games).",
+     "reb": "POR gives up the 12th-most rebounds to forwards (19.8 a game, 6 games).",
+     "ast": "POR gives up the 9th-most assists to forwards (9.0 a game, 6 games)."
+    },
     "group": "F",
     "games": 6,
     "stats": {
@@ -8411,6 +8566,11 @@
    "team_logo": "img/teams/PHX.png",
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
+    "notes": {
+     "pts": "POR gives up the 21st-most points to forwards (40.2 a game, 6 games).",
+     "reb": "POR gives up the 12th-most rebounds to forwards (19.8 a game, 6 games).",
+     "ast": "POR gives up the 9th-most assists to forwards (9.0 a game, 6 games)."
+    },
     "group": "F",
     "games": 6,
     "stats": {
