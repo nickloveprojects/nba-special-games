@@ -264,7 +264,7 @@ def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso, curated=None
     if cur:
         kind = cur["kind"]
         return {"category": "Revenge", "kind": kind, "confidence": "high", "headline": HEAD[kind].format(t=opp_info["short"]),
-                "detail": played, "how_left": cur["how"], "sources": cur["sources"],
+                "detail": played, "how_left": cur["how"], "sources": cur["sources"], "when": str(cur.get("date") or last),
                 "_score": {"trade": 5, "waived": 4, "free_agency": 3}[kind]}
     ex = exit_for(p, opp_info, logs, rows_for_year, t_all, today_iso)
     src = []
@@ -280,8 +280,9 @@ def revenge_tag(p, opp_info, logs, rows_for_year, t_all, today_iso, curated=None
         nxt = f" His next signing was with the {ex['new']} ({pretty_date(ex['date'])})." if ex and ex["new"] else ""
         how = f"{played} No trade or release is in ESPN's log, so how he left is not confirmed.{nxt}"
         head = f"Former {opp_info['short']} player."
+    when = ex["date"][:10] if ex and kind != "unknown" else str(last)
     return {"category": "Revenge", "kind": kind, "confidence": conf, "headline": head, "detail": played,
-            "how_left": how, "sources": src, "_score": {"trade": 5, "waived": 4}.get(kind, 2)}
+            "how_left": how, "sources": src, "when": when, "_score": {"trade": 5, "waived": 4}.get(kind, 2)}
 
 
 def birthday_tag(p, logs, d: date):
@@ -370,7 +371,7 @@ def history_tags(p, opp_ids, rivalries, roster_names):
             kind = r.get("kind", "Rivalry")
             out.append({"category": "History", "kind": "rivalry", "label": kind, "with": other,
                         "confidence": "high", "headline": f"{kind} history with {other}.", "reason": r["reason"],
-                        "detail": r["reason"], "sources": r["sources"], "_score": 8})
+                        "detail": r["reason"], "when": str(r.get("date") or ""), "sources": r["sources"], "_score": 8})
     return out
 
 

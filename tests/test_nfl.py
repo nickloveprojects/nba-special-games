@@ -172,3 +172,13 @@ def test_rivalry_files_are_complete():
         for r in data["rivalries"]:
             assert len(r["players"]) == 2 and r["reason"].strip() and r["kind"], r
             assert r["sources"] and all(s["url"].startswith("https://") and s["label"] for s in r["sources"]), r
+
+
+def test_history_entries_carry_a_date_for_the_recency_filter():
+    import yaml
+    for f in ("rivalries.yaml", "rivalries_nfl.yaml"):
+        for r in yaml.safe_load((nfl.config.ROOT / "config" / f).read_text())["rivalries"]:
+            assert __import__("re").fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", str(r.get("date", ""))), r
+    tags = nfl.history_tags({"name": "A B"}, {1}, [{"players": ["A B", "C D"], "reason": "r", "date": "2025-03",
+                                                    "sources": [{"label": "x", "url": "https://x"}]}], {"C D"})
+    assert tags[0]["when"] == "2025-03"

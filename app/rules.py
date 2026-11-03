@@ -231,8 +231,9 @@ def revenge_tag(stint: dict | None, ext: dict | None, opp_nick: str, to_nick: st
         how = f"{how} {manual_note}".strip() if ext else manual_note
         headline = f"{headline} {manual_note}" if kind == "unknown" and not stint else headline
     games = f"{gp} games with the {opp_nick}" if stint else ""
+    when = ext["date"][:10] if ext else (str(stint["left_year"]) if stint and stint.get("left_year") else "")
     return {"category": "Revenge", "kind": kind, "confidence": conf, "headline": headline, "how_left": how,
-            "detail": f"{headline} {how}".strip(), "games_with_team": games,
+            "detail": f"{headline} {how}".strip(), "games_with_team": games, "when": when,
             "_score": revenge_score(stint, conf, this_year, ext)}
 
 

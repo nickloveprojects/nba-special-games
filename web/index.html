@@ -242,6 +242,10 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .who h2{font-weight:800;font-size:clamp(29px,6vw,35px);letter-spacing:.005em}
 button:hover,select:hover,.espn:hover{border-color:var(--accent)}
 .gbtn[aria-pressed=true]:hover{border-color:var(--pill-bg)}
+#recency{align-items:center;gap:12px}
+#recency input[type=range]{flex:1 1 160px;min-width:120px;accent-color:var(--ink)}
+#recency output{font-weight:600;min-width:84px;font-variant-numeric:tabular-nums}
+#recency .lab{white-space:nowrap}
 </style>
 </head>
 <body>
@@ -289,6 +293,11 @@ button:hover,select:hover,.espn:hover{border-color:var(--accent)}
   </div>
   <div class="bar" id="cats"></div>
   <div class="bar" id="grades" role="group" aria-label="Matchup grade"></div>
+  <div class="bar" id="recency">
+    <label for="rec" class="lab">How recent</label>
+    <input id="rec" type="range" min="0" max="5" step="1" value="5" aria-describedby="recv">
+    <output id="recv" for="rec">Any time</output>
+  </div>
   <div class="bar filters" id="mf">
     <select id="stat" aria-label="Matchup stat"></select>
     <select id="feel" aria-label="Matchup is">
@@ -335,6 +344,12 @@ const KIND={trade:"Traded",waived:"Waived",free_agency:"Left in free agency",unk
 const SURE={high:"Confirmed",medium:"Likely",low:"Unconfirmed"};
 const SPORTS={nba:{dir:"data",name:"NBA"},nfl:{dir:"data/nfl",name:"NFL"}};
 const GRADES=["A","B","C","D","F"];
+const RECENT=[{l:"6 months",d:183},{l:"1 year",d:365},{l:"2 years",d:730},{l:"3 years",d:1095},{l:"5 years",d:1826},{l:"Any time",d:null}];
+function eventAge(w,today){   // days since a revenge or beef event; null when unknown
+  if(!w) return null;
+  const f=/^\d{4}$/.test(w)?w+"-07-01":/^\d{4}-\d{2}$/.test(w)?w+"-15":w;
+  const t=Date.parse(f); return isNaN(t)?null:Math.max(0,(today-t)/864e5);
+}
 let sport="nba",slate=null,active=new Set(CATS),game="",grades=new Set(GRADES);
 const dataUrl=f=>`${SPORTS[sport].dir}/${f}`;
 const $=id=>document.getElementById(id);
@@ -390,7 +405,10 @@ function sortKey(e,mode,k){
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
   const k=$("stat").value,feel=$("feel").value,mode=$("sort").value,gAll=grades.size===GRADES.length;
-  let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g)))}))
+  const lim=RECENT[+$("rec").value].d,now=Date.now();
+  const fresh=g=>{if(lim==null||!(g.category==="Revenge"||g.category==="History")) return true;
+    const a=eventAge(g.when,now); return a==null||a<=lim};   // no date known: keep it rather than hide it
+  let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g))&&fresh(g))}))
    .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})))
    .filter(e=>{const m=e.matchup;
      if(!gAll&&!(m&&grades.has(m.grade))) return false;
@@ -487,7 +505,7 @@ function card(e){
 }
 function render(){
   const rows=filtered();
-  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||$("q").value||$("team").value||game||active.size<CATS.length;
+  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||$("rec").value!=="5"||$("q").value||$("team").value||game||active.size<CATS.length;
   $("reset").hidden=!dirty;
   $("cnt").textContent=`${rows.length} player${rows.length===1?"":"s"} shown`;
   $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
@@ -510,16 +528,17 @@ async function initBoard(){
     $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));redrawGames();render()};
     $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
     ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",render));
+    $("rec").addEventListener("input",()=>{$("recv").textContent=RECENT[+$("rec").value].l;render()});
     $("grades").onclick=e=>{const b=e.target.closest("[data-gr]");if(!b)return;const g=b.dataset.gr;grades.has(g)?grades.delete(g):grades.add(g);b.setAttribute("aria-pressed",grades.has(g));render()};
     $("reset").onclick=()=>{grades=new Set(GRADES);active=new Set(CATS);game="";
-      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");
+      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");$("rec").value=5;$("recv").textContent="Any time";
       document.querySelectorAll("#grades [data-gr]").forEach(b=>b.setAttribute("aria-pressed","true"));
       drawChips();render()};
     $("csv").onclick=()=>copy(csv(),"CSV");
     $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
     $("date").onchange=e=>load(e.target.value);
   }
-  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";$("stat").innerHTML="";$("grades").innerHTML="";
+  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";$("rec").value=5;$("recv").textContent="Any time";$("stat").innerHTML="";$("grades").innerHTML="";
   $("h1").textContent=`${SPORTS[sport].name} backstories`;
   $("sub").textContent="Loading\u2026";$("list").innerHTML="";$("cats").innerHTML="";$("games").innerHTML="";$("date").innerHTML="";$("q").value="";
   try{

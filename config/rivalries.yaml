@@ -1,23 +1,27 @@
 # Documented player-vs-player history. A History box appears on a card ONLY for pairs listed here,
 # and only when both players are on the two teams in that day's game.
+# Each entry also has a date (YYYY-MM-DD, YYYY-MM or YYYY) of the incident, used by the recency filter.
 # Rules for adding one: the "reason" must be a short, checkable fact, and "sources" must have at least one link
 # that supports it. Entries without a reason or a source are ignored. Stats are never typed here:
 # they are computed from ESPN game logs (games where both players appeared in the same game).
 rivalries:
   - players: ["Amen Thompson", "Tyler Herro"]
     kind: Altercation
+    date: "2024-12"
     reason: "Both were ejected after a fight in a Heat-Rockets game in December 2024."
     sources:
       - {label: "NBA.com", url: "https://www.nba.com/news/amen-thompson-tyler-herro-fight-leads-to-ejections-of-multiple-players-and-coaches-in-heats-victory-in-houston"}
       - {label: "NBC Sports", url: "https://nbcsports.com/nba/news/tyler-herro-amen-thompson-among-four-players-two-coaches-ejected-after-rockets-vs-heat-fight"}
   - players: ["Victor Wembanyama", "Chet Holmgren"]
     kind: Rivalry
+    date: "2023-06"
     reason: "The top two picks of the 2023 NBA Draft (Wembanyama No. 1, Holmgren No. 2), regularly framed as a rivalry by the league and media."
     sources:
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/thunder/onsi/news/nba-continuing-to-push-chet-holmgren-victor-wembanyama-rivalry-01j3nn607zcy"}
       - {label: "NBC Sports Bay Area", url: "https://www.nbcsportsbayarea.com/nba/chet-holmgren-responds-to-victor-wembanyama-flexing-on-him-in-thunder-spurs/1661634/?amp=1"}
   - players: ["LeBron James", "Dillon Brooks"]
     kind: Feud
+    date: "2023-04"
     reason: "Brooks was ejected for striking LeBron in Game 2 of their 2023 first-round series (Lakers beat Grizzlies); Brooks said \"I poke bears\" about the matchup."
     sources:
       - {label: "Eurohoops", url: "https://www.eurohoops.net/en/nba-news/1492914/dillon-brooks-ejected-after-striking-lebron-james-in-the-groin-nba-playoffs/amp/"}
@@ -26,113 +30,134 @@ rivalries:
   # ---- added from reported incidents; every claim below is limited to what the linked articles state
   - players: ["Joel Embiid", "Karl-Anthony Towns"]
     kind: Altercation
+    date: "2019-10-30"
     reason: "Both were ejected after fighting in a 76ers-Timberwolves game in Philadelphia on Oct. 30, 2019."
     sources:
       - {label: "Fox News", url: "https://www.foxnews.com/sports/philadelphia-76ers-joel-embiid-ejected-brawl-minnesota-timberwolves-karl-anthony-towns"}
   - players: ["Miles Bridges", "Jalen Duren"]
     kind: Altercation
+    date: "2026-02"
     reason: "Bridges threw a punch at Duren in a Pistons-Hornets brawl in February 2026. Both were ejected; the NBA suspended Bridges four games and Duren two."
     sources:
       - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
   - players: ["Moussa Diabate", "Jalen Duren"]
     kind: Altercation
+    date: "2026-02"
     reason: "A foul and a shove between them started the February 2026 Pistons-Hornets brawl. Both were ejected; the NBA suspended Diabate four games and Duren two."
     sources:
       - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
   - players: ["Isaiah Stewart", "Miles Bridges"]
     kind: Altercation
+    date: "2026-02"
     reason: "Stewart left the bench and fought Bridges in the February 2026 Pistons-Hornets brawl. Both were ejected; the NBA suspended Stewart seven games and Bridges four."
     sources:
       - {label: "ESPN", url: "https://www.espn.com/nba/story/_/id/47898723/nba-suspends-stewart-duren-bridges-diabate-monday-brawl"}
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/pistons-hornets-brawl-suspensions-isaiah-stewart-jalen-duren"}
   - players: ["Ajay Mitchell", "Justin Champagnie"]
     kind: Altercation
+    date: "2026-03-21"
     reason: "Each was suspended one game without pay for fighting in the Thunder-Wizards game on March 21, 2026."
     sources:
       - {label: "AP via Rutland Herald", url: "https://www.rutlandherald.com/sports/pro_national_sports/wizards-forward-justin-champagnie-and-thunder-guard-ajay-mitchell-suspended-1-game-for-fighting/article_5edf2ffb-b7fb-5b3a-b8f2-e2f1bcb45b76.html"}
       - {label: "AP via WTOP", url: "https://wtop.com/washington-wizards/2026/03/altercation-late-in-first-half-leads-to-4-ejected-from-thunder-wizards"}
   - players: ["Jaylin Williams", "Justin Champagnie"]
     kind: Altercation
+    date: "2026-03-21"
     reason: "They shoved each other under the basket in the Thunder-Wizards game in March 2026, and both were ejected with two technical fouls each."
     sources:
       - {label: "AP via WTOP", url: "https://wtop.com/washington-wizards/2026/03/altercation-late-in-first-half-leads-to-4-ejected-from-thunder-wizards"}
   - players: ["Jusuf Nurkic", "Naji Marshall"]
     kind: Altercation
+    date: "2024-12-27"
     reason: "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected."
     sources:
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"}
   - players: ["Jusuf Nurkic", "P.J. Washington"]
     kind: Altercation
+    date: "2024-12-27"
     reason: "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected."
     sources:
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"}
   - players: ["Mitchell Robinson", "Dyson Daniels"]
     kind: Altercation
+    date: "2026-04-30"
     reason: "Both were ejected in Game 6 of the 2026 first-round Knicks-Hawks series (April 30, 2026) after getting tangled during a free throw. The NBA fined Robinson $50,000 and Daniels $25,000."
     sources:
       - {label: "AP via AJC", url: "https://images.ajc.com/news/2026/05/robinson-fined-50000-daniels-fined-25000-for-roles-in-knicks-hawks-altercation/"}
   - players: ["Nikola Jokic", "Jaden McDaniels"]
     kind: Altercation
+    date: "2026-04-25"
     reason: "After McDaniels took a late layup in Game 4 of their 2026 first-round series (April 25, 2026), Jokic ran down the court to confront him. Jokic was ejected and fined $50,000."
     sources:
       - {label: "Bleacher Report", url: "https://bleacherreport.com/articles/25422580-nikola-jokic-jaden-mcdaniels-have-heated-altercation-video-after-wolves-go-3-1-nuggets"}
       - {label: "AP via Bakersfield Californian", url: "https://www.bakersfield.com/ap/sports/jokic-fined-50-000-randle-fined-35-000-for-nuggets-wolves-incident/article_a4556ac6-f672-5172-9b2c-0fd29e63259b.html"}
   - players: ["Nikola Jokic", "Julius Randle"]
     kind: Altercation
+    date: "2026-04-25"
     reason: "Both were ejected in the Game 4 altercation of their 2026 first-round series (April 25, 2026). The NBA fined Jokic $50,000 and Randle $35,000."
     sources:
       - {label: "Bleacher Report", url: "https://bleacherreport.com/articles/25422580-nikola-jokic-jaden-mcdaniels-have-heated-altercation-video-after-wolves-go-3-1-nuggets"}
       - {label: "AP via Bakersfield Californian", url: "https://www.bakersfield.com/ap/sports/jokic-fined-50-000-randle-fined-35-000-for-nuggets-wolves-incident/article_a4556ac6-f672-5172-9b2c-0fd29e63259b.html"}
   - players: ["Isaiah Stewart", "Donte DiVincenzo"]
     kind: Altercation
+    date: "2025-03-30"
     reason: "Stewart bumped DiVincenzo and drew a technical, then a brawl broke out in a Pistons-Timberwolves game on March 30, 2025. Both were ejected."
     sources:
       - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
   - players: ["Ronald Holland II", "Naz Reid"]
     kind: Altercation
+    date: "2025-03-30"
     reason: "Holland slapped the ball from Reid's hands and the two exchanged words before a brawl broke out in a Pistons-Timberwolves game on March 30, 2025. Both were ejected."
     sources:
       - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
   - players: ["Ronald Holland II", "Donte DiVincenzo"]
     kind: Altercation
+    date: "2025-03-30"
     reason: "DiVincenzo grabbed Holland's jersey, and all 10 players on the court got involved in a Pistons-Timberwolves brawl on March 30, 2025. Both were ejected."
     sources:
       - {label: "NBA.com", url: "https://www.nba.com/news/pistons-timberwolves-altercation-5-players-2-coaches-ejected"}
   - players: ["Jerami Grant", "Yves Missi"]
     kind: Altercation
+    date: "2025-11-13"
     reason: "Both were ejected after a physical altercation under the basket in a Blazers-Pelicans game on Nov. 13, 2025."
     sources:
       - {label: "Sports Illustrated", url: "https://www.si.com/nba/trailblazers/onsi/news/blazers-pelicans-frontcourt-stars-ejected-from-ongoing-game-after-fight"}
   - players: ["Jaylen Brown", "Jayson Tatum"]
     kind: Feud
+    date: "2026-10-23"
     reason: "Former Celtics co-stars. After Tatum said he was \"caught off guard\" by the trade that sent Brown to the 76ers, Brown replied with a cap (lying) emoji on Oct. 23, 2026."
     sources:
       - {label: "Philadelphia Inquirer", url: "https://www.inquirer.com/sixers/jaylen-brown-cap-emoji-jayson-tatum-response-celtics-sixers-20261024.html"}
       - {label: "BroBible", url: "https://brobible.com/sports/article/jaylen-brown-calls-out-jayson-tatum-celtics-sixers-trade-reaction/"}
   - players: ["Yaxel Lendeborg", "Luka Doncic"]
     kind: Feud
+    date: "2026-10-21"
     reason: "In the Lakers' 127-105 win on Oct. 21, 2026 they traded trash talk all game, Doncic hit a half-court shot at the halftime buzzer in Lendeborg's face, and Lendeborg got a technical. Afterward Lendeborg said, \"I lost all respect (for Doncic).\""
     sources:
       - {label: "AP via News4Jax", url: "https://www.news4jax.com/sports/2026/10/22/warriors-rookie-yaxel-lendeborg-calls-out-luka-doncic-both-on-court-and-after-huge-loss-to-lakers/"}
   - players: ["Victor Wembanyama", "Naz Reid"]
     kind: Altercation
+    date: "2026-05-10"
     reason: "Wembanyama was ejected for a Flagrant 2 foul after throwing an elbow at Reid's throat in Game 4 of the 2026 second-round Spurs-Timberwolves series (May 10, 2026)."
     sources:
       - {label: "AP via Eagle-Tribune", url: "https://www.eagletribune.com/wembanyama-gets-ejected-early-in-spurs-wolves-game-4-for-elbowing-reid-and-drawing-a/article_322dec19-b341-5d07-93a8-8da126d16813.html"}
   - players: ["Jalen Suggs", "Andre Drummond"]
     kind: Altercation
+    date: "2025-11"
     reason: "In a Magic-76ers game in Philadelphia in November 2025, Suggs shoved Drummond. No punches were thrown. Suggs was ejected with two technical fouls and Drummond got one."
     sources:
       - {label: "AP via WTOP", url: "https://wtop.com/sports/2025/11/orlandos-jalen-suggs-ejected-in-first-half-after-heated-altercation-with-andre-drummond-76ers"}
   - players: ["Jalen Suggs", "Jabari Walker"]
     kind: Altercation
+    date: "2025-11"
     reason: "Walker stepped between Suggs and Drummond in a Magic-76ers game in November 2025 and Suggs took issue with him. More shoving followed and Suggs was ejected."
     sources:
       - {label: "AP via WTOP", url: "https://wtop.com/sports/2025/11/orlandos-jalen-suggs-ejected-in-first-half-after-heated-altercation-with-andre-drummond-76ers"}
   - players: ["Jaylen Brown", "Duncan Robinson"]
     kind: Feud
+    date: "2024-02-11"
     reason: "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\""
     sources:
       - {label: "FadeAway World", url: "https://fadeawayworld.net/leaked-audio-fiery-trash-talk-jaylen-brown-duncan-robinson-flagrant-foul"}

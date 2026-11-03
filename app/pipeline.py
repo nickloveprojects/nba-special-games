@@ -174,7 +174,7 @@ def history_tags(conn, pa, pb, rv, slate_date, warn):
     def tag(me, other, mine, theirs, rec):
         return {"category": "History", "kind": "rivalry", "label": rv.get("kind", "History"), "confidence": "high",
                 "headline": f"{rv.get('kind', 'History')} history with {other['name']}.",
-                "reason": rv["reason"], "detail": rv["reason"], "with": other["name"], "with_id": other["player_id"],
+                "reason": rv["reason"], "detail": rv["reason"], "when": str(rv.get("date") or ""), "with": other["name"], "with_id": other["player_id"],
                 "with_team": other["_team"], "sources": rv["sources"], "_score": 8,
                 "h2h": {"scope": scope, "games": h["games"], "me": mine, "them": theirs, "record": rec,
                         "recent": [{"date": x["date"], "me": x["a_pts" if me is pa else "b_pts"],
