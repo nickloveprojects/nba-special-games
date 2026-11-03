@@ -69,3 +69,85 @@ def passing_factor(w: dict | None) -> float:
     if w["temp"] < 40:
         f *= 0.95
     return f
+
+
+# ------------------------------------------------------------------ full game report
+WMO = {0: "Clear", 1: "Mostly clear", 2: "Partly cloudy", 3: "Overcast", 45: "Fog", 48: "Fog", 51: "Light drizzle", 53: "Drizzle",
+       55: "Heavy drizzle", 56: "Freezing drizzle", 57: "Freezing drizzle", 61: "Light rain", 63: "Rain", 65: "Heavy rain",
+       66: "Freezing rain", 67: "Freezing rain", 71: "Light snow", 73: "Snow", 75: "Heavy snow", 77: "Snow grains",
+       80: "Light showers", 81: "Showers", 82: "Heavy showers", 85: "Snow showers", 86: "Heavy snow showers",
+       95: "Thunderstorms", 96: "Thunderstorms with hail", 99: "Thunderstorms with hail"}
+POINTS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
+
+
+def condition(code, rain, cloud) -> str:
+    """Model weather code in words. A precipitation code with a low rain chance is shown as sky cover instead,
+    so a 1% chance never reads as drizzle."""
+    if code is not None and code >= 51 and (rain is None or rain < 30):
+        code = 0 if (cloud or 0) < 20 else 2 if (cloud or 0) < 70 else 3
+    return WMO.get(code, "")
+
+
+def compass(deg: float | None) -> str:
+    return "" if deg is None else POINTS[round(deg / 22.5) % 16]
+
+
+def effects(w: dict | None) -> list[str]:
+    """Plain-language notes for the kickoff reading. Only wind and cold are in the projections (backtested);
+    the rest is shown as context and says so."""
+    if not w or w.get("indoor"):
+        return []
+    out = []
+    if w["wind"] >= 15:
+        out.append(f"Wind of {w['wind']} mph. In past games this much wind cut passing about 15%, and our projections trim passing and receiving yards.")
+    elif w["wind"] >= 8:
+        out.append(f"Breezy ({w['wind']} mph). A small trim is applied to passing and receiving projections.")
+    if w["temp"] < 40:
+        out.append(f"Cold ({w['temp']}\u00b0F). Passing projections are trimmed slightly.")
+    if (w.get("rain") or 0) >= 50 or (w.get("precip_in") or 0) >= 0.05:
+        out.append("Wet conditions likely. This is not factored into projections: we found no reliable effect to measure.")
+    if not out:
+        out.append("No weather concerns. Nothing is adjusted in the projections.")
+    return out
+
+
+def report_many(games: list[dict]) -> dict:
+    """games: [{"id","lat","lon","tip_utc","indoor"}] -> {id: {"indoor": bool, "hours": [...], "effects": [...]}} or None.
+    Four hourly readings starting at kickoff. One request covers every outdoor game."""
+    out = {g["id"]: ({"indoor": True, "hours": [], "effects": []} if g["indoor"] else None) for g in games}
+    wet = [g for g in games if not g["indoor"]]
+    if not wet:
+        return out
+    fields = ("temperature_2m,apparent_temperature,relative_humidity_2m,precipitation_probability,precipitation,"
+              "weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover")
+    try:
+        data = get_json(URL, params={
+            "latitude": ",".join(str(g["lat"]) for g in wet), "longitude": ",".join(str(g["lon"]) for g in wet),
+            "timezone": "UTC", "forecast_days": 14, "past_days": 1, "temperature_unit": "fahrenheit", "wind_speed_unit": "mph",
+            "precipitation_unit": "inch", "hourly": fields}, retries=3, timeout=30)
+        blocks = data if isinstance(data, list) else [data]
+        for g, blk in zip(wet, blocks):
+            h = blk.get("hourly") or {}
+            times = h.get("time") or []
+            if not times:
+                continue
+            tip = datetime.fromisoformat(g["tip_utc"]).astimezone(timezone.utc).replace(tzinfo=None)
+            i0 = min(range(len(times)), key=lambda k: abs(datetime.fromisoformat(times[k]) - tip))
+            at = lambda k, i: (h.get(k) or [None] * len(times))[i]  # noqa: E731
+            hours = []
+            for i in range(i0, min(i0 + 4, len(times))):
+                if at("temperature_2m", i) is None or at("wind_speed_10m", i) is None:
+                    continue
+                r = lambda k, i=i, nd=0: (None if at(k, i) is None else round(at(k, i), nd) if nd else round(at(k, i)))  # noqa: E731
+                hours.append({"utc": times[i] + "Z", "temp": r("temperature_2m"), "feels": r("apparent_temperature"),
+                              "humidity": r("relative_humidity_2m"), "rain": r("precipitation_probability"),
+                              "precip_in": r("precipitation", nd=2), "wind": r("wind_speed_10m"), "gust": r("wind_gusts_10m"),
+                              "dir": r("wind_direction_10m"), "dir_txt": compass(at("wind_direction_10m", i)),
+                              "cloud": r("cloud_cover"),
+                              "cond": condition(at("weather_code", i), at("precipitation_probability", i), at("cloud_cover", i))})
+            if hours:
+                k = hours[0]
+                out[g["id"]] = {"indoor": False, "hours": hours, "effects": effects({**k, "indoor": False})}
+    except (SourceError, ValueError, KeyError, TypeError) as e:
+        log.warning("weather report unavailable: %s", e)
+    return out

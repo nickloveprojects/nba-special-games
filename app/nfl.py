@@ -515,6 +515,23 @@ def build_slates(today: date | None = None) -> list[dict]:
         slates.append({"date": day, "sport": "nfl", "week": week, "games": len(day_events), "entries": entries,
                        "matchups": matchups, "warnings": warn.items,
                        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    # full weather report for every game of the week (flagged or not), one forecast request
+    gm = []
+    for day in days:
+        for e in (x for x in events if x["date"] == day):
+            xy = feed.VENUE.get(id_abbr[int(e["home"]["id"])])
+            gm.append({"id": e["game_id"], "lat": xy[0] if xy else None, "lon": xy[1] if xy else None, "tip_utc": e["tip_utc"],
+                       "indoor": e["indoor"], "_e": e, "_has_xy": bool(xy and not e["neutral"])})
+    rep = weather.report_many([{k: v for k, v in g.items() if not k.startswith("_")} for g in gm if g["_has_xy"] or g["indoor"]])
+    games_wx = []
+    for g in gm:
+        e = g["_e"]; a, h = id_abbr[int(e["away"]["id"])], id_abbr[int(e["home"]["id"])]
+        games_wx.append({"id": e["game_id"], "date": e["date"], "away": a, "home": h, "away_logo": _logo(a), "home_logo": _logo(h),
+                         "tip": e["tip"], "tip_utc": e["tip_utc"], "arena": e["arena"],
+                         "location": ", ".join(x for x in (e["venue_city"], e["venue_state"]) if x),
+                         "report": rep.get(e["game_id"])})
+    if slates:
+        slates[0]["_weather"] = {"week": week, "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "games": games_wx}
     if needs:
         log.info("NEEDS RESEARCH (exit not confirmed): %s", "; ".join(sorted(set(needs))))
     return slates
@@ -539,6 +556,9 @@ def write(slates: list[dict]):
     OUT.mkdir(parents=True, exist_ok=True)
     keep = []
     for s in slates:
+        wx = s.pop("_weather", None)
+        if wx:
+            (OUT / "weather.json").write_text(json.dumps(wx, indent=1))
         (OUT / f"{s['date']}.json").write_text(json.dumps(s, indent=1))
         keep.append(s["date"])
     for p in OUT.glob("????-??-??.json"):

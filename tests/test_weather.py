@@ -21,3 +21,15 @@ def test_passing_factor():
     assert weather.passing_factor({"temp": 70, "wind": 3}) == 1.0
     assert weather.passing_factor({"temp": 70, "wind": 20}) == 0.88
     assert round(weather.passing_factor({"temp": 30, "wind": 20}), 3) == round(0.88 * 0.95, 3)
+
+
+def test_full_report_helpers():
+    assert weather.compass(0) == "N" and weather.compass(225) == "SW" and weather.compass(359) == "N" and weather.compass(None) == ""
+    assert "projections trim" in weather.effects({"indoor": False, "wind": 20, "temp": 60, "rain": 0})[0]
+    assert any("not factored" in x for x in weather.effects({"indoor": False, "wind": 3, "temp": 60, "rain": 80}))
+    assert weather.effects({"indoor": True}) == [] and "No weather concerns" in weather.effects({"indoor": False, "wind": 3, "temp": 60, "rain": 5})[0]
+
+
+def test_low_rain_chance_is_not_called_drizzle():
+    assert weather.condition(51, 1, 10) == "Clear" and weather.condition(61, 10, 90) == "Overcast"
+    assert weather.condition(61, 60, 90) == "Light rain" and weather.condition(0, 0, 0) == "Clear"
