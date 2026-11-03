@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-03T17:14:25Z",
+ "generated_at": "2026-11-03T18:01:04Z",
  "season": "2026-27",
  "games": 2,
  "entries": [
@@ -189,7 +189,8 @@
      "pts": 15.0,
      "reb": 5.3,
      "ast": 2.3,
-     "min": 29.7
+     "min": 29.7,
+     "note": "No games vs GSW in the last 3 seasons."
     }
    },
    "headshot": "img/players/3059319.png",
@@ -430,7 +431,8 @@
      "pts": 14.0,
      "reb": 4.5,
      "ast": 3.0,
-     "min": 25.0
+     "min": 25.0,
+     "note": "No games vs MIA in the last 3 seasons."
     }
    },
    "headshot": "img/players/6430.png",
@@ -700,7 +702,8 @@
      "pts": 11.2,
      "reb": 3.2,
      "ast": 1.4,
-     "min": 27.2
+     "min": 27.2,
+     "note": "No games vs GSW in the last 3 seasons."
     }
    },
    "headshot": "img/players/6475.png",
@@ -947,7 +950,8 @@
      "pts": 7.5,
      "reb": 1.0,
      "ast": 1.5,
-     "min": 27.5
+     "min": 27.5,
+     "note": "No games vs PHX in the last 3 seasons."
     }
    },
    "headshot": "img/players/3133635.png",
@@ -1121,7 +1125,8 @@
      "pts": 0,
      "reb": 0,
      "ast": 0,
-     "min": 0
+     "min": 0,
+     "note": "No games vs ORL in his NBA career so far."
     }
    },
    "headshot": "img/players/5041953.png",
@@ -1364,7 +1369,8 @@
      "pts": 8.0,
      "reb": 8.5,
      "ast": 3.0,
-     "min": 27.2
+     "min": 27.2,
+     "note": "No games vs ORL in the last 3 seasons."
     }
    },
    "headshot": "img/players/4601023.png",
@@ -1604,7 +1610,8 @@
      "pts": 0.0,
      "reb": 0.5,
      "ast": 0.0,
-     "min": 2.5
+     "min": 2.5,
+     "note": "No games vs GSW in the last 3 seasons."
     }
    },
    "headshot": "img/players/4431786.png",
