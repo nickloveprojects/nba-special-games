@@ -153,7 +153,10 @@ def matchup(table: dict, opp: str, pos: str) -> dict | None:
     best = max(pcts, key=lambda k: pcts[k])
     name = next(n for k, _l, n in MATCHUP[pos] if k == best)
     b = stats[best]
-    return {"group": pos, "games": table[opp]["n"], "stats": stats, "labels": labels, "score": score,
+    names = {k: n for k, _l, n in MATCHUP[pos]}
+    notes = {k: f"{opp} gives up the {_ordinal(stats[k]['rank'])}-most {names[k]} to {WHO[pos]} "
+                f"({_f(stats[k]['value'])} a game, {table[opp]['n']} games)." for k in stats}
+    return {"notes": notes, "group": pos, "games": table[opp]["n"], "stats": stats, "labels": labels, "score": score,
             "grade": _letter(score), "color": _color(score / 100), "best": best,
             "note": f"{opp} gives up the {_ordinal(b['rank'])}-most {name} to {WHO[pos]} ({_f(b['value'])} a game, {table[opp]['n']} games)."}
 

@@ -129,7 +129,8 @@ svg.i{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-wi
 .mchip{display:inline-flex;gap:5px;align-items:baseline;padding:3px 9px;border-radius:999px;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;
   background:var(--m-bg);color:var(--m-fg);border:1px solid var(--m-line)}
 .mchip b{font:700 15px var(--font-display);letter-spacing:.03em}
-.mchip.best{outline:2px solid var(--m-line);outline-offset:1px}
+.mchip{cursor:pointer;font-family:inherit}
+.mchip[aria-pressed=true]{outline:2px solid var(--m-line);outline-offset:1px}
 [data-m=green]{--m-bg:var(--green-bg);--m-fg:var(--green);--m-line:var(--green)}
 [data-m=yellow]{--m-bg:var(--yellow-bg);--m-fg:var(--yellow);--m-line:var(--yellow-line)}
 [data-m=red]{--m-bg:var(--red-bg);--m-fg:var(--red);--m-line:var(--red)}
@@ -587,10 +588,21 @@ function matchupParts(e){
   const m=e.matchup; if(!m) return null;
   const nm=m.labels||{pts:"PTS",reb:"REB",ast:"AST"};
   const chips=Object.keys(m.stats).map(k=>{const x=m.stats[k];
-    return `<span class="mchip${k===m.best?" best":""}" data-m="${x.color}" title="${esc(x.value)} ${nm[k].toLowerCase()} a game allowed to this position (rank ${x.rank} of ${x.of}, 1 = most)"><b>${nm[k]}</b>#${x.rank}</span>`}).join("");
+    return `<button type="button" class="mchip${k===m.best?" best":""}" data-k="${k}" aria-pressed="${k===m.best}" data-m="${x.color}" title="${esc(x.value)} ${nm[k].toLowerCase()} a game allowed to this position (rank ${x.rank} of ${x.of}, 1 = most)"><b>${nm[k]}</b>#${x.rank}</button>`}).join("");
   return {row:`<div class="row"><span class="lab">Matchup</span><span class="grade" data-m="${m.color}" title="Matchup score ${m.score} out of 100">${m.grade}</span>${chips}</div>`,
-    note:`<p class="why2">${esc(m.note)}${m.games<(sport==="nfl"?4:6)?" Small sample so far.":""}</p>`};
+    note:`<p class="why2" data-best="${m.best}">${esc(m.note)}${m.games<(sport==="nfl"?4:6)?" Small sample so far.":""}</p>`};
 }
+document.addEventListener("click",ev=>{
+  const b=ev.target.closest(".mchip[data-k]"); if(!b) return;
+  const mu=b.closest(".mu"),card=b.closest("[data-i]")||mu.parentElement;
+  const e=(slate&&slate.entries||[]).find(x=>x.name===(card.querySelector("h2")||{}).textContent);
+  if(!e||!e.matchup) return;
+  const m=e.matchup,k=b.dataset.k,on=b.getAttribute("aria-pressed")==="true";
+  const sel=on?m.best:k;   // clicking the lit chip again returns to the strongest stat
+  mu.querySelectorAll(".mchip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.k===sel));
+  const note=(m.notes&&m.notes[sel])||m.note,p=mu.querySelector(".why2");
+  if(p) p.textContent=note+(m.games<(sport==="nfl"?4:6)?" Small sample so far.":"");
+});
 function matchupBox(e){const m=matchupParts(e); return m?`<div class="mu">${m.row}${m.note}</div>`:""}
 function projBox(e){
   const p=e.projection; if(!p||!p.lines) return "";

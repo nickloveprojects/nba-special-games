@@ -103,7 +103,10 @@ def matchup(table: dict, opp: str, pos: str | None) -> dict | None:
     score = round(sum(pcts.values()) / len(pcts) * 100)
     best = max(STATS, key=lambda k: (pcts[k], -STATS.index(k)))
     b = stats[best]
-    return {"group": g, "games": table[opp]["n"], "stats": stats, "score": score, "grade": _letter(score),
+    n_games = table[opp]["n"]
+    notes = {k: f"{abbr(team_id(opp))} gives up the {_ordinal(stats[k]['rank'])}-most {LABEL[k]} to {WHO[g]} "
+                f"({stats[k]['value']} a game, {n_games} games)." for k in STATS}
+    return {"notes": notes, "group": g, "games": table[opp]["n"], "stats": stats, "score": score, "grade": _letter(score),
             "color": _color(score / 100), "best": best,
             "note": f"{abbr(team_id(opp))} gives up the {_ordinal(b['rank'])}-most {LABEL[best]} to {WHO[g]} "
                     f"({b['value']} a game, {table[opp]['n']} games)."}
