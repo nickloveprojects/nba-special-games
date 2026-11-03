@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-03T18:42:19Z",
+ "generated_at": "2026-11-03T18:50:55Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -6496,7 +6496,7 @@
      "kind": "high_school",
      "confidence": "high",
      "headline": "Faces a team from where he grew up.",
-     "detail": "Went to Overtime Elite Academy in Atlanta, Georgia (about 0 mi away). Born in Bordeaux, France.",
+     "detail": "Went to Overtime Elite Academy in Atlanta, Georgia (under a mile away). Born in Bordeaux, France.",
      "miles": 0,
      "where": "opponent",
      "sources": [
@@ -7936,7 +7936,7 @@
      "kind": "high_school",
      "confidence": "high",
      "headline": "Plays near where he grew up.",
-     "detail": "Went to Cardinal Hayes in Bronx, New York (about 0 mi away). Born in Hyde Park, NY.",
+     "detail": "Went to Cardinal Hayes in Bronx, New York (under a mile away). Born in Hyde Park, NY.",
      "miles": 0,
      "where": "here",
      "sources": [
@@ -8366,7 +8366,7 @@
      "kind": "high_school",
      "confidence": "high",
      "headline": "Plays near where he grew up.",
-     "detail": "Went to Desert Vista in Phoenix, Arizona (about 0 mi away). Born in Chandler, AZ.",
+     "detail": "Went to Desert Vista in Phoenix, Arizona (under a mile away). Born in Chandler, AZ.",
      "miles": 0,
      "where": "here",
      "sources": [
