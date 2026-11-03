@@ -340,12 +340,16 @@ a.wx:hover{color:var(--ink)}
 .pc .a{font-size:14.5px;line-height:1.3;flex:1}.pc .a b{color:var(--c);font:700 13px var(--font-display);letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:2px}
 .pc .r{display:flex;gap:6px;flex-wrap:wrap;align-items:center;min-height:30px}
 .pc .go{font-size:13px;font-weight:600;color:var(--accent-ink)}
-.bf{display:grid;grid-template-columns:auto 1fr;gap:14px 20px;align-items:center;padding:18px 20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--blue-line);box-shadow:var(--shadow);color:var(--ink);text-decoration:none}
-.bf .vs{display:flex;align-items:center;gap:10px}
-.bf .vs img{width:62px;height:62px;border-radius:50%;object-fit:cover;background:var(--chip)}
-.bf .vs i{font:800 15px var(--font-display);color:var(--muted);font-style:normal}
-.bf h3{margin:0;font:700 22px var(--font-display)}.bf p{margin:4px 0 0;font-size:15px;text-wrap:pretty}.bf small{display:block;margin-top:6px;color:var(--muted);font-size:12.5px}
-@media(max-width:640px){.bf{grid-template-columns:1fr}}
+.tc.one{grid-template-columns:minmax(0,1fr)}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px;align-items:stretch}
+.duo>section{display:flex;flex-direction:column}.duo>section>div{flex:1;display:flex}
+@media(max-width:700px){.duo{grid-template-columns:1fr}}
+.mini{flex:1;display:flex;flex-direction:column;gap:6px;padding:14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--c);box-shadow:var(--shadow);color:var(--ink);text-decoration:none;transition:transform .22s ease,box-shadow .22s ease}
+.mini:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}.mini:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.mini .vs{display:flex;align-items:center;gap:8px}.mini .vs img{width:44px;height:44px;border-radius:50%;object-fit:cover;background:var(--chip)}.mini .vs i{font:800 13px var(--font-display);color:var(--muted);font-style:normal}
+.mini h3{margin:2px 0 0;font:700 20px/1.1 var(--font-display)}
+.mini p{margin:0;font-size:14px;text-wrap:pretty;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.mini small{margin-top:auto;color:var(--muted);font-size:12px}
 .card.hl{outline:3px solid var(--accent);outline-offset:3px}
 /* weather: thresholds */
 .thr{display:grid;grid-template-columns:1fr 1fr 2fr;margin:14px 0 6px;border-radius:10px;overflow:hidden;font:700 15px var(--font-display);letter-spacing:.03em}
@@ -376,7 +380,6 @@ a.wx:hover{color:var(--ink)}
 <main id="home" class="view home">
   <h1>Find the games that mean more.</h1>
   <p class="lead">Revenge, hometown, birthday and rivalry games, each with a matchup grade, updated every day.</p>
-  <section id="hx-top" hidden><h2 class="sec">Top angles <small id="hx-when"></small></h2><div class="tc" id="hx-cards"></div></section>
   <h2 class="sec">Pick a sport</h2>
   <div class="sports">
     <a class="sport live" href="#/nba" style="--i:0">
@@ -395,7 +398,11 @@ a.wx:hover{color:var(--ink)}
       <div class="foot" id="nfl-foot">Open the board &rarr;</div>
     </a>
   </div>
-  <section id="hx-beef" hidden><h2 class="sec">Beef of the day</h2><div id="hx-bf"></div></section>
+  <section id="hx-top" hidden><h2 class="sec">Top angles <small id="hx-when"></small></h2><div class="tc" id="hx-cards"></div></section>
+  <div class="duo">
+    <section id="hx-beef" hidden><h2 class="sec">Beef of the day</h2><div id="hx-bf"></div></section>
+    <section id="hx-hero" hidden><h2 class="sec">Hometown hero</h2><div id="hx-hm"></div></section>
+  </div>
 </main>
 <main id="wxv" class="view" hidden>
   <h1>NFL game weather</h1>
@@ -741,9 +748,9 @@ function drawHome(s,when){
     const h=e.tags.find(t=>t.category==="History"),key=h?[e.name,h.with].sort().join("|"):e.name;
     if(seen.has(key)) continue; seen.add(key); picks.push(e);
   }
-  const n=picks.length>=6?6:picks.length>=3?3:picks.length>=2?2:0;
+  const n=Math.min(3,picks.length);
   if(n){
-    $("hx-cards").className="tc"+(n===2?" two":"");
+    $("hx-cards").className="tc"+(n===2?" two":n===1?" one":"");
     $("hx-when").textContent=when;
     $("hx-cards").innerHTML=picks.slice(0,n).map(e=>{const t=e.tags.find(x=>x.category==="History")||e.tags[0];
       const pj=e.projection&&e.projection.lines?e.projection.lines.map(l=>`<span class="pchip"><b>${esc(l.proj)}</b> ${esc(l.label)}</span>`).join(""):"";
@@ -756,9 +763,15 @@ function drawHome(s,when){
   const bf=s.entries.map(e=>({e,t:e.tags.find(x=>x.category==="History"&&x.sources&&x.sources.length)})).filter(x=>x.t)
     .sort((a,b)=>(b.t.confidence==="high")-(a.t.confidence==="high"))[0];
   if(bf){const {e,t}=bf,src=t.sources[0];
-    $("hx-bf").innerHTML=`<a class="bf" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""><i>VS</i>${t.with_id?`<img src="img/players/${esc(t.with_id)}.png" alt="" onerror="this.style.display='none'">`:""}</div>
-      <div><h3>${esc(e.name)} vs ${esc(t.with)}</h3><p>${esc(t.reason)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></div></a>`;
+    $("hx-bf").innerHTML=`<a class="mini" style="--c:var(--blue-line)" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""><i>VS</i>${t.with_id?`<img src="img/players/${esc(t.with_id)}.png" alt="" onerror="this.style.display='none'">`:""}</div>
+      <h3>${esc(e.name)} vs ${esc(t.with)}</h3><p>${esc(t.reason)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></a>`;
     $("hx-beef").hidden=false;}
+  const hm=s.entries.map(e=>({e,t:e.tags.find(x=>x.category==="Hometown"&&x.confidence==="high"&&x.kind==="high_school")})).filter(x=>x.t&&!out(x.e))
+    .sort((a,b)=>(a.t.miles-b.t.miles)||((b.e.matchup?b.e.matchup.score:0)-(a.e.matchup?a.e.matchup.score:0)))[0];
+  if(hm){const {e,t}=hm,src=t.sources[0];
+    $("hx-hm").innerHTML=`<a class="mini" style="--c:var(--green)" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""></div>
+      <h3>${esc(e.name)}</h3><p>${esc(t.detail)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></a>`;
+    $("hx-hero").hidden=false;}
 }
 function focusPlayer(id){
   let tries=0;const t=setInterval(()=>{const el=document.querySelector(`.card[data-pid="${id}"]`);
