@@ -25,7 +25,7 @@
     "indoor": false,
     "temp": 58,
     "wind": 4,
-    "gust": 10,
+    "gust": 5,
     "rain": 1
    },
    "weather_text": "58\u00b0F, wind 4 mph",
@@ -201,8 +201,8 @@
     "indoor": false,
     "temp": 49,
     "wind": 12,
-    "gust": 14,
-    "rain": 5
+    "gust": 26,
+    "rain": 4
    },
    "weather_text": "49\u00b0F, wind 12 mph",
    "arena": "Gillette Stadium",
@@ -403,8 +403,8 @@
     "indoor": false,
     "temp": 60,
     "wind": 13,
-    "gust": 11,
-    "rain": 2
+    "gust": 21,
+    "rain": 0
    },
    "weather_text": "60\u00b0F, wind 13 mph",
    "arena": "Northwest Stadium",
@@ -1161,8 +1161,8 @@
     "indoor": false,
     "temp": 52,
     "wind": 5,
-    "gust": 14,
-    "rain": 3
+    "gust": 15,
+    "rain": 2
    },
    "weather_text": "52\u00b0F, wind 5 mph",
    "arena": "Soldier Field",
@@ -1361,8 +1361,8 @@
     "indoor": false,
     "temp": 60,
     "wind": 13,
-    "gust": 11,
-    "rain": 2
+    "gust": 21,
+    "rain": 0
    },
    "weather_text": "60\u00b0F, wind 13 mph",
    "arena": "Northwest Stadium",
@@ -1580,8 +1580,8 @@
     "indoor": false,
     "temp": 49,
     "wind": 12,
-    "gust": 14,
-    "rain": 5
+    "gust": 26,
+    "rain": 4
    },
    "weather_text": "49\u00b0F, wind 12 mph",
    "arena": "Gillette Stadium",
@@ -2154,8 +2154,8 @@
     "indoor": false,
     "temp": 58,
     "wind": 14,
-    "gust": 13,
-    "rain": 2
+    "gust": 22,
+    "rain": 0
    },
    "weather_text": "58\u00b0F, wind 14 mph",
    "arena": "Lincoln Financial Field",
@@ -2658,5 +2658,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-03T18:51:04+00:00"
+ "generated_at": "2026-11-03T22:29:37+00:00"
 }

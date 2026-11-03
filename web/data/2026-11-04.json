@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-03T18:50:55Z",
+ "generated_at": "2026-11-03T22:29:11Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -450,11 +450,11 @@
    ],
    "score": 18,
    "stats": {
-    "gp": 5,
-    "min": 36.4,
+    "gp": 7,
+    "min": 36.0,
     "pts": 20.6,
-    "reb": 6.6,
-    "ast": 4.2
+    "reb": 6.9,
+    "ast": 4.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3917376",
    "recent": {
@@ -748,9 +748,9 @@
    ],
    "score": 16.0,
    "stats": {
-    "gp": 2,
-    "min": 5.5,
-    "pts": 8.0,
+    "gp": 4,
+    "min": 8.5,
+    "pts": 7.5,
     "reb": 0.5,
     "ast": 0.5
    },
@@ -1696,11 +1696,11 @@
    ],
    "score": 15.17,
    "stats": {
-    "gp": 6,
-    "min": 26.2,
-    "pts": 14.5,
-    "reb": 1.8,
-    "ast": 2.8
+    "gp": 8,
+    "min": 26.8,
+    "pts": 14.3,
+    "reb": 2.8,
+    "ast": 3.9
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2490149",
    "recent": {
@@ -1979,11 +1979,11 @@
    ],
    "score": 14.83,
    "stats": {
-    "gp": 6,
-    "min": 17.2,
+    "gp": 8,
+    "min": 18.0,
     "pts": 5.0,
-    "reb": 2.3,
-    "ast": 0.3
+    "reb": 3.0,
+    "ast": 0.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2583632",
    "recent": {
@@ -2276,7 +2276,13 @@
     }
    ],
    "score": 14.73,
-   "stats": null,
+   "stats": {
+    "gp": 1,
+    "min": 23.0,
+    "pts": 11.0,
+    "reb": 4.0,
+    "ast": 6.0
+   },
    "espn_url": "https://www.espn.com/nba/player/_/id/4065778",
    "recent": {
     "form": {
@@ -2543,11 +2549,11 @@
    ],
    "score": 14.46,
    "stats": {
-    "gp": 6,
-    "min": 32.0,
-    "pts": 13.0,
-    "reb": 3.7,
-    "ast": 5.3
+    "gp": 8,
+    "min": 31.1,
+    "pts": 10.9,
+    "reb": 3.4,
+    "ast": 5.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3032979",
    "recent": {
@@ -2826,11 +2832,11 @@
    ],
    "score": 14.0,
    "stats": {
-    "gp": 5,
-    "min": 35.2,
-    "pts": 17.4,
-    "reb": 4.6,
-    "ast": 6.2
+    "gp": 7,
+    "min": 33.6,
+    "pts": 16.3,
+    "reb": 4.7,
+    "ast": 6.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3992",
    "recent": {
@@ -3407,9 +3413,9 @@
    ],
    "score": 14.0,
    "stats": {
-    "gp": 4,
-    "min": 8.0,
-    "pts": 1.5,
+    "gp": 5,
+    "min": 10.4,
+    "pts": 3.8,
     "reb": 0.0,
     "ast": 0.0
    },
@@ -4221,8 +4227,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Joe (hip) is out for Monday against the Hornets.",
-    "date": "2026-11-02T17:35Z"
+    "note": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
+    "date": "2026-11-03T21:18Z"
    },
    "status_note": "Out",
    "career": [
@@ -4536,11 +4542,11 @@
    ],
    "score": 13.8,
    "stats": {
-    "gp": 4,
-    "min": 27.3,
-    "pts": 8.3,
-    "reb": 6.5,
-    "ast": 2.5
+    "gp": 6,
+    "min": 25.2,
+    "pts": 8.2,
+    "reb": 6.3,
+    "ast": 2.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4397077",
    "recent": {
@@ -4834,11 +4840,11 @@
    ],
    "score": 13.7,
    "stats": {
-    "gp": 5,
-    "min": 23.0,
-    "pts": 5.4,
-    "reb": 3.8,
-    "ast": 0.8
+    "gp": 7,
+    "min": 23.7,
+    "pts": 6.0,
+    "reb": 3.6,
+    "ast": 1.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4592691",
    "recent": {
@@ -5132,11 +5138,11 @@
    ],
    "score": 13.0,
    "stats": {
-    "gp": 6,
-    "min": 25.3,
-    "pts": 6.8,
-    "reb": 2.8,
-    "ast": 1.8
+    "gp": 8,
+    "min": 22.9,
+    "pts": 5.9,
+    "reb": 2.5,
+    "ast": 1.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2581018",
    "recent": {
@@ -5430,11 +5436,11 @@
    ],
    "score": 12.92,
    "stats": {
-    "gp": 5,
-    "min": 16.6,
-    "pts": 7.2,
-    "reb": 3.4,
-    "ast": 1.2
+    "gp": 7,
+    "min": 20.0,
+    "pts": 8.3,
+    "reb": 4.0,
+    "ast": 1.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4065731",
    "recent": {
@@ -5672,11 +5678,11 @@
    ],
    "score": 12.78,
    "stats": {
-    "gp": 4,
-    "min": 11.3,
-    "pts": 2.8,
-    "reb": 1.5,
-    "ast": 2.8
+    "gp": 6,
+    "min": 14.8,
+    "pts": 7.2,
+    "reb": 1.2,
+    "ast": 3.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4066262",
    "recent": {
@@ -5970,11 +5976,11 @@
    ],
    "score": 12.67,
    "stats": {
-    "gp": 5,
-    "min": 29.0,
-    "pts": 12.0,
-    "reb": 4.4,
-    "ast": 1.6
+    "gp": 6,
+    "min": 28.7,
+    "pts": 11.5,
+    "reb": 4.8,
+    "ast": 1.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3936099",
    "recent": {
@@ -6242,11 +6248,11 @@
    ],
    "score": 12.08,
    "stats": {
-    "gp": 5,
-    "min": 23.8,
-    "pts": 9.4,
-    "reb": 9.6,
-    "ast": 2.4
+    "gp": 7,
+    "min": 24.4,
+    "pts": 8.9,
+    "reb": 9.9,
+    "ast": 2.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4222252",
    "recent": {
@@ -6716,8 +6722,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Sarr (knee) is out for Monday's game against Orlando.",
-    "date": "2026-11-03T05:34Z"
+    "note": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta.",
+    "date": "2026-11-03T21:47Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -7050,11 +7056,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 6,
-    "min": 37.5,
-    "pts": 28.2,
-    "reb": 4.2,
-    "ast": 4.5
+    "gp": 8,
+    "min": 37.4,
+    "pts": 29.1,
+    "reb": 4.1,
+    "ast": 5.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4431678",
    "recent": {

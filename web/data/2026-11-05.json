@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-03T18:50:59Z",
+ "generated_at": "2026-11-03T22:29:25Z",
  "season": "2026-27",
  "games": 2,
  "entries": [
@@ -835,11 +835,11 @@
    ],
    "score": 13.59,
    "stats": {
-    "gp": 2,
-    "min": 17.5,
-    "pts": 3.0,
-    "reb": 0.5,
-    "ast": 2.0
+    "gp": 3,
+    "min": 17.7,
+    "pts": 3.7,
+    "reb": 0.7,
+    "ast": 2.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3133635",
    "recent": {
