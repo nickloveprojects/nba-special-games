@@ -322,6 +322,40 @@ a.wx:hover{color:var(--ink)}
 #grades .chip[data-gr=A][aria-pressed=true],#grades .chip[data-gr=B][aria-pressed=true]{background:var(--green-bg);border-color:var(--green);color:var(--green)}
 #grades .chip[data-gr=C][aria-pressed=true]{background:var(--yellow-bg);border-color:var(--yellow);color:var(--yellow)}
 #grades .chip[data-gr=D][aria-pressed=true],#grades .chip[data-gr=F][aria-pressed=true]{background:var(--red-bg);border-color:var(--red);color:var(--red)}
+
+/* homepage previews */
+.home h2.sec{margin:34px 0 12px;font:800 22px var(--font-display);letter-spacing:.05em;text-transform:uppercase}
+.home h2.sec small{margin-left:8px;font:600 13px var(--font-body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.tc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tc.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:900px){.tc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.tc,.tc.two{grid-template-columns:1fr}}
+.pc{display:flex;flex-direction:column;gap:9px;padding:14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--c);
+  box-shadow:var(--shadow);color:var(--ink);text-decoration:none;transition:transform .22s ease,box-shadow .22s ease}
+.pc:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.pc:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.pc .t{display:flex;gap:11px;align-items:center}
+.pc img.h{width:56px;height:56px;border-radius:12px;object-fit:cover;background:var(--chip);flex:none}
+.pc .n{font:700 23px/1.05 var(--font-display)}.pc .g{font-size:13px;color:var(--muted);margin-top:2px}
+.pc .a{font-size:14.5px;line-height:1.3;flex:1}.pc .a b{color:var(--c);font:700 13px var(--font-display);letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:2px}
+.pc .r{display:flex;gap:6px;flex-wrap:wrap;align-items:center;min-height:30px}
+.pc .go{font-size:13px;font-weight:600;color:var(--accent-ink)}
+.bf{display:grid;grid-template-columns:auto 1fr;gap:14px 20px;align-items:center;padding:18px 20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--blue-line);box-shadow:var(--shadow);color:var(--ink);text-decoration:none}
+.bf .vs{display:flex;align-items:center;gap:10px}
+.bf .vs img{width:62px;height:62px;border-radius:50%;object-fit:cover;background:var(--chip)}
+.bf .vs i{font:800 15px var(--font-display);color:var(--muted);font-style:normal}
+.bf h3{margin:0;font:700 22px var(--font-display)}.bf p{margin:4px 0 0;font-size:15px;text-wrap:pretty}.bf small{display:block;margin-top:6px;color:var(--muted);font-size:12.5px}
+@media(max-width:640px){.bf{grid-template-columns:1fr}}
+.card.hl{outline:3px solid var(--accent);outline-offset:3px}
+/* weather: thresholds */
+.thr{display:grid;grid-template-columns:1fr 1fr 2fr;margin:14px 0 6px;border-radius:10px;overflow:hidden;font:700 15px var(--font-display);letter-spacing:.03em}
+.thr div{padding:10px 12px;display:flex;flex-direction:column;gap:2px}.thr small{font:500 12.5px var(--font-body);letter-spacing:0;opacity:.9}
+.thr .t1{background:var(--green-bg);color:var(--green)}.thr .t2{background:var(--yellow-bg);color:var(--yellow)}.thr .t3{background:var(--red-bg);color:var(--red)}
+.thr-l{display:grid;grid-template-columns:1fr 1fr 2fr;font-size:12px;color:var(--muted);margin:0 0 14px}.thr-l span+span{padding-left:12px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}@media(max-width:900px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.tiles{grid-template-columns:1fr}}
+.tile{padding:12px;border-radius:10px;background:var(--chip);box-shadow:inset 0 0 0 1px var(--line);font-size:13.5px;color:var(--muted)}
+.tile b.h{display:block;color:var(--ink);font:700 16px var(--font-display);letter-spacing:.03em;margin-bottom:3px}.tile b{color:var(--ink);font-weight:600}
+@media(max-width:560px){.thr,.thr-l{grid-template-columns:1fr}.thr-l{display:none}}
 </style>
 </head>
 <body>
@@ -342,6 +376,8 @@ a.wx:hover{color:var(--ink)}
 <main id="home" class="view home">
   <h1>Find the games that mean more.</h1>
   <p class="lead">Revenge, hometown, birthday and rivalry games, each with a matchup grade, updated every day.</p>
+  <section id="hx-top" hidden><h2 class="sec">Top angles <small id="hx-when"></small></h2><div class="tc" id="hx-cards"></div></section>
+  <h2 class="sec">Pick a sport</h2>
   <div class="sports">
     <a class="sport live" href="#/nba" style="--i:0">
       <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 10.800 0 12.800M18.400 5.600c-3 3-3 10.800 0 12.800"/></svg></div>
@@ -359,12 +395,14 @@ a.wx:hover{color:var(--ink)}
       <div class="foot" id="nfl-foot">Open the board &rarr;</div>
     </a>
   </div>
+  <section id="hx-beef" hidden><h2 class="sec">Beef of the day</h2><div id="hx-bf"></div></section>
 </main>
 <main id="wxv" class="view" hidden>
   <h1>NFL game weather</h1>
   <p class="sub" id="wxsub">Loading…</p>
-  <div id="wxsum"></div>
+  <div id="wxbase"></div>
   <div id="wxlist"></div>
+  <div id="wxsum"></div>
   <p class="legend">Forecasts come from Open-Meteo and are re-pulled with every update. They change, especially more than three days out. Wind and cold are the only conditions that adjust our NFL projections (both were backtested on past games); rain, humidity and cloud are shown for context. Wind direction is the way the wind blows toward on the field, from the weather model at stadium coordinates. We don't yet know each stadium's orientation, so we can't say whether it helps or hurts a given offense.</p>
 </main>
 <main id="nba" class="view" hidden>
@@ -627,7 +665,7 @@ function card(e){
   const why=e.summary||e.tags.map(t=>t.headline||t.detail).join(" ");
   const pos=[e.position,e.jersey?`#${e.jersey}`:""].filter(Boolean).join(" · ");
   const team=e.team_name||e.team;
-  return `<article class="card" data-main="${main}">
+  return `<article class="card" data-pid="${esc(e.player_id)}" data-main="${main}">
     <div class="game"><div class="teams">${logo(e.team_logo,e.team)}${e.team} <span class="at">${e.home_away==="home"?"vs":"@"}</span> ${logo(e.opponent_logo,e.opponent)}${e.opponent}</div>
       <div class="when">${esc(e.tip)}, ${esc(e.arena||e.location)}${e.weather_text?` · <a class="wx" href="#/weather/${esc(e.game_id)}" title="Open the full weather report for this game">${esc(e.weather_text)} \u203a</a>`:""}</div></div>
     <div class="player"><div class="shot"><span>${esc(initials(e.name))}</span>${e.headshot?`<img src="${esc(e.headshot)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
@@ -694,6 +732,39 @@ function setTheme(t){
   try{localStorage.setItem("theme",t)}catch(e){}
   document.querySelectorAll(".themes button").forEach(b=>b.setAttribute("aria-checked",String(b.dataset.t===t)));
 }
+const HCOL={Revenge:"var(--red)",Hometown:"var(--green)",Birthday:"var(--yellow-line)",History:"var(--blue-line)",Holiday:"var(--violet)"};
+function drawHome(s,when){
+  const out=e=>/out|doubtful|injured|suspend/i.test(e.status_note||"");
+  const pri=e=>(e.categories.includes("History")?100:0)+(e.categories.includes("Revenge")?10:0)+(e.matchup?e.matchup.score:0)/2+(e.projection?3:0);
+  const seen=new Set(),picks=[];
+  for(const e of [...s.entries].filter(e=>!out(e)).sort((a,b)=>pri(b)-pri(a))){
+    const h=e.tags.find(t=>t.category==="History"),key=h?[e.name,h.with].sort().join("|"):e.name;
+    if(seen.has(key)) continue; seen.add(key); picks.push(e);
+  }
+  const n=picks.length>=6?6:picks.length>=3?3:picks.length>=2?2:0;
+  if(n){
+    $("hx-cards").className="tc"+(n===2?" two":"");
+    $("hx-when").textContent=when;
+    $("hx-cards").innerHTML=picks.slice(0,n).map(e=>{const t=e.tags.find(x=>x.category==="History")||e.tags[0];
+      const pj=e.projection&&e.projection.lines?e.projection.lines.map(l=>`<span class="pchip"><b>${esc(l.proj)}</b> ${esc(l.label)}</span>`).join(""):"";
+      return `<a class="pc" style="--c:${HCOL[t.category]||"var(--muted)"}" href="#/nba/${esc(e.player_id)}"><div class="t"><img class="h" src="${esc(e.headshot||"")}" alt="" loading="lazy"><div><div class="n">${esc(e.name)}</div><div class="g">${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)}</div></div></div>
+      <div class="a"><b>${esc(t.category)}</b>${esc(t.headline||t.detail)}</div>
+      <div class="r">${e.matchup?`<span class="grade" data-m="${esc(e.matchup.color)}" title="Matchup grade">${esc(e.matchup.grade)}</span>`:""}${pj}</div>
+      <span class="go">See the full backstory \u2192</span></a>`}).join("");
+    $("hx-top").hidden=false;
+  }
+  const bf=s.entries.map(e=>({e,t:e.tags.find(x=>x.category==="History"&&x.sources&&x.sources.length)})).filter(x=>x.t)
+    .sort((a,b)=>(b.t.confidence==="high")-(a.t.confidence==="high"))[0];
+  if(bf){const {e,t}=bf,src=t.sources[0];
+    $("hx-bf").innerHTML=`<a class="bf" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""><i>VS</i>${t.with_id?`<img src="img/players/${esc(t.with_id)}.png" alt="" onerror="this.style.display='none'">`:""}</div>
+      <div><h3>${esc(e.name)} vs ${esc(t.with)}</h3><p>${esc(t.reason)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></div></a>`;
+    $("hx-beef").hidden=false;}
+}
+function focusPlayer(id){
+  let tries=0;const t=setInterval(()=>{const el=document.querySelector(`.card[data-pid="${id}"]`);
+    if(el){clearInterval(t);el.classList.add("hl");el.scrollIntoView({block:"start"});setTimeout(()=>el.classList.remove("hl"),4000)}
+    else if(++tries>40)clearInterval(t)},100);
+}
 async function homeInfo(){
   for(const k of Object.keys(SPORTS)){
     try{
@@ -702,6 +773,7 @@ async function homeInfo(){
       const s=await (await fetch(`${dir}/${idx.dates[0]}.json`)).json();
       const et=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
       const when=idx.dates[0]===et(0)?"Today":idx.dates[0]===et(1)?"Tomorrow":new Date(idx.dates[0]+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+      if(k==="nba") drawHome(s,when);
       $(k+"-foot").textContent=`${when}: ${s.games} game${s.games===1?"":"s"} \u00b7 ${s.entries.length} flagged \u2192`;
     }catch(e){}
   }
@@ -744,18 +816,18 @@ function wxSummary(games){
   const dome=games.filter(g=>g.report&&g.report.indoor).map(g=>`${g.away} @ ${g.home}`);
   const nof=games.filter(g=>!g.report).length;
   return `<section class="wxs" aria-labelledby="wxr"><h2 id="wxr">Weather impact ranking</h2>
-    <p class="sd">How much each forecast is expected to cut passing and receiving yards, using the same adjustment our projections apply, averaged over the four hours below. Most affected first.</p>${rows}
-    ${dome.length?`<p class="dry"><b>No impact, played indoors (${dome.length}):</b> ${esc(dome.join(", "))}.</p>`:""}${nof?`<p class="dry">${nof} game${nof===1?"":"s"} without a forecast yet.</p>`:""}</section>
-    <section class="wxs" aria-labelledby="wxb"><h2 id="wxb">Where weather starts to matter</h2>
+    <p class="sd">How much each forecast is expected to cut passing and receiving yards, using the same adjustment our projections apply, averaged over the hours shown in each game above. Most affected first.</p>${rows}
+    ${dome.length?`<p class="dry"><b>No impact, played indoors (${dome.length}):</b> ${esc(dome.join(", "))}.</p>`:""}${nof?`<p class="dry">${nof} game${nof===1?"":"s"} without a forecast yet.</p>`:""}</section>`;
+}
+function wxBaseline(){
+  return `<section class="wxs" aria-labelledby="wxb"><h2 id="wxb">Where weather starts to matter</h2>
     <p class="sd">What we measured in 2024\u201326 NFL games, and what our projections do about it.</p>
-    <dl class="base">
-      <dt>Wind under 8 mph</dt><dd>Nothing measurable, so no adjustment.</dd>
-      <dt>Wind 8\u201314 mph</dt><dd>Small. We trim passing and receiving projections <b>3%</b>.</dd>
-      <dt>Wind 15 mph or more</dt><dd>The clear line. Team passing fell about <b>15%</b> in past games; we trim <b>12%</b>.</dd>
-      <dt>Cold under 40\u00b0F</dt><dd>Passing fell about <b>7%</b>; we trim <b>5%</b>. It stacks with wind.</dd>
-      <dt>Rain or snow</dt><dd>We couldn't measure a reliable effect, so it's shown for context and <b>not</b> adjusted.</dd>
-      <dt>Rushing</dt><dd>No reliable change in any weather, so it's never adjusted.</dd>
-      <dt>Roof or dome</dt><dd>No weather effect.</dd></dl></section>`;
+    <div class="thr"><div class="t1">Under 8 mph<small>No measurable effect</small></div><div class="t2">8\u201314 mph<small>Passing trimmed 3%</small></div><div class="t3">15 mph or more<small>The clear line. Passing fell about 15% in past games; we trim 12%</small></div></div>
+    <div class="tiles">
+      <div class="tile"><b class="h">Cold under 40\u00b0F</b>Passing fell about <b>7%</b>; we trim <b>5%</b>. It stacks with wind.</div>
+      <div class="tile"><b class="h">Rain or snow</b>No reliable effect measured, so it's shown for context and <b>not</b> adjusted.</div>
+      <div class="tile"><b class="h">Rushing</b>No reliable change in any weather, so it's never adjusted.</div>
+      <div class="tile"><b class="h">Roof or dome</b>No weather effect.</div></div></section>`;
 }
 async function showWeather(id){
   if(!wxData&&!wxLoading){
@@ -767,7 +839,7 @@ async function showWeather(id){
   const upd=new Date(wxData.generated_at).toLocaleString(undefined,{weekday:"short",hour:"numeric",minute:"2-digit"});
   $("wxsub").textContent=`Week ${wxData.week} \u00b7 ${wxData.games.length} games \u00b7 forecast pulled ${upd}`;
   const byDay={};wxData.games.forEach(g=>(byDay[g.date]=byDay[g.date]||[]).push(g));
-  $("wxsum").innerHTML=wxSummary(wxData.games);
+  $("wxbase").innerHTML=wxBaseline();$("wxsum").innerHTML=wxSummary(wxData.games);
   $("wxlist").innerHTML=Object.keys(byDay).sort().map(d=>`<h2 class="wxd">${esc(new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"}))}</h2>`+byDay[d].map(wxCard).join("")).join("");
   const el=id&&document.getElementById("g-"+id);
   if(el){el.classList.add("hl");el.scrollIntoView({block:"start"})}else window.scrollTo(0,0);
@@ -788,6 +860,7 @@ function route(){
   document.title=board?`${SPORTS[m[1]].name} | Backstory Sports`:"Backstory Sports";
   if(board&&(m[1]!==sport||!started)){sport=m[1];started=true;initBoard()}
   window.scrollTo(0,0);
+  const pm=location.hash.match(/^#\/nba\/(\d+)/);if(pm)focusPlayer(pm[1]);
 }
 document.querySelectorAll(".themes button").forEach(b=>b.addEventListener("click",()=>setTheme(b.dataset.t)));
 setTheme(document.documentElement.dataset.theme||"sand");
