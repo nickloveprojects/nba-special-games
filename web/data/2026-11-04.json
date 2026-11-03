@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-02T23:02:33Z",
+ "generated_at": "2026-11-03T14:09:03Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -108,6 +108,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "124-91",
+       "min": 32,
+       "pts": 24,
+       "reb": 2,
+       "ast": 3,
+       "playoff": false
+      },
+      {
        "gid": "401909279",
        "date": "2026-10-30",
        "venue": "BKN",
@@ -166,28 +181,13 @@
        "reb": 3,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909847",
-       "date": "2026-10-23",
-       "venue": "MIA",
-       "opp": "MIA",
-       "tm": "DET",
-       "home": false,
-       "result": "W",
-       "score": "128-111",
-       "min": 28,
-       "pts": 17,
-       "reb": 1,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 16.0,
-     "reb": 2.0,
-     "ast": 2.2,
-     "min": 30.2
+     "pts": 17.4,
+     "reb": 2.2,
+     "ast": 2.4,
+     "min": 31.0
     },
     "vs": {
      "opp": "PHI",
@@ -280,32 +280,32 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "group": "F",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 30.3,
+      "value": 33.6,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 22,
+      "value": 18.8,
+      "rank": 15,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      },
      "ast": {
-      "value": 5.0,
+      "value": 5.6,
       "rank": 30,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 10,
+    "score": 18,
     "grade": "F",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 22nd-most rebounds to forwards (17.0 a game, 7 games)."
+    "note": "PHI gives up the 15th-most rebounds to forwards (18.8 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -325,9 +325,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 15,
+      "proj": 16,
       "lo": 11,
-      "hi": 19
+      "hi": 22
      },
      {
       "label": "Reb",
@@ -337,15 +337,15 @@
      },
      {
       "label": "Ast",
-      "proj": 2.1,
+      "proj": 2.2,
       "lo": 2,
       "hi": 3
      }
     ],
-    "games_used": 6,
+    "games_used": 7,
     "minutes": 29,
     "sims": 1000,
-    "opp_factor": 0.96,
+    "opp_factor": 0.97,
     "locked": false
    }
   },
@@ -453,6 +453,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909912",
+       "date": "2026-11-02",
+       "venue": "PHI",
+       "opp": "CHI",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "126-107",
+       "min": 33,
+       "pts": 25,
+       "reb": 11,
+       "ast": 5,
+       "playoff": false
+      },
+      {
        "gid": "401909897",
        "date": "2026-10-31",
        "venue": "CHA",
@@ -511,28 +526,13 @@
        "reb": 3,
        "ast": 5,
        "playoff": false
-      },
-      {
-       "gid": "401909093",
-       "date": "2026-10-22",
-       "venue": "PHI",
-       "opp": "CLE",
-       "tm": "PHI",
-       "home": true,
-       "result": "W",
-       "score": "114-106",
-       "min": 38,
-       "pts": 21,
-       "reb": 8,
-       "ast": 4,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 20.0,
-     "reb": 5.8,
-     "ast": 3.8,
-     "min": 37.0
+     "pts": 20.8,
+     "reb": 6.4,
+     "ast": 4.0,
+     "min": 36.0
     },
     "vs": {
      "opp": "DET",
@@ -625,32 +625,32 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 44.3,
-      "rank": 30,
+      "value": 44.4,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 11.8,
+      "value": 11.4,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 13.2,
-      "rank": 27,
+      "value": 12.7,
+      "rank": 29,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 5,
+    "score": 3,
     "grade": "F",
     "color": "red",
-    "best": "ast",
-    "note": "DET gives up the 27th-most assists to guards (13.2 a game, 6 games)."
+    "best": "pts",
+    "note": "DET gives up the 29th-most points to guards (44.4 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -676,19 +676,19 @@
      },
      {
       "label": "Reb",
-      "proj": 6.0,
+      "proj": 6.7,
       "lo": 3,
-      "hi": 10
+      "hi": 11
      },
      {
       "label": "Ast",
-      "proj": 4.0,
+      "proj": 4.1,
       "lo": 2,
       "hi": 6
      }
     ],
-    "games_used": 6,
-    "minutes": 37,
+    "games_used": 7,
+    "minutes": 36,
     "sims": 1000,
     "opp_factor": 0.97,
     "locked": false
@@ -743,6 +743,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909909",
+       "date": "2026-11-02",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "ATL",
+       "home": false,
+       "result": "W",
+       "score": "108-104",
+       "min": 18,
+       "pts": 14,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909898",
        "date": "2026-10-31",
@@ -802,28 +817,13 @@
        "reb": 2,
        "ast": 1,
        "playoff": true
-      },
-      {
-       "gid": "401869392",
-       "date": "2026-04-28",
-       "venue": "NYK",
-       "opp": "NYK",
-       "tm": "ATL",
-       "home": false,
-       "result": "L",
-       "score": "126-97",
-       "min": 14,
-       "pts": 0,
-       "reb": 1,
-       "ast": 2,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 4.0,
+     "pts": 6.8,
      "reb": 0.8,
-     "ast": 1.0,
-     "min": 9.0
+     "ast": 0.6,
+     "min": 9.8
     },
     "vs": {
      "opp": "WAS",
@@ -871,32 +871,32 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 48.3,
+      "value": 47.7,
       "rank": 4,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 23.2,
-      "rank": 2,
+      "value": 21.3,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 6.0,
-      "rank": 27,
+      "value": 6.6,
+      "rank": 26,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 66,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
-    "best": "reb",
-    "note": "WAS gives up the 2nd-most rebounds to forwards (23.2 a game, 6 games)."
+    "best": "pts",
+    "note": "WAS gives up the 4th-most points to forwards (47.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -964,6 +964,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909911",
+       "date": "2026-11-02",
+       "venue": "ORL",
+       "opp": "ORL",
+       "tm": "WAS",
+       "home": false,
+       "result": "W",
+       "score": "103-94",
+       "min": 34,
+       "pts": 15,
+       "reb": 3,
+       "ast": 9,
+       "playoff": false
+      },
+      {
        "gid": "401909277",
        "date": "2026-10-30",
        "venue": "WAS",
@@ -1022,28 +1037,13 @@
        "reb": 4,
        "ast": 9,
        "playoff": false
-      },
-      {
-       "gid": "401909846",
-       "date": "2026-10-23",
-       "venue": "WAS",
-       "opp": "TOR",
-       "tm": "WAS",
-       "home": true,
-       "result": "L",
-       "score": "112-102",
-       "min": 37,
-       "pts": 22,
-       "reb": 1,
-       "ast": 12,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 20.8,
-     "reb": 4.4,
-     "ast": 9.6,
-     "min": 36.2
+     "pts": 19.4,
+     "reb": 4.8,
+     "ast": 9.0,
+     "min": 35.6
     },
     "vs": {
      "opp": "ATL",
@@ -1061,23 +1061,23 @@
    "opponent_logo": "img/teams/ATL.png",
    "matchup": {
     "group": "G",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 44.7,
-      "rank": 29,
+      "value": 46.0,
+      "rank": 28,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 14.4,
+      "value": 14.8,
       "rank": 22,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 14.3,
-      "rank": 22,
+      "value": 14.2,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
@@ -1086,7 +1086,7 @@
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "ATL gives up the 22nd-most rebounds to guards (14.4 a game, 7 games)."
+    "note": "ATL gives up the 22nd-most rebounds to guards (14.8 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1101,19 +1101,19 @@
      },
      {
       "label": "Reb",
-      "proj": 3.8,
+      "proj": 3.7,
       "lo": 0,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 9.6,
+      "proj": 9.5,
       "lo": 8,
       "hi": 13
      }
     ],
-    "games_used": 6,
-    "minutes": 35,
+    "games_used": 7,
+    "minutes": 34,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false
@@ -1281,32 +1281,32 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "group": "C",
-    "games": 5,
+    "games": 6,
     "stats": {
      "pts": {
-      "value": 14.8,
-      "rank": 12,
+      "value": 16.7,
+      "rank": 7,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
-      "value": 8.0,
-      "rank": 20,
+      "value": 8.2,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 0.6,
-      "rank": 30,
+      "value": 1.8,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 32,
-    "grade": "D",
-    "color": "red",
+    "score": 44,
+    "grade": "C",
+    "color": "yellow",
     "best": "pts",
-    "note": "POR gives up the 12th-most points to centers (14.8 a game, 5 games)."
+    "note": "POR gives up the 7th-most points to centers (16.7 a game, 6 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1374,6 +1374,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "124-91",
+       "min": 28,
+       "pts": 11,
+       "reb": 5,
+       "ast": 4,
+       "playoff": false
+      },
+      {
        "gid": "401909279",
        "date": "2026-10-30",
        "venue": "BKN",
@@ -1432,28 +1447,13 @@
        "reb": 8,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909847",
-       "date": "2026-10-23",
-       "venue": "MIA",
-       "opp": "MIA",
-       "tm": "DET",
-       "home": false,
-       "result": "W",
-       "score": "128-111",
-       "min": 26,
-       "pts": 19,
-       "reb": 11,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 15.4,
-     "reb": 7.2,
-     "ast": 1.8,
-     "min": 28.8
+     "pts": 13.8,
+     "reb": 6.0,
+     "ast": 2.0,
+     "min": 29.2
     },
     "vs": {
      "opp": "PHI",
@@ -1546,32 +1546,32 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "group": "F",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 30.3,
+      "value": 33.6,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 22,
+      "value": 18.8,
+      "rank": 15,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      },
      "ast": {
-      "value": 5.0,
+      "value": 5.6,
       "rank": 30,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 10,
+    "score": 18,
     "grade": "F",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 22nd-most rebounds to forwards (17.0 a game, 7 games)."
+    "note": "PHI gives up the 15th-most rebounds to forwards (18.8 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1593,25 +1593,25 @@
       "label": "Pts",
       "proj": 13,
       "lo": 6,
-      "hi": 21
+      "hi": 22
      },
      {
       "label": "Reb",
       "proj": 6.7,
       "lo": 4,
-      "hi": 12
+      "hi": 11
      },
      {
       "label": "Ast",
-      "proj": 1.8,
+      "proj": 2.0,
       "lo": 0,
-      "hi": 3
+      "hi": 4
      }
     ],
-    "games_used": 6,
-    "minutes": 25,
+    "games_used": 7,
+    "minutes": 26,
     "sims": 1000,
-    "opp_factor": 0.96,
+    "opp_factor": 0.97,
     "locked": false
    }
   },
@@ -1664,6 +1664,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909909",
+       "date": "2026-11-02",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "ATL",
+       "home": false,
+       "result": "W",
+       "score": "108-104",
+       "min": 32,
+       "pts": 13,
+       "reb": 9,
+       "ast": 12,
+       "playoff": false
+      },
       {
        "gid": "401909898",
        "date": "2026-10-31",
@@ -1723,28 +1738,13 @@
        "reb": 1,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909856",
-       "date": "2026-10-24",
-       "venue": "ATL",
-       "opp": "HOU",
-       "tm": "ATL",
-       "home": true,
-       "result": "L",
-       "score": "121-114",
-       "min": 30,
-       "pts": 17,
-       "reb": 2,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 13.8,
-     "reb": 2.0,
-     "ast": 3.0,
-     "min": 27.0
+     "pts": 13.0,
+     "reb": 3.4,
+     "ast": 5.2,
+     "min": 27.4
     },
     "vs": {
      "opp": "WAS",
@@ -1822,32 +1822,32 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 45.7,
-      "rank": 28,
+      "value": 44.4,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 13.7,
-      "rank": 25,
+      "value": 12.7,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 15.7,
-      "rank": 14,
+      "value": 15.1,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 26,
+    "score": 20,
     "grade": "D",
     "color": "red",
     "best": "ast",
-    "note": "WAS gives up the 14th-most assists to guards (15.7 a game, 6 games)."
+    "note": "WAS gives up the 18th-most assists to guards (15.1 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1868,26 +1868,26 @@
      {
       "label": "Pts",
       "proj": 15,
-      "lo": 5,
+      "lo": 9,
       "hi": 20
      },
      {
       "label": "Reb",
-      "proj": 2.2,
+      "proj": 2.9,
       "lo": 1,
-      "hi": 3
+      "hi": 9
      },
      {
       "label": "Ast",
-      "proj": 3.3,
+      "proj": 4.2,
       "lo": 1,
-      "hi": 8
+      "hi": 12
      }
     ],
-    "games_used": 7,
+    "games_used": 8,
     "minutes": 27,
     "sims": 1000,
-    "opp_factor": 0.98,
+    "opp_factor": 0.97,
     "locked": false
    }
   },
@@ -1940,6 +1940,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "DET",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "124-91",
+       "min": 18,
+       "pts": 2,
+       "reb": 4,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909897",
        "date": "2026-10-31",
@@ -1999,28 +2014,13 @@
        "reb": 0,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909853",
-       "date": "2026-10-24",
-       "venue": "CHA",
-       "opp": "MIA",
-       "tm": "CHA",
-       "home": true,
-       "result": "W",
-       "score": "115-110",
-       "min": 11,
-       "pts": 0,
-       "reb": 1,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 4.8,
-     "reb": 2.8,
+     "pts": 5.2,
+     "reb": 3.4,
      "ast": 0.6,
-     "min": 18.4
+     "min": 19.8
     },
     "vs": {
      "opp": "BKN",
@@ -2113,32 +2113,32 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 42.7,
-      "rank": 19,
+      "value": 39.1,
+      "rank": 24,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
-      "value": 17.8,
-      "rank": 18,
+      "value": 16.0,
+      "rank": 24,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 7.5,
-      "rank": 19,
+      "value": 6.7,
+      "rank": 24,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      }
     },
-    "score": 39,
+    "score": 21,
     "grade": "D",
-    "color": "yellow",
-    "best": "reb",
-    "note": "BKN gives up the 18th-most rebounds to forwards (17.8 a game, 6 games)."
+    "color": "red",
+    "best": "pts",
+    "note": "BKN gives up the 24th-most points to forwards (39.1 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2158,27 +2158,27 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 6,
+      "proj": 5,
       "lo": 0,
       "hi": 9
      },
      {
       "label": "Reb",
-      "proj": 2.9,
+      "proj": 3.0,
       "lo": 0,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 0.5,
+      "proj": 0.4,
       "lo": 0,
       "hi": 1
      }
     ],
-    "games_used": 7,
+    "games_used": 8,
     "minutes": 18,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 0.99,
     "locked": false
    }
   },
@@ -2225,6 +2225,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909920",
+       "date": "2026-11-02",
+       "venue": "LAC",
+       "opp": "TOR",
+       "tm": "LAC",
+       "home": true,
+       "result": "L",
+       "score": "125-118",
+       "min": 23,
+       "pts": 11,
+       "reb": 4,
+       "ast": 6,
+       "playoff": false
+      },
       {
        "gid": "401873344",
        "date": "2026-05-25",
@@ -2284,28 +2299,13 @@
        "reb": 2,
        "ast": 1,
        "playoff": true
-      },
-      {
-       "gid": "401871339",
-       "date": "2026-05-17",
-       "venue": "DET",
-       "opp": "DET",
-       "tm": "CLE",
-       "home": false,
-       "result": "W",
-       "score": "125-94",
-       "min": 28,
-       "pts": 9,
-       "reb": 3,
-       "ast": 2,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 8.0,
-     "reb": 3.6,
-     "ast": 2.8,
-     "min": 26.4
+     "pts": 8.4,
+     "reb": 3.8,
+     "ast": 3.6,
+     "min": 25.4
     },
     "vs": {
      "opp": "MIA",
@@ -2398,32 +2398,32 @@
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 66.8,
-      "rank": 3,
+      "value": 70.4,
+      "rank": 2,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 18.8,
-      "rank": 4,
+      "value": 18.3,
+      "rank": 3,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 16.8,
-      "rank": 9,
+      "value": 18.6,
+      "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 85,
+    "score": 97,
     "grade": "A",
     "color": "green",
-    "best": "pts",
-    "note": "MIA gives up the 3rd-most points to guards (66.8 a game, 6 games)."
+    "best": "ast",
+    "note": "MIA gives up the 1st-most assists to guards (18.6 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2491,6 +2491,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "DET",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "124-91",
+       "min": 23,
+       "pts": 5,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909897",
        "date": "2026-10-31",
        "venue": "CHA",
@@ -2549,28 +2564,13 @@
        "reb": 2,
        "ast": 5,
        "playoff": false
-      },
-      {
-       "gid": "401909853",
-       "date": "2026-10-24",
-       "venue": "CHA",
-       "opp": "MIA",
-       "tm": "CHA",
-       "home": true,
-       "result": "W",
-       "score": "115-110",
-       "min": 38,
-       "pts": 25,
-       "reb": 6,
-       "ast": 5,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 11.8,
-     "reb": 3.4,
-     "ast": 6.0,
-     "min": 34.4
+     "pts": 7.8,
+     "reb": 2.6,
+     "ast": 5.2,
+     "min": 31.4
     },
     "vs": {
      "opp": "BKN",
@@ -2648,32 +2648,32 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 57.2,
-      "rank": 14,
+      "value": 59.0,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 15.8,
-      "rank": 14,
+      "value": 15.4,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 17.2,
-      "rank": 7,
+      "value": 17.1,
+      "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 63,
+    "score": 64,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "BKN gives up the 7th-most assists to guards (17.2 a game, 6 games)."
+    "note": "BKN gives up the 4th-most assists to guards (17.1 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2699,19 +2699,19 @@
      },
      {
       "label": "Reb",
-      "proj": 3.5,
+      "proj": 3.3,
       "lo": 2,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 5.8,
-      "lo": 3,
+      "proj": 5.0,
+      "lo": 1,
       "hi": 8
      }
     ],
-    "games_used": 7,
-    "minutes": 33,
+    "games_used": 8,
+    "minutes": 31,
     "sims": 1000,
     "opp_factor": 1.0,
     "locked": false
@@ -2766,6 +2766,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909907",
+       "date": "2026-11-02",
+       "venue": "CLE",
+       "opp": "OKC",
+       "tm": "CLE",
+       "home": true,
+       "result": "L",
+       "score": "117-112",
+       "min": 33,
+       "pts": 14,
+       "reb": 4,
+       "ast": 6,
+       "playoff": false
+      },
       {
        "gid": "401909900",
        "date": "2026-10-31",
@@ -2825,32 +2840,32 @@
        "reb": 5,
        "ast": 9,
        "playoff": false
-      },
-      {
-       "gid": "401909854",
-       "date": "2026-10-24",
-       "venue": "CLE",
-       "opp": "BKN",
-       "tm": "CLE",
-       "home": true,
-       "result": "W",
-       "score": "125-121",
-       "min": 33,
-       "pts": 12,
-       "reb": 8,
-       "ast": 7,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 16.8,
-     "reb": 5.2,
-     "ast": 6.6,
+     "pts": 17.2,
+     "reb": 4.4,
+     "ast": 6.4,
      "min": 33.6
     },
     "vs": {
      "opp": "OKC",
      "games": [
+      {
+       "gid": "401909907",
+       "date": "2026-11-02",
+       "venue": "CLE",
+       "opp": "OKC",
+       "tm": "CLE",
+       "home": true,
+       "result": "L",
+       "score": "117-112",
+       "min": 33,
+       "pts": 14,
+       "reb": 4,
+       "ast": 6,
+       "playoff": false
+      },
       {
        "gid": "401810672",
        "date": "2026-02-22",
@@ -2910,28 +2925,13 @@
        "reb": 11,
        "ast": 9,
        "playoff": false
-      },
-      {
-       "gid": "401704716",
-       "date": "2024-11-02",
-       "venue": "LAC",
-       "opp": "OKC",
-       "tm": "LAC",
-       "home": true,
-       "result": "L",
-       "score": "105-92",
-       "min": 32,
-       "pts": 12,
-       "reb": 13,
-       "ast": 7,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 18.2,
-     "reb": 8.0,
-     "ast": 7.8,
-     "min": 33.6
+     "pts": 18.6,
+     "reb": 6.2,
+     "ast": 7.6,
+     "min": 33.8
     }
    },
    "headshot": "img/players/3992.png",
@@ -2939,32 +2939,32 @@
    "opponent_logo": "img/teams/OKC.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 48.3,
-      "rank": 27,
+      "value": 50.9,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 16.0,
-      "rank": 12,
+      "value": 17.3,
+      "rank": 6,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
-      "value": 13.3,
-      "rank": 26,
+      "value": 14.7,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 29,
-    "grade": "D",
-    "color": "red",
+    "score": 46,
+    "grade": "C",
+    "color": "yellow",
     "best": "reb",
-    "note": "OKC gives up the 12th-most rebounds to guards (16.0 a game, 6 games)."
+    "note": "OKC gives up the 6th-most rebounds to guards (17.3 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2972,9 +2972,9 @@
     {
      "kind": "revenge",
      "label": "Revenge",
-     "text": "Has faced the Thunder 58 times since leaving them (avg 26.9 pts, 6.5 reb, 7.4 ast).",
-     "n": 58,
-     "pts": 26.9,
+     "text": "Has faced the Thunder 59 times since leaving them (avg 26.7 pts, 6.5 reb, 7.4 ast).",
+     "n": 59,
+     "pts": 26.7,
      "reb": 6.5,
      "ast": 7.4,
      "scope": ""
@@ -3001,7 +3001,7 @@
       "hi": 9
      }
     ],
-    "games_used": 6,
+    "games_used": 7,
     "minutes": 33,
     "sims": 1000,
     "opp_factor": 0.98,
@@ -3057,6 +3057,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909918",
+       "date": "2026-11-02",
+       "venue": "DEN",
+       "opp": "POR",
+       "tm": "DEN",
+       "home": true,
+       "result": "L",
+       "score": "118-110",
+       "min": 20,
+       "pts": 9,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
       {
        "gid": "401909286",
        "date": "2026-10-30",
@@ -3116,28 +3131,13 @@
        "reb": 3,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909094",
-       "date": "2026-10-22",
-       "venue": "OKC",
-       "opp": "OKC",
-       "tm": "DEN",
-       "home": false,
-       "result": "L",
-       "score": "96-84",
-       "min": 28,
-       "pts": 13,
-       "reb": 2,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 11.0,
-     "reb": 2.4,
-     "ast": 3.0,
-     "min": 26.2
+     "pts": 10.2,
+     "reb": 2.0,
+     "ast": 3.2,
+     "min": 24.6
     },
     "vs": {
      "opp": "TOR",
@@ -3215,32 +3215,32 @@
    "opponent_logo": "img/teams/TOR.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 57.0,
-      "rank": 15,
+      "value": 60.7,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
-      "value": 15.2,
-      "rank": 16,
+      "value": 16.4,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 14.8,
-      "rank": 19,
+      "value": 16.3,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 46,
-    "grade": "C",
+    "score": 62,
+    "grade": "B",
     "color": "yellow",
     "best": "pts",
-    "note": "TOR gives up the 15th-most points to guards (57.0 a game, 6 games)."
+    "note": "TOR gives up the 10th-most points to guards (60.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3266,21 +3266,21 @@
      },
      {
       "label": "Reb",
-      "proj": 2.4,
-      "lo": 1,
+      "proj": 1.9,
+      "lo": 0,
       "hi": 4
      },
      {
       "label": "Ast",
-      "proj": 3.0,
+      "proj": 2.7,
       "lo": 0,
       "hi": 5
      }
     ],
-    "games_used": 5,
-    "minutes": 26,
+    "games_used": 6,
+    "minutes": 25,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -3333,6 +3333,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909917",
+       "date": "2026-11-02",
+       "venue": "SAS",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "119-97",
+       "min": 21,
+       "pts": 13,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909879",
        "date": "2026-10-27",
@@ -3392,28 +3407,13 @@
        "reb": 0,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401859964",
-       "date": "2026-06-05",
-       "venue": "SAS",
-       "opp": "NYK",
-       "tm": "SAS",
-       "home": true,
-       "result": "L",
-       "score": "105-104",
-       "min": 5,
-       "pts": 0,
-       "reb": 0,
-       "ast": 0,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 1.2,
+     "pts": 3.8,
      "reb": 0.0,
      "ast": 0.0,
-     "min": 7.4
+     "min": 10.6
     },
     "vs": {
      "opp": "DAL",
@@ -3506,32 +3506,32 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 44.7,
-      "rank": 10,
+      "value": 43.0,
+      "rank": 12,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 22,
+      "value": 18.4,
+      "rank": 17,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      },
      "ast": {
-      "value": 6.5,
-      "rank": 23,
+      "value": 7.0,
+      "rank": 21,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 40,
+    "score": 46,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "DAL gives up the 10th-most points to forwards (44.7 a game, 6 games)."
+    "note": "DAL gives up the 12th-most points to forwards (43.0 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3551,7 +3551,7 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 5,
+      "proj": 6,
       "lo": 0,
       "hi": 13
      },
@@ -3565,11 +3565,11 @@
       "label": "Ast",
       "proj": 0.6,
       "lo": 0,
-      "hi": 3
+      "hi": 2
      }
     ],
-    "games_used": 4,
-    "minutes": 13,
+    "games_used": 5,
+    "minutes": 14,
     "sims": 1000,
     "opp_factor": 1.0,
     "locked": false
@@ -3624,6 +3624,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909910",
+       "date": "2026-11-02",
+       "venue": "NYK",
+       "opp": "BKN",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "103-90",
+       "min": 13,
+       "pts": 4,
+       "reb": 9,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909280",
        "date": "2026-10-30",
@@ -3683,28 +3698,13 @@
        "reb": 3,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909095",
-       "date": "2026-10-23",
-       "venue": "BOS",
-       "opp": "BOS",
-       "tm": "NYK",
-       "home": false,
-       "result": "L",
-       "score": "107-103",
-       "min": 7,
-       "pts": 2,
-       "reb": 2,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 4.6,
-     "reb": 6.0,
+     "pts": 5.0,
+     "reb": 7.4,
      "ast": 1.0,
-     "min": 11.0
+     "min": 12.2
     },
     "vs": {
      "opp": "CHI",
@@ -3797,32 +3797,32 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "group": "C",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 19.0,
+      "value": 18.9,
       "rank": 4,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 11.7,
-      "rank": 9,
+      "value": 12.0,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 2.3,
-      "rank": 16,
+      "value": 2.4,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 70,
+    "score": 75,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "CHI gives up the 4th-most points to centers (19.0 a game, 6 games)."
+    "note": "CHI gives up the 4th-most points to centers (18.9 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3848,21 +3848,21 @@
      },
      {
       "label": "Reb",
-      "proj": 7.5,
+      "proj": 7.8,
       "lo": 2,
       "hi": 14
      },
      {
       "label": "Ast",
-      "proj": 1.5,
+      "proj": 1.2,
       "lo": 0,
       "hi": 4
      }
     ],
-    "games_used": 6,
+    "games_used": 7,
     "minutes": 13,
     "sims": 1000,
-    "opp_factor": 1.04,
+    "opp_factor": 1.05,
     "locked": false
    }
   },
@@ -4088,32 +4088,32 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "group": "G",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 56.0,
-      "rank": 17,
+      "value": 55.2,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 19.3,
-      "rank": 2,
+      "value": 18.2,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 15.3,
+      "value": 15.4,
       "rank": 17,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 62,
-    "grade": "B",
+    "score": 56,
+    "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "PHI gives up the 2nd-most rebounds to guards (19.3 a game, 7 games)."
+    "note": "PHI gives up the 4th-most rebounds to guards (18.2 a game, 8 games)."
    },
    "injury": {
     "status": "Out",
@@ -4342,23 +4342,23 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "group": "G",
-    "games": 5,
+    "games": 6,
     "stats": {
      "pts": {
-      "value": 51.0,
-      "rank": 23,
+      "value": 52.5,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 12.8,
+      "value": 12.0,
       "rank": 28,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 13.2,
-      "rank": 27,
+      "value": 12.8,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
@@ -4367,7 +4367,7 @@
     "grade": "F",
     "color": "red",
     "best": "pts",
-    "note": "POR gives up the 23rd-most points to guards (51.0 a game, 5 games)."
+    "note": "POR gives up the 22nd-most points to guards (52.5 a game, 6 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4435,6 +4435,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909917",
+       "date": "2026-11-02",
+       "venue": "SAS",
+       "opp": "SAS",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "119-97",
+       "min": 22,
+       "pts": 9,
+       "reb": 5,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909896",
        "date": "2026-10-31",
        "venue": "UTA",
@@ -4493,28 +4508,13 @@
        "reb": 5,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909838",
-       "date": "2026-10-21",
-       "venue": "MEM",
-       "opp": "MEM",
-       "tm": "UTA",
-       "home": false,
-       "result": "L",
-       "score": "123-103",
-       "min": 26,
-       "pts": 5,
-       "reb": 5,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 8.0,
+     "pts": 8.8,
      "reb": 6.6,
-     "ast": 2.4,
-     "min": 25.6
+     "ast": 1.8,
+     "min": 24.8
     },
     "vs": {
      "opp": "NOP",
@@ -4607,32 +4607,32 @@
    "opponent_logo": "img/teams/NOP.png",
    "matchup": {
     "group": "C",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 14.8,
-      "rank": 12,
+      "value": 15.6,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 8.0,
-      "rank": 20,
+      "value": 8.9,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 3.7,
-      "rank": 5,
+      "value": 3.6,
+      "rank": 6,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 61,
+    "score": 63,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "NOP gives up the 5th-most assists to centers (3.7 a game, 6 games)."
+    "note": "NOP gives up the 6th-most assists to centers (3.6 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4658,21 +4658,21 @@
      },
      {
       "label": "Reb",
-      "proj": 6.5,
+      "proj": 6.3,
       "lo": 5,
       "hi": 11
      },
      {
       "label": "Ast",
-      "proj": 2.5,
-      "lo": 1,
+      "proj": 2.1,
+      "lo": 0,
       "hi": 4
      }
     ],
-    "games_used": 5,
-    "minutes": 26,
+    "games_used": 6,
+    "minutes": 25,
     "sims": 1000,
-    "opp_factor": 1.01,
+    "opp_factor": 1.02,
     "locked": false
    }
   },
@@ -4725,6 +4725,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909921",
+       "date": "2026-11-02",
+       "venue": "LAL",
+       "opp": "MIA",
+       "tm": "LAL",
+       "home": true,
+       "result": "W",
+       "score": "138-117",
+       "min": 26,
+       "pts": 7,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
       {
        "gid": "401909906",
        "date": "2026-11-01",
@@ -4784,28 +4799,13 @@
        "reb": 1,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909861",
-       "date": "2026-10-25",
-       "venue": "UTA",
-       "opp": "UTA",
-       "tm": "LAL",
-       "home": false,
-       "result": "W",
-       "score": "132-123",
-       "min": 15,
-       "pts": 0,
-       "reb": 4,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 5.0,
+     "pts": 6.4,
      "reb": 3.8,
-     "ast": 1.2,
-     "min": 24.4
+     "ast": 1.4,
+     "min": 26.6
     },
     "vs": {
      "opp": "SAC",
@@ -4898,32 +4898,32 @@
    "opponent_logo": "img/teams/SAC.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 61.8,
+      "value": 63.6,
       "rank": 1,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 22.7,
-      "rank": 4,
+      "value": 23.9,
+      "rank": 1,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 8.8,
-      "rank": 10,
+      "value": 9.9,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 86,
+    "score": 95,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "SAC gives up the 1st-most points to forwards (61.8 a game, 6 games)."
+    "note": "SAC gives up the 1st-most points to forwards (63.6 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4955,15 +4955,15 @@
      },
      {
       "label": "Ast",
-      "proj": 1.5,
+      "proj": 1.6,
       "lo": 0,
       "hi": 4
      }
     ],
-    "games_used": 6,
+    "games_used": 7,
     "minutes": 25,
     "sims": 1000,
-    "opp_factor": 1.05,
+    "opp_factor": 1.06,
     "locked": false
    }
   },
@@ -5016,6 +5016,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909912",
+       "date": "2026-11-02",
+       "venue": "PHI",
+       "opp": "CHI",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "126-107",
+       "min": 13,
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909897",
        "date": "2026-10-31",
@@ -5075,28 +5090,13 @@
        "reb": 3,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909855",
-       "date": "2026-10-24",
-       "venue": "PHI",
-       "opp": "MIL",
-       "tm": "PHI",
-       "home": true,
-       "result": "W",
-       "score": "127-116",
-       "min": 28,
-       "pts": 12,
-       "reb": 2,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 6.2,
-     "reb": 2.4,
-     "ast": 1.8,
-     "min": 23.8
+     "pts": 4.4,
+     "reb": 2.2,
+     "ast": 1.6,
+     "min": 20.8
     },
     "vs": {
      "opp": "DET",
@@ -5189,32 +5189,32 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 44.3,
-      "rank": 30,
+      "value": 44.4,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 11.8,
+      "value": 11.4,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 13.2,
-      "rank": 27,
+      "value": 12.7,
+      "rank": 29,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 5,
+    "score": 3,
     "grade": "F",
     "color": "red",
-    "best": "ast",
-    "note": "DET gives up the 27th-most assists to guards (13.2 a game, 6 games)."
+    "best": "pts",
+    "note": "DET gives up the 29th-most points to guards (44.4 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -5240,19 +5240,19 @@
      },
      {
       "label": "Reb",
-      "proj": 2.6,
-      "lo": 2,
-      "hi": 4
+      "proj": 2.3,
+      "lo": 1,
+      "hi": 3
      },
      {
       "label": "Ast",
-      "proj": 1.7,
-      "lo": 1,
+      "proj": 1.4,
+      "lo": 0,
       "hi": 3
      }
     ],
-    "games_used": 7,
-    "minutes": 24,
+    "games_used": 8,
+    "minutes": 22,
     "sims": 1000,
     "opp_factor": 0.97,
     "locked": false
@@ -5307,6 +5307,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909909",
+       "date": "2026-11-02",
+       "venue": "IND",
+       "opp": "ATL",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "108-104",
+       "min": 40,
+       "pts": 22,
+       "reb": 8,
+       "ast": 2,
+       "playoff": false
+      },
       {
        "gid": "401909904",
        "date": "2026-11-01",
@@ -5366,28 +5381,13 @@
        "reb": 6,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909862",
-       "date": "2026-10-25",
-       "venue": "BKN",
-       "opp": "BKN",
-       "tm": "IND",
-       "home": false,
-       "result": "W",
-       "score": "136-109",
-       "min": 21,
-       "pts": 14,
-       "reb": 2,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 7.2,
-     "reb": 3.6,
-     "ast": 1.2,
-     "min": 19.2
+     "pts": 8.8,
+     "reb": 4.8,
+     "ast": 1.0,
+     "min": 23.0
     },
     "vs": {
      "opp": "MEM",
@@ -5435,32 +5435,32 @@
    "opponent_logo": "img/teams/MEM.png",
    "matchup": {
     "group": "C",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 6.8,
+      "value": 8.7,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 5.3,
+      "value": 5.6,
       "rank": 30,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 1.2,
-      "rank": 28,
+      "value": 1.7,
+      "rank": 25,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 3,
+    "score": 7,
     "grade": "F",
     "color": "red",
     "best": "ast",
-    "note": "MEM gives up the 28th-most assists to centers (1.2 a game, 6 games)."
+    "note": "MEM gives up the 25th-most assists to centers (1.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -5469,27 +5469,27 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 7,
+      "proj": 9,
       "lo": 0,
-      "hi": 14
+      "hi": 22
      },
      {
       "label": "Reb",
-      "proj": 3.4,
+      "proj": 4.0,
       "lo": 1,
-      "hi": 6
+      "hi": 7
      },
      {
       "label": "Ast",
-      "proj": 1.2,
+      "proj": 1.4,
       "lo": 0,
       "hi": 3
      }
     ],
-    "games_used": 6,
-    "minutes": 18,
+    "games_used": 7,
+    "minutes": 21,
     "sims": 1000,
-    "opp_factor": 0.94,
+    "opp_factor": 0.96,
     "locked": false
    }
   },
@@ -5542,6 +5542,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909913",
+       "date": "2026-11-02",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "SAC",
+       "home": false,
+       "result": "W",
+       "score": "115-100",
+       "min": 30,
+       "pts": 24,
+       "reb": 1,
+       "ast": 7,
+       "playoff": false
+      },
       {
        "gid": "401909899",
        "date": "2026-10-31",
@@ -5601,28 +5616,13 @@
        "reb": 2,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909852",
-       "date": "2026-10-23",
-       "venue": "SAC",
-       "opp": "POR",
-       "tm": "SAC",
-       "home": true,
-       "result": "L",
-       "score": "128-120",
-       "min": 12,
-       "pts": 0,
-       "reb": 1,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 3.8,
+     "pts": 8.6,
      "reb": 1.2,
-     "ast": 2.8,
-     "min": 11.8
+     "ast": 3.8,
+     "min": 15.4
     },
     "vs": {
      "opp": "LAL",
@@ -5715,32 +5715,32 @@
    "opponent_logo": "img/teams/LAL.png",
    "matchup": {
     "group": "G",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 62.9,
+      "value": 62.5,
       "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 18.7,
+      "value": 17.4,
       "rank": 5,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 17.6,
-      "rank": 6,
+      "value": 17.0,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 85,
+    "score": 86,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "LAL gives up the 5th-most points to guards (62.9 a game, 7 games)."
+    "note": "LAL gives up the 5th-most points to guards (62.5 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -5760,9 +5760,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 7,
-      "lo": 0,
-      "hi": 12
+      "proj": 9,
+      "lo": 2,
+      "hi": 25
      },
      {
       "label": "Reb",
@@ -5772,13 +5772,13 @@
      },
      {
       "label": "Ast",
-      "proj": 2.8,
+      "proj": 3.4,
       "lo": 1,
-      "hi": 5
+      "hi": 6
      }
     ],
-    "games_used": 5,
-    "minutes": 14,
+    "games_used": 6,
+    "minutes": 17,
     "sims": 1000,
     "opp_factor": 1.01,
     "locked": false
@@ -5976,39 +5976,39 @@
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 44.5,
-      "rank": 11,
+      "value": 42.6,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 20.7,
-      "rank": 9,
+      "value": 19.1,
+      "rank": 14,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "ast": {
-      "value": 10.5,
+      "value": 10.1,
       "rank": 3,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 77,
+    "score": 68,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "MIA gives up the 3rd-most assists to forwards (10.5 a game, 6 games)."
+    "note": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
    },
    "injury": {
-    "status": "Out",
+    "status": "Day-To-Day",
     "note": "Jones (knee) has been ruled out for Monday's game against the Raptors.",
-    "date": "2026-11-02T21:12Z"
+    "date": "2026-11-03T06:11Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
@@ -6021,7 +6021,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 11,
+      "lo": 6,
+      "hi": 16
+     },
+     {
+      "label": "Reb",
+      "proj": 4.5,
+      "lo": 1,
+      "hi": 7
+     },
+     {
+      "label": "Ast",
+      "proj": 1.4,
+      "lo": 0,
+      "hi": 5
+     }
+    ],
+    "games_used": 6,
+    "minutes": 28,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
   },
   {
    "player_id": 4222252,
@@ -6072,6 +6098,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909907",
+       "date": "2026-11-02",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "OKC",
+       "home": false,
+       "result": "W",
+       "score": "117-112",
+       "min": 28,
+       "pts": 5,
+       "reb": 14,
+       "ast": 4,
+       "playoff": false
+      },
       {
        "gid": "401909902",
        "date": "2026-10-31",
@@ -6131,32 +6172,32 @@
        "reb": 12,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909094",
-       "date": "2026-10-22",
-       "venue": "OKC",
-       "opp": "DEN",
-       "tm": "OKC",
-       "home": true,
-       "result": "W",
-       "score": "96-84",
-       "min": 23,
-       "pts": 6,
-       "reb": 6,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 10.6,
-     "reb": 10.4,
-     "ast": 1.8,
-     "min": 25.4
+     "pts": 10.4,
+     "reb": 12.0,
+     "ast": 2.2,
+     "min": 26.4
     },
     "vs": {
      "opp": "CLE",
      "games": [
+      {
+       "gid": "401909907",
+       "date": "2026-11-02",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "OKC",
+       "home": false,
+       "result": "W",
+       "score": "117-112",
+       "min": 28,
+       "pts": 5,
+       "reb": 14,
+       "ast": 4,
+       "playoff": false
+      },
       {
        "gid": "401810672",
        "date": "2026-02-22",
@@ -6188,11 +6229,11 @@
        "playoff": false
       }
      ],
-     "n": 2,
-     "pts": 15.5,
-     "reb": 9.0,
-     "ast": 6.0,
-     "min": 28.5
+     "n": 3,
+     "pts": 12.0,
+     "reb": 10.7,
+     "ast": 5.3,
+     "min": 28.3
     }
    },
    "headshot": "img/players/4222252.png",
@@ -6200,32 +6241,32 @@
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
     "group": "C",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 17.8,
-      "rank": 7,
-      "of": 30,
-      "color": "green"
-     },
-     "reb": {
-      "value": 12.5,
+      "value": 17.4,
       "rank": 6,
       "of": 30,
       "color": "green"
      },
+     "reb": {
+      "value": 14.0,
+      "rank": 2,
+      "of": 30,
+      "color": "green"
+     },
      "ast": {
-      "value": 2.2,
-      "rank": 19,
+      "value": 2.4,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 67,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "reb",
-    "note": "CLE gives up the 6th-most rebounds to centers (12.5 a game, 6 games)."
+    "note": "CLE gives up the 2nd-most rebounds to centers (14.0 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -6233,11 +6274,11 @@
     {
      "kind": "revenge",
      "label": "Revenge",
-     "text": "Has faced the Cavaliers 16 times since leaving them (avg 7.2 pts, 6.9 reb, 2.9 ast).",
-     "n": 16,
-     "pts": 7.2,
-     "reb": 6.9,
-     "ast": 2.9,
+     "text": "Has faced the Cavaliers 17 times since leaving them (avg 7.1 pts, 7.3 reb, 3.0 ast).",
+     "n": 17,
+     "pts": 7.1,
+     "reb": 7.3,
+     "ast": 3.0,
      "scope": ""
     }
    ],
@@ -6247,23 +6288,23 @@
       "label": "Pts",
       "proj": 9,
       "lo": 4,
-      "hi": 15
+      "hi": 16
      },
      {
       "label": "Reb",
-      "proj": 9.5,
-      "lo": 5,
+      "proj": 10.3,
+      "lo": 3,
       "hi": 14
      },
      {
       "label": "Ast",
-      "proj": 2.5,
+      "proj": 2.7,
       "lo": 0,
-      "hi": 3
+      "hi": 4
      }
     ],
-    "games_used": 6,
-    "minutes": 23,
+    "games_used": 7,
+    "minutes": 24,
     "sims": 1000,
     "opp_factor": 1.03,
     "locked": false
@@ -6480,39 +6521,39 @@
    "opponent_logo": "img/teams/ATL.png",
    "matchup": {
     "group": "C",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 22.6,
+      "value": 22.5,
       "rank": 1,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 11.6,
-      "rank": 10,
+      "value": 11.1,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 5.7,
+      "value": 5.2,
       "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 90,
+    "score": 91,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "ATL gives up the 1st-most points to centers (22.6 a game, 7 games)."
+    "note": "ATL gives up the 1st-most points to centers (22.5 a game, 8 games)."
    },
    "injury": {
-    "status": "Out",
+    "status": "Day-To-Day",
     "note": "Sarr (knee) is out for Monday's game against Orlando.",
-    "date": "2026-11-02T18:03Z"
+    "date": "2026-11-03T05:34Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -6525,7 +6566,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 12,
+      "lo": 3,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 6.1,
+      "lo": 2,
+      "hi": 10
+     },
+     {
+      "label": "Ast",
+      "proj": 2.5,
+      "lo": 0,
+      "hi": 6
+     }
+    ],
+    "games_used": 6,
+    "minutes": 25,
+    "sims": 1000,
+    "opp_factor": 1.07,
+    "locked": false
+   }
   },
   {
    "player_id": 4431714,
@@ -6736,32 +6803,32 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 48.3,
+      "value": 47.7,
       "rank": 4,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 23.2,
-      "rank": 2,
+      "value": 21.3,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 6.0,
-      "rank": 27,
+      "value": 6.6,
+      "rank": 26,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 66,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
-    "best": "reb",
-    "note": "WAS gives up the 2nd-most rebounds to forwards (23.2 a game, 6 games)."
+    "best": "pts",
+    "note": "WAS gives up the 4th-most points to forwards (47.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -6822,6 +6889,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909912",
+       "date": "2026-11-02",
+       "venue": "PHI",
+       "opp": "CHI",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "126-107",
+       "min": 36,
+       "pts": 26,
+       "reb": 4,
+       "ast": 11,
+       "playoff": false
+      },
+      {
        "gid": "401909897",
        "date": "2026-10-31",
        "venue": "CHA",
@@ -6880,27 +6962,12 @@
        "reb": 5,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909855",
-       "date": "2026-10-24",
-       "venue": "PHI",
-       "opp": "MIL",
-       "tm": "PHI",
-       "home": true,
-       "result": "W",
-       "score": "127-116",
-       "min": 36,
-       "pts": 26,
-       "reb": 4,
-       "ast": 4,
-       "playoff": false
       }
      ],
      "n": 5,
      "pts": 29.4,
      "reb": 4.4,
-     "ast": 4.0,
+     "ast": 5.4,
      "min": 36.4
     },
     "vs": {
@@ -6994,32 +7061,32 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 44.3,
-      "rank": 30,
+      "value": 44.4,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 11.8,
+      "value": 11.4,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 13.2,
-      "rank": 27,
+      "value": 12.7,
+      "rank": 29,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 5,
+    "score": 3,
     "grade": "F",
     "color": "red",
-    "best": "ast",
-    "note": "DET gives up the 27th-most assists to guards (13.2 a game, 6 games)."
+    "best": "pts",
+    "note": "DET gives up the 29th-most points to guards (44.4 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -7039,24 +7106,24 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 27,
+      "proj": 26,
       "lo": 24,
       "hi": 36
      },
      {
       "label": "Reb",
-      "proj": 4.0,
+      "proj": 3.9,
       "lo": 3,
       "hi": 5
      },
      {
       "label": "Ast",
-      "proj": 4.7,
+      "proj": 5.4,
       "lo": 4,
-      "hi": 6
+      "hi": 11
      }
     ],
-    "games_used": 7,
+    "games_used": 8,
     "minutes": 37,
     "sims": 1000,
     "opp_factor": 0.97,
@@ -7117,6 +7184,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909910",
+       "date": "2026-11-02",
+       "venue": "NYK",
+       "opp": "BKN",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "103-90",
+       "min": 9,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909095",
        "date": "2026-10-23",
        "venue": "BOS",
@@ -7175,28 +7257,13 @@
        "reb": 2,
        "ast": 3,
        "playoff": true
-      },
-      {
-       "gid": "401859965",
-       "date": "2026-06-08",
-       "venue": "NYK",
-       "opp": "SAS",
-       "tm": "NYK",
-       "home": true,
-       "result": "L",
-       "score": "115-111",
-       "min": 12,
-       "pts": 4,
-       "reb": 3,
-       "ast": 1,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 4.4,
-     "reb": 2.2,
-     "ast": 1.8,
-     "min": 13.2
+     "pts": 3.6,
+     "reb": 1.6,
+     "ast": 1.6,
+     "min": 12.6
     },
     "vs": {
      "opp": "CHI",
@@ -7289,52 +7356,74 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 58.5,
-      "rank": 11,
+      "value": 62.0,
+      "rank": 6,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
-      "value": 15.2,
-      "rank": 16,
+      "value": 16.3,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 15.8,
-      "rank": 12,
+      "value": 16.7,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 59,
-    "grade": "C",
-    "color": "yellow",
+    "score": 69,
+    "grade": "B",
+    "color": "green",
     "best": "pts",
-    "note": "CHI gives up the 11th-most points to guards (58.5 a game, 6 games)."
+    "note": "CHI gives up the 6th-most points to guards (62.0 a game, 7 games)."
    },
-   "injury": {
-    "status": "Out",
-    "note": "Alvarado (ankle) is questionable for Monday's game against the Nets.",
-    "date": "2026-11-01T22:16Z"
-   },
-   "status_note": "Out",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 29 times (avg 6.5 pts, 1.7 reb, 3.3 ast).",
-     "n": 29,
-     "pts": 6.5,
+     "text": "Has played in his hometown area 30 times (avg 6.3 pts, 1.7 reb, 3.2 ast).",
+     "n": 30,
+     "pts": 6.3,
      "reb": 1.7,
-     "ast": 3.3,
+     "ast": 3.2,
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 5,
+      "lo": 0,
+      "hi": 16
+     },
+     {
+      "label": "Reb",
+      "proj": 1.8,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 2.8,
+      "lo": 0,
+      "hi": 8
+     }
+    ],
+    "games_used": 3,
+    "minutes": 14,
+    "sims": 1000,
+    "opp_factor": 1.02,
+    "locked": false
+   }
   },
   {
    "player_id": 3136195,
@@ -7389,6 +7478,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909910",
+       "date": "2026-11-02",
+       "venue": "NYK",
+       "opp": "BKN",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "103-90",
+       "min": 35,
+       "pts": 11,
+       "reb": 16,
+       "ast": 5,
+       "playoff": false
+      },
       {
        "gid": "401909280",
        "date": "2026-10-30",
@@ -7448,28 +7552,13 @@
        "reb": 14,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909095",
-       "date": "2026-10-23",
-       "venue": "BOS",
-       "opp": "BOS",
-       "tm": "NYK",
-       "home": false,
-       "result": "L",
-       "score": "107-103",
-       "min": 37,
-       "pts": 22,
-       "reb": 10,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 22.4,
-     "reb": 13.8,
-     "ast": 3.6,
-     "min": 33.2
+     "pts": 20.2,
+     "reb": 15.0,
+     "ast": 4.0,
+     "min": 32.8
     },
     "vs": {
      "opp": "CHI",
@@ -7562,32 +7651,32 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "group": "C",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 19.0,
+      "value": 18.9,
       "rank": 4,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 11.7,
-      "rank": 9,
+      "value": 12.0,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 2.3,
-      "rank": 16,
+      "value": 2.4,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 70,
+    "score": 75,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "CHI gives up the 4th-most points to centers (19.0 a game, 6 games)."
+    "note": "CHI gives up the 4th-most points to centers (18.9 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -7595,10 +7684,10 @@
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 108 times (avg 22.1 pts, 11.9 reb, 2.9 ast).",
-     "n": 108,
-     "pts": 22.1,
-     "reb": 11.9,
+     "text": "Has played in his hometown area 109 times (avg 22.0 pts, 12.0 reb, 2.9 ast).",
+     "n": 109,
+     "pts": 22.0,
+     "reb": 12.0,
      "ast": 2.9,
      "scope": ""
     }
@@ -7607,27 +7696,27 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 22,
-      "lo": 19,
-      "hi": 27
+      "proj": 20,
+      "lo": 11,
+      "hi": 28
      },
      {
       "label": "Reb",
-      "proj": 13.3,
+      "proj": 13.8,
       "lo": 10,
       "hi": 20
      },
      {
       "label": "Ast",
-      "proj": 3.4,
+      "proj": 3.6,
       "lo": 1,
       "hi": 5
      }
     ],
-    "games_used": 6,
-    "minutes": 31,
+    "games_used": 7,
+    "minutes": 32,
     "sims": 1000,
-    "opp_factor": 1.04,
+    "opp_factor": 1.05,
     "locked": false
    }
   },
@@ -7681,6 +7770,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909912",
+       "date": "2026-11-02",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "CHI",
+       "home": false,
+       "result": "L",
+       "score": "126-107",
+       "min": 2,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909278",
        "date": "2026-10-30",
        "venue": "BOS",
@@ -7726,11 +7830,11 @@
        "playoff": false
       }
      ],
-     "n": 3,
-     "pts": 2.7,
-     "reb": 6.7,
-     "ast": 1.0,
-     "min": 12.7
+     "n": 4,
+     "pts": 2.0,
+     "reb": 5.2,
+     "ast": 0.8,
+     "min": 10.0
     },
     "vs": {
      "opp": "NYK",
@@ -7747,63 +7851,37 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "group": "F",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 42.7,
-      "rank": 19,
+      "value": 43.0,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 17.5,
-      "rank": 19,
+      "value": 18.6,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 10.3,
+      "value": 10.0,
       "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 55,
-    "grade": "C",
-    "color": "yellow",
+    "score": 67,
+    "grade": "B",
+    "color": "green",
     "best": "ast",
-    "note": "NYK gives up the 4th-most assists to forwards (10.3 a game, 6 games)."
+    "note": "NYK gives up the 4th-most assists to forwards (10.0 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
    "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 3,
-      "lo": 2,
-      "hi": 4
-     },
-     {
-      "label": "Reb",
-      "proj": 6.6,
-      "lo": 6,
-      "hi": 7
-     },
-     {
-      "label": "Ast",
-      "proj": 1.0,
-      "lo": 0,
-      "hi": 2
-     }
-    ],
-    "games_used": 3,
-    "minutes": 13,
-    "sims": 1000,
-    "opp_factor": 0.99,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4703115,
@@ -7869,32 +7947,32 @@
    "opponent_logo": "img/teams/UTA.png",
    "matchup": {
     "group": "G",
-    "games": 6,
+    "games": 7,
     "stats": {
      "pts": {
-      "value": 62.5,
+      "value": 61.6,
       "rank": 7,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 14.0,
+      "value": 14.4,
       "rank": 23,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 14.5,
-      "rank": 20,
+      "value": 15.1,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 46,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "UTA gives up the 7th-most points to guards (62.5 a game, 6 games)."
+    "note": "UTA gives up the 7th-most points to guards (61.6 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -8022,13 +8100,13 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "group": "F",
-    "games": 5,
+    "games": 6,
     "stats": {
      "pts": {
-      "value": 43.4,
-      "rank": 14,
+      "value": 40.2,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
       "value": 19.8,
@@ -8037,17 +8115,17 @@
       "color": "yellow"
      },
      "ast": {
-      "value": 9.8,
-      "rank": 6,
+      "value": 9.0,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 67,
-    "grade": "B",
-    "color": "green",
+    "score": 55,
+    "grade": "C",
+    "color": "yellow",
     "best": "ast",
-    "note": "POR gives up the 6th-most assists to forwards (9.8 a game, 5 games)."
+    "note": "POR gives up the 9th-most assists to forwards (9.0 a game, 6 games)."
    },
    "injury": null,
    "status_note": null,
@@ -8108,6 +8186,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909919",
+       "date": "2026-11-02",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "116-113",
+       "min": 24,
+       "pts": 14,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
        "gid": "401909286",
        "date": "2026-10-30",
        "venue": "PHX",
@@ -8166,28 +8259,13 @@
        "reb": 3,
        "ast": 4,
        "playoff": true
-      },
-      {
-       "gid": "401869368",
-       "date": "2026-04-22",
-       "venue": "OKC",
-       "opp": "OKC",
-       "tm": "PHX",
-       "home": false,
-       "result": "L",
-       "score": "120-107",
-       "min": 29,
-       "pts": 7,
-       "reb": 8,
-       "ast": 5,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 8.0,
-     "reb": 6.2,
-     "ast": 4.2,
-     "min": 27.6
+     "pts": 9.4,
+     "reb": 5.0,
+     "ast": 3.6,
+     "min": 26.6
     },
     "vs": {
      "opp": "POR",
@@ -8280,13 +8358,13 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "group": "F",
-    "games": 5,
+    "games": 6,
     "stats": {
      "pts": {
-      "value": 43.4,
-      "rank": 14,
+      "value": 40.2,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
       "value": 19.8,
@@ -8295,17 +8373,17 @@
       "color": "yellow"
      },
      "ast": {
-      "value": 9.8,
-      "rank": 6,
+      "value": 9.0,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 67,
-    "grade": "B",
-    "color": "green",
+    "score": 55,
+    "grade": "C",
+    "color": "yellow",
     "best": "ast",
-    "note": "POR gives up the 6th-most assists to forwards (9.8 a game, 5 games)."
+    "note": "POR gives up the 9th-most assists to forwards (9.0 a game, 6 games)."
    },
    "injury": null,
    "status_note": null,
@@ -8321,7 +8399,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 8,
+      "lo": 2,
+      "hi": 14
+     },
+     {
+      "label": "Reb",
+      "proj": 5.1,
+      "lo": 2,
+      "hi": 9
+     },
+     {
+      "label": "Ast",
+      "proj": 3.0,
+      "lo": 1,
+      "hi": 5
+     }
+    ],
+    "games_used": 3,
+    "minutes": 22,
+    "sims": 1000,
+    "opp_factor": 0.99,
+    "locked": false
+   }
   }
  ],
  "warnings": [
