@@ -88,7 +88,7 @@ def hometown_tags(places: list[dict], game_loc, opp_loc, is_home: bool, arena_ci
             born = f" Born in {birth['label']}." if birth else ""
             return [build(pl, h[1], h[0], "high",
                           "Plays near where he grew up." if h[1] == "here" else "Faces a team from where he grew up.",
-                          f"Went to {pl['school']} in {pl['label']} (about {h[0]:.0f} mi away).{born}")]
+                          f"Went to {pl['school']} in {pl['label']} ({'under a mile away' if h[0] < 1 else f'about {h[0]:.0f} mi away'}).{born}")]
     if birth:
         h = hit(birth)
         if h:

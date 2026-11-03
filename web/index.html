@@ -349,6 +349,7 @@ a.wx:hover{color:var(--ink)}
 .mini .vs{display:flex;align-items:center;gap:8px}.mini .vs img{width:44px;height:44px;border-radius:50%;object-fit:cover;background:var(--chip)}.mini .vs i{font:800 13px var(--font-display);color:var(--muted);font-style:normal}
 .mini h3{margin:2px 0 0;font:700 20px/1.1 var(--font-display)}
 .mini p{margin:0;font-size:14px;text-wrap:pretty;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.hrow{display:flex;gap:10px;align-items:center;color:inherit;text-decoration:none;padding:4px 0}.hrow+.hrow{border-top:1px solid var(--line);padding-top:10px;margin-top:4px}.hrow img{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--chip);flex:none}.hrow b{display:block;font:700 18px var(--font-display)}.hrow em{display:block;font-style:normal;font-size:13.5px}.hrow small{display:block;color:var(--muted);font-size:12px;margin-top:2px}.hrow:hover b{text-decoration:underline}
 .mini small{margin-top:auto;color:var(--muted);font-size:12px}
 .card.hl{outline:3px solid var(--accent);outline-offset:3px}
 /* weather: thresholds */
@@ -729,7 +730,8 @@ async function initBoard(){
     const name=d=>{const t=new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
       return d===et(0)?`Today, ${t}`:d===et(1)?`Tomorrow, ${t}`:t};
     $("date").innerHTML=idx.dates.map(d=>`<option value="${d}">${name(d)}</option>`).join("");
-    await load(idx.latest);
+    const dm=location.hash.match(/[?&]d=(\d{4}-\d\d-\d\d)/),want=dm&&idx.dates.includes(dm[1])?dm[1]:idx.latest;
+    $("date").value=want;await load(want);
   }catch(e){$("sub").textContent=`No ${SPORTS[sport].name} games loaded yet.`;}
 }
 // ---- home, tabs and themes
@@ -740,37 +742,50 @@ function setTheme(t){
   document.querySelectorAll(".themes button").forEach(b=>b.setAttribute("aria-checked",String(b.dataset.t===t)));
 }
 const HCOL={Revenge:"var(--red)",Hometown:"var(--green)",Birthday:"var(--yellow-line)",History:"var(--blue-line)",Holiday:"var(--violet)"};
-function drawHome(s,when){
+function drawHome(S){
   const out=e=>/out|doubtful|injured|suspend/i.test(e.status_note||"");
-  const pri=e=>(e.categories.includes("History")?100:0)+(e.categories.includes("Revenge")?10:0)+(e.matchup?e.matchup.score:0)/2+(e.projection?3:0);
-  const seen=new Set(),picks=[];
-  for(const e of [...s.entries].filter(e=>!out(e)).sort((a,b)=>pri(b)-pri(a))){
-    const h=e.tags.find(t=>t.category==="History"),key=h?[e.name,h.with].sort().join("|"):e.name;
-    if(seen.has(key)) continue; seen.add(key); picks.push(e);
+  const pri=e=>(e.categories.includes("History")?100:0)+(e.categories.includes("Revenge")?10:0)+(e.tags.some(t=>t.category==="Hometown"&&t.confidence==="high")?25:0)+(e.matchup?e.matchup.score:0)/2+(e.projection?3:0);
+  const all=[];
+  for(const sp of Object.keys(S)){const {s,date,when}=S[sp];
+    s.entries.forEach(e=>all.push({e,sp,date,when,link:`#/${sp}/${e.player_id}?d=${date}`}))}
+  const label=x=>`${SPORTS[x.sp].name} \u00b7 ${x.when} \u00b7 ${x.e.team} ${x.e.home_away==="home"?"vs":"@"} ${x.e.opponent} \u00b7 ${x.e.tip}`;
+  // top angles: best of each sport, alternating, no repeated beef
+  const seen=new Set(),per={};
+  for(const x of all.filter(x=>!out(x.e)).sort((a,b)=>pri(b.e)-pri(a.e))){
+    const h=x.e.tags.find(t=>t.category==="History"),key=x.sp+(h?[x.e.name,h.with].sort().join("|"):x.e.name);
+    if(seen.has(key)) continue; seen.add(key); (per[x.sp]=per[x.sp]||[]).push(x);
   }
-  const n=Math.min(3,picks.length);
-  if(n){
-    $("hx-cards").className="tc"+(n===2?" two":n===1?" one":"");
-    $("hx-when").textContent=when;
-    $("hx-cards").innerHTML=picks.slice(0,n).map(e=>{const t=e.tags.find(x=>x.category==="History")||e.tags[0];
+  const lists=Object.values(per),picks=[];
+  for(let i=0;picks.length<3&&lists.some(l=>l[i]);i++) for(const l of lists) if(l[i]&&picks.length<3) picks.push(l[i]);
+  if(picks.length){
+    $("hx-cards").className="tc"+(picks.length===2?" two":picks.length===1?" one":"");
+    $("hx-when").textContent="NBA + NFL";
+    $("hx-cards").innerHTML=picks.map(x=>{const e=x.e,t=e.tags.find(y=>y.category==="History")||e.tags[0];
       const pj=e.projection&&e.projection.lines?e.projection.lines.map(l=>`<span class="pchip"><b>${esc(l.proj)}</b> ${esc(l.label)}</span>`).join(""):"";
-      return `<a class="pc" style="--c:${HCOL[t.category]||"var(--muted)"}" href="#/nba/${esc(e.player_id)}"><div class="t"><img class="h" src="${esc(e.headshot||"")}" alt="" loading="lazy"><div><div class="n">${esc(e.name)}</div><div class="g">${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)}</div></div></div>
+      return `<a class="pc" style="--c:${HCOL[t.category]||"var(--muted)"}" href="${esc(x.link)}"><div class="t"><img class="h" src="${esc(e.headshot||"")}" alt="" loading="lazy"><div><div class="n">${esc(e.name)}</div><div class="g">${esc(label(x))}</div></div></div>
       <div class="a"><b>${esc(t.category)}</b>${esc(t.headline||t.detail)}</div>
       <div class="r">${e.matchup?`<span class="grade" data-m="${esc(e.matchup.color)}" title="Matchup grade">${esc(e.matchup.grade)}</span>`:""}${pj}</div>
       <span class="go">See the full backstory \u2192</span></a>`}).join("");
     $("hx-top").hidden=false;
   }
-  const bf=s.entries.map(e=>({e,t:e.tags.find(x=>x.category==="History"&&x.sources&&x.sources.length)})).filter(x=>x.t)
+  const bf=all.map(x=>({x,t:x.e.tags.find(y=>y.category==="History"&&y.sources&&y.sources.length)})).filter(y=>y.t)
     .sort((a,b)=>(b.t.confidence==="high")-(a.t.confidence==="high"))[0];
-  if(bf){const {e,t}=bf,src=t.sources[0];
-    $("hx-bf").innerHTML=`<a class="mini" style="--c:var(--blue-line)" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""><i>VS</i>${t.with_id?`<img src="img/players/${esc(t.with_id)}.png" alt="" onerror="this.style.display='none'">`:""}</div>
-      <h3>${esc(e.name)} vs ${esc(t.with)}</h3><p>${esc(t.reason)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></a>`;
+  if(bf){const {x,t}=bf,e=x.e,src=t.sources[0];
+    $("hx-bf").innerHTML=`<a class="mini" style="--c:var(--blue-line)" href="${esc(x.link)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""><i>VS</i>${t.with_id?`<img src="${sport==="nfl"||x.sp==="nfl"?"img/nfl/players/":"img/players/"}${esc(t.with_id)}.png" alt="" onerror="this.style.display='none'">`:""}</div>
+      <h3>${esc(e.name)} vs ${esc(t.with)}</h3><p>${esc(t.reason)}</p><small>${esc(label(x))} \u00b7 Source: ${esc(src.label)}</small></a>`;
     $("hx-beef").hidden=false;}
-  const hm=s.entries.map(e=>({e,t:e.tags.find(x=>x.category==="Hometown"&&x.confidence==="high"&&x.kind==="high_school")})).filter(x=>x.t&&!out(x.e))
-    .sort((a,b)=>(a.t.miles-b.t.miles)||((b.e.matchup?b.e.matchup.score:0)-(a.e.matchup?a.e.matchup.score:0)))[0];
-  if(hm){const {e,t}=hm,src=t.sources[0];
-    $("hx-hm").innerHTML=`<a class="mini" style="--c:var(--green)" href="#/nba/${esc(e.player_id)}"><div class="vs"><img src="${esc(e.headshot||"")}" alt=""></div>
-      <h3>${esc(e.name)}</h3><p>${esc(t.detail)}</p><small>${esc(e.team)} ${e.home_away==="home"?"vs":"@"} ${esc(e.opponent)} \u00b7 ${esc(e.tip)} \u00b7 Source: ${esc(src.label)}</small></a>`;
+  // hometown hero: closest-to-home player in each sport
+  const miles=t=>{if(/under a mile/.test(t.detail||""))return 0;const m=/about (\d+) mi/.exec(t.detail||"");return m?+m[1]:(t.miles!=null?t.miles:99)};
+  const hp={};
+  for(const x of all.filter(x=>!out(x.e))){
+    const t=x.e.tags.find(y=>y.category==="Hometown"&&y.confidence==="high");if(!t) continue;
+    const c={x,t,m:miles(t),g:x.e.matchup?x.e.matchup.score:0},cur=hp[x.sp];
+    if(!cur||c.m<cur.m||(c.m===cur.m&&c.g>cur.g)) hp[x.sp]=c;
+  }
+  const hl=Object.values(hp);
+  if(hl.length){
+    $("hx-hm").innerHTML=`<div class="mini" style="--c:var(--green)">${hl.map(({x,t})=>{const e=x.e,src=(t.sources||[])[0];
+      return `<a class="hrow" href="${esc(x.link)}"><img src="${esc(e.headshot||"")}" alt=""><span><b>${esc(e.name)}</b><em>${esc(t.detail)}</em><small>${esc(label(x))}${src?` \u00b7 Source: ${esc(src.label)}`:""}</small></span></a>`}).join("")}</div>`;
     $("hx-hero").hidden=false;}
 }
 function focusPlayer(id){
@@ -779,17 +794,21 @@ function focusPlayer(id){
     else if(++tries>40)clearInterval(t)},100);
 }
 async function homeInfo(){
+  const S={};
   for(const k of Object.keys(SPORTS)){
     try{
       const dir=SPORTS[k].dir;
       const idx=await (await fetch(`${dir}/index.json`)).json();
-      const s=await (await fetch(`${dir}/${idx.dates[0]}.json`)).json();
       const et=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
-      const when=idx.dates[0]===et(0)?"Today":idx.dates[0]===et(1)?"Tomorrow":new Date(idx.dates[0]+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
-      if(k==="nba") drawHome(s,when);
+      let s=null,date=null;
+      for(const d of idx.dates){const x=await (await fetch(`${dir}/${d}.json`)).json();if(!s){s=x;date=d}if(x.entries.length){s=x;date=d;break}}
+      if(!s) continue;
+      const when=date===et(0)?"Today":date===et(1)?"Tomorrow":new Date(date+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+      S[k]={s,date,when};
       $(k+"-foot").textContent=`${when}: ${s.games} game${s.games===1?"":"s"} \u00b7 ${s.entries.length} flagged \u2192`;
     }catch(e){}
   }
+  try{drawHome(S)}catch(e){}
 }
 let wxData=null,wxLoading=false;
 const etHour=u=>new Date(u).toLocaleTimeString("en-US",{hour:"numeric",timeZone:"America/New_York"});
@@ -871,9 +890,11 @@ function route(){
   $("home").hidden=board;$("nba").hidden=!board;
   for(const k of Object.keys(SPORTS)){const t=$("tab-"+k);(board&&m[1]===k)?t.setAttribute("aria-current","page"):t.removeAttribute("aria-current")}
   document.title=board?`${SPORTS[m[1]].name} | Backstory Sports`:"Backstory Sports";
+  const dm=location.hash.match(/[?&]d=(\d{4}-\d\d-\d\d)/);
   if(board&&(m[1]!==sport||!started)){sport=m[1];started=true;initBoard()}
+  else if(board&&dm&&$("date").value!==dm[1]&&[...$("date").options].some(o=>o.value===dm[1])){$("date").value=dm[1];load(dm[1])}
   window.scrollTo(0,0);
-  const pm=location.hash.match(/^#\/nba\/(\d+)/);if(pm)focusPlayer(pm[1]);
+  const pm=location.hash.match(/^#\/(?:nba|nfl)\/(\d+)/);if(pm)focusPlayer(pm[1]);
 }
 document.querySelectorAll(".themes button").forEach(b=>b.addEventListener("click",()=>setTheme(b.dataset.t)));
 setTheme(document.documentElement.dataset.theme||"sand");
