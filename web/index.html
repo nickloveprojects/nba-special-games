@@ -316,6 +316,11 @@ a.wx:hover{color:var(--ink)}
 .imp{display:inline-block;margin-left:8px;font:700 11px/1 var(--font-body);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px;background:var(--chip);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line);vertical-align:middle}
 .imp[data-l=strong]{color:var(--red)}.imp[data-l=moderate]{color:#9a5a12}.imp[data-l=minor]{color:#8a6100}
 @media(max-width:640px){.rk{grid-template-columns:22px 1fr}.rk .m{grid-column:1/-1}.base{grid-template-columns:1fr}.base dt{margin-top:6px}}
+#grades .chip{min-width:40px;justify-content:center}
+#grades .chip[aria-pressed=true]{color:var(--ink);font-weight:700}
+#grades .chip[data-gr=A][aria-pressed=true],#grades .chip[data-gr=B][aria-pressed=true]{background:var(--green-bg);border-color:var(--green);color:var(--green)}
+#grades .chip[data-gr=C][aria-pressed=true]{background:var(--yellow-bg);border-color:var(--yellow);color:var(--yellow)}
+#grades .chip[data-gr=D][aria-pressed=true],#grades .chip[data-gr=F][aria-pressed=true]{background:var(--red-bg);border-color:var(--red);color:var(--red)}
 </style>
 </head>
 <body>
@@ -373,13 +378,13 @@ a.wx:hover{color:var(--ink)}
   <div class="bar" id="grades" role="group" aria-label="Matchup grade"></div>
   <div class="bar filters" id="mf">
     <select id="stat" aria-label="Matchup stat"></select>
-    <select id="feel" aria-label="Matchup is">
-      <option value="">Any matchup</option>
-      <option value="green">Favorable</option>
+    <select id="feel" aria-label="How generous the defense is for that stat" title="How generous this defense is for the stat you picked">
+      <option value="">Any rating</option>
+      <option value="green">Favorable: gives up a lot</option>
       <option value="yellow">Average</option>
-      <option value="red">Tough</option>
+      <option value="red">Tough: gives up little</option>
     </select>
-    <select id="sort" aria-label="Sort by">
+    <select id="sort" aria-label="Sort by" title="Sorts the cards by matchup. With a stat chosen it sorts by that stat.">
       <option value="">Sort: default</option>
       <option value="best">Best matchup</option>
       <option value="worst">Toughest</option>
@@ -450,7 +455,7 @@ function eventAge(w,today){   // days since a revenge or beef event; null when u
   const f=/^\d{4}$/.test(w)?w+"-07-01":/^\d{4}-\d{2}$/.test(w)?w+"-15":w;
   const t=Date.parse(f); return isNaN(t)?null:Math.max(0,(today-t)/864e5);
 }
-let sport="nba",slate=null,active=new Set(CATS),game="",grades=new Set(GRADES);
+let sport="nba",slate=null,active=new Set(CATS),game="",grades=new Set();
 const dataUrl=f=>`${SPORTS[sport].dir}/${f}`;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -482,6 +487,17 @@ function drawGames(){
    matchups().map(g=>{const k=g.away+"@"+g.home,n=list.filter(e=>inGame(e,g)).length;
     return `<button class="gbtn" type="button" data-g="${k}" data-n="${n}" aria-pressed="${game===k}"><span class="t">${logo(g.away_logo,g.away)}${g.away} @ ${logo(g.home_logo,g.home)}${g.home}</span><span class="m">${esc(g.tip||"")} · ${n} player${n===1?"":"s"}</span></button>`}).join("");
 }
+function refreshCounts(){
+  if(!slate) return;
+  const byCat=filtered({ignoreCats:true});
+  document.querySelectorAll("#cats [data-c]").forEach(b=>{const c=b.dataset.c;
+    const n=byCat.filter(e=>e.tags.some(t=>t.category===c)).length;b.querySelector("b").textContent=n;b.dataset.n=n});
+  const byGame=filtered({ignoreGame:true});
+  document.querySelectorAll("#games .gbtn").forEach(b=>{
+    const g=matchups().find(m=>m.away+"@"+m.home===b.dataset.g);
+    const n=g?byGame.filter(e=>inGame(e,g)).length:byGame.length;
+    b.dataset.n=n;b.querySelector(".m").textContent=(g&&g.tip?g.tip+" \u00b7 ":"")+`${n} player${n===1?"":"s"}`});
+}
 function redrawGames(){const x=$("games").scrollLeft;drawGames();$("games").scrollLeft=x}
 function drawChips(){
   const n=c=>slate.entries.filter(e=>e.categories.includes(c)).length;
@@ -496,27 +512,33 @@ function drawMF(){
   const cur=$("stat").value;
   $("stat").innerHTML=`<option value="">Any stat</option>`+Object.keys(labels).map(k=>`<option value="${k}">${esc(labels[k])}</option>`).join("");
   $("stat").value=labels[cur]?cur:"";
+  syncFeel();
+}
+function syncFeel(){
+  const has=!!$("stat").value;
+  $("feel").hidden=!has;
+  if(!has) $("feel").value="";
 }
 function sortKey(e,mode,k){
   const m=e.matchup; if(!m) return null;
   const v=k&&m.stats[k]?100-(m.stats[k].rank-1)/Math.max(1,m.stats[k].of-1)*100:m.score;   // higher = more generous defense
   return mode==="worst"?-v:v;
 }
-function filtered(){
+function filtered(opts={}){
   const q=$("q").value.trim().toLowerCase(),t=$("team").value,strict=$("strict").checked;
-  const k=$("stat").value,feel=$("feel").value,mode=$("sort").value,gAll=grades.size===GRADES.length;
+  const k=$("stat").value,feel=$("feel").value,mode=$("sort").value,gAll=grades.size===0;
   const [lo,hi]=recentRange(),now=Date.now();
   const fresh=g=>{if((lo===0&&hi===Infinity)||!(g.category==="Revenge"||g.category==="History")) return true;
     const a=eventAge(g.when,now); return a==null||(a>=lo&&a<=hi)};   // no date known: keep it rather than hide it
-  let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>active.has(g.category)&&!(strict&&weak(g))&&fresh(g))}))
-   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})))
+  let rows=slate.entries.map(e=>({...e,tags:e.tags.filter(g=>(opts.ignoreCats||active.has(g.category))&&!(strict&&weak(g))&&fresh(g))}))
+   .filter(e=>e.tags.length&&(!q||e.name.toLowerCase().includes(q))&&(!t||e.team===t||e.opponent===t)&&(opts.ignoreGame||!game||inGame(e,matchups().find(m=>m.away+"@"+m.home===game)||{})))
    .filter(e=>{const m=e.matchup;
      if(!gAll&&!(m&&grades.has(m.grade))) return false;
      if(k||feel){ if(!m) return false;
        if(k&&!m.stats[k]) return false;
        if(feel){ if(k) return m.stats[k].color===feel; return Object.values(m.stats).some(x=>x.color===feel) } }
      return true});
-  if(mode) rows=rows.map((e,i)=>({e,i,s:sortKey(e,mode,k)})).sort((a,b)=>(b.s??-1e9)-(a.s??-1e9)||a.i-b.i).map(x=>x.e);
+  if(mode&&!opts.ignoreCats&&!opts.ignoreGame) rows=rows.map((e,i)=>({e,i,s:sortKey(e,mode,k)})).sort((a,b)=>(b.s??-1e9)-(a.s??-1e9)||a.i-b.i).map(x=>x.e);
   return rows;
 }
 const stat=m=>m&&m.n?`${m.pts} pts · ${m.reb} reb · ${m.ast} ast`:"no games";
@@ -605,8 +627,9 @@ function card(e){
 }
 function render(){
   const rows=filtered();
-  const dirty=grades.size<GRADES.length||$("stat").value||$("feel").value||$("sort").value||($("rec0").value!=="0"||$("rec1").value!=="6")||$("q").value||$("team").value||game||active.size<CATS.length;
+  const dirty=grades.size>0||$("stat").value||$("feel").value||$("sort").value||($("rec0").value!=="0"||$("rec1").value!=="6")||$("q").value||$("team").value||game||active.size<CATS.length;
   $("reset").hidden=!dirty;
+  refreshCounts();
   $("cnt").textContent=`${rows.length} player${rows.length===1?"":"s"} shown`;
   $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">No players match these filters for this day.</div>';
 }
@@ -627,20 +650,20 @@ async function initBoard(){
     bound=true;
     $("cats").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;const c=b.dataset.c;active.has(c)?active.delete(c):active.add(c);b.setAttribute("aria-pressed",active.has(c));redrawGames();render()};
     $("games").onclick=e=>{const b=e.target.closest("[data-g]");if(!b)return;game=b.dataset.g===game?"":b.dataset.g;redrawGames();render()};
-    ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",render));
+    ["q","team","strict","stat","feel","sort"].forEach(i=>$(i).addEventListener("input",()=>{if(i==="stat")syncFeel();render()}));
     $("rec0").addEventListener("input",()=>{syncRecent(true);render()});
     $("rec1").addEventListener("input",()=>{syncRecent(false);render()});
     syncRecent(true);
     $("grades").onclick=e=>{const b=e.target.closest("[data-gr]");if(!b)return;const g=b.dataset.gr;grades.has(g)?grades.delete(g):grades.add(g);b.setAttribute("aria-pressed",grades.has(g));render()};
-    $("reset").onclick=()=>{grades=new Set(GRADES);active=new Set(CATS);game="";
-      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");resetRecent();
-      document.querySelectorAll("#grades [data-gr]").forEach(b=>b.setAttribute("aria-pressed","true"));
+    $("reset").onclick=()=>{grades=new Set();active=new Set(CATS);game="";
+      ["q","team","stat","feel","sort"].forEach(i=>$(i).value="");syncFeel();resetRecent();
+      document.querySelectorAll("#grades [data-gr]").forEach(b=>b.setAttribute("aria-pressed","false"));
       drawChips();render()};
     $("csv").onclick=()=>copy(csv(),"CSV");
     $("json").onclick=()=>copy(JSON.stringify({...slate,entries:filtered()},null,1),"JSON");
     $("date").onchange=e=>load(e.target.value);
   }
-  slate=null;game="";active=new Set(CATS);grades=new Set(GRADES);$("feel").value="";$("sort").value="";resetRecent();$("stat").innerHTML="";$("grades").innerHTML="";
+  slate=null;game="";active=new Set(CATS);grades=new Set();$("feel").value="";$("sort").value="";resetRecent();$("stat").innerHTML="";$("grades").innerHTML="";
   $("h1").textContent=`${SPORTS[sport].name} backstories`;
   $("sub").textContent="Loading\u2026";$("list").innerHTML="";$("cats").innerHTML="";$("games").innerHTML="";$("date").innerHTML="";$("q").value="";
   try{
