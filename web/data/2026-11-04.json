@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-03T14:09:03Z",
+ "generated_at": "2026-11-03T17:14:22Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -33,6 +33,7 @@
      "headline": "Feud history with Jaylen Brown.",
      "reason": "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\"",
      "detail": "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\"",
+     "when": "2024-02-11",
      "with": "Jaylen Brown",
      "with_id": 3917376,
      "with_team": "PHI",
@@ -378,6 +379,7 @@
      "headline": "Feud history with Duncan Robinson.",
      "reason": "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\"",
      "detail": "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\"",
+     "when": "2024-02-11",
      "with": "Duncan Robinson",
      "with_id": 3157465,
      "with_team": "DET",
@@ -723,6 +725,7 @@
      "how_left": "Traded to the Hawks for Trae Young (Jan 9, 2026).",
      "detail": "Faces the Wizards, who traded him on Jan 9, 2026. Traded to the Hawks for Trae Young (Jan 9, 2026).",
      "games_with_team": "311 games with the Wizards",
+     "when": "2026-01-09",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -943,6 +946,7 @@
      "how_left": "Traded to the Wizards for Corey Kispert and CJ McCollum (Jan 9, 2026).",
      "detail": "Faces the Hawks, who traded him on Jan 9, 2026. Traded to the Wizards for Corey Kispert and CJ McCollum (Jan 9, 2026).",
      "games_with_team": "493 games with the Hawks",
+     "when": "2026-01-09",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -1148,6 +1152,7 @@
      "how_left": "Traded to the Hawks for Vit Krejci. 2027 2nd-rd pick is ATL own 2030 2nd-rd pick is NYK own Portland received a trade exception (Feb 1, 2026).",
      "detail": "Faces the Trail Blazers, who traded him on Feb 1, 2026. Traded to the Hawks for Vit Krejci. 2027 2nd-rd pick is ATL own 2030 2nd-rd pick is NYK own Portland received a trade exception (Feb 1, 2026).",
      "games_with_team": "146 games with the Trail Blazers",
+     "when": "2026-02-01",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -1353,6 +1358,7 @@
      "how_left": "Waived (Jul 6, 2024).",
      "detail": "Faces the 76ers, who waived him on Jul 6, 2024. Waived (Jul 6, 2024).",
      "games_with_team": "215 games with the 76ers",
+     "when": "2024-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -1644,6 +1650,7 @@
      "how_left": "Traded to the Hawks for Trae Young (Jan 9, 2026).",
      "detail": "Faces the Wizards, who traded him on Jan 9, 2026. Traded to the Hawks for Trae Young (Jan 9, 2026).",
      "games_with_team": "35 games with the Wizards",
+     "when": "2026-01-09",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -1920,6 +1927,7 @@
      "how_left": "Traded to the Suns (Feb 8, 2024).",
      "detail": "Faces the Nets, who traded him on Feb 8, 2024. Traded to the Suns (Feb 8, 2024).",
      "games_with_team": "125 games with the Nets",
+     "when": "2024-02-08",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -2211,6 +2219,7 @@
      "how_left": "Traded to the Cavaliers (Jul 6, 2023).",
      "detail": "Faces the Heat, who traded him on Jul 6, 2023. Traded to the Cavaliers (Jul 6, 2023).",
      "games_with_team": "187 games with the Heat",
+     "when": "2023-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -2470,6 +2479,7 @@
      "how_left": "Traded to the Warriors for Reece Beekman, De'Anthony Melton, a 2026 2nd round draft pick, a 2028 2nd round draft pick and a 2029 2nd round draft pick.... (Dec 15, 2024).",
      "detail": "Faces the Nets, who traded him on Dec 15, 2024. Traded to the Warriors for Reece Beekman, De'Anthony Melton, a 2026 2nd round draft pick, a 2028 2nd round draft pick and a 2029 2nd round draft pick.... (Dec 15, 2024).",
      "games_with_team": "52 games with the Nets",
+     "when": "2024-12-15",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -2746,6 +2756,7 @@
      "how_left": "Traded to the Rockets for Jeremy Lamb, Kevin Martin, a 2013 1st round draft pick, a 2013 2nd round draft pick and a 2014 1st round draft pick (Oct 27, 2012).",
      "detail": "Faces the Thunder, who traded him on Oct 27, 2012. Traded to the Rockets for Jeremy Lamb, Kevin Martin, a 2013 1st round draft pick, a 2013 2nd round draft pick and a 2014 1st round draft pick (Oct 27, 2012).",
      "games_with_team": "220 games with the Thunder",
+     "when": "2012-10-27",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -3037,6 +3048,7 @@
      "how_left": "Traded to the Spurs for Danny Green, Kawhi Leonard and cash. $5MM (Jul 18, 2018).",
      "detail": "Faces the Raptors, who traded him on Jul 18, 2018. Traded to the Spurs for Danny Green, Kawhi Leonard and cash. $5MM (Jul 18, 2018).",
      "games_with_team": "675 games with the Raptors",
+     "when": "2018-07-18",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -3313,6 +3325,7 @@
      "how_left": "Traded to the Kings for Justin Jackson and Zach Randolph (Feb 7, 2019).",
      "detail": "Faces the Mavericks, who traded him on Feb 7, 2019. Traded to the Kings for Justin Jackson and Zach Randolph (Feb 7, 2019).",
      "games_with_team": "205 games with the Mavericks",
+     "when": "2019-02-07",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -3604,6 +3617,7 @@
      "how_left": "Contract ended; signed with the 76ers as a free agent (Jul 7, 2024).",
      "detail": "Faces his former team, the Bulls. He left in free agency in 2024. Contract ended; signed with the 76ers as a free agent (Jul 7, 2024).",
      "games_with_team": "146 games with the Bulls",
+     "when": "2024-07-07",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -3895,6 +3909,7 @@
      "how_left": "Waived (Oct 13, 2022).",
      "detail": "Faces the 76ers, who waived him on Oct 13, 2022. Waived (Oct 13, 2022).",
      "games_with_team": "96 games with the 76ers",
+     "when": "2022-10-13",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -4164,6 +4179,7 @@
      "how_left": "Waived (Nov 22, 2023).",
      "detail": "Faces the Trail Blazers, who waived him on Nov 22, 2023. Waived (Nov 22, 2023).",
      "games_with_team": "6 games with the Trail Blazers",
+     "when": "2023-11-22",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -4414,6 +4430,7 @@
      "how_left": "Contract ended; signed with the Lakers as a free agent (Jul 6, 2023).",
      "detail": "Faces his former team, the Pelicans. He left in free agency in 2023. Contract ended; signed with the Lakers as a free agent (Jul 6, 2023).",
      "games_with_team": "241 games with the Pelicans",
+     "when": "2023-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -4705,6 +4722,7 @@
      "how_left": "Contract ended; signed with the Lakers as a free agent (Jul 6, 2025).",
      "detail": "Faces his former team, the Kings. He left in free agency in 2025. Contract ended; signed with the Lakers as a free agent (Jul 6, 2025).",
      "games_with_team": "19 games with the Kings",
+     "when": "2025-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -4996,6 +5014,7 @@
      "how_left": "Contract ended; signed with the Lakers as a free agent (Jul 13, 2017).",
      "detail": "Faces his former team, the Pistons. He left in free agency in 2017. Contract ended; signed with the Lakers as a free agent (Jul 13, 2017).",
      "games_with_team": "314 games with the Pistons",
+     "when": "2017-07-13",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -5287,6 +5306,7 @@
      "how_left": "How he left isn't confirmed yet.",
      "detail": "Faces his former team, the Grizzlies (2024-25). How he left isn't confirmed yet.",
      "games_with_team": "64 games with the Grizzlies",
+     "when": "2025",
      "sources": [
       {
        "label": "ESPN career history",
@@ -5522,6 +5542,7 @@
      "how_left": "Contract ended; signed with the Kings as a free agent (Jul 6, 2022).",
      "detail": "Faces his former team, the Lakers. He left in free agency in 2022. Contract ended; signed with the Kings as a free agent (Jul 6, 2022).",
      "games_with_team": "76 games with the Lakers",
+     "when": "2022-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -5813,6 +5834,7 @@
      "how_left": "Contract ended; signed with the Trail Blazers as a free agent (Nov 22, 2020).",
      "detail": "Faces his former team, the Heat. He left in free agency in 2020. Contract ended; signed with the Trail Blazers as a free agent (Nov 22, 2020).",
      "games_with_team": "133 games with the Heat",
+     "when": "2020-11-22",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -6078,6 +6100,7 @@
      "how_left": "Contract ended; signed with the Clippers as a free agent (Sep 13, 2021).",
      "detail": "Faces his former team, the Cavaliers. He left in free agency in 2021. Contract ended; signed with the Clippers as a free agent (Sep 13, 2021).",
      "games_with_team": "16 games with the Cavaliers",
+     "when": "2021-09-13",
      "sources": [
       {
        "label": "Basketball-Reference transactions",

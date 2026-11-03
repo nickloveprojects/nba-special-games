@@ -26,7 +26,7 @@
     "temp": 65,
     "wind": 7,
     "gust": 10,
-    "rain": 6
+    "rain": 1
    },
    "weather_text": "65\u00b0F, wind 7 mph",
    "arena": "Arrowhead Stadium",
@@ -168,7 +168,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2026-03-19"
     }
    ],
    "headshot": "img/nfl/players/4362887.png",
@@ -197,7 +198,7 @@
     "temp": 49,
     "wind": 5,
     "gust": 14,
-    "rain": 8
+    "rain": 5
    },
    "weather_text": "49\u00b0F, wind 5 mph",
    "arena": "Gillette Stadium",
@@ -365,7 +366,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2023-08-27"
     }
    ],
    "headshot": "img/nfl/players/4249836.png",
@@ -543,7 +545,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2023-10-10"
     }
    ],
    "headshot": "img/nfl/players/3930066.png",
@@ -761,7 +764,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2020-04-30"
     }
    ],
    "headshot": "img/nfl/players/14012.png",
@@ -942,7 +946,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2026-09-23"
     }
    ],
    "headshot": "img/nfl/players/4569682.png",
@@ -1103,7 +1108,8 @@
        "label": "ESPN transactions",
        "url": "https://www.espn.com/nfl/transactions"
       }
-     ]
+     ],
+     "when": "2026-08-27"
     }
    ],
    "headshot": "img/nfl/players/4369863.png",
@@ -1132,7 +1138,7 @@
     "temp": 54,
     "wind": 6,
     "gust": 14,
-    "rain": 9
+    "rain": 3
    },
    "weather_text": "54\u00b0F, wind 6 mph",
    "arena": "Soldier Field",
@@ -1543,7 +1549,7 @@
     "temp": 49,
     "wind": 5,
     "gust": 14,
-    "rain": 8
+    "rain": 5
    },
    "weather_text": "49\u00b0F, wind 5 mph",
    "arena": "Gillette Stadium",
@@ -1723,7 +1729,8 @@
      "headline": "Former Patriots player.",
      "detail": "Played for the Patriots from 2021 to 2022 (30 games).",
      "how_left": "Played for the Patriots from 2021 to 2022 (30 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
-     "sources": []
+     "sources": [],
+     "when": "2022"
     }
    ],
    "headshot": "img/nfl/players/3054212.png",
@@ -1897,7 +1904,8 @@
      "headline": "Former Bengals player.",
      "detail": "Played for the Bengals in 2024 (8 games).",
      "how_left": "Played for the Bengals in 2024 (8 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Jets (Oct 2, 2025).",
-     "sources": []
+     "sources": [],
+     "when": "2024"
     }
    ],
    "headshot": "img/nfl/players/4035886.png",
@@ -2073,7 +2081,8 @@
      "headline": "Former Saints player.",
      "detail": "Played for the Saints in 2020 (16 games).",
      "how_left": "Played for the Saints in 2020 (16 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
-     "sources": []
+     "sources": [],
+     "when": "2020"
     }
    ],
    "headshot": "img/nfl/players/2515270.png",
@@ -2102,7 +2111,7 @@
     "temp": 58,
     "wind": 9,
     "gust": 13,
-    "rain": 5
+    "rain": 2
    },
    "weather_text": "58\u00b0F, wind 9 mph",
    "arena": "Lincoln Financial Field",
@@ -2305,7 +2314,8 @@
      "headline": "Former Giants player.",
      "detail": "Played for the Giants from 2019 to 2023 (60 games).",
      "how_left": "Played for the Giants from 2019 to 2023 (60 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Eagles (Mar 14, 2024).",
-     "sources": []
+     "sources": [],
+     "when": "2023"
     }
    ],
    "headshot": "img/nfl/players/3929630.png",
@@ -2493,7 +2503,8 @@
      "headline": "Former Colts player.",
      "detail": "Played for the Colts from 2023 to 2025 (33 games).",
      "how_left": "Played for the Colts from 2023 to 2025 (33 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Cowboys (Sep 15, 2026).",
-     "sources": []
+     "sources": [],
+     "when": "2025"
     }
    ],
    "headshot": "img/nfl/players/4429676.png",
@@ -2595,5 +2606,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-03T14:14:11+00:00"
+ "generated_at": "2026-11-03T17:14:30+00:00"
 }

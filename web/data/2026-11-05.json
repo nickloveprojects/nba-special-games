@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-03T14:09:36Z",
+ "generated_at": "2026-11-03T17:14:25Z",
  "season": "2026-27",
  "games": 2,
  "entries": [
@@ -33,6 +33,7 @@
      "how_left": "Traded to the Heat (Feb 6, 2025).",
      "detail": "Faces the Warriors, who traded him on Feb 6, 2025. Traded to the Heat (Feb 6, 2025).",
      "games_with_team": "307 games with the Warriors",
+     "when": "2025-02-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -294,6 +295,7 @@
      "how_left": "Traded to the Warriors (Feb 6, 2025).",
      "detail": "Faces the Heat, who traded him on Feb 6, 2025. Traded to the Warriors (Feb 6, 2025).",
      "games_with_team": "316 games with the Heat",
+     "when": "2025-02-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -512,6 +514,7 @@
      "how_left": "Traded to the Mavericks (Jul 6, 2024).",
      "detail": "Faces the Warriors, who traded him on Jul 6, 2024. Traded to the Mavericks (Jul 6, 2024).",
      "games_with_team": "793 games with the Warriors",
+     "when": "2024-07-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
@@ -803,6 +806,7 @@
      "how_left": "Traded to the Nets for Landry Shamet (Aug 6, 2021).",
      "detail": "Faces the Suns, who traded him on Aug 6, 2021. Traded to the Nets for Landry Shamet (Aug 6, 2021).",
      "games_with_team": "118 games with the Suns",
+     "when": "2021-08-06",
      "sources": [
       {
        "label": "Basketball-Reference transactions",
