@@ -1,6 +1,6 @@
 {
  "week": 9,
- "generated_at": "2026-11-03T18:06:48+00:00",
+ "generated_at": "2026-11-03T18:23:56+00:00",
  "games": [
   {
    "id": "401873037",
@@ -75,7 +75,12 @@
     ],
     "effects": [
      "No weather concerns. Nothing is adjusted in the projections."
-    ]
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -92,7 +97,12 @@
    "report": {
     "indoor": true,
     "hours": [],
-    "effects": []
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -109,7 +119,12 @@
    "report": {
     "indoor": true,
     "hours": [],
-    "effects": []
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -185,7 +200,12 @@
     ],
     "effects": [
      "No weather concerns. Nothing is adjusted in the projections."
-    ]
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -261,7 +281,14 @@
     ],
     "effects": [
      "Breezy (8 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 12 mph"
+     ]
+    }
    }
   },
   {
@@ -278,7 +305,12 @@
    "report": {
     "indoor": true,
     "hours": [],
-    "effects": []
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -354,7 +386,14 @@
     ],
     "effects": [
      "Breezy (14 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 14 mph"
+     ]
+    }
    }
   },
   {
@@ -430,7 +469,14 @@
     ],
     "effects": [
      "Breezy (13 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 13 mph"
+     ]
+    }
    }
   },
   {
@@ -506,7 +552,12 @@
     ],
     "effects": [
      "No weather concerns. Nothing is adjusted in the projections."
-    ]
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -582,7 +633,14 @@
     ],
     "effects": [
      "Breezy (8 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 9 mph"
+     ]
+    }
    }
   },
   {
@@ -658,7 +716,14 @@
     ],
     "effects": [
      "Breezy (12 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 12 mph"
+     ]
+    }
    }
   },
   {
@@ -734,7 +799,14 @@
     ],
     "effects": [
      "No weather concerns. Nothing is adjusted in the projections."
-    ]
+    ],
+    "impact": {
+     "pct": 2,
+     "level": "minor",
+     "drivers": [
+      "wind up to 8 mph"
+     ]
+    }
    }
   },
   {
@@ -810,7 +882,14 @@
     ],
     "effects": [
      "Breezy (10 mph). A small trim is applied to passing and receiving projections."
-    ]
+    ],
+    "impact": {
+     "pct": 2,
+     "level": "minor",
+     "drivers": [
+      "wind up to 10 mph"
+     ]
+    }
    }
   },
   {
@@ -886,7 +965,12 @@
     ],
     "effects": [
      "No weather concerns. Nothing is adjusted in the projections."
-    ]
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   },
   {
@@ -903,7 +987,12 @@
    "report": {
     "indoor": true,
     "hours": [],
-    "effects": []
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
    }
   }
  ]
