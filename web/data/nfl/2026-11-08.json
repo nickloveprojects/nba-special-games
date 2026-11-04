@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 4,
-    "gust": 5,
-    "rain": 1
+    "temp": 55,
+    "wind": 1,
+    "gust": 2,
+    "rain": 0
    },
-   "weather_text": "58\u00b0F, wind 4 mph",
+   "weather_text": "55\u00b0F, wind 1 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -199,12 +199,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 12,
-    "gust": 26,
-    "rain": 4
+    "temp": 50,
+    "wind": 11,
+    "gust": 22,
+    "rain": 6
    },
-   "weather_text": "49\u00b0F, wind 12 mph",
+   "weather_text": "50\u00b0F, wind 11 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -304,21 +304,21 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "NE gives up the 20th-most rushing yards to running backs (82.2 a game, 8 games).",
-     "rec_yds": "NE gives up the 13th-most receiving yards to running backs (31 a game, 8 games)."
+     "rush_yds": "NE gives up the 19th-most rushing yards to running backs (82.2 a game, 8 games).",
+     "rec_yds": "NE gives up the 12th-most receiving yards to running backs (31 a game, 8 games)."
     },
     "group": "RB",
     "games": 8,
     "stats": {
      "rush_yds": {
       "value": 82.2,
-      "rank": 20,
+      "rank": 19,
       "of": 32,
       "color": "yellow"
      },
      "rec_yds": {
       "value": 31.0,
-      "rank": 13,
+      "rank": 12,
       "of": 32,
       "color": "yellow"
      }
@@ -327,11 +327,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 50,
+    "score": 53,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
-    "note": "NE gives up the 13th-most receiving yards to running backs (31 a game, 8 games)."
+    "note": "NE gives up the 12th-most receiving yards to running backs (31 a game, 8 games)."
    },
    "career": [],
    "projection": {
@@ -401,12 +401,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 13,
-    "gust": 21,
-    "rain": 0
+    "temp": 59,
+    "wind": 12,
+    "gust": 18,
+    "rain": 1
    },
-   "weather_text": "60\u00b0F, wind 13 mph",
+   "weather_text": "59\u00b0F, wind 12 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -513,21 +513,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games).",
-     "rec": "LAR gives up the 30th-most catches to receivers (8 a game, 8 games)."
+     "rec_yds": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games).",
+     "rec": "LAR gives up the 31st-most catches to receivers (7.4 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
     "stats": {
      "rec_yds": {
-      "value": 96.5,
-      "rank": 28,
+      "value": 90.6,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 8.0,
-      "rank": 30,
+      "value": 7.4,
+      "rank": 31,
       "of": 32,
       "color": "red"
      }
@@ -536,11 +536,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 5,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -789,192 +789,6 @@
    "opponent_logo": "img/nfl/teams/CIN.png"
   },
   {
-   "player_id": 4569682,
-   "name": "Audric Estime",
-   "team": "CLE",
-   "team_name": "Browns",
-   "team_color": "#472a08",
-   "team_alt": "#ff3c00",
-   "opponent": "NO",
-   "opponent_name": "Saints",
-   "opponent_color": "#d3bc8d",
-   "position": "RB",
-   "jersey": "36",
-   "home_away": "away",
-   "game_id": "401873039",
-   "game_kind": "Regular season",
-   "tip": "1:00 PM ET",
-   "tip_utc": "2026-11-08T18:00:00+00:00",
-   "weather": {
-    "indoor": true
-   },
-   "weather_text": "Indoors",
-   "arena": "Caesars Superdome",
-   "location": "New Orleans, LA",
-   "categories": [
-    "Revenge"
-   ],
-   "summary": "Faces the Saints, who released him.",
-   "score": 4.0,
-   "stats": {},
-   "status_note": "",
-   "espn_url": "https://www.espn.com/nfl/player/_/id/4569682",
-   "recent": {
-    "cols": [
-     "ATT",
-     "YDS",
-     "TD",
-     "REC",
-     "REC YDS"
-    ],
-    "form": {
-     "n": 5,
-     "text": "avg 41.2 rush yds, 0.4 TD, 2.4 rec",
-     "games": [
-      {
-       "date": "2026-10-18",
-       "home": true,
-       "opp": "BAL",
-       "result": "W",
-       "cells": [
-        "9",
-        "19",
-        "1",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2026-01-04",
-       "home": false,
-       "opp": "ATL",
-       "result": "L",
-       "cells": [
-        "21",
-        "63",
-        "0",
-        "5",
-        "43"
-       ]
-      },
-      {
-       "date": "2025-12-28",
-       "home": false,
-       "opp": "TEN",
-       "result": "W",
-       "cells": [
-        "14",
-        "94",
-        "1",
-        "1",
-        "4"
-       ]
-      },
-      {
-       "date": "2025-12-21",
-       "home": true,
-       "opp": "NYJ",
-       "result": "W",
-       "cells": [
-        "5",
-        "19",
-        "0",
-        "3",
-        "17"
-       ]
-      },
-      {
-       "date": "2025-12-14",
-       "home": true,
-       "opp": "CAR",
-       "result": "W",
-       "cells": [
-        "3",
-        "11",
-        "0",
-        "3",
-        "39"
-       ]
-      }
-     ]
-    },
-    "vs": {
-     "opp": "NO",
-     "n": 1,
-     "text": "avg 29 rush yds, 0 TD, 0 rec",
-     "games": [
-      {
-       "date": "2024-10-17",
-       "home": false,
-       "opp": "NO",
-       "result": "W",
-       "cells": [
-        "5",
-        "29",
-        "0",
-        "0",
-        "0"
-       ]
-      }
-     ],
-     "note": "No games vs NO in his NFL career so far."
-    }
-   },
-   "matchup": {
-    "notes": {
-     "rush_yds": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games).",
-     "rec_yds": "NO gives up the 14th-most receiving yards to running backs (30.9 a game, 7 games)."
-    },
-    "group": "RB",
-    "games": 7,
-    "stats": {
-     "rush_yds": {
-      "value": 101.4,
-      "rank": 9,
-      "of": 32,
-      "color": "green"
-     },
-     "rec_yds": {
-      "value": 30.9,
-      "rank": 14,
-      "of": 32,
-      "color": "yellow"
-     }
-    },
-    "labels": {
-     "rush_yds": "RUSH YDS",
-     "rec_yds": "REC YDS"
-    },
-    "score": 66,
-    "grade": "B",
-    "color": "yellow",
-    "best": "rush_yds",
-    "note": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games)."
-   },
-   "career": [],
-   "projection": null,
-   "tags": [
-    {
-     "category": "Revenge",
-     "kind": "waived",
-     "confidence": "high",
-     "headline": "Released by the Saints.",
-     "detail": "Played for the Saints in 2025 (7 games).",
-     "how_left": "Waived RB Audric Estime. (Sep 23, 2026)",
-     "sources": [
-      {
-       "label": "ESPN transactions",
-       "url": "https://www.espn.com/nfl/transactions"
-      }
-     ],
-     "when": "2026-09-23"
-    }
-   ],
-   "headshot": "img/nfl/players/4569682.png",
-   "team_logo": "img/nfl/teams/CLE.png",
-   "opponent_logo": "img/nfl/teams/NO.png"
-  },
-  {
    "player_id": 4369863,
    "name": "Cedric Tillman",
    "team": "NO",
@@ -1088,21 +902,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "CLE gives up the 20th-most receiving yards to receivers (123.5 a game, 8 games).",
-     "rec": "CLE gives up the 19th-most catches to receivers (9.6 a game, 8 games)."
+     "rec_yds": "CLE gives up the 19th-most receiving yards to receivers (123.5 a game, 8 games).",
+     "rec": "CLE gives up the 17th-most catches to receivers (9.6 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
     "stats": {
      "rec_yds": {
       "value": 123.5,
-      "rank": 20,
+      "rank": 19,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
       "value": 9.6,
-      "rank": 19,
+      "rank": 17,
       "of": 32,
       "color": "yellow"
      }
@@ -1111,11 +925,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 40,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "rec",
-    "note": "CLE gives up the 19th-most catches to receivers (9.6 a game, 8 games)."
+    "note": "CLE gives up the 17th-most catches to receivers (9.6 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -1159,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 5,
-    "gust": 15,
-    "rain": 2
+    "temp": 51,
+    "wind": 6,
+    "gust": 16,
+    "rain": 1
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "51\u00b0F, wind 6 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1265,7 +1079,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "CHI gives up the 24th-most rushing yards to running backs (70.2 a game, 8 games).",
-     "rec_yds": "CHI gives up the 22nd-most receiving yards to running backs (24.6 a game, 8 games)."
+     "rec_yds": "CHI gives up the 21st-most receiving yards to running backs (24.6 a game, 8 games)."
     },
     "group": "RB",
     "games": 8,
@@ -1278,20 +1092,20 @@
      },
      "rec_yds": {
       "value": 24.6,
-      "rank": 22,
+      "rank": 21,
       "of": 32,
-      "color": "red"
+      "color": "yellow"
      }
     },
     "labels": {
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 29,
+    "score": 31,
     "grade": "D",
     "color": "red",
     "best": "rec_yds",
-    "note": "CHI gives up the 22nd-most receiving yards to running backs (24.6 a game, 8 games)."
+    "note": "CHI gives up the 21st-most receiving yards to running backs (24.6 a game, 8 games)."
    },
    "career": [],
    "projection": {
@@ -1300,7 +1114,7 @@
       "label": "Rush yds",
       "proj": 87,
       "lo": 29,
-      "hi": 169
+      "hi": 170
      },
      {
       "label": "Rec",
@@ -1359,12 +1173,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 13,
-    "gust": 21,
-    "rain": 0
+    "temp": 59,
+    "wind": 12,
+    "gust": 18,
+    "rain": 1
    },
-   "weather_text": "60\u00b0F, wind 13 mph",
+   "weather_text": "59\u00b0F, wind 12 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1483,21 +1297,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games).",
-     "rec": "LAR gives up the 30th-most catches to receivers (8 a game, 8 games)."
+     "rec_yds": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games).",
+     "rec": "LAR gives up the 31st-most catches to receivers (7.4 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
     "stats": {
      "rec_yds": {
-      "value": 96.5,
-      "rank": 28,
+      "value": 90.6,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 8.0,
-      "rank": 30,
+      "value": 7.4,
+      "rank": 31,
       "of": 32,
       "color": "red"
      }
@@ -1506,11 +1320,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 5,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 28th-most receiving yards to receivers (96.5 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games)."
    },
    "career": [
     {
@@ -1523,21 +1337,21 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 3.9,
-      "lo": 2.6,
-      "hi": 5.2
+      "proj": 3.8,
+      "lo": 2.5,
+      "hi": 5.0
      },
      {
       "label": "Rec yds",
-      "proj": 39,
+      "proj": 38,
       "lo": 29,
-      "hi": 46
+      "hi": 45
      }
     ],
     "games_used": 6,
     "sims": 1000,
     "weather_factor": 0.97,
-    "opp_factor": 0.88,
+    "opp_factor": 0.86,
     "locked": false
    },
    "tags": [
@@ -1578,12 +1392,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 12,
-    "gust": 26,
-    "rain": 4
+    "temp": 50,
+    "wind": 11,
+    "gust": 22,
+    "rain": 6
    },
-   "weather_text": "49\u00b0F, wind 12 mph",
+   "weather_text": "50\u00b0F, wind 11 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1905,7 +1719,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "CIN gives up the 19th-most rushing yards to running backs (85.7 a game, 7 games).",
+     "rush_yds": "CIN gives up the 18th-most rushing yards to running backs (85.7 a game, 7 games).",
      "rec_yds": "CIN gives up the 16th-most receiving yards to running backs (29.9 a game, 7 games)."
     },
     "group": "RB",
@@ -1913,7 +1727,7 @@
     "stats": {
      "rush_yds": {
       "value": 85.7,
-      "rank": 19,
+      "rank": 18,
       "of": 32,
       "color": "yellow"
      },
@@ -1928,7 +1742,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 47,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
@@ -2086,21 +1900,21 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games).",
-     "rec_yds": "NO gives up the 14th-most receiving yards to running backs (30.9 a game, 7 games)."
+     "rush_yds": "NO gives up the 7th-most rushing yards to running backs (101.4 a game, 7 games).",
+     "rec_yds": "NO gives up the 13th-most receiving yards to running backs (30.9 a game, 7 games)."
     },
     "group": "RB",
     "games": 7,
     "stats": {
      "rush_yds": {
       "value": 101.4,
-      "rank": 9,
+      "rank": 7,
       "of": 32,
       "color": "green"
      },
      "rec_yds": {
       "value": 30.9,
-      "rank": 14,
+      "rank": 13,
       "of": 32,
       "color": "yellow"
      }
@@ -2109,11 +1923,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 66,
+    "score": 71,
     "grade": "B",
-    "color": "yellow",
+    "color": "green",
     "best": "rush_yds",
-    "note": "NO gives up the 9th-most rushing yards to running backs (101.4 a game, 7 games)."
+    "note": "NO gives up the 7th-most rushing yards to running backs (101.4 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -2153,11 +1967,11 @@
    "weather": {
     "indoor": false,
     "temp": 58,
-    "wind": 14,
-    "gust": 22,
-    "rain": 0
+    "wind": 12,
+    "gust": 18,
+    "rain": 2
    },
-   "weather_text": "58\u00b0F, wind 14 mph",
+   "weather_text": "58\u00b0F, wind 12 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2297,20 +2111,20 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "NYG gives up the 15th-most rushing yards to running backs (88.9 a game, 7 games).",
-     "rec_yds": "NYG gives up the 25th-most receiving yards to running backs (20.6 a game, 7 games)."
+     "rush_yds": "NYG gives up the 21st-most rushing yards to running backs (79.9 a game, 7 games).",
+     "rec_yds": "NYG gives up the 25th-most receiving yards to running backs (21.7 a game, 7 games)."
     },
     "group": "RB",
     "games": 7,
     "stats": {
      "rush_yds": {
-      "value": 88.9,
-      "rank": 15,
+      "value": 79.9,
+      "rank": 21,
       "of": 32,
       "color": "yellow"
      },
      "rec_yds": {
-      "value": 20.6,
+      "value": 21.7,
       "rank": 25,
       "of": 32,
       "color": "red"
@@ -2320,20 +2134,20 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 39,
+    "score": 29,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "rush_yds",
-    "note": "NYG gives up the 15th-most rushing yards to running backs (88.9 a game, 7 games)."
+    "note": "NYG gives up the 21st-most rushing yards to running backs (79.9 a game, 7 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 58,
+      "proj": 56,
       "lo": 0,
-      "hi": 119
+      "hi": 113
      },
      {
       "label": "Rec",
@@ -2345,13 +2159,13 @@
       "label": "Rec yds",
       "proj": 8,
       "lo": 0,
-      "hi": 26
+      "hi": 27
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.97,
-    "opp_factor": 1.01,
+    "opp_factor": 0.97,
     "locked": false
    },
    "tags": [
@@ -2544,7 +2358,7 @@
     "games_used": 6,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.04,
+    "opp_factor": 1.05,
     "locked": false
    },
    "tags": [
@@ -2658,5 +2472,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-03T22:29:37+00:00"
+ "generated_at": "2026-11-04T14:11:59+00:00"
 }

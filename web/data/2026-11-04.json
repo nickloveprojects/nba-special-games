@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-03T22:29:11Z",
+ "generated_at": "2026-11-04T14:11:23Z",
  "season": "2026-27",
  "games": 14,
  "entries": [
@@ -98,11 +98,11 @@
    ],
    "score": 18,
    "stats": {
-    "gp": 6,
-    "min": 29.7,
-    "pts": 16.8,
+    "gp": 7,
+    "min": 30.0,
+    "pts": 17.9,
     "reb": 2.0,
-    "ast": 2.2
+    "ast": 2.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3157465",
    "recent": {
@@ -975,11 +975,11 @@
    ],
    "score": 16.0,
    "stats": {
-    "gp": 6,
-    "min": 36.3,
-    "pts": 20.7,
-    "reb": 3.7,
-    "ast": 10.2
+    "gp": 7,
+    "min": 36.0,
+    "pts": 19.9,
+    "reb": 3.6,
+    "ast": 10.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277905",
    "recent": {
@@ -1398,11 +1398,11 @@
    ],
    "score": 15.2,
    "stats": {
-    "gp": 6,
-    "min": 26.8,
-    "pts": 13.8,
-    "reb": 7.0,
-    "ast": 1.8
+    "gp": 7,
+    "min": 26.9,
+    "pts": 13.4,
+    "reb": 6.7,
+    "ast": 2.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4278562",
    "recent": {
@@ -3130,11 +3130,11 @@
    ],
    "score": 14.0,
    "stats": {
-    "gp": 5,
-    "min": 26.0,
-    "pts": 11.0,
-    "reb": 2.4,
-    "ast": 3.0
+    "gp": 6,
+    "min": 25.0,
+    "pts": 10.7,
+    "reb": 2.0,
+    "ast": 2.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3978",
    "recent": {
@@ -3711,11 +3711,11 @@
    ],
    "score": 13.93,
    "stats": {
-    "gp": 6,
+    "gp": 7,
     "min": 13.3,
-    "pts": 5.8,
-    "reb": 7.3,
-    "ast": 1.5
+    "pts": 5.6,
+    "reb": 7.6,
+    "ast": 1.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6585",
    "recent": {
@@ -6162,12 +6162,8 @@
     "best": "ast",
     "note": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Jones (knee) has been ruled out for Monday's game against the Raptors.",
-    "date": "2026-11-03T06:11Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -7357,11 +7353,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 2,
-    "min": 13.5,
-    "pts": 5.0,
-    "reb": 2.5,
-    "ast": 2.5
+    "gp": 3,
+    "min": 12.0,
+    "pts": 3.3,
+    "reb": 1.7,
+    "ast": 1.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277869",
    "recent": {
@@ -7658,11 +7654,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 6,
-    "min": 31.7,
-    "pts": 21.8,
-    "reb": 13.5,
-    "ast": 3.2
+    "gp": 7,
+    "min": 32.1,
+    "pts": 20.3,
+    "reb": 13.9,
+    "ast": 3.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3136195",
    "recent": {
@@ -7955,11 +7951,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 3,
-    "min": 13.0,
-    "pts": 2.7,
-    "reb": 6.7,
-    "ast": 1.0
+    "gp": 4,
+    "min": 10.3,
+    "pts": 2.0,
+    "reb": 5.3,
+    "ast": 0.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5105555",
    "recent": {
@@ -8389,11 +8385,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 2,
-    "min": 17.5,
-    "pts": 5.0,
-    "reb": 6.0,
-    "ast": 4.0
+    "gp": 3,
+    "min": 20.0,
+    "pts": 8.0,
+    "reb": 4.7,
+    "ast": 3.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4601023",
    "recent": {
@@ -8648,9 +8644,7 @@
    }
   }
  ],
- "warnings": [
-  "No games on 2026-11-03; showing next game day 2026-11-04"
- ],
+ "warnings": [],
  "matchups": [
   {
    "away": "PHI",
