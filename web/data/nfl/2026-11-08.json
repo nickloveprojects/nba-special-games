@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 62,
+    "temp": 64,
     "wind": 8,
-    "gust": 12,
+    "gust": 11,
     "rain": 0
    },
-   "weather_text": "62\u00b0F, wind 8 mph",
+   "weather_text": "64\u00b0F, wind 8 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -199,12 +199,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 7,
-    "gust": 14,
-    "rain": 4
+    "temp": 49,
+    "wind": 12,
+    "gust": 28,
+    "rain": 2
    },
-   "weather_text": "47\u00b0F, wind 7 mph",
+   "weather_text": "49\u00b0F, wind 12 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -344,20 +344,20 @@
      },
      {
       "label": "Rec",
-      "proj": 1.8,
+      "proj": 1.7,
       "lo": 0.0,
-      "hi": 4.9
+      "hi": 4.8
      },
      {
       "label": "Rec yds",
       "proj": 13,
       "lo": 0,
-      "hi": 52
+      "hi": 51
      }
     ],
     "games_used": 4,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 0.98,
     "locked": false
    },
@@ -402,11 +402,11 @@
    "weather": {
     "indoor": false,
     "temp": 61,
-    "wind": 14,
-    "gust": 19,
+    "wind": 13,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 14 mph",
+   "weather_text": "61\u00b0F, wind 13 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 54,
-    "wind": 9,
-    "gust": 7,
+    "temp": 56,
+    "wind": 10,
+    "gust": 25,
     "rain": 0
    },
-   "weather_text": "54\u00b0F, wind 9 mph",
+   "weather_text": "56\u00b0F, wind 10 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1174,11 +1174,11 @@
    "weather": {
     "indoor": false,
     "temp": 61,
-    "wind": 14,
-    "gust": 19,
+    "wind": 13,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 14 mph",
+   "weather_text": "61\u00b0F, wind 13 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1392,12 +1392,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 7,
-    "gust": 14,
-    "rain": 4
+    "temp": 49,
+    "wind": 12,
+    "gust": 28,
+    "rain": 2
    },
-   "weather_text": "47\u00b0F, wind 7 mph",
+   "weather_text": "49\u00b0F, wind 12 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1787,12 +1787,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
+    "temp": 60,
     "wind": 14,
-    "gust": 17,
-    "rain": 1
+    "gust": 20,
+    "rain": 0
    },
-   "weather_text": "59\u00b0F, wind 14 mph",
+   "weather_text": "60\u00b0F, wind 14 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2293,5 +2293,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-05T14:19:42+00:00"
+ "generated_at": "2026-11-05T22:34:33+00:00"
 }
