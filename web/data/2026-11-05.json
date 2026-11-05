@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-04T22:34:51Z",
+ "generated_at": "2026-11-05T14:17:59Z",
  "season": "2026-27",
  "games": 2,
  "entries": [
@@ -54,6 +54,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909935",
+       "date": "2026-11-04",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "MIA",
+       "home": false,
+       "result": "W",
+       "score": "117-116 OT",
+       "min": 23,
+       "pts": 3,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      },
       {
        "gid": "401909921",
        "date": "2026-11-02",
@@ -113,28 +128,13 @@
        "reb": 3,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909853",
-       "date": "2026-10-24",
-       "venue": "CHA",
-       "opp": "CHA",
-       "tm": "MIA",
-       "home": false,
-       "result": "L",
-       "score": "115-110",
-       "min": 18,
-       "pts": 4,
-       "reb": 1,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 10.6,
-     "reb": 1.6,
+     "pts": 10.4,
+     "reb": 2.2,
      "ast": 1.4,
-     "min": 27.0
+     "min": 28.0
     },
     "vs": {
      "opp": "GSW",
@@ -198,37 +198,37 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 17th-most points to forwards (41.6 a game, 8 games).",
-     "reb": "GSW gives up the 19th-most rebounds to forwards (18.0 a game, 8 games).",
-     "ast": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+     "pts": "GSW gives up the 18th-most points to forwards (41.6 a game, 8 games).",
+     "reb": "GSW gives up the 21st-most rebounds to forwards (18.0 a game, 8 games).",
+     "ast": "GSW gives up the 16th-most assists to forwards (8.0 a game, 8 games)."
     },
     "group": "F",
     "games": 8,
     "stats": {
      "pts": {
       "value": 41.6,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 18.0,
-      "rank": 19,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
       "value": 8.0,
-      "rank": 15,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+    "note": "GSW gives up the 16th-most assists to forwards (8.0 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -248,24 +248,24 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 12,
-      "lo": 4,
+      "proj": 11,
+      "lo": 3,
       "hi": 19
      },
      {
       "label": "Reb",
-      "proj": 3.0,
+      "proj": 3.1,
       "lo": 0,
       "hi": 9
      },
      {
       "label": "Ast",
-      "proj": 1.8,
+      "proj": 1.7,
       "lo": 1,
       "hi": 2
      }
     ],
-    "games_used": 7,
+    "games_used": 8,
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.0,
@@ -445,37 +445,37 @@
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
     "notes": {
-     "pts": "MIA gives up the 14th-most points to forwards (42.6 a game, 7 games).",
-     "reb": "MIA gives up the 14th-most rebounds to forwards (19.1 a game, 7 games).",
-     "ast": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
+     "pts": "MIA gives up the 17th-most points to forwards (41.9 a game, 8 games).",
+     "reb": "MIA gives up the 14th-most rebounds to forwards (19.5 a game, 8 games).",
+     "ast": "MIA gives up the 4th-most assists to forwards (10.2 a game, 8 games)."
     },
     "group": "F",
-    "games": 7,
+    "games": 8,
     "stats": {
      "pts": {
-      "value": 42.6,
-      "rank": 14,
+      "value": 41.9,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 19.1,
+      "value": 19.5,
       "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 10.1,
-      "rank": 3,
+      "value": 10.2,
+      "rank": 4,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 68,
+    "score": 63,
     "grade": "B",
-    "color": "green",
+    "color": "yellow",
     "best": "ast",
-    "note": "MIA gives up the 3rd-most assists to forwards (10.1 a game, 7 games)."
+    "note": "MIA gives up the 4th-most assists to forwards (10.2 a game, 8 games)."
    },
    "injury": {
     "status": "Out",
@@ -548,6 +548,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909935",
+       "date": "2026-11-04",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "MIA",
+       "home": false,
+       "result": "W",
+       "score": "117-116 OT",
+       "min": 35,
+       "pts": 30,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      },
+      {
        "gid": "401909921",
        "date": "2026-11-02",
        "venue": "LAL",
@@ -606,28 +621,13 @@
        "reb": 1,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909853",
-       "date": "2026-10-24",
-       "venue": "CHA",
-       "opp": "CHA",
-       "tm": "MIA",
-       "home": false,
-       "result": "L",
-       "score": "115-110",
-       "min": 27,
-       "pts": 14,
-       "reb": 3,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 13.4,
-     "reb": 1.2,
-     "ast": 1.4,
-     "min": 22.4
+     "pts": 16.6,
+     "reb": 1.6,
+     "ast": 2.0,
+     "min": 24.0
     },
     "vs": {
      "opp": "GSW",
@@ -722,8 +722,8 @@
    "matchup": {
     "notes": {
      "pts": "GSW gives up the 7th-most points to guards (61.6 a game, 8 games).",
-     "reb": "GSW gives up the 15th-most rebounds to guards (15.9 a game, 8 games).",
-     "ast": "GSW gives up the 12th-most assists to guards (16.4 a game, 8 games)."
+     "reb": "GSW gives up the 13th-most rebounds to guards (15.9 a game, 8 games).",
+     "ast": "GSW gives up the 10th-most assists to guards (16.4 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
@@ -736,20 +736,20 @@
      },
      "reb": {
       "value": 15.9,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 16.4,
-      "rank": 12,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
-    "score": 64,
+    "score": 69,
     "grade": "B",
-    "color": "yellow",
+    "color": "green",
     "best": "pts",
     "note": "GSW gives up the 7th-most points to guards (61.6 a game, 8 games)."
    },
@@ -771,25 +771,25 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 12,
+      "proj": 15,
       "lo": 3,
-      "hi": 25
+      "hi": 30
      },
      {
       "label": "Reb",
-      "proj": 1.3,
+      "proj": 1.8,
       "lo": 0,
-      "hi": 3
+      "hi": 5
      },
      {
       "label": "Ast",
-      "proj": 1.3,
+      "proj": 1.6,
       "lo": 0,
       "hi": 3
      }
     ],
-    "games_used": 7,
-    "minutes": 22,
+    "games_used": 8,
+    "minutes": 24,
     "sims": 1000,
     "opp_factor": 1.01,
     "locked": false
@@ -974,37 +974,37 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 1st-most points to guards (72.0 a game, 5 games).",
-     "reb": "PHX gives up the 9th-most rebounds to guards (17.0 a game, 5 games).",
-     "ast": "PHX gives up the 21st-most assists to guards (14.6 a game, 5 games)."
+     "pts": "PHX gives up the 1st-most points to guards (70.2 a game, 6 games).",
+     "reb": "PHX gives up the 7th-most rebounds to guards (16.8 a game, 6 games).",
+     "ast": "PHX gives up the 20th-most assists to guards (14.3 a game, 6 games)."
     },
     "group": "G",
-    "games": 5,
+    "games": 6,
     "stats": {
      "pts": {
-      "value": 72.0,
+      "value": 70.2,
       "rank": 1,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 17.0,
-      "rank": 9,
+      "value": 16.8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 14.6,
-      "rank": 21,
+      "value": 14.3,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 68,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "PHX gives up the 1st-most points to guards (72.0 a game, 5 games)."
+    "note": "PHX gives up the 1st-most points to guards (70.2 a game, 6 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1026,7 +1026,7 @@
       "label": "Pts",
       "proj": 6,
       "lo": 0,
-      "hi": 12
+      "hi": 13
      },
      {
       "label": "Reb",
@@ -1102,6 +1102,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909932",
+       "date": "2026-11-04",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "132-119",
+       "min": 3,
+       "pts": 2,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909873",
        "date": "2026-10-26",
        "venue": "OKC",
@@ -1132,11 +1147,11 @@
        "playoff": false
       }
      ],
-     "n": 2,
+     "n": 3,
      "pts": 2.0,
-     "reb": 0.5,
+     "reb": 0.7,
      "ast": 0.0,
-     "min": 5.0
+     "min": 4.3
     },
     "vs": {
      "opp": "ORL",
@@ -1155,8 +1170,8 @@
    "matchup": {
     "notes": {
      "pts": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games).",
-     "reb": "ORL gives up the 18th-most rebounds to forwards (18.1 a game, 7 games).",
-     "ast": "ORL gives up the 2nd-most assists to forwards (10.7 a game, 7 games)."
+     "reb": "ORL gives up the 20th-most rebounds to forwards (18.1 a game, 7 games).",
+     "ast": "ORL gives up the 1st-most assists to forwards (10.7 a game, 7 games)."
     },
     "group": "F",
     "games": 7,
@@ -1169,26 +1184,37 @@
      },
      "reb": {
       "value": 18.1,
-      "rank": 18,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 10.7,
-      "rank": 2,
+      "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 78,
+    "score": 77,
     "grade": "B",
     "color": "green",
-    "best": "pts",
-    "note": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games)."
+    "best": "ast",
+    "note": "ORL gives up the 1st-most assists to forwards (10.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
-   "career": [],
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 1 time (avg 2.0 pts, 1.0 reb, 0.0 ast).",
+     "n": 1,
+     "pts": 2.0,
+     "reb": 1.0,
+     "ast": 0.0,
+     "scope": ""
+    }
+   ],
    "projection": null
   },
   {
@@ -1244,6 +1270,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909932",
+       "date": "2026-11-04",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "132-119",
+       "min": 23,
+       "pts": 9,
+       "reb": 7,
+       "ast": 7,
+       "playoff": false
+      },
       {
        "gid": "401909919",
        "date": "2026-11-02",
@@ -1303,28 +1344,13 @@
        "reb": 8,
        "ast": 4,
        "playoff": true
-      },
-      {
-       "gid": "401869370",
-       "date": "2026-04-25",
-       "venue": "PHX",
-       "opp": "OKC",
-       "tm": "PHX",
-       "home": true,
-       "result": "L",
-       "score": "121-109",
-       "min": 39,
-       "pts": 15,
-       "reb": 3,
-       "ast": 4,
-       "playoff": true
       }
      ],
      "n": 5,
-     "pts": 9.4,
-     "reb": 5.0,
-     "ast": 3.6,
-     "min": 26.6
+     "pts": 8.2,
+     "reb": 5.8,
+     "ast": 4.2,
+     "min": 23.4
     },
     "vs": {
      "opp": "ORL",
@@ -1404,8 +1430,8 @@
    "matchup": {
     "notes": {
      "pts": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games).",
-     "reb": "ORL gives up the 18th-most rebounds to forwards (18.1 a game, 7 games).",
-     "ast": "ORL gives up the 2nd-most assists to forwards (10.7 a game, 7 games)."
+     "reb": "ORL gives up the 20th-most rebounds to forwards (18.1 a game, 7 games).",
+     "ast": "ORL gives up the 1st-most assists to forwards (10.7 a game, 7 games)."
     },
     "group": "F",
     "games": 7,
@@ -1418,22 +1444,22 @@
      },
      "reb": {
       "value": 18.1,
-      "rank": 18,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 10.7,
-      "rank": 2,
+      "rank": 1,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 78,
+    "score": 77,
     "grade": "B",
     "color": "green",
-    "best": "pts",
-    "note": "ORL gives up the 2nd-most points to forwards (52.7 a game, 7 games)."
+    "best": "ast",
+    "note": "ORL gives up the 1st-most assists to forwards (10.7 a game, 7 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1441,11 +1467,11 @@
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 75 times (avg 5.6 pts, 4.6 reb, 1.8 ast).",
-     "n": 75,
-     "pts": 5.6,
+     "text": "Has played in his hometown area 76 times (avg 5.7 pts, 4.6 reb, 1.9 ast).",
+     "n": 76,
+     "pts": 5.7,
      "reb": 4.6,
-     "ast": 1.8,
+     "ast": 1.9,
      "scope": ""
     }
    ],
@@ -1459,18 +1485,18 @@
      },
      {
       "label": "Reb",
-      "proj": 5.1,
+      "proj": 5.4,
       "lo": 2,
       "hi": 9
      },
      {
       "label": "Ast",
-      "proj": 3.2,
+      "proj": 3.7,
       "lo": 1,
-      "hi": 5
+      "hi": 7
      }
     ],
-    "games_used": 3,
+    "games_used": 4,
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.03,
@@ -1649,37 +1675,37 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 17th-most points to forwards (41.6 a game, 8 games).",
-     "reb": "GSW gives up the 19th-most rebounds to forwards (18.0 a game, 8 games).",
-     "ast": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+     "pts": "GSW gives up the 18th-most points to forwards (41.6 a game, 8 games).",
+     "reb": "GSW gives up the 21st-most rebounds to forwards (18.0 a game, 8 games).",
+     "ast": "GSW gives up the 16th-most assists to forwards (8.0 a game, 8 games)."
     },
     "group": "F",
     "games": 8,
     "stats": {
      "pts": {
       "value": 41.6,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 18.0,
-      "rank": 19,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
       "value": 8.0,
-      "rank": 15,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "GSW gives up the 15th-most assists to forwards (8.0 a game, 8 games)."
+    "note": "GSW gives up the 16th-most assists to forwards (8.0 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
