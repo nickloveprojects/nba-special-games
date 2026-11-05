@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-05T14:19:19Z",
+ "generated_at": "2026-11-05T22:34:22Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -5273,8 +5273,12 @@
     "best": "reb",
     "note": "BOS gives up the 20th-most rebounds to guards (15.0 a game, 8 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Schroder (thigh) is questionable for Friday's game against the Celtics.",
+    "date": "2026-11-05T22:11Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
