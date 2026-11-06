@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-05T23:07:37Z",
+ "generated_at": "2026-11-06T14:10:30Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -318,7 +318,7 @@
     "notes": {
      "pts": "DAL gives up the 30th-most points to centers (8.1 a game, 8 games).",
      "reb": "DAL gives up the 16th-most rebounds to centers (9.4 a game, 8 games).",
-     "ast": "DAL gives up the 14th-most assists to centers (2.8 a game, 8 games)."
+     "ast": "DAL gives up the 13th-most assists to centers (2.8 a game, 8 games)."
     },
     "group": "C",
     "games": 8,
@@ -337,16 +337,16 @@
      },
      "ast": {
       "value": 2.8,
-      "rank": 14,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 34,
+    "score": 36,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
-    "note": "DAL gives up the 14th-most assists to centers (2.8 a game, 8 games)."
+    "note": "DAL gives up the 13th-most assists to centers (2.8 a game, 8 games)."
    },
    "injury": {
     "status": "Out",
@@ -1730,7 +1730,7 @@
     "notes": {
      "pts": "ATL gives up the 30th-most points to guards (44.1 a game, 9 games).",
      "reb": "ATL gives up the 26th-most rebounds to guards (13.9 a game, 9 games).",
-     "ast": "ATL gives up the 25th-most assists to guards (13.8 a game, 9 games)."
+     "ast": "ATL gives up the 24th-most assists to guards (13.8 a game, 9 games)."
     },
     "group": "G",
     "games": 9,
@@ -1749,16 +1749,16 @@
      },
      "ast": {
       "value": 13.8,
-      "rank": 25,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 10,
+    "score": 11,
     "grade": "F",
     "color": "red",
     "best": "ast",
-    "note": "ATL gives up the 25th-most assists to guards (13.8 a game, 9 games)."
+    "note": "ATL gives up the 24th-most assists to guards (13.8 a game, 9 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2249,8 +2249,8 @@
    "matchup": {
     "notes": {
      "pts": "UTA gives up the 10th-most points to guards (59.0 a game, 8 games).",
-     "reb": "UTA gives up the 20th-most rebounds to guards (15.0 a game, 8 games).",
-     "ast": "UTA gives up the 23rd-most assists to guards (14.1 a game, 8 games)."
+     "reb": "UTA gives up the 19th-most rebounds to guards (15.0 a game, 8 games).",
+     "ast": "UTA gives up the 22nd-most assists to guards (14.1 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
@@ -2263,18 +2263,18 @@
      },
      "reb": {
       "value": 15.0,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 14.1,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 43,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -2521,7 +2521,7 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 10th-most points to guards (59.0 a game, 8 games).",
-     "reb": "DAL gives up the 15th-most rebounds to guards (15.5 a game, 8 games).",
+     "reb": "DAL gives up the 13th-most rebounds to guards (15.5 a game, 8 games).",
      "ast": "DAL gives up the 13th-most assists to guards (16.1 a game, 8 games)."
     },
     "group": "G",
@@ -2535,7 +2535,7 @@
      },
      "reb": {
       "value": 15.5,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
@@ -2546,7 +2546,7 @@
       "color": "yellow"
      }
     },
-    "score": 60,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "pts",
@@ -3116,8 +3116,8 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "notes": {
-     "pts": "WAS gives up the 27th-most points to guards (49.4 a game, 8 games).",
-     "reb": "WAS gives up the 15th-most rebounds to guards (15.5 a game, 8 games).",
+     "pts": "WAS gives up the 28th-most points to guards (49.4 a game, 8 games).",
+     "reb": "WAS gives up the 13th-most rebounds to guards (15.5 a game, 8 games).",
      "ast": "WAS gives up the 12th-most assists to guards (16.2 a game, 8 games)."
     },
     "group": "G",
@@ -3125,13 +3125,13 @@
     "stats": {
      "pts": {
       "value": 49.4,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 15.5,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
@@ -3142,7 +3142,7 @@
       "color": "yellow"
      }
     },
-    "score": 41,
+    "score": 43,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -3338,7 +3338,7 @@
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
     "notes": {
-     "pts": "CLE gives up the 29th-most points to forwards (32.6 a game, 8 games).",
+     "pts": "CLE gives up the 30th-most points to forwards (32.6 a game, 8 games).",
      "reb": "CLE gives up the 30th-most rebounds to forwards (13.5 a game, 8 games).",
      "ast": "CLE gives up the 17th-most assists to forwards (7.6 a game, 8 games)."
     },
@@ -3347,7 +3347,7 @@
     "stats": {
      "pts": {
       "value": 32.6,
-      "rank": 29,
+      "rank": 30,
       "of": 30,
       "color": "red"
      },
@@ -3364,7 +3364,7 @@
       "color": "yellow"
      }
     },
-    "score": 16,
+    "score": 15,
     "grade": "F",
     "color": "red",
     "best": "ast",
@@ -4419,8 +4419,8 @@
    "matchup": {
     "notes": {
      "pts": "TOR gives up the 14th-most points to guards (57.0 a game, 8 games).",
-     "reb": "TOR gives up the 15th-most rebounds to guards (15.5 a game, 8 games).",
-     "ast": "TOR gives up the 9th-most assists to guards (16.5 a game, 8 games)."
+     "reb": "TOR gives up the 13th-most rebounds to guards (15.5 a game, 8 games).",
+     "ast": "TOR gives up the 10th-most assists to guards (16.5 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
@@ -4433,22 +4433,22 @@
      },
      "reb": {
       "value": 15.5,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 16.5,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 60,
+    "score": 61,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "TOR gives up the 9th-most assists to guards (16.5 a game, 8 games)."
+    "note": "TOR gives up the 10th-most assists to guards (16.5 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4944,7 +4944,7 @@
    "matchup": {
     "notes": {
      "pts": "OKC gives up the 19th-most points to guards (54.0 a game, 8 games).",
-     "reb": "OKC gives up the 6th-most rebounds to guards (17.9 a game, 8 games).",
+     "reb": "OKC gives up the 5th-most rebounds to guards (17.9 a game, 8 games).",
      "ast": "OKC gives up the 19th-most assists to guards (14.6 a game, 8 games)."
     },
     "group": "G",
@@ -4958,7 +4958,7 @@
      },
      "reb": {
       "value": 17.9,
-      "rank": 6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
@@ -4969,11 +4969,11 @@
       "color": "yellow"
      }
     },
-    "score": 53,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "OKC gives up the 6th-most rebounds to guards (17.9 a game, 8 games)."
+    "note": "OKC gives up the 5th-most rebounds to guards (17.9 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,
@@ -5241,37 +5241,37 @@
    "opponent_logo": "img/teams/BOS.png",
    "matchup": {
     "notes": {
-     "pts": "BOS gives up the 26th-most points to guards (49.9 a game, 8 games).",
-     "reb": "BOS gives up the 20th-most rebounds to guards (15.0 a game, 8 games).",
-     "ast": "BOS gives up the 21st-most assists to guards (14.2 a game, 8 games)."
+     "pts": "BOS gives up the 27th-most points to guards (49.9 a game, 8 games).",
+     "reb": "BOS gives up the 19th-most rebounds to guards (15.0 a game, 8 games).",
+     "ast": "BOS gives up the 20th-most assists to guards (14.2 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
     "stats": {
      "pts": {
       "value": 49.9,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 15.0,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 14.2,
-      "rank": 21,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 26,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "BOS gives up the 20th-most rebounds to guards (15.0 a game, 8 games)."
+    "note": "BOS gives up the 19th-most rebounds to guards (15.0 a game, 8 games)."
    },
    "injury": {
     "status": "Day-To-Day",
@@ -5543,7 +5543,7 @@
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
     "notes": {
-     "pts": "CLE gives up the 29th-most points to forwards (32.6 a game, 8 games).",
+     "pts": "CLE gives up the 30th-most points to forwards (32.6 a game, 8 games).",
      "reb": "CLE gives up the 30th-most rebounds to forwards (13.5 a game, 8 games).",
      "ast": "CLE gives up the 17th-most assists to forwards (7.6 a game, 8 games)."
     },
@@ -5552,7 +5552,7 @@
     "stats": {
      "pts": {
       "value": 32.6,
-      "rank": 29,
+      "rank": 30,
       "of": 30,
       "color": "red"
      },
@@ -5569,7 +5569,7 @@
       "color": "yellow"
      }
     },
-    "score": 16,
+    "score": 15,
     "grade": "F",
     "color": "red",
     "best": "ast",
@@ -6468,7 +6468,7 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 10th-most points to guards (59.0 a game, 8 games).",
-     "reb": "DAL gives up the 15th-most rebounds to guards (15.5 a game, 8 games).",
+     "reb": "DAL gives up the 13th-most rebounds to guards (15.5 a game, 8 games).",
      "ast": "DAL gives up the 13th-most assists to guards (16.1 a game, 8 games)."
     },
     "group": "G",
@@ -6482,7 +6482,7 @@
      },
      "reb": {
       "value": 15.5,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
@@ -6493,7 +6493,7 @@
       "color": "yellow"
      }
     },
-    "score": 60,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "pts",
@@ -6724,8 +6724,8 @@
    "matchup": {
     "notes": {
      "pts": "UTA gives up the 10th-most points to guards (59.0 a game, 8 games).",
-     "reb": "UTA gives up the 20th-most rebounds to guards (15.0 a game, 8 games).",
-     "ast": "UTA gives up the 23rd-most assists to guards (14.1 a game, 8 games)."
+     "reb": "UTA gives up the 19th-most rebounds to guards (15.0 a game, 8 games).",
+     "ast": "UTA gives up the 22nd-most assists to guards (14.1 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
@@ -6738,18 +6738,18 @@
      },
      "reb": {
       "value": 15.0,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 14.1,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 43,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -7025,8 +7025,8 @@
    "matchup": {
     "notes": {
      "pts": "TOR gives up the 14th-most points to guards (57.0 a game, 8 games).",
-     "reb": "TOR gives up the 15th-most rebounds to guards (15.5 a game, 8 games).",
-     "ast": "TOR gives up the 9th-most assists to guards (16.5 a game, 8 games)."
+     "reb": "TOR gives up the 13th-most rebounds to guards (15.5 a game, 8 games).",
+     "ast": "TOR gives up the 10th-most assists to guards (16.5 a game, 8 games)."
     },
     "group": "G",
     "games": 8,
@@ -7039,22 +7039,22 @@
      },
      "reb": {
       "value": 15.5,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 16.5,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 60,
+    "score": 61,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "TOR gives up the 9th-most assists to guards (16.5 a game, 8 games)."
+    "note": "TOR gives up the 10th-most assists to guards (16.5 a game, 8 games)."
    },
    "injury": null,
    "status_note": null,

@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
+    "temp": 63,
     "wind": 8,
     "gust": 11,
     "rain": 0
    },
-   "weather_text": "64\u00b0F, wind 8 mph",
+   "weather_text": "63\u00b0F, wind 8 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -128,7 +128,7 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "NYJ gives up the 24th-most passing yards to quarterbacks (208.4 a game, 8 games).",
+     "pass_yds": "NYJ gives up the 19th-most passing yards to quarterbacks (208.4 a game, 8 games).",
      "pass_td": "NYJ gives up the 7th-most passing touchdowns to quarterbacks (1.8 a game, 8 games)."
     },
     "group": "QB",
@@ -136,9 +136,9 @@
     "stats": {
      "pass_yds": {
       "value": 208.4,
-      "rank": 24,
+      "rank": 19,
       "of": 32,
-      "color": "red"
+      "color": "yellow"
      },
      "pass_td": {
       "value": 1.8,
@@ -151,8 +151,8 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 53,
-    "grade": "C",
+    "score": 61,
+    "grade": "B",
     "color": "yellow",
     "best": "pass_td",
     "note": "NYJ gives up the 7th-most passing touchdowns to quarterbacks (1.8 a game, 8 games)."
@@ -199,12 +199,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 12,
-    "gust": 28,
-    "rain": 2
+    "temp": 52,
+    "wind": 11,
+    "gust": 25,
+    "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 12 mph",
+   "weather_text": "52\u00b0F, wind 11 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -402,11 +402,11 @@
    "weather": {
     "indoor": false,
     "temp": 61,
-    "wind": 13,
-    "gust": 18,
+    "wind": 11,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 13 mph",
+   "weather_text": "61\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -513,20 +513,20 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "LAR gives up the 29th-most receiving yards to receivers (90.1 a game, 8 games).",
-     "rec": "LAR gives up the 31st-most catches to receivers (7.2 a game, 8 games)."
+     "rec_yds": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games).",
+     "rec": "LAR gives up the 31st-most catches to receivers (7.4 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
     "stats": {
      "rec_yds": {
-      "value": 90.1,
-      "rank": 29,
+      "value": 90.6,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 7.2,
+      "value": 7.4,
       "rank": 31,
       "of": 32,
       "color": "red"
@@ -536,11 +536,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 6,
+    "score": 5,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 29th-most receiving yards to receivers (90.1 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -736,21 +736,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "CIN gives up the 4th-most passing yards to quarterbacks (261 a game, 7 games).",
-     "pass_td": "CIN gives up the 24th-most passing touchdowns to quarterbacks (1.1 a game, 7 games)."
+     "pass_yds": "CIN gives up the 16th-most passing yards to quarterbacks (218.4 a game, 7 games).",
+     "pass_td": "CIN gives up the 26th-most passing touchdowns to quarterbacks (1 a game, 7 games)."
     },
     "group": "QB",
     "games": 7,
     "stats": {
      "pass_yds": {
-      "value": 261.0,
-      "rank": 4,
+      "value": 218.4,
+      "rank": 16,
       "of": 32,
-      "color": "green"
+      "color": "yellow"
      },
      "pass_td": {
-      "value": 1.1,
-      "rank": 24,
+      "value": 1.0,
+      "rank": 26,
       "of": 32,
       "color": "red"
      }
@@ -759,11 +759,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 58,
-    "grade": "C",
+    "score": 35,
+    "grade": "D",
     "color": "yellow",
     "best": "pass_yds",
-    "note": "CIN gives up the 4th-most passing yards to quarterbacks (261 a game, 7 games)."
+    "note": "CIN gives up the 16th-most passing yards to quarterbacks (218.4 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -903,7 +903,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "CLE gives up the 20th-most receiving yards to receivers (122.4 a game, 8 games).",
-     "rec": "CLE gives up the 17th-most catches to receivers (9.5 a game, 8 games)."
+     "rec": "CLE gives up the 18th-most catches to receivers (9.5 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
@@ -916,7 +916,7 @@
      },
      "rec": {
       "value": 9.5,
-      "rank": 17,
+      "rank": 18,
       "of": 32,
       "color": "yellow"
      }
@@ -925,11 +925,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 44,
+    "score": 42,
     "grade": "C",
     "color": "yellow",
     "best": "rec",
-    "note": "CLE gives up the 17th-most catches to receivers (9.5 a game, 8 games)."
+    "note": "CLE gives up the 18th-most catches to receivers (9.5 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
-    "wind": 10,
-    "gust": 25,
+    "temp": 55,
+    "wind": 8,
+    "gust": 21,
     "rain": 0
    },
-   "weather_text": "56\u00b0F, wind 10 mph",
+   "weather_text": "55\u00b0F, wind 8 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1174,11 +1174,11 @@
    "weather": {
     "indoor": false,
     "temp": 61,
-    "wind": 13,
-    "gust": 18,
+    "wind": 11,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 13 mph",
+   "weather_text": "61\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1297,20 +1297,20 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "LAR gives up the 29th-most receiving yards to receivers (90.1 a game, 8 games).",
-     "rec": "LAR gives up the 31st-most catches to receivers (7.2 a game, 8 games)."
+     "rec_yds": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games).",
+     "rec": "LAR gives up the 31st-most catches to receivers (7.4 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
     "stats": {
      "rec_yds": {
-      "value": 90.1,
-      "rank": 29,
+      "value": 90.6,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 7.2,
+      "value": 7.4,
       "rank": 31,
       "of": 32,
       "color": "red"
@@ -1320,11 +1320,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 6,
+    "score": 5,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "LAR gives up the 29th-most receiving yards to receivers (90.1 a game, 8 games)."
+    "note": "LAR gives up the 30th-most receiving yards to receivers (90.6 a game, 8 games)."
    },
    "career": [
     {
@@ -1351,7 +1351,7 @@
     "games_used": 6,
     "sims": 1000,
     "weather_factor": 0.97,
-    "opp_factor": 0.85,
+    "opp_factor": 0.86,
     "locked": false
    },
    "tags": [
@@ -1392,12 +1392,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 12,
-    "gust": 28,
-    "rain": 2
+    "temp": 52,
+    "wind": 11,
+    "gust": 25,
+    "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 12 mph",
+   "weather_text": "52\u00b0F, wind 11 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1787,12 +1787,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 14,
-    "gust": 20,
+    "temp": 62,
+    "wind": 11,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "60\u00b0F, wind 14 mph",
+   "weather_text": "62\u00b0F, wind 11 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2293,5 +2293,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-05T23:07:49+00:00"
+ "generated_at": "2026-11-06T14:12:13+00:00"
 }
