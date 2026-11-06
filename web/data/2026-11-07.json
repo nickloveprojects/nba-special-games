@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-06T14:11:45Z",
+ "generated_at": "2026-11-06T22:30:43Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -477,11 +477,11 @@
    ],
    "score": 18,
    "stats": {
-    "gp": 7,
-    "min": 26.9,
-    "pts": 17.0,
-    "reb": 3.6,
-    "ast": 3.4
+    "gp": 8,
+    "min": 27.5,
+    "pts": 17.8,
+    "reb": 4.0,
+    "ast": 3.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4900671",
    "recent": {
@@ -1581,11 +1581,11 @@
    ],
    "score": 15.32,
    "stats": {
-    "gp": 8,
-    "min": 33.5,
+    "gp": 9,
+    "min": 33.7,
     "pts": 20.8,
-    "reb": 5.3,
-    "ast": 3.1
+    "reb": 5.2,
+    "ast": 3.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3202",
    "recent": {
@@ -2467,11 +2467,11 @@
    ],
    "score": 14.75,
    "stats": {
-    "gp": 2,
-    "min": 13.5,
-    "pts": 1.0,
-    "reb": 0.5,
-    "ast": 1.5
+    "gp": 3,
+    "min": 14.3,
+    "pts": 0.7,
+    "reb": 1.0,
+    "ast": 1.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3907823",
    "recent": {
@@ -2765,11 +2765,11 @@
    ],
    "score": 14.74,
    "stats": {
-    "gp": 6,
-    "min": 22.0,
-    "pts": 6.2,
-    "reb": 4.2,
-    "ast": 1.8
+    "gp": 7,
+    "min": 21.9,
+    "pts": 6.3,
+    "reb": 4.1,
+    "ast": 2.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5081727",
    "recent": {
@@ -3618,10 +3618,10 @@
    ],
    "score": 12.3,
    "stats": {
-    "gp": 7,
-    "min": 20.0,
-    "pts": 8.3,
-    "reb": 4.0,
+    "gp": 8,
+    "min": 19.3,
+    "pts": 8.0,
+    "reb": 3.9,
     "ast": 1.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4065731",
@@ -3890,11 +3890,11 @@
    ],
    "score": 11.29,
    "stats": {
-    "gp": 7,
-    "min": 19.1,
-    "pts": 8.1,
-    "reb": 5.6,
-    "ast": 2.1
+    "gp": 8,
+    "min": 19.6,
+    "pts": 8.6,
+    "reb": 5.9,
+    "ast": 2.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2995706",
    "recent": {
@@ -4100,11 +4100,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 5,
-    "min": 12.0,
-    "pts": 4.0,
+    "gp": 6,
+    "min": 14.0,
+    "pts": 5.0,
     "reb": 0.8,
-    "ast": 2.4
+    "ast": 2.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5105854",
    "recent": {
