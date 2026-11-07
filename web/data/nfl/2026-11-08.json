@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
+    "temp": 58,
     "wind": 6,
-    "gust": 8,
+    "gust": 10,
     "rain": 0
    },
-   "weather_text": "59\u00b0F, wind 6 mph",
+   "weather_text": "58\u00b0F, wind 6 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -200,11 +200,11 @@
    "weather": {
     "indoor": false,
     "temp": 50,
-    "wind": 9,
-    "gust": 24,
-    "rain": 0
+    "wind": 8,
+    "gust": 22,
+    "rain": 1
    },
-   "weather_text": "50\u00b0F, wind 9 mph",
+   "weather_text": "50\u00b0F, wind 8 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -402,11 +402,11 @@
    "weather": {
     "indoor": false,
     "temp": 59,
-    "wind": 11,
+    "wind": 10,
     "gust": 18,
     "rain": 0
    },
-   "weather_text": "59\u00b0F, wind 11 mph",
+   "weather_text": "59\u00b0F, wind 10 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 55,
+    "temp": 47,
     "wind": 9,
-    "gust": 22,
+    "gust": 27,
     "rain": 0
    },
-   "weather_text": "55\u00b0F, wind 9 mph",
+   "weather_text": "47\u00b0F, wind 9 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1174,11 +1174,11 @@
    "weather": {
     "indoor": false,
     "temp": 59,
-    "wind": 11,
+    "wind": 10,
     "gust": 18,
     "rain": 0
    },
-   "weather_text": "59\u00b0F, wind 11 mph",
+   "weather_text": "59\u00b0F, wind 10 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1393,11 +1393,11 @@
    "weather": {
     "indoor": false,
     "temp": 50,
-    "wind": 9,
-    "gust": 24,
-    "rain": 0
+    "wind": 8,
+    "gust": 22,
+    "rain": 1
    },
-   "weather_text": "50\u00b0F, wind 9 mph",
+   "weather_text": "50\u00b0F, wind 8 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -2293,5 +2293,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-07T08:09:11+00:00"
+ "generated_at": "2026-11-07T13:46:58+00:00"
 }
