@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 7,
-    "gust": 11,
+    "temp": 59,
+    "wind": 6,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "60\u00b0F, wind 7 mph",
+   "weather_text": "59\u00b0F, wind 6 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -199,12 +199,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 53,
-    "wind": 12,
-    "gust": 23,
+    "temp": 50,
+    "wind": 9,
+    "gust": 24,
     "rain": 0
    },
-   "weather_text": "53\u00b0F, wind 12 mph",
+   "weather_text": "50\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -401,12 +401,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
-    "wind": 10,
-    "gust": 16,
+    "temp": 59,
+    "wind": 11,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 10 mph",
+   "weather_text": "59\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -975,7 +975,7 @@
     "indoor": false,
     "temp": 55,
     "wind": 9,
-    "gust": 23,
+    "gust": 22,
     "rain": 0
    },
    "weather_text": "55\u00b0F, wind 9 mph",
@@ -1173,12 +1173,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
-    "wind": 10,
-    "gust": 16,
+    "temp": 59,
+    "wind": 11,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 10 mph",
+   "weather_text": "59\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1392,12 +1392,12 @@
    "tip_utc": "2026-11-08T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 53,
-    "wind": 12,
-    "gust": 23,
+    "temp": 50,
+    "wind": 9,
+    "gust": 24,
     "rain": 0
    },
-   "weather_text": "53\u00b0F, wind 12 mph",
+   "weather_text": "50\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1721,7 +1721,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "NO gives up the 7th-most rushing yards to running backs (101.4 a game, 7 games).",
+     "rush_yds": "NO gives up the 8th-most rushing yards to running backs (101.4 a game, 7 games).",
      "rec_yds": "NO gives up the 12th-most receiving yards to running backs (30.9 a game, 7 games)."
     },
     "group": "RB",
@@ -1729,7 +1729,7 @@
     "stats": {
      "rush_yds": {
       "value": 101.4,
-      "rank": 7,
+      "rank": 8,
       "of": 32,
       "color": "green"
      },
@@ -1744,11 +1744,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 73,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "rush_yds",
-    "note": "NO gives up the 7th-most rushing yards to running backs (101.4 a game, 7 games)."
+    "note": "NO gives up the 8th-most rushing yards to running backs (101.4 a game, 7 games)."
    },
    "career": [],
    "projection": null,
@@ -1787,12 +1787,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
+    "temp": 56,
     "wind": 11,
-    "gust": 17,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 11 mph",
+   "weather_text": "56\u00b0F, wind 11 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1801,7 +1801,7 @@
    "summary": "Faces the Giants, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3929630",
    "recent": {
     "cols": [
@@ -1933,7 +1933,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "NYG gives up the 21st-most rushing yards to running backs (79.9 a game, 7 games).",
-     "rec_yds": "NYG gives up the 25th-most receiving yards to running backs (21.7 a game, 7 games)."
+     "rec_yds": "NYG gives up the 26th-most receiving yards to running backs (21.7 a game, 7 games)."
     },
     "group": "RB",
     "games": 7,
@@ -1946,7 +1946,7 @@
      },
      "rec_yds": {
       "value": 21.7,
-      "rank": 25,
+      "rank": 26,
       "of": 32,
       "color": "red"
      }
@@ -1955,7 +1955,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 29,
+    "score": 27,
     "grade": "D",
     "color": "red",
     "best": "rush_yds",
@@ -1968,7 +1968,7 @@
       "label": "Rush yds",
       "proj": 56,
       "lo": 0,
-      "hi": 114
+      "hi": 113
      },
      {
       "label": "Rec",
@@ -2293,5 +2293,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-06T22:30:56+00:00"
+ "generated_at": "2026-11-07T08:09:11+00:00"
 }
