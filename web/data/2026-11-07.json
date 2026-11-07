@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T13:46:46Z",
+ "generated_at": "2026-11-07T22:23:45Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -1002,8 +1002,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Williams (back) has been ruled out for Friday's game against the Grizzlies.",
-    "date": "2026-11-05T23:20Z"
+    "note": "Williams (back) has been ruled out for Saturday's game against the Wizards, Brandon Rahbar of DailyThunder.com reports.",
+    "date": "2026-11-07T19:10Z"
    },
    "status_note": "Out",
    "career": [
@@ -1060,11 +1060,11 @@
    ],
    "score": 15.6,
    "stats": {
-    "gp": 5,
-    "min": 28.4,
-    "pts": 11.0,
-    "reb": 3.6,
-    "ast": 3.6
+    "gp": 7,
+    "min": 28.3,
+    "pts": 11.9,
+    "reb": 2.9,
+    "ast": 3.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4437244",
    "recent": {
@@ -1298,11 +1298,11 @@
    ],
    "score": 15.33,
    "stats": {
-    "gp": 5,
-    "min": 29.6,
-    "pts": 16.8,
-    "reb": 4.0,
-    "ast": 3.2
+    "gp": 7,
+    "min": 30.3,
+    "pts": 17.6,
+    "reb": 3.9,
+    "ast": 2.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3155526",
    "recent": {
@@ -1849,9 +1849,9 @@
    ],
    "score": 14.9,
    "stats": {
-    "gp": 2,
-    "min": 1.0,
-    "pts": 0.0,
+    "gp": 3,
+    "min": 1.7,
+    "pts": 0.7,
     "reb": 0.0,
     "ast": 0.0
    },
@@ -3063,11 +3063,11 @@
    ],
    "score": 13.69,
    "stats": {
-    "gp": 6,
-    "min": 9.0,
-    "pts": 5.5,
-    "reb": 1.5,
-    "ast": 0.3
+    "gp": 7,
+    "min": 9.9,
+    "pts": 6.1,
+    "reb": 1.4,
+    "ast": 0.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2528426",
    "recent": {
@@ -3335,11 +3335,11 @@
    ],
    "score": 13.17,
    "stats": {
-    "gp": 7,
+    "gp": 8,
     "min": 13.3,
     "pts": 5.6,
-    "reb": 7.6,
-    "ast": 1.3
+    "reb": 7.8,
+    "ast": 1.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6585",
    "recent": {
@@ -3847,7 +3847,7 @@
     "minutes": 20,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4279,7 +4279,7 @@
     "minutes": 18,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4578,11 +4578,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 7,
-    "min": 36.0,
-    "pts": 19.9,
-    "reb": 3.6,
-    "ast": 10.0
+    "gp": 9,
+    "min": 35.9,
+    "pts": 20.0,
+    "reb": 3.2,
+    "ast": 9.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277905",
    "recent": {
@@ -4849,10 +4849,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 2,
-    "min": 5.0,
-    "pts": 2.0,
-    "reb": 0.5,
+    "gp": 4,
+    "min": 3.5,
+    "pts": 1.5,
+    "reb": 0.8,
     "ast": 0.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5041953",
@@ -5033,11 +5033,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 3,
-    "min": 20.0,
-    "pts": 8.0,
-    "reb": 4.7,
-    "ast": 3.3
+    "gp": 5,
+    "min": 21.4,
+    "pts": 7.0,
+    "reb": 5.2,
+    "ast": 3.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4601023",
    "recent": {
