@@ -511,6 +511,8 @@ const logo=(src,alt)=>src?`<img class="logo" src="${esc(src)}" alt="${esc(alt)}"
 const initials=n=>n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("");
 const fmtDate=d=>new Date(d+"T12:00").toLocaleDateString(undefined,{month:"short",day:"numeric"});
 
+const etDay=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
+const defDate=(ds,fallback)=>ds.find(d=>d>=etDay(0))||fallback||ds[ds.length-1];
 async function load(date){
   slate=await (await fetch(dataUrl(`${date}.json`))).json();
   const teams=[...new Set(slate.entries.flatMap(e=>[e.team,e.opponent]))].sort();
@@ -730,7 +732,7 @@ async function initBoard(){
     const name=d=>{const t=new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
       return d===et(0)?`Today, ${t}`:d===et(1)?`Tomorrow, ${t}`:t};
     $("date").innerHTML=idx.dates.map(d=>`<option value="${d}">${name(d)}</option>`).join("");
-    const dm=location.hash.match(/[?&]d=(\d{4}-\d\d-\d\d)/),want=dm&&idx.dates.includes(dm[1])?dm[1]:idx.latest;
+    const dm=location.hash.match(/[?&]d=(\d{4}-\d\d-\d\d)/),want=dm&&idx.dates.includes(dm[1])?dm[1]:defDate(idx.dates,idx.latest);
     $("date").value=want;await load(want);
   }catch(e){$("sub").textContent=`No ${SPORTS[sport].name} games loaded yet.`;}
 }
@@ -744,7 +746,7 @@ function setTheme(t){
 const HCOL={Revenge:"var(--red)",Hometown:"var(--green)",Birthday:"var(--yellow-line)",History:"var(--blue-line)",Holiday:"var(--violet)"};
 function drawHome(S){
   const out=e=>/out|doubtful|injured|suspend/i.test(e.status_note||"");
-  const pri=e=>(e.categories.includes("History")?100:0)+(e.categories.includes("Revenge")?10:0)+(e.tags.some(t=>t.category==="Hometown"&&t.confidence==="high")?25:0)+(e.matchup?e.matchup.score:0)/2+(e.projection?3:0);
+  const pri=e=>(e.categories.includes("History")?100:0)+(e.categories.includes("Revenge")?10:0)+(e.tags.some(t=>t.category==="Hometown"&&t.confidence==="high")?25:0)+(e.tags.some(t=>t.category==="Revenge"&&(parseInt(t.games_with_team)||0)>=250)?30:0)+(e.matchup?e.matchup.score:0)/8+(e.projection?3:0);
   const all=[];
   for(const sp of Object.keys(S)){const {s,date,when}=S[sp];
     s.entries.forEach(e=>all.push({e,sp,date,when,link:`#/${sp}/${e.player_id}?d=${date}`}))}
@@ -801,7 +803,7 @@ async function homeInfo(){
       const idx=await (await fetch(`${dir}/index.json`)).json();
       const et=n=>new Date(Date.now()+n*864e5).toLocaleDateString("en-CA",{timeZone:"America/New_York"});
       let s=null,date=null;
-      for(const d of idx.dates){const x=await (await fetch(`${dir}/${d}.json`)).json();if(!s){s=x;date=d}if(x.entries.length){s=x;date=d;break}}
+      for(const d of idx.dates.filter(d=>d>=et(0)).concat(idx.dates.filter(d=>d<et(0)))){const x=await (await fetch(`${dir}/${d}.json`)).json();if(!s){s=x;date=d}if(x.entries.length){s=x;date=d;break}}
       if(!s) continue;
       const when=date===et(0)?"Today":date===et(1)?"Tomorrow":new Date(date+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
       S[k]={s,date,when};
