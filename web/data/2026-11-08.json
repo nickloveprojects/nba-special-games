@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T20:04:43Z",
+ "generated_at": "2026-11-08T22:23:20Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -1795,7 +1795,7 @@
     "minutes": 13,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
