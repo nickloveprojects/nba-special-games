@@ -1,21 +1,15 @@
-# Beef candidates — run of 2026-11-07
+# Beef candidates (run: 2026-11-08)
 
-Window: games on 2026-11-07 through 2026-11-09 (NBA: 14 games; NFL: 14 games).
+Games reviewed: NBA 2026-11-08 (7 games) and 2026-11-09 (8 games); NFL 2026-11-08 (13 games) and 2026-11-09 (BUF at MIN).
 
 ## No new candidates
 
-No item survived verification: none named two players who are both on the rosters of a game in this window, from a named, dated, fetched article.
+Standard web searches for fights, ejections, suspensions, trash talk, and former-team returns across these games returned only search-result titles and links. No article that I could open and read named two specific players from the same game with a dated, checkable beef. Nothing was listed, because the rules say not to rely on search snippets.
 
-## Checked and rejected (fetched, facts confirmed, but not usable)
+## Claims not verified (not listed)
 
-- Jaylen Brown / Giannis Antetokounmpo (BOS at MIL, Nov 8): NBC Sports Boston, 2022-12-26, confirms an altercation (Giannis "appeared to swing an elbow at Brown"). Neither player appears in the Nov 8 data entries, so the pair would not show on the cards. Not listed.
-- Kevin Durant / Devin Booker (HOU at PHX, Nov 7): SI (Jan 6, 2026) covers Durant's game-winner and Booker's praise ("one of my idols"). No dispute between the two players; Durant's complaints are about the Suns organization. Booker is not in the Nov 7 entries. Not listed.
-- Kevin Durant / Dillon Brooks (HOU at PHX): SI (Nov 24, 2025) is a pregame piece on Brooks's "extra motivation" vs. his former team; no conflict between the two is stated. Not listed.
-- Keisean Nixon / Deommodore Lenoir: NBC Sports Bay Area, 2024-05-22, online spat; neither is in this window's entries.
-- Josh(ua) Palmer / Jack Jones, Davante Adams / Jalen Ramsey, Romeo Doubs / Patriots DBs: fetched, but old and the players are not in this window's entries (Doubs name spelled "Dobbs" in the CBS article).
-- Justin Champagnie / Ajay Mitchell (WAS at OKC): already in config/rivalries.yaml.
-
-## Claims I could not verify
-
-- Search results mentioned a Nov 2024 Brown "child" comment about Giannis and a Brandon Ingram dig at the Pelicans; I did not fetch those articles and they are not listed.
-- No searches covered every game in depth (Nets/Hawks, Magic/Warriors, Spurs/Blazers, Jazz/Wolves, Heat/Kings, Bills/Vikings, Bucs/Bears, etc. returned nothing pair-specific).
+- Search results surfaced Jalen Suggs / Andre Drummond (ejection) and Jose Alvarado / Mark Williams (altercation). Suggs and Drummond are already in config/rivalries.yaml. Alvarado/Williams is not tied to any game on this slate.
+- A Ja Morant / Klay Thompson exchange after a Grizzlies-Mavericks game (SI) surfaced. The players are not facing each other in the Nov 8-9 window (MEM at TOR, DAL vs BKN / IND), so it was set aside.
+- A Newsweek item about Micah Parsons facing his former Cowboys team surfaced. Packers vs Cowboys is not on this slate (GB at NE).
+- Mike Evans trash talk (tixel.com) and a Josh Allen / Baker Mayfield jab (CBS) surfaced as undated or off-slate. Evans / Lattimore is already in config/rivalries_nfl.yaml.
+- NBA homecoming-game articles (ESPN, NBC) list January reunions, not Nov 8-9.
