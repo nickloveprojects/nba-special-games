@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 6,
-    "gust": 10,
+    "temp": 59,
+    "wind": 4,
+    "gust": 7,
     "rain": 0
    },
-   "weather_text": "58\u00b0F, wind 6 mph",
+   "weather_text": "59\u00b0F, wind 4 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -200,11 +200,11 @@
    "weather": {
     "indoor": false,
     "temp": 50,
-    "wind": 7,
+    "wind": 8,
     "gust": 22,
     "rain": 0
    },
-   "weather_text": "50\u00b0F, wind 7 mph",
+   "weather_text": "50\u00b0F, wind 8 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -344,20 +344,20 @@
      },
      {
       "label": "Rec",
-      "proj": 1.8,
+      "proj": 1.7,
       "lo": 0.0,
-      "hi": 4.9
+      "hi": 4.8
      },
      {
       "label": "Rec yds",
       "proj": 13,
       "lo": 0,
-      "hi": 52
+      "hi": 51
      }
     ],
     "games_used": 4,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 0.99,
     "locked": false
    },
@@ -403,7 +403,7 @@
     "indoor": false,
     "temp": 60,
     "wind": 10,
-    "gust": 17,
+    "gust": 15,
     "rain": 0
    },
    "weather_text": "60\u00b0F, wind 10 mph",
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 7,
+    "temp": 48,
+    "wind": 8,
     "gust": 16,
     "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 7 mph",
+   "weather_text": "48\u00b0F, wind 8 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1120,7 +1120,7 @@
       "label": "Rec",
       "proj": 1.9,
       "lo": 0.0,
-      "hi": 5.2
+      "hi": 5.0
      },
      {
       "label": "Rec yds",
@@ -1131,7 +1131,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 0.92,
     "locked": false
    },
@@ -1175,7 +1175,7 @@
     "indoor": false,
     "temp": 60,
     "wind": 10,
-    "gust": 17,
+    "gust": 15,
     "rain": 0
    },
    "weather_text": "60\u00b0F, wind 10 mph",
@@ -1352,7 +1352,7 @@
     "sims": 1000,
     "weather_factor": 0.97,
     "opp_factor": 0.87,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1393,11 +1393,11 @@
    "weather": {
     "indoor": false,
     "temp": 50,
-    "wind": 7,
+    "wind": 8,
     "gust": 22,
     "rain": 0
    },
-   "weather_text": "50\u00b0F, wind 7 mph",
+   "weather_text": "50\u00b0F, wind 8 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1626,8 +1626,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 13.6 rush yds, 0 TD, 0.6 rec",
+     "text": "avg 15 rush yds, 0 TD, 1 rec",
      "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "1",
+        "7",
+        "0",
+        "2",
+        "2"
+       ]
+      },
       {
        "date": "2026-11-01",
        "home": false,
@@ -1679,27 +1692,27 @@
         "0",
         "0"
        ]
-      },
-      {
-       "date": "2025-12-21",
-       "home": false,
-       "opp": "NO",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CIN",
-     "n": 1,
-     "text": "avg 0 rush yds, 0 TD, 0 rec",
+     "n": 2,
+     "text": "avg 3.5 rush yds, 0 TD, 1 rec",
      "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "1",
+        "7",
+        "0",
+        "2",
+        "2"
+       ]
+      },
       {
        "date": "2025-10-26",
        "home": false,
@@ -1966,12 +1979,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
+    "temp": 57,
     "wind": 10,
-    "gust": 18,
+    "gust": 16,
     "rain": 0
    },
-   "weather_text": "58\u00b0F, wind 10 mph",
+   "weather_text": "57\u00b0F, wind 10 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2166,7 +2179,7 @@
     "sims": 1000,
     "weather_factor": 0.97,
     "opp_factor": 0.92,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2359,7 +2372,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.05,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2379,13 +2392,6 @@
   }
  ],
  "matchups": [
-  {
-   "away": "CIN",
-   "home": "ATL",
-   "tip": "9:30 AM ET",
-   "away_logo": "img/nfl/teams/CIN.png",
-   "home_logo": "img/nfl/teams/ATL.png"
-  },
   {
    "away": "DAL",
    "home": "IND",
@@ -2436,6 +2442,13 @@
    "home_logo": "img/nfl/teams/CAR.png"
   },
   {
+   "away": "CIN",
+   "home": "ATL",
+   "tip": "9:30 AM ET",
+   "away_logo": "img/nfl/teams/CIN.png",
+   "home_logo": "img/nfl/teams/ATL.png"
+  },
+  {
    "away": "HOU",
    "home": "LAC",
    "tip": "4:05 PM ET",
@@ -2472,5 +2485,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-08T17:57:43+00:00"
+ "generated_at": "2026-11-08T20:05:14+00:00"
 }
