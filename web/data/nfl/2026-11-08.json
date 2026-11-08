@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 6,
-    "gust": 12,
+    "temp": 57,
+    "wind": 5,
+    "gust": 10,
     "rain": 0
    },
-   "weather_text": "58\u00b0F, wind 6 mph",
+   "weather_text": "57\u00b0F, wind 5 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -202,7 +202,7 @@
     "temp": 49,
     "wind": 9,
     "gust": 24,
-    "rain": 0
+    "rain": 1
    },
    "weather_text": "49\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
@@ -401,12 +401,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
-    "wind": 11,
-    "gust": 19,
+    "temp": 60,
+    "wind": 10,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 11 mph",
+   "weather_text": "60\u00b0F, wind 10 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
+    "temp": 48,
     "wind": 8,
     "gust": 16,
     "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 8 mph",
+   "weather_text": "48\u00b0F, wind 8 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1173,12 +1173,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
-    "wind": 11,
-    "gust": 19,
+    "temp": 60,
+    "wind": 10,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "61\u00b0F, wind 11 mph",
+   "weather_text": "60\u00b0F, wind 10 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1395,7 +1395,7 @@
     "temp": 49,
     "wind": 9,
     "gust": 24,
-    "rain": 0
+    "rain": 1
    },
    "weather_text": "49\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
@@ -1967,11 +1967,11 @@
    "weather": {
     "indoor": false,
     "temp": 58,
-    "wind": 11,
-    "gust": 17,
+    "wind": 10,
+    "gust": 18,
     "rain": 0
    },
-   "weather_text": "58\u00b0F, wind 11 mph",
+   "weather_text": "58\u00b0F, wind 10 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2472,5 +2472,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-08T13:47:55+00:00"
+ "generated_at": "2026-11-08T16:00:30+00:00"
 }
