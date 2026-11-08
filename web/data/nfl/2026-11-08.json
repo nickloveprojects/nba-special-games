@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 57,
-    "wind": 5,
-    "gust": 10,
+    "temp": 58,
+    "wind": 6,
+    "gust": 12,
     "rain": 0
    },
-   "weather_text": "57\u00b0F, wind 5 mph",
+   "weather_text": "58\u00b0F, wind 6 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -200,11 +200,11 @@
    "weather": {
     "indoor": false,
     "temp": 49,
-    "wind": 8,
-    "gust": 23,
-    "rain": 1
+    "wind": 9,
+    "gust": 24,
+    "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 8 mph",
+   "weather_text": "49\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -401,12 +401,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 9,
-    "gust": 16,
+    "temp": 61,
+    "wind": 11,
+    "gust": 19,
     "rain": 0
    },
-   "weather_text": "60\u00b0F, wind 9 mph",
+   "weather_text": "61\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -592,7 +592,7 @@
    "summary": "Faces the Bengals, who released him.",
    "score": 4.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/14012",
    "recent": {
     "cols": [
@@ -973,12 +973,12 @@
    "tip_utc": "2026-11-09T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 7,
-    "gust": 28,
+    "temp": 49,
+    "wind": 8,
+    "gust": 16,
     "rain": 0
    },
-   "weather_text": "47\u00b0F, wind 7 mph",
+   "weather_text": "49\u00b0F, wind 8 mph",
    "arena": "Soldier Field",
    "location": "Chicago, IL",
    "categories": [
@@ -1120,7 +1120,7 @@
       "label": "Rec",
       "proj": 1.9,
       "lo": 0.0,
-      "hi": 5.2
+      "hi": 5.0
      },
      {
       "label": "Rec yds",
@@ -1131,7 +1131,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 0.92,
     "locked": false
    },
@@ -1173,12 +1173,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 9,
-    "gust": 16,
+    "temp": 61,
+    "wind": 11,
+    "gust": 19,
     "rain": 0
    },
-   "weather_text": "60\u00b0F, wind 9 mph",
+   "weather_text": "61\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -1393,11 +1393,11 @@
    "weather": {
     "indoor": false,
     "temp": 49,
-    "wind": 8,
-    "gust": 23,
-    "rain": 1
+    "wind": 9,
+    "gust": 24,
+    "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 8 mph",
+   "weather_text": "49\u00b0F, wind 9 mph",
    "arena": "Gillette Stadium",
    "location": "Foxborough, MA",
    "categories": [
@@ -1901,7 +1901,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "NO gives up the 13th-most rushing yards to running backs (92.6 a game, 7 games).",
-     "rec_yds": "NO gives up the 14th-most receiving yards to running backs (30.1 a game, 7 games)."
+     "rec_yds": "NO gives up the 15th-most receiving yards to running backs (30.1 a game, 7 games)."
     },
     "group": "RB",
     "games": 7,
@@ -1914,7 +1914,7 @@
      },
      "rec_yds": {
       "value": 30.1,
-      "rank": 14,
+      "rank": 15,
       "of": 32,
       "color": "yellow"
      }
@@ -1923,8 +1923,8 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 60,
-    "grade": "B",
+    "score": 58,
+    "grade": "C",
     "color": "yellow",
     "best": "rush_yds",
     "note": "NO gives up the 13th-most rushing yards to running backs (92.6 a game, 7 games)."
@@ -1966,12 +1966,12 @@
    "tip_utc": "2026-11-08T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
+    "temp": 58,
     "wind": 11,
-    "gust": 18,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "56\u00b0F, wind 11 mph",
+   "weather_text": "58\u00b0F, wind 11 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -2472,5 +2472,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-07T22:24:53+00:00"
+ "generated_at": "2026-11-08T13:47:55+00:00"
 }
