@@ -1,7 +1,359 @@
 {
  "week": 9,
- "generated_at": "2026-11-08T20:05:14+00:00",
+ "generated_at": "2026-11-08T22:23:33+00:00",
  "games": [
+  {
+   "id": "401873046",
+   "date": "2026-11-08",
+   "away": "HOU",
+   "home": "LAC",
+   "away_logo": "img/nfl/teams/HOU.png",
+   "home_logo": "img/nfl/teams/LAC.png",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-08T21:05:00+00:00",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "report": {
+    "indoor": false,
+    "hours": [
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 89,
+      "feels": 85,
+      "humidity": 13,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 2,
+      "gust": 2,
+      "dir": 111,
+      "dir_txt": "ESE",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T22:00Z",
+      "temp": 89,
+      "feels": 83,
+      "humidity": 15,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 6,
+      "dir": 231,
+      "dir_txt": "SW",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T23:00Z",
+      "temp": 86,
+      "feels": 80,
+      "humidity": 21,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 9,
+      "dir": 244,
+      "dir_txt": "WSW",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-09T00:00Z",
+      "temp": 80,
+      "feels": 78,
+      "humidity": 40,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 10,
+      "dir": 259,
+      "dir_txt": "W",
+      "cloud": 0,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "No weather concerns. Nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 1,
+     "level": "minor",
+     "drivers": [
+      "wind up to 8 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873049",
+   "date": "2026-11-08",
+   "away": "GB",
+   "home": "NE",
+   "away_logo": "img/nfl/teams/GB.png",
+   "home_logo": "img/nfl/teams/NE.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-08T21:25:00+00:00",
+   "arena": "Gillette Stadium",
+   "location": "Foxborough, MA",
+   "report": {
+    "indoor": false,
+    "hours": [
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 52,
+      "feels": 47,
+      "humidity": 79,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 23,
+      "dir": 280,
+      "dir_txt": "W",
+      "cloud": 10,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T22:00Z",
+      "temp": 49,
+      "feels": 44,
+      "humidity": 74,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 15,
+      "dir": 271,
+      "dir_txt": "W",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T23:00Z",
+      "temp": 48,
+      "feels": 42,
+      "humidity": 76,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 14,
+      "dir": 277,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-09T00:00Z",
+      "temp": 47,
+      "feels": 42,
+      "humidity": 77,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 13,
+      "dir": 284,
+      "dir_txt": "WNW",
+      "cloud": 0,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "Breezy (8 mph). A small trim is applied to passing and receiving projections."
+    ],
+    "impact": {
+     "pct": 1,
+     "level": "minor",
+     "drivers": [
+      "wind up to 8 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873047",
+   "date": "2026-11-08",
+   "away": "LV",
+   "home": "SF",
+   "away_logo": "img/nfl/teams/LV.png",
+   "home_logo": "img/nfl/teams/SF.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-08T21:25:00+00:00",
+   "arena": "Levi's Stadium",
+   "location": "Santa Clara, CA",
+   "report": {
+    "indoor": false,
+    "hours": [
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 66,
+      "feels": 66,
+      "humidity": 71,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 4,
+      "dir": 327,
+      "dir_txt": "NNW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-08T22:00Z",
+      "temp": 66,
+      "feels": 65,
+      "humidity": 65,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 6,
+      "dir": 324,
+      "dir_txt": "NW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-08T23:00Z",
+      "temp": 65,
+      "feels": 63,
+      "humidity": 70,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 8,
+      "dir": 314,
+      "dir_txt": "NW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-09T00:00Z",
+      "temp": 63,
+      "feels": 62,
+      "humidity": 80,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 10,
+      "dir": 311,
+      "dir_txt": "NW",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "No weather concerns. Nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873048",
+   "date": "2026-11-08",
+   "away": "ARI",
+   "home": "SEA",
+   "away_logo": "img/nfl/teams/ARI.png",
+   "home_logo": "img/nfl/teams/SEA.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-08T21:25:00+00:00",
+   "arena": "Lumen Field",
+   "location": "Seattle, WA",
+   "report": {
+    "indoor": false,
+    "hours": [
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 57,
+      "feels": 52,
+      "humidity": 69,
+      "rain": 3,
+      "precip_in": 0.0,
+      "wind": 11,
+      "gust": 20,
+      "dir": 220,
+      "dir_txt": "SW",
+      "cloud": 1,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T22:00Z",
+      "temp": 57,
+      "feels": 53,
+      "humidity": 69,
+      "rain": 3,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 16,
+      "dir": 221,
+      "dir_txt": "SW",
+      "cloud": 7,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T23:00Z",
+      "temp": 56,
+      "feels": 52,
+      "humidity": 68,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 15,
+      "dir": 213,
+      "dir_txt": "SSW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-09T00:00Z",
+      "temp": 54,
+      "feels": 50,
+      "humidity": 74,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 14,
+      "dir": 201,
+      "dir_txt": "SSW",
+      "cloud": 37,
+      "cond": "Mostly clear"
+     }
+    ],
+    "effects": [
+     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
+    ],
+    "impact": {
+     "pct": 2,
+     "level": "minor",
+     "drivers": [
+      "wind up to 11 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873038",
+   "date": "2026-11-08",
+   "away": "CIN",
+   "home": "ATL",
+   "away_logo": "img/nfl/teams/CIN.png",
+   "home_logo": "img/nfl/teams/ATL.png",
+   "tip": "9:30 AM ET",
+   "tip_utc": "2026-11-08T14:30:00+00:00",
+   "arena": "Santiago Bernab\u00e9u",
+   "location": "Madrid",
+   "report": {
+    "indoor": true,
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
   {
    "id": "401873040",
    "date": "2026-11-08",
@@ -54,44 +406,44 @@
      },
      {
       "utc": "2026-11-08T19:00Z",
-      "temp": 61,
-      "feels": 61,
-      "humidity": 69,
+      "temp": 62,
+      "feels": 62,
+      "humidity": 70,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 1,
-      "gust": 2,
-      "dir": 317,
-      "dir_txt": "NW",
-      "cloud": 8,
+      "wind": 3,
+      "gust": 6,
+      "dir": 342,
+      "dir_txt": "NNW",
+      "cloud": 9,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-08T20:00Z",
-      "temp": 63,
-      "feels": 62,
-      "humidity": 65,
+      "temp": 64,
+      "feels": 64,
+      "humidity": 69,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 3,
-      "gust": 8,
-      "dir": 234,
-      "dir_txt": "SW",
-      "cloud": 5,
+      "wind": 1,
+      "gust": 4,
+      "dir": 340,
+      "dir_txt": "NNW",
+      "cloud": 8,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-08T21:00Z",
       "temp": 64,
-      "feels": 63,
-      "humidity": 60,
+      "feels": 64,
+      "humidity": 65,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 4,
-      "gust": 7,
-      "dir": 289,
-      "dir_txt": "WNW",
-      "cloud": 2,
+      "wind": 1,
+      "gust": 3,
+      "dir": 245,
+      "dir_txt": "WSW",
+      "cloud": 3,
       "cond": "Clear"
      }
     ],
@@ -136,29 +488,29 @@
      {
       "utc": "2026-11-08T19:00Z",
       "temp": 84,
-      "feels": 91,
-      "humidity": 64,
+      "feels": 92,
+      "humidity": 69,
       "rain": 2,
       "precip_in": 0.0,
-      "wind": 4,
-      "gust": 4,
-      "dir": 29,
+      "wind": 5,
+      "gust": 6,
+      "dir": 19,
       "dir_txt": "NNE",
-      "cloud": 41,
-      "cond": "Mostly clear"
+      "cloud": 58,
+      "cond": "Partly cloudy"
      },
      {
       "utc": "2026-11-08T20:00Z",
-      "temp": 83,
-      "feels": 90,
-      "humidity": 71,
+      "temp": 84,
+      "feels": 91,
+      "humidity": 73,
       "rain": 3,
       "precip_in": 0.0,
-      "wind": 6,
+      "wind": 7,
       "gust": 7,
-      "dir": 78,
+      "dir": 75,
       "dir_txt": "ENE",
-      "cloud": 39,
+      "cloud": 45,
       "cond": "Mostly clear"
      },
      {
@@ -166,13 +518,13 @@
       "temp": 82,
       "feels": 88,
       "humidity": 71,
-      "rain": 2,
+      "rain": 1,
       "precip_in": 0.0,
       "wind": 6,
       "gust": 7,
-      "dir": 90,
-      "dir_txt": "E",
-      "cloud": 39,
+      "dir": 78,
+      "dir_txt": "ENE",
+      "cloud": 29,
       "cond": "Mostly clear"
      }
     ],
@@ -239,41 +591,41 @@
      {
       "utc": "2026-11-08T19:00Z",
       "temp": 59,
-      "feels": 51,
-      "humidity": 46,
+      "feels": 52,
+      "humidity": 48,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 11,
-      "gust": 19,
-      "dir": 270,
-      "dir_txt": "W",
-      "cloud": 3,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T20:00Z",
-      "temp": 60,
-      "feels": 52,
-      "humidity": 44,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 10,
       "gust": 20,
-      "dir": 261,
+      "dir": 267,
       "dir_txt": "W",
       "cloud": 0,
       "cond": "Clear"
      },
      {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 58,
-      "feels": 52,
-      "humidity": 43,
+      "utc": "2026-11-08T20:00Z",
+      "temp": 60,
+      "feels": 53,
+      "humidity": 48,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 8,
-      "gust": 18,
-      "dir": 250,
+      "wind": 10,
+      "gust": 20,
+      "dir": 266,
+      "dir_txt": "W",
+      "cloud": 1,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 59,
+      "feels": 53,
+      "humidity": 45,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 17,
+      "dir": 247,
       "dir_txt": "WSW",
       "cloud": 0,
       "cond": "Clear"
@@ -283,7 +635,7 @@
      "Breezy (10 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 3,
+     "pct": 2,
      "level": "minor",
      "drivers": [
       "wind up to 11 mph"
@@ -321,42 +673,42 @@
      },
      {
       "utc": "2026-11-08T19:00Z",
-      "temp": 62,
-      "feels": 55,
+      "temp": 63,
+      "feels": 57,
       "humidity": 38,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
-      "gust": 13,
-      "dir": 252,
-      "dir_txt": "WSW",
-      "cloud": 2,
+      "gust": 21,
+      "dir": 266,
+      "dir_txt": "W",
+      "cloud": 3,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-08T20:00Z",
-      "temp": 62,
-      "feels": 55,
-      "humidity": 35,
+      "temp": 64,
+      "feels": 57,
+      "humidity": 34,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 9,
-      "gust": 12,
-      "dir": 232,
-      "dir_txt": "SW",
-      "cloud": 1,
+      "wind": 7,
+      "gust": 10,
+      "dir": 237,
+      "dir_txt": "WSW",
+      "cloud": 0,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-08T21:00Z",
       "temp": 62,
       "feels": 55,
-      "humidity": 36,
+      "humidity": 35,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
       "gust": 13,
-      "dir": 243,
+      "dir": 238,
       "dir_txt": "WSW",
       "cloud": 0,
       "cond": "Clear"
@@ -366,7 +718,7 @@
      "Breezy (10 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 3,
+     "pct": 2,
      "level": "minor",
      "drivers": [
       "wind up to 10 mph"
@@ -404,43 +756,43 @@
      },
      {
       "utc": "2026-11-08T19:00Z",
-      "temp": 67,
+      "temp": 68,
+      "feels": 64,
+      "humidity": 40,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 8,
+      "dir": 229,
+      "dir_txt": "SW",
+      "cloud": 1,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T20:00Z",
+      "temp": 70,
+      "feels": 65,
+      "humidity": 39,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 9,
+      "dir": 260,
+      "dir_txt": "W",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-08T21:00Z",
+      "temp": 68,
       "feels": 62,
       "humidity": 38,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
       "gust": 10,
-      "dir": 247,
-      "dir_txt": "WSW",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T20:00Z",
-      "temp": 68,
-      "feels": 62,
-      "humidity": 37,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 8,
-      "gust": 11,
-      "dir": 249,
-      "dir_txt": "WSW",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 67,
-      "feels": 62,
-      "humidity": 37,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 10,
-      "dir": 255,
-      "dir_txt": "WSW",
+      "dir": 261,
+      "dir_txt": "W",
       "cloud": 0,
       "cond": "Clear"
      }
@@ -449,360 +801,10 @@
      "No weather concerns. Nothing is adjusted in the projections."
     ],
     "impact": {
-     "pct": 2,
+     "pct": 1,
      "level": "minor",
      "drivers": [
       "wind up to 8 mph"
-     ]
-    }
-   }
-  },
-  {
-   "id": "401873038",
-   "date": "2026-11-08",
-   "away": "CIN",
-   "home": "ATL",
-   "away_logo": "img/nfl/teams/CIN.png",
-   "home_logo": "img/nfl/teams/ATL.png",
-   "tip": "9:30 AM ET",
-   "tip_utc": "2026-11-08T14:30:00+00:00",
-   "arena": "Santiago Bernab\u00e9u",
-   "location": "Madrid",
-   "report": {
-    "indoor": true,
-    "hours": [],
-    "effects": [],
-    "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
-    }
-   }
-  },
-  {
-   "id": "401873046",
-   "date": "2026-11-08",
-   "away": "HOU",
-   "home": "LAC",
-   "away_logo": "img/nfl/teams/HOU.png",
-   "home_logo": "img/nfl/teams/LAC.png",
-   "tip": "4:05 PM ET",
-   "tip_utc": "2026-11-08T21:05:00+00:00",
-   "arena": "SoFi Stadium",
-   "location": "Inglewood, CA",
-   "report": {
-    "indoor": false,
-    "hours": [
-     {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 89,
-      "feels": 85,
-      "humidity": 13,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 3,
-      "gust": 3,
-      "dir": 218,
-      "dir_txt": "SW",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T22:00Z",
-      "temp": 88,
-      "feels": 81,
-      "humidity": 16,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 8,
-      "gust": 9,
-      "dir": 247,
-      "dir_txt": "WSW",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T23:00Z",
-      "temp": 86,
-      "feels": 80,
-      "humidity": 18,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 8,
-      "gust": 10,
-      "dir": 249,
-      "dir_txt": "WSW",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-09T00:00Z",
-      "temp": 80,
-      "feels": 76,
-      "humidity": 31,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 8,
-      "gust": 10,
-      "dir": 255,
-      "dir_txt": "WSW",
-      "cloud": 0,
-      "cond": "Clear"
-     }
-    ],
-    "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
-    ],
-    "impact": {
-     "pct": 2,
-     "level": "minor",
-     "drivers": [
-      "wind up to 8 mph"
-     ]
-    }
-   }
-  },
-  {
-   "id": "401873049",
-   "date": "2026-11-08",
-   "away": "GB",
-   "home": "NE",
-   "away_logo": "img/nfl/teams/GB.png",
-   "home_logo": "img/nfl/teams/NE.png",
-   "tip": "4:25 PM ET",
-   "tip_utc": "2026-11-08T21:25:00+00:00",
-   "arena": "Gillette Stadium",
-   "location": "Foxborough, MA",
-   "report": {
-    "indoor": false,
-    "hours": [
-     {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 50,
-      "feels": 46,
-      "humidity": 77,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 20,
-      "dir": 275,
-      "dir_txt": "W",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T22:00Z",
-      "temp": 48,
-      "feels": 43,
-      "humidity": 79,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 14,
-      "dir": 271,
-      "dir_txt": "W",
-      "cloud": 0,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-08T23:00Z",
-      "temp": 47,
-      "feels": 42,
-      "humidity": 79,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 14,
-      "dir": 275,
-      "dir_txt": "W",
-      "cloud": 8,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-09T00:00Z",
-      "temp": 46,
-      "feels": 42,
-      "humidity": 81,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 6,
-      "gust": 12,
-      "dir": 270,
-      "dir_txt": "W",
-      "cloud": 41,
-      "cond": "Mostly clear"
-     }
-    ],
-    "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
-    ],
-    "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
-    }
-   }
-  },
-  {
-   "id": "401873047",
-   "date": "2026-11-08",
-   "away": "LV",
-   "home": "SF",
-   "away_logo": "img/nfl/teams/LV.png",
-   "home_logo": "img/nfl/teams/SF.png",
-   "tip": "4:25 PM ET",
-   "tip_utc": "2026-11-08T21:25:00+00:00",
-   "arena": "Levi's Stadium",
-   "location": "Santa Clara, CA",
-   "report": {
-    "indoor": false,
-    "hours": [
-     {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 67,
-      "feels": 68,
-      "humidity": 67,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 3,
-      "gust": 3,
-      "dir": 315,
-      "dir_txt": "NW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-08T22:00Z",
-      "temp": 67,
-      "feels": 66,
-      "humidity": 63,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 5,
-      "gust": 6,
-      "dir": 320,
-      "dir_txt": "NW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-08T23:00Z",
-      "temp": 65,
-      "feels": 64,
-      "humidity": 67,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 8,
-      "dir": 317,
-      "dir_txt": "NW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-09T00:00Z",
-      "temp": 64,
-      "feels": 62,
-      "humidity": 72,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 10,
-      "dir": 312,
-      "dir_txt": "NW",
-      "cloud": 100,
-      "cond": "Overcast"
-     }
-    ],
-    "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
-    ],
-    "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
-    }
-   }
-  },
-  {
-   "id": "401873048",
-   "date": "2026-11-08",
-   "away": "ARI",
-   "home": "SEA",
-   "away_logo": "img/nfl/teams/ARI.png",
-   "home_logo": "img/nfl/teams/SEA.png",
-   "tip": "4:25 PM ET",
-   "tip_utc": "2026-11-08T21:25:00+00:00",
-   "arena": "Lumen Field",
-   "location": "Seattle, WA",
-   "report": {
-    "indoor": false,
-    "hours": [
-     {
-      "utc": "2026-11-08T21:00Z",
-      "temp": 57,
-      "feels": 51,
-      "humidity": 65,
-      "rain": 4,
-      "precip_in": 0.0,
-      "wind": 12,
-      "gust": 22,
-      "dir": 228,
-      "dir_txt": "SW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-08T22:00Z",
-      "temp": 56,
-      "feels": 51,
-      "humidity": 62,
-      "rain": 3,
-      "precip_in": 0.0,
-      "wind": 9,
-      "gust": 18,
-      "dir": 226,
-      "dir_txt": "SW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-08T23:00Z",
-      "temp": 56,
-      "feels": 51,
-      "humidity": 65,
-      "rain": 1,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 15,
-      "dir": 212,
-      "dir_txt": "SSW",
-      "cloud": 15,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-09T00:00Z",
-      "temp": 54,
-      "feels": 50,
-      "humidity": 73,
-      "rain": 1,
-      "precip_in": 0.0,
-      "wind": 6,
-      "gust": 14,
-      "dir": 191,
-      "dir_txt": "S",
-      "cloud": 100,
-      "cond": "Overcast"
-     }
-    ],
-    "effects": [
-     "Breezy (12 mph). A small trim is applied to passing and receiving projections."
-    ],
-    "impact": {
-     "pct": 2,
-     "level": "minor",
-     "drivers": [
-      "wind up to 12 mph"
      ]
     }
    }
@@ -823,14 +825,14 @@
     "hours": [
      {
       "utc": "2026-11-09T01:00Z",
-      "temp": 48,
-      "feels": 42,
-      "humidity": 76,
+      "temp": 47,
+      "feels": 41,
+      "humidity": 74,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
       "gust": 16,
-      "dir": 275,
+      "dir": 274,
       "dir_txt": "W",
       "cloud": 0,
       "cond": "Clear"
@@ -839,13 +841,13 @@
       "utc": "2026-11-09T02:00Z",
       "temp": 46,
       "feels": 40,
-      "humidity": 73,
+      "humidity": 77,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
-      "gust": 17,
-      "dir": 286,
-      "dir_txt": "WNW",
+      "gust": 16,
+      "dir": 279,
+      "dir_txt": "W",
       "cloud": 0,
       "cond": "Clear"
      },
@@ -853,12 +855,12 @@
       "utc": "2026-11-09T03:00Z",
       "temp": 45,
       "feels": 39,
-      "humidity": 72,
+      "humidity": 75,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 8,
-      "gust": 18,
-      "dir": 295,
+      "gust": 17,
+      "dir": 293,
       "dir_txt": "WNW",
       "cloud": 0,
       "cond": "Clear"
@@ -872,8 +874,8 @@
       "precip_in": 0.0,
       "wind": 7,
       "gust": 18,
-      "dir": 304,
-      "dir_txt": "NW",
+      "dir": 303,
+      "dir_txt": "WNW",
       "cloud": 0,
       "cond": "Clear"
      }
