@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T16:00:15Z",
+ "generated_at": "2026-11-08T17:57:29Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -3621,8 +3621,12 @@
     "best": "reb",
     "note": "MIN gives up the 4th-most rebounds to guards (17.9 a game, 10 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota.",
+    "date": "2026-11-08T16:20Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "birthday",
