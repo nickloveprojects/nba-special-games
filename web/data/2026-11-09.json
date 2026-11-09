@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-09T14:17:19Z",
+ "generated_at": "2026-11-09T22:33:52Z",
  "season": "2026-27",
  "games": 8,
  "entries": [
@@ -1589,11 +1589,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 8,
+    "gp": 10,
     "min": 17.3,
-    "pts": 9.8,
-    "reb": 2.1,
-    "ast": 2.4
+    "pts": 9.5,
+    "reb": 1.9,
+    "ast": 2.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277811",
    "recent": {
@@ -2294,11 +2294,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 9,
-    "min": 30.6,
+    "gp": 11,
+    "min": 31.0,
     "pts": 14.4,
-    "reb": 10.2,
-    "ast": 1.1
+    "reb": 10.9,
+    "ast": 1.5
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4433136",
    "recent": {
@@ -2531,10 +2531,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 7,
-    "min": 20.7,
-    "pts": 7.4,
-    "reb": 8.1,
+    "gp": 8,
+    "min": 20.5,
+    "pts": 8.3,
+    "reb": 7.9,
     "ast": 1.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4600663",
@@ -3088,11 +3088,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 8,
+    "gp": 9,
     "min": 31.9,
-    "pts": 21.3,
-    "reb": 7.1,
-    "ast": 3.8
+    "pts": 21.4,
+    "reb": 6.6,
+    "ast": 3.9
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3149673",
    "recent": {
@@ -3863,11 +3863,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 4,
-    "min": 17.5,
-    "pts": 6.5,
-    "reb": 3.0,
-    "ast": 1.3
+    "gp": 6,
+    "min": 17.7,
+    "pts": 7.2,
+    "reb": 3.5,
+    "ast": 1.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4431675",
    "recent": {
@@ -4049,8 +4049,12 @@
     "best": "reb",
     "note": "GSW gives up the 11th-most rebounds to forwards (19.4 a game, 10 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Watford (ankle) is out for Monday's game versus Utah.",
+    "date": "2026-11-09T20:50Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "birthday",
@@ -4063,33 +4067,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 7,
-      "lo": 4,
-      "hi": 12
-     },
-     {
-      "label": "Reb",
-      "proj": 3.5,
-      "lo": 1,
-      "hi": 6
-     },
-     {
-      "label": "Ast",
-      "proj": 1.0,
-      "lo": 0,
-      "hi": 2
-     }
-    ],
-    "games_used": 6,
-    "minutes": 18,
-    "sims": 1000,
-    "opp_factor": 1.0,
-    "locked": false
-   }
+   "projection": null
   }
  ],
  "warnings": [],
