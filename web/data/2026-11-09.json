@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-08T22:23:28Z",
+ "generated_at": "2026-11-09T14:17:19Z",
  "season": "2026-27",
  "games": 8,
  "entries": [
@@ -487,7 +487,7 @@
     "notes": {
      "pts": "CLE gives up the 2nd-most points to guards (67.5 a game, 10 games).",
      "reb": "CLE gives up the 3rd-most rebounds to guards (18.4 a game, 10 games).",
-     "ast": "CLE gives up the 13th-most assists to guards (16.2 a game, 10 games)."
+     "ast": "CLE gives up the 11th-most assists to guards (16.2 a game, 10 games)."
     },
     "group": "G",
     "games": 10,
@@ -506,12 +506,12 @@
      },
      "ast": {
       "value": 16.2,
-      "rank": 13,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 83,
+    "score": 85,
     "grade": "A",
     "color": "green",
     "best": "pts",
@@ -519,8 +519,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Schroder (thigh) is out for Friday's game versus Boston.",
-    "date": "2026-11-06T18:09Z"
+    "note": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
+    "date": "2026-11-08T22:26Z"
    },
    "status_note": "Out",
    "career": [],
@@ -691,8 +691,8 @@
    "matchup": {
     "notes": {
      "pts": "HOU gives up the 22nd-most points to forwards (39.9 a game, 10 games).",
-     "reb": "HOU gives up the 17th-most rebounds to forwards (19.1 a game, 10 games).",
-     "ast": "HOU gives up the 10th-most assists to forwards (9.0 a game, 10 games)."
+     "reb": "HOU gives up the 15th-most rebounds to forwards (19.1 a game, 10 games).",
+     "ast": "HOU gives up the 9th-most assists to forwards (9.0 a game, 10 games)."
     },
     "group": "F",
     "games": 10,
@@ -705,22 +705,22 @@
      },
      "reb": {
       "value": 19.1,
-      "rank": 17,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 9.0,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 47,
+    "score": 51,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "HOU gives up the 10th-most assists to forwards (9.0 a game, 10 games)."
+    "note": "HOU gives up the 9th-most assists to forwards (9.0 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -932,37 +932,37 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 14th-most points to guards (58.1 a game, 10 games).",
-     "reb": "GSW gives up the 22nd-most rebounds to guards (14.6 a game, 10 games).",
-     "ast": "GSW gives up the 15th-most assists to guards (16.0 a game, 10 games)."
+     "pts": "GSW gives up the 11th-most points to guards (58.1 a game, 10 games).",
+     "reb": "GSW gives up the 23rd-most rebounds to guards (14.6 a game, 10 games).",
+     "ast": "GSW gives up the 13th-most assists to guards (16.0 a game, 10 games)."
     },
     "group": "G",
     "games": 10,
     "stats": {
      "pts": {
       "value": 58.1,
-      "rank": 14,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 14.6,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 16.0,
-      "rank": 15,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 49,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "GSW gives up the 14th-most points to guards (58.1 a game, 10 games)."
+    "note": "GSW gives up the 11th-most points to guards (58.1 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1230,37 +1230,37 @@
    "opponent_logo": "img/teams/LAL.png",
    "matchup": {
     "notes": {
-     "pts": "LAL gives up the 13th-most points to forwards (42.1 a game, 10 games).",
-     "reb": "LAL gives up the 20th-most rebounds to forwards (17.9 a game, 10 games).",
-     "ast": "LAL gives up the 12th-most assists to forwards (8.7 a game, 10 games)."
+     "pts": "LAL gives up the 16th-most points to forwards (41.3 a game, 11 games).",
+     "reb": "LAL gives up the 22nd-most rebounds to forwards (17.7 a game, 11 games).",
+     "ast": "LAL gives up the 13th-most assists to forwards (8.4 a game, 11 games)."
     },
     "group": "F",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 42.1,
-      "rank": 13,
+      "value": 41.3,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 17.9,
-      "rank": 20,
+      "value": 17.7,
+      "rank": 22,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 8.7,
-      "rank": 12,
+      "value": 8.4,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 52,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "LAL gives up the 12th-most assists to forwards (8.7 a game, 10 games)."
+    "note": "LAL gives up the 13th-most assists to forwards (8.4 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1472,37 +1472,37 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 26th-most points to forwards (38.0 a game, 8 games).",
-     "reb": "DET gives up the 10th-most rebounds to forwards (19.6 a game, 8 games).",
-     "ast": "DET gives up the 19th-most assists to forwards (7.6 a game, 8 games)."
+     "pts": "DET gives up the 28th-most points to forwards (37.4 a game, 9 games).",
+     "reb": "DET gives up the 11th-most rebounds to forwards (19.4 a game, 9 games).",
+     "ast": "DET gives up the 23rd-most assists to forwards (7.3 a game, 9 games)."
     },
     "group": "F",
-    "games": 8,
+    "games": 9,
     "stats": {
      "pts": {
-      "value": 38.0,
-      "rank": 26,
+      "value": 37.4,
+      "rank": 28,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 19.6,
-      "rank": 10,
-      "of": 30,
-      "color": "green"
-     },
-     "ast": {
-      "value": 7.6,
-      "rank": 19,
+      "value": 19.4,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
+     },
+     "ast": {
+      "value": 7.3,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
      }
     },
-    "score": 40,
-    "grade": "C",
-    "color": "yellow",
+    "score": 32,
+    "grade": "D",
+    "color": "red",
     "best": "reb",
-    "note": "DET gives up the 10th-most rebounds to forwards (19.6 a game, 8 games)."
+    "note": "DET gives up the 11th-most rebounds to forwards (19.4 a game, 9 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1600,6 +1600,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909946",
+       "date": "2026-11-08",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "LAL",
+       "home": false,
+       "result": "W",
+       "score": "121-116",
+       "min": 24,
+       "pts": 17,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
        "gid": "401909294",
        "date": "2026-11-06",
        "venue": "LAL",
@@ -1658,28 +1673,13 @@
        "reb": 3,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909285",
-       "date": "2026-10-30",
-       "venue": "GSW",
-       "opp": "GSW",
-       "tm": "LAL",
-       "home": false,
-       "result": "L",
-       "score": "112-95",
-       "min": 16,
-       "pts": 0,
-       "reb": 2,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 6.0,
+     "pts": 9.4,
      "reb": 1.8,
-     "ast": 2.2,
-     "min": 15.6
+     "ast": 2.4,
+     "min": 17.2
     },
     "vs": {
      "opp": "ATL",
@@ -1744,7 +1744,7 @@
    "matchup": {
     "notes": {
      "pts": "ATL gives up the 30th-most points to guards (45.5 a game, 11 games).",
-     "reb": "ATL gives up the 27th-most rebounds to guards (12.5 a game, 11 games).",
+     "reb": "ATL gives up the 26th-most rebounds to guards (12.5 a game, 11 games).",
      "ast": "ATL gives up the 26th-most assists to guards (12.8 a game, 11 games)."
     },
     "group": "G",
@@ -1758,7 +1758,7 @@
      },
      "reb": {
       "value": 12.5,
-      "rank": 27,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -1769,11 +1769,11 @@
       "color": "red"
      }
     },
-    "score": 8,
+    "score": 9,
     "grade": "F",
     "color": "red",
-    "best": "ast",
-    "note": "ATL gives up the 26th-most assists to guards (12.8 a game, 11 games)."
+    "best": "reb",
+    "note": "ATL gives up the 26th-most rebounds to guards (12.5 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1793,15 +1793,15 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 8,
+      "proj": 9,
       "lo": 0,
-      "hi": 21
+      "hi": 17
      },
      {
       "label": "Reb",
-      "proj": 1.8,
+      "proj": 1.9,
       "lo": 0,
-      "hi": 4
+      "hi": 3
      },
      {
       "label": "Ast",
@@ -1810,8 +1810,8 @@
       "hi": 5
      }
     ],
-    "games_used": 9,
-    "minutes": 16,
+    "games_used": 10,
+    "minutes": 17,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false
@@ -2027,8 +2027,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday.",
-    "date": "2026-11-04T23:50Z"
+    "note": "Williams (hamstring) is out for Monday's game against the Cavaliers.",
+    "date": "2026-11-08T22:35Z"
    },
    "status_note": "Out",
    "career": [
@@ -2210,37 +2210,37 @@
    "opponent_logo": "img/teams/LAL.png",
    "matchup": {
     "notes": {
-     "pts": "LAL gives up the 13th-most points to forwards (42.1 a game, 10 games).",
-     "reb": "LAL gives up the 20th-most rebounds to forwards (17.9 a game, 10 games).",
-     "ast": "LAL gives up the 12th-most assists to forwards (8.7 a game, 10 games)."
+     "pts": "LAL gives up the 16th-most points to forwards (41.3 a game, 11 games).",
+     "reb": "LAL gives up the 22nd-most rebounds to forwards (17.7 a game, 11 games).",
+     "ast": "LAL gives up the 13th-most assists to forwards (8.4 a game, 11 games)."
     },
     "group": "F",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 42.1,
-      "rank": 13,
+      "value": 41.3,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 17.9,
-      "rank": 20,
+      "value": 17.7,
+      "rank": 22,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 8.7,
-      "rank": 12,
+      "value": 8.4,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 52,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "LAL gives up the 12th-most assists to forwards (8.7 a game, 10 games)."
+    "note": "LAL gives up the 13th-most assists to forwards (8.4 a game, 11 games)."
    },
    "injury": {
     "status": "Out",
@@ -2305,6 +2305,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909946",
+       "date": "2026-11-08",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "LAL",
+       "home": false,
+       "result": "W",
+       "score": "121-116",
+       "min": 29,
+       "pts": 12,
+       "reb": 16,
+       "ast": 4,
+       "playoff": false
+      },
+      {
        "gid": "401909294",
        "date": "2026-11-06",
        "venue": "LAL",
@@ -2363,28 +2378,13 @@
        "reb": 15,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909285",
-       "date": "2026-10-30",
-       "venue": "GSW",
-       "opp": "GSW",
-       "tm": "LAL",
-       "home": false,
-       "result": "L",
-       "score": "112-95",
-       "min": 31,
-       "pts": 10,
-       "reb": 13,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 14.4,
-     "reb": 12.6,
-     "ast": 1.4,
-     "min": 32.0
+     "pts": 14.8,
+     "reb": 13.2,
+     "ast": 1.8,
+     "min": 31.6
     },
     "vs": {
      "opp": "ATL",
@@ -2469,23 +2469,23 @@
      {
       "label": "Pts",
       "proj": 15,
-      "lo": 10,
+      "lo": 11,
       "hi": 23
      },
      {
       "label": "Reb",
-      "proj": 11.0,
+      "proj": 11.6,
       "lo": 8,
-      "hi": 15
+      "hi": 16
      },
      {
       "label": "Ast",
-      "proj": 1.4,
+      "proj": 1.7,
       "lo": 0,
-      "hi": 2
+      "hi": 4
      }
     ],
-    "games_used": 10,
+    "games_used": 11,
     "minutes": 31,
     "sims": 1000,
     "opp_factor": 1.07,
@@ -2671,7 +2671,7 @@
    "matchup": {
     "notes": {
      "pts": "TOR gives up the 16th-most points to centers (13.8 a game, 9 games).",
-     "reb": "TOR gives up the 11th-most rebounds to centers (10.3 a game, 9 games).",
+     "reb": "TOR gives up the 10th-most rebounds to centers (10.3 a game, 9 games).",
      "ast": "TOR gives up the 11th-most assists to centers (2.9 a game, 9 games)."
     },
     "group": "C",
@@ -2685,9 +2685,9 @@
      },
      "reb": {
       "value": 10.3,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
       "value": 2.9,
@@ -2696,11 +2696,11 @@
       "color": "yellow"
      }
     },
-    "score": 60,
+    "score": 61,
     "grade": "B",
     "color": "yellow",
     "best": "reb",
-    "note": "TOR gives up the 11th-most rebounds to centers (10.3 a game, 9 games)."
+    "note": "TOR gives up the 10th-most rebounds to centers (10.3 a game, 9 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2740,7 +2740,7 @@
     "games_used": 8,
     "minutes": 21,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 1.0,
     "locked": false
    }
   },
@@ -2797,6 +2797,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909948",
+       "date": "2026-11-08",
+       "venue": "DAL",
+       "opp": "BKN",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "130-93",
+       "min": 9,
+       "pts": 4,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909933",
        "date": "2026-11-04",
@@ -2856,28 +2871,13 @@
        "reb": 1,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909871",
-       "date": "2026-10-26",
-       "venue": "MIA",
-       "opp": "MIA",
-       "tm": "DAL",
-       "home": false,
-       "result": "W",
-       "score": "113-109",
-       "min": 8,
-       "pts": 0,
-       "reb": 1,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 2.8,
-     "reb": 0.8,
+     "pts": 3.6,
+     "reb": 0.6,
      "ast": 1.6,
-     "min": 12.2
+     "min": 12.4
     },
     "vs": {
      "opp": "IND",
@@ -2971,7 +2971,7 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "notes": {
-     "pts": "IND gives up the 26th-most points to guards (49.5 a game, 10 games).",
+     "pts": "IND gives up the 27th-most points to guards (49.5 a game, 10 games).",
      "reb": "IND gives up the 21st-most rebounds to guards (14.8 a game, 10 games).",
      "ast": "IND gives up the 18th-most assists to guards (14.6 a game, 10 games)."
     },
@@ -2980,7 +2980,7 @@
     "stats": {
      "pts": {
       "value": 49.5,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
@@ -2997,7 +2997,7 @@
       "color": "yellow"
      }
     },
-    "score": 29,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -3009,11 +3009,11 @@
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 6 times (avg 8.3 pts, 1.7 reb, 2.8 ast).",
-     "n": 6,
-     "pts": 8.3,
-     "reb": 1.7,
-     "ast": 2.8,
+     "text": "Has played in his hometown area 7 times (avg 7.7 pts, 1.4 reb, 2.4 ast).",
+     "n": 7,
+     "pts": 7.7,
+     "reb": 1.4,
+     "ast": 2.4,
      "scope": ""
     }
    ],
@@ -3023,23 +3023,23 @@
       "label": "Pts",
       "proj": 6,
       "lo": 0,
-      "hi": 18
+      "hi": 12
      },
      {
       "label": "Reb",
-      "proj": 1.2,
+      "proj": 1.0,
       "lo": 0,
       "hi": 3
      },
      {
       "label": "Ast",
-      "proj": 2.0,
+      "proj": 1.8,
       "lo": 0,
       "hi": 5
      }
     ],
-    "games_used": 8,
-    "minutes": 16,
+    "games_used": 9,
+    "minutes": 15,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false
@@ -3272,37 +3272,37 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 10th-most points to forwards (42.8 a game, 9 games).",
-     "reb": "DAL gives up the 14th-most rebounds to forwards (19.3 a game, 9 games).",
-     "ast": "DAL gives up the 27th-most assists to forwards (6.6 a game, 9 games)."
+     "pts": "DAL gives up the 9th-most points to forwards (44.1 a game, 10 games).",
+     "reb": "DAL gives up the 13th-most rebounds to forwards (19.2 a game, 10 games).",
+     "ast": "DAL gives up the 27th-most assists to forwards (6.7 a game, 10 games)."
     },
     "group": "F",
-    "games": 9,
+    "games": 10,
     "stats": {
      "pts": {
-      "value": 42.8,
-      "rank": 10,
+      "value": 44.1,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 19.3,
-      "rank": 14,
+      "value": 19.2,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 6.6,
+      "value": 6.7,
       "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 45,
+    "score": 47,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "DAL gives up the 10th-most points to forwards (42.8 a game, 9 games)."
+    "note": "DAL gives up the 9th-most points to forwards (44.1 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3482,8 +3482,8 @@
    "opponent_logo": "img/teams/SAS.png",
    "matchup": {
     "notes": {
-     "pts": "SAS gives up the 20th-most points to forwards (40.6 a game, 10 games).",
-     "reb": "SAS gives up the 22nd-most rebounds to forwards (17.2 a game, 10 games).",
+     "pts": "SAS gives up the 19th-most points to forwards (40.6 a game, 10 games).",
+     "reb": "SAS gives up the 24th-most rebounds to forwards (17.2 a game, 10 games).",
      "ast": "SAS gives up the 15th-most assists to forwards (7.8 a game, 10 games)."
     },
     "group": "F",
@@ -3491,13 +3491,13 @@
     "stats": {
      "pts": {
       "value": 40.6,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 17.2,
-      "rank": 22,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -3508,7 +3508,7 @@
       "color": "yellow"
      }
     },
-    "score": 38,
+    "score": 37,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
@@ -3757,8 +3757,8 @@
    "opponent_logo": "img/teams/SAS.png",
    "matchup": {
     "notes": {
-     "pts": "SAS gives up the 20th-most points to forwards (40.6 a game, 10 games).",
-     "reb": "SAS gives up the 22nd-most rebounds to forwards (17.2 a game, 10 games).",
+     "pts": "SAS gives up the 19th-most points to forwards (40.6 a game, 10 games).",
+     "reb": "SAS gives up the 24th-most rebounds to forwards (17.2 a game, 10 games).",
      "ast": "SAS gives up the 15th-most assists to forwards (7.8 a game, 10 games)."
     },
     "group": "F",
@@ -3766,13 +3766,13 @@
     "stats": {
      "pts": {
       "value": 40.6,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 17.2,
-      "rank": 22,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -3783,7 +3783,7 @@
       "color": "yellow"
      }
     },
-    "score": 38,
+    "score": 37,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
@@ -3874,6 +3874,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909950",
+       "date": "2026-11-08",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "NOP",
+       "home": false,
+       "result": "L",
+       "score": "139-123",
+       "min": 17,
+       "pts": 5,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909293",
        "date": "2026-11-06",
        "venue": "NOP",
@@ -3932,27 +3947,12 @@
        "reb": 4,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909894",
-       "date": "2026-10-29",
-       "venue": "NOP",
-       "opp": "SAC",
-       "tm": "NOP",
-       "home": true,
-       "result": "W",
-       "score": "132-120",
-       "min": 17,
-       "pts": 8,
-       "reb": 1,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 7.6,
-     "reb": 3.6,
-     "ast": 1.2,
+     "pts": 7.0,
+     "reb": 4.0,
+     "ast": 0.8,
      "min": 18.0
     },
     "vs": {
@@ -4017,8 +4017,8 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 11th-most points to forwards (42.3 a game, 10 games).",
-     "reb": "GSW gives up the 12th-most rebounds to forwards (19.4 a game, 10 games).",
+     "pts": "GSW gives up the 14th-most points to forwards (42.3 a game, 10 games).",
+     "reb": "GSW gives up the 11th-most rebounds to forwards (19.4 a game, 10 games).",
      "ast": "GSW gives up the 12th-most assists to forwards (8.7 a game, 10 games)."
     },
     "group": "F",
@@ -4026,13 +4026,13 @@
     "stats": {
      "pts": {
       "value": 42.3,
-      "rank": 11,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 19.4,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
@@ -4043,11 +4043,11 @@
       "color": "yellow"
      }
     },
-    "score": 63,
+    "score": 61,
     "grade": "B",
     "color": "yellow",
-    "best": "pts",
-    "note": "GSW gives up the 11th-most points to forwards (42.3 a game, 10 games)."
+    "best": "reb",
+    "note": "GSW gives up the 11th-most rebounds to forwards (19.4 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4067,24 +4067,24 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 8,
+      "proj": 7,
       "lo": 4,
       "hi": 12
      },
      {
       "label": "Reb",
-      "proj": 3.7,
+      "proj": 3.5,
       "lo": 1,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 1.2,
+      "proj": 1.0,
       "lo": 0,
       "hi": 2
      }
     ],
-    "games_used": 5,
+    "games_used": 6,
     "minutes": 18,
     "sims": 1000,
     "opp_factor": 1.0,
