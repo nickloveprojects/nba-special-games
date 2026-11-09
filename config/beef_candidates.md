@@ -1,15 +1,18 @@
-# Beef candidates (run: 2026-11-08)
+# Beef candidates (run: 2026-11-09)
 
-Games reviewed: NBA 2026-11-08 (7 games) and 2026-11-09 (8 games); NFL 2026-11-08 (13 games) and 2026-11-09 (BUF at MIN).
+Games scanned: NBA 2026-11-09 (TOR-MEM, CHA-CLE, DEN-HOU, NOP-GSW, ATL-LAL, WAS-DET, DAL-IND, PHX-SAS) and 2026-11-10 (PHI-BOS, MIL-NYK, POR-OKC, LAC-PHX, MIA-UTA, SAC-ORL). NFL: BUF at MIN (2026-11-09, 8:15 PM ET).
 
 ## No new candidates
 
-Standard web searches for fights, ejections, suspensions, trash talk, and former-team returns across these games returned only search-result titles and links. No article that I could open and read named two specific players from the same game with a dated, checkable beef. Nothing was listed, because the rules say not to rely on search snippets.
+No pair of players who both appear in an upcoming game was confirmed by a fetched, dated article beyond what is already in config/rivalries.yaml.
 
-## Claims not verified (not listed)
+## Not listed, and why
 
-- Search results surfaced Jalen Suggs / Andre Drummond (ejection) and Jose Alvarado / Mark Williams (altercation). Suggs and Drummond are already in config/rivalries.yaml. Alvarado/Williams is not tied to any game on this slate.
-- A Ja Morant / Klay Thompson exchange after a Grizzlies-Mavericks game (SI) surfaced. The players are not facing each other in the Nov 8-9 window (MEM at TOR, DAL vs BKN / IND), so it was set aside.
-- A Newsweek item about Micah Parsons facing his former Cowboys team surfaced. Packers vs Cowboys is not on this slate (GB at NE).
-- Mike Evans trash talk (tixel.com) and a Josh Allen / Baker Mayfield jab (CBS) surfaced as undated or off-slate. Evans / Lattimore is already in config/rivalries_nfl.yaml.
-- NBA homecoming-game articles (ESPN, NBC) list January reunions, not Nov 8-9.
+- Kevin Durant (HOU) and Bruce Brown: heated exchange in Rockets 115-101 win at Denver, Dec 20, 2025. Confirmed by fetched articles from Bleacher Report (Dec 20, 2025), Sports Illustrated (Dec 21 and 22, 2025) and ESPN via ABC13 (Dec 21, 2025). Not listed because Brown is not on Denver's roster in the project database, so the pair will not appear in the DEN-HOU game. If Brown is on the roster, tell me and I will add the YAML.
+- Jaylen Brown and Jayson Tatum (PHI-BOS, 2026-11-10): already in rivalries.yaml. Newer coverage exists (Oct 25-27, 2026, e.g. "no beef" remarks) but I did not fetch it, so no update is proposed.
+- Dyson Daniels / Mitchell Robinson, Jokic / McDaniels / Randle, and Mavs/Suns Nurkic items: already listed or not facing each other in these games.
+
+## Unverified (search results only; no article fetched)
+
+- Brown-Tatum Oct 2026 articles (ny1.com AP, turnto10.com, boston.com, cbssports.com, newsweek.com).
+- Hawks/Lakers, Bucks/Knicks, Suns/Spurs and Clippers/Suns searches returned only older or unrelated incidents. NFL BUF-MIN, CHA-CLE, WAS-DET, POR-OKC, MIA-UTA, SAC-ORL, TOR-MEM, NOP-GSW, DAL-IND and PHI-BOS beyond Brown/Tatum were not searched this run.
