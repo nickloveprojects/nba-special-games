@@ -1,0 +1,615 @@
+{
+ "date": "2026-11-16",
+ "sport": "nfl",
+ "week": 10,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 4241263,
+   "name": "Charlie Kolar",
+   "team": "LAC",
+   "team_name": "Chargers",
+   "team_color": "#0080c6",
+   "team_alt": "#ffc20e",
+   "opponent": "BAL",
+   "opponent_name": "Ravens",
+   "opponent_color": "#29126f",
+   "position": "TE",
+   "jersey": "88",
+   "home_away": "away",
+   "game_id": "401873065",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-17T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 45,
+    "wind": 6,
+    "gust": 15,
+    "rain": 3
+   },
+   "weather_text": "45\u00b0F, wind 6 mph",
+   "arena": "M&T Bank Stadium",
+   "location": "Baltimore, MD",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Ravens, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4241263",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 2.6 rec, 25.8 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "HOU",
+       "result": "L",
+       "cells": [
+        "3",
+        "3",
+        "31",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "1",
+        "4",
+        "20",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "KC",
+       "result": "L",
+       "cells": [
+        "3",
+        "6",
+        "20",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "3",
+        "4",
+        "37",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": true,
+       "opp": "LV",
+       "result": "L",
+       "cells": [
+        "3",
+        "3",
+        "21",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "BAL",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs BAL in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "BAL gives up the 18th-most receiving yards to tight ends (49.3 a game, 9 games).",
+     "rec": "BAL gives up the 27th-most catches to tight ends (4.2 a game, 9 games)."
+    },
+    "group": "TE",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 49.3,
+      "rank": 18,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 4.2,
+      "rank": 27,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 31,
+    "grade": "D",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "BAL gives up the 18th-most receiving yards to tight ends (49.3 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 2.2,
+      "lo": 0.0,
+      "hi": 2.9
+     },
+     {
+      "label": "Rec yds",
+      "proj": 24,
+      "lo": 0,
+      "hi": 42
+     }
+    ],
+    "games_used": 6,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 0.91,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Ravens player.",
+     "detail": "Played for the Ravens from 2022 to 2025 (51 games).",
+     "how_left": "Played for the Ravens from 2022 to 2025 (51 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
+     "sources": [],
+     "when": "2025"
+    }
+   ],
+   "headshot": "img/nfl/players/4241263.png",
+   "team_logo": "img/nfl/teams/LAC.png",
+   "opponent_logo": "img/nfl/teams/BAL.png"
+  },
+  {
+   "player_id": 4596334,
+   "name": "Keaton Mitchell",
+   "team": "LAC",
+   "team_name": "Chargers",
+   "team_color": "#0080c6",
+   "team_alt": "#ffc20e",
+   "opponent": "BAL",
+   "opponent_name": "Ravens",
+   "opponent_color": "#29126f",
+   "position": "RB",
+   "jersey": "34",
+   "home_away": "away",
+   "game_id": "401873065",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-17T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 45,
+    "wind": 6,
+    "gust": 15,
+    "rain": 3
+   },
+   "weather_text": "45\u00b0F, wind 6 mph",
+   "arena": "M&T Bank Stadium",
+   "location": "Baltimore, MD",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Ravens, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4596334",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 18.6 rush yds, 0 TD, 2.8 rec",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "HOU",
+       "result": "L",
+       "cells": [
+        "7",
+        "33",
+        "0",
+        "3",
+        "34"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "4",
+        "6",
+        "0",
+        "3",
+        "17"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "KC",
+       "result": "L",
+       "cells": [
+        "2",
+        "4",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "6",
+        "11",
+        "0",
+        "3",
+        "18"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "SEA",
+       "result": "L",
+       "cells": [
+        "10",
+        "39",
+        "0",
+        "5",
+        "24"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "BAL",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs BAL in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rush_yds": "BAL gives up the 21st-most rushing yards to running backs (77 a game, 9 games).",
+     "rec_yds": "BAL gives up the 32nd-most receiving yards to running backs (16.6 a game, 9 games)."
+    },
+    "group": "RB",
+    "games": 9,
+    "stats": {
+     "rush_yds": {
+      "value": 77.0,
+      "rank": 21,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec_yds": {
+      "value": 16.6,
+      "rank": 32,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 18,
+    "grade": "F",
+    "color": "red",
+    "best": "rush_yds",
+    "note": "BAL gives up the 21st-most rushing yards to running backs (77 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 21,
+      "lo": 0,
+      "hi": 44
+     },
+     {
+      "label": "Rec",
+      "proj": 2.4,
+      "lo": 0.0,
+      "hi": 4.9
+     },
+     {
+      "label": "Rec yds",
+      "proj": 14,
+      "lo": 0,
+      "hi": 35
+     }
+    ],
+    "games_used": 8,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 0.95,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Ravens player.",
+     "detail": "Played for the Ravens from 2023 to 2025 (28 games).",
+     "how_left": "Played for the Ravens from 2023 to 2025 (28 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Chargers (Mar 13, 2026).",
+     "sources": [],
+     "when": "2025"
+    }
+   ],
+   "headshot": "img/nfl/players/4596334.png",
+   "team_logo": "img/nfl/teams/LAC.png",
+   "opponent_logo": "img/nfl/teams/BAL.png"
+  },
+  {
+   "player_id": 2576399,
+   "name": "Nick Vannett",
+   "team": "BAL",
+   "team_name": "Ravens",
+   "team_color": "#29126f",
+   "team_alt": "#000000",
+   "opponent": "LAC",
+   "opponent_name": "Chargers",
+   "opponent_color": "#0080c6",
+   "position": "TE",
+   "jersey": "87",
+   "home_away": "home",
+   "game_id": "401873065",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-17T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 45,
+    "wind": 6,
+    "gust": 15,
+    "rain": 3
+   },
+   "weather_text": "45\u00b0F, wind 6 mph",
+   "arena": "M&T Bank Stadium",
+   "location": "Baltimore, MD",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Chargers, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/2576399",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-05",
+       "home": true,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "BUF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "CLE",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "LAC",
+     "n": 4,
+     "text": "avg 0.2 rec, 1.2 yds, 0 TD",
+     "games": [
+      {
+       "date": "2024-11-10",
+       "home": false,
+       "opp": "LAC",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2020-12-27",
+       "home": false,
+       "opp": "LAC",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2020-11-01",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2019-10-13",
+       "home": false,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "5",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs LAC in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "LAC gives up the 14th-most receiving yards to tight ends (51.1 a game, 8 games).",
+     "rec": "LAC gives up the 29th-most catches to tight ends (4.1 a game, 8 games)."
+    },
+    "group": "TE",
+    "games": 8,
+    "stats": {
+     "rec_yds": {
+      "value": 51.1,
+      "rank": 14,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 4.1,
+      "rank": 29,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 34,
+    "grade": "D",
+    "color": "yellow",
+    "best": "rec_yds",
+    "note": "LAC gives up the 14th-most receiving yards to tight ends (51.1 a game, 8 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Chargers player.",
+     "detail": "Played for the Chargers in 2023 (8 games).",
+     "how_left": "Played for the Chargers in 2023 (8 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Titans (May 13, 2024).",
+     "sources": [],
+     "when": "2023"
+    }
+   ],
+   "headshot": "img/nfl/players/2576399.png",
+   "team_logo": "img/nfl/teams/BAL.png",
+   "opponent_logo": "img/nfl/teams/LAC.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "LAC",
+   "home": "BAL",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/LAC.png",
+   "home_logo": "img/nfl/teams/BAL.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-10T14:12:14+00:00"
+}

@@ -1,0 +1,2479 @@
+{
+ "date": "2026-11-15",
+ "sport": "nfl",
+ "week": 10,
+ "games": 12,
+ "entries": [
+  {
+   "player_id": 3122840,
+   "name": "Deshaun Watson",
+   "team": "CLE",
+   "team_name": "Browns",
+   "team_color": "#472a08",
+   "team_alt": "#ff3c00",
+   "opponent": "HOU",
+   "opponent_name": "Texans",
+   "opponent_color": "#021018",
+   "position": "QB",
+   "jersey": "4",
+   "home_away": "home",
+   "game_id": "401873056",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 45,
+    "wind": 11,
+    "gust": 15,
+    "rain": 8
+   },
+   "weather_text": "45\u00b0F, wind 11 mph",
+   "arena": "Huntington Bank Field",
+   "location": "Cleveland, OH",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Texans, who traded him.",
+   "score": 5.0,
+   "stats": {},
+   "status_note": "Out",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3122840",
+   "recent": {
+    "cols": [
+     "C/ATT",
+     "YDS",
+     "TD",
+     "INT",
+     "RUSH"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 243.8 pass yds, 0.4 TD, 0.4 INT",
+     "games": [
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "PIT",
+       "result": "L",
+       "cells": [
+        "27/39",
+        "324",
+        "0",
+        "0",
+        "2"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "TEN",
+       "result": "W",
+       "cells": [
+        "25/36",
+        "308",
+        "0",
+        "1",
+        "19"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "BAL",
+       "result": "W",
+       "cells": [
+        "16/26",
+        "164",
+        "0",
+        "0",
+        "29"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "NYJ",
+       "result": "L",
+       "cells": [
+        "15/33",
+        "155",
+        "1",
+        "0",
+        "40"
+       ]
+      },
+      {
+       "date": "2026-10-01",
+       "home": true,
+       "opp": "PIT",
+       "result": "W",
+       "cells": [
+        "24/33",
+        "268",
+        "1",
+        "1",
+        "22"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "HOU",
+     "n": 1,
+     "text": "avg 131 pass yds, 0 TD, 1 INT",
+     "games": [
+      {
+       "date": "2022-12-04",
+       "home": false,
+       "opp": "HOU",
+       "result": "W",
+       "cells": [
+        "12/22",
+        "131",
+        "0",
+        "1",
+        "21"
+       ]
+      }
+     ],
+     "note": "No games vs HOU in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "pass_yds": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games).",
+     "pass_td": "HOU gives up the 13th-most passing touchdowns to quarterbacks (1.5 a game, 8 games)."
+    },
+    "group": "QB",
+    "games": 8,
+    "stats": {
+     "pass_yds": {
+      "value": 257.0,
+      "rank": 2,
+      "of": 32,
+      "color": "green"
+     },
+     "pass_td": {
+      "value": 1.5,
+      "rank": 13,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "pass_yds": "PASS YDS",
+     "pass_td": "PASS TD"
+    },
+    "score": 79,
+    "grade": "B",
+    "color": "green",
+    "best": "pass_yds",
+    "note": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Traded by the Texans.",
+     "detail": "Played for the Texans from 2019 to 2020 (33 games).",
+     "how_left": "Acquired QB Deshaun Watson and a 2024 fifth-round draft pick from Houston in exchange for a 2022 first-round draft pick, 2023 first-round draft pick, 2023 third-round draft pick, 2024 first-round draft pick and a 2024 fourth-round draft pick. (Mar 15, 2022)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2022-03-15"
+    }
+   ],
+   "headshot": "img/nfl/players/3122840.png",
+   "team_logo": "img/nfl/teams/CLE.png",
+   "opponent_logo": "img/nfl/teams/HOU.png"
+  },
+  {
+   "player_id": 3929785,
+   "name": "Nick Westbrook-Ikhine",
+   "team": "IND",
+   "team_name": "Colts",
+   "team_color": "#003b75",
+   "team_alt": "#ffffff",
+   "opponent": "MIA",
+   "opponent_name": "Dolphins",
+   "opponent_color": "#008e97",
+   "position": "WR",
+   "jersey": "12",
+   "home_away": "home",
+   "game_id": "401873059",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Lucas Oil Stadium",
+   "location": "Indianapolis, IN",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Dolphins, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3929785",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "PIT",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "HOU",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-01-04",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-12-15",
+       "home": false,
+       "opp": "PIT",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "MIA",
+     "n": 3,
+     "text": "avg 0.7 rec, 9.3 yds, 0 TD",
+     "games": [
+      {
+       "date": "2024-09-30",
+       "home": false,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2023-12-11",
+       "home": false,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "2",
+        "4",
+        "28",
+        "0"
+       ]
+      },
+      {
+       "date": "2022-01-02",
+       "home": true,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs MIA in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "MIA gives up the 26th-most receiving yards to receivers (106.2 a game, 8 games).",
+     "rec": "MIA gives up the 27th-most catches to receivers (8.1 a game, 8 games)."
+    },
+    "group": "WR",
+    "games": 8,
+    "stats": {
+     "rec_yds": {
+      "value": 106.2,
+      "rank": 26,
+      "of": 32,
+      "color": "red"
+     },
+     "rec": {
+      "value": 8.1,
+      "rank": 27,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 18,
+    "grade": "F",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "MIA gives up the 26th-most receiving yards to receivers (106.2 a game, 8 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Dolphins.",
+     "detail": "Played for the Dolphins in 2025 (15 games).",
+     "how_left": "Released WRs Tyreek Hill and Nick Westbrook-Ikhine and OL James Daniels. (Feb 16, 2026)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2026-02-16"
+    }
+   ],
+   "headshot": "img/nfl/players/3929785.png",
+   "team_logo": "img/nfl/teams/IND.png",
+   "opponent_logo": "img/nfl/teams/MIA.png"
+  },
+  {
+   "player_id": 3915411,
+   "name": "Ty Johnson",
+   "team": "BUF",
+   "team_name": "Bills",
+   "team_color": "#00338d",
+   "team_alt": "#d50a0a",
+   "opponent": "NYJ",
+   "opponent_name": "Jets",
+   "opponent_color": "#115740",
+   "position": "RB",
+   "jersey": "26",
+   "home_away": "away",
+   "game_id": "401873054",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 48,
+    "wind": 10,
+    "gust": 13,
+    "rain": 0
+   },
+   "weather_text": "48\u00b0F, wind 10 mph",
+   "arena": "MetLife Stadium",
+   "location": "East Rutherford, NJ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Jets, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3915411",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 2.2 rush yds, 0 TD, 2.6 rec",
+     "games": [
+      {
+       "date": "2026-11-09",
+       "home": false,
+       "opp": "MIN",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "0",
+        "2",
+        "36"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": true,
+       "opp": "BAL",
+       "result": "W",
+       "cells": [
+        "4",
+        "4",
+        "0",
+        "3",
+        "19"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "1",
+        "3",
+        "0",
+        "2",
+        "24"
+       ]
+      },
+      {
+       "date": "2026-10-12",
+       "home": false,
+       "opp": "LAR",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "4",
+        "72"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "1",
+        "3",
+        "0",
+        "2",
+        "9"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "NYJ",
+     "n": 5,
+     "text": "avg 20.6 rush yds, 0.6 TD, 1.2 rec",
+     "games": [
+      {
+       "date": "2026-01-04",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "13",
+        "36",
+        "2",
+        "2",
+        "20"
+       ]
+      },
+      {
+       "date": "2025-09-14",
+       "home": false,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "2",
+        "6",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2024-12-29",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "4",
+        "16",
+        "0",
+        "1",
+        "9"
+       ]
+      },
+      {
+       "date": "2024-10-14",
+       "home": false,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "4",
+        "34",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2023-11-19",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "3",
+        "11",
+        "1",
+        "3",
+        "47"
+       ]
+      }
+     ],
+     "note": "No games vs NYJ in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rush_yds": "NYJ gives up the 4th-most rushing yards to running backs (107.8 a game, 9 games).",
+     "rec_yds": "NYJ gives up the 19th-most receiving yards to running backs (26.7 a game, 9 games)."
+    },
+    "group": "RB",
+    "games": 9,
+    "stats": {
+     "rush_yds": {
+      "value": 107.8,
+      "rank": 4,
+      "of": 32,
+      "color": "green"
+     },
+     "rec_yds": {
+      "value": 26.7,
+      "rank": 19,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 66,
+    "grade": "B",
+    "color": "yellow",
+    "best": "rush_yds",
+    "note": "NYJ gives up the 4th-most rushing yards to running backs (107.8 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 10,
+      "lo": 0,
+      "hi": 27
+     },
+     {
+      "label": "Rec",
+      "proj": 2.3,
+      "lo": 1.8,
+      "hi": 3.5
+     },
+     {
+      "label": "Rec yds",
+      "proj": 22,
+      "lo": 3,
+      "hi": 58
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 0.97,
+    "opp_factor": 1.13,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Jets.",
+     "detail": "Played for the Jets from 2020 to 2022 (43 games).",
+     "how_left": "Released RB Ty Johnson with a non-football injury designation. (Apr 26, 2023)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2023-04-26"
+    }
+   ],
+   "headshot": "img/nfl/players/3915411.png",
+   "team_logo": "img/nfl/teams/BUF.png",
+   "opponent_logo": "img/nfl/teams/NYJ.png"
+  },
+  {
+   "player_id": 4360290,
+   "name": "Brayden Willis",
+   "team": "SF",
+   "team_name": "49ers",
+   "team_color": "#aa0000",
+   "team_alt": "#b3995d",
+   "opponent": "DAL",
+   "opponent_name": "Cowboys",
+   "opponent_color": "#002a5c",
+   "position": "TE",
+   "jersey": "9",
+   "home_away": "away",
+   "game_id": "401873063",
+   "game_kind": "Regular season",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-15T21:25:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "AT&T Stadium",
+   "location": "Arlington, TX",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4360290",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "ATL",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-19",
+       "home": true,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "SEA",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "DEN",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "DAL",
+     "n": 1,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2024-10-27",
+       "home": true,
+       "opp": "DAL",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs DAL in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "DAL gives up the 15th-most receiving yards to tight ends (50.2 a game, 9 games).",
+     "rec": "DAL gives up the 10th-most catches to tight ends (5.4 a game, 9 games)."
+    },
+    "group": "TE",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 50.2,
+      "rank": 15,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 5.4,
+      "rank": 10,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 63,
+    "grade": "B",
+    "color": "yellow",
+    "best": "rec",
+    "note": "DAL gives up the 10th-most catches to tight ends (5.4 a game, 9 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Arlington, TX, about 3 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q17943"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/4360290.png",
+   "team_logo": "img/nfl/teams/SF.png",
+   "opponent_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "player_id": 3055899,
+   "name": "Harrison Butker",
+   "team": "KC",
+   "team_name": "Chiefs",
+   "team_color": "#e31837",
+   "team_alt": "#ffb612",
+   "opponent": "ATL",
+   "opponent_name": "Falcons",
+   "opponent_color": "#a71930",
+   "position": "K",
+   "jersey": "7",
+   "home_away": "away",
+   "game_id": "401873058",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Mercedes-Benz Stadium",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3055899",
+   "recent": {
+    "cols": [
+     "FG",
+     "XP"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1.2 FG, 2.4 XP",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "0/1",
+        "5/5"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "1/2",
+        "3/3"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "SEA",
+       "result": "L",
+       "cells": [
+        "1/3",
+        "0/0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "3/4",
+        "1/2"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "3/3"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "ATL",
+     "n": 2,
+     "text": "avg 2 FG, 1.5 XP",
+     "games": [
+      {
+       "date": "2024-09-22",
+       "home": false,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "3/3",
+        "1/2"
+       ]
+      },
+      {
+       "date": "2020-12-27",
+       "home": true,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "2/2"
+       ]
+      }
+     ],
+     "note": "No games vs ATL in the last 8 seasons."
+    }
+   },
+   "matchup": null,
+   "career": [
+    {
+     "label": "Hometown games",
+     "text": " In his hometown area: 1 time (avg 3 FG, 1 XP).",
+     "scope": "since 2019"
+    }
+   ],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Decatur, GA, about 6 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q986200"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/3055899.png",
+   "team_logo": "img/nfl/teams/KC.png",
+   "opponent_logo": "img/nfl/teams/ATL.png"
+  },
+  {
+   "player_id": 5082630,
+   "name": "Jalen Royals",
+   "team": "KC",
+   "team_name": "Chiefs",
+   "team_color": "#e31837",
+   "team_alt": "#ffb612",
+   "opponent": "ATL",
+   "opponent_name": "Falcons",
+   "opponent_color": "#a71930",
+   "position": "WR",
+   "jersey": "11",
+   "home_away": "away",
+   "game_id": "401873058",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Mercedes-Benz Stadium",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/5082630",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1 rec, 9.2 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "2",
+        "2",
+        "18",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "DEN",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "4",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "SEA",
+       "result": "L",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "2",
+        "4",
+        "24",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "ATL",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs ATL in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "ATL gives up the 13th-most receiving yards to receivers (138.7 a game, 9 games).",
+     "rec": "ATL gives up the 12th-most catches to receivers (11.4 a game, 9 games)."
+    },
+    "group": "WR",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 138.7,
+      "rank": 13,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 11.4,
+      "rank": 12,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 63,
+    "grade": "B",
+    "color": "yellow",
+    "best": "rec",
+    "note": "ATL gives up the 12th-most catches to receivers (11.4 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 1.2,
+      "lo": 0.0,
+      "hi": 2.2
+     },
+     {
+      "label": "Rec yds",
+      "proj": 11,
+      "lo": 0,
+      "hi": 37
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 1.06,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Powder Springs, GA, about 18 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q3261052"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/5082630.png",
+   "team_logo": "img/nfl/teams/KC.png",
+   "opponent_logo": "img/nfl/teams/ATL.png"
+  },
+  {
+   "player_id": 4362887,
+   "name": "Justin Fields",
+   "team": "KC",
+   "team_name": "Chiefs",
+   "team_color": "#e31837",
+   "team_alt": "#ffb612",
+   "opponent": "ATL",
+   "opponent_name": "Falcons",
+   "opponent_color": "#a71930",
+   "position": "QB",
+   "jersey": "6",
+   "home_away": "away",
+   "game_id": "401873058",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Mercedes-Benz Stadium",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4362887",
+   "recent": {
+    "cols": [
+     "C/ATT",
+     "YDS",
+     "TD",
+     "INT",
+     "RUSH"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 82.8 pass yds, 0.6 TD, 0.2 INT",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "0/0",
+        "0",
+        "0",
+        "0",
+        "-1"
+       ]
+      },
+      {
+       "date": "2026-09-14",
+       "home": true,
+       "opp": "DEN",
+       "result": "W",
+       "cells": [
+        "0/0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-11-13",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "15/26",
+        "116",
+        "1",
+        "0",
+        "67"
+       ]
+      },
+      {
+       "date": "2025-11-09",
+       "home": true,
+       "opp": "CLE",
+       "result": "W",
+       "cells": [
+        "6/11",
+        "54",
+        "1",
+        "1",
+        "28"
+       ]
+      },
+      {
+       "date": "2025-10-26",
+       "home": false,
+       "opp": "CIN",
+       "result": "W",
+       "cells": [
+        "21/32",
+        "244",
+        "1",
+        "0",
+        "31"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "ATL",
+     "n": 3,
+     "text": "avg 192.3 pass yds, 0.7 TD, 0.3 INT",
+     "games": [
+      {
+       "date": "2024-09-08",
+       "home": false,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "17/23",
+        "156",
+        "0",
+        "0",
+        "57"
+       ]
+      },
+      {
+       "date": "2023-12-31",
+       "home": true,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "20/32",
+        "268",
+        "1",
+        "0",
+        "45"
+       ]
+      },
+      {
+       "date": "2022-11-20",
+       "home": false,
+       "opp": "ATL",
+       "result": "L",
+       "cells": [
+        "14/21",
+        "153",
+        "1",
+        "1",
+        "85"
+       ]
+      }
+     ],
+     "note": "No games vs ATL in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "pass_yds": "ATL gives up the 16th-most passing yards to quarterbacks (218.9 a game, 9 games).",
+     "pass_td": "ATL gives up the 20th-most passing touchdowns to quarterbacks (1.3 a game, 9 games)."
+    },
+    "group": "QB",
+    "games": 9,
+    "stats": {
+     "pass_yds": {
+      "value": 218.9,
+      "rank": 16,
+      "of": 32,
+      "color": "yellow"
+     },
+     "pass_td": {
+      "value": 1.3,
+      "rank": 20,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "pass_yds": "PASS YDS",
+     "pass_td": "PASS TD"
+    },
+    "score": 45,
+    "grade": "C",
+    "color": "yellow",
+    "best": "pass_yds",
+    "note": "ATL gives up the 16th-most passing yards to quarterbacks (218.9 a game, 9 games)."
+   },
+   "career": [
+    {
+     "label": "Hometown games",
+     "text": " In his hometown area: 2 times (avg 154.5 pass yds, 0.5 TD, 0.5 INT).",
+     "scope": "since 2021"
+    }
+   ],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Kennesaw, GA, about 22 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q1001316"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/4362887.png",
+   "team_logo": "img/nfl/teams/KC.png",
+   "opponent_logo": "img/nfl/teams/ATL.png"
+  },
+  {
+   "player_id": 3042519,
+   "name": "Aaron Jones Sr.",
+   "team": "MIN",
+   "team_name": "Vikings",
+   "team_color": "#4f2683",
+   "team_alt": "#ffc62f",
+   "opponent": "GB",
+   "opponent_name": "Packers",
+   "opponent_color": "#204e32",
+   "position": "RB",
+   "jersey": "33",
+   "home_away": "away",
+   "game_id": "401873060",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 43,
+    "wind": 7,
+    "gust": 8,
+    "rain": 0
+   },
+   "weather_text": "43\u00b0F, wind 7 mph",
+   "arena": "Lambeau Field",
+   "location": "Green Bay, WI",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Packers, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3042519",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 54.2 rush yds, 0.2 TD, 2.2 rec",
+     "games": [
+      {
+       "date": "2026-11-09",
+       "home": true,
+       "opp": "BUF",
+       "result": "L",
+       "cells": [
+        "5",
+        "16",
+        "0",
+        "1",
+        "5"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "5",
+        "22",
+        "0",
+        "2",
+        "18"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "IND",
+       "result": "W",
+       "cells": [
+        "8",
+        "26",
+        "0",
+        "1",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "NO",
+       "result": "W",
+       "cells": [
+        "25",
+        "113",
+        "1",
+        "3",
+        "4"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "20",
+        "94",
+        "0",
+        "4",
+        "34"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "GB",
+     "n": 4,
+     "text": "avg 55.2 rush yds, 0.2 TD, 2.8 rec",
+     "games": [
+      {
+       "date": "2026-09-13",
+       "home": true,
+       "opp": "GB",
+       "result": "W",
+       "cells": [
+        "12",
+        "40",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-11-23",
+       "home": false,
+       "opp": "GB",
+       "result": "L",
+       "cells": [
+        "9",
+        "41",
+        "0",
+        "3",
+        "16"
+       ]
+      },
+      {
+       "date": "2024-12-29",
+       "home": true,
+       "opp": "GB",
+       "result": "W",
+       "cells": [
+        "12",
+        "47",
+        "0",
+        "4",
+        "30"
+       ]
+      },
+      {
+       "date": "2024-09-29",
+       "home": false,
+       "opp": "GB",
+       "result": "W",
+       "cells": [
+        "22",
+        "93",
+        "0",
+        "4",
+        "46"
+       ]
+      }
+     ],
+     "note": "No games vs GB in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rush_yds": "GB gives up the 17th-most rushing yards to running backs (87.7 a game, 9 games).",
+     "rec_yds": "GB gives up the 8th-most receiving yards to running backs (35 a game, 9 games)."
+    },
+    "group": "RB",
+    "games": 9,
+    "stats": {
+     "rush_yds": {
+      "value": 87.7,
+      "rank": 17,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec_yds": {
+      "value": 35.0,
+      "rank": 8,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 63,
+    "grade": "B",
+    "color": "yellow",
+    "best": "rec_yds",
+    "note": "GB gives up the 8th-most receiving yards to running backs (35 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 57,
+      "lo": 6,
+      "hi": 131
+     },
+     {
+      "label": "Rec",
+      "proj": 2.1,
+      "lo": 0.0,
+      "hi": 4.1
+     },
+     {
+      "label": "Rec yds",
+      "proj": 15,
+      "lo": 0,
+      "hi": 53
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 1.02,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Packers player.",
+     "detail": "Played for the Packers from 2019 to 2023 (80 games).",
+     "how_left": "Played for the Packers from 2019 to 2023 (80 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
+     "sources": [],
+     "when": "2023"
+    }
+   ],
+   "headshot": "img/nfl/players/3042519.png",
+   "team_logo": "img/nfl/teams/MIN.png",
+   "opponent_logo": "img/nfl/teams/GB.png"
+  },
+  {
+   "player_id": 16731,
+   "name": "Brandin Cooks",
+   "team": "SF",
+   "team_name": "49ers",
+   "team_color": "#aa0000",
+   "team_alt": "#b3995d",
+   "opponent": "DAL",
+   "opponent_name": "Cowboys",
+   "opponent_color": "#002a5c",
+   "position": "WR",
+   "jersey": "84",
+   "home_away": "away",
+   "game_id": "401873063",
+   "game_kind": "Regular season",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-15T21:25:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "AT&T Stadium",
+   "location": "Arlington, TX",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Cowboys, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/16731",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1 rec, 11.6 yds, 0.2 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "2",
+        "2",
+        "25",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "ATL",
+       "result": "L",
+       "cells": [
+        "1",
+        "3",
+        "13",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-19",
+       "home": true,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "1",
+        "2",
+        "13",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "SEA",
+       "result": "W",
+       "cells": [
+        "1",
+        "2",
+        "7",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "DEN",
+       "result": "W",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "DAL",
+     "n": 1,
+     "text": "avg 4 rec, 46 yds, 0 TD",
+     "games": [
+      {
+       "date": "2019-12-15",
+       "home": false,
+       "opp": "DAL",
+       "result": "L",
+       "cells": [
+        "4",
+        "8",
+        "46",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs DAL in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "DAL gives up the 20th-most receiving yards to receivers (126 a game, 9 games).",
+     "rec": "DAL gives up the 18th-most catches to receivers (9.6 a game, 9 games)."
+    },
+    "group": "WR",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 126.0,
+      "rank": 20,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 9.6,
+      "rank": 18,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 42,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rec",
+    "note": "DAL gives up the 18th-most catches to receivers (9.6 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 1.2,
+      "lo": 0.0,
+      "hi": 2.2
+     },
+     {
+      "label": "Rec yds",
+      "proj": 15,
+      "lo": 0,
+      "hi": 32
+     }
+    ],
+    "games_used": 5,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 0.97,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Cowboys player.",
+     "detail": "Played for the Cowboys from 2023 to 2024 (27 games).",
+     "how_left": "Played for the Cowboys from 2023 to 2024 (27 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Saints (Mar 21, 2025).",
+     "sources": [],
+     "when": "2024"
+    }
+   ],
+   "headshot": "img/nfl/players/16731.png",
+   "team_logo": "img/nfl/teams/SF.png",
+   "opponent_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "player_id": 3925357,
+   "name": "Calvin Ridley",
+   "team": "TEN",
+   "team_name": "Titans",
+   "team_color": "#4495d2",
+   "team_alt": "#001532",
+   "opponent": "JAX",
+   "opponent_name": "Jaguars",
+   "opponent_color": "#007487",
+   "position": "WR",
+   "jersey": "0",
+   "home_away": "home",
+   "game_id": "401873057",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 51,
+    "wind": 4,
+    "gust": 5,
+    "rain": 0
+   },
+   "weather_text": "51\u00b0F, wind 4 mph",
+   "arena": "Nissan Stadium",
+   "location": "Nashville, TN",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Jaguars, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3925357",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0.8 rec, 11.2 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "1",
+        "3",
+        "10",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": false,
+       "opp": "IND",
+       "result": "W",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": true,
+       "opp": "HOU",
+       "result": "L",
+       "cells": [
+        "2",
+        "3",
+        "33",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "BAL",
+       "result": "L",
+       "cells": [
+        "1",
+        "2",
+        "13",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "NYG",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "JAX",
+     "n": 2,
+     "text": "avg 6 rec, 71.5 yds, 0 TD",
+     "games": [
+      {
+       "date": "2024-12-29",
+       "home": false,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "5",
+        "6",
+        "84",
+        "0"
+       ]
+      },
+      {
+       "date": "2024-12-08",
+       "home": true,
+       "opp": "JAX",
+       "result": "L",
+       "cells": [
+        "7",
+        "12",
+        "59",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs JAX in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "JAX gives up the 7th-most receiving yards to receivers (155 a game, 8 games).",
+     "rec": "JAX gives up the 10th-most catches to receivers (11.6 a game, 8 games)."
+    },
+    "group": "WR",
+    "games": 8,
+    "stats": {
+     "rec_yds": {
+      "value": 155.0,
+      "rank": 7,
+      "of": 32,
+      "color": "green"
+     },
+     "rec": {
+      "value": 11.6,
+      "rank": 10,
+      "of": 32,
+      "color": "green"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 76,
+    "grade": "B",
+    "color": "green",
+    "best": "rec_yds",
+    "note": "JAX gives up the 7th-most receiving yards to receivers (155 a game, 8 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 1.4,
+      "lo": 0.0,
+      "hi": 2.5
+     },
+     {
+      "label": "Rec yds",
+      "proj": 21,
+      "lo": 0,
+      "hi": 42
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 1.07,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Jaguars player.",
+     "detail": "Played for the Jaguars in 2023 (17 games).",
+     "how_left": "Played for the Jaguars in 2023 (17 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Titans (Mar 15, 2024).",
+     "sources": [],
+     "when": "2023"
+    }
+   ],
+   "headshot": "img/nfl/players/3925357.png",
+   "team_logo": "img/nfl/teams/TEN.png",
+   "opponent_logo": "img/nfl/teams/JAX.png"
+  },
+  {
+   "player_id": 4241983,
+   "name": "Cody White",
+   "team": "LV",
+   "team_name": "Raiders",
+   "team_color": "#000000",
+   "team_alt": "#a5acaf",
+   "opponent": "SEA",
+   "opponent_name": "Seahawks",
+   "opponent_color": "#002a5c",
+   "position": "WR",
+   "jersey": "82",
+   "home_away": "home",
+   "game_id": "401873062",
+   "game_kind": "Regular season",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-15T21:05:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Allegiant Stadium",
+   "location": "Las Vegas, NV",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Seahawks, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4241983",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0.6 rec, 9.6 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "1",
+        "3",
+        "4",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "BUF",
+       "result": "L",
+       "cells": [
+        "0",
+        "2",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "2",
+        "4",
+        "44",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "SEA",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs SEA in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games).",
+     "rec": "SEA gives up the 31st-most catches to receivers (7.6 a game, 9 games)."
+    },
+    "group": "WR",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 78.8,
+      "rank": 31,
+      "of": 32,
+      "color": "red"
+     },
+     "rec": {
+      "value": 7.6,
+      "rank": 31,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 3,
+    "grade": "F",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 0.8,
+      "lo": 0.0,
+      "hi": 2.3
+     },
+     {
+      "label": "Rec yds",
+      "proj": 11,
+      "lo": 0,
+      "hi": 56
+     }
+    ],
+    "games_used": 9,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 0.87,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Seahawks player.",
+     "detail": "Played for the Seahawks from 2024 to 2025 (14 games).",
+     "how_left": "Played for the Seahawks from 2024 to 2025 (14 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
+     "sources": [],
+     "when": "2025"
+    }
+   ],
+   "headshot": "img/nfl/players/4241983.png",
+   "team_logo": "img/nfl/teams/LV.png",
+   "opponent_logo": "img/nfl/teams/SEA.png"
+  },
+  {
+   "player_id": 4401805,
+   "name": "Dareke Young",
+   "team": "LV",
+   "team_name": "Raiders",
+   "team_color": "#000000",
+   "team_alt": "#a5acaf",
+   "opponent": "SEA",
+   "opponent_name": "Seahawks",
+   "opponent_color": "#002a5c",
+   "position": "WR",
+   "jersey": "81",
+   "home_away": "home",
+   "game_id": "401873062",
+   "game_kind": "Regular season",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-15T21:05:00+00:00",
+   "weather": {
+    "indoor": true
+   },
+   "weather_text": "Indoors",
+   "arena": "Allegiant Stadium",
+   "location": "Las Vegas, NV",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Seahawks, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4401805",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0 rec, 0 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-08",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": false,
+       "opp": "NYJ",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": true,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "BUF",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-11",
+       "home": false,
+       "opp": "NE",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "SEA",
+     "n": 0,
+     "text": "",
+     "games": [],
+     "note": "No games vs SEA in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games).",
+     "rec": "SEA gives up the 31st-most catches to receivers (7.6 a game, 9 games)."
+    },
+    "group": "WR",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 78.8,
+      "rank": 31,
+      "of": 32,
+      "color": "red"
+     },
+     "rec": {
+      "value": 7.6,
+      "rank": 31,
+      "of": 32,
+      "color": "red"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 3,
+    "grade": "F",
+    "color": "red",
+    "best": "rec_yds",
+    "note": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Seahawks player.",
+     "detail": "Played for the Seahawks from 2022 to 2025 (46 games).",
+     "how_left": "Played for the Seahawks from 2022 to 2025 (46 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
+     "sources": [],
+     "when": "2025"
+    }
+   ],
+   "headshot": "img/nfl/players/4401805.png",
+   "team_logo": "img/nfl/teams/LV.png",
+   "opponent_logo": "img/nfl/teams/SEA.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "NE",
+   "home": "DET",
+   "tip": "9:30 AM ET",
+   "away_logo": "img/nfl/teams/NE.png",
+   "home_logo": "img/nfl/teams/DET.png"
+  },
+  {
+   "away": "KC",
+   "home": "ATL",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/KC.png",
+   "home_logo": "img/nfl/teams/ATL.png"
+  },
+  {
+   "away": "HOU",
+   "home": "CLE",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/HOU.png",
+   "home_logo": "img/nfl/teams/CLE.png"
+  },
+  {
+   "away": "MIN",
+   "home": "GB",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/MIN.png",
+   "home_logo": "img/nfl/teams/GB.png"
+  },
+  {
+   "away": "JAX",
+   "home": "TEN",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/JAX.png",
+   "home_logo": "img/nfl/teams/TEN.png"
+  },
+  {
+   "away": "MIA",
+   "home": "IND",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/MIA.png",
+   "home_logo": "img/nfl/teams/IND.png"
+  },
+  {
+   "away": "CAR",
+   "home": "NO",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/CAR.png",
+   "home_logo": "img/nfl/teams/NO.png"
+  },
+  {
+   "away": "BUF",
+   "home": "NYJ",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/BUF.png",
+   "home_logo": "img/nfl/teams/NYJ.png"
+  },
+  {
+   "away": "SEA",
+   "home": "LV",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/SEA.png",
+   "home_logo": "img/nfl/teams/LV.png"
+  },
+  {
+   "away": "LAR",
+   "home": "ARI",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/LAR.png",
+   "home_logo": "img/nfl/teams/ARI.png"
+  },
+  {
+   "away": "SF",
+   "home": "DAL",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/SF.png",
+   "home_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "away": "PIT",
+   "home": "CIN",
+   "tip": "8:20 PM ET",
+   "away_logo": "img/nfl/teams/PIT.png",
+   "home_logo": "img/nfl/teams/CIN.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-10T14:11:58+00:00"
+}
