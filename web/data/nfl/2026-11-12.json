@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-12",
+ "sport": "nfl",
+ "week": 10,
+ "games": 1,
+ "entries": [],
+ "matchups": [
+  {
+   "away": "WSH",
+   "home": "NYG",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/WSH.png",
+   "home_logo": "img/nfl/teams/NYG.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-10T14:09:20+00:00"
+}
