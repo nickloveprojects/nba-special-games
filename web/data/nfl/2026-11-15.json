@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 45,
-    "wind": 11,
-    "gust": 15,
+    "temp": 46,
+    "wind": 9,
+    "gust": 9,
     "rain": 8
    },
-   "weather_text": "45\u00b0F, wind 11 mph",
+   "weather_text": "46\u00b0F, wind 9 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -417,11 +417,11 @@
    "weather": {
     "indoor": false,
     "temp": 48,
-    "wind": 10,
+    "wind": 11,
     "gust": 13,
-    "rain": 0
+    "rain": 1
    },
-   "weather_text": "48\u00b0F, wind 10 mph",
+   "weather_text": "48\u00b0F, wind 11 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1411,11 +1411,11 @@
    "weather": {
     "indoor": false,
     "temp": 43,
-    "wind": 7,
-    "gust": 8,
-    "rain": 0
+    "wind": 8,
+    "gust": 9,
+    "rain": 1
    },
-   "weather_text": "43\u00b0F, wind 7 mph",
+   "weather_text": "43\u00b0F, wind 8 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1608,20 +1608,20 @@
      },
      {
       "label": "Rec",
-      "proj": 2.1,
+      "proj": 2.0,
       "lo": 0.0,
-      "hi": 4.1
+      "hi": 4.0
      },
      {
       "label": "Rec yds",
-      "proj": 15,
+      "proj": 14,
       "lo": 0,
-      "hi": 53
+      "hi": 51
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.02,
     "locked": false
    },
@@ -1854,12 +1854,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 51,
-    "wind": 4,
-    "gust": 5,
+    "temp": 49,
+    "wind": 7,
+    "gust": 10,
     "rain": 0
    },
-   "weather_text": "51\u00b0F, wind 4 mph",
+   "weather_text": "49\u00b0F, wind 7 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2475,5 +2475,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-10T14:11:58+00:00"
+ "generated_at": "2026-11-10T22:29:09+00:00"
 }

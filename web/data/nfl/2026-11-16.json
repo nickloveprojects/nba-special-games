@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-17T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 45,
-    "wind": 6,
-    "gust": 15,
+    "temp": 48,
+    "wind": 4,
+    "gust": 7,
     "rain": 3
    },
-   "weather_text": "45\u00b0F, wind 6 mph",
+   "weather_text": "48\u00b0F, wind 4 mph",
    "arena": "M&T Bank Stadium",
    "location": "Baltimore, MD",
    "categories": [
@@ -208,12 +208,12 @@
    "tip_utc": "2026-11-17T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 45,
-    "wind": 6,
-    "gust": 15,
+    "temp": 48,
+    "wind": 4,
+    "gust": 7,
     "rain": 3
    },
-   "weather_text": "45\u00b0F, wind 6 mph",
+   "weather_text": "48\u00b0F, wind 4 mph",
    "arena": "M&T Bank Stadium",
    "location": "Baltimore, MD",
    "categories": [
@@ -405,12 +405,12 @@
    "tip_utc": "2026-11-17T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 45,
-    "wind": 6,
-    "gust": 15,
+    "temp": 48,
+    "wind": 4,
+    "gust": 7,
     "rain": 3
    },
-   "weather_text": "45\u00b0F, wind 6 mph",
+   "weather_text": "48\u00b0F, wind 4 mph",
    "arena": "M&T Bank Stadium",
    "location": "Baltimore, MD",
    "categories": [
@@ -611,5 +611,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-10T14:12:14+00:00"
+ "generated_at": "2026-11-10T22:29:42+00:00"
 }
