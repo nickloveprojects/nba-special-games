@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-10T14:08:56Z",
+ "generated_at": "2026-11-10T22:28:57Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -44,11 +44,11 @@
    ],
    "score": 15.6,
    "stats": {
-    "gp": 8,
-    "min": 18.3,
-    "pts": 10.9,
-    "reb": 2.9,
-    "ast": 3.1
+    "gp": 9,
+    "min": 17.8,
+    "pts": 10.3,
+    "reb": 2.7,
+    "ast": 2.9
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4395626",
    "recent": {
@@ -439,8 +439,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Collins (illness) is out for Sunday's game against Philadelphia.",
-    "date": "2026-11-09T15:41Z"
+    "note": "Collins (illness) is questionable for Wednesday's game against the Spurs.",
+    "date": "2026-11-10T22:19Z"
    },
    "status_note": "Day-To-Day",
    "career": [],
@@ -697,11 +697,11 @@
    ],
    "score": 14.8,
    "stats": {
-    "gp": 7,
-    "min": 10.9,
-    "pts": 2.9,
-    "reb": 0.1,
-    "ast": 1.7
+    "gp": 9,
+    "min": 10.6,
+    "pts": 2.8,
+    "reb": 0.6,
+    "ast": 1.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3135046",
    "recent": {
@@ -1594,11 +1594,11 @@
     "note": "BKN gives up the 9th-most points to forwards (44.1 a game, 10 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Watford (ankle) is out for Monday's game versus Utah.",
-    "date": "2026-11-10T05:28Z"
+    "status": "Out",
+    "note": "Watford (ankle) is out for Wednesday's game against the Nets.",
+    "date": "2026-11-10T19:26Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -1611,33 +1611,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 7,
-      "lo": 4,
-      "hi": 12
-     },
-     {
-      "label": "Reb",
-      "proj": 3.5,
-      "lo": 1,
-      "hi": 6
-     },
-     {
-      "label": "Ast",
-      "proj": 1.0,
-      "lo": 0,
-      "hi": 2
-     }
-    ],
-    "games_used": 6,
-    "minutes": 18,
-    "sims": 1000,
-    "opp_factor": 1.01,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4278580,
@@ -3351,10 +3325,10 @@
    ],
    "score": 13.69,
    "stats": {
-    "gp": 7,
-    "min": 9.9,
-    "pts": 6.1,
-    "reb": 1.4,
+    "gp": 8,
+    "min": 10.4,
+    "pts": 6.5,
+    "reb": 1.5,
     "ast": 0.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2528426",
@@ -4632,11 +4606,11 @@
    ],
    "score": 13.17,
    "stats": {
-    "gp": 8,
+    "gp": 9,
     "min": 13.3,
-    "pts": 5.6,
+    "pts": 5.0,
     "reb": 7.8,
-    "ast": 1.1
+    "ast": 1.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6585",
    "recent": {
@@ -5980,9 +5954,9 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 8,
-    "min": 31.3,
-    "pts": 19.9,
+    "gp": 9,
+    "min": 31.6,
+    "pts": 20.9,
     "reb": 13.6,
     "ast": 3.1
    },
