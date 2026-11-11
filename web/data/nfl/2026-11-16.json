@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-17T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 48,
-    "wind": 4,
-    "gust": 7,
-    "rain": 3
+    "temp": 47,
+    "wind": 3,
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "48\u00b0F, wind 4 mph",
+   "weather_text": "47\u00b0F, wind 3 mph",
    "arena": "M&T Bank Stadium",
    "location": "Baltimore, MD",
    "categories": [
@@ -208,12 +208,12 @@
    "tip_utc": "2026-11-17T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 48,
-    "wind": 4,
-    "gust": 7,
-    "rain": 3
+    "temp": 47,
+    "wind": 3,
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "48\u00b0F, wind 4 mph",
+   "weather_text": "47\u00b0F, wind 3 mph",
    "arena": "M&T Bank Stadium",
    "location": "Baltimore, MD",
    "categories": [
@@ -385,220 +385,6 @@
    "headshot": "img/nfl/players/4596334.png",
    "team_logo": "img/nfl/teams/LAC.png",
    "opponent_logo": "img/nfl/teams/BAL.png"
-  },
-  {
-   "player_id": 2576399,
-   "name": "Nick Vannett",
-   "team": "BAL",
-   "team_name": "Ravens",
-   "team_color": "#29126f",
-   "team_alt": "#000000",
-   "opponent": "LAC",
-   "opponent_name": "Chargers",
-   "opponent_color": "#0080c6",
-   "position": "TE",
-   "jersey": "87",
-   "home_away": "home",
-   "game_id": "401873065",
-   "game_kind": "Regular season",
-   "tip": "8:15 PM ET",
-   "tip_utc": "2026-11-17T01:15:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 48,
-    "wind": 4,
-    "gust": 7,
-    "rain": 3
-   },
-   "weather_text": "48\u00b0F, wind 4 mph",
-   "arena": "M&T Bank Stadium",
-   "location": "Baltimore, MD",
-   "categories": [
-    "Revenge"
-   ],
-   "summary": "Faces the Chargers, his former team.",
-   "score": 2.0,
-   "stats": {},
-   "status_note": "",
-   "espn_url": "https://www.espn.com/nfl/player/_/id/2576399",
-   "recent": {
-    "cols": [
-     "REC",
-     "TGT",
-     "YDS",
-     "TD"
-    ],
-    "form": {
-     "n": 5,
-     "text": "avg 0 rec, 0 yds, 0 TD",
-     "games": [
-      {
-       "date": "2026-11-05",
-       "home": true,
-       "opp": "JAX",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2026-11-01",
-       "home": false,
-       "opp": "BUF",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "CIN",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "CLE",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2026-10-11",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      }
-     ]
-    },
-    "vs": {
-     "opp": "LAC",
-     "n": 4,
-     "text": "avg 0.2 rec, 1.2 yds, 0 TD",
-     "games": [
-      {
-       "date": "2024-11-10",
-       "home": false,
-       "opp": "LAC",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2020-12-27",
-       "home": false,
-       "opp": "LAC",
-       "result": "L",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2020-11-01",
-       "home": true,
-       "opp": "LAC",
-       "result": "W",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
-      },
-      {
-       "date": "2019-10-13",
-       "home": false,
-       "opp": "LAC",
-       "result": "W",
-       "cells": [
-        "1",
-        "1",
-        "5",
-        "0"
-       ]
-      }
-     ],
-     "note": "No games vs LAC in the last 8 seasons."
-    }
-   },
-   "matchup": {
-    "notes": {
-     "rec_yds": "LAC gives up the 14th-most receiving yards to tight ends (51.1 a game, 8 games).",
-     "rec": "LAC gives up the 29th-most catches to tight ends (4.1 a game, 8 games)."
-    },
-    "group": "TE",
-    "games": 8,
-    "stats": {
-     "rec_yds": {
-      "value": 51.1,
-      "rank": 14,
-      "of": 32,
-      "color": "yellow"
-     },
-     "rec": {
-      "value": 4.1,
-      "rank": 29,
-      "of": 32,
-      "color": "red"
-     }
-    },
-    "labels": {
-     "rec_yds": "REC YDS",
-     "rec": "REC"
-    },
-    "score": 34,
-    "grade": "D",
-    "color": "yellow",
-    "best": "rec_yds",
-    "note": "LAC gives up the 14th-most receiving yards to tight ends (51.1 a game, 8 games)."
-   },
-   "career": [],
-   "projection": null,
-   "tags": [
-    {
-     "category": "Revenge",
-     "kind": "unknown",
-     "confidence": "low",
-     "headline": "Former Chargers player.",
-     "detail": "Played for the Chargers in 2023 (8 games).",
-     "how_left": "Played for the Chargers in 2023 (8 games). No trade or release is in ESPN's log, so how he left is not confirmed. His next signing was with the Titans (May 13, 2024).",
-     "sources": [],
-     "when": "2023"
-    }
-   ],
-   "headshot": "img/nfl/players/2576399.png",
-   "team_logo": "img/nfl/teams/BAL.png",
-   "opponent_logo": "img/nfl/teams/LAC.png"
   }
  ],
  "matchups": [
@@ -611,5 +397,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-10T22:29:42+00:00"
+ "generated_at": "2026-11-11T14:14:41+00:00"
 }
