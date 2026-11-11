@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-11T14:13:06Z",
+ "generated_at": "2026-11-11T22:40:11Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -642,8 +642,12 @@
     "best": "reb",
     "note": "OKC gives up the 12th-most rebounds to guards (16.1 a game, 11 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Youngblood has been ruled out for Wednesday's game against the Thunder.",
+    "date": "2026-11-11T21:05Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -656,33 +660,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 6,
-      "lo": 0,
-      "hi": 11
-     },
-     {
-      "label": "Reb",
-      "proj": 1.2,
-      "lo": 0,
-      "hi": 4
-     },
-     {
-      "label": "Ast",
-      "proj": 1.0,
-      "lo": 0,
-      "hi": 4
-     }
-    ],
-    "games_used": 6,
-    "minutes": 13,
-    "sims": 1000,
-    "opp_factor": 0.98,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 3135046,
@@ -4051,8 +4029,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.",
-    "date": "2026-11-05T05:17Z"
+    "note": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports.",
+    "date": "2026-11-11T19:56Z"
    },
    "status_note": "Out",
    "career": [
@@ -6828,11 +6806,11 @@
     "note": "LAL gives up the 3rd-most assists to guards (17.9 a game, 12 games)."
    },
    "injury": {
-    "status": "Out",
-    "note": "Herro (knee) is listed as out for Tuesday's game against New York.",
-    "date": "2026-11-10T23:24Z"
+    "status": "Day-To-Day",
+    "note": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.",
+    "date": "2026-11-11T19:05Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -6845,7 +6823,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 21,
+      "lo": 13,
+      "hi": 25
+     },
+     {
+      "label": "Reb",
+      "proj": 4.5,
+      "lo": 1,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 4.4,
+      "lo": 0,
+      "hi": 10
+     }
+    ],
+    "games_used": 10,
+    "minutes": 31,
+    "sims": 1000,
+    "opp_factor": 1.02,
+    "locked": false
+   }
   },
   {
    "player_id": 5105839,
@@ -6972,14 +6976,14 @@
        "min": 14,
        "pts": 7,
        "reb": 2,
-       "ast": 1,
+       "ast": 2,
        "playoff": false
       }
      ],
      "n": 5,
      "pts": 4.0,
      "reb": 2.6,
-     "ast": 1.4,
+     "ast": 1.6,
      "min": 12.6
     },
     "vs": {
