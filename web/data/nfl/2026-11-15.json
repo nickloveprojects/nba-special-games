@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 46,
-    "wind": 9,
-    "gust": 9,
-    "rain": 8
+    "temp": 45,
+    "wind": 11,
+    "gust": 11,
+    "rain": 14
    },
-   "weather_text": "46\u00b0F, wind 9 mph",
+   "weather_text": "45\u00b0F, wind 11 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -37,7 +37,7 @@
    "summary": "Faces the Texans, who traded him.",
    "score": 5.0,
    "stats": {},
-   "status_note": "Out",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3122840",
    "recent": {
     "cols": [
@@ -143,7 +143,7 @@
    "matchup": {
     "notes": {
      "pass_yds": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games).",
-     "pass_td": "HOU gives up the 13th-most passing touchdowns to quarterbacks (1.5 a game, 8 games)."
+     "pass_td": "HOU gives up the 12th-most passing touchdowns to quarterbacks (1.5 a game, 8 games)."
     },
     "group": "QB",
     "games": 8,
@@ -156,7 +156,7 @@
      },
      "pass_td": {
       "value": 1.5,
-      "rank": 13,
+      "rank": 12,
       "of": 32,
       "color": "yellow"
      }
@@ -165,14 +165,40 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 79,
-    "grade": "B",
+    "score": 81,
+    "grade": "A",
     "color": "green",
     "best": "pass_yds",
     "note": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games)."
    },
    "career": [],
-   "projection": null,
+   "projection": {
+    "lines": [
+     {
+      "label": "Pass yds",
+      "proj": 255,
+      "lo": 143,
+      "hi": 368
+     },
+     {
+      "label": "Pass TD",
+      "proj": 0.7,
+      "lo": 0.0,
+      "hi": 2.2
+     },
+     {
+      "label": "Rush yds",
+      "proj": 25,
+      "lo": 0,
+      "hi": 45
+     }
+    ],
+    "games_used": 8,
+    "sims": 1000,
+    "weather_factor": 0.97,
+    "opp_factor": 1.1,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -417,11 +443,11 @@
    "weather": {
     "indoor": false,
     "temp": 48,
-    "wind": 11,
-    "gust": 13,
-    "rain": 1
+    "wind": 13,
+    "gust": 17,
+    "rain": 0
    },
-   "weather_text": "48\u00b0F, wind 11 mph",
+   "weather_text": "48\u00b0F, wind 13 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1335,21 +1361,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "ATL gives up the 16th-most passing yards to quarterbacks (218.9 a game, 9 games).",
-     "pass_td": "ATL gives up the 20th-most passing touchdowns to quarterbacks (1.3 a game, 9 games)."
+     "pass_yds": "ATL gives up the 15th-most passing yards to quarterbacks (218.9 a game, 9 games).",
+     "pass_td": "ATL gives up the 18th-most passing touchdowns to quarterbacks (1.3 a game, 9 games)."
     },
     "group": "QB",
     "games": 9,
     "stats": {
      "pass_yds": {
       "value": 218.9,
-      "rank": 16,
+      "rank": 15,
       "of": 32,
       "color": "yellow"
      },
      "pass_td": {
       "value": 1.3,
-      "rank": 20,
+      "rank": 18,
       "of": 32,
       "color": "yellow"
      }
@@ -1358,11 +1384,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 45,
+    "score": 50,
     "grade": "C",
     "color": "yellow",
     "best": "pass_yds",
-    "note": "ATL gives up the 16th-most passing yards to quarterbacks (218.9 a game, 9 games)."
+    "note": "ATL gives up the 15th-most passing yards to quarterbacks (218.9 a game, 9 games)."
    },
    "career": [
     {
@@ -1411,11 +1437,11 @@
    "weather": {
     "indoor": false,
     "temp": 43,
-    "wind": 8,
-    "gust": 9,
-    "rain": 1
+    "wind": 6,
+    "gust": 8,
+    "rain": 0
    },
-   "weather_text": "43\u00b0F, wind 8 mph",
+   "weather_text": "43\u00b0F, wind 6 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1608,20 +1634,20 @@
      },
      {
       "label": "Rec",
-      "proj": 2.0,
+      "proj": 2.1,
       "lo": 0.0,
-      "hi": 4.0
+      "hi": 4.1
      },
      {
       "label": "Rec yds",
-      "proj": 14,
+      "proj": 15,
       "lo": 0,
-      "hi": 51
+      "hi": 53
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.02,
     "locked": false
    },
@@ -1854,12 +1880,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 7,
-    "gust": 10,
+    "temp": 51,
+    "wind": 5,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 7 mph",
+   "weather_text": "51\u00b0F, wind 5 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2475,5 +2501,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-10T22:29:09+00:00"
+ "generated_at": "2026-11-11T14:14:09+00:00"
 }

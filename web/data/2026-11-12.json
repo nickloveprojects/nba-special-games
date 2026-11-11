@@ -1,0 +1,1910 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-11T14:13:42Z",
+ "season": "2026-27",
+ "games": 4,
+ "entries": [
+  {
+   "player_id": 4066383,
+   "name": "Miles Bridges",
+   "team": "PHX",
+   "team_name": "Suns",
+   "opponent": "CHA",
+   "opponent_name": "Hornets",
+   "position": "F",
+   "jersey": "22",
+   "home_away": "home",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Hornets, who traded him on Jul 13, 2026.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Hornets, who traded him on Jul 13, 2026.",
+     "how_left": "Traded to the Suns for Grayson Allen, Royce O'Neale and a 2033 1st round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "detail": "Faces the Hornets, who traded him on Jul 13, 2026. Traded to the Suns for Grayson Allen, Royce O'Neale and a 2033 1st round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "games_with_team": "501 games with the Hornets",
+     "when": "2026-07-13",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/b/bridgmi02.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 16.0,
+   "stats": {
+    "gp": 9,
+    "min": 31.6,
+    "pts": 15.8,
+    "reb": 7.8,
+    "ast": 3.2
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4066383",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909962",
+       "date": "2026-11-10",
+       "venue": "PHX",
+       "opp": "LAC",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "133-110",
+       "min": 18,
+       "pts": 8,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909958",
+       "date": "2026-11-09",
+       "venue": "PHX",
+       "opp": "SAS",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "122-96",
+       "min": 26,
+       "pts": 7,
+       "reb": 5,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909943",
+       "date": "2026-11-07",
+       "venue": "PHX",
+       "opp": "HOU",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "102-99",
+       "min": 31,
+       "pts": 13,
+       "reb": 10,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909936",
+       "date": "2026-11-05",
+       "venue": "PHX",
+       "opp": "ORL",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "117-104",
+       "min": 31,
+       "pts": 18,
+       "reb": 13,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909932",
+       "date": "2026-11-04",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "132-119",
+       "min": 31,
+       "pts": 18,
+       "reb": 7,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 12.8,
+     "reb": 7.8,
+     "ast": 3.8,
+     "min": 27.4
+    },
+    "vs": {
+     "opp": "CHA",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "First meeting with the Hornets since he left."
+    }
+   },
+   "headshot": "img/players/4066383.png",
+   "team_logo": "img/teams/PHX.png",
+   "opponent_logo": "img/teams/CHA.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "reb": "CHA gives up the 26th-most rebounds to forwards (16.0 a game, 11 games).",
+     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+    },
+    "group": "F",
+    "games": 11,
+    "stats": {
+     "pts": {
+      "value": 44.1,
+      "rank": 9,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 16.0,
+      "rank": 26,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 6.7,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 32,
+    "grade": "D",
+    "color": "red",
+    "best": "pts",
+    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 14,
+      "lo": 7,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 7.1,
+      "lo": 4,
+      "hi": 13
+     },
+     {
+      "label": "Ast",
+      "proj": 3.0,
+      "lo": 0,
+      "hi": 7
+     }
+    ],
+    "games_used": 10,
+    "minutes": 30,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 3135045,
+   "name": "Grayson Allen",
+   "team": "CHA",
+   "team_name": "Hornets",
+   "opponent": "PHX",
+   "opponent_name": "Suns",
+   "position": "G",
+   "jersey": "8",
+   "home_away": "away",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Suns, who traded him on Jul 13, 2026.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Suns, who traded him on Jul 13, 2026.",
+     "how_left": "Traded to the Hornets for Miles Bridges and a 2027 2nd round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "detail": "Faces the Suns, who traded him on Jul 13, 2026. Traded to the Hornets for Miles Bridges and a 2027 2nd round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "games_with_team": "190 games with the Suns",
+     "when": "2026-07-13",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/a/allengr01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.95,
+   "stats": {
+    "gp": 10,
+    "min": 25.9,
+    "pts": 14.1,
+    "reb": 2.7,
+    "ast": 2.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3135045",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909953",
+       "date": "2026-11-09",
+       "venue": "CHA",
+       "opp": "CLE",
+       "tm": "CHA",
+       "home": true,
+       "result": "W",
+       "score": "124-112",
+       "min": 34,
+       "pts": 27,
+       "reb": 4,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401909288",
+       "date": "2026-11-06",
+       "venue": "CHA",
+       "opp": "BOS",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "119-80",
+       "min": 22,
+       "pts": 0,
+       "reb": 2,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909925",
+       "date": "2026-11-04",
+       "venue": "BKN",
+       "opp": "BKN",
+       "tm": "CHA",
+       "home": false,
+       "result": "L",
+       "score": "114-104",
+       "min": 27,
+       "pts": 22,
+       "reb": 2,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "DET",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "124-91",
+       "min": 19,
+       "pts": 11,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909897",
+       "date": "2026-10-31",
+       "venue": "CHA",
+       "opp": "PHI",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "109-104",
+       "min": 30,
+       "pts": 27,
+       "reb": 4,
+       "ast": 3,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 17.4,
+     "reb": 2.6,
+     "ast": 3.2,
+     "min": 26.4
+    },
+    "vs": {
+     "opp": "PHX",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "First meeting with the Suns since he left."
+    }
+   },
+   "headshot": "img/players/3135045.png",
+   "team_logo": "img/teams/CHA.png",
+   "opponent_logo": "img/teams/PHX.png",
+   "matchup": {
+    "notes": {
+     "pts": "PHX gives up the 7th-most points to guards (60.1 a game, 10 games).",
+     "reb": "PHX gives up the 7th-most rebounds to guards (17.2 a game, 10 games).",
+     "ast": "PHX gives up the 20th-most assists to guards (14.4 a game, 10 games)."
+    },
+    "group": "G",
+    "games": 10,
+    "stats": {
+     "pts": {
+      "value": 60.1,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 17.2,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 14.4,
+      "rank": 20,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 64,
+    "grade": "B",
+    "color": "yellow",
+    "best": "pts",
+    "note": "PHX gives up the 7th-most points to guards (60.1 a game, 10 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 15,
+      "lo": 0,
+      "hi": 27
+     },
+     {
+      "label": "Reb",
+      "proj": 2.9,
+      "lo": 1,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 3.0,
+      "lo": 0,
+      "hi": 6
+     }
+    ],
+    "games_used": 11,
+    "minutes": 27,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 2583632,
+   "name": "Royce O'Neale",
+   "team": "CHA",
+   "team_name": "Hornets",
+   "opponent": "PHX",
+   "opponent_name": "Suns",
+   "position": "F",
+   "jersey": "00",
+   "home_away": "away",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Suns, who traded him on Jul 13, 2026.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Suns, who traded him on Jul 13, 2026.",
+     "how_left": "Traded to the Hornets for Miles Bridges and a 2027 2nd round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "detail": "Faces the Suns, who traded him on Jul 13, 2026. Traded to the Hornets for Miles Bridges and a 2027 2nd round draft pick. 2027 2nd-rd pick is least favorable 2033 1st-rd pick is PHO own (Jul 13, 2026).",
+     "games_with_team": "183 games with the Suns",
+     "when": "2026-07-13",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/o/onealro01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.92,
+   "stats": {
+    "gp": 10,
+    "min": 18.8,
+    "pts": 4.7,
+    "reb": 3.1,
+    "ast": 0.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/2583632",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909953",
+       "date": "2026-11-09",
+       "venue": "CHA",
+       "opp": "CLE",
+       "tm": "CHA",
+       "home": true,
+       "result": "W",
+       "score": "124-112",
+       "min": 23,
+       "pts": 10,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909288",
+       "date": "2026-11-06",
+       "venue": "CHA",
+       "opp": "BOS",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "119-80",
+       "min": 26,
+       "pts": 7,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909925",
+       "date": "2026-11-04",
+       "venue": "BKN",
+       "opp": "BKN",
+       "tm": "CHA",
+       "home": false,
+       "result": "L",
+       "score": "114-104",
+       "min": 18,
+       "pts": 0,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909908",
+       "date": "2026-11-02",
+       "venue": "CHA",
+       "opp": "DET",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "124-91",
+       "min": 18,
+       "pts": 2,
+       "reb": 4,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909897",
+       "date": "2026-10-31",
+       "venue": "CHA",
+       "opp": "PHI",
+       "tm": "CHA",
+       "home": true,
+       "result": "L",
+       "score": "109-104",
+       "min": 23,
+       "pts": 8,
+       "reb": 6,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 5.4,
+     "reb": 4.0,
+     "ast": 1.2,
+     "min": 21.6
+    },
+    "vs": {
+     "opp": "PHX",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "First meeting with the Suns since he left."
+    }
+   },
+   "headshot": "img/players/2583632.png",
+   "team_logo": "img/teams/CHA.png",
+   "opponent_logo": "img/teams/PHX.png",
+   "matchup": {
+    "notes": {
+     "pts": "PHX gives up the 27th-most points to forwards (38.4 a game, 10 games).",
+     "reb": "PHX gives up the 25th-most rebounds to forwards (17.0 a game, 10 games).",
+     "ast": "PHX gives up the 8th-most assists to forwards (8.8 a game, 10 games)."
+    },
+    "group": "F",
+    "games": 10,
+    "stats": {
+     "pts": {
+      "value": 38.4,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 17.0,
+      "rank": 25,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 8.8,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 34,
+    "grade": "D",
+    "color": "yellow",
+    "best": "ast",
+    "note": "PHX gives up the 8th-most assists to forwards (8.8 a game, 10 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 6,
+      "lo": 0,
+      "hi": 10
+     },
+     {
+      "label": "Reb",
+      "proj": 3.2,
+      "lo": 1,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 0.8,
+      "lo": 0,
+      "hi": 2
+     }
+    ],
+    "games_used": 11,
+    "minutes": 20,
+    "sims": 1000,
+    "opp_factor": 0.99,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4701232,
+   "name": "Mark Williams",
+   "team": "PHX",
+   "team_name": "Suns",
+   "opponent": "CHA",
+   "opponent_name": "Hornets",
+   "position": "C",
+   "jersey": "25",
+   "home_away": "home",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Hornets, who traded him on Jun 30, 2025.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Hornets, who traded him on Jun 30, 2025.",
+     "how_left": "Traded to the Suns for Liam McNeeley, Vasilije Mici\u0107 and a 2029 1st round draft pick. 2029 1st-rd pick is least favorable 2029 2nd-rd pick is PHO... (Jun 30, 2025).",
+     "detail": "Faces the Hornets, who traded him on Jun 30, 2025. Traded to the Suns for Liam McNeeley, Vasilije Mici\u0107 and a 2029 1st round draft pick. 2029 1st-rd pick is least favorable 2029 2nd-rd pick is PHO... (Jun 30, 2025).",
+     "games_with_team": "106 games with the Hornets",
+     "when": "2025-06-30",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/w/willima07.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.13,
+   "stats": null,
+   "espn_url": "https://www.espn.com/nba/player/_/id/4701232",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401866754",
+       "date": "2026-04-14",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "114-110",
+       "min": 22,
+       "pts": 4,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401811040",
+       "date": "2026-04-10",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "101-73",
+       "min": 20,
+       "pts": 7,
+       "reb": 5,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401811012",
+       "date": "2026-04-07",
+       "venue": "PHX",
+       "opp": "HOU",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "119-105",
+       "min": 28,
+       "pts": 19,
+       "reb": 8,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401810989",
+       "date": "2026-04-05",
+       "venue": "CHI",
+       "opp": "CHI",
+       "tm": "PHX",
+       "home": false,
+       "result": "W",
+       "score": "120-110",
+       "min": 26,
+       "pts": 14,
+       "reb": 8,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810969",
+       "date": "2026-04-02",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "127-107",
+       "min": 20,
+       "pts": 12,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 11.2,
+     "reb": 5.8,
+     "ast": 0.8,
+     "min": 23.2
+    },
+    "vs": {
+     "opp": "CHA",
+     "games": [
+      {
+       "gid": "401810969",
+       "date": "2026-04-02",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "127-107",
+       "min": 20,
+       "pts": 12,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 1,
+     "pts": 12.0,
+     "reb": 4.0,
+     "ast": 1.0,
+     "min": 20.0,
+     "note": "No games vs CHA in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4701232.png",
+   "team_logo": "img/teams/PHX.png",
+   "opponent_logo": "img/teams/CHA.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHA gives up the 23rd-most points to centers (11.4 a game, 11 games).",
+     "reb": "CHA gives up the 24th-most rebounds to centers (8.2 a game, 11 games).",
+     "ast": "CHA gives up the 4th-most assists to centers (3.5 a game, 11 games)."
+    },
+    "group": "C",
+    "games": 11,
+    "stats": {
+     "pts": {
+      "value": 11.4,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 8.2,
+      "rank": 24,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 3.5,
+      "rank": 4,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 45,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "CHA gives up the 4th-most assists to centers (3.5 a game, 11 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
+    "date": "2026-09-11T16:03Z"
+   },
+   "status_note": "Out",
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Hornets 1 time since leaving them (avg 12.0 pts, 4.0 reb, 1.0 ast).",
+     "n": 1,
+     "pts": 12.0,
+     "reb": 4.0,
+     "ast": 1.0,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 6609,
+   "name": "Khris Middleton",
+   "team": "WAS",
+   "team_name": "Wizards",
+   "opponent": "DET",
+   "opponent_name": "Pistons",
+   "position": "F",
+   "jersey": "22",
+   "home_away": "home",
+   "game_id": "401909977",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-13T00:00:00+00:00",
+   "arena": "Capital One Arena",
+   "location": "Washington, DC",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Pistons, who traded him on Jul 31, 2013.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Pistons, who traded him on Jul 31, 2013.",
+     "how_left": "Traded to the Bucks for Brandon Jennings (Jul 31, 2013).",
+     "detail": "Faces the Pistons, who traded him on Jul 31, 2013. Traded to the Bucks for Brandon Jennings (Jul 31, 2013).",
+     "games_with_team": "27 games with the Pistons",
+     "when": "2013-07-31",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/m/middlkh01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 13.13,
+   "stats": {
+    "gp": 5,
+    "min": 13.8,
+    "pts": 2.4,
+    "reb": 1.6,
+    "ast": 0.4
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/6609",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909277",
+       "date": "2026-10-30",
+       "venue": "WAS",
+       "opp": "CHA",
+       "tm": "WAS",
+       "home": true,
+       "result": "W",
+       "score": "95-79",
+       "min": 5,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909882",
+       "date": "2026-10-28",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "WAS",
+       "home": false,
+       "result": "L",
+       "score": "121-111",
+       "min": 23,
+       "pts": 4,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909868",
+       "date": "2026-10-26",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "WAS",
+       "home": false,
+       "result": "L",
+       "score": "110-103",
+       "min": 13,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909846",
+       "date": "2026-10-23",
+       "venue": "WAS",
+       "opp": "TOR",
+       "tm": "WAS",
+       "home": true,
+       "result": "L",
+       "score": "112-102",
+       "min": 16,
+       "pts": 6,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909835",
+       "date": "2026-10-21",
+       "venue": "WAS",
+       "opp": "MIL",
+       "tm": "WAS",
+       "home": true,
+       "result": "W",
+       "score": "128-116",
+       "min": 12,
+       "pts": 2,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 2.4,
+     "reb": 1.6,
+     "ast": 0.4,
+     "min": 13.8
+    },
+    "vs": {
+     "opp": "DET",
+     "games": [
+      {
+       "gid": "401810054",
+       "date": "2025-11-10",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "WAS",
+       "home": false,
+       "result": "L",
+       "score": "137-135 OT",
+       "min": 26,
+       "pts": 6,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705520",
+       "date": "2025-03-13",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "WAS",
+       "home": false,
+       "result": "W",
+       "score": "129-125",
+       "min": 27,
+       "pts": 16,
+       "reb": 7,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401705507",
+       "date": "2025-03-11",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "WAS",
+       "home": false,
+       "result": "L",
+       "score": "123-103",
+       "min": 23,
+       "pts": 8,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 3,
+     "pts": 10.0,
+     "reb": 4.3,
+     "ast": 3.3,
+     "min": 25.3,
+     "note": "No games vs DET in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/6609.png",
+   "team_logo": "img/teams/WAS.png",
+   "opponent_logo": "img/teams/DET.png",
+   "matchup": {
+    "notes": {
+     "pts": "DET gives up the 15th-most points to forwards (41.6 a game, 10 games).",
+     "reb": "DET gives up the 6th-most rebounds to forwards (20.2 a game, 10 games).",
+     "ast": "DET gives up the 23rd-most assists to forwards (7.0 a game, 10 games)."
+    },
+    "group": "F",
+    "games": 10,
+    "stats": {
+     "pts": {
+      "value": 41.6,
+      "rank": 15,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 20.2,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 7.0,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 53,
+    "grade": "C",
+    "color": "yellow",
+    "best": "reb",
+    "note": "DET gives up the 6th-most rebounds to forwards (20.2 a game, 10 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Pistons 39 times since leaving them (avg 17.4 pts, 4.8 reb, 3.6 ast).",
+     "n": 39,
+     "pts": 17.4,
+     "reb": 4.8,
+     "ast": 3.6,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 6,
+      "lo": 0,
+      "hi": 15
+     },
+     {
+      "label": "Reb",
+      "proj": 2.3,
+      "lo": 0,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 1.4,
+      "lo": 0,
+      "hi": 5
+     }
+    ],
+    "games_used": 5,
+    "minutes": 16,
+    "sims": 1000,
+    "opp_factor": 0.99,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4711297,
+   "name": "Justin Edwards",
+   "team": "PHI",
+   "team_name": "76ers",
+   "opponent": "TOR",
+   "opponent_name": "Raptors",
+   "position": "F",
+   "jersey": "11",
+   "home_away": "home",
+   "game_id": "401909976",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-13T00:00:00+00:00",
+   "arena": "Xfinity Mobile Arena",
+   "location": "Philadelphia, PA",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to Imhotep Institute Charter in Philadelphia, Pennsylvania (under a mile away). Born in Philadelphia, PA.",
+     "miles": 0,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/e/edwarju01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q1345"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 4,
+    "min": 2.3,
+    "pts": 1.3,
+    "reb": 0.8,
+    "ast": 0.0
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4711297",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909961",
+       "date": "2026-11-10",
+       "venue": "PHI",
+       "opp": "BOS",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "123-101",
+       "min": 6,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909289",
+       "date": "2026-11-06",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "PHI",
+       "home": false,
+       "result": "L",
+       "score": "119-95",
+       "min": 4,
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909912",
+       "date": "2026-11-02",
+       "venue": "PHI",
+       "opp": "CHI",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "126-107",
+       "min": 2,
+       "pts": 2,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909897",
+       "date": "2026-10-31",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "PHI",
+       "home": false,
+       "result": "W",
+       "score": "109-104",
+       "min": 2,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909855",
+       "date": "2026-10-24",
+       "venue": "PHI",
+       "opp": "MIL",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "127-116",
+       "min": 1,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 1.0,
+     "reb": 0.6,
+     "ast": 0.0,
+     "min": 3.0
+    },
+    "vs": {
+     "opp": "TOR",
+     "games": [
+      {
+       "gid": "401810415",
+       "date": "2026-01-12",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "PHI",
+       "home": false,
+       "result": "W",
+       "score": "115-102",
+       "min": 1,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401810113",
+       "date": "2025-11-19",
+       "venue": "PHI",
+       "opp": "TOR",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "121-112",
+       "min": 23,
+       "pts": 8,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810039",
+       "date": "2025-11-08",
+       "venue": "PHI",
+       "opp": "TOR",
+       "tm": "PHI",
+       "home": true,
+       "result": "W",
+       "score": "130-120",
+       "min": 7,
+       "pts": 3,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401705653",
+       "date": "2025-03-30",
+       "venue": "PHI",
+       "opp": "TOR",
+       "tm": "PHI",
+       "home": true,
+       "result": "L",
+       "score": "127-109",
+       "min": 28,
+       "pts": 12,
+       "reb": 7,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401705513",
+       "date": "2025-03-12",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "PHI",
+       "home": false,
+       "result": "L",
+       "score": "118-105",
+       "min": 22,
+       "pts": 4,
+       "reb": 1,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 5.4,
+     "reb": 2.4,
+     "ast": 1.8,
+     "min": 16.2,
+     "note": "No games vs TOR in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4711297.png",
+   "team_logo": "img/teams/PHI.png",
+   "opponent_logo": "img/teams/TOR.png",
+   "matchup": {
+    "notes": {
+     "pts": "TOR gives up the 12th-most points to forwards (43.3 a game, 10 games).",
+     "reb": "TOR gives up the 28th-most rebounds to forwards (15.7 a game, 10 games).",
+     "ast": "TOR gives up the 25th-most assists to forwards (6.8 a game, 10 games)."
+    },
+    "group": "F",
+    "games": 10,
+    "stats": {
+     "pts": {
+      "value": 43.3,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 15.7,
+      "rank": 28,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 6.8,
+      "rank": 25,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 29,
+    "grade": "D",
+    "color": "red",
+    "best": "pts",
+    "note": "TOR gives up the 12th-most points to forwards (43.3 a game, 10 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 60 times (avg 7.3 pts, 2.5 reb, 1.5 ast).",
+     "n": 60,
+     "pts": 7.3,
+     "reb": 2.5,
+     "ast": 1.5,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 5041953,
+   "name": "Koa Peat",
+   "team": "PHX",
+   "team_name": "Suns",
+   "opponent": "CHA",
+   "opponent_name": "Hornets",
+   "position": "F",
+   "jersey": "18",
+   "home_away": "home",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to Perry in Gilbert, Arizona (about 18 mi away). Born in Chandler, AZ.",
+     "miles": 18,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/p/peatko01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q51684"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 5,
+    "min": 4.0,
+    "pts": 2.0,
+    "reb": 0.6,
+    "ast": 0.2
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/5041953",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909962",
+       "date": "2026-11-10",
+       "venue": "PHX",
+       "opp": "LAC",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "133-110",
+       "min": 6,
+       "pts": 5,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909958",
+       "date": "2026-11-09",
+       "venue": "PHX",
+       "opp": "SAS",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "122-96",
+       "min": 6,
+       "pts": 4,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909936",
+       "date": "2026-11-05",
+       "venue": "PHX",
+       "opp": "ORL",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "117-104",
+       "min": 2,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909932",
+       "date": "2026-11-04",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "132-119",
+       "min": 3,
+       "pts": 2,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909873",
+       "date": "2026-10-26",
+       "venue": "OKC",
+       "opp": "OKC",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "125-114",
+       "min": 3,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 2.2,
+     "reb": 0.6,
+     "ast": 0.2,
+     "min": 4.0
+    },
+    "vs": {
+     "opp": "CHA",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "No games vs CHA in his NBA career so far."
+    }
+   },
+   "headshot": "img/players/5041953.png",
+   "team_logo": "img/teams/PHX.png",
+   "opponent_logo": "img/teams/CHA.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "reb": "CHA gives up the 26th-most rebounds to forwards (16.0 a game, 11 games).",
+     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+    },
+    "group": "F",
+    "games": 11,
+    "stats": {
+     "pts": {
+      "value": 44.1,
+      "rank": 9,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 16.0,
+      "rank": 26,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 6.7,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 32,
+    "grade": "D",
+    "color": "red",
+    "best": "pts",
+    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 4 times (avg 2.8 pts, 0.8 reb, 0.2 ast).",
+     "n": 4,
+     "pts": 2.8,
+     "reb": 0.8,
+     "ast": 0.2,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 4601023,
+   "name": "Oso Ighodaro",
+   "team": "PHX",
+   "team_name": "Suns",
+   "opponent": "CHA",
+   "opponent_name": "Hornets",
+   "position": "F",
+   "jersey": "11",
+   "home_away": "home",
+   "game_id": "401909979",
+   "game_kind": "Regular season",
+   "tip": "9:00 PM ET",
+   "tip_utc": "2026-11-13T02:00:00+00:00",
+   "arena": "Mortgage Matchup Center",
+   "location": "Phoenix, AZ",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to Desert Vista in Phoenix, Arizona (under a mile away). Born in Chandler, AZ.",
+     "miles": 0,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/i/ighodos01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q16556"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 7,
+    "min": 21.1,
+    "pts": 6.6,
+    "reb": 5.1,
+    "ast": 3.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4601023",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909962",
+       "date": "2026-11-10",
+       "venue": "PHX",
+       "opp": "LAC",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "133-110",
+       "min": 20,
+       "pts": 6,
+       "reb": 8,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909958",
+       "date": "2026-11-09",
+       "venue": "PHX",
+       "opp": "SAS",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "122-96",
+       "min": 18,
+       "pts": 7,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909943",
+       "date": "2026-11-07",
+       "venue": "PHX",
+       "opp": "HOU",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "102-99",
+       "min": 23,
+       "pts": 4,
+       "reb": 6,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909936",
+       "date": "2026-11-05",
+       "venue": "PHX",
+       "opp": "ORL",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "117-104",
+       "min": 24,
+       "pts": 2,
+       "reb": 5,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909932",
+       "date": "2026-11-04",
+       "venue": "PHX",
+       "opp": "POR",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "132-119",
+       "min": 23,
+       "pts": 9,
+       "reb": 7,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 5.6,
+     "reb": 6.0,
+     "ast": 3.0,
+     "min": 21.6
+    },
+    "vs": {
+     "opp": "CHA",
+     "games": [
+      {
+       "gid": "401810969",
+       "date": "2026-04-02",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "127-107",
+       "min": 25,
+       "pts": 6,
+       "reb": 9,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810783",
+       "date": "2026-03-08",
+       "venue": "PHX",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "111-99",
+       "min": 28,
+       "pts": 2,
+       "reb": 4,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401705113",
+       "date": "2025-01-12",
+       "venue": "PHX",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "120-113",
+       "min": 30,
+       "pts": 10,
+       "reb": 6,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705068",
+       "date": "2025-01-07",
+       "venue": "CHA",
+       "opp": "CHA",
+       "tm": "PHX",
+       "home": false,
+       "result": "L",
+       "score": "115-104",
+       "min": 6,
+       "pts": 0,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 4,
+     "pts": 4.5,
+     "reb": 5.2,
+     "ast": 2.2,
+     "min": 22.2,
+     "note": "No games vs CHA in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4601023.png",
+   "team_logo": "img/teams/PHX.png",
+   "opponent_logo": "img/teams/CHA.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "reb": "CHA gives up the 26th-most rebounds to forwards (16.0 a game, 11 games).",
+     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+    },
+    "group": "F",
+    "games": 11,
+    "stats": {
+     "pts": {
+      "value": 44.1,
+      "rank": 9,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 16.0,
+      "rank": 26,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 6.7,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 32,
+    "grade": "D",
+    "color": "red",
+    "best": "pts",
+    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 80 times (avg 5.6 pts, 4.7 reb, 1.9 ast).",
+     "n": 80,
+     "pts": 5.6,
+     "reb": 4.7,
+     "ast": 1.9,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 7,
+      "lo": 2,
+      "hi": 13
+     },
+     {
+      "label": "Reb",
+      "proj": 5.3,
+      "lo": 2,
+      "hi": 8
+     },
+     {
+      "label": "Ast",
+      "proj": 2.8,
+      "lo": 1,
+      "hi": 6
+     }
+    ],
+    "games_used": 8,
+    "minutes": 21,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  }
+ ],
+ "warnings": [],
+ "matchups": [
+  {
+   "away": "TOR",
+   "home": "PHI",
+   "tip": "7:00 PM ET",
+   "away_logo": "img/teams/TOR.png",
+   "home_logo": "img/teams/PHI.png"
+  },
+  {
+   "away": "DET",
+   "home": "WAS",
+   "tip": "7:00 PM ET",
+   "away_logo": "img/teams/DET.png",
+   "home_logo": "img/teams/WAS.png"
+  },
+  {
+   "away": "DAL",
+   "home": "MIN",
+   "tip": "8:00 PM ET",
+   "away_logo": "img/teams/DAL.png",
+   "home_logo": "img/teams/MIN.png"
+  },
+  {
+   "away": "CHA",
+   "home": "PHX",
+   "tip": "9:00 PM ET",
+   "away_logo": "img/teams/CHA.png",
+   "home_logo": "img/teams/PHX.png"
+  }
+ ]
+}
