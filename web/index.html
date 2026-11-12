@@ -880,7 +880,12 @@ async function homeInfo(){
       S[k]={s,date,when};
       const art=$(k+"-art");
       if(art){const seen=new Set(),pics=[];
-        for(const e of [...s.entries].sort((a,b)=>b.score-a.score)){ if(!e.headshot||seen.has(e.team)) continue; seen.add(e.team); pics.push(e); if(pics.length===4) break}
+        for(const e of [...s.entries].sort((a,b)=>b.score-a.score)){ if(!e.headshot||seen.has(e.team)) continue; seen.add(e.team); pics.push(e); if(pics.length===10) break}
+        // a different four of the day's best ten each day: shuffle seeded by the slate date, so everyone sees the same set
+        let h=0;for(const ch of date) h=(h*31+ch.charCodeAt(0))>>>0;
+        const rnd=()=>{h=(h*1664525+1013904223)>>>0;return h/4294967296};
+        for(let i=pics.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[pics[i],pics[j]]=[pics[j],pics[i]]}
+        pics.length=Math.min(4,pics.length);
         art.innerHTML=pics.map(e=>`<img class="p" src="${esc(e.headshot)}" alt="" loading="lazy" style="--c:${esc(e.team_color||(TEAMC[e.team]||["#999"])[0])}" onerror="this.remove()">`).join("")}
       $(k+"-foot").textContent=`${when}: ${s.games} game${s.games===1?"":"s"} \u00b7 ${s.entries.length} flagged \u2192`;
     }catch(e){}
