@@ -346,6 +346,7 @@ a.wx:hover{color:var(--ink)}
 .tc.one{grid-template-columns:minmax(0,1fr)}
 .duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px;align-items:stretch}
 .duo>section{display:flex;flex-direction:column}.duo>section>div{flex:1;display:flex}
+.duo>section[hidden]{display:none}.duo:has(>section[hidden]){grid-template-columns:minmax(0,1fr)}
 @media(max-width:700px){.duo{grid-template-columns:1fr}}
 .mini{flex:1;display:flex;flex-direction:column;gap:6px;padding:14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--c);box-shadow:var(--shadow);color:var(--ink);text-decoration:none;transition:transform .22s ease,box-shadow .22s ease}
 .mini:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}.mini:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
