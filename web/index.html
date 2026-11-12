@@ -698,7 +698,8 @@ function flagTabs(e){
 }
 document.addEventListener("click",ev=>{
   const b=ev.target.closest(".atab[role=tab]"); if(!b) return;
-  const list=b.parentElement,box=list.parentElement;
+  const list=b.parentElement,card=b.closest(".card");
+  if(card) card.dataset.main=b.dataset.c;   // the colour stripe follows the open tab
   list.querySelectorAll(".atab").forEach(t=>{const on=t===b;t.setAttribute("aria-selected",on);t.tabIndex=on?0:-1;
     const p=document.getElementById(t.getAttribute("aria-controls"));if(p)p.hidden=!on});
 });
