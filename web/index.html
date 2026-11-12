@@ -488,7 +488,7 @@ a.wx:hover{color:var(--ink)}
   <p class="legend">Forecasts come from Open-Meteo and are re-pulled with every update. They change, especially more than three days out. Wind and cold are the only conditions that adjust our NFL projections (both were backtested on past games); rain, humidity and cloud are shown for context. Wind direction is the way the wind blows toward on the field, from the weather model at stadium coordinates. We don't yet know each stadium's orientation, so we can't say whether it helps or hurts a given offense.</p>
 </main>
 <main id="nba" class="view" hidden>
-  <h1 id="h1">NBA backstories</h1>
+  <h1 id="h1">NBA Backstories</h1>
   <p class="sub" id="sub">Loading…</p>
   <div class="bar filters">
     <input id="q" type="search" placeholder="Search player" aria-label="Search player">
@@ -826,7 +826,7 @@ async function initBoard(){
     $("date").onchange=e=>load(e.target.value);
   }
   slate=null;game="";active=new Set(CATS);grades=new Set();$("feel").value="";$("sort").value="";resetRecent();$("stat").innerHTML="";$("grades").innerHTML="";
-  $("h1").textContent=`${SPORTS[sport].name} backstories`;
+  $("h1").textContent=`${SPORTS[sport].name} Backstories`;
   $("sub").textContent="Loading\u2026";$("list").innerHTML="";$("cats").innerHTML="";$("games").innerHTML="";$("date").innerHTML="";$("q").value="";
   try{
     const idx=await (await fetch(dataUrl("index.json"))).json();
