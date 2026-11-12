@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T22:31:14Z",
+ "generated_at": "2026-11-12T23:08:49Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -725,11 +725,11 @@
    ],
    "score": 15.95,
    "stats": {
-    "gp": 10,
-    "min": 25.9,
-    "pts": 14.1,
-    "reb": 2.7,
-    "ast": 2.7
+    "gp": 11,
+    "min": 26.6,
+    "pts": 15.3,
+    "reb": 2.8,
+    "ast": 3.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3135045",
    "recent": {
@@ -936,9 +936,9 @@
    ],
    "score": 15.92,
    "stats": {
-    "gp": 10,
-    "min": 18.8,
-    "pts": 4.7,
+    "gp": 11,
+    "min": 19.2,
+    "pts": 5.2,
     "reb": 3.1,
     "ast": 0.7
    },
@@ -1628,10 +1628,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 4,
-    "min": 2.3,
-    "pts": 1.3,
-    "reb": 0.8,
+    "gp": 5,
+    "min": 2.8,
+    "pts": 1.0,
+    "reb": 0.6,
     "ast": 0.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4711297",
