@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-12T04:37:16Z",
+ "generated_at": "2026-11-12T04:41:19Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -6512,7 +6512,7 @@
        "home": true,
        "result": "L",
        "score": "106-100",
-       "min": 16,
+       "min": 17,
        "pts": 8,
        "reb": 3,
        "ast": 3,
@@ -6523,7 +6523,7 @@
      "pts": 2.0,
      "reb": 1.2,
      "ast": 1.6,
-     "min": 10.2
+     "min": 10.4
     },
     "vs": {
      "opp": "CLE",
