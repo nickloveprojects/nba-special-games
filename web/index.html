@@ -398,6 +398,12 @@ a.wx:hover{color:var(--ink)}
 .sport.live:hover .art img.p{margin-right:-12px}.sport.live:hover .art img.p:last-child{margin-right:0}
 .art.logos{gap:10px;overflow:hidden}.art.logos img:nth-child(n+6){display:none}.art.logos img{width:36px;height:36px;flex:none;object-fit:contain;filter:grayscale(1);opacity:.55}
 @media(prefers-reduced-motion:reduce){.art img.p{transition:none}}
+
+.art .lg{width:74px;height:74px;border-radius:20px;border:3px solid var(--surface);margin-right:-22px;display:grid;place-items:center;flex:none;
+  background:linear-gradient(160deg,color-mix(in srgb,var(--c) 38%,var(--chip)),var(--chip));box-shadow:0 6px 14px rgba(0,0,0,.16)}
+.art .lg:last-child{margin-right:0}.art .lg img{width:46px;height:46px;object-fit:contain;filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
+.sport.soon .art{opacity:.92}
+.sport.soon .pill-soon,.sport.soon .badge{border-color:var(--accent);color:var(--accent-ink);background:color-mix(in srgb,var(--accent) 18%,transparent)}
 </style>
 </head>
 <body>
@@ -426,7 +432,7 @@ a.wx:hover{color:var(--ink)}
       <div class="foot" id="nba-foot">Open the board &rarr;</div>
     </a>
     <div class="sport soon" style="--i:1" aria-disabled="true">
-      <div class="art logos" id="mlb-art"><img src="img/mlb/nyy.png" alt="" loading="lazy"><img src="img/mlb/lad.png" alt="" loading="lazy"><img src="img/mlb/bos.png" alt="" loading="lazy"><img src="img/mlb/chc.png" alt="" loading="lazy"><img src="img/mlb/atl.png" alt="" loading="lazy"><img src="img/mlb/hou.png" alt="" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M6 5.500c2.500 2 2.500 11 0 13M18 5.500c-2.500 2-2.500 11 0 13"/></svg></div>
+      <div class="art" id="mlb-art"><span class="lg" style="--c:#0C2340"><img src="img/mlb/nyy.png" alt="" loading="lazy"></span><span class="lg" style="--c:#005A9C"><img src="img/mlb/lad.png" alt="" loading="lazy"></span><span class="lg" style="--c:#BD3039"><img src="img/mlb/bos.png" alt="" loading="lazy"></span><span class="lg" style="--c:#0E3386"><img src="img/mlb/chc.png" alt="" loading="lazy"></span></div><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M6 5.500c2.500 2 2.500 11 0 13M18 5.500c-2.500 2-2.500 11 0 13"/></svg></div>
       <div><h2>MLB</h2><p>Same idea for baseball.</p></div>
       <div class="foot"><span class="badge">Coming soon</span></div>
     </div>
