@@ -1,0 +1,69 @@
+# All-time NBA regular-season career lists, used for the Milestones flag.
+# Retired players' totals never change, so they are stored here with their source.
+# Players marked `espn_id` are active: their totals are refreshed from ESPN every build instead of using the number below.
+# Check lists against the source pages when adding a stat or when a retired player is added.
+pts:
+  label: points
+  short: PTS
+  source: {label: "Land of Basketball, all-time points leaders", url: "https://landofbasketball.com/all_time_leaders/points_total_career_season.htm", checked: "2026-11-11"}
+  rows:
+    - {name: "LeBron James", total: 43591, espn_id: 1966}
+    - {name: "Kareem Abdul-Jabbar", total: 38387}
+    - {name: "Karl Malone", total: 36928}
+    - {name: "Kobe Bryant", total: 33643}
+    - {name: "Kevin Durant", total: 32828, espn_id: 3202}
+    - {name: "Michael Jordan", total: 32292}
+    - {name: "Dirk Nowitzki", total: 31560}
+    - {name: "Wilt Chamberlain", total: 31419}
+    - {name: "James Harden", total: 29507, espn_id: 3992}
+    - {name: "Shaquille O'Neal", total: 28596}
+    - {name: "Carmelo Anthony", total: 28289}
+    - {name: "Moses Malone", total: 27409}
+    - {name: "Elvin Hayes", total: 27313}
+    - {name: "Russell Westbrook", total: 27176}
+    - {name: "Hakeem Olajuwon", total: 26946}
+    - {name: "Stephen Curry", total: 26803, espn_id: 3975}
+    - {name: "DeMar DeRozan", total: 26793, espn_id: 3978}
+    - {name: "Oscar Robertson", total: 26710}
+    - {name: "Dominique Wilkins", total: 26668}
+    - {name: "Tim Duncan", total: 26496}
+    - {name: "Paul Pierce", total: 26397}
+    - {name: "John Havlicek", total: 26395}
+    - {name: "Kevin Garnett", total: 26071}
+    - {name: "Vince Carter", total: 25728}
+    - {name: "Alex English", total: 25613}
+    - {name: "Reggie Miller", total: 25279}
+    - {name: "Jerry West", total: 25192}
+    - {name: "Patrick Ewing", total: 24815}
+    - {name: "Ray Allen", total: 24505}
+    - {name: "Allen Iverson", total: 24368}
+fgm:
+  label: field goals made
+  short: FGM
+  source: {label: "Basketball-Reference, Milestones Watch: Field Goals", url: "https://www.basketball-reference.com/friv/milestones.fcgi?stat=fg", checked: "2026-11-11"}
+  rows:
+    - {name: "LeBron James", total: 16018, espn_id: 1966}
+    - {name: "Kareem Abdul-Jabbar", total: 15837}
+    - {name: "Karl Malone", total: 13528}
+    - {name: "Wilt Chamberlain", total: 12681}
+    - {name: "Michael Jordan", total: 12192}
+    - {name: "Kobe Bryant", total: 11719}
+    - {name: "Shaquille O'Neal", total: 11330}
+    - {name: "Kevin Durant", total: 11328, espn_id: 3202}
+    - {name: "Dirk Nowitzki", total: 11169}
+    - {name: "Elvin Hayes", total: 10976}
+    - {name: "Hakeem Olajuwon", total: 10749}
+    - {name: "Alex English", total: 10659}
+    - {name: "John Havlicek", total: 10513}
+    - {name: "Kevin Garnett", total: 10505}
+    - {name: "Tim Duncan", total: 10285}
+    - {name: "Carmelo Anthony", total: 10119}
+    - {name: "Dominique Wilkins", total: 9963}
+    - {name: "Russell Westbrook", total: 9786}
+    - {name: "Patrick Ewing", total: 9702}
+    - {name: "Robert Parish", total: 9614}
+    - {name: "DeMar DeRozan", total: 9591, espn_id: 3978}
+    - {name: "Oscar Robertson", total: 9508}
+    - {name: "Moses Malone", total: 9435}
+    - {name: "Vince Carter", total: 9293}
+    - {name: "Stephen Curry", total: 9101, espn_id: 3975}

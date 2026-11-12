@@ -6,7 +6,7 @@ from datetime import date, datetime, timezone
 
 import yaml
 
-from . import career, config, db, matchups, nba_projection, output, projection, rules
+from . import career, config, db, matchups, milestones, nba_projection, output, projection, rules
 from .net import SourceError
 from .sources import bbref, espn, geocode, media, transactions
 from .teams_geo import NICK, TEAMS, abbr, nick, team_id
@@ -346,6 +346,7 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
         warn.add("trades", f"Trade feed unavailable; using career history only ({e})")
 
     rivalries = load_rivalries()
+    alltime = milestones.load_lists()
     entries, meta = [], {}
     for g in games:
         conn.execute("INSERT OR REPLACE INTO games VALUES(?,?,?,?,?,?)",
@@ -370,6 +371,8 @@ def run(target: date | None = None, include_preseason=False, notify=False) -> di
                     continue
                 tags, avg = player_tags(conn, pl, tid, opp, is_home, g, slate_date, season, ov, warn)
                 tags += hist.get(pl["player_id"], [])
+                if alltime and avg and (avg.get("min") or 0) >= 10:
+                    tags += milestones.tags_for(pl["name"], milestones.totals(pl["player_id"]), alltime)
                 if career.holiday_name(slate_date) and avg and (avg.get("min") or 0) >= 12:
                     ht = career.holiday_tag(player_logs(conn, pl["player_id"], slate_date, warn), slate_date, abbr(opp), nick(opp))
                     if ht:
