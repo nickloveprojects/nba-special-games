@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T04:30:15Z",
+ "generated_at": "2026-11-12T04:37:49Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -434,7 +434,7 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 18th-most points to guards (55.9 a game, 11 games).",
-     "reb": "DAL gives up the 17th-most rebounds to guards (15.0 a game, 11 games).",
+     "reb": "DAL gives up the 18th-most rebounds to guards (15.0 a game, 11 games).",
      "ast": "DAL gives up the 9th-most assists to guards (16.3 a game, 11 games)."
     },
     "group": "G",
@@ -448,7 +448,7 @@
      },
      "reb": {
       "value": 15.0,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
@@ -459,7 +459,7 @@
       "color": "green"
      }
     },
-    "score": 53,
+    "score": 52,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -1045,7 +1045,7 @@
    "matchup": {
     "notes": {
      "pts": "PHX gives up the 26th-most points to forwards (38.4 a game, 10 games).",
-     "reb": "PHX gives up the 24th-most rebounds to forwards (17.0 a game, 10 games).",
+     "reb": "PHX gives up the 23rd-most rebounds to forwards (17.0 a game, 10 games).",
      "ast": "PHX gives up the 8th-most assists to forwards (8.8 a game, 10 games)."
     },
     "group": "F",
@@ -1059,7 +1059,7 @@
      },
      "reb": {
       "value": 17.0,
-      "rank": 24,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -1070,7 +1070,7 @@
       "color": "green"
      }
     },
-    "score": 37,
+    "score": 38,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
@@ -1265,7 +1265,7 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 23rd-most points to centers (11.4 a game, 11 games).",
+     "pts": "CHA gives up the 24th-most points to centers (11.4 a game, 11 games).",
      "reb": "CHA gives up the 25th-most rebounds to centers (8.2 a game, 11 games).",
      "ast": "CHA gives up the 6th-most assists to centers (3.5 a game, 11 games)."
     },
@@ -1274,7 +1274,7 @@
     "stats": {
      "pts": {
       "value": 11.4,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -1291,7 +1291,7 @@
       "color": "green"
      }
     },
-    "score": 41,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -1513,7 +1513,7 @@
     "notes": {
      "pts": "DET gives up the 16th-most points to forwards (41.6 a game, 10 games).",
      "reb": "DET gives up the 7th-most rebounds to forwards (20.2 a game, 10 games).",
-     "ast": "DET gives up the 24th-most assists to forwards (7.0 a game, 10 games)."
+     "ast": "DET gives up the 23rd-most assists to forwards (7.0 a game, 10 games)."
     },
     "group": "F",
     "games": 10,
@@ -1532,12 +1532,12 @@
      },
      "ast": {
       "value": 7.0,
-      "rank": 24,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 49,
+    "score": 51,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -1567,7 +1567,7 @@
      },
      {
       "label": "Reb",
-      "proj": 2.3,
+      "proj": 2.4,
       "lo": 0,
       "hi": 6
      },
@@ -1814,7 +1814,7 @@
     "notes": {
      "pts": "TOR gives up the 12th-most points to forwards (42.3 a game, 11 games).",
      "reb": "TOR gives up the 29th-most rebounds to forwards (15.7 a game, 11 games).",
-     "ast": "TOR gives up the 25th-most assists to forwards (6.9 a game, 11 games)."
+     "ast": "TOR gives up the 24th-most assists to forwards (6.9 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
@@ -1833,12 +1833,12 @@
      },
      "ast": {
       "value": 6.9,
-      "rank": 25,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 28,
+    "score": 29,
     "grade": "D",
     "color": "red",
     "best": "pts",
