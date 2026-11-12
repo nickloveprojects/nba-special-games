@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T03:33:17Z",
+ "generated_at": "2026-11-12T03:57:00Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -435,7 +435,7 @@
     "notes": {
      "pts": "DAL gives up the 18th-most points to guards (55.9 a game, 11 games).",
      "reb": "DAL gives up the 17th-most rebounds to guards (15.0 a game, 11 games).",
-     "ast": "DAL gives up the 10th-most assists to guards (16.3 a game, 11 games)."
+     "ast": "DAL gives up the 9th-most assists to guards (16.3 a game, 11 games)."
     },
     "group": "G",
     "games": 11,
@@ -454,16 +454,16 @@
      },
      "ast": {
       "value": 16.3,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 52,
+    "score": 53,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "DAL gives up the 10th-most assists to guards (16.3 a game, 11 games)."
+    "note": "DAL gives up the 9th-most assists to guards (16.3 a game, 11 games)."
    },
    "injury": {
     "status": "Out",
@@ -622,18 +622,18 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "pts": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games).",
      "reb": "CHA gives up the 27th-most rebounds to forwards (16.0 a game, 11 games).",
-     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+     "ast": "CHA gives up the 28th-most assists to forwards (6.7 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 44.1,
-      "rank": 9,
+      "rank": 11,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 16.0,
@@ -643,16 +643,16 @@
      },
      "ast": {
       "value": 6.7,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 31,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+    "note": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1046,7 +1046,7 @@
     "notes": {
      "pts": "PHX gives up the 26th-most points to forwards (38.4 a game, 10 games).",
      "reb": "PHX gives up the 24th-most rebounds to forwards (17.0 a game, 10 games).",
-     "ast": "PHX gives up the 7th-most assists to forwards (8.8 a game, 10 games)."
+     "ast": "PHX gives up the 8th-most assists to forwards (8.8 a game, 10 games)."
     },
     "group": "F",
     "games": 10,
@@ -1065,16 +1065,16 @@
      },
      "ast": {
       "value": 8.8,
-      "rank": 7,
+      "rank": 8,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 38,
+    "score": 37,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
-    "note": "PHX gives up the 7th-most assists to forwards (8.8 a game, 10 games)."
+    "note": "PHX gives up the 8th-most assists to forwards (8.8 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1267,7 +1267,7 @@
     "notes": {
      "pts": "CHA gives up the 23rd-most points to centers (11.4 a game, 11 games).",
      "reb": "CHA gives up the 25th-most rebounds to centers (8.2 a game, 11 games).",
-     "ast": "CHA gives up the 5th-most assists to centers (3.5 a game, 11 games)."
+     "ast": "CHA gives up the 6th-most assists to centers (3.5 a game, 11 games)."
     },
     "group": "C",
     "games": 11,
@@ -1286,16 +1286,16 @@
      },
      "ast": {
       "value": 3.5,
-      "rank": 5,
+      "rank": 6,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 43,
+    "score": 41,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "CHA gives up the 5th-most assists to centers (3.5 a game, 11 games)."
+    "note": "CHA gives up the 6th-most assists to centers (3.5 a game, 11 games)."
    },
    "injury": {
     "status": "Out",
@@ -1513,7 +1513,7 @@
     "notes": {
      "pts": "DET gives up the 16th-most points to forwards (41.6 a game, 10 games).",
      "reb": "DET gives up the 7th-most rebounds to forwards (20.2 a game, 10 games).",
-     "ast": "DET gives up the 23rd-most assists to forwards (7.0 a game, 10 games)."
+     "ast": "DET gives up the 24th-most assists to forwards (7.0 a game, 10 games)."
     },
     "group": "F",
     "games": 10,
@@ -1532,12 +1532,12 @@
      },
      "ast": {
       "value": 7.0,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 51,
+    "score": 49,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -1812,16 +1812,16 @@
    "opponent_logo": "img/teams/TOR.png",
    "matchup": {
     "notes": {
-     "pts": "TOR gives up the 13th-most points to forwards (42.3 a game, 11 games).",
+     "pts": "TOR gives up the 12th-most points to forwards (42.3 a game, 11 games).",
      "reb": "TOR gives up the 29th-most rebounds to forwards (15.7 a game, 11 games).",
-     "ast": "TOR gives up the 24th-most assists to forwards (6.9 a game, 11 games)."
+     "ast": "TOR gives up the 25th-most assists to forwards (6.9 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 42.3,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
@@ -1833,7 +1833,7 @@
      },
      "ast": {
       "value": 6.9,
-      "rank": 24,
+      "rank": 25,
       "of": 30,
       "color": "red"
      }
@@ -1842,7 +1842,7 @@
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "TOR gives up the 13th-most points to forwards (42.3 a game, 11 games)."
+    "note": "TOR gives up the 12th-most points to forwards (42.3 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2011,18 +2011,18 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "pts": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games).",
      "reb": "CHA gives up the 27th-most rebounds to forwards (16.0 a game, 11 games).",
-     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+     "ast": "CHA gives up the 28th-most assists to forwards (6.7 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 44.1,
-      "rank": 9,
+      "rank": 11,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 16.0,
@@ -2032,16 +2032,16 @@
      },
      "ast": {
       "value": 6.7,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 31,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+    "note": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2271,18 +2271,18 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games).",
+     "pts": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games).",
      "reb": "CHA gives up the 27th-most rebounds to forwards (16.0 a game, 11 games).",
-     "ast": "CHA gives up the 27th-most assists to forwards (6.7 a game, 11 games)."
+     "ast": "CHA gives up the 28th-most assists to forwards (6.7 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 44.1,
-      "rank": 9,
+      "rank": 11,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 16.0,
@@ -2292,16 +2292,16 @@
      },
      "ast": {
       "value": 6.7,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 31,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "CHA gives up the 9th-most points to forwards (44.1 a game, 11 games)."
+    "note": "CHA gives up the 11th-most points to forwards (44.1 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
