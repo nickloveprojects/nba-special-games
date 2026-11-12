@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T04:41:44Z",
+ "generated_at": "2026-11-12T14:15:48Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -169,7 +169,7 @@
    "matchup": {
     "notes": {
      "pts": "PHI gives up the 19th-most points to forwards (41.0 a game, 12 games).",
-     "reb": "PHI gives up the 18th-most rebounds to forwards (18.2 a game, 12 games).",
+     "reb": "PHI gives up the 16th-most rebounds to forwards (18.2 a game, 12 games).",
      "ast": "PHI gives up the 30th-most assists to forwards (5.7 a game, 12 games)."
     },
     "group": "F",
@@ -183,7 +183,7 @@
      },
      "reb": {
       "value": 18.2,
-      "rank": 18,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
@@ -194,11 +194,11 @@
       "color": "red"
      }
     },
-    "score": 26,
+    "score": 29,
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "PHI gives up the 18th-most rebounds to forwards (18.2 a game, 12 games)."
+    "note": "PHI gives up the 16th-most rebounds to forwards (18.2 a game, 12 games)."
    },
    "injury": {
     "status": "Out",
@@ -833,7 +833,7 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 7th-most points to guards (60.1 a game, 10 games).",
+     "pts": "PHX gives up the 8th-most points to guards (60.1 a game, 10 games).",
      "reb": "PHX gives up the 7th-most rebounds to guards (17.2 a game, 10 games).",
      "ast": "PHX gives up the 21st-most assists to guards (14.4 a game, 10 games)."
     },
@@ -842,7 +842,7 @@
     "stats": {
      "pts": {
       "value": 60.1,
-      "rank": 7,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
@@ -859,11 +859,11 @@
       "color": "red"
      }
     },
-    "score": 63,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
-    "best": "pts",
-    "note": "PHX gives up the 7th-most points to guards (60.1 a game, 10 games)."
+    "best": "reb",
+    "note": "PHX gives up the 7th-most rebounds to guards (17.2 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1266,7 +1266,7 @@
    "matchup": {
     "notes": {
      "pts": "CHA gives up the 24th-most points to centers (11.4 a game, 11 games).",
-     "reb": "CHA gives up the 25th-most rebounds to centers (8.2 a game, 11 games).",
+     "reb": "CHA gives up the 26th-most rebounds to centers (8.2 a game, 11 games).",
      "ast": "CHA gives up the 6th-most assists to centers (3.5 a game, 11 games)."
     },
     "group": "C",
@@ -1280,7 +1280,7 @@
      },
      "reb": {
       "value": 8.2,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -1291,8 +1291,8 @@
       "color": "green"
      }
     },
-    "score": 40,
-    "grade": "C",
+    "score": 39,
+    "grade": "D",
     "color": "yellow",
     "best": "ast",
     "note": "CHA gives up the 6th-most assists to centers (3.5 a game, 11 games)."
