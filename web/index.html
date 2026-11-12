@@ -218,7 +218,7 @@ a.tab:hover{color:var(--ink);background:var(--chip)}
 .home{padding-top:clamp(18px,6vw,56px)}
 .home h1{font:800 clamp(38px,9vw,64px)/1 var(--font-display);letter-spacing:.005em;margin:0 0 12px}
 .home .lead{color:var(--muted);font-size:clamp(17px,2.4vw,20px);max-width:34em;margin:0 0 30px;text-wrap:pretty}
-.sports{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.sports{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 @media (max-width:640px){.sports{grid-template-columns:1fr}}
 .sport{display:flex;flex-direction:column;gap:14px;min-height:190px;padding:20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);
   box-shadow:var(--shadow);color:var(--ink);text-decoration:none;animation:rise .55s ease both;animation-delay:calc(var(--i) * 80ms);
@@ -375,7 +375,6 @@ a.wx:hover{color:var(--ink)}
 .angles .flag{margin:0 0 8px}
 
 /* visual refresh preview */
-.card{border-top:4px solid var(--tc,var(--line))}
 .game{background:linear-gradient(90deg,color-mix(in srgb,var(--tc) 16%,var(--chip)),var(--chip) 70%)}
 .shot{width:92px;height:92px;border-radius:18px;background:linear-gradient(160deg,color-mix(in srgb,var(--tc) 28%,var(--chip)),var(--chip));isolation:isolate}
 .shot::before{content:"";position:absolute;inset:-6px;background:var(--lg) center/78% no-repeat;opacity:.22;z-index:-1}
@@ -388,6 +387,17 @@ a.wx:hover{color:var(--ink)}
 .togo .meter i{width:16px;height:16px;border-radius:50%;border:2px dashed var(--teal-line);background:transparent}
 .togo .meter em{font-style:normal;color:var(--teal);font-weight:700}
 .togo .ends{flex-basis:100%;font-size:12.5px;color:var(--muted)}
+
+.sport .art{display:flex;align-items:center;height:80px;min-width:0}
+.sport .foot{font-size:13.5px}
+.sport .art:empty{display:none}.sport .art:empty+.ico{display:grid}
+.sport .art:not(:empty)+.ico{display:none}
+.art img.p{width:74px;height:74px;object-fit:cover;object-position:top center;border-radius:20px;border:3px solid var(--surface);margin-right:-22px;
+  background:linear-gradient(160deg,color-mix(in srgb,var(--c,#999) 40%,var(--chip)),var(--chip));box-shadow:0 6px 14px rgba(0,0,0,.16);transition:margin .25s ease,transform .25s ease}
+.art img.p:last-child{margin-right:0}
+.sport.live:hover .art img.p{margin-right:-12px}.sport.live:hover .art img.p:last-child{margin-right:0}
+.art.logos{gap:10px;overflow:hidden}.art.logos img:nth-child(n+6){display:none}.art.logos img{width:36px;height:36px;flex:none;object-fit:contain;filter:grayscale(1);opacity:.55}
+@media(prefers-reduced-motion:reduce){.art img.p{transition:none}}
 </style>
 </head>
 <body>
@@ -411,17 +421,17 @@ a.wx:hover{color:var(--ink)}
   <h2 class="sec">Pick a sport</h2>
   <div class="sports">
     <a class="sport live" href="#/nba" style="--i:0">
-      <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 10.800 0 12.800M18.400 5.600c-3 3-3 10.800 0 12.800"/></svg></div>
+      <div class="art" id="nba-art"></div><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 10.800 0 12.800M18.400 5.600c-3 3-3 10.800 0 12.800"/></svg></div>
       <div><h2>NBA</h2><p>The backstory behind every slate.</p></div>
       <div class="foot" id="nba-foot">Open the board &rarr;</div>
     </a>
     <div class="sport soon" style="--i:1" aria-disabled="true">
-      <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M6 5.500c2.500 2 2.500 11 0 13M18 5.500c-2.500 2-2.500 11 0 13"/></svg></div>
+      <div class="art logos" id="mlb-art"><img src="img/mlb/nyy.png" alt="" loading="lazy"><img src="img/mlb/lad.png" alt="" loading="lazy"><img src="img/mlb/bos.png" alt="" loading="lazy"><img src="img/mlb/chc.png" alt="" loading="lazy"><img src="img/mlb/atl.png" alt="" loading="lazy"><img src="img/mlb/hou.png" alt="" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M6 5.500c2.500 2 2.500 11 0 13M18 5.500c-2.500 2-2.500 11 0 13"/></svg></div>
       <div><h2>MLB</h2><p>Same idea for baseball.</p></div>
       <div class="foot"><span class="badge">Coming soon</span></div>
     </div>
     <a class="sport live" href="#/nfl" style="--i:2">
-      <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="12" rx="10" ry="6.500" transform="rotate(-35 12 12)"/><path d="M9 12l6-0.001M10 10l.01.01M12.500 11.500l.01.01M10.500 13.500l.01.01"/></svg></div>
+      <div class="art" id="nfl-art"></div><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="12" rx="10" ry="6.500" transform="rotate(-35 12 12)"/><path d="M9 12l6-0.001M10 10l.01.01M12.500 11.500l.01.01M10.500 13.500l.01.01"/></svg></div>
       <div><h2>NFL</h2><p>The backstory behind every week.</p></div>
       <div class="foot" id="nfl-foot">Open the board &rarr;</div>
     </a>
@@ -862,6 +872,10 @@ async function homeInfo(){
       if(!s) continue;
       const when=date===et(0)?"Today":date===et(1)?"Tomorrow":new Date(date+"T12:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
       S[k]={s,date,when};
+      const art=$(k+"-art");
+      if(art){const seen=new Set(),pics=[];
+        for(const e of [...s.entries].sort((a,b)=>b.score-a.score)){ if(!e.headshot||seen.has(e.team)) continue; seen.add(e.team); pics.push(e); if(pics.length===4) break}
+        art.innerHTML=pics.map(e=>`<img class="p" src="${esc(e.headshot)}" alt="" loading="lazy" style="--c:${esc(e.team_color||(TEAMC[e.team]||["#999"])[0])}" onerror="this.remove()">`).join("")}
       $(k+"-foot").textContent=`${when}: ${s.games} game${s.games===1?"":"s"} \u00b7 ${s.entries.length} flagged \u2192`;
     }catch(e){}
   }
