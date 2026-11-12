@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 45,
-    "wind": 11,
-    "gust": 11,
-    "rain": 20
+    "wind": 10,
+    "gust": 12,
+    "rain": 24
    },
-   "weather_text": "45\u00b0F, wind 11 mph",
+   "weather_text": "45\u00b0F, wind 10 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -37,7 +37,7 @@
    "summary": "Faces the Texans, who traded him.",
    "score": 5.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3122840",
    "recent": {
     "cols": [
@@ -172,33 +172,7 @@
     "note": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games)."
    },
    "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pass yds",
-      "proj": 255,
-      "lo": 143,
-      "hi": 368
-     },
-     {
-      "label": "Pass TD",
-      "proj": 0.7,
-      "lo": 0.0,
-      "hi": 2.2
-     },
-     {
-      "label": "Rush yds",
-      "proj": 25,
-      "lo": 0,
-      "hi": 45
-     }
-    ],
-    "games_used": 8,
-    "sims": 1000,
-    "weather_factor": 0.97,
-    "opp_factor": 1.1,
-    "locked": false
-   },
+   "projection": null,
    "tags": [
     {
      "category": "Revenge",
@@ -442,12 +416,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 50,
-    "wind": 11,
-    "gust": 14,
+    "temp": 47,
+    "wind": 14,
+    "gust": 19,
     "rain": 0
    },
-   "weather_text": "50\u00b0F, wind 11 mph",
+   "weather_text": "47\u00b0F, wind 14 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1436,12 +1410,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 42,
-    "wind": 7,
-    "gust": 7,
+    "temp": 43,
+    "wind": 5,
+    "gust": 5,
     "rain": 0
    },
-   "weather_text": "42\u00b0F, wind 7 mph",
+   "weather_text": "43\u00b0F, wind 5 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1881,11 +1855,11 @@
    "weather": {
     "indoor": false,
     "temp": 52,
-    "wind": 4,
+    "wind": 5,
     "gust": 6,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 4 mph",
+   "weather_text": "52\u00b0F, wind 5 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2501,5 +2475,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-11T22:40:28+00:00"
+ "generated_at": "2026-11-12T03:33:35+00:00"
 }
