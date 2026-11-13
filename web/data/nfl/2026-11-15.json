@@ -25,10 +25,10 @@
     "indoor": false,
     "temp": 46,
     "wind": 12,
-    "gust": 14,
-    "rain": 48
+    "gust": 15,
+    "rain": 42
    },
-   "weather_text": "46\u00b0F, wind 12 mph, 48% rain",
+   "weather_text": "46\u00b0F, wind 12 mph, 42% rain",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -442,12 +442,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 50,
+    "temp": 49,
     "wind": 12,
     "gust": 17,
     "rain": 0
    },
-   "weather_text": "50\u00b0F, wind 12 mph",
+   "weather_text": "49\u00b0F, wind 12 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1436,12 +1436,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 43,
+    "temp": 41,
     "wind": 3,
-    "gust": 3,
+    "gust": 4,
     "rain": 0
    },
-   "weather_text": "43\u00b0F, wind 3 mph",
+   "weather_text": "41\u00b0F, wind 3 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -2501,5 +2501,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-13T14:13:06+00:00"
+ "generated_at": "2026-11-13T22:34:03+00:00"
 }
