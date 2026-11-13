@@ -1,63 +1,31 @@
-# Beef candidates (review needed)
+# Beef candidates (generated 2026-11-13)
 
-Generated 2026-11-12 by the beef-review routine. Window: NBA games on Nov 12-14, 2026 (web/data/2026-11-12.json, 2026-11-13.json). Nothing here has been added to config/rivalries.yaml; paste a YAML block only if you approve it. Facts below are limited to what the fetched articles state.
+Games checked: NBA Nov 13-14, 2026 (14 games) and NFL Nov 15-16, 2026 (web/data/nfl). Pairs already in rivalries.yaml / rivalries_nfl.yaml were skipped. Nothing here has been added to the config; approve and paste.
 
-## 1. Draymond Green vs. Victor Wembanyama
-
-- Game: Warriors @ Spurs, Nov 14, 2026 (listed in the Nov 13 data file as GSW-SAS)
-- Kind: Feud
-- Reason: In a Friday-night Warriors-Spurs game in November 2025, Green and Wembanyama exchanged words before an inbounds play, Wembanyama dunked over Green (waved off for a foul on Green), and Green later described the exchange on his podcast.
-- Sources: ESPN, Nov 18, 2025 (https://africa.espn.com/nba/story/_/id/47005045/draymond-green-victor-wembanyama-alley-oop-dunk-spurs-warriors); Sports Illustrated, Nov 17, 2025 (https://www.si.com/nba/warriors/onsi/news/draymond-green-reveals-trash-talk-he-used-on-wemby-before-getting-dunked-on-01kaa270x4qv); CBS Sports, Nov 15, 2025 (https://www.cbssports.com/nba/news/victor-wembanyama-dunk-draymond-green-trash-talk)
-- Caveats: ESPN says Green blocked Wembanyama just before the exchange, SI says the exchange came right before the inbound; the YAML reason avoids that detail. CBS's page was only partly read verbatim, so it is a supporting link, not a basis for the claim. A Bleacher Report piece (Jun 13, 2026) has Green calling Wembanyama's tactics "a bit dirty" but it is a general remark about European players and is not used. I did not confirm that both players are on these teams for 2026-27 from a roster source.
-
-```yaml
-  - players: ["Draymond Green", "Victor Wembanyama"]
-    kind: Feud
-    date: "2025-11"
-    reason: "In a Warriors-Spurs game in November 2025, Green and Wembanyama exchanged words before an inbounds play and Wembanyama dunked over him (the basket was waved off for a foul on Green); Green later described the exchange on his podcast."
-    sources:
-      - {label: "ESPN", url: "https://africa.espn.com/nba/story/_/id/47005045/draymond-green-victor-wembanyama-alley-oop-dunk-spurs-warriors"}
-      - {label: "Sports Illustrated", url: "https://www.si.com/nba/warriors/onsi/news/draymond-green-reveals-trash-talk-he-used-on-wemby-before-getting-dunked-on-01kaa270x4qv"}
-```
-
-## 2. Trae Young vs. Daniss Jenkins
-
-- Game: Pistons @ Wizards, Nov 12, 2026 evening (Nov 13 UTC; listed as WAS-DET)
-- Kind: Altercation
-- Reason: In a preseason Wizards-Pistons game on Oct. 10, 2026, Young and Jenkins shoved each other after contact near the sideline and both were ejected on second technical fouls.
-- Source: EssentiallySports, Oct 10, 2026 (https://www.essentiallysports.com/nba-active-basketball-news-ref-ejects-trae-young-and-daniss-jenkins-while-heated-scuffle-adds-to-pistons-wizards-chaos/)
-- Caveats: Single outlet, and preseason. The article labels Young as Washington's but does not explicitly state Jenkins's team (implied Detroit as the opponent). I could not find an ESPN/AP/NBA.com version. Suspensions: none mentioned. Check Jenkins's team on ESPN before approving.
+## 1. Victor Wembanyama vs. Draymond Green
+- **Game:** Spurs at Warriors, Fri Nov 13, 2026, 9:30 PM ET
+- **Kind:** Altercation
+- **Reason (one sentence):** In the Nov. 14, 2025 NBA Cup game (Warriors 109-108), Green jawed with Wembanyama before an inbound play and Wembanyama answered with a dunk and then yelled at Green; Wembanyama said "you have to respond a certain way." No ejection, fine or suspension is reported.
+- **Sources:**
+  - CBS Sports, Nov. 15, 2025: https://www.cbssports.com/nba/news/victor-wembanyama-dunk-draymond-green-trash-talk
+  - Dunkest, Nov. 15, 2025: https://www.dunkest.com/en/nba/news/224216/wemby-nearly-gets-into-a-fight-with-green-its-right-to-answer-provocations
+- **Roster check:** Green re-signed with Warriors (NBC Sports, 2026-07-28: https://www.nbcsports.com/fantasy/basketball/player-news/2026-07-28/draymond-green-inks-one-year-deal-with-warriors). Not confirmed he is active/healthy for Nov. 13.
+- Caveat: the CBS page was cut off in my fetch, so the dunk/yelling details and the quote rest partly on a summary of the rest of the page. Dunkest (read in full) confirms Green trying to rattle Wembanyama and the dunk in response; it also says Jeremy Sochan shoved Green, which I left out. Please open CBS before approving.
 
 ```yaml
-  - players: ["Trae Young", "Daniss Jenkins"]
+  - players: ["Victor Wembanyama", "Draymond Green"]
     kind: Altercation
-    date: "2026-10-10"
-    reason: "In a Wizards-Pistons preseason game on Oct. 10, 2026, Young and Jenkins shoved each other after contact near the sideline and both were ejected after second technical fouls."
+    date: "2025-11-14"
+    reason: "In a Nov. 14, 2025 NBA Cup game, Green jawed with Wembanyama before an inbound play and Wembanyama answered with a dunk; Wembanyama said \"you have to respond a certain way.\""
     sources:
-      - {label: "EssentiallySports", url: "https://www.essentiallysports.com/nba-active-basketball-news-ref-ejects-trae-young-and-daniss-jenkins-while-heated-scuffle-adds-to-pistons-wizards-chaos/"}
+      - {label: "CBS Sports", url: "https://www.cbssports.com/nba/news/victor-wembanyama-dunk-draymond-green-trash-talk"}
+      - {label: "Dunkest", url: "https://www.dunkest.com/en/nba/news/224216/wemby-nearly-gets-into-a-fight-with-green-its-right-to-answer-provocations"}
 ```
 
-## 3. Tyrese Haliburton vs. Jalen Brunson
-
-- Game: Pacers @ Knicks, Nov 14, 2026 (listed as NYK-IND)
-- Kind: Rivalry
-- Reason: At a WWE event at Madison Square Garden in July 2026, Haliburton told Brunson "You can't beat me," a jab tied to the 2025 Eastern Conference Finals, and said he would see Brunson again in a couple of months.
-- Source: Roundtable, Jul 20, 2026 (https://roundtable.io/sports/nba/pacers/news/tyrese-haliburton-puts-jalen-brunson-on-notice-during-wwe-appearance)
-- Caveats: Verbal jab only, no on-court incident; single lesser-known outlet and I found no second source. I did not check Haliburton's availability for the game or his current roster status.
-
-```yaml
-  - players: ["Tyrese Haliburton", "Jalen Brunson"]
-    kind: Rivalry
-    date: "2026-07"
-    reason: "At a WWE event at Madison Square Garden in July 2026, Haliburton told Brunson \"You can't beat me,\" a jab tied to the 2025 Eastern Conference Finals, and said he would see him again in a couple of months."
-    sources:
-      - {label: "Roundtable", url: "https://roundtable.io/sports/nba/pacers/news/tyrese-haliburton-puts-jalen-brunson-on-notice-during-wwe-appearance"}
-```
-
-## Not listed / could not verify
-
-- NFL: no games fall inside the 2-day window (next NFL slate in the data is Nov 15-16), so NFL was not searched this run.
-- Dropped for lack of two named players on the current matchup or an outdated roster: Westbrook/P.J. Washington vs. Clippers (2024 playoffs, Westbrook's current team unconfirmed), Isaiah Stewart's post-game jawing at Pelicans bench (Nov 2, 2026, no opposing player named), Jeremiah Fears/Luguentz Dort (Jan 2026, not in this window's games), Dillon Brooks/Egor Demin.
-- Search leads seen but not fetched or confirmed: Ayo Dosunmu/Trae Young (Bulls-Hawks), Kris Dunn/Jabari Smith Jr. (Rockets-Jazz), Ausar Thompson/Anthony Davis (HITC page failed to load).
-- Games with no qualifying, confirmed item found this run: CHA-PHX, MIN-DAL, PHI-TOR, CHI-ATL, CLE-MIA, HOU-UTA, MEM-NOP, OKC-LAC, ORL-MIL, SAC-POR, IND-NYK roster beyond the above. Searches were one standard query per game, so absence is not proof.
-- Already in rivalries.yaml and not repeated: Nurkic/Marshall, Nurkic/P.J. Washington, Jaylin Williams/Champagnie, Mitchell/Champagnie, Wembanyama/Reid, Wembanyama/Holmgren, among others.
+## Not verified / not listed
+- Jalen Brunson vs. Tyrese Haliburton (Knicks-Pacers, Nov 13): Sportskeeda article is dated May 17, 2025 and describes playful trash talk at a WWE show; outside the 12-month window and not a real altercation. Excluded.
+- Packers-Vikings (Nov 15): search surfaced older Jaire Alexander / Justin Jefferson / Aaron Jones items (2023-24). Not fetched and current rosters not confirmed. Excluded.
+- Bills-Raiders spitting ejection (C.J. Gardner-Johnson, Oct 2026): Bills and Raiders are not playing each other on Nov 15. Excluded.
+- Spurs/Wolves (Wembanyama-Naz Reid) and Thunder/Pelicans (Dort-Fears) items surfaced in searches involve teams not in this window's games, or are already listed. Excluded.
+- Heat-Pistons, Clippers-Thunder, Chiefs-Falcons: searches found no two-player item I could confirm.
+- Searches were run only for a subset of the matchups (Heat-Pistons, Knicks-Pacers, Spurs-Warriors, Clippers-Thunder, Packers-Vikings, a combined NFL query); the other games were not individually searched.
