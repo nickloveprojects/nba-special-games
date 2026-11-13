@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-12T23:11:29Z",
+ "generated_at": "2026-11-13T14:12:05Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -245,7 +245,7 @@
    "matchup": {
     "notes": {
      "pts": "NYK gives up the 28th-most points to forwards (35.5 a game, 11 games).",
-     "reb": "NYK gives up the 26th-most rebounds to forwards (16.2 a game, 11 games).",
+     "reb": "NYK gives up the 27th-most rebounds to forwards (16.2 a game, 11 games).",
      "ast": "NYK gives up the 13th-most assists to forwards (8.2 a game, 11 games)."
     },
     "group": "F",
@@ -259,7 +259,7 @@
      },
      "reb": {
       "value": 16.2,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
@@ -270,7 +270,7 @@
       "color": "yellow"
      }
     },
-    "score": 26,
+    "score": 25,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -958,7 +958,7 @@
    "opponent_logo": "img/teams/MEM.png",
    "matchup": {
     "notes": {
-     "pts": "MEM gives up the 26th-most points to centers (11.3 a game, 11 games).",
+     "pts": "MEM gives up the 25th-most points to centers (11.3 a game, 11 games).",
      "reb": "MEM gives up the 29th-most rebounds to centers (7.1 a game, 11 games).",
      "ast": "MEM gives up the 12th-most assists to centers (2.9 a game, 11 games)."
     },
@@ -967,7 +967,7 @@
     "stats": {
      "pts": {
       "value": 11.3,
-      "rank": 26,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -984,7 +984,7 @@
       "color": "yellow"
      }
     },
-    "score": 26,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -1415,16 +1415,16 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "notes": {
-     "pts": "IND gives up the 7th-most points to centers (16.2 a game, 12 games).",
+     "pts": "IND gives up the 8th-most points to centers (16.2 a game, 12 games).",
      "reb": "IND gives up the 8th-most rebounds to centers (11.1 a game, 12 games).",
-     "ast": "IND gives up the 19th-most assists to centers (2.5 a game, 12 games)."
+     "ast": "IND gives up the 18th-most assists to centers (2.5 a game, 12 games)."
     },
     "group": "C",
     "games": 12,
     "stats": {
      "pts": {
       "value": 16.2,
-      "rank": 7,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
@@ -1436,7 +1436,7 @@
      },
      "ast": {
       "value": 2.5,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      }
@@ -1445,7 +1445,7 @@
     "grade": "B",
     "color": "yellow",
     "best": "pts",
-    "note": "IND gives up the 7th-most points to centers (16.2 a game, 12 games)."
+    "note": "IND gives up the 8th-most points to centers (16.2 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1676,8 +1676,8 @@
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
     "notes": {
-     "pts": "MIA gives up the 22nd-most points to centers (12.1 a game, 11 games).",
-     "reb": "MIA gives up the 17th-most rebounds to centers (9.2 a game, 11 games).",
+     "pts": "MIA gives up the 21st-most points to centers (12.1 a game, 11 games).",
+     "reb": "MIA gives up the 16th-most rebounds to centers (9.2 a game, 11 games).",
      "ast": "MIA gives up the 30th-most assists to centers (1.3 a game, 11 games)."
     },
     "group": "C",
@@ -1685,13 +1685,13 @@
     "stats": {
      "pts": {
       "value": 12.1,
-      "rank": 22,
+      "rank": 21,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 9.2,
-      "rank": 17,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
@@ -1702,11 +1702,11 @@
       "color": "red"
      }
     },
-    "score": 24,
+    "score": 26,
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "MIA gives up the 17th-most rebounds to centers (9.2 a game, 11 games)."
+    "note": "MIA gives up the 16th-most rebounds to centers (9.2 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1898,7 +1898,7 @@
    "opponent_logo": "img/teams/HOU.png",
    "matchup": {
     "notes": {
-     "pts": "HOU gives up the 13th-most points to guards (56.9 a game, 12 games).",
+     "pts": "HOU gives up the 15th-most points to guards (56.9 a game, 12 games).",
      "reb": "HOU gives up the 26th-most rebounds to guards (13.6 a game, 12 games).",
      "ast": "HOU gives up the 27th-most assists to guards (12.8 a game, 12 games)."
     },
@@ -1907,7 +1907,7 @@
     "stats": {
      "pts": {
       "value": 56.9,
-      "rank": 13,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
@@ -1924,11 +1924,11 @@
       "color": "red"
      }
     },
-    "score": 28,
+    "score": 25,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "HOU gives up the 13th-most points to guards (56.9 a game, 12 games)."
+    "note": "HOU gives up the 15th-most points to guards (56.9 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2110,7 +2110,7 @@
    "matchup": {
     "notes": {
      "pts": "UTA gives up the 23rd-most points to centers (11.5 a game, 12 games).",
-     "reb": "UTA gives up the 12th-most rebounds to centers (10.3 a game, 12 games).",
+     "reb": "UTA gives up the 10th-most rebounds to centers (10.3 a game, 12 games).",
      "ast": "UTA gives up the 24th-most assists to centers (2.2 a game, 12 games)."
     },
     "group": "C",
@@ -2124,9 +2124,9 @@
      },
      "reb": {
       "value": 10.3,
-      "rank": 12,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "ast": {
       "value": 2.2,
@@ -2135,11 +2135,11 @@
       "color": "red"
      }
     },
-    "score": 36,
+    "score": 38,
     "grade": "D",
     "color": "yellow",
     "best": "reb",
-    "note": "UTA gives up the 12th-most rebounds to centers (10.3 a game, 12 games)."
+    "note": "UTA gives up the 10th-most rebounds to centers (10.3 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2294,7 +2294,7 @@
    "opponent_logo": "img/teams/SAS.png",
    "matchup": {
     "notes": {
-     "pts": "SAS gives up the 20th-most points to centers (13.2 a game, 12 games).",
+     "pts": "SAS gives up the 19th-most points to centers (13.2 a game, 12 games).",
      "reb": "SAS gives up the 28th-most rebounds to centers (7.6 a game, 12 games).",
      "ast": "SAS gives up the 24th-most assists to centers (2.2 a game, 12 games)."
     },
@@ -2303,7 +2303,7 @@
     "stats": {
      "pts": {
       "value": 13.2,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -2320,11 +2320,11 @@
       "color": "red"
      }
     },
-    "score": 21,
+    "score": 22,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "SAS gives up the 20th-most points to centers (13.2 a game, 12 games)."
+    "note": "SAS gives up the 19th-most points to centers (13.2 a game, 12 games)."
    },
    "injury": {
     "status": "Day-To-Day",
@@ -2580,7 +2580,7 @@
    "matchup": {
     "notes": {
      "pts": "POR gives up the 6th-most points to centers (16.8 a game, 11 games).",
-     "reb": "POR gives up the 14th-most rebounds to centers (10.0 a game, 11 games).",
+     "reb": "POR gives up the 12th-most rebounds to centers (10.0 a game, 11 games).",
      "ast": "POR gives up the 10th-most assists to centers (3.0 a game, 11 games)."
     },
     "group": "C",
@@ -2594,7 +2594,7 @@
      },
      "reb": {
       "value": 10.0,
-      "rank": 14,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
@@ -2605,7 +2605,7 @@
       "color": "green"
      }
     },
-    "score": 69,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "pts",
@@ -2852,8 +2852,8 @@
    "matchup": {
     "notes": {
      "pts": "LAC gives up the 3rd-most points to guards (65.3 a game, 10 games).",
-     "reb": "LAC gives up the 17th-most rebounds to guards (15.2 a game, 10 games).",
-     "ast": "LAC gives up the 6th-most assists to guards (16.8 a game, 10 games)."
+     "reb": "LAC gives up the 18th-most rebounds to guards (15.2 a game, 10 games).",
+     "ast": "LAC gives up the 7th-most assists to guards (16.8 a game, 10 games)."
     },
     "group": "G",
     "games": 10,
@@ -2866,18 +2866,18 @@
      },
      "reb": {
       "value": 15.2,
-      "rank": 17,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 16.8,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 74,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "pts",
@@ -3149,18 +3149,18 @@
    "opponent_logo": "img/teams/MIL.png",
    "matchup": {
     "notes": {
-     "pts": "MIL gives up the 10th-most points to guards (58.9 a game, 12 games).",
+     "pts": "MIL gives up the 11th-most points to guards (58.9 a game, 12 games).",
      "reb": "MIL gives up the 9th-most rebounds to guards (16.6 a game, 12 games).",
-     "ast": "MIL gives up the 6th-most assists to guards (16.8 a game, 12 games)."
+     "ast": "MIL gives up the 7th-most assists to guards (16.8 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
     "stats": {
      "pts": {
       "value": 58.9,
-      "rank": 10,
+      "rank": 11,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 16.6,
@@ -3170,16 +3170,16 @@
      },
      "ast": {
       "value": 16.8,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 75,
+    "score": 72,
     "grade": "B",
     "color": "green",
     "best": "ast",
-    "note": "MIL gives up the 6th-most assists to guards (16.8 a game, 12 games)."
+    "note": "MIL gives up the 7th-most assists to guards (16.8 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3745,16 +3745,16 @@
    "opponent_logo": "img/teams/LAC.png",
    "matchup": {
     "notes": {
-     "pts": "LAC gives up the 19th-most points to centers (13.5 a game, 10 games).",
+     "pts": "LAC gives up the 18th-most points to centers (13.5 a game, 10 games).",
      "reb": "LAC gives up the 20th-most rebounds to centers (8.6 a game, 10 games).",
-     "ast": "LAC gives up the 21st-most assists to centers (2.4 a game, 10 games)."
+     "ast": "LAC gives up the 20th-most assists to centers (2.4 a game, 10 games)."
     },
     "group": "C",
     "games": 10,
     "stats": {
      "pts": {
       "value": 13.5,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
@@ -3766,16 +3766,16 @@
      },
      "ast": {
       "value": 2.4,
-      "rank": 21,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      }
     },
-    "score": 34,
+    "score": 37,
     "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "LAC gives up the 19th-most points to centers (13.5 a game, 10 games)."
+    "note": "LAC gives up the 18th-most points to centers (13.5 a game, 10 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3966,8 +3966,8 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 15th-most points to guards (56.5 a game, 11 games).",
-     "reb": "NYK gives up the 16th-most rebounds to guards (15.3 a game, 11 games).",
+     "pts": "NYK gives up the 17th-most points to guards (56.5 a game, 11 games).",
+     "reb": "NYK gives up the 17th-most rebounds to guards (15.3 a game, 11 games).",
      "ast": "NYK gives up the 27th-most assists to guards (12.8 a game, 11 games)."
     },
     "group": "G",
@@ -3975,13 +3975,13 @@
     "stats": {
      "pts": {
       "value": 56.5,
-      "rank": 15,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 15.3,
-      "rank": 16,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -3992,11 +3992,11 @@
       "color": "red"
      }
     },
-    "score": 37,
+    "score": 33,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "pts",
-    "note": "NYK gives up the 15th-most points to guards (56.5 a game, 11 games)."
+    "note": "NYK gives up the 17th-most points to guards (56.5 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4620,8 +4620,8 @@
    "opponent_logo": "img/teams/MEM.png",
    "matchup": {
     "notes": {
-     "pts": "MEM gives up the 9th-most points to guards (59.0 a game, 11 games).",
-     "reb": "MEM gives up the 12th-most rebounds to guards (15.6 a game, 11 games).",
+     "pts": "MEM gives up the 10th-most points to guards (59.0 a game, 11 games).",
+     "reb": "MEM gives up the 13th-most rebounds to guards (15.6 a game, 11 games).",
      "ast": "MEM gives up the 19th-most assists to guards (14.6 a game, 11 games)."
     },
     "group": "G",
@@ -4629,13 +4629,13 @@
     "stats": {
      "pts": {
       "value": 59.0,
-      "rank": 9,
+      "rank": 10,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 15.6,
-      "rank": 12,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
@@ -4646,11 +4646,11 @@
       "color": "yellow"
      }
     },
-    "score": 57,
+    "score": 55,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "MEM gives up the 9th-most points to guards (59.0 a game, 11 games)."
+    "note": "MEM gives up the 10th-most points to guards (59.0 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4896,7 +4896,7 @@
    "matchup": {
     "notes": {
      "pts": "CLE gives up the 2nd-most points to guards (67.5 a game, 12 games).",
-     "reb": "CLE gives up the 5th-most rebounds to guards (17.4 a game, 12 games).",
+     "reb": "CLE gives up the 4th-most rebounds to guards (17.4 a game, 12 games).",
      "ast": "CLE gives up the 5th-most assists to guards (16.9 a game, 12 games)."
     },
     "group": "G",
@@ -4910,7 +4910,7 @@
      },
      "reb": {
       "value": 17.4,
-      "rank": 5,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
@@ -4921,7 +4921,7 @@
       "color": "green"
      }
     },
-    "score": 90,
+    "score": 91,
     "grade": "A",
     "color": "green",
     "best": "pts",

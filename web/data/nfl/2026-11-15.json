@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 11,
-    "gust": 12,
-    "rain": 27
+    "temp": 46,
+    "wind": 12,
+    "gust": 14,
+    "rain": 48
    },
-   "weather_text": "47\u00b0F, wind 11 mph",
+   "weather_text": "46\u00b0F, wind 12 mph, 48% rain",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -37,7 +37,7 @@
    "summary": "Faces the Texans, who traded him.",
    "score": 5.0,
    "stats": {},
-   "status_note": "Out",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3122840",
    "recent": {
     "cols": [
@@ -172,7 +172,33 @@
     "note": "HOU gives up the 2nd-most passing yards to quarterbacks (257 a game, 8 games)."
    },
    "career": [],
-   "projection": null,
+   "projection": {
+    "lines": [
+     {
+      "label": "Pass yds",
+      "proj": 255,
+      "lo": 143,
+      "hi": 368
+     },
+     {
+      "label": "Pass TD",
+      "proj": 0.7,
+      "lo": 0.0,
+      "hi": 2.2
+     },
+     {
+      "label": "Rush yds",
+      "proj": 25,
+      "lo": 0,
+      "hi": 45
+     }
+    ],
+    "games_used": 8,
+    "sims": 1000,
+    "weather_factor": 0.97,
+    "opp_factor": 1.1,
+    "locked": false
+   },
    "tags": [
     {
      "category": "Revenge",
@@ -346,7 +372,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "MIA gives up the 26th-most receiving yards to receivers (106.2 a game, 8 games).",
-     "rec": "MIA gives up the 27th-most catches to receivers (8.1 a game, 8 games)."
+     "rec": "MIA gives up the 25th-most catches to receivers (8.1 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
@@ -359,7 +385,7 @@
      },
      "rec": {
       "value": 8.1,
-      "rank": 27,
+      "rank": 25,
       "of": 32,
       "color": "red"
      }
@@ -368,11 +394,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 18,
-    "grade": "F",
+    "score": 21,
+    "grade": "D",
     "color": "red",
-    "best": "rec_yds",
-    "note": "MIA gives up the 26th-most receiving yards to receivers (106.2 a game, 8 games)."
+    "best": "rec",
+    "note": "MIA gives up the 25th-most catches to receivers (8.1 a game, 8 games)."
    },
    "career": [],
    "projection": null,
@@ -416,12 +442,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 14,
-    "gust": 19,
+    "temp": 50,
+    "wind": 12,
+    "gust": 17,
     "rain": 0
    },
-   "weather_text": "47\u00b0F, wind 14 mph",
+   "weather_text": "50\u00b0F, wind 12 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1105,34 +1131,34 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "ATL gives up the 13th-most receiving yards to receivers (138.7 a game, 9 games).",
-     "rec": "ATL gives up the 12th-most catches to receivers (11.4 a game, 9 games)."
+     "rec_yds": "ATL gives up the 10th-most receiving yards to receivers (138.7 a game, 9 games).",
+     "rec": "ATL gives up the 11th-most catches to receivers (11.4 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
       "value": 138.7,
-      "rank": 13,
+      "rank": 10,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      },
      "rec": {
       "value": 11.4,
-      "rank": 12,
+      "rank": 11,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      }
     },
     "labels": {
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 63,
+    "score": 69,
     "grade": "B",
-    "color": "yellow",
-    "best": "rec",
-    "note": "ATL gives up the 12th-most catches to receivers (11.4 a game, 9 games)."
+    "color": "green",
+    "best": "rec_yds",
+    "note": "ATL gives up the 10th-most receiving yards to receivers (138.7 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -1147,13 +1173,13 @@
       "label": "Rec yds",
       "proj": 11,
       "lo": 0,
-      "hi": 37
+      "hi": 38
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.06,
+    "opp_factor": 1.07,
     "locked": false
    },
    "tags": [
@@ -1410,12 +1436,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 44,
+    "temp": 43,
     "wind": 3,
     "gust": 3,
     "rain": 0
    },
-   "weather_text": "44\u00b0F, wind 3 mph",
+   "weather_text": "43\u00b0F, wind 3 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1768,21 +1794,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "DAL gives up the 20th-most receiving yards to receivers (126 a game, 9 games).",
-     "rec": "DAL gives up the 18th-most catches to receivers (9.6 a game, 9 games)."
+     "rec_yds": "DAL gives up the 19th-most receiving yards to receivers (126 a game, 9 games).",
+     "rec": "DAL gives up the 17th-most catches to receivers (9.6 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
       "value": 126.0,
-      "rank": 20,
+      "rank": 19,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
       "value": 9.6,
-      "rank": 18,
+      "rank": 17,
       "of": 32,
       "color": "yellow"
      }
@@ -1791,11 +1817,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 42,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "rec",
-    "note": "DAL gives up the 18th-most catches to receivers (9.6 a game, 9 games)."
+    "note": "DAL gives up the 17th-most catches to receivers (9.6 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -1808,7 +1834,7 @@
      },
      {
       "label": "Rec yds",
-      "proj": 15,
+      "proj": 16,
       "lo": 0,
       "hi": 32
      }
@@ -1816,7 +1842,7 @@
     "games_used": 5,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.97,
+    "opp_factor": 0.98,
     "locked": false
    },
    "tags": [
@@ -1854,12 +1880,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
+    "temp": 53,
     "wind": 5,
-    "gust": 6,
+    "gust": 7,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 5 mph",
+   "weather_text": "53\u00b0F, wind 5 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -1979,7 +2005,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "JAX gives up the 7th-most receiving yards to receivers (155 a game, 8 games).",
-     "rec": "JAX gives up the 10th-most catches to receivers (11.6 a game, 8 games)."
+     "rec": "JAX gives up the 8th-most catches to receivers (11.6 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
@@ -1992,7 +2018,7 @@
      },
      "rec": {
       "value": 11.6,
-      "rank": 10,
+      "rank": 8,
       "of": 32,
       "color": "green"
      }
@@ -2001,7 +2027,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 76,
+    "score": 79,
     "grade": "B",
     "color": "green",
     "best": "rec_yds",
@@ -2026,7 +2052,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.07,
+    "opp_factor": 1.08,
     "locked": false
    },
    "tags": [
@@ -2159,21 +2185,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games).",
-     "rec": "SEA gives up the 31st-most catches to receivers (7.6 a game, 9 games)."
+     "rec_yds": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games).",
+     "rec": "SEA gives up the 30th-most catches to receivers (7.6 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
       "value": 78.8,
-      "rank": 31,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
       "value": 7.6,
-      "rank": 31,
+      "rank": 30,
       "of": 32,
       "color": "red"
      }
@@ -2182,11 +2208,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 3,
+    "score": 6,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games)."
+    "note": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -2207,7 +2233,7 @@
     "games_used": 9,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.87,
+    "opp_factor": 0.88,
     "locked": false
    },
    "tags": [
@@ -2340,21 +2366,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games).",
-     "rec": "SEA gives up the 31st-most catches to receivers (7.6 a game, 9 games)."
+     "rec_yds": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games).",
+     "rec": "SEA gives up the 30th-most catches to receivers (7.6 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
       "value": 78.8,
-      "rank": 31,
+      "rank": 30,
       "of": 32,
       "color": "red"
      },
      "rec": {
       "value": 7.6,
-      "rank": 31,
+      "rank": 30,
       "of": 32,
       "color": "red"
      }
@@ -2363,11 +2389,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 3,
+    "score": 6,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "SEA gives up the 31st-most receiving yards to receivers (78.8 a game, 9 games)."
+    "note": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games)."
    },
    "career": [],
    "projection": null,
@@ -2475,5 +2501,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-12T23:11:57+00:00"
+ "generated_at": "2026-11-13T14:13:06+00:00"
 }

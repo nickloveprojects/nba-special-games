@@ -25,7 +25,7 @@
     "indoor": false,
     "temp": 48,
     "wind": 4,
-    "gust": 12,
+    "gust": 13,
     "rain": 0
    },
    "weather_text": "48\u00b0F, wind 4 mph",
@@ -210,7 +210,7 @@
     "indoor": false,
     "temp": 48,
     "wind": 4,
-    "gust": 12,
+    "gust": 13,
     "rain": 0
    },
    "weather_text": "48\u00b0F, wind 4 mph",
@@ -222,7 +222,7 @@
    "summary": "Faces the Ravens, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4596334",
    "recent": {
     "cols": [
@@ -397,5 +397,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-12T23:13:01+00:00"
+ "generated_at": "2026-11-13T14:13:38+00:00"
 }
