@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-13T22:33:52Z",
+ "generated_at": "2026-11-14T05:38:27Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -232,37 +232,37 @@
    "opponent_logo": "img/teams/NOP.png",
    "matchup": {
     "notes": {
-     "pts": "NOP gives up the 6th-most points to guards (62.4 a game, 12 games).",
-     "reb": "NOP gives up the 29th-most rebounds to guards (11.5 a game, 12 games).",
-     "ast": "NOP gives up the 11th-most assists to guards (16.0 a game, 12 games)."
+     "pts": "NOP gives up the 7th-most points to guards (60.8 a game, 13 games).",
+     "reb": "NOP gives up the 29th-most rebounds to guards (11.1 a game, 13 games).",
+     "ast": "NOP gives up the 10th-most assists to guards (16.2 a game, 13 games)."
     },
     "group": "G",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 62.4,
-      "rank": 6,
+      "value": 60.8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 11.5,
+      "value": 11.1,
       "rank": 29,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 16.0,
-      "rank": 11,
+      "value": 16.2,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      }
     },
     "score": 51,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "NOP gives up the 6th-most points to guards (62.4 a game, 12 games)."
+    "note": "NOP gives up the 7th-most points to guards (60.8 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -504,22 +504,22 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "notes": {
-     "pts": "CHI gives up the 5th-most points to guards (62.6 a game, 10 games).",
-     "reb": "CHI gives up the 10th-most rebounds to guards (16.2 a game, 10 games).",
-     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+     "pts": "CHI gives up the 5th-most points to guards (62.5 a game, 11 games).",
+     "reb": "CHI gives up the 5th-most rebounds to guards (17.1 a game, 11 games).",
+     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
     },
     "group": "G",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 62.6,
+      "value": 62.5,
       "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 16.2,
-      "rank": 10,
+      "value": 17.1,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
@@ -530,11 +530,11 @@
       "color": "green"
      }
     },
-    "score": 83,
+    "score": 89,
     "grade": "A",
     "color": "green",
     "best": "ast",
-    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
    },
    "injury": {
     "status": "Out",
@@ -709,22 +709,22 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "notes": {
-     "pts": "CHI gives up the 5th-most points to guards (62.6 a game, 10 games).",
-     "reb": "CHI gives up the 10th-most rebounds to guards (16.2 a game, 10 games).",
-     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+     "pts": "CHI gives up the 5th-most points to guards (62.5 a game, 11 games).",
+     "reb": "CHI gives up the 5th-most rebounds to guards (17.1 a game, 11 games).",
+     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
     },
     "group": "G",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 62.6,
+      "value": 62.5,
       "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 16.2,
-      "rank": 10,
+      "value": 17.1,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
@@ -735,11 +735,11 @@
       "color": "green"
      }
     },
-    "score": 83,
+    "score": 89,
     "grade": "A",
     "color": "green",
     "best": "ast",
-    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -765,7 +765,7 @@
      },
      {
       "label": "Reb",
-      "proj": 4.7,
+      "proj": 4.8,
       "lo": 1,
       "hi": 9
      },
@@ -854,6 +854,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909298",
+       "date": "2026-11-13",
+       "venue": "MIA",
+       "opp": "CLE",
+       "tm": "MIA",
+       "home": true,
+       "result": "W",
+       "score": "133-121",
+       "min": 20,
+       "pts": 4,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
        "gid": "401909951",
        "date": "2026-11-08",
        "venue": "SAC",
@@ -912,28 +927,13 @@
        "reb": 0,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909282",
-       "date": "2026-10-30",
-       "venue": "MIA",
-       "opp": "IND",
-       "tm": "MIA",
-       "home": true,
-       "result": "W",
-       "score": "145-125",
-       "min": 12,
-       "pts": 2,
-       "reb": 1,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 2.2,
-     "reb": 0.2,
-     "ast": 0.4,
-     "min": 9.8
+     "pts": 2.6,
+     "reb": 0.6,
+     "ast": 0.6,
+     "min": 11.4
     },
     "vs": {
      "opp": "DET",
@@ -997,8 +997,8 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 27th-most points to guards (48.8 a game, 11 games).",
-     "reb": "DET gives up the 30th-most rebounds to guards (11.1 a game, 11 games).",
+     "pts": "DET gives up the 28th-most points to guards (48.8 a game, 11 games).",
+     "reb": "DET gives up the 29th-most rebounds to guards (11.1 a game, 11 games).",
      "ast": "DET gives up the 29th-most assists to guards (12.7 a game, 11 games)."
     },
     "group": "G",
@@ -1006,13 +1006,13 @@
     "stats": {
      "pts": {
       "value": 48.8,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      },
      "reb": {
       "value": 11.1,
-      "rank": 30,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
@@ -1027,7 +1027,7 @@
     "grade": "F",
     "color": "red",
     "best": "pts",
-    "note": "DET gives up the 27th-most points to guards (48.8 a game, 11 games)."
+    "note": "DET gives up the 28th-most points to guards (48.8 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1035,9 +1035,9 @@
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 19 times (avg 11.7 pts, 2.6 reb, 1.4 ast).",
-     "n": 19,
-     "pts": 11.7,
+     "text": "Has played in his hometown area 20 times (avg 11.3 pts, 2.6 reb, 1.4 ast).",
+     "n": 20,
+     "pts": 11.3,
      "reb": 2.6,
      "ast": 1.4,
      "scope": ""
@@ -1063,21 +1063,21 @@
      },
      {
       "label": "Reb",
-      "proj": 1.1,
+      "proj": 1.3,
       "lo": 0,
       "hi": 4
      },
      {
       "label": "Ast",
-      "proj": 0.5,
+      "proj": 0.7,
       "lo": 0,
-      "hi": 1
+      "hi": 2
      }
     ],
-    "games_used": 10,
+    "games_used": 11,
     "minutes": 14,
     "sims": 1000,
-    "opp_factor": 0.97,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -1290,37 +1290,37 @@
    "opponent_logo": "img/teams/MIA.png",
    "matchup": {
     "notes": {
-     "pts": "MIA gives up the 26th-most points to forwards (37.8 a game, 11 games).",
-     "reb": "MIA gives up the 14th-most rebounds to forwards (18.6 a game, 11 games).",
-     "ast": "MIA gives up the 1st-most assists to forwards (10.3 a game, 11 games)."
+     "pts": "MIA gives up the 29th-most points to forwards (35.0 a game, 12 games).",
+     "reb": "MIA gives up the 21st-most rebounds to forwards (17.4 a game, 12 games).",
+     "ast": "MIA gives up the 5th-most assists to forwards (9.4 a game, 12 games)."
     },
     "group": "F",
-    "games": 11,
+    "games": 12,
     "stats": {
      "pts": {
-      "value": 37.8,
-      "rank": 26,
+      "value": 35.0,
+      "rank": 29,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 18.6,
-      "rank": 14,
+      "value": 17.4,
+      "rank": 21,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "ast": {
-      "value": 10.3,
-      "rank": 1,
+      "value": 9.4,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 56,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "MIA gives up the 1st-most assists to forwards (10.3 a game, 11 games)."
+    "note": "MIA gives up the 5th-most assists to forwards (9.4 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1360,7 +1360,7 @@
     "games_used": 11,
     "minutes": 32,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -1512,16 +1512,16 @@
    "opponent_logo": "img/teams/MIN.png",
    "matchup": {
     "notes": {
-     "pts": "MIN gives up the 19th-most points to forwards (41.1 a game, 12 games).",
+     "pts": "MIN gives up the 20th-most points to forwards (41.1 a game, 12 games).",
      "reb": "MIN gives up the 22nd-most rebounds to forwards (17.2 a game, 12 games).",
-     "ast": "MIN gives up the 18th-most assists to forwards (7.8 a game, 12 games)."
+     "ast": "MIN gives up the 19th-most assists to forwards (7.8 a game, 12 games)."
     },
     "group": "F",
     "games": 12,
     "stats": {
      "pts": {
       "value": 41.1,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
@@ -1533,16 +1533,16 @@
      },
      "ast": {
       "value": 7.8,
-      "rank": 18,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 36,
+    "score": 33,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "ast",
-    "note": "MIN gives up the 18th-most assists to forwards (7.8 a game, 12 games)."
+    "note": "MIN gives up the 19th-most assists to forwards (7.8 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1626,6 +1626,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909298",
+       "date": "2026-11-13",
+       "venue": "MIA",
+       "opp": "CLE",
+       "tm": "MIA",
+       "home": true,
+       "result": "W",
+       "score": "133-121",
+       "min": 7,
+       "pts": 0,
+       "reb": 0,
+       "ast": 2,
+       "playoff": false
+      },
+      {
        "gid": "401909963",
        "date": "2026-11-10",
        "venue": "UTA",
@@ -1684,28 +1699,13 @@
        "reb": 1,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909091",
-       "date": "2026-10-21",
-       "venue": "MIA",
-       "opp": "MIN",
-       "tm": "MIA",
-       "home": true,
-       "result": "L",
-       "score": "131-106",
-       "min": 3,
-       "pts": 0,
-       "reb": 0,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
      "pts": 1.2,
      "reb": 0.4,
-     "ast": 0.0,
-     "min": 4.0
+     "ast": 0.4,
+     "min": 4.8
     },
     "vs": {
      "opp": "DET",
@@ -1754,37 +1754,37 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 12th-most points to forwards (42.3 a game, 11 games).",
-     "reb": "DET gives up the 6th-most rebounds to forwards (20.5 a game, 11 games).",
-     "ast": "DET gives up the 22nd-most assists to forwards (7.5 a game, 11 games)."
+     "pts": "DET gives up the 14th-most points to forwards (42.3 a game, 11 games).",
+     "reb": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games).",
+     "ast": "DET gives up the 23rd-most assists to forwards (7.5 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 42.3,
-      "rank": 12,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 20.5,
-      "rank": 6,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 7.5,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 57,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "DET gives up the 6th-most rebounds to forwards (20.5 a game, 11 games)."
+    "note": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1853,6 +1853,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909300",
+       "date": "2026-11-13",
+       "venue": "NOP",
+       "opp": "MEM",
+       "tm": "NOP",
+       "home": true,
+       "result": "L",
+       "score": "142-111",
+       "min": 17,
+       "pts": 6,
+       "reb": 8,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909972",
        "date": "2026-11-11",
        "venue": "NOP",
@@ -1911,27 +1926,12 @@
        "reb": 7,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401810919",
-       "date": "2026-03-26",
-       "venue": "DET",
-       "opp": "DET",
-       "tm": "NOP",
-       "home": false,
-       "result": "L",
-       "score": "129-108",
-       "min": 17,
-       "pts": 4,
-       "reb": 5,
-       "ast": 3,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 4.8,
-     "reb": 5.6,
-     "ast": 1.0,
+     "pts": 5.2,
+     "reb": 6.2,
+     "ast": 0.6,
      "min": 16.0
     },
     "vs": {
@@ -2046,15 +2046,15 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 4,
+      "proj": 5,
       "lo": 0,
       "hi": 9
      },
      {
       "label": "Reb",
-      "proj": 5.9,
+      "proj": 6.3,
       "lo": 3,
-      "hi": 10
+      "hi": 9
      },
      {
       "label": "Ast",
@@ -2063,8 +2063,8 @@
       "hi": 2
      }
     ],
-    "games_used": 3,
-    "minutes": 15,
+    "games_used": 4,
+    "minutes": 16,
     "sims": 1000,
     "opp_factor": 1.0,
     "locked": false
@@ -2218,37 +2218,37 @@
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
     "notes": {
-     "pts": "CLE gives up the 2nd-most points to guards (67.5 a game, 12 games).",
-     "reb": "CLE gives up the 4th-most rebounds to guards (17.4 a game, 12 games).",
-     "ast": "CLE gives up the 5th-most assists to guards (16.9 a game, 12 games)."
+     "pts": "CLE gives up the 2nd-most points to guards (65.8 a game, 13 games).",
+     "reb": "CLE gives up the 5th-most rebounds to guards (17.1 a game, 13 games).",
+     "ast": "CLE gives up the 5th-most assists to guards (17.3 a game, 13 games)."
     },
     "group": "G",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 67.5,
+      "value": 65.8,
       "rank": 2,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 17.4,
-      "rank": 4,
+      "value": 17.1,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 16.9,
+      "value": 17.3,
       "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 91,
+    "score": 90,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "CLE gives up the 2nd-most points to guards (67.5 a game, 12 games)."
+    "note": "CLE gives up the 2nd-most points to guards (65.8 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2342,6 +2342,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909300",
+       "date": "2026-11-13",
+       "venue": "NOP",
+       "opp": "MEM",
+       "tm": "NOP",
+       "home": true,
+       "result": "L",
+       "score": "142-111",
+       "min": 4,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
        "gid": "401909972",
        "date": "2026-11-11",
        "venue": "NOP",
@@ -2357,11 +2372,11 @@
        "playoff": false
       }
      ],
-     "n": 1,
-     "pts": 4.0,
-     "reb": 4.0,
+     "n": 2,
+     "pts": 2.0,
+     "reb": 2.0,
      "ast": 0.0,
-     "min": 7.0
+     "min": 5.5
     },
     "vs": {
      "opp": "DEN",
@@ -2380,7 +2395,7 @@
    "matchup": {
     "notes": {
      "pts": "DEN gives up the 26th-most points to guards (49.9 a game, 10 games).",
-     "reb": "DEN gives up the 22nd-most rebounds to guards (14.4 a game, 10 games).",
+     "reb": "DEN gives up the 24th-most rebounds to guards (14.4 a game, 10 games).",
      "ast": "DEN gives up the 13th-most assists to guards (15.6 a game, 10 games)."
     },
     "group": "G",
@@ -2394,7 +2409,7 @@
      },
      "reb": {
       "value": 14.4,
-      "rank": 22,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -2405,7 +2420,7 @@
       "color": "yellow"
      }
     },
-    "score": 33,
+    "score": 31,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -2417,10 +2432,10 @@
     {
      "kind": "hometown",
      "label": "Hometown",
-     "text": "Has played in his hometown area 1 time (avg 4.0 pts, 4.0 reb, 0.0 ast).",
-     "n": 1,
-     "pts": 4.0,
-     "reb": 4.0,
+     "text": "Has played in his hometown area 2 times (avg 2.0 pts, 2.0 reb, 0.0 ast).",
+     "n": 2,
+     "pts": 2.0,
+     "reb": 2.0,
      "ast": 0.0,
      "scope": ""
     }
@@ -2481,6 +2496,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909298",
+       "date": "2026-11-13",
+       "venue": "MIA",
+       "opp": "MIA",
+       "tm": "CLE",
+       "home": false,
+       "result": "L",
+       "score": "133-121",
+       "min": 30,
+       "pts": 16,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909967",
        "date": "2026-11-11",
        "venue": "NYK",
@@ -2539,28 +2569,13 @@
        "reb": 4,
        "ast": 5,
        "playoff": false
-      },
-      {
-       "gid": "401909854",
-       "date": "2026-10-24",
-       "venue": "CLE",
-       "opp": "BKN",
-       "tm": "CLE",
-       "home": true,
-       "result": "W",
-       "score": "125-121",
-       "min": 21,
-       "pts": 15,
-       "reb": 1,
-       "ast": 4,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 7.8,
-     "reb": 2.4,
-     "ast": 2.6,
-     "min": 20.6
+     "pts": 8.0,
+     "reb": 2.8,
+     "ast": 2.0,
+     "min": 22.4
     },
     "vs": {
      "opp": "DAL",
@@ -2624,37 +2639,37 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 13th-most points to guards (57.7 a game, 12 games).",
-     "reb": "DAL gives up the 19th-most rebounds to guards (15.1 a game, 12 games).",
-     "ast": "DAL gives up the 5th-most assists to guards (16.9 a game, 12 games)."
+     "pts": "DAL gives up the 12th-most points to guards (57.7 a game, 12 games).",
+     "reb": "DAL gives up the 18th-most rebounds to guards (15.1 a game, 12 games).",
+     "ast": "DAL gives up the 6th-most assists to guards (16.9 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
     "stats": {
      "pts": {
       "value": 57.7,
-      "rank": 13,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 15.1,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 16.9,
-      "rank": 5,
+      "rank": 6,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 61,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "DAL gives up the 5th-most assists to guards (16.9 a game, 12 games)."
+    "note": "DAL gives up the 6th-most assists to guards (16.9 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2674,9 +2689,9 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 9,
+      "proj": 10,
       "lo": 3,
-      "hi": 16
+      "hi": 17
      },
      {
       "label": "Reb",
@@ -2686,13 +2701,13 @@
      },
      {
       "label": "Ast",
-      "proj": 2.3,
+      "proj": 2.2,
       "lo": 1,
       "hi": 5
      }
     ],
-    "games_used": 6,
-    "minutes": 22,
+    "games_used": 7,
+    "minutes": 23,
     "sims": 1000,
     "opp_factor": 1.0,
     "locked": false
@@ -2747,6 +2762,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909298",
+       "date": "2026-11-13",
+       "venue": "MIA",
+       "opp": "CLE",
+       "tm": "MIA",
+       "home": true,
+       "result": "W",
+       "score": "133-121",
+       "min": 19,
+       "pts": 0,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      },
       {
        "gid": "401909963",
        "date": "2026-11-10",
@@ -2806,28 +2836,13 @@
        "reb": 1,
        "ast": 1,
        "playoff": false
-      },
-      {
-       "gid": "401909847",
-       "date": "2026-10-23",
-       "venue": "MIA",
-       "opp": "DET",
-       "tm": "MIA",
-       "home": true,
-       "result": "L",
-       "score": "128-111",
-       "min": 3,
-       "pts": 0,
-       "reb": 0,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
      "pts": 0.8,
-     "reb": 0.8,
-     "ast": 0.4,
-     "min": 3.4
+     "reb": 1.6,
+     "ast": 0.8,
+     "min": 6.6
     },
     "vs": {
      "opp": "DET",
@@ -2876,37 +2891,37 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 12th-most points to forwards (42.3 a game, 11 games).",
-     "reb": "DET gives up the 6th-most rebounds to forwards (20.5 a game, 11 games).",
-     "ast": "DET gives up the 22nd-most assists to forwards (7.5 a game, 11 games)."
+     "pts": "DET gives up the 14th-most points to forwards (42.3 a game, 11 games).",
+     "reb": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games).",
+     "ast": "DET gives up the 23rd-most assists to forwards (7.5 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
     "stats": {
      "pts": {
       "value": 42.3,
-      "rank": 12,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 20.5,
-      "rank": 6,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 7.5,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 57,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "DET gives up the 6th-most rebounds to forwards (20.5 a game, 11 games)."
+    "note": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3091,22 +3106,22 @@
    "opponent_logo": "img/teams/CHI.png",
    "matchup": {
     "notes": {
-     "pts": "CHI gives up the 5th-most points to guards (62.6 a game, 10 games).",
-     "reb": "CHI gives up the 10th-most rebounds to guards (16.2 a game, 10 games).",
-     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+     "pts": "CHI gives up the 5th-most points to guards (62.5 a game, 11 games).",
+     "reb": "CHI gives up the 5th-most rebounds to guards (17.1 a game, 11 games).",
+     "ast": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
     },
     "group": "G",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 62.6,
+      "value": 62.5,
       "rank": 5,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 16.2,
-      "rank": 10,
+      "value": 17.1,
+      "rank": 5,
       "of": 30,
       "color": "green"
      },
@@ -3117,11 +3132,11 @@
       "color": "green"
      }
     },
-    "score": 83,
+    "score": 89,
     "grade": "A",
     "color": "green",
     "best": "ast",
-    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 10 games)."
+    "note": "CHI gives up the 3rd-most assists to guards (17.7 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3219,6 +3234,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909299",
+       "date": "2026-11-13",
+       "venue": "CHI",
+       "opp": "ATL",
+       "tm": "CHI",
+       "home": true,
+       "result": "W",
+       "score": "125-117 OT",
+       "min": 15,
+       "pts": 4,
+       "reb": 1,
+       "ast": 3,
+       "playoff": false
+      },
+      {
        "gid": "401909969",
        "date": "2026-11-11",
        "venue": "CHI",
@@ -3277,28 +3307,13 @@
        "reb": 3,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909278",
-       "date": "2026-10-30",
-       "venue": "BOS",
-       "opp": "BOS",
-       "tm": "CHI",
-       "home": false,
-       "result": "L",
-       "score": "125-111",
-       "min": 20,
-       "pts": 12,
-       "reb": 4,
-       "ast": 4,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 10.6,
-     "reb": 2.4,
-     "ast": 3.0,
-     "min": 19.8
+     "pts": 9.0,
+     "reb": 1.8,
+     "ast": 2.8,
+     "min": 18.8
     },
     "vs": {
      "opp": "MIN",
@@ -3363,8 +3378,8 @@
    "matchup": {
     "notes": {
      "pts": "MIN gives up the 25th-most points to guards (51.7 a game, 12 games).",
-     "reb": "MIN gives up the 6th-most rebounds to guards (17.0 a game, 12 games).",
-     "ast": "MIN gives up the 21st-most assists to guards (14.0 a game, 12 games)."
+     "reb": "MIN gives up the 7th-most rebounds to guards (17.0 a game, 12 games).",
+     "ast": "MIN gives up the 22nd-most assists to guards (14.0 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
@@ -3377,22 +3392,22 @@
      },
      "reb": {
       "value": 17.0,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 14.0,
-      "rank": 21,
+      "rank": 22,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 44,
+    "score": 41,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "MIN gives up the 6th-most rebounds to guards (17.0 a game, 12 games)."
+    "note": "MIN gives up the 7th-most rebounds to guards (17.0 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3412,25 +3427,25 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 11,
-      "lo": 6,
-      "hi": 13
+      "proj": 10,
+      "lo": 4,
+      "hi": 14
      },
      {
       "label": "Reb",
-      "proj": 2.5,
+      "proj": 2.4,
       "lo": 1,
       "hi": 4
      },
      {
       "label": "Ast",
-      "proj": 3.3,
+      "proj": 3.2,
       "lo": 0,
       "hi": 4
      }
     ],
-    "games_used": 10,
-    "minutes": 20,
+    "games_used": 11,
+    "minutes": 19,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false
@@ -3490,6 +3505,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909300",
+       "date": "2026-11-13",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "MEM",
+       "home": false,
+       "result": "W",
+       "score": "142-111",
+       "min": 29,
+       "pts": 17,
+       "reb": 2,
+       "ast": 9,
+       "playoff": false
+      },
+      {
        "gid": "401909970",
        "date": "2026-11-11",
        "venue": "MEM",
@@ -3548,28 +3578,13 @@
        "reb": 4,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909914",
-       "date": "2026-11-02",
-       "venue": "MEM",
-       "opp": "NOP",
-       "tm": "MEM",
-       "home": true,
-       "result": "L",
-       "score": "135-134 OT",
-       "min": 37,
-       "pts": 40,
-       "reb": 5,
-       "ast": 5,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 26.6,
-     "reb": 3.8,
-     "ast": 4.0,
-     "min": 31.6
+     "pts": 22.0,
+     "reb": 3.2,
+     "ast": 4.8,
+     "min": 30.0
     },
     "vs": {
      "opp": "BKN",
@@ -3633,7 +3648,7 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "notes": {
-     "pts": "BKN gives up the 18th-most points to guards (56.2 a game, 11 games).",
+     "pts": "BKN gives up the 17th-most points to guards (56.2 a game, 11 games).",
      "reb": "BKN gives up the 16th-most rebounds to guards (15.4 a game, 11 games).",
      "ast": "BKN gives up the 15th-most assists to guards (15.5 a game, 11 games)."
     },
@@ -3642,7 +3657,7 @@
     "stats": {
      "pts": {
       "value": 56.2,
-      "rank": 18,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -3659,7 +3674,7 @@
       "color": "yellow"
      }
     },
-    "score": 47,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
@@ -3689,18 +3704,18 @@
      },
      {
       "label": "Reb",
-      "proj": 3.4,
+      "proj": 3.3,
       "lo": 1,
       "hi": 6
      },
      {
       "label": "Ast",
-      "proj": 5.1,
+      "proj": 5.5,
       "lo": 2,
-      "hi": 7
+      "hi": 9
      }
     ],
-    "games_used": 10,
+    "games_used": 11,
     "minutes": 30,
     "sims": 1000,
     "opp_factor": 1.0,

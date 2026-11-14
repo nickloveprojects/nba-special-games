@@ -26,9 +26,9 @@
     "temp": 46,
     "wind": 12,
     "gust": 15,
-    "rain": 42
+    "rain": 45
    },
-   "weather_text": "46\u00b0F, wind 12 mph, 42% rain",
+   "weather_text": "46\u00b0F, wind 12 mph, 45% rain",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -238,9 +238,10 @@
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "Lucas Oil Stadium",
    "location": "Indianapolis, IN",
    "categories": [
@@ -442,12 +443,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 49,
-    "wind": 12,
-    "gust": 17,
+    "temp": 47,
+    "wind": 11,
+    "gust": 20,
     "rain": 0
    },
-   "weather_text": "49\u00b0F, wind 12 mph",
+   "weather_text": "47\u00b0F, wind 11 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -661,7 +662,7 @@
       "label": "Rec yds",
       "proj": 22,
       "lo": 3,
-      "hi": 58
+      "hi": 59
      }
     ],
     "games_used": 10,
@@ -709,9 +710,10 @@
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-15T21:25:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "AT&T Stadium",
    "location": "Arlington, TX",
    "categories": [
@@ -886,9 +888,10 @@
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "Mercedes-Benz Stadium",
    "location": "Atlanta, GA",
    "categories": [
@@ -1035,9 +1038,10 @@
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "Mercedes-Benz Stadium",
    "location": "Atlanta, GA",
    "categories": [
@@ -1132,7 +1136,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "ATL gives up the 10th-most receiving yards to receivers (138.7 a game, 9 games).",
-     "rec": "ATL gives up the 11th-most catches to receivers (11.4 a game, 9 games)."
+     "rec": "ATL gives up the 10th-most catches to receivers (11.4 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
@@ -1145,7 +1149,7 @@
      },
      "rec": {
       "value": 11.4,
-      "rank": 11,
+      "rank": 10,
       "of": 32,
       "color": "green"
      }
@@ -1154,7 +1158,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 69,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "rec_yds",
@@ -1219,9 +1223,10 @@
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "Mercedes-Benz Stadium",
    "location": "Atlanta, GA",
    "categories": [
@@ -1436,12 +1441,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 41,
+    "temp": 37,
     "wind": 3,
     "gust": 4,
     "rain": 0
    },
-   "weather_text": "41\u00b0F, wind 3 mph",
+   "weather_text": "37\u00b0F, wind 3 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1634,20 +1639,20 @@
      },
      {
       "label": "Rec",
-      "proj": 2.1,
+      "proj": 2.0,
       "lo": 0.0,
-      "hi": 4.1
+      "hi": 3.9
      },
      {
       "label": "Rec yds",
-      "proj": 15,
+      "proj": 14,
       "lo": 0,
-      "hi": 53
+      "hi": 50
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.95,
     "opp_factor": 1.02,
     "locked": false
    },
@@ -1685,9 +1690,10 @@
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-15T21:25:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "retractable"
    },
-   "weather_text": "Indoors",
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
    "arena": "AT&T Stadium",
    "location": "Arlington, TX",
    "categories": [
@@ -1794,20 +1800,20 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "DAL gives up the 19th-most receiving yards to receivers (126 a game, 9 games).",
-     "rec": "DAL gives up the 17th-most catches to receivers (9.6 a game, 9 games)."
+     "rec_yds": "DAL gives up the 19th-most receiving yards to receivers (122.7 a game, 9 games).",
+     "rec": "DAL gives up the 17th-most catches to receivers (9.3 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 126.0,
+      "value": 122.7,
       "rank": 19,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
-      "value": 9.6,
+      "value": 9.3,
       "rank": 17,
       "of": 32,
       "color": "yellow"
@@ -1821,7 +1827,7 @@
     "grade": "C",
     "color": "yellow",
     "best": "rec",
-    "note": "DAL gives up the 17th-most catches to receivers (9.6 a game, 9 games)."
+    "note": "DAL gives up the 17th-most catches to receivers (9.3 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -1834,7 +1840,7 @@
      },
      {
       "label": "Rec yds",
-      "proj": 16,
+      "proj": 15,
       "lo": 0,
       "hi": 32
      }
@@ -1842,7 +1848,7 @@
     "games_used": 5,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.98,
+    "opp_factor": 0.97,
     "locked": false
    },
    "tags": [
@@ -1880,12 +1886,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 53,
-    "wind": 5,
-    "gust": 7,
+    "temp": 52,
+    "wind": 8,
+    "gust": 10,
     "rain": 0
    },
-   "weather_text": "53\u00b0F, wind 5 mph",
+   "weather_text": "52\u00b0F, wind 8 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2044,14 +2050,14 @@
      },
      {
       "label": "Rec yds",
-      "proj": 21,
+      "proj": 20,
       "lo": 0,
-      "hi": 42
+      "hi": 41
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -2089,7 +2095,8 @@
    "tip": "4:05 PM ET",
    "tip_utc": "2026-11-15T21:05:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "fixed"
    },
    "weather_text": "Indoors",
    "arena": "Allegiant Stadium",
@@ -2186,7 +2193,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games).",
-     "rec": "SEA gives up the 30th-most catches to receivers (7.6 a game, 9 games)."
+     "rec": "SEA gives up the 29th-most catches to receivers (7.6 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
@@ -2199,7 +2206,7 @@
      },
      "rec": {
       "value": 7.6,
-      "rank": 30,
+      "rank": 29,
       "of": 32,
       "color": "red"
      }
@@ -2208,11 +2215,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 6,
+    "score": 8,
     "grade": "F",
     "color": "red",
-    "best": "rec_yds",
-    "note": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games)."
+    "best": "rec",
+    "note": "SEA gives up the 29th-most catches to receivers (7.6 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -2270,7 +2277,8 @@
    "tip": "4:05 PM ET",
    "tip_utc": "2026-11-15T21:05:00+00:00",
    "weather": {
-    "indoor": true
+    "indoor": true,
+    "roof": "fixed"
    },
    "weather_text": "Indoors",
    "arena": "Allegiant Stadium",
@@ -2367,7 +2375,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games).",
-     "rec": "SEA gives up the 30th-most catches to receivers (7.6 a game, 9 games)."
+     "rec": "SEA gives up the 29th-most catches to receivers (7.6 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
@@ -2380,7 +2388,7 @@
      },
      "rec": {
       "value": 7.6,
-      "rank": 30,
+      "rank": 29,
       "of": 32,
       "color": "red"
      }
@@ -2389,11 +2397,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 6,
+    "score": 8,
     "grade": "F",
     "color": "red",
-    "best": "rec_yds",
-    "note": "SEA gives up the 30th-most receiving yards to receivers (78.8 a game, 9 games)."
+    "best": "rec",
+    "note": "SEA gives up the 29th-most catches to receivers (7.6 a game, 9 games)."
    },
    "career": [],
    "projection": null,
@@ -2501,5 +2509,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-13T22:34:03+00:00"
+ "generated_at": "2026-11-14T05:41:36+00:00"
 }

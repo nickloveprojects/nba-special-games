@@ -1,6 +1,6 @@
 {
  "week": 10,
- "generated_at": "2026-11-13T22:34:04+00:00",
+ "generated_at": "2026-11-14T05:41:38+00:00",
  "games": [
   {
    "id": "401873053",
@@ -27,10 +27,75 @@
    "arena": "Mercedes-Benz Stadium",
    "location": "Atlanta, GA",
    "report": {
-    "indoor": true,
-    "hours": [],
-    "effects": [],
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-15T18:00Z",
+      "temp": 53,
+      "feels": 48,
+      "humidity": 34,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 7,
+      "dir": 69,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T19:00Z",
+      "temp": 55,
+      "feels": 49,
+      "humidity": 31,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 5,
+      "dir": 58,
+      "dir_txt": "ENE",
+      "cloud": 94,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T20:00Z",
+      "temp": 55,
+      "feels": 49,
+      "humidity": 29,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 5,
+      "dir": 53,
+      "dir_txt": "NE",
+      "cloud": 98,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T21:00Z",
+      "temp": 55,
+      "feels": 48,
+      "humidity": 29,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 5,
+      "dir": 55,
+      "dir_txt": "NE",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
     "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
      "pct": 0,
      "level": "none",
      "drivers": []
@@ -50,60 +115,61 @@
    "location": "Cleveland, OH",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-15T18:00Z",
       "temp": 46,
-      "feels": 38,
-      "humidity": 72,
-      "rain": 42,
-      "precip_in": 0.01,
+      "feels": 39,
+      "humidity": 79,
+      "rain": 45,
+      "precip_in": 0.0,
       "wind": 12,
       "gust": 15,
-      "dir": 328,
-      "dir_txt": "NNW",
+      "dir": 324,
+      "dir_txt": "NW",
       "cloud": 100,
-      "cond": "Light drizzle"
+      "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T19:00Z",
-      "temp": 47,
+      "temp": 46,
       "feels": 39,
-      "humidity": 67,
-      "rain": 13,
+      "humidity": 81,
+      "rain": 26,
       "precip_in": 0.0,
       "wind": 12,
-      "gust": 13,
-      "dir": 334,
-      "dir_txt": "NNW",
+      "gust": 15,
+      "dir": 323,
+      "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T20:00Z",
-      "temp": 47,
-      "feels": 39,
-      "humidity": 67,
-      "rain": 13,
+      "temp": 46,
+      "feels": 38,
+      "humidity": 85,
+      "rain": 26,
       "precip_in": 0.0,
-      "wind": 11,
-      "gust": 12,
-      "dir": 331,
-      "dir_txt": "NNW",
+      "wind": 13,
+      "gust": 16,
+      "dir": 309,
+      "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T21:00Z",
-      "temp": 47,
-      "feels": 39,
-      "humidity": 67,
-      "rain": 13,
+      "temp": 45,
+      "feels": 37,
+      "humidity": 82,
+      "rain": 26,
       "precip_in": 0.0,
-      "wind": 11,
-      "gust": 12,
-      "dir": 333,
-      "dir_txt": "NNW",
+      "wind": 14,
+      "gust": 17,
+      "dir": 309,
+      "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      }
@@ -115,7 +181,7 @@
      "pct": 3,
      "level": "minor",
      "drivers": [
-      "wind up to 12 mph"
+      "wind up to 14 mph"
      ]
     }
    }
@@ -133,71 +199,74 @@
    "location": "Green Bay, WI",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-15T18:00Z",
-      "temp": 41,
-      "feels": 35,
-      "humidity": 60,
+      "temp": 37,
+      "feels": 32,
+      "humidity": 77,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 3,
       "gust": 4,
-      "dir": 336,
+      "dir": 347,
       "dir_txt": "NNW",
-      "cloud": 33,
+      "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T19:00Z",
-      "temp": 44,
-      "feels": 38,
-      "humidity": 51,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 3,
-      "gust": 3,
-      "dir": 329,
-      "dir_txt": "NNW",
-      "cloud": 10,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-15T20:00Z",
-      "temp": 44,
-      "feels": 39,
-      "humidity": 50,
+      "temp": 38,
+      "feels": 33,
+      "humidity": 75,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 2,
-      "gust": 3,
-      "dir": 307,
+      "gust": 4,
+      "dir": 325,
       "dir_txt": "NW",
-      "cloud": 6,
-      "cond": "Clear"
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T20:00Z",
+      "temp": 38,
+      "feels": 33,
+      "humidity": 74,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 2,
+      "gust": 4,
+      "dir": 332,
+      "dir_txt": "NNW",
+      "cloud": 51,
+      "cond": "Partly cloudy"
      },
      {
       "utc": "2026-11-15T21:00Z",
-      "temp": 44,
-      "feels": 39,
-      "humidity": 50,
+      "temp": 38,
+      "feels": 33,
+      "humidity": 75,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 1,
-      "gust": 3,
-      "dir": 288,
-      "dir_txt": "WNW",
-      "cloud": 6,
-      "cond": "Clear"
+      "wind": 2,
+      "gust": 4,
+      "dir": 308,
+      "dir_txt": "NW",
+      "cloud": 69,
+      "cond": "Partly cloudy"
      }
     ],
     "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
+     "Cold (37\u00b0F). Passing projections are trimmed slightly."
     ],
     "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
+     "pct": 5,
+     "level": "moderate",
+     "drivers": [
+      "cold, down to 37\u00b0F"
+     ]
     }
    }
   },
@@ -214,71 +283,74 @@
    "location": "Nashville, TN",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-15T18:00Z",
-      "temp": 53,
-      "feels": 47,
-      "humidity": 43,
+      "temp": 52,
+      "feels": 46,
+      "humidity": 46,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 5,
-      "gust": 7,
-      "dir": 55,
-      "dir_txt": "NE",
-      "cloud": 25,
+      "wind": 8,
+      "gust": 10,
+      "dir": 74,
+      "dir_txt": "ENE",
+      "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T19:00Z",
-      "temp": 54,
-      "feels": 48,
-      "humidity": 39,
+      "temp": 53,
+      "feels": 46,
+      "humidity": 44,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 5,
-      "gust": 6,
-      "dir": 49,
-      "dir_txt": "NE",
-      "cloud": 0,
-      "cond": "Clear"
+      "wind": 8,
+      "gust": 10,
+      "dir": 66,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T20:00Z",
-      "temp": 55,
-      "feels": 48,
-      "humidity": 39,
+      "temp": 54,
+      "feels": 46,
+      "humidity": 42,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 5,
-      "gust": 6,
-      "dir": 41,
-      "dir_txt": "NE",
-      "cloud": 0,
-      "cond": "Clear"
+      "wind": 8,
+      "gust": 12,
+      "dir": 69,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T21:00Z",
-      "temp": 55,
-      "feels": 48,
-      "humidity": 39,
+      "temp": 54,
+      "feels": 47,
+      "humidity": 43,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 6,
-      "gust": 7,
-      "dir": 43,
-      "dir_txt": "NE",
-      "cloud": 6,
-      "cond": "Clear"
+      "wind": 8,
+      "gust": 11,
+      "dir": 67,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
      }
     ],
     "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
+     "Breezy (8 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 8 mph"
+     ]
     }
    }
   },
@@ -294,10 +366,75 @@
    "arena": "Lucas Oil Stadium",
    "location": "Indianapolis, IN",
    "report": {
-    "indoor": true,
-    "hours": [],
-    "effects": [],
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-15T18:00Z",
+      "temp": 46,
+      "feels": 41,
+      "humidity": 75,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 7,
+      "dir": 4,
+      "dir_txt": "N",
+      "cloud": 86,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T19:00Z",
+      "temp": 47,
+      "feels": 42,
+      "humidity": 70,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 7,
+      "dir": 26,
+      "dir_txt": "NNE",
+      "cloud": 42,
+      "cond": "Mostly clear"
+     },
+     {
+      "utc": "2026-11-15T20:00Z",
+      "temp": 47,
+      "feels": 42,
+      "humidity": 65,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 6,
+      "dir": 34,
+      "dir_txt": "NE",
+      "cloud": 88,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T21:00Z",
+      "temp": 46,
+      "feels": 42,
+      "humidity": 63,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 5,
+      "dir": 24,
+      "dir_txt": "NNE",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
     "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
      "pct": 0,
      "level": "none",
      "drivers": []
@@ -317,6 +454,7 @@
    "location": "New Orleans, LA",
    "report": {
     "indoor": true,
+    "roof": "fixed",
     "hours": [],
     "effects": [],
     "impact": {
@@ -339,72 +477,73 @@
    "location": "East Rutherford, NJ",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-15T18:00Z",
-      "temp": 49,
+      "temp": 47,
       "feels": 39,
-      "humidity": 43,
+      "humidity": 61,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 12,
-      "gust": 17,
-      "dir": 329,
-      "dir_txt": "NNW",
-      "cloud": 9,
+      "wind": 11,
+      "gust": 20,
+      "dir": 325,
+      "dir_txt": "NW",
+      "cloud": 18,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-15T19:00Z",
-      "temp": 49,
-      "feels": 38,
-      "humidity": 39,
+      "temp": 47,
+      "feels": 39,
+      "humidity": 62,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 14,
+      "wind": 10,
       "gust": 18,
-      "dir": 332,
-      "dir_txt": "NNW",
-      "cloud": 68,
-      "cond": "Partly cloudy"
+      "dir": 322,
+      "dir_txt": "NW",
+      "cloud": 100,
+      "cond": "Overcast"
      },
      {
       "utc": "2026-11-15T20:00Z",
-      "temp": 48,
-      "feels": 37,
-      "humidity": 41,
+      "temp": 46,
+      "feels": 39,
+      "humidity": 65,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 14,
+      "wind": 8,
       "gust": 18,
-      "dir": 332,
+      "dir": 327,
       "dir_txt": "NNW",
-      "cloud": 68,
-      "cond": "Partly cloudy"
+      "cloud": 36,
+      "cond": "Mostly clear"
      },
      {
       "utc": "2026-11-15T21:00Z",
-      "temp": 47,
-      "feels": 37,
-      "humidity": 44,
+      "temp": 44,
+      "feels": 38,
+      "humidity": 73,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 12,
-      "gust": 19,
-      "dir": 335,
-      "dir_txt": "NNW",
-      "cloud": 61,
-      "cond": "Partly cloudy"
+      "wind": 6,
+      "gust": 17,
+      "dir": 316,
+      "dir_txt": "NW",
+      "cloud": 2,
+      "cond": "Clear"
      }
     ],
     "effects": [
-     "Breezy (12 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 3,
+     "pct": 2,
      "level": "minor",
      "drivers": [
-      "wind up to 14 mph"
+      "wind up to 11 mph"
      ]
     }
    }
@@ -422,6 +561,7 @@
    "location": "Las Vegas, NV",
    "report": {
     "indoor": true,
+    "roof": "fixed",
     "hours": [],
     "effects": [],
     "impact": {
@@ -443,10 +583,75 @@
    "arena": "State Farm Stadium",
    "location": "Glendale, AZ",
    "report": {
-    "indoor": true,
-    "hours": [],
-    "effects": [],
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-15T21:00Z",
+      "temp": 74,
+      "feels": 74,
+      "humidity": 45,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 1,
+      "gust": 2,
+      "dir": 332,
+      "dir_txt": "NNW",
+      "cloud": 5,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-15T22:00Z",
+      "temp": 74,
+      "feels": 72,
+      "humidity": 40,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 2,
+      "gust": 2,
+      "dir": 223,
+      "dir_txt": "SW",
+      "cloud": 3,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-15T23:00Z",
+      "temp": 74,
+      "feels": 71,
+      "humidity": 36,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 3,
+      "dir": 156,
+      "dir_txt": "SSE",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-16T00:00Z",
+      "temp": 73,
+      "feels": 70,
+      "humidity": 33,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 3,
+      "dir": 79,
+      "dir_txt": "E",
+      "cloud": 0,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
     "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
      "pct": 0,
      "level": "none",
      "drivers": []
@@ -465,13 +670,81 @@
    "arena": "AT&T Stadium",
    "location": "Arlington, TX",
    "report": {
-    "indoor": true,
-    "hours": [],
-    "effects": [],
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-15T21:00Z",
+      "temp": 50,
+      "feels": 46,
+      "humidity": 94,
+      "rain": 61,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 22,
+      "dir": 99,
+      "dir_txt": "E",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T22:00Z",
+      "temp": 51,
+      "feels": 46,
+      "humidity": 90,
+      "rain": 61,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 19,
+      "dir": 98,
+      "dir_txt": "E",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-15T23:00Z",
+      "temp": 50,
+      "feels": 45,
+      "humidity": 89,
+      "rain": 61,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 18,
+      "dir": 87,
+      "dir_txt": "E",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-16T00:00Z",
+      "temp": 49,
+      "feels": 44,
+      "humidity": 88,
+      "rain": 61,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 19,
+      "dir": 79,
+      "dir_txt": "E",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
     "impact": {
      "pct": 0,
-     "level": "none",
+     "level": "roof",
      "drivers": []
+    },
+    "if_open": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 10 mph",
+      "61% chance of precipitation (not scored)"
+     ]
     }
    }
   },
@@ -488,62 +761,63 @@
    "location": "Cincinnati, OH",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-16T01:00Z",
-      "temp": 46,
-      "feels": 40,
-      "humidity": 54,
+      "temp": 42,
+      "feels": 37,
+      "humidity": 66,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 4,
-      "gust": 6,
-      "dir": 27,
-      "dir_txt": "NNE",
-      "cloud": 100,
-      "cond": "Overcast"
+      "wind": 1,
+      "gust": 4,
+      "dir": 108,
+      "dir_txt": "ESE",
+      "cloud": 11,
+      "cond": "Clear"
      },
      {
       "utc": "2026-11-16T02:00Z",
-      "temp": 46,
-      "feels": 40,
-      "humidity": 54,
+      "temp": 41,
+      "feels": 36,
+      "humidity": 67,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 4,
-      "gust": 5,
-      "dir": 40,
-      "dir_txt": "NE",
-      "cloud": 100,
-      "cond": "Overcast"
+      "wind": 1,
+      "gust": 3,
+      "dir": 135,
+      "dir_txt": "SE",
+      "cloud": 7,
+      "cond": "Clear"
      },
      {
       "utc": "2026-11-16T03:00Z",
-      "temp": 46,
-      "feels": 40,
-      "humidity": 55,
+      "temp": 40,
+      "feels": 36,
+      "humidity": 69,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 3,
-      "gust": 4,
-      "dir": 63,
-      "dir_txt": "ENE",
-      "cloud": 100,
-      "cond": "Overcast"
+      "wind": 1,
+      "gust": 2,
+      "dir": 162,
+      "dir_txt": "SSE",
+      "cloud": 7,
+      "cond": "Clear"
      },
      {
       "utc": "2026-11-16T04:00Z",
-      "temp": 45,
-      "feels": 40,
-      "humidity": 58,
+      "temp": 40,
+      "feels": 36,
+      "humidity": 70,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 3,
-      "gust": 4,
-      "dir": 72,
+      "wind": 0,
+      "gust": 1,
+      "dir": 63,
       "dir_txt": "ENE",
-      "cloud": 69,
-      "cond": "Partly cloudy"
+      "cloud": 7,
+      "cond": "Clear"
      }
     ],
     "effects": [
@@ -569,17 +843,18 @@
    "location": "Baltimore, MD",
    "report": {
     "indoor": false,
+    "roof": "open",
     "hours": [
      {
       "utc": "2026-11-17T01:00Z",
       "temp": 47,
       "feels": 41,
-      "humidity": 54,
+      "humidity": 55,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 5,
+      "wind": 4,
       "gust": 15,
-      "dir": 357,
+      "dir": 351,
       "dir_txt": "N",
       "cloud": 5,
       "cond": "Clear"
@@ -588,40 +863,40 @@
       "utc": "2026-11-17T02:00Z",
       "temp": 46,
       "feels": 40,
-      "humidity": 58,
+      "humidity": 57,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 5,
-      "gust": 13,
-      "dir": 3,
-      "dir_txt": "N",
+      "gust": 14,
+      "dir": 343,
+      "dir_txt": "NNW",
       "cloud": 5,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-17T03:00Z",
       "temp": 45,
-      "feels": 39,
-      "humidity": 62,
+      "feels": 40,
+      "humidity": 59,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 5,
-      "gust": 13,
-      "dir": 3,
-      "dir_txt": "N",
+      "gust": 14,
+      "dir": 346,
+      "dir_txt": "NNW",
       "cloud": 6,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-17T04:00Z",
-      "temp": 44,
-      "feels": 38,
-      "humidity": 64,
+      "temp": 45,
+      "feels": 39,
+      "humidity": 61,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 5,
-      "gust": 14,
-      "dir": 355,
+      "wind": 4,
+      "gust": 13,
+      "dir": 351,
       "dir_txt": "N",
       "cloud": 5,
       "cond": "Clear"
