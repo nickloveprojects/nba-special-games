@@ -28,7 +28,7 @@ def pick(hourly: dict, tip_utc: str) -> dict | None:
 
 def forecast_many(games: list[dict]) -> dict:
     """games: [{"id", "lat", "lon", "tip_utc", "indoor"}] -> {id: forecast or None}. One request covers every outdoor game."""
-    out = {g["id"]: ({"indoor": True} if g["indoor"] else None) for g in games}
+    out = {g["id"]: ({"indoor": True, "roof": g.get("roof") or "fixed"} if g["indoor"] else None) for g in games}
     wet = [g for g in games if not g["indoor"]]
     if not wet:
         return out
@@ -45,11 +45,15 @@ def forecast_many(games: list[dict]) -> dict:
     return out
 
 
+ROOF_LABEL = {"fixed": "Indoors", "canopy": "Covered, open sides: not adjusted",
+              "retractable": "Retractable roof, open or closed unknown: not adjusted"}
+
+
 def label(w: dict | None) -> str:
     if not w:
         return ""
     if w.get("indoor"):
-        return "Indoors"
+        return ROOF_LABEL.get(w.get("roof") or "fixed", "Indoors")
     s = f"{w['temp']}°F, wind {w['wind']} mph"
     if w.get("rain") is not None and w["rain"] >= 30:
         s += f", {w['rain']}% rain"
@@ -135,8 +139,10 @@ def impact(hours: list[dict]) -> dict:
 def report_many(games: list[dict]) -> dict:
     """games: [{"id","lat","lon","tip_utc","indoor"}] -> {id: {"indoor": bool, "hours": [...], "effects": [...]}} or None.
     Four hourly readings starting at kickoff. One request covers every outdoor game."""
-    out = {g["id"]: ({"indoor": True, "hours": [], "effects": [], "impact": {"pct": 0, "level": "none", "drivers": []}} if g["indoor"] else None) for g in games}
-    wet = [g for g in games if not g["indoor"]]
+    roof = lambda g: g.get("roof") or ("fixed" if g["indoor"] else "open")  # noqa: E731
+    out = {g["id"]: ({"indoor": True, "roof": roof(g), "hours": [], "effects": [], "impact": {"pct": 0, "level": "none", "drivers": []}}
+                     if roof(g) in ("fixed", "canopy") else None) for g in games}
+    wet = [g for g in games if roof(g) in ("open", "retractable")]
     if not wet:
         return out
     fields = ("temperature_2m,apparent_temperature,relative_humidity_2m,precipitation_probability,precipitation,"
@@ -168,7 +174,16 @@ def report_many(games: list[dict]) -> dict:
                               "cond": condition(at("weather_code", i), at("precipitation_probability", i), at("cloud_cover", i))})
             if hours:
                 k = hours[0]
-                out[g["id"]] = {"indoor": False, "hours": hours, "effects": effects({**k, "indoor": False}), "impact": impact(hours)}
+                rep = {"indoor": False, "roof": "open", "hours": hours, "effects": effects({**k, "indoor": False}), "impact": impact(hours)}
+                if roof(g) == "retractable":
+                    # Roof is decided by the home team close to kickoff and is not published ahead of time, so this game is never
+                    # scored as bad weather and nothing is adjusted. The outdoor numbers are kept for context only.
+                    rep["roof"] = "retractable"
+                    rep["if_open"] = rep["impact"]
+                    rep["impact"] = {"pct": 0, "level": "roof", "drivers": []}
+                    rep["effects"] = ["Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. "
+                                      "These readings are what the weather is outside; nothing is adjusted in the projections."]
+                out[g["id"]] = rep
     except (SourceError, ValueError, KeyError, TypeError) as e:
         log.warning("weather report unavailable: %s", e)
     return out
