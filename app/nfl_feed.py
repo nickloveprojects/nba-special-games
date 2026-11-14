@@ -7,7 +7,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-from . import config
+from . import config, roofs
 from .net import NotFound, SourceError, get_json
 
 log = logging.getLogger("nba")
@@ -90,7 +90,7 @@ def parse_events(data: dict) -> list[dict]:
             "tip": tip.astimezone(ET).strftime("%-I:%M %p ET"), "week": (e.get("week") or {}).get("number"),
             "completed": bool(e["status"]["type"].get("completed")), "neutral": bool(comp.get("neutralSite")),
             "kind": {1: "Preseason", 2: "Regular season", 3: "Playoffs"}.get(e.get("season", {}).get("type"), "Game"),
-            "indoor": bool(v.get("indoor")), "arena": v.get("fullName", ""), "venue_city": addr.get("city", ""), "venue_state": addr.get("state", ""),
+            "indoor": bool(v.get("indoor")), "roof": roofs.roof_for(v.get("fullName", ""), bool(v.get("indoor"))), "arena": v.get("fullName", ""), "venue_city": addr.get("city", ""), "venue_state": addr.get("state", ""),
             "home": sides["home"], "away": sides["away"]})
     return out
 

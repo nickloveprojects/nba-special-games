@@ -437,7 +437,7 @@ def build_slates(today: date | None = None) -> list[dict]:
         day_events = [e for e in events if e["date"] == day]
         prior = _prior_projections(day)
         wx = weather.forecast_many([
-            {"id": e["game_id"], "lat": xy[0], "lon": xy[1], "tip_utc": e["tip_utc"], "indoor": e["indoor"]}
+            {"id": e["game_id"], "lat": xy[0], "lon": xy[1], "tip_utc": e["tip_utc"], "indoor": e["roof"] != "open", "roof": e["roof"]}
             for e in day_events if not e["neutral"] and (xy := feed.VENUE.get(id_abbr[int(e["home"]["id"])]))])
         wx = {e["game_id"]: wx.get(e["game_id"]) for e in day_events}
         entries = []
@@ -525,7 +525,7 @@ def build_slates(today: date | None = None) -> list[dict]:
         for e in (x for x in events if x["date"] == day):
             xy = feed.VENUE.get(id_abbr[int(e["home"]["id"])])
             gm.append({"id": e["game_id"], "lat": xy[0] if xy else None, "lon": xy[1] if xy else None, "tip_utc": e["tip_utc"],
-                       "indoor": e["indoor"], "_e": e, "_has_xy": bool(xy and not e["neutral"])})
+                       "indoor": e["roof"] != "open", "roof": e["roof"], "_e": e, "_has_xy": bool(xy and not e["neutral"])})
     rep = weather.report_many([{k: v for k, v in g.items() if not k.startswith("_")} for g in gm if g["_has_xy"] or g["indoor"]])
     games_wx = []
     for g in gm:

@@ -418,7 +418,7 @@ a.wx:hover{color:var(--ink)}
 /* weather: colour by impact */
 .wxg{border-left:6px solid var(--wc,var(--line))}
 .wxg[data-l=strong]{--wc:var(--red);--wt:var(--red-bg)}.wxg[data-l=moderate]{--wc:var(--orange-line);--wt:var(--orange-bg)}.wxg[data-l=minor]{--wc:var(--yellow-line);--wt:var(--yellow-bg)}
-.wxg[data-l=none]{--wc:var(--green);--wt:var(--green-bg)}.wxg[data-l=indoor]{--wc:var(--muted);--wt:var(--chip)}
+.wxg[data-l=none]{--wc:var(--green);--wt:var(--green-bg)}.wxg[data-l=indoor],.wxg[data-l=roof]{--wc:var(--muted);--wt:var(--chip)}
 .wxg-h{background:linear-gradient(90deg,var(--wt,transparent),transparent 65%)}
 .lvl{display:inline-block;margin-left:10px;padding:5px 12px;border-radius:999px;font:700 16px var(--font-display);letter-spacing:.04em;text-transform:uppercase;background:var(--wt,var(--chip));color:var(--wc,var(--muted));box-shadow:inset 0 0 0 2px var(--wc,var(--line))}
 .lvl[data-l=strong]{background:var(--red);color:#fff;box-shadow:none}
@@ -430,9 +430,9 @@ a.wx:hover{color:var(--ink)}
 .wxf{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 12px}.wxf .lab{font:700 15px var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .wchip{display:inline-flex;gap:7px;align-items:center;font-weight:700;border-radius:999px;padding:6px 14px;min-height:0;border:2px solid var(--wc,var(--line));color:var(--wc,var(--ink));background:var(--surface)}
 .wchip b{font-weight:700;opacity:.8}
-.wchip[data-l=strong]{--wc:var(--red)}.wchip[data-l=moderate]{--wc:var(--orange-line)}.wchip[data-l=minor]{--wc:var(--yellow-line)}.wchip[data-l=none]{--wc:var(--green)}.wchip[data-l=indoor]{--wc:var(--muted)}
+.wchip[data-l=strong]{--wc:var(--red)}.wchip[data-l=moderate]{--wc:var(--orange-line)}.wchip[data-l=minor]{--wc:var(--yellow-line)}.wchip[data-l=none]{--wc:var(--green)}.wchip[data-l=indoor],.wchip[data-l=roof]{--wc:var(--muted)}
 .wchip[aria-pressed=true][data-l=strong]{background:var(--red);color:#fff}.wchip[aria-pressed=true][data-l=moderate]{background:var(--orange-line);color:#1b1006}.wchip[aria-pressed=true]{background:var(--wt,var(--chip))}
-.wchip[data-l=minor][aria-pressed=true]{background:var(--yellow-bg);color:var(--yellow)}.wchip[data-l=none][aria-pressed=true]{background:var(--green-bg);color:var(--green)}.wchip[data-l=indoor][aria-pressed=true]{background:var(--chip);color:var(--ink)}
+.wchip[data-l=minor][aria-pressed=true]{background:var(--yellow-bg);color:var(--yellow)}.wchip[data-l=none][aria-pressed=true]{background:var(--green-bg);color:var(--green)}.wchip[data-l=indoor][aria-pressed=true],.wchip[data-l=roof][aria-pressed=true]{background:var(--chip);color:var(--ink)}
 .wchip.clear{border-color:var(--line);color:var(--muted);font-weight:600}
 </style>
 </head>
@@ -734,7 +734,7 @@ document.addEventListener("click",ev=>{
 function matchupBox(e){const m=matchupParts(e); return m?`<div class="mu">${m.row}${m.note}</div>`:""}
 function projBox(e){
   const p=e.projection; if(!p||!p.lines) return "";
-  const tip=`Simulated 1,000 times from his last ${p.games_used} games with this team, this opponent${e.weather_text&&e.weather_text!=="Indoors"?" and the forecast":""}. Estimate, not betting advice.`;
+  const tip=`Simulated 1,000 times from his last ${p.games_used} games with this team, this opponent${e.weather&&!e.weather.indoor?" and the forecast":""}. Estimate, not betting advice.`;
   const chips=p.lines.map(x=>`<span class="pchip" title="Middle 80% of outcomes: ${esc(x.lo)}\u2013${esc(x.hi)}"><b>${esc(x.proj)}</b> ${esc(x.label)}</span>`).join("");
   return `<div class="pj row" title="${esc(tip)}"><span class="lab">Projection</span>${p.locked?'<span class="lock" title="Set before kickoff and not changed since">Locked</span>':""}${chips}</div>`;
 }
@@ -932,9 +932,9 @@ function dial(h){
     <g transform="rotate(${to} 48 48)"><polygon class="arrow" points="48,22 58,56 48,48 38,56"/></g></svg>
     <div class="mph">${esc(h.wind)} mph</div><div class="lbl">from the ${esc(h.dir_txt)}${h.gust!=null?` · gusts ${esc(h.gust)}`:""}<br>arrow = where it blows</div></div>`;
 }
-const WXL={strong:{t:"Strong impact",c:"red"},moderate:{t:"Moderate impact",c:"orange"},minor:{t:"Minor impact",c:"yellow"},none:{t:"No impact",c:"green"},indoor:{t:"Indoors",c:"blue"},nodata:{t:"No forecast yet",c:"gray"}};
-const WXS={strong:"Strong",moderate:"Moderate",minor:"Minor",none:"No impact",indoor:"Indoors",nodata:"No forecast"};
-const wxLevel=g=>!g.report?"nodata":g.report.indoor?"indoor":(g.report.impact&&g.report.impact.level)||"none";
+const WXL={strong:{t:"Strong impact",c:"red"},moderate:{t:"Moderate impact",c:"orange"},minor:{t:"Minor impact",c:"yellow"},none:{t:"No impact",c:"green"},indoor:{t:"Indoors",c:"blue"},roof:{t:"Roof unconfirmed",c:"gray"},nodata:{t:"No forecast yet",c:"gray"}};
+const WXS={strong:"Strong",moderate:"Moderate",minor:"Minor",none:"No impact",indoor:"Indoors",roof:"Roof unconfirmed",nodata:"No forecast"};
+const wxLevel=g=>!g.report?"nodata":g.report.indoor?(g.report.roof==="canopy"?"none":"indoor"):(g.report.impact&&g.report.impact.level)||"none";
 const windC=w=>w>=15?"red":w>=8?"yellow":"green",tempC=t=>t<40?"orange":"green",rainC=r=>r>=60?"orange":r>=30?"yellow":"green";
 function wxChips(g){
   const r=g.report; if(!r||r.indoor||!r.hours||!r.hours[0]) return "";
@@ -946,7 +946,7 @@ function wxCard(g){
     <div class="meta"><b>${esc(g.tip)}</b><span class="lvl" data-l="${wxLevel(g)}" title="Average cut to passing and receiving projections">${WXL[wxLevel(g)].t}${g.report&&g.report.impact&&g.report.impact.pct>0&&!g.report.indoor?` \u00b7 \u2212${esc(g.report.impact.pct)}%`:""}</span></div></div>${wxChips(g)}`;
   const r=g.report;
   if(!r) return `<article class="wxg" data-l="${wxLevel(g)}" id="g-${esc(g.id)}">${head}<div class="wxg-in">No forecast available for this game yet.</div></article>`;
-  if(r.indoor) return `<article class="wxg" data-l="${wxLevel(g)}" id="g-${esc(g.id)}">${head}<div class="wxg-in">Played indoors, so weather doesn't affect this game.</div></article>`;
+  if(r.indoor) return `<article class="wxg" data-l="${wxLevel(g)}" id="g-${esc(g.id)}">${head}<div class="wxg-in">${r.roof==="canopy"?"Covered stadium with open sides. Rain stays off the field but wind can still get in, so nothing is adjusted for this game.":"Fully enclosed stadium, so weather doesn't affect this game."}</div></article>`;
   const k=r.hours[0];
   const cols=r.hours.map((h,i)=>`<div class="hr"><span class="t">${i===0?"Kickoff":etHour(h.utc)+" ET"}</span><span class="deg">${esc(h.temp)}\u00b0</span>
     <span class="fl">Feels like ${esc(h.feels)}\u00b0 \u00b7 ${esc(h.humidity)}% humidity</span><span class="cd">${esc(h.cond)}</span>
@@ -957,9 +957,9 @@ function wxCard(g){
   return `<article class="wxg" data-l="${wxLevel(g)}" id="g-${esc(g.id)}">${head}<div class="wxg-b">${dial(k)}<div class="hrs">${cols}</div></div>
     <div class="wxg-f"><ul>${eff}</ul></div></article>`;
 }
-const LV={none:"No impact",minor:"Minor",moderate:"Moderate",strong:"Strong"};
+const LV={roof:"Roof unconfirmed",none:"No impact",minor:"Minor",moderate:"Moderate",strong:"Strong"};
 function wxSummary(games){
-  const out=games.filter(g=>g.report&&!g.report.indoor&&g.report.impact);
+  const out=games.filter(g=>g.report&&!g.report.indoor&&g.report.impact&&g.report.impact.level!=="roof");const roofG=games.filter(g=>g.report&&g.report.roof==="retractable").map(g=>`${g.away} @ ${g.home}`);
   if(!out.length&&!games.some(g=>g.report&&g.report.indoor)) return "";
   const ranked=[...out].sort((a,b)=>b.report.impact.pct-a.report.impact.pct||Math.max(...b.report.hours.map(h=>h.wind))-Math.max(...a.report.hours.map(h=>h.wind)));
   const day=d=>new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"short"});
@@ -967,11 +967,11 @@ function wxSummary(games){
     return `<a class="rk" data-l="${esc(im.level)}" href="#/weather/${esc(g.id)}"><span class="n">${i+1}</span>
       <span class="g">${esc(g.away)} @ ${esc(g.home)}<small>${esc(day(g.date))} ${esc(g.tip)}</small></span>
       <span class="m"><span class="tr"><b>${im.pct>0?"\u2212"+esc(im.pct)+"% passing":"no change"}</b><span class="bk"><i style="width:${Math.min(100,im.pct*5)}%"></i></span><span class="lv">${esc(LV[im.level])}</span></span><span class="why">${esc(why)}</span></span></a>`}).join("");
-  const dome=games.filter(g=>g.report&&g.report.indoor).map(g=>`${g.away} @ ${g.home}`);
+  const dome=games.filter(g=>g.report&&g.report.indoor&&g.report.roof!=="canopy").map(g=>`${g.away} @ ${g.home}`);
   const nof=games.filter(g=>!g.report).length;
   return `<section class="wxs" aria-labelledby="wxr"><h2 id="wxr">Weather impact ranking</h2>
     <p class="sd">How much each forecast is expected to cut passing and receiving yards, using the same adjustment our projections apply, averaged over the hours shown in each game above. Most affected first.</p>${rows}
-    ${dome.length?`<p class="dry"><b>No impact, played indoors (${dome.length}):</b> ${esc(dome.join(", "))}.</p>`:""}${nof?`<p class="dry">${nof} game${nof===1?"":"s"} without a forecast yet.</p>`:""}</section>`;
+    ${dome.length?`<p class="dry"><b>No impact, fully enclosed (${dome.length}):</b> ${esc(dome.join(", "))}.</p>`:""}${roofG.length?`<p class="dry"><b>Retractable roof, not scored (${roofG.length}):</b> ${esc(roofG.join(", "))}. The home team decides on the day whether the roof is open, so we show the outside weather but never count it.</p>`:""}${nof?`<p class="dry">${nof} game${nof===1?"":"s"} without a forecast yet.</p>`:""}</section>`;
 }
 function wxBaseline(){
   return `<section class="wxs" aria-labelledby="wxb"><h2 id="wxb">Where weather starts to matter</h2>
@@ -981,12 +981,12 @@ function wxBaseline(){
       <div class="tile"><b class="h">Cold under 40\u00b0F</b>Passing fell about <b>7%</b>; we trim <b>5%</b>. It stacks with wind.</div>
       <div class="tile"><b class="h">Rain or snow</b>In past games, passing didn't drop in a way we could count on. So projections <b>ignore</b> it. The forecast is still shown if you want to judge for yourself.</div>
       <div class="tile"><b class="h">Running game</b>Running backs' rushing yards held steady in every kind of weather. So only <b>passing and receiving</b> projections get adjusted.</div>
-      <div class="tile"><b class="h">Roof or dome</b>No weather effect.</div></div></section>`;
+      <div class="tile"><b class="h">Roofs</b>Fully enclosed stadiums: no effect. Retractable roofs (Arizona, Atlanta, Dallas, Houston, Indianapolis) are decided on game day, so we show the outside weather but never adjust for it.</div></div></section>`;
 }
 let wxF="";
 function drawWxList(){
   const games=wxData.games,cnt={};games.forEach(g=>{const l=wxLevel(g);cnt[l]=(cnt[l]||0)+1});
-  const order=["strong","moderate","minor","none","indoor","nodata"].filter(l=>cnt[l]);
+  const order=["strong","moderate","minor","none","roof","indoor","nodata"].filter(l=>cnt[l]);
   $("wxfilter").innerHTML=`<span class="lab">Show</span>`+order.map(l=>`<button type="button" class="wchip" data-l="${l}" aria-pressed="${wxF===l}">${WXS[l]}<b>${cnt[l]}</b></button>`).join("")+(wxF?`<button type="button" class="wchip clear" data-l="">Show all</button>`:"");
   const shown=games.filter(g=>!wxF||wxLevel(g)===wxF),byDay={};shown.forEach(g=>(byDay[g.date]=byDay[g.date]||[]).push(g));
   $("wxlist").innerHTML=Object.keys(byDay).sort().map(d=>`<h2 class="wxd">${esc(new Date(d+"T12:00").toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"}))}</h2>`+byDay[d].map(wxCard).join("")).join("")||`<p class="note">No games in this group.</p>`;
