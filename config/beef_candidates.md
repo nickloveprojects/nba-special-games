@@ -1,31 +1,36 @@
-# Beef candidates (generated 2026-11-13)
+# Beef candidates (run: 2026-11-14)
 
-Games checked: NBA Nov 13-14, 2026 (14 games) and NFL Nov 15-16, 2026 (web/data/nfl). Pairs already in rivalries.yaml / rivalries_nfl.yaml were skipped. Nothing here has been added to the config; approve and paste.
+Games checked: NBA Nov 14-15 (14 games) and NFL Nov 15-16 (13 games). Nothing here has been added to the config files.
 
-## 1. Victor Wembanyama vs. Draymond Green
-- **Game:** Spurs at Warriors, Fri Nov 13, 2026, 9:30 PM ET
-- **Kind:** Altercation
-- **Reason (one sentence):** In the Nov. 14, 2025 NBA Cup game (Warriors 109-108), Green jawed with Wembanyama before an inbound play and Wembanyama answered with a dunk and then yelled at Green; Wembanyama said "you have to respond a certain way." No ejection, fine or suspension is reported.
-- **Sources:**
-  - CBS Sports, Nov. 15, 2025: https://www.cbssports.com/nba/news/victor-wembanyama-dunk-draymond-green-trash-talk
-  - Dunkest, Nov. 15, 2025: https://www.dunkest.com/en/nba/news/224216/wemby-nearly-gets-into-a-fight-with-green-its-right-to-answer-provocations
-- **Roster check:** Green re-signed with Warriors (NBC Sports, 2026-07-28: https://www.nbcsports.com/fantasy/basketball/player-news/2026-07-28/draymond-green-inks-one-year-deal-with-warriors). Not confirmed he is active/healthy for Nov. 13.
-- Caveat: the CBS page was cut off in my fetch, so the dunk/yelling details and the quote rest partly on a summary of the rest of the page. Dunkest (read in full) confirms Green trying to rattle Wembanyama and the dunk in response; it also says Jeremy Sochan shoved Green, which I left out. Please open CBS before approving.
+## 1. Jalen Ramsey vs Ja'Marr Chase (Steelers at Bengals, Sun 2026-11-15, 8:20 PM ET)
+
+- Kind: Altercation
+- Reason: Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov 16, 2025; Ramsey said Chase spat on him, and Chase denied it.
+- Source: CBS Sports (Bryan DeArdo), Nov 16, 2025: https://www.cbssports.com/nfl/news/bengals-steelers-fight-jalen-ramsey-ejected-jamarr-chase-aaron-rodgers
+- Search results also showed pieces from Fox Sports, AOL, SI and TribLive that mention a suspension/fine for Chase. I did NOT fetch them, so the reason above leaves out any penalty.
+- NOT VERIFIED: that Ramsey is still on the Steelers and Chase on the Bengals. ESPN roster pages could not be fetched. Check before pasting.
+- NOT VERIFIED: the full CBS body. The fetch cut off partway through, so the ejection/spit details rest partly on a summary of the page. The headline and the date were read directly.
 
 ```yaml
-  - players: ["Victor Wembanyama", "Draymond Green"]
+  - players: ["Jalen Ramsey", "Ja'Marr Chase"]
     kind: Altercation
-    date: "2025-11-14"
-    reason: "In a Nov. 14, 2025 NBA Cup game, Green jawed with Wembanyama before an inbound play and Wembanyama answered with a dunk; Wembanyama said \"you have to respond a certain way.\""
+    date: "2025-11-16"
+    reason: "Ramsey was ejected for throwing a punch at Chase in a Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase denied it."
     sources:
-      - {label: "CBS Sports", url: "https://www.cbssports.com/nba/news/victor-wembanyama-dunk-draymond-green-trash-talk"}
-      - {label: "Dunkest", url: "https://www.dunkest.com/en/nba/news/224216/wemby-nearly-gets-into-a-fight-with-green-its-right-to-answer-provocations"}
+      - {label: "CBS Sports", url: "https://www.cbssports.com/nfl/news/bengals-steelers-fight-jalen-ramsey-ejected-jamarr-chase-aaron-rodgers"}
 ```
 
-## Not verified / not listed
-- Jalen Brunson vs. Tyrese Haliburton (Knicks-Pacers, Nov 13): Sportskeeda article is dated May 17, 2025 and describes playful trash talk at a WWE show; outside the 12-month window and not a real altercation. Excluded.
-- Packers-Vikings (Nov 15): search surfaced older Jaire Alexander / Justin Jefferson / Aaron Jones items (2023-24). Not fetched and current rosters not confirmed. Excluded.
-- Bills-Raiders spitting ejection (C.J. Gardner-Johnson, Oct 2026): Bills and Raiders are not playing each other on Nov 15. Excluded.
-- Spurs/Wolves (Wembanyama-Naz Reid) and Thunder/Pelicans (Dort-Fears) items surfaced in searches involve teams not in this window's games, or are already listed. Excluded.
-- Heat-Pistons, Clippers-Thunder, Chiefs-Falcons: searches found no two-player item I could confirm.
-- Searches were run only for a subset of the matchups (Heat-Pistons, Knicks-Pacers, Spurs-Warriors, Clippers-Thunder, Packers-Vikings, a combined NFL query); the other games were not individually searched.
+## Not listed as candidates
+
+All NBA pairs that turned up were already in config/rivalries.yaml, were not in these games, or were teammates. Pairs found and why they were left out:
+
+- Jessie Bates III / Travis Kelce (Chiefs at Falcons): Fox News, Sep 20, 2024. Pre-game trash talk on a podcast, older than 12 months, not a fight. Roster status not verified.
+- Khalil Mack / Derrick Henry (Chargers at Ravens): SI, Nov 28, 2024. Post-game comment and reply, older than 12 months. Roster status not verified.
+- Trevon Diggs / Jauan Jennings (49ers at Cowboys): SI, Jul 30, 2023. Instagram exchange, old. Roster status not verified.
+- Dion Dawkins / Micheal Clemons (Bills at Jets): ESPN and CBS Sports, Nov 2023 and Feb 2024. Tunnel spat, old. Roster status not verified. The ESPN page showed no date.
+
+## Could not verify
+
+- ESPN roster pages (all NFL teams above) were blocked, so current team membership is unconfirmed for every pair.
+- Search results mentioned Jaylen Brown / Cooper Flagg (Mavericks at Celtics) as "beef rumors" that Brown cleared up. Not fetched, not listed.
+- Tyler Herro / Bam Adebayo (Las Vegas exchange, reported by Fox News and Eurohoops): not fetched, and the teams do not meet in the games checked.
