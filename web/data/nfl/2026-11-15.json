@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 46,
-    "wind": 13,
+    "temp": 44,
+    "wind": 12,
     "gust": 16,
-    "rain": 4
+    "rain": 6
    },
-   "weather_text": "46\u00b0F, wind 13 mph",
+   "weather_text": "44\u00b0F, wind 12 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -445,7 +445,7 @@
     "indoor": false,
     "temp": 46,
     "wind": 11,
-    "gust": 21,
+    "gust": 18,
     "rain": 1
    },
    "weather_text": "46\u00b0F, wind 11 mph",
@@ -614,21 +614,21 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "NYJ gives up the 4th-most rushing yards to running backs (107.8 a game, 9 games).",
-     "rec_yds": "NYJ gives up the 19th-most receiving yards to running backs (26.7 a game, 9 games)."
+     "rush_yds": "NYJ gives up the 4th-most rushing yards to running backs (105.6 a game, 9 games).",
+     "rec_yds": "NYJ gives up the 17th-most receiving yards to running backs (27.3 a game, 9 games)."
     },
     "group": "RB",
     "games": 9,
     "stats": {
      "rush_yds": {
-      "value": 107.8,
+      "value": 105.6,
       "rank": 4,
       "of": 32,
       "color": "green"
      },
      "rec_yds": {
-      "value": 26.7,
-      "rank": 19,
+      "value": 27.3,
+      "rank": 17,
       "of": 32,
       "color": "yellow"
      }
@@ -637,11 +637,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 66,
+    "score": 69,
     "grade": "B",
-    "color": "yellow",
+    "color": "green",
     "best": "rush_yds",
-    "note": "NYJ gives up the 4th-most rushing yards to running backs (107.8 a game, 9 games)."
+    "note": "NYJ gives up the 4th-most rushing yards to running backs (105.6 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -1135,21 +1135,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "ATL gives up the 10th-most receiving yards to receivers (138.7 a game, 9 games).",
-     "rec": "ATL gives up the 10th-most catches to receivers (11.4 a game, 9 games)."
+     "rec_yds": "ATL gives up the 8th-most receiving yards to receivers (149.2 a game, 9 games).",
+     "rec": "ATL gives up the 5th-most catches to receivers (12 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 138.7,
-      "rank": 10,
+      "value": 149.2,
+      "rank": 8,
       "of": 32,
       "color": "green"
      },
      "rec": {
-      "value": 11.4,
-      "rank": 10,
+      "value": 12.0,
+      "rank": 5,
       "of": 32,
       "color": "green"
      }
@@ -1158,32 +1158,32 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 71,
-    "grade": "B",
+    "score": 82,
+    "grade": "A",
     "color": "green",
-    "best": "rec_yds",
-    "note": "ATL gives up the 10th-most receiving yards to receivers (138.7 a game, 9 games)."
+    "best": "rec",
+    "note": "ATL gives up the 5th-most catches to receivers (12 a game, 9 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Rec",
-      "proj": 1.2,
+      "proj": 1.3,
       "lo": 0.0,
-      "hi": 2.2
+      "hi": 2.3
      },
      {
       "label": "Rec yds",
-      "proj": 11,
+      "proj": 12,
       "lo": 0,
-      "hi": 38
+      "hi": 39
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.07,
+    "opp_factor": 1.1,
     "locked": false
    },
    "tags": [
@@ -1441,12 +1441,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 1,
-    "gust": 3,
+    "temp": 42,
+    "wind": 3,
+    "gust": 5,
     "rain": 0
    },
-   "weather_text": "36\u00b0F, wind 1 mph",
+   "weather_text": "42\u00b0F, wind 3 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1600,7 +1600,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "GB gives up the 17th-most rushing yards to running backs (87.7 a game, 9 games).",
-     "rec_yds": "GB gives up the 8th-most receiving yards to running backs (35 a game, 9 games)."
+     "rec_yds": "GB gives up the 8th-most receiving yards to running backs (34 a game, 9 games)."
     },
     "group": "RB",
     "games": 9,
@@ -1612,7 +1612,7 @@
       "color": "yellow"
      },
      "rec_yds": {
-      "value": 35.0,
+      "value": 34.0,
       "rank": 8,
       "of": 32,
       "color": "green"
@@ -1626,7 +1626,7 @@
     "grade": "B",
     "color": "yellow",
     "best": "rec_yds",
-    "note": "GB gives up the 8th-most receiving yards to running backs (35 a game, 9 games)."
+    "note": "GB gives up the 8th-most receiving yards to running backs (34 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -1635,24 +1635,24 @@
       "label": "Rush yds",
       "proj": 57,
       "lo": 6,
-      "hi": 131
+      "hi": 132
      },
      {
       "label": "Rec",
-      "proj": 2.0,
+      "proj": 2.1,
       "lo": 0.0,
-      "hi": 3.9
+      "hi": 4.1
      },
      {
       "label": "Rec yds",
       "proj": 14,
       "lo": 0,
-      "hi": 50
+      "hi": 52
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.95,
+    "weather_factor": 1.0,
     "opp_factor": 1.02,
     "locked": false
    },
@@ -2011,7 +2011,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "JAX gives up the 7th-most receiving yards to receivers (155 a game, 8 games).",
-     "rec": "JAX gives up the 8th-most catches to receivers (11.6 a game, 8 games)."
+     "rec": "JAX gives up the 9th-most catches to receivers (11.6 a game, 8 games)."
     },
     "group": "WR",
     "games": 8,
@@ -2024,7 +2024,7 @@
      },
      "rec": {
       "value": 11.6,
-      "rank": 8,
+      "rank": 9,
       "of": 32,
       "color": "green"
      }
@@ -2033,7 +2033,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 79,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "rec_yds",
@@ -2046,13 +2046,13 @@
       "label": "Rec",
       "proj": 1.4,
       "lo": 0.0,
-      "hi": 2.6
+      "hi": 2.5
      },
      {
       "label": "Rec yds",
       "proj": 21,
       "lo": 0,
-      "hi": 43
+      "hi": 42
      }
     ],
     "games_used": 10,
@@ -2420,6 +2420,181 @@
    "headshot": "img/nfl/players/4401805.png",
    "team_logo": "img/nfl/teams/LV.png",
    "opponent_logo": "img/nfl/teams/SEA.png"
+  },
+  {
+   "player_id": 4239944,
+   "name": "Hunter Long",
+   "team": "ARI",
+   "team_name": "Cardinals",
+   "team_color": "#a40227",
+   "team_alt": "#ffffff",
+   "opponent": "LAR",
+   "opponent_name": "Rams",
+   "opponent_color": "#003594",
+   "position": "TE",
+   "jersey": "89",
+   "home_away": "home",
+   "game_id": "401873061",
+   "game_kind": "Regular season",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-15T21:05:00+00:00",
+   "weather": {
+    "indoor": true,
+    "roof": "retractable"
+   },
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
+   "arena": "State Farm Stadium",
+   "location": "Glendale, AZ",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Rams, his former team.",
+   "score": 2.0,
+   "stats": {},
+   "status_note": "Questionable",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4239944",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0.4 rec, 3 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-10-04",
+       "home": false,
+       "opp": "NYG",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "10",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "5",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-20",
+       "home": true,
+       "opp": "SEA",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-09-13",
+       "home": false,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-12-07",
+       "home": true,
+       "opp": "IND",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "LAR",
+     "n": 1,
+     "text": "avg 2 rec, 16 yds, 0 TD",
+     "games": [
+      {
+       "date": "2025-10-19",
+       "home": true,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "2",
+        "3",
+        "16",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs LAR in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "LAR gives up the 19th-most receiving yards to tight ends (47.4 a game, 9 games).",
+     "rec": "LAR gives up the 14th-most catches to tight ends (5.2 a game, 9 games)."
+    },
+    "group": "TE",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 47.4,
+      "rank": 19,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 5.2,
+      "rank": 14,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 50,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rec",
+    "note": "LAR gives up the 14th-most catches to tight ends (5.2 a game, 9 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "unknown",
+     "confidence": "low",
+     "headline": "Former Rams player.",
+     "detail": "Played for the Rams from 2023 to 2024 (23 games).",
+     "how_left": "Played for the Rams from 2023 to 2024 (23 games). No trade or release is in ESPN's log, so how he left is not confirmed.",
+     "sources": [],
+     "when": "2024"
+    }
+   ],
+   "headshot": "img/nfl/players/4239944.png",
+   "team_logo": "img/nfl/teams/ARI.png",
+   "opponent_logo": "img/nfl/teams/LAR.png"
   }
  ],
  "matchups": [
@@ -2509,5 +2684,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-14T13:51:16+00:00"
+ "generated_at": "2026-11-14T22:27:18+00:00"
 }

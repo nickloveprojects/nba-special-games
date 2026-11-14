@@ -25,7 +25,7 @@
     "indoor": false,
     "temp": 48,
     "wind": 4,
-    "gust": 11,
+    "gust": 9,
     "rain": 0
    },
    "weather_text": "48\u00b0F, wind 4 mph",
@@ -123,7 +123,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "BAL gives up the 18th-most receiving yards to tight ends (49.3 a game, 9 games).",
-     "rec": "BAL gives up the 27th-most catches to tight ends (4.2 a game, 9 games)."
+     "rec": "BAL gives up the 26th-most catches to tight ends (4.2 a game, 9 games)."
     },
     "group": "TE",
     "games": 9,
@@ -136,7 +136,7 @@
      },
      "rec": {
       "value": 4.2,
-      "rank": 27,
+      "rank": 26,
       "of": 32,
       "color": "red"
      }
@@ -145,7 +145,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 31,
+    "score": 32,
     "grade": "D",
     "color": "red",
     "best": "rec_yds",
@@ -210,7 +210,7 @@
     "indoor": false,
     "temp": 48,
     "wind": 4,
-    "gust": 11,
+    "gust": 9,
     "rain": 0
    },
    "weather_text": "48\u00b0F, wind 4 mph",
@@ -222,7 +222,7 @@
    "summary": "Faces the Ravens, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4596334",
    "recent": {
     "cols": [
@@ -313,20 +313,20 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "BAL gives up the 21st-most rushing yards to running backs (77 a game, 9 games).",
-     "rec_yds": "BAL gives up the 32nd-most receiving yards to running backs (16.6 a game, 9 games)."
+     "rush_yds": "BAL gives up the 21st-most rushing yards to running backs (74.3 a game, 9 games).",
+     "rec_yds": "BAL gives up the 32nd-most receiving yards to running backs (17.1 a game, 9 games)."
     },
     "group": "RB",
     "games": 9,
     "stats": {
      "rush_yds": {
-      "value": 77.0,
+      "value": 74.3,
       "rank": 21,
       "of": 32,
       "color": "yellow"
      },
      "rec_yds": {
-      "value": 16.6,
+      "value": 17.1,
       "rank": 32,
       "of": 32,
       "color": "red"
@@ -340,7 +340,7 @@
     "grade": "F",
     "color": "red",
     "best": "rush_yds",
-    "note": "BAL gives up the 21st-most rushing yards to running backs (77 a game, 9 games)."
+    "note": "BAL gives up the 21st-most rushing yards to running backs (74.3 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -349,7 +349,7 @@
       "label": "Rush yds",
       "proj": 21,
       "lo": 0,
-      "hi": 44
+      "hi": 43
      },
      {
       "label": "Rec",
@@ -367,7 +367,7 @@
     "games_used": 8,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.95,
+    "opp_factor": 0.94,
     "locked": false
    },
    "tags": [
@@ -397,5 +397,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-14T13:51:48+00:00"
+ "generated_at": "2026-11-14T22:27:19+00:00"
 }
