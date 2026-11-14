@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T05:38:27Z",
+ "generated_at": "2026-11-14T13:49:23Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -1077,7 +1077,7 @@
     "games_used": 11,
     "minutes": 14,
     "sims": 1000,
-    "opp_factor": 0.98,
+    "opp_factor": 0.97,
     "locked": false
    }
   },
@@ -1756,7 +1756,7 @@
     "notes": {
      "pts": "DET gives up the 14th-most points to forwards (42.3 a game, 11 games).",
      "reb": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games).",
-     "ast": "DET gives up the 23rd-most assists to forwards (7.5 a game, 11 games)."
+     "ast": "DET gives up the 22nd-most assists to forwards (7.5 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
@@ -1775,12 +1775,12 @@
      },
      "ast": {
       "value": 7.5,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 56,
+    "score": 57,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -1996,7 +1996,7 @@
    "opponent_logo": "img/teams/DEN.png",
    "matchup": {
     "notes": {
-     "pts": "DEN gives up the 13th-most points to centers (14.2 a game, 10 games).",
+     "pts": "DEN gives up the 14th-most points to centers (14.2 a game, 10 games).",
      "reb": "DEN gives up the 4th-most rebounds to centers (13.2 a game, 10 games).",
      "ast": "DEN gives up the 10th-most assists to centers (3.0 a game, 10 games)."
     },
@@ -2005,7 +2005,7 @@
     "stats": {
      "pts": {
       "value": 14.2,
-      "rank": 13,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
@@ -2022,7 +2022,7 @@
       "color": "green"
      }
     },
-    "score": 72,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -2218,7 +2218,7 @@
    "opponent_logo": "img/teams/CLE.png",
    "matchup": {
     "notes": {
-     "pts": "CLE gives up the 2nd-most points to guards (65.8 a game, 13 games).",
+     "pts": "CLE gives up the 3rd-most points to guards (65.8 a game, 13 games).",
      "reb": "CLE gives up the 5th-most rebounds to guards (17.1 a game, 13 games).",
      "ast": "CLE gives up the 5th-most assists to guards (17.3 a game, 13 games)."
     },
@@ -2227,7 +2227,7 @@
     "stats": {
      "pts": {
       "value": 65.8,
-      "rank": 2,
+      "rank": 3,
       "of": 30,
       "color": "green"
      },
@@ -2244,11 +2244,11 @@
       "color": "green"
      }
     },
-    "score": 90,
+    "score": 89,
     "grade": "A",
     "color": "green",
     "best": "pts",
-    "note": "CLE gives up the 2nd-most points to guards (65.8 a game, 13 games)."
+    "note": "CLE gives up the 3rd-most points to guards (65.8 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2641,7 +2641,7 @@
     "notes": {
      "pts": "DAL gives up the 12th-most points to guards (57.7 a game, 12 games).",
      "reb": "DAL gives up the 18th-most rebounds to guards (15.1 a game, 12 games).",
-     "ast": "DAL gives up the 6th-most assists to guards (16.9 a game, 12 games)."
+     "ast": "DAL gives up the 7th-most assists to guards (16.9 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
@@ -2660,16 +2660,16 @@
      },
      "ast": {
       "value": 16.9,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 62,
+    "score": 61,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
-    "note": "DAL gives up the 6th-most assists to guards (16.9 a game, 12 games)."
+    "note": "DAL gives up the 7th-most assists to guards (16.9 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2893,7 +2893,7 @@
     "notes": {
      "pts": "DET gives up the 14th-most points to forwards (42.3 a game, 11 games).",
      "reb": "DET gives up the 4th-most rebounds to forwards (20.5 a game, 11 games).",
-     "ast": "DET gives up the 23rd-most assists to forwards (7.5 a game, 11 games)."
+     "ast": "DET gives up the 22nd-most assists to forwards (7.5 a game, 11 games)."
     },
     "group": "F",
     "games": 11,
@@ -2912,12 +2912,12 @@
      },
      "ast": {
       "value": 7.5,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 56,
+    "score": 57,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -3649,7 +3649,7 @@
    "matchup": {
     "notes": {
      "pts": "BKN gives up the 17th-most points to guards (56.2 a game, 11 games).",
-     "reb": "BKN gives up the 16th-most rebounds to guards (15.4 a game, 11 games).",
+     "reb": "BKN gives up the 17th-most rebounds to guards (15.4 a game, 11 games).",
      "ast": "BKN gives up the 15th-most assists to guards (15.5 a game, 11 games)."
     },
     "group": "G",
@@ -3663,7 +3663,7 @@
      },
      "reb": {
       "value": 15.4,
-      "rank": 16,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -3674,7 +3674,7 @@
       "color": "yellow"
      }
     },
-    "score": 48,
+    "score": 47,
     "grade": "C",
     "color": "yellow",
     "best": "ast",

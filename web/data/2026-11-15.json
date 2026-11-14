@@ -1,9 +1,583 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-14T05:41:11Z",
+ "generated_at": "2026-11-14T13:51:04Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
+  {
+   "player_id": 3149673,
+   "name": "Pascal Siakam",
+   "team": "IND",
+   "team_name": "Pacers",
+   "opponent": "PHI",
+   "opponent_name": "76ers",
+   "position": "F",
+   "jersey": "43",
+   "home_away": "away",
+   "game_id": "401909985",
+   "game_kind": "Regular season",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-15T18:00:00+00:00",
+   "arena": "Xfinity Mobile Arena",
+   "location": "Philadelphia, PA",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 12 FGM to reach 5,000 career field goals made.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "round",
+     "stat": "fgm",
+     "confidence": "high",
+     "headline": "Needs 12 FGM to reach 5,000 career field goals made.",
+     "needed": 12,
+     "current": 4988,
+     "detail": "Pascal Siakam has 4,988 career regular-season field goals made. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 30,
+   "stats": {
+    "gp": 11,
+    "min": 32.1,
+    "pts": 22.7,
+    "reb": 6.9,
+    "ast": 4.4
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3149673",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "106-104",
+       "min": 32,
+       "pts": 19,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909966",
+       "date": "2026-11-11",
+       "venue": "IND",
+       "opp": "WAS",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "114-101",
+       "min": 32,
+       "pts": 28,
+       "reb": 8,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909956",
+       "date": "2026-11-09",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "125-122",
+       "min": 35,
+       "pts": 29,
+       "reb": 9,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401909938",
+       "date": "2026-11-07",
+       "venue": "IND",
+       "opp": "DEN",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "114-102",
+       "min": 32,
+       "pts": 23,
+       "reb": 2,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909927",
+       "date": "2026-11-04",
+       "venue": "MEM",
+       "opp": "MEM",
+       "tm": "IND",
+       "home": false,
+       "result": "W",
+       "score": "107-103",
+       "min": 30,
+       "pts": 20,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 23.8,
+     "reb": 5.4,
+     "ast": 4.4,
+     "min": 32.2
+    },
+    "vs": {
+     "opp": "PHI",
+     "games": [
+      {
+       "gid": "401909884",
+       "date": "2026-10-28",
+       "venue": "IND",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "114-109",
+       "min": 34,
+       "pts": 26,
+       "reb": 11,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810464",
+       "date": "2026-01-19",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "113-104",
+       "min": 35,
+       "pts": 24,
+       "reb": 6,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401836752",
+       "date": "2025-12-12",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "115-105",
+       "min": 34,
+       "pts": 20,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705525",
+       "date": "2025-03-14",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": false,
+       "result": "W",
+       "score": "112-100",
+       "min": 29,
+       "pts": 27,
+       "reb": 7,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401705154",
+       "date": "2025-01-18",
+       "venue": "IND",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "115-102",
+       "min": 35,
+       "pts": 21,
+       "reb": 8,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 23.6,
+     "reb": 7.4,
+     "ast": 4.2,
+     "min": 33.4,
+     "note": "No games vs PHI in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3149673.png",
+   "team_logo": "img/teams/IND.png",
+   "opponent_logo": "img/teams/PHI.png",
+   "matchup": {
+    "notes": {
+     "pts": "PHI gives up the 14th-most points to forwards (42.3 a game, 13 games).",
+     "reb": "PHI gives up the 14th-most rebounds to forwards (18.1 a game, 13 games).",
+     "ast": "PHI gives up the 30th-most assists to forwards (6.1 a game, 13 games)."
+    },
+    "group": "F",
+    "games": 13,
+    "stats": {
+     "pts": {
+      "value": 42.3,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 18.1,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 6.1,
+      "rank": 30,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 37,
+    "grade": "D",
+    "color": "yellow",
+    "best": "pts",
+    "note": "PHI gives up the 14th-most points to forwards (42.3 a game, 13 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 22,
+      "lo": 16,
+      "hi": 28
+     },
+     {
+      "label": "Reb",
+      "proj": 6.4,
+      "lo": 3,
+      "hi": 11
+     },
+     {
+      "label": "Ast",
+      "proj": 3.9,
+      "lo": 2,
+      "hi": 6
+     }
+    ],
+    "games_used": 12,
+    "minutes": 32,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4395723,
+   "name": "Keldon Johnson",
+   "team": "SAS",
+   "team_name": "Spurs",
+   "opponent": "UTA",
+   "opponent_name": "Jazz",
+   "position": "F",
+   "jersey": "3",
+   "home_away": "away",
+   "game_id": "401909988",
+   "game_kind": "Regular season",
+   "tip": "5:00 PM ET",
+   "tip_utc": "2026-11-15T22:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 44 PTS to reach 7,000 career points.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "round",
+     "stat": "pts",
+     "confidence": "high",
+     "headline": "Needs 44 PTS to reach 7,000 career points.",
+     "needed": 44,
+     "current": 6956,
+     "detail": "Keldon Johnson has 6,956 career regular-season points. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 30,
+   "stats": {
+    "gp": 12,
+    "min": 24.1,
+    "pts": 8.0,
+    "reb": 5.7,
+    "ast": 2.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4395723",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909302",
+       "date": "2026-11-13",
+       "venue": "SAS",
+       "opp": "GSW",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "123-85",
+       "min": 25,
+       "pts": 18,
+       "reb": 4,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909969",
+       "date": "2026-11-11",
+       "venue": "CHI",
+       "opp": "CHI",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "124-119",
+       "min": 28,
+       "pts": 10,
+       "reb": 6,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909958",
+       "date": "2026-11-09",
+       "venue": "PHX",
+       "opp": "PHX",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "122-96",
+       "min": 26,
+       "pts": 4,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909944",
+       "date": "2026-11-07",
+       "venue": "POR",
+       "opp": "POR",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "125-103",
+       "min": 27,
+       "pts": 10,
+       "reb": 7,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909295",
+       "date": "2026-11-06",
+       "venue": "SAC",
+       "opp": "SAC",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "124-109",
+       "min": 27,
+       "pts": 3,
+       "reb": 6,
+       "ast": 6,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 9.0,
+     "reb": 5.6,
+     "ast": 4.2,
+     "min": 26.6
+    },
+    "vs": {
+     "opp": "UTA",
+     "games": [
+      {
+       "gid": "401909917",
+       "date": "2026-11-02",
+       "venue": "SAS",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "119-97",
+       "min": 27,
+       "pts": 15,
+       "reb": 7,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909890",
+       "date": "2026-10-28",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "117-111 OT",
+       "min": 23,
+       "pts": 9,
+       "reb": 6,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810487",
+       "date": "2026-01-22",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "126-109",
+       "min": 31,
+       "pts": 21,
+       "reb": 1,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401810466",
+       "date": "2026-01-19",
+       "venue": "SAS",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "123-110",
+       "min": 24,
+       "pts": 2,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810295",
+       "date": "2025-12-27",
+       "venue": "SAS",
+       "opp": "UTA",
+       "tm": "SAS",
+       "home": true,
+       "result": "L",
+       "score": "127-114",
+       "min": 25,
+       "pts": 27,
+       "reb": 10,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 14.8,
+     "reb": 5.4,
+     "ast": 2.2,
+     "min": 26.0,
+     "note": "No games vs UTA in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4395723.png",
+   "team_logo": "img/teams/SAS.png",
+   "opponent_logo": "img/teams/UTA.png",
+   "matchup": {
+    "notes": {
+     "pts": "UTA gives up the 5th-most points to forwards (48.7 a game, 13 games).",
+     "reb": "UTA gives up the 4th-most rebounds to forwards (20.5 a game, 13 games).",
+     "ast": "UTA gives up the 26th-most assists to forwards (6.9 a game, 13 games)."
+    },
+    "group": "F",
+    "games": 13,
+    "stats": {
+     "pts": {
+      "value": 48.7,
+      "rank": 5,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 20.5,
+      "rank": 4,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 6.9,
+      "rank": 26,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 63,
+    "grade": "B",
+    "color": "yellow",
+    "best": "reb",
+    "note": "UTA gives up the 4th-most rebounds to forwards (20.5 a game, 13 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 10,
+      "lo": 3,
+      "hi": 20
+     },
+     {
+      "label": "Reb",
+      "proj": 5.6,
+      "lo": 4,
+      "hi": 7
+     },
+     {
+      "label": "Ast",
+      "proj": 2.3,
+      "lo": 0,
+      "hi": 4
+     }
+    ],
+    "games_used": 13,
+    "minutes": 25,
+    "sims": 1000,
+    "opp_factor": 1.03,
+    "locked": false
+   }
+  },
   {
    "player_id": 4065648,
    "name": "Jayson Tatum",
@@ -199,8 +773,8 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 9th-most points to forwards (44.8 a game, 12 games).",
-     "reb": "DAL gives up the 10th-most rebounds to forwards (19.3 a game, 12 games).",
-     "ast": "DAL gives up the 24th-most assists to forwards (7.2 a game, 12 games)."
+     "reb": "DAL gives up the 9th-most rebounds to forwards (19.3 a game, 12 games).",
+     "ast": "DAL gives up the 23rd-most assists to forwards (7.2 a game, 12 games)."
     },
     "group": "F",
     "games": 12,
@@ -213,18 +787,18 @@
      },
      "reb": {
       "value": 19.3,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 7.2,
-      "rank": 24,
+      "rank": 23,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 54,
+    "score": 56,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -512,6 +1086,293 @@
    "projection": null
   },
   {
+   "player_id": 3133628,
+   "name": "Myles Turner",
+   "team": "MIL",
+   "team_name": "Bucks",
+   "opponent": "ATL",
+   "opponent_name": "Hawks",
+   "position": "C",
+   "jersey": "3",
+   "home_away": "home",
+   "game_id": "401909992",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-16T01:00:00+00:00",
+   "arena": "Fiserv Forum",
+   "location": "Milwaukee, WI",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 35 PTS to reach 10,000 career points.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "round",
+     "stat": "pts",
+     "confidence": "high",
+     "headline": "Needs 35 PTS to reach 10,000 career points.",
+     "needed": 35,
+     "current": 9965,
+     "detail": "Myles Turner has 9,965 career regular-season points. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 30,
+   "stats": {
+    "gp": 11,
+    "min": 27.1,
+    "pts": 6.7,
+    "reb": 5.5,
+    "ast": 2.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3133628",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909297",
+       "date": "2026-11-13",
+       "venue": "ORL",
+       "opp": "ORL",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "107-99",
+       "min": 31,
+       "pts": 14,
+       "reb": 11,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909960",
+       "date": "2026-11-10",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "117-85",
+       "min": 27,
+       "pts": 3,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909949",
+       "date": "2026-11-08",
+       "venue": "MIL",
+       "opp": "BOS",
+       "tm": "MIL",
+       "home": true,
+       "result": "L",
+       "score": "117-97",
+       "min": 24,
+       "pts": 3,
+       "reb": 5,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909292",
+       "date": "2026-11-06",
+       "venue": "MIL",
+       "opp": "TOR",
+       "tm": "MIL",
+       "home": true,
+       "result": "L",
+       "score": "121-107",
+       "min": 24,
+       "pts": 0,
+       "reb": 7,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909924",
+       "date": "2026-11-04",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "109-102",
+       "min": 36,
+       "pts": 12,
+       "reb": 9,
+       "ast": 6,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 6.4,
+     "reb": 7.0,
+     "ast": 3.6,
+     "min": 28.4
+    },
+    "vs": {
+     "opp": "ATL",
+     "games": [
+      {
+       "gid": "401810825",
+       "date": "2026-03-14",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "122-99",
+       "min": 24,
+       "pts": 8,
+       "reb": 6,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810752",
+       "date": "2026-03-04",
+       "venue": "MIL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": true,
+       "result": "L",
+       "score": "131-113",
+       "min": 22,
+       "pts": 8,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401809247",
+       "date": "2026-01-19",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": false,
+       "result": "W",
+       "score": "112-110",
+       "min": 28,
+       "pts": 14,
+       "reb": 8,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401705480",
+       "date": "2025-03-08",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "120-118",
+       "min": 34,
+       "pts": 14,
+       "reb": 6,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705465",
+       "date": "2025-03-06",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "124-118",
+       "min": 34,
+       "pts": 17,
+       "reb": 9,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 12.2,
+     "reb": 6.4,
+     "ast": 1.4,
+     "min": 28.4,
+     "note": "No games vs ATL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3133628.png",
+   "team_logo": "img/teams/MIL.png",
+   "opponent_logo": "img/teams/ATL.png",
+   "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 2nd-most points to centers (20.1 a game, 13 games).",
+     "reb": "ATL gives up the 8th-most rebounds to centers (11.5 a game, 13 games).",
+     "ast": "ATL gives up the 1st-most assists to centers (5.3 a game, 13 games)."
+    },
+    "group": "C",
+    "games": 13,
+    "stats": {
+     "pts": {
+      "value": 20.1,
+      "rank": 2,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 11.5,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 5.3,
+      "rank": 1,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 91,
+    "grade": "A",
+    "color": "green",
+    "best": "ast",
+    "note": "ATL gives up the 1st-most assists to centers (5.3 a game, 13 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 9,
+      "lo": 0,
+      "hi": 17
+     },
+     {
+      "label": "Reb",
+      "proj": 6.0,
+      "lo": 3,
+      "hi": 11
+     },
+     {
+      "label": "Ast",
+      "proj": 2.8,
+      "lo": 0,
+      "hi": 7
+     }
+    ],
+    "games_used": 12,
+    "minutes": 27,
+    "sims": 1000,
+    "opp_factor": 1.06,
+    "locked": false
+   }
+  },
+  {
    "player_id": 4702384,
    "name": "Nique Clifford",
    "team": "OKC",
@@ -561,6 +1422,21 @@
    "recent": {
     "form": {
      "games": [
+      {
+       "gid": "401909304",
+       "date": "2026-11-13",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "OKC",
+       "home": false,
+       "result": "L",
+       "score": "113-112",
+       "min": 12,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
       {
        "gid": "401909975",
        "date": "2026-11-11",
@@ -620,28 +1496,13 @@
        "reb": 2,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909913",
-       "date": "2026-11-02",
-       "venue": "DAL",
-       "opp": "DAL",
-       "tm": "SAC",
-       "home": false,
-       "result": "W",
-       "score": "115-100",
-       "min": 3,
-       "pts": 0,
-       "reb": 1,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
      "pts": 2.8,
-     "reb": 2.4,
+     "reb": 2.2,
      "ast": 0.8,
-     "min": 9.4
+     "min": 11.2
     },
     "vs": {
      "opp": "SAC",
@@ -694,7 +1555,33 @@
    "injury": null,
    "status_note": null,
    "career": [],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 3,
+      "lo": 0,
+      "hi": 6
+     },
+     {
+      "label": "Reb",
+      "proj": 2.2,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 0.7,
+      "lo": 0,
+      "hi": 1
+     }
+    ],
+    "games_used": 3,
+    "minutes": 16,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   },
   {
    "player_id": 4411057,
@@ -839,8 +1726,8 @@
    "matchup": {
     "notes": {
      "pts": "NYK gives up the 16th-most points to guards (56.4 a game, 12 games).",
-     "reb": "NYK gives up the 11th-most rebounds to guards (16.0 a game, 12 games).",
-     "ast": "NYK gives up the 26th-most assists to guards (13.2 a game, 12 games)."
+     "reb": "NYK gives up the 12th-most rebounds to guards (16.0 a game, 12 games).",
+     "ast": "NYK gives up the 27th-most assists to guards (13.2 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
@@ -853,22 +1740,22 @@
      },
      "reb": {
       "value": 16.0,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 13.2,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 43,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "NYK gives up the 11th-most rebounds to guards (16.0 a game, 12 games)."
+    "note": "NYK gives up the 12th-most rebounds to guards (16.0 a game, 12 games)."
    },
    "injury": {
     "status": "Day-To-Day",
@@ -1043,7 +1930,7 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "notes": {
-     "pts": "PHI gives up the 22nd-most points to guards (52.8 a game, 13 games).",
+     "pts": "PHI gives up the 23rd-most points to guards (52.8 a game, 13 games).",
      "reb": "PHI gives up the 1st-most rebounds to guards (18.8 a game, 13 games).",
      "ast": "PHI gives up the 12th-most assists to guards (15.7 a game, 13 games)."
     },
@@ -1052,7 +1939,7 @@
     "stats": {
      "pts": {
       "value": 52.8,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -1069,7 +1956,7 @@
       "color": "yellow"
      }
     },
-    "score": 63,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "reb",
@@ -1113,7 +2000,7 @@
     "games_used": 11,
     "minutes": 25,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -1342,8 +2229,8 @@
    "matchup": {
     "notes": {
      "pts": "NYK gives up the 16th-most points to guards (56.4 a game, 12 games).",
-     "reb": "NYK gives up the 11th-most rebounds to guards (16.0 a game, 12 games).",
-     "ast": "NYK gives up the 26th-most assists to guards (13.2 a game, 12 games)."
+     "reb": "NYK gives up the 12th-most rebounds to guards (16.0 a game, 12 games).",
+     "ast": "NYK gives up the 27th-most assists to guards (13.2 a game, 12 games)."
     },
     "group": "G",
     "games": 12,
@@ -1356,22 +2243,22 @@
      },
      "reb": {
       "value": 16.0,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 13.2,
-      "rank": 26,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 43,
+    "score": 40,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "NYK gives up the 11th-most rebounds to guards (16.0 a game, 12 games)."
+    "note": "NYK gives up the 12th-most rebounds to guards (16.0 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3451,37 +4338,37 @@
    "opponent_logo": "img/teams/OKC.png",
    "matchup": {
     "notes": {
-     "pts": "OKC gives up the 24th-most points to forwards (39.2 a game, 12 games).",
-     "reb": "OKC gives up the 14th-most rebounds to forwards (18.1 a game, 12 games).",
-     "ast": "OKC gives up the 14th-most assists to forwards (8.2 a game, 12 games)."
+     "pts": "OKC gives up the 23rd-most points to forwards (38.2 a game, 13 games).",
+     "reb": "OKC gives up the 13th-most rebounds to forwards (18.2 a game, 13 games).",
+     "ast": "OKC gives up the 15th-most assists to forwards (8.0 a game, 13 games)."
     },
     "group": "F",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 39.2,
-      "rank": 24,
+      "value": 38.2,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 18.1,
-      "rank": 14,
+      "value": 18.2,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 8.2,
-      "rank": 14,
+      "value": 8.0,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 44,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "OKC gives up the 14th-most rebounds to forwards (18.1 a game, 12 games)."
+    "note": "OKC gives up the 13th-most rebounds to forwards (18.2 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3734,37 +4621,37 @@
    "opponent_logo": "img/teams/LAC.png",
    "matchup": {
     "notes": {
-     "pts": "LAC gives up the 23rd-most points to forwards (39.3 a game, 10 games).",
-     "reb": "LAC gives up the 9th-most rebounds to forwards (19.7 a game, 10 games).",
-     "ast": "LAC gives up the 19th-most assists to forwards (7.8 a game, 10 games)."
+     "pts": "LAC gives up the 27th-most points to forwards (35.7 a game, 11 games).",
+     "reb": "LAC gives up the 16th-most rebounds to forwards (17.9 a game, 11 games).",
+     "ast": "LAC gives up the 24th-most assists to forwards (7.1 a game, 11 games)."
     },
     "group": "F",
-    "games": 10,
+    "games": 11,
     "stats": {
      "pts": {
-      "value": 39.3,
-      "rank": 23,
+      "value": 35.7,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 19.7,
-      "rank": 9,
-      "of": 30,
-      "color": "green"
-     },
-     "ast": {
-      "value": 7.8,
-      "rank": 19,
+      "value": 17.9,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
+     },
+     "ast": {
+      "value": 7.1,
+      "rank": 24,
+      "of": 30,
+      "color": "red"
      }
     },
-    "score": 45,
-    "grade": "C",
-    "color": "yellow",
+    "score": 26,
+    "grade": "D",
+    "color": "red",
     "best": "reb",
-    "note": "LAC gives up the 9th-most rebounds to forwards (19.7 a game, 10 games)."
+    "note": "LAC gives up the 16th-most rebounds to forwards (17.9 a game, 11 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3790,7 +4677,7 @@
      },
      {
       "label": "Reb",
-      "proj": 9.6,
+      "proj": 9.5,
       "lo": 6,
       "hi": 14
      },
@@ -3804,7 +4691,7 @@
     "games_used": 10,
     "minutes": 29,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -4032,7 +4919,7 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "notes": {
-     "pts": "PHI gives up the 22nd-most points to guards (52.8 a game, 13 games).",
+     "pts": "PHI gives up the 23rd-most points to guards (52.8 a game, 13 games).",
      "reb": "PHI gives up the 1st-most rebounds to guards (18.8 a game, 13 games).",
      "ast": "PHI gives up the 12th-most assists to guards (15.7 a game, 13 games)."
     },
@@ -4041,7 +4928,7 @@
     "stats": {
      "pts": {
       "value": 52.8,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -4058,7 +4945,7 @@
       "color": "yellow"
      }
     },
-    "score": 63,
+    "score": 62,
     "grade": "B",
     "color": "yellow",
     "best": "reb",
@@ -4102,7 +4989,7 @@
     "games_used": 4,
     "minutes": 14,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -4699,7 +5586,7 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 25th-most points to forwards (37.4 a game, 11 games).",
+     "pts": "PHX gives up the 24th-most points to forwards (37.4 a game, 11 games).",
      "reb": "PHX gives up the 20th-most rebounds to forwards (17.5 a game, 11 games).",
      "ast": "PHX gives up the 12th-most assists to forwards (8.3 a game, 11 games)."
     },
@@ -4708,7 +5595,7 @@
     "stats": {
      "pts": {
       "value": 37.4,
-      "rank": 25,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -4725,7 +5612,7 @@
       "color": "yellow"
      }
     },
-    "score": 38,
+    "score": 39,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
@@ -5569,7 +6456,7 @@
    "opponent_logo": "img/teams/TOR.png",
    "matchup": {
     "notes": {
-     "pts": "TOR gives up the 13th-most points to centers (14.2 a game, 12 games).",
+     "pts": "TOR gives up the 14th-most points to centers (14.2 a game, 12 games).",
      "reb": "TOR gives up the 11th-most rebounds to centers (10.2 a game, 12 games).",
      "ast": "TOR gives up the 15th-most assists to centers (2.8 a game, 12 games)."
     },
@@ -5578,7 +6465,7 @@
     "stats": {
      "pts": {
       "value": 14.2,
-      "rank": 13,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
@@ -5595,7 +6482,7 @@
       "color": "yellow"
      }
     },
-    "score": 59,
+    "score": 57,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
@@ -6394,7 +7281,7 @@
    "matchup": {
     "notes": {
      "pts": "MIL gives up the 13th-most points to forwards (42.4 a game, 13 games).",
-     "reb": "MIL gives up the 17th-most rebounds to forwards (17.9 a game, 13 games).",
+     "reb": "MIL gives up the 16th-most rebounds to forwards (17.9 a game, 13 games).",
      "ast": "MIL gives up the 18th-most assists to forwards (7.9 a game, 13 games)."
     },
     "group": "F",
@@ -6408,7 +7295,7 @@
      },
      "reb": {
       "value": 17.9,
-      "rank": 17,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
@@ -6419,7 +7306,7 @@
       "color": "yellow"
      }
     },
-    "score": 48,
+    "score": 49,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -6913,28 +7800,28 @@
    "opponent_logo": "img/teams/OKC.png",
    "matchup": {
     "notes": {
-     "pts": "OKC gives up the 23rd-most points to guards (52.2 a game, 12 games).",
-     "reb": "OKC gives up the 14th-most rebounds to guards (15.6 a game, 12 games).",
-     "ast": "OKC gives up the 26th-most assists to guards (13.2 a game, 12 games)."
+     "pts": "OKC gives up the 22nd-most points to guards (52.9 a game, 13 games).",
+     "reb": "OKC gives up the 16th-most rebounds to guards (15.5 a game, 13 games).",
+     "ast": "OKC gives up the 25th-most assists to guards (13.5 a game, 13 games)."
     },
     "group": "G",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 52.2,
-      "rank": 23,
+      "value": 52.9,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 15.6,
-      "rank": 14,
+      "value": 15.5,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 13.2,
-      "rank": 26,
+      "value": 13.5,
+      "rank": 25,
       "of": 30,
       "color": "red"
      }
@@ -6943,7 +7830,7 @@
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "OKC gives up the 14th-most rebounds to guards (15.6 a game, 12 games)."
+    "note": "OKC gives up the 16th-most rebounds to guards (15.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,

@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 46,
-    "wind": 12,
-    "gust": 15,
-    "rain": 45
+    "wind": 13,
+    "gust": 16,
+    "rain": 4
    },
-   "weather_text": "46\u00b0F, wind 12 mph, 45% rain",
+   "weather_text": "46\u00b0F, wind 13 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -443,12 +443,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
+    "temp": 46,
     "wind": 11,
-    "gust": 20,
-    "rain": 0
+    "gust": 21,
+    "rain": 1
    },
-   "weather_text": "47\u00b0F, wind 11 mph",
+   "weather_text": "46\u00b0F, wind 11 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1441,12 +1441,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 3,
-    "gust": 4,
+    "temp": 36,
+    "wind": 1,
+    "gust": 3,
     "rain": 0
    },
-   "weather_text": "37\u00b0F, wind 3 mph",
+   "weather_text": "36\u00b0F, wind 1 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1887,11 +1887,11 @@
    "weather": {
     "indoor": false,
     "temp": 52,
-    "wind": 8,
-    "gust": 10,
+    "wind": 6,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "52\u00b0F, wind 8 mph",
+   "weather_text": "52\u00b0F, wind 6 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2046,18 +2046,18 @@
       "label": "Rec",
       "proj": 1.4,
       "lo": 0.0,
-      "hi": 2.5
+      "hi": 2.6
      },
      {
       "label": "Rec yds",
-      "proj": 20,
+      "proj": 21,
       "lo": 0,
-      "hi": 41
+      "hi": 43
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -2509,5 +2509,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-14T05:41:36+00:00"
+ "generated_at": "2026-11-14T13:51:16+00:00"
 }
