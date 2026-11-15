@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T18:00:34Z",
+ "generated_at": "2026-11-15T20:03:33Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -1176,7 +1176,7 @@
        "score": "117-97",
        "min": 24,
        "pts": 3,
-       "reb": 5,
+       "reb": 6,
        "ast": 7,
        "playoff": false
       },
@@ -1213,7 +1213,7 @@
      ],
      "n": 5,
      "pts": 6.4,
-     "reb": 7.0,
+     "reb": 7.2,
      "ast": 3.6,
      "min": 28.4
     },
@@ -1354,7 +1354,7 @@
      },
      {
       "label": "Reb",
-      "proj": 6.0,
+      "proj": 6.1,
       "lo": 3,
       "hi": 11
      },
@@ -5204,8 +5204,12 @@
     "best": "reb",
     "note": "BOS gives up the 19th-most rebounds to guards (14.5 a game, 12 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+    "date": "2026-11-15T18:14Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
