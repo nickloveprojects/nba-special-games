@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T16:07:45Z",
+ "generated_at": "2026-11-15T18:00:34Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -288,7 +288,7 @@
     "minutes": 32,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2001,7 +2001,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4951,12 +4951,8 @@
     "best": "reb",
     "note": "PHI gives up the 1st-most rebounds to guards (18.8 a game, 13 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "McConnell (hamstring) is listed as probable for Sunday's game against the 76ers.",
-    "date": "2026-11-14T21:23Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -4994,7 +4990,7 @@
     "minutes": 14,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {

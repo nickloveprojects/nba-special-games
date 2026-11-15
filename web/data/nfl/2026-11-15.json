@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
+    "temp": 46,
     "wind": 15,
     "gust": 18,
-    "rain": 5
+    "rain": 2
    },
-   "weather_text": "47\u00b0F, wind 15 mph",
+   "weather_text": "46\u00b0F, wind 15 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -197,7 +197,7 @@
     "sims": 1000,
     "weather_factor": 0.88,
     "opp_factor": 1.1,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -443,12 +443,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 48,
+    "temp": 49,
     "wind": 10,
-    "gust": 16,
+    "gust": 15,
     "rain": 0
    },
-   "weather_text": "48\u00b0F, wind 10 mph",
+   "weather_text": "49\u00b0F, wind 10 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -669,7 +669,7 @@
     "sims": 1000,
     "weather_factor": 0.97,
     "opp_factor": 1.13,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1184,7 +1184,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.1,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1442,11 +1442,11 @@
    "weather": {
     "indoor": false,
     "temp": 42,
-    "wind": 1,
-    "gust": 4,
+    "wind": 0,
+    "gust": 2,
     "rain": 0
    },
-   "weather_text": "42\u00b0F, wind 1 mph",
+   "weather_text": "42\u00b0F, wind 0 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1654,7 +1654,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1886,12 +1886,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 53,
-    "wind": 4,
-    "gust": 6,
+    "temp": 54,
+    "wind": 2,
+    "gust": 8,
     "rain": 0
    },
-   "weather_text": "53\u00b0F, wind 4 mph",
+   "weather_text": "54\u00b0F, wind 2 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2059,7 +2059,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.08,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2852,5 +2852,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-15T16:08:41+00:00"
+ "generated_at": "2026-11-15T18:01:39+00:00"
 }
