@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_at": "2026-11-15T13:54:03Z",
+ "generated_at": "2026-11-15T16:08:37Z",
  "season": "2026-27",
  "games": 8,
  "entries": [
@@ -2671,11 +2671,11 @@
     "note": "WAS gives up the 8th-most rebounds to forwards (19.8 a game, 13 games)."
    },
    "injury": {
-    "status": "Out",
+    "status": "Day-To-Day",
     "note": "Grant (head) is out for Saturday's game against the Nets.",
-    "date": "2026-11-15T00:35Z"
+    "date": "2026-11-15T15:28Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -2688,7 +2688,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 12,
+      "lo": 5,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 2.1,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 1.9,
+      "lo": 1,
+      "hi": 3
+     }
+    ],
+    "games_used": 12,
+    "minutes": 24,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   },
   {
    "player_id": 2528210,
