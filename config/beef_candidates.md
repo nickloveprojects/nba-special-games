@@ -1,36 +1,48 @@
-# Beef candidates (run: 2026-11-14)
+# Beef candidates — run of 2026-11-15
+Games covered: NBA and NFL games on 2026-11-15 and 2026-11-16 (see web/data). Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml; paste only what you approve.
 
-Games checked: NBA Nov 14-15 (14 games) and NFL Nov 15-16 (13 games). Nothing here has been added to the config files.
+**Roster caveat for both items:** I could not load ESPN roster pages in this run, so I did NOT confirm that these four players are still on the teams listed. The app only shows a History box when both players are on the two teams that day, so a wrong roster is harmless but check before approving.
 
-## 1. Jalen Ramsey vs Ja'Marr Chase (Steelers at Bengals, Sun 2026-11-15, 8:20 PM ET)
-
+## 1. Jalen Ramsey vs. Ja'Marr Chase — Steelers at Bengals, 2026-11-15 (8:20 PM ET)
 - Kind: Altercation
-- Reason: Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov 16, 2025; Ramsey said Chase spat on him, and Chase denied it.
-- Source: CBS Sports (Bryan DeArdo), Nov 16, 2025: https://www.cbssports.com/nfl/news/bengals-steelers-fight-jalen-ramsey-ejected-jamarr-chase-aaron-rodgers
-- Search results also showed pieces from Fox Sports, AOL, SI and TribLive that mention a suspension/fine for Chase. I did NOT fetch them, so the reason above leaves out any penalty.
-- NOT VERIFIED: that Ramsey is still on the Steelers and Chase on the Bengals. ESPN roster pages could not be fetched. Check before pasting.
-- NOT VERIFIED: the full CBS body. The fetch cut off partway through, so the ejection/spit details rest partly on a summary of the page. The headline and the date were read directly.
+- Reason: Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase was suspended one game.
+- What the articles say: SI's Pittsburgh Steelers On SI (Nov. 24 and Nov. 27, 2025) report the two were face to face before Ramsey took a swing, both got offsetting unsportsmanlike penalties, only Ramsey was ejected, Ramsey said Chase spat after the game, and Chase was suspended for the following week. TribLive reports referee Bill Vinovich said Ramsey was ejected for a punch and no official saw a spit.
+- Unverified: the CBS Sports article could not be fetched, so it is not cited. The two SI articles disagree on whether Chase was also fined (Nov. 24 says "fined and suspended for one game"; Nov. 27 says only suspended). The reason line above avoids the fine. TribLive's page showed no publish date (its embedded posts are dated Nov. 16, 2025).
+- Sources: https://www.si.com/nfl/steelers/onsi/news/bengals-jamarr-chase-apologizes-pittsburgh-steelers ; https://www.si.com/nfl/steelers/onsi/news/jamarr-chase-throws-shade-pittsburgh-steelers-jalen-ramsey ; https://triblive.com/sports/jamarr-chases-apparent-spit-toward-jalen-ramsey-stokes-steelers-bengals-rivalry
 
 ```yaml
   - players: ["Jalen Ramsey", "Ja'Marr Chase"]
     kind: Altercation
     date: "2025-11-16"
-    reason: "Ramsey was ejected for throwing a punch at Chase in a Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase denied it."
+    reason: "Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase was suspended one game."
     sources:
-      - {label: "CBS Sports", url: "https://www.cbssports.com/nfl/news/bengals-steelers-fight-jalen-ramsey-ejected-jamarr-chase-aaron-rodgers"}
+      - {label: "Steelers On SI", url: "https://www.si.com/nfl/steelers/onsi/news/bengals-jamarr-chase-apologizes-pittsburgh-steelers"}
+      - {label: "Steelers On SI", url: "https://www.si.com/nfl/steelers/onsi/news/jamarr-chase-throws-shade-pittsburgh-steelers-jalen-ramsey"}
+      - {label: "TribLive", url: "https://triblive.com/sports/jamarr-chases-apparent-spit-toward-jalen-ramsey-stokes-steelers-bengals-rivalry"}
 ```
 
-## Not listed as candidates
+## 2. Kevin Durant vs. Tyler Herro — Rockets at Heat, 2026-11-16 (7:30 PM ET)
+- Kind: Feud
+- Reason: Durant and Herro each got a technical foul after exchanging words in the first quarter of the Rockets-Heat game in Miami on Feb. 28, 2026 (Heat won 115-105).
+- What the articles say: Larry Brown Sports (Feb. 28, 2026) says both got technicals, they had to be separated, and it wasn't clear what started it. SI (Mar. 1, 2026) says Herro said Durant told him he couldn't guard him, and the two shared a dap after the game. No ejections or fines are mentioned.
+- Unverified: neither article prints the calendar date of the game; I took Feb. 28, 2026 (a Saturday) from the publish date and the "Saturday's game" wording. Other results (leaked video, "burner account" jabs) came from snippets only and were not read, so they are not used.
+- Sources: https://larrybrownsports.com/basketball/kevin-durant-tyler-herro-heated-exchange/743509 ; https://www.si.com/nba/heat/tyler-herro-explains-why-he-exchanged-words-with-kevin-durant-rockets-heat-game
 
-All NBA pairs that turned up were already in config/rivalries.yaml, were not in these games, or were teammates. Pairs found and why they were left out:
+```yaml
+  - players: ["Kevin Durant", "Tyler Herro"]
+    kind: Feud
+    date: "2026-02-28"
+    reason: "Durant and Herro each received a technical foul after exchanging words in the first quarter of the Rockets-Heat game in Miami on Feb. 28, 2026."
+    sources:
+      - {label: "Larry Brown Sports", url: "https://larrybrownsports.com/basketball/kevin-durant-tyler-herro-heated-exchange/743509"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/heat/tyler-herro-explains-why-he-exchanged-words-with-kevin-durant-rockets-heat-game"}
+```
 
-- Jessie Bates III / Travis Kelce (Chiefs at Falcons): Fox News, Sep 20, 2024. Pre-game trash talk on a podcast, older than 12 months, not a fight. Roster status not verified.
-- Khalil Mack / Derrick Henry (Chargers at Ravens): SI, Nov 28, 2024. Post-game comment and reply, older than 12 months. Roster status not verified.
-- Trevon Diggs / Jauan Jennings (49ers at Cowboys): SI, Jul 30, 2023. Instagram exchange, old. Roster status not verified.
-- Dion Dawkins / Micheal Clemons (Bills at Jets): ESPN and CBS Sports, Nov 2023 and Feb 2024. Tunnel spat, old. Roster status not verified. The ESPN page showed no date.
+## Skipped / not usable
+- LeBron James vs. Dillon Brooks (LAL at PHX, Nov. 15): already in rivalries.yaml.
+- Amen Thompson vs. Tyler Herro: already listed. Brooks/Durant and Jalen Green/Amen Thompson (SI, Apr. 9, 2026) involve players not on the same teams in this window's games, so they do not apply.
+- Kris Dunn / Luka Doncic / Jaxson Hayes (Eurohoops, Nov. 26, 2025): Doncic and Dunn are on LAL/LAC, which do not play each other in this window.
+- Dec. 2024 Heat-Rockets fight (Cebu Daily News) and the SAN suspension article: the SAN link redirected to its homepage and was not read.
 
-## Could not verify
-
-- ESPN roster pages (all NFL teams above) were blocked, so current team membership is unconfirmed for every pair.
-- Search results mentioned Jaylen Brown / Cooper Flagg (Mavericks at Celtics) as "beef rumors" that Brown cleared up. Not fetched, not listed.
-- Tyler Herro / Bam Adebayo (Las Vegas exchange, reported by Fox News and Eurohoops): not fetched, and the teams do not meet in the games checked.
+## Coverage gaps (be aware)
+Searches this run were broad, not one per game. Games with no dedicated search and no candidate found: IND@PHI, CHA@LAC, SAS@UTA, DAL@BOS, NYK@TOR, ATL@MIL, OKC@SAC, ORL@BOS, CHI@CLE, MEM@WAS, PHI@BKN, POR@MIN, GSW@NOP, PHX@DEN; NFL NE@DET, KC@ATL, HOU@CLE, MIN@GB, JAX@TEN, MIA@IND, CAR@NO, BUF@NYJ, SEA@LV, LAR@ARI, SF@DAL, LAC@BAL. The Knicks-Raptors search turned up nothing confirmable. "No new candidates" for those games means none were confirmed, not that none exist.
