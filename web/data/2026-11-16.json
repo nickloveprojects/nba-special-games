@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_at": "2026-11-15T20:04:29Z",
+ "generated_at": "2026-11-15T22:27:59Z",
  "season": "2026-27",
  "games": 8,
  "entries": [
@@ -482,7 +482,7 @@
    "opponent_logo": "img/teams/ORL.png",
    "matchup": {
     "notes": {
-     "pts": "ORL gives up the 8th-most points to forwards (46.9 a game, 12 games).",
+     "pts": "ORL gives up the 7th-most points to forwards (46.9 a game, 12 games).",
      "reb": "ORL gives up the 26th-most rebounds to forwards (16.4 a game, 12 games).",
      "ast": "ORL gives up the 1st-most assists to forwards (10.0 a game, 12 games)."
     },
@@ -491,7 +491,7 @@
     "stats": {
      "pts": {
       "value": 46.9,
-      "rank": 8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
@@ -508,7 +508,7 @@
       "color": "green"
      }
     },
-    "score": 63,
+    "score": 64,
     "grade": "B",
     "color": "yellow",
     "best": "ast",
@@ -2434,7 +2434,7 @@
       "label": "Pts",
       "proj": 8,
       "lo": 2,
-      "hi": 14
+      "hi": 13
      },
      {
       "label": "Reb",
@@ -2670,12 +2670,8 @@
     "best": "reb",
     "note": "WAS gives up the 8th-most rebounds to forwards (19.8 a game, 13 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Grant (head) is out for Saturday's game against the Nets.",
-    "date": "2026-11-15T15:28Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",

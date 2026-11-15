@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 46,
-    "wind": 14,
-    "gust": 17,
+    "wind": 13,
+    "gust": 16,
     "rain": 2
    },
-   "weather_text": "46\u00b0F, wind 14 mph",
+   "weather_text": "46\u00b0F, wind 13 mph",
    "arena": "Huntington Bank Field",
    "location": "Cleveland, OH",
    "categories": [
@@ -443,12 +443,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 50,
+    "temp": 51,
     "wind": 10,
-    "gust": 15,
+    "gust": 14,
     "rain": 0
    },
-   "weather_text": "50\u00b0F, wind 10 mph",
+   "weather_text": "51\u00b0F, wind 10 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -1441,12 +1441,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 43,
-    "wind": 1,
-    "gust": 1,
+    "temp": 45,
+    "wind": 2,
+    "gust": 4,
     "rain": 0
    },
-   "weather_text": "43\u00b0F, wind 1 mph",
+   "weather_text": "45\u00b0F, wind 2 mph",
    "arena": "Lambeau Field",
    "location": "Green Bay, WI",
    "categories": [
@@ -1849,7 +1849,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.97,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1886,12 +1886,12 @@
    "tip_utc": "2026-11-15T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 55,
-    "wind": 4,
-    "gust": 7,
+    "temp": 56,
+    "wind": 3,
+    "gust": 6,
     "rain": 0
    },
-   "weather_text": "55\u00b0F, wind 4 mph",
+   "weather_text": "56\u00b0F, wind 3 mph",
    "arena": "Nissan Stadium",
    "location": "Nashville, TN",
    "categories": [
@@ -2241,7 +2241,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.88,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2767,6 +2767,34 @@
  ],
  "matchups": [
   {
+   "away": "SEA",
+   "home": "LV",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/SEA.png",
+   "home_logo": "img/nfl/teams/LV.png"
+  },
+  {
+   "away": "LAR",
+   "home": "ARI",
+   "tip": "4:05 PM ET",
+   "away_logo": "img/nfl/teams/LAR.png",
+   "home_logo": "img/nfl/teams/ARI.png"
+  },
+  {
+   "away": "SF",
+   "home": "DAL",
+   "tip": "4:25 PM ET",
+   "away_logo": "img/nfl/teams/SF.png",
+   "home_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "away": "NE",
+   "home": "DET",
+   "tip": "9:30 AM ET",
+   "away_logo": "img/nfl/teams/NE.png",
+   "home_logo": "img/nfl/teams/DET.png"
+  },
+  {
    "away": "KC",
    "home": "ATL",
    "tip": "1:00 PM ET",
@@ -2816,34 +2844,6 @@
    "home_logo": "img/nfl/teams/NYJ.png"
   },
   {
-   "away": "NE",
-   "home": "DET",
-   "tip": "9:30 AM ET",
-   "away_logo": "img/nfl/teams/NE.png",
-   "home_logo": "img/nfl/teams/DET.png"
-  },
-  {
-   "away": "SEA",
-   "home": "LV",
-   "tip": "4:05 PM ET",
-   "away_logo": "img/nfl/teams/SEA.png",
-   "home_logo": "img/nfl/teams/LV.png"
-  },
-  {
-   "away": "LAR",
-   "home": "ARI",
-   "tip": "4:05 PM ET",
-   "away_logo": "img/nfl/teams/LAR.png",
-   "home_logo": "img/nfl/teams/ARI.png"
-  },
-  {
-   "away": "SF",
-   "home": "DAL",
-   "tip": "4:25 PM ET",
-   "away_logo": "img/nfl/teams/SF.png",
-   "home_logo": "img/nfl/teams/DAL.png"
-  },
-  {
    "away": "PIT",
    "home": "CIN",
    "tip": "8:20 PM ET",
@@ -2852,5 +2852,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-15T20:04:41+00:00"
+ "generated_at": "2026-11-15T22:28:03+00:00"
 }

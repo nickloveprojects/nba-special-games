@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T20:03:33Z",
+ "generated_at": "2026-11-15T22:27:06Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -575,7 +575,7 @@
     "minutes": 25,
     "sims": 1000,
     "opp_factor": 1.03,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3163,7 +3163,7 @@
     "minutes": 20,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3692,7 +3692,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4692,7 +4692,7 @@
     "minutes": 29,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -5205,11 +5205,11 @@
     "note": "BOS gives up the 19th-most rebounds to guards (14.5 a game, 12 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
-    "date": "2026-11-15T18:14Z"
+    "status": "Out",
+    "note": "Irving (knee) has been ruled out for Sunday's game against the Celtics.",
+    "date": "2026-11-15T21:20Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -5222,33 +5222,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 22,
-      "lo": 9,
-      "hi": 33
-     },
-     {
-      "label": "Reb",
-      "proj": 3.4,
-      "lo": 0,
-      "hi": 6
-     },
-     {
-      "label": "Ast",
-      "proj": 4.3,
-      "lo": 2,
-      "hi": 6
-     }
-    ],
-    "games_used": 11,
-    "minutes": 31,
-    "sims": 1000,
-    "opp_factor": 0.97,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4711297,
@@ -6124,7 +6098,7 @@
     "minutes": 23,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
