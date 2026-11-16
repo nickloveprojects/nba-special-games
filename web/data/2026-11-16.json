@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_at": "2026-11-15T22:27:59Z",
+ "generated_at": "2026-11-16T12:34:26Z",
  "season": "2026-27",
  "games": 8,
  "entries": [
@@ -217,7 +217,7 @@
    "opponent_logo": "img/teams/NOP.png",
    "matchup": {
     "notes": {
-     "pts": "NOP gives up the 7th-most points to guards (60.1 a game, 14 games).",
+     "pts": "NOP gives up the 8th-most points to guards (60.1 a game, 14 games).",
      "reb": "NOP gives up the 29th-most rebounds to guards (11.5 a game, 14 games).",
      "ast": "NOP gives up the 11th-most assists to guards (16.1 a game, 14 games)."
     },
@@ -226,7 +226,7 @@
     "stats": {
      "pts": {
       "value": 60.1,
-      "rank": 7,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
@@ -243,11 +243,11 @@
       "color": "yellow"
      }
     },
-    "score": 49,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "NOP gives up the 7th-most points to guards (60.1 a game, 14 games)."
+    "note": "NOP gives up the 8th-most points to guards (60.1 a game, 14 games)."
    },
    "injury": {
     "status": "Out",
@@ -257,293 +257,6 @@
    "status_note": "Out",
    "career": [],
    "projection": null
-  },
-  {
-   "player_id": 4065648,
-   "name": "Jayson Tatum",
-   "team": "BOS",
-   "team_name": "Celtics",
-   "opponent": "ORL",
-   "opponent_name": "Magic",
-   "position": "F",
-   "jersey": "0",
-   "home_away": "home",
-   "game_id": "401909994",
-   "game_kind": "Regular season",
-   "tip": "7:00 PM ET",
-   "tip_utc": "2026-11-17T00:00:00+00:00",
-   "arena": "TD Garden",
-   "location": "Boston, MA",
-   "categories": [
-    "Milestone"
-   ],
-   "summary": "Needs 5 FGM to reach 5,000 career field goals made.",
-   "tags": [
-    {
-     "category": "Milestone",
-     "kind": "round",
-     "stat": "fgm",
-     "confidence": "high",
-     "headline": "Needs 5 FGM to reach 5,000 career field goals made.",
-     "needed": 5,
-     "current": 4995,
-     "detail": "Jayson Tatum has 4,995 career regular-season field goals made. Totals are through the last finished game.",
-     "sources": [
-      {
-       "label": "ESPN career totals",
-       "url": "https://www.espn.com/nba/"
-      }
-     ]
-    }
-   ],
-   "score": 30,
-   "stats": {
-    "gp": 11,
-    "min": 34.0,
-    "pts": 26.3,
-    "reb": 6.1,
-    "ast": 7.5
-   },
-   "espn_url": "https://www.espn.com/nba/player/_/id/4065648",
-   "recent": {
-    "form": {
-     "games": [
-      {
-       "gid": "401909968",
-       "date": "2026-11-11",
-       "venue": "TOR",
-       "opp": "TOR",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "98-93",
-       "min": 38,
-       "pts": 24,
-       "reb": 7,
-       "ast": 8,
-       "playoff": false
-      },
-      {
-       "gid": "401909961",
-       "date": "2026-11-10",
-       "venue": "PHI",
-       "opp": "PHI",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "123-101",
-       "min": 32,
-       "pts": 21,
-       "reb": 6,
-       "ast": 4,
-       "playoff": false
-      },
-      {
-       "gid": "401909949",
-       "date": "2026-11-08",
-       "venue": "MIL",
-       "opp": "MIL",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "117-97",
-       "min": 29,
-       "pts": 21,
-       "reb": 4,
-       "ast": 6,
-       "playoff": false
-      },
-      {
-       "gid": "401909288",
-       "date": "2026-11-06",
-       "venue": "CHA",
-       "opp": "CHA",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "119-80",
-       "min": 29,
-       "pts": 34,
-       "reb": 8,
-       "ast": 9,
-       "playoff": false
-      },
-      {
-       "gid": "401909916",
-       "date": "2026-11-02",
-       "venue": "HOU",
-       "opp": "HOU",
-       "tm": "BOS",
-       "home": false,
-       "result": "L",
-       "score": "109-93",
-       "min": 32,
-       "pts": 19,
-       "reb": 6,
-       "ast": 9,
-       "playoff": false
-      }
-     ],
-     "n": 5,
-     "pts": 23.8,
-     "reb": 6.2,
-     "ast": 7.2,
-     "min": 32.0
-    },
-    "vs": {
-     "opp": "ORL",
-     "games": [
-      {
-       "gid": "401909903",
-       "date": "2026-11-01",
-       "venue": "ORL",
-       "opp": "ORL",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "108-97",
-       "min": 34,
-       "pts": 32,
-       "reb": 4,
-       "ast": 7,
-       "playoff": false
-      },
-      {
-       "gid": "401768032",
-       "date": "2025-04-29",
-       "venue": "BOS",
-       "opp": "ORL",
-       "tm": "BOS",
-       "home": true,
-       "result": "W",
-       "score": "120-89",
-       "min": 34,
-       "pts": 35,
-       "reb": 8,
-       "ast": 10,
-       "playoff": true
-      },
-      {
-       "gid": "401768031",
-       "date": "2025-04-27",
-       "venue": "ORL",
-       "opp": "ORL",
-       "tm": "BOS",
-       "home": false,
-       "result": "W",
-       "score": "107-98",
-       "min": 42,
-       "pts": 37,
-       "reb": 14,
-       "ast": 3,
-       "playoff": true
-      },
-      {
-       "gid": "401768030",
-       "date": "2025-04-25",
-       "venue": "ORL",
-       "opp": "ORL",
-       "tm": "BOS",
-       "home": false,
-       "result": "L",
-       "score": "95-93",
-       "min": 39,
-       "pts": 36,
-       "reb": 9,
-       "ast": 4,
-       "playoff": true
-      },
-      {
-       "gid": "401767822",
-       "date": "2025-04-20",
-       "venue": "BOS",
-       "opp": "ORL",
-       "tm": "BOS",
-       "home": true,
-       "result": "W",
-       "score": "103-86",
-       "min": 40,
-       "pts": 17,
-       "reb": 14,
-       "ast": 4,
-       "playoff": true
-      }
-     ],
-     "n": 5,
-     "pts": 31.4,
-     "reb": 9.8,
-     "ast": 5.6,
-     "min": 37.8,
-     "note": "No games vs ORL in the last 3 seasons."
-    }
-   },
-   "headshot": "img/players/4065648.png",
-   "team_logo": "img/teams/BOS.png",
-   "opponent_logo": "img/teams/ORL.png",
-   "matchup": {
-    "notes": {
-     "pts": "ORL gives up the 7th-most points to forwards (46.9 a game, 12 games).",
-     "reb": "ORL gives up the 26th-most rebounds to forwards (16.4 a game, 12 games).",
-     "ast": "ORL gives up the 1st-most assists to forwards (10.0 a game, 12 games)."
-    },
-    "group": "F",
-    "games": 12,
-    "stats": {
-     "pts": {
-      "value": 46.9,
-      "rank": 7,
-      "of": 30,
-      "color": "green"
-     },
-     "reb": {
-      "value": 16.4,
-      "rank": 26,
-      "of": 30,
-      "color": "red"
-     },
-     "ast": {
-      "value": 10.0,
-      "rank": 1,
-      "of": 30,
-      "color": "green"
-     }
-    },
-    "score": 64,
-    "grade": "B",
-    "color": "yellow",
-    "best": "ast",
-    "note": "ORL gives up the 1st-most assists to forwards (10.0 a game, 12 games)."
-   },
-   "injury": null,
-   "status_note": null,
-   "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 25,
-      "lo": 18,
-      "hi": 35
-     },
-     {
-      "label": "Reb",
-      "proj": 6.8,
-      "lo": 4,
-      "hi": 9
-     },
-     {
-      "label": "Ast",
-      "proj": 7.4,
-      "lo": 4,
-      "hi": 9
-     }
-    ],
-    "games_used": 11,
-    "minutes": 34,
-    "sims": 1000,
-    "opp_factor": 1.01,
-    "locked": false
-   }
   },
   {
    "player_id": 4594268,
@@ -769,8 +482,8 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "notes": {
-     "pts": "POR gives up the 8th-most points to guards (59.4 a game, 12 games).",
-     "reb": "POR gives up the 23rd-most rebounds to guards (14.1 a game, 12 games).",
+     "pts": "POR gives up the 9th-most points to guards (59.4 a game, 12 games).",
+     "reb": "POR gives up the 22nd-most rebounds to guards (14.1 a game, 12 games).",
      "ast": "POR gives up the 30th-most assists to guards (12.4 a game, 12 games)."
     },
     "group": "G",
@@ -778,13 +491,13 @@
     "stats": {
      "pts": {
       "value": 59.4,
-      "rank": 8,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 14.1,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -799,7 +512,7 @@
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "POR gives up the 8th-most points to guards (59.4 a game, 12 games)."
+    "note": "POR gives up the 9th-most points to guards (59.4 a game, 12 games)."
    },
    "injury": {
     "status": "Out",
@@ -1006,7 +719,7 @@
     "notes": {
      "pts": "CLE gives up the 30th-most points to forwards (33.6 a game, 14 games).",
      "reb": "CLE gives up the 30th-most rebounds to forwards (14.4 a game, 14 games).",
-     "ast": "CLE gives up the 23rd-most assists to forwards (7.3 a game, 14 games)."
+     "ast": "CLE gives up the 24th-most assists to forwards (7.3 a game, 14 games)."
     },
     "group": "F",
     "games": 14,
@@ -1025,16 +738,16 @@
      },
      "ast": {
       "value": 7.3,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 8,
+    "score": 7,
     "grade": "F",
     "color": "red",
     "best": "ast",
-    "note": "CLE gives up the 23rd-most assists to forwards (7.3 a game, 14 games)."
+    "note": "CLE gives up the 24th-most assists to forwards (7.3 a game, 14 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1118,11 +831,11 @@
    ],
    "score": 14.8,
    "stats": {
-    "gp": 6,
-    "min": 19.8,
-    "pts": 7.5,
-    "reb": 1.8,
-    "ast": 2.5
+    "gp": 8,
+    "min": 20.4,
+    "pts": 9.0,
+    "reb": 1.9,
+    "ast": 3.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277956",
    "recent": {
@@ -1287,8 +1000,8 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 13th-most points to guards (57.1 a game, 13 games).",
-     "reb": "GSW gives up the 18th-most rebounds to guards (14.9 a game, 13 games).",
+     "pts": "GSW gives up the 15th-most points to guards (57.1 a game, 13 games).",
+     "reb": "GSW gives up the 17th-most rebounds to guards (14.9 a game, 13 games).",
      "ast": "GSW gives up the 14th-most assists to guards (15.5 a game, 13 games)."
     },
     "group": "G",
@@ -1296,13 +1009,13 @@
     "stats": {
      "pts": {
       "value": 57.1,
-      "rank": 13,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 14.9,
-      "rank": 18,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -1313,11 +1026,11 @@
       "color": "yellow"
      }
     },
-    "score": 52,
+    "score": 51,
     "grade": "C",
     "color": "yellow",
-    "best": "pts",
-    "note": "GSW gives up the 13th-most points to guards (57.1 a game, 13 games)."
+    "best": "ast",
+    "note": "GSW gives up the 14th-most assists to guards (15.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1585,22 +1298,22 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 24th-most points to forwards (37.4 a game, 11 games).",
-     "reb": "PHX gives up the 23rd-most rebounds to forwards (17.5 a game, 11 games).",
-     "ast": "PHX gives up the 13th-most assists to forwards (8.3 a game, 11 games)."
+     "pts": "PHX gives up the 27th-most points to forwards (36.2 a game, 12 games).",
+     "reb": "PHX gives up the 25th-most rebounds to forwards (17.0 a game, 12 games).",
+     "ast": "PHX gives up the 13th-most assists to forwards (8.3 a game, 12 games)."
     },
     "group": "F",
-    "games": 11,
+    "games": 12,
     "stats": {
      "pts": {
-      "value": 37.4,
-      "rank": 24,
+      "value": 36.2,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 17.5,
-      "rank": 23,
+      "value": 17.0,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -1611,11 +1324,11 @@
       "color": "yellow"
      }
     },
-    "score": 34,
+    "score": 29,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "ast",
-    "note": "PHX gives up the 13th-most assists to forwards (8.3 a game, 11 games)."
+    "note": "PHX gives up the 13th-most assists to forwards (8.3 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1635,13 +1348,13 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 13,
+      "proj": 12,
       "lo": 6,
       "hi": 22
      },
      {
       "label": "Reb",
-      "proj": 4.0,
+      "proj": 3.9,
       "lo": 2,
       "hi": 7
      },
@@ -1655,7 +1368,7 @@
     "games_used": 8,
     "minutes": 29,
     "sims": 1000,
-    "opp_factor": 0.99,
+    "opp_factor": 0.98,
     "locked": false
    }
   },
@@ -1699,11 +1412,11 @@
    ],
    "score": 14.08,
    "stats": {
-    "gp": 11,
-    "min": 9.9,
+    "gp": 12,
+    "min": 10.0,
     "pts": 2.7,
     "reb": 2.8,
-    "ast": 1.2
+    "ast": 1.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6478",
    "recent": {
@@ -1883,37 +1596,37 @@
    "opponent_logo": "img/teams/BOS.png",
    "matchup": {
     "notes": {
-     "pts": "BOS gives up the 18th-most points to centers (13.6 a game, 12 games).",
-     "reb": "BOS gives up the 24th-most rebounds to centers (8.4 a game, 12 games).",
-     "ast": "BOS gives up the 8th-most assists to centers (3.2 a game, 12 games)."
+     "pts": "BOS gives up the 23rd-most points to centers (12.6 a game, 13 games).",
+     "reb": "BOS gives up the 27th-most rebounds to centers (7.8 a game, 13 games).",
+     "ast": "BOS gives up the 13th-most assists to centers (2.9 a game, 13 games)."
     },
     "group": "C",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 13.6,
-      "rank": 18,
+      "value": 12.6,
+      "rank": 23,
       "of": 30,
-      "color": "yellow"
+      "color": "red"
      },
      "reb": {
-      "value": 8.4,
-      "rank": 24,
+      "value": 7.8,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 3.2,
-      "rank": 8,
+      "value": 2.9,
+      "rank": 13,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      }
     },
-    "score": 46,
-    "grade": "C",
-    "color": "yellow",
+    "score": 31,
+    "grade": "D",
+    "color": "red",
     "best": "ast",
-    "note": "BOS gives up the 8th-most assists to centers (3.2 a game, 12 games)."
+    "note": "BOS gives up the 13th-most assists to centers (2.9 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2110,37 +1823,37 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 9th-most points to guards (59.3 a game, 11 games).",
-     "reb": "PHX gives up the 6th-most rebounds to guards (17.0 a game, 11 games).",
-     "ast": "PHX gives up the 18th-most assists to guards (14.6 a game, 11 games)."
+     "pts": "PHX gives up the 6th-most points to guards (62.1 a game, 12 games).",
+     "reb": "PHX gives up the 7th-most rebounds to guards (17.0 a game, 12 games).",
+     "ast": "PHX gives up the 19th-most assists to guards (14.5 a game, 12 games)."
     },
     "group": "G",
-    "games": 11,
+    "games": 12,
     "stats": {
      "pts": {
-      "value": 59.3,
-      "rank": 9,
+      "value": 62.1,
+      "rank": 6,
       "of": 30,
       "color": "green"
      },
      "reb": {
       "value": 17.0,
-      "rank": 6,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 14.6,
-      "rank": 18,
+      "value": 14.5,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 66,
+    "score": 67,
     "grade": "B",
-    "color": "yellow",
-    "best": "reb",
-    "note": "PHX gives up the 6th-most rebounds to guards (17.0 a game, 11 games)."
+    "color": "green",
+    "best": "pts",
+    "note": "PHX gives up the 6th-most points to guards (62.1 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2209,6 +1922,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909986",
+       "date": "2026-11-15",
+       "venue": "PHX",
+       "opp": "LAL",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "131-123",
+       "min": 28,
+       "pts": 26,
+       "reb": 4,
+       "ast": 4,
+       "playoff": false
+      },
+      {
        "gid": "401909979",
        "date": "2026-11-12",
        "venue": "PHX",
@@ -2267,28 +1995,13 @@
        "reb": 3,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909936",
-       "date": "2026-11-05",
-       "venue": "PHX",
-       "opp": "ORL",
-       "tm": "PHX",
-       "home": true,
-       "result": "W",
-       "score": "117-104",
-       "min": 24,
-       "pts": 6,
-       "reb": 2,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 8.8,
-     "reb": 2.2,
-     "ast": 3.6,
-     "min": 23.4
+     "pts": 12.8,
+     "reb": 2.6,
+     "ast": 4.0,
+     "min": 24.2
     },
     "vs": {
      "opp": "DEN",
@@ -2383,7 +2096,7 @@
    "matchup": {
     "notes": {
      "pts": "DEN gives up the 28th-most points to guards (49.0 a game, 11 games).",
-     "reb": "DEN gives up the 26th-most rebounds to guards (13.8 a game, 11 games).",
+     "reb": "DEN gives up the 24th-most rebounds to guards (13.8 a game, 11 games).",
      "ast": "DEN gives up the 15th-most assists to guards (15.3 a game, 11 games)."
     },
     "group": "G",
@@ -2397,7 +2110,7 @@
      },
      "reb": {
       "value": 13.8,
-      "rank": 26,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -2408,7 +2121,7 @@
       "color": "yellow"
      }
     },
-    "score": 24,
+    "score": 26,
     "grade": "D",
     "color": "red",
     "best": "ast",
@@ -2432,13 +2145,13 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 8,
+      "proj": 10,
       "lo": 2,
-      "hi": 13
+      "hi": 25
      },
      {
       "label": "Reb",
-      "proj": 2.5,
+      "proj": 2.6,
       "lo": 1,
       "hi": 4
      },
@@ -2449,8 +2162,8 @@
       "hi": 9
      }
     ],
-    "games_used": 11,
-    "minutes": 24,
+    "games_used": 12,
+    "minutes": 25,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false
@@ -2499,11 +2212,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 11,
-    "min": 23.6,
-    "pts": 10.7,
-    "reb": 2.2,
-    "ast": 2.1
+    "gp": 12,
+    "min": 23.8,
+    "pts": 11.7,
+    "reb": 2.1,
+    "ast": 2.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2991070",
    "recent": {
@@ -2638,37 +2351,37 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "notes": {
-     "pts": "WAS gives up the 17th-most points to forwards (41.8 a game, 13 games).",
-     "reb": "WAS gives up the 8th-most rebounds to forwards (19.8 a game, 13 games).",
-     "ast": "WAS gives up the 28th-most assists to forwards (6.8 a game, 13 games)."
+     "pts": "WAS gives up the 14th-most points to forwards (43.6 a game, 14 games).",
+     "reb": "WAS gives up the 7th-most rebounds to forwards (19.9 a game, 14 games).",
+     "ast": "WAS gives up the 27th-most assists to forwards (7.1 a game, 14 games)."
     },
     "group": "F",
-    "games": 13,
+    "games": 14,
     "stats": {
      "pts": {
-      "value": 41.8,
-      "rank": 17,
+      "value": 43.6,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 19.8,
-      "rank": 8,
+      "value": 19.9,
+      "rank": 7,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 6.8,
-      "rank": 28,
+      "value": 7.1,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 43,
+    "score": 48,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "WAS gives up the 8th-most rebounds to forwards (19.8 a game, 13 games)."
+    "note": "WAS gives up the 7th-most rebounds to forwards (19.9 a game, 14 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2690,7 +2403,7 @@
       "label": "Pts",
       "proj": 12,
       "lo": 5,
-      "hi": 21
+      "hi": 22
      },
      {
       "label": "Reb",
@@ -2708,7 +2421,7 @@
     "games_used": 12,
     "minutes": 24,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -2939,37 +2652,37 @@
    "opponent_logo": "img/teams/HOU.png",
    "matchup": {
     "notes": {
-     "pts": "HOU gives up the 9th-most points to guards (59.3 a game, 13 games).",
-     "reb": "HOU gives up the 25th-most rebounds to guards (14.0 a game, 13 games).",
-     "ast": "HOU gives up the 28th-most assists to guards (13.1 a game, 13 games)."
+     "pts": "HOU gives up the 12th-most points to guards (57.8 a game, 14 games).",
+     "reb": "HOU gives up the 27th-most rebounds to guards (13.5 a game, 14 games).",
+     "ast": "HOU gives up the 27th-most assists to guards (13.1 a game, 14 games)."
     },
     "group": "G",
-    "games": 13,
+    "games": 14,
     "stats": {
      "pts": {
-      "value": 59.3,
-      "rank": 9,
+      "value": 57.8,
+      "rank": 12,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
-      "value": 14.0,
-      "rank": 25,
+      "value": 13.5,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "ast": {
       "value": 13.1,
-      "rank": 28,
+      "rank": 27,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 32,
+    "score": 28,
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "HOU gives up the 9th-most points to guards (59.3 a game, 13 games)."
+    "note": "HOU gives up the 12th-most points to guards (57.8 a game, 14 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2991,7 +2704,7 @@
       "label": "Pts",
       "proj": 5,
       "lo": 0,
-      "hi": 10
+      "hi": 9
      },
      {
       "label": "Reb",
@@ -3009,7 +2722,7 @@
     "games_used": 11,
     "minutes": 14,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 0.99,
     "locked": false
    }
   },
@@ -3052,10 +2765,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 1,
-    "min": 7.0,
-    "pts": 4.0,
-    "reb": 4.0,
+    "gp": 3,
+    "min": 11.3,
+    "pts": 5.7,
+    "reb": 2.0,
     "ast": 0.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4703115",
@@ -3130,8 +2843,8 @@
    "opponent_logo": "img/teams/GSW.png",
    "matchup": {
     "notes": {
-     "pts": "GSW gives up the 13th-most points to guards (57.1 a game, 13 games).",
-     "reb": "GSW gives up the 18th-most rebounds to guards (14.9 a game, 13 games).",
+     "pts": "GSW gives up the 15th-most points to guards (57.1 a game, 13 games).",
+     "reb": "GSW gives up the 17th-most rebounds to guards (14.9 a game, 13 games).",
      "ast": "GSW gives up the 14th-most assists to guards (15.5 a game, 13 games)."
     },
     "group": "G",
@@ -3139,13 +2852,13 @@
     "stats": {
      "pts": {
       "value": 57.1,
-      "rank": 13,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 14.9,
-      "rank": 18,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -3156,11 +2869,11 @@
       "color": "yellow"
      }
     },
-    "score": 52,
+    "score": 51,
     "grade": "C",
     "color": "yellow",
-    "best": "pts",
-    "note": "GSW gives up the 13th-most points to guards (57.1 a game, 13 games)."
+    "best": "ast",
+    "note": "GSW gives up the 14th-most assists to guards (15.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3341,22 +3054,22 @@
    "opponent_logo": "img/teams/PHX.png",
    "matchup": {
     "notes": {
-     "pts": "PHX gives up the 24th-most points to forwards (37.4 a game, 11 games).",
-     "reb": "PHX gives up the 23rd-most rebounds to forwards (17.5 a game, 11 games).",
-     "ast": "PHX gives up the 13th-most assists to forwards (8.3 a game, 11 games)."
+     "pts": "PHX gives up the 27th-most points to forwards (36.2 a game, 12 games).",
+     "reb": "PHX gives up the 25th-most rebounds to forwards (17.0 a game, 12 games).",
+     "ast": "PHX gives up the 13th-most assists to forwards (8.3 a game, 12 games)."
     },
     "group": "F",
-    "games": 11,
+    "games": 12,
     "stats": {
      "pts": {
-      "value": 37.4,
-      "rank": 24,
+      "value": 36.2,
+      "rank": 27,
       "of": 30,
       "color": "red"
      },
      "reb": {
-      "value": 17.5,
-      "rank": 23,
+      "value": 17.0,
+      "rank": 25,
       "of": 30,
       "color": "red"
      },
@@ -3367,11 +3080,11 @@
       "color": "yellow"
      }
     },
-    "score": 34,
+    "score": 29,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "ast",
-    "note": "PHX gives up the 13th-most assists to forwards (8.3 a game, 11 games)."
+    "note": "PHX gives up the 13th-most assists to forwards (8.3 a game, 12 games)."
    },
    "injury": null,
    "status_note": null,
