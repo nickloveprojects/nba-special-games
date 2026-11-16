@@ -477,6 +477,7 @@ a.wx:hover{color:var(--ink)}
     <section id="hx-beef" hidden><h2 class="sec">Beef of the day</h2><div id="hx-bf"></div></section>
     <section id="hx-hero" hidden><h2 class="sec">Hometown hero</h2><div id="hx-hm"></div></section>
   </div>
+  <section id="hx-bd" hidden><h2 class="sec">Birthdays <small id="hx-bdw"></small></h2><div class="mini" style="--c:var(--yellow-line)" id="hx-bdl"></div></section>
 </main>
 <main id="wxv" class="view" hidden>
   <h1>NFL game weather</h1>
@@ -891,6 +892,13 @@ function drawHome(S){
     $("hx-hm").innerHTML=`<div class="mini" style="--c:var(--green)">${hl.map(({x,t})=>{const e=x.e,src=(t.sources||[])[0];
       return `<a class="hrow" href="${esc(x.link)}"><img src="${esc(e.headshot||"")}" alt=""><span><b>${esc(e.name)}</b><em>${esc(t.detail)}</em><small>${esc(label(x))}${src?` \u00b7 Source: ${esc(src.label)}`:""}</small></span></a>`}).join("")}</div>`;
     $("hx-hero").hidden=false;}
+  // birthdays: every player in the shown slates who has a birthday tag (never limited to the top 3)
+  const bd=all.map(x=>({x,t:x.e.tags.find(y=>y.category==="Birthday")})).filter(y=>y.t&&!out(y.x.e));
+  if(bd.length){
+    $("hx-bdw").textContent=[...new Set(bd.map(y=>y.x.when))].join(" + ");
+    $("hx-bdl").innerHTML=bd.map(({x,t})=>{const e=x.e;
+      return `<a class="hrow" href="${esc(x.link)}"><img src="${esc(e.headshot||"")}" alt=""><span><b>${esc(e.name)}</b><em>${esc(t.headline||t.detail)}</em><small>${esc(label(x))}</small></span></a>`}).join("");
+    $("hx-bd").hidden=false;}
 }
 function focusPlayer(id){
   let tries=0;const t=setInterval(()=>{const el=document.querySelector(`.card[data-pid="${id}"]`);
