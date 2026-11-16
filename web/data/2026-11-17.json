@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-16T22:36:13Z",
+ "generated_at": "2026-11-16T23:11:11Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -3858,8 +3858,12 @@
     "best": "ast",
     "note": "SAS gives up the 18th-most assists to forwards (7.9 a game, 14 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
+    "date": "2026-11-16T22:58Z"
+   },
+   "status_note": "Out",
    "career": [],
    "projection": null
   },
