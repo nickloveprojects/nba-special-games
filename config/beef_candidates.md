@@ -1,48 +1,96 @@
-# Beef candidates — run of 2026-11-15
-Games covered: NBA and NFL games on 2026-11-15 and 2026-11-16 (see web/data). Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml; paste only what you approve.
+# Beef candidates — run of 2026-11-16
 
-**Roster caveat for both items:** I could not load ESPN roster pages in this run, so I did NOT confirm that these four players are still on the teams listed. The app only shows a History box when both players are on the two teams that day, so a wrong roster is harmless but check before approving.
+Games checked: NBA 11/16 (ORL@BOS, CHI@CLE, MEM@WAS, PHI@BKN, HOU@MIA, POR@MIN, GSW@NOP, DEN@PHX), NBA 11/17 (NYK@TOR, DET@SAS, UTA@LAC, CHA@LAL, POR@MIN), NFL LAC@BAL (11/16, 8:15 PM ET).
+Every candidate below was confirmed by fetching the article. Nothing was added to rivalries.yaml or rivalries_nfl.yaml.
 
-## 1. Jalen Ramsey vs. Ja'Marr Chase — Steelers at Bengals, 2026-11-15 (8:20 PM ET)
+**Roster caveat:** I confirmed the incident from the articles, but did not confirm that each player is on the same team now and active for tonight's game. web/data only lists a subset of players per team (Keldon Johnson is listed for SAS tonight; Brooks, Murray, Durant, Herro, Duren, Cunningham are not in the entries). Please check availability before pasting.
+
+---
+
+## 1. Dillon Brooks (Suns) vs. Jamal Murray (Nuggets)
+
+- Game: Nuggets @ Suns, Mon 2026-11-16, 9:00 PM ET
 - Kind: Altercation
-- Reason: Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase was suspended one game.
-- What the articles say: SI's Pittsburgh Steelers On SI (Nov. 24 and Nov. 27, 2025) report the two were face to face before Ramsey took a swing, both got offsetting unsportsmanlike penalties, only Ramsey was ejected, Ramsey said Chase spat after the game, and Chase was suspended for the following week. TribLive reports referee Bill Vinovich said Ramsey was ejected for a punch and no official saw a spit.
-- Unverified: the CBS Sports article could not be fetched, so it is not cited. The two SI articles disagree on whether Chase was also fined (Nov. 24 says "fined and suspended for one game"; Nov. 27 says only suspended). The reason line above avoids the fine. TribLive's page showed no publish date (its embedded posts are dated Nov. 16, 2025).
-- Sources: https://www.si.com/nfl/steelers/onsi/news/bengals-jamarr-chase-apologizes-pittsburgh-steelers ; https://www.si.com/nfl/steelers/onsi/news/jamarr-chase-throws-shade-pittsburgh-steelers-jalen-ramsey ; https://triblive.com/sports/jamarr-chases-apparent-spit-toward-jalen-ramsey-stokes-steelers-bengals-rivalry
+- Reason (checkable): Brooks was ejected after kicking Murray in the groin in the Suns-Nuggets game on Oct. 30, 2026; officials upgraded the foul to a Flagrant 2.
+- Also in the articles: Murray said afterward he didn't think the kick was intentional, called Brooks a buddy, and said Brooks "might have flopped a little bit." No league suspension or fine was reported in either article.
+- Sources:
+  - Associated Press via Arizona's Family (KPHO), published Oct. 30, 2026: https://www.azfamily.com/2026/10/31/dillon-brooks-ejected-game-kicking-nuggets-murray-groin/
+  - Associated Press (David Brandt) via WJXT News4JAX, published Oct. 30, 2026: https://www.news4jax.com/sports/2026/10/31/suns-dillon-brooks-ejected-from-game-for-kicking-nuggets-jamal-murray-in-the-groin/
+- Note: Brooks is already in rivalries.yaml with LeBron James and is not paired with Murray there.
 
 ```yaml
-  - players: ["Jalen Ramsey", "Ja'Marr Chase"]
+  - players: ["Dillon Brooks", "Jamal Murray"]
     kind: Altercation
-    date: "2025-11-16"
-    reason: "Ramsey was ejected for throwing a punch at Chase in the Steelers-Bengals game on Nov. 16, 2025; Ramsey said Chase spat on him, and Chase was suspended one game."
+    date: "2026-10-30"
+    reason: "Brooks was ejected after kicking Murray in the groin in a Suns-Nuggets game on Oct. 30, 2026; officials upgraded the foul to a Flagrant 2."
     sources:
-      - {label: "Steelers On SI", url: "https://www.si.com/nfl/steelers/onsi/news/bengals-jamarr-chase-apologizes-pittsburgh-steelers"}
-      - {label: "Steelers On SI", url: "https://www.si.com/nfl/steelers/onsi/news/jamarr-chase-throws-shade-pittsburgh-steelers-jalen-ramsey"}
-      - {label: "TribLive", url: "https://triblive.com/sports/jamarr-chases-apparent-spit-toward-jalen-ramsey-stokes-steelers-bengals-rivalry"}
+      - {label: "AP via Arizona's Family", url: "https://www.azfamily.com/2026/10/31/dillon-brooks-ejected-game-kicking-nuggets-jamal-murray-in-the-groin/"}
+      - {label: "AP via News4JAX", url: "https://www.news4jax.com/sports/2026/10/31/suns-dillon-brooks-ejected-from-game-for-kicking-nuggets-jamal-murray-in-the-groin/"}
 ```
 
-## 2. Kevin Durant vs. Tyler Herro — Rockets at Heat, 2026-11-16 (7:30 PM ET)
-- Kind: Feud
-- Reason: Durant and Herro each got a technical foul after exchanging words in the first quarter of the Rockets-Heat game in Miami on Feb. 28, 2026 (Heat won 115-105).
-- What the articles say: Larry Brown Sports (Feb. 28, 2026) says both got technicals, they had to be separated, and it wasn't clear what started it. SI (Mar. 1, 2026) says Herro said Durant told him he couldn't guard him, and the two shared a dap after the game. No ejections or fines are mentioned.
-- Unverified: neither article prints the calendar date of the game; I took Feb. 28, 2026 (a Saturday) from the publish date and the "Saturday's game" wording. Other results (leaked video, "burner account" jabs) came from snippets only and were not read, so they are not used.
-- Sources: https://larrybrownsports.com/basketball/kevin-durant-tyler-herro-heated-exchange/743509 ; https://www.si.com/nba/heat/tyler-herro-explains-why-he-exchanged-words-with-kevin-durant-rockets-heat-game
+---
+
+## 2. Keldon Johnson (Spurs) vs. Jalen Duren (Pistons)
+
+- Game: Pistons @ Spurs, Tue 2026-11-17, 8:00 PM ET
+- Kind: Altercation
+- Reason (checkable): Johnson and Duren were each called for a technical foul after Johnson pushed Cade Cunningham and Duren pointed his finger in Johnson's face in the Spurs-Pistons game on Feb. 23, 2026.
+- Sources:
+  - Associated Press (Larry Lage) via WDIV ClickOnDetroit, published Feb. 23, 2026: https://www.clickondetroit.com/sports/2026/02/24/tempers-flare-in-spurs-pistons-game-in-a-matchup-of-2-of-nbas-top-teams/
+  - Larry Brown Sports (Darryn Albert), published Feb. 23, 2026: https://larrybrownsports.com/basketball/jalen-duren-keldon-johnson-incident/742687
+- Note: the AP story says Cunningham was called for an offensive foul for knocking Stephon Castle down, which came before Johnson's push. Neither article reports a fine or suspension for this incident. Duren is already in the file with Moussa Diabate and Miles Bridges, but not with Johnson.
+
+```yaml
+  - players: ["Keldon Johnson", "Jalen Duren"]
+    kind: Altercation
+    date: "2026-02-23"
+    reason: "Johnson pushed Cade Cunningham and Duren pointed a finger in Johnson's face in a Spurs-Pistons game on Feb. 23, 2026; Johnson and Duren were each called for a technical foul."
+    sources:
+      - {label: "AP via WDIV", url: "https://www.clickondetroit.com/sports/2026/02/24/tempers-flare-in-spurs-pistons-game-in-a-matchup-of-2-of-nbas-top-teams/"}
+      - {label: "Larry Brown Sports", url: "https://larrybrownsports.com/basketball/jalen-duren-keldon-johnson-incident/742687"}
+```
+
+### 2b. Keldon Johnson (Spurs) vs. Cade Cunningham (Pistons) — same game, same sources
+
+- Kind: Altercation
+- Reason (checkable): After Cunningham was called for an offensive foul for knocking Stephon Castle down, Johnson responded by pushing Cunningham (AP wording; Larry Brown Sports calls it a "light shove").
+
+```yaml
+  - players: ["Keldon Johnson", "Cade Cunningham"]
+    kind: Altercation
+    date: "2026-02-23"
+    reason: "In a Spurs-Pistons game on Feb. 23, 2026, Cunningham was called for an offensive foul for knocking Stephon Castle down, and Johnson responded by pushing Cunningham."
+    sources:
+      - {label: "AP via WDIV", url: "https://www.clickondetroit.com/sports/2026/02/24/tempers-flare-in-spurs-pistons-game-in-a-matchup-of-2-of-nbas-top-teams/"}
+      - {label: "Larry Brown Sports", url: "https://larrybrownsports.com/basketball/jalen-duren-keldon-johnson-incident/742687"}
+```
+
+---
+
+## 3. Kevin Durant (Rockets) vs. Tyler Herro (Heat)
+
+- Game: Rockets @ Heat, Mon 2026-11-16, 7:30 PM ET
+- Kind: Feud (verbal altercation)
+- Reason (checkable): Durant and Herro were jawing through much of the first quarter of a Rockets-Heat game on Feb. 28, 2026, and both were assessed technical fouls; Herro said afterward that Durant was saying he couldn't guard and he said something back.
+- Source (single outlet, lower-tier): EssentiallySports (Pranav Kotai), published Mar. 1, 2026: https://www.essentiallysports.com/nba-active-basketball-news-did-tyler-herro-troll-kevin-durant-over-alleged-burners-fact-checking-truth-behind-heated-altercation/
+- Both players downplayed it: Herro said "Nothing crazy" and Durant said "I got respect for Tyler."
+- The Feb. 28 date comes from an embedded post on that page; the article body says only "Saturday." Consider "2026-02" if you want a looser date.
 
 ```yaml
   - players: ["Kevin Durant", "Tyler Herro"]
     kind: Feud
     date: "2026-02-28"
-    reason: "Durant and Herro each received a technical foul after exchanging words in the first quarter of the Rockets-Heat game in Miami on Feb. 28, 2026."
+    reason: "Durant and Herro jawed at each other in the first quarter of a Rockets-Heat game on Feb. 28, 2026, and both were assessed technical fouls."
     sources:
-      - {label: "Larry Brown Sports", url: "https://larrybrownsports.com/basketball/kevin-durant-tyler-herro-heated-exchange/743509"}
-      - {label: "Sports Illustrated", url: "https://www.si.com/nba/heat/tyler-herro-explains-why-he-exchanged-words-with-kevin-durant-rockets-heat-game"}
+      - {label: "EssentiallySports", url: "https://www.essentiallysports.com/nba-active-basketball-news-did-tyler-herro-troll-kevin-durant-over-alleged-burners-fact-checking-truth-behind-heated-altercation/"}
 ```
 
-## Skipped / not usable
-- LeBron James vs. Dillon Brooks (LAL at PHX, Nov. 15): already in rivalries.yaml.
-- Amen Thompson vs. Tyler Herro: already listed. Brooks/Durant and Jalen Green/Amen Thompson (SI, Apr. 9, 2026) involve players not on the same teams in this window's games, so they do not apply.
-- Kris Dunn / Luka Doncic / Jaxson Hayes (Eurohoops, Nov. 26, 2025): Doncic and Dunn are on LAL/LAC, which do not play each other in this window.
-- Dec. 2024 Heat-Rockets fight (Cebu Daily News) and the SAN suspension article: the SAN link redirected to its homepage and was not read.
+---
 
-## Coverage gaps (be aware)
-Searches this run were broad, not one per game. Games with no dedicated search and no candidate found: IND@PHI, CHA@LAC, SAS@UTA, DAL@BOS, NYK@TOR, ATL@MIL, OKC@SAC, ORL@BOS, CHI@CLE, MEM@WAS, PHI@BKN, POR@MIN, GSW@NOP, PHX@DEN; NFL NE@DET, KC@ATL, HOU@CLE, MIN@GB, JAX@TEN, MIA@IND, CAR@NO, BUF@NYJ, SEA@LV, LAR@ARI, SF@DAL, LAC@BAL. The Knicks-Raptors search turned up nothing confirmable. "No new candidates" for those games means none were confirmed, not that none exist.
+## Claims I could not verify (not listed above)
+
+- A viral clip claims Herro said "I know what burners you run" to Durant. EssentiallySports says no mic picked up what Herro said and the claim is unconfirmed, so it is left out of the reason text.
+- Austin Reaves (Lakers) ejection vs. Hornets (Sportskeeda): the article says the two technicals were for complaining to the referee, not for contact with a Hornets player. No player pair. Dropped.
+- Timberwolves-Trail Blazers, Feb. 24, 2026 (AP via OPB): described as "physical," but no ejection, scuffle or trash talk between named players. Dropped.
+- Warriors-Pelicans, Cavaliers-Bulls, Grizzlies-Wizards, 76ers-Nets, Knicks-Raptors, Celtics-Magic, Clippers-Jazz: searches returned only older or unrelated items (game recaps, teammate disputes, 2023-2025 incidents already covered or outside the window). Nothing fetched and confirmed for a named pair.
+- Chargers-Ravens (NFL): search results were about the 2024 Harbaugh Bowl and a Khalil Mack/Derrick Henry exchange; I did not fetch those articles, so nothing is listed. Khalil Mack's current team is unconfirmed.
