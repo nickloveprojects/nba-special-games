@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-16T12:35:39Z",
+ "generated_at": "2026-11-16T15:50:50Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -2854,11 +2854,11 @@
    ],
    "score": 14.64,
    "stats": {
-    "gp": 10,
-    "min": 28.5,
-    "pts": 8.5,
-    "reb": 4.0,
-    "ast": 4.3
+    "gp": 12,
+    "min": 26.9,
+    "pts": 7.8,
+    "reb": 3.8,
+    "ast": 4.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2991139",
    "recent": {
