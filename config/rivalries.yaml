@@ -161,3 +161,18 @@ rivalries:
     reason: "Brown was assessed a Flagrant 1 after the two got tangled in a Celtics-Heat game in February 2024. Robinson called it \"a dirty play\" and Brown said Robinson \"knew exactly what he was doing.\""
     sources:
       - {label: "FadeAway World", url: "https://fadeawayworld.net/leaked-audio-fiery-trash-talk-jaylen-brown-duncan-robinson-flagrant-foul"}
+  - players: ["Tyler Herro", "Bam Adebayo"]
+    kind: Backstory
+    date: "2026-07-10"
+    reason: "Former Heat teammates; on July 10, 2026, Adebayo reportedly struck Herro during an altercation in Las Vegas over critical comments Herro had reportedly made about him (AP, citing an anonymous source). Herro has since been traded to the Bucks."
+    sources:
+      - {label: "FOX Sports (AP)", url: "https://www.foxsports.com/articles/nba/former-heat-teammates-bam-adebayo-tyler-herro-have-brief-altercation-in-las-vegas-ap-source-says"}
+      - {label: "Milwaukee Bucks On SI", url: "https://www.si.com/nba/bucks/onsi/how-tyler-herro-bucks-responded-to-the-altercation-with-bam-adebayo-01kx8s1zh486"}
+  - players: ["Giannis Antetokounmpo", "Tyler Herro"]
+    kind: Backstory
+    date: "2026-06"
+    reason: "The Bucks traded Antetokounmpo to the Heat in June 2026 in a package that sent Herro to Milwaukee; Nov. 18, 2026 is Antetokounmpo's first game against the Bucks as a Heat player."
+    sources:
+      - {label: "NBC Sports", url: "https://www.nbcsports.com/nba/news/milwaukee-trading-giannis-antetokounmpo-to-miami-for-package-including-tyler-herro-three-first-round-picks"}
+      - {label: "ClutchPoints", url: "https://clutchpoints.com/nba/miami-heat/heat-news-when-giannis-antetokounmpo-will-return-milwaukee-first-time-bucks-trade"}
+      - {label: "FOX 11", url: "https://fox11online.com/sports/bucks-and-nba/bucks-schedule-released-giannis-returns-to-milwaukee-on-jan-28"}
