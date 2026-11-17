@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 6,
-    "gust": 15,
-    "rain": 20
+    "temp": 57,
+    "wind": 9,
+    "gust": 20,
+    "rain": 15
    },
-   "weather_text": "58\u00b0F, wind 6 mph",
+   "weather_text": "57\u00b0F, wind 9 mph",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
-    "wind": 9,
-    "gust": 20,
-    "rain": 28
+    "temp": 57,
+    "wind": 12,
+    "gust": 26,
+    "rain": 32
    },
-   "weather_text": "56\u00b0F, wind 9 mph",
+   "weather_text": "57\u00b0F, wind 12 mph, 32% rain",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
-    "wind": 6,
-    "gust": 17,
-    "rain": 28
+    "temp": 58,
+    "wind": 10,
+    "gust": 24,
+    "rain": 26
    },
-   "weather_text": "56\u00b0F, wind 6 mph",
+   "weather_text": "58\u00b0F, wind 10 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1055,18 +1055,18 @@
       "label": "Rec",
       "proj": 2.1,
       "lo": 0.0,
-      "hi": 2.8
+      "hi": 2.7
      },
      {
       "label": "Rec yds",
       "proj": 27,
       "lo": 0,
-      "hi": 45
+      "hi": 43
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.11,
     "locked": false
    },
@@ -1215,12 +1215,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 50,
-    "wind": 16,
-    "gust": 21,
-    "rain": 0
+    "temp": 48,
+    "wind": 18,
+    "gust": 27,
+    "rain": 5
    },
-   "weather_text": "50\u00b0F, wind 16 mph",
+   "weather_text": "48\u00b0F, wind 18 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-17T14:20:58+00:00"
+ "generated_at": "2026-11-17T22:44:42+00:00"
 }

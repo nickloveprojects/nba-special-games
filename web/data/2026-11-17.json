@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17T14:15:51Z",
+ "generated_at": "2026-11-17T22:42:16Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -247,8 +247,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
-    "date": "2026-11-11T22:33Z"
+    "note": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.",
+    "date": "2026-11-17T22:25Z"
    },
    "status_note": "Out",
    "career": [],
@@ -775,8 +775,12 @@
     "best": "ast",
     "note": "MIN gives up the 13th-most assists to forwards (8.3 a game, 14 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves.",
+    "date": "2026-11-17T19:20Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [],
    "projection": {
     "lines": [
@@ -3959,11 +3963,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 2,
-    "min": 7.0,
+    "gp": 3,
+    "min": 7.3,
     "pts": 2.0,
-    "reb": 1.0,
-    "ast": 0.0
+    "reb": 0.7,
+    "ast": 0.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2990962",
    "recent": {
