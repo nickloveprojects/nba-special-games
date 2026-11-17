@@ -1,0 +1,250 @@
+{
+ "date": "2026-11-23",
+ "sport": "nfl",
+ "week": 11,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 2976212,
+   "name": "Stefon Diggs",
+   "team": "WSH",
+   "team_name": "Commanders",
+   "team_color": "#5a1414",
+   "team_alt": "#ffb612",
+   "opponent": "CIN",
+   "opponent_name": "Bengals",
+   "opponent_color": "#fb4f14",
+   "position": "WR",
+   "jersey": "3",
+   "home_away": "home",
+   "game_id": "401873078",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-24T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 60,
+    "wind": 9,
+    "gust": 21,
+    "rain": 2
+   },
+   "weather_text": "60\u00b0F, wind 9 mph",
+   "arena": "Northwest Stadium",
+   "location": "Landover, MD",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Hometown game.",
+   "score": 3.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/2976212",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 4.6 rec, 50.2 yds, 0.6 TD",
+     "games": [
+      {
+       "date": "2026-11-12",
+       "home": false,
+       "opp": "NYG",
+       "result": "W",
+       "cells": [
+        "6",
+        "10",
+        "83",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-11-08",
+       "home": true,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "3",
+        "5",
+        "51",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": true,
+       "opp": "PHI",
+       "result": "W",
+       "cells": [
+        "3",
+        "6",
+        "38",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-10-19",
+       "home": false,
+       "opp": "SF",
+       "result": "L",
+       "cells": [
+        "6",
+        "7",
+        "44",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-10-04",
+       "home": true,
+       "opp": "IND",
+       "result": "L",
+       "cells": [
+        "5",
+        "9",
+        "35",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "CIN",
+     "n": 3,
+     "text": "avg 4 rec, 47 yds, 0.3 TD",
+     "games": [
+      {
+       "date": "2025-11-23",
+       "home": false,
+       "opp": "CIN",
+       "result": "W",
+       "cells": [
+        "2",
+        "3",
+        "20",
+        "0"
+       ]
+      },
+      {
+       "date": "2023-11-05",
+       "home": false,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "6",
+        "7",
+        "86",
+        "1"
+       ]
+      },
+      {
+       "date": "2023-01-22",
+       "home": true,
+       "opp": "CIN",
+       "result": "L",
+       "cells": [
+        "4",
+        "10",
+        "35",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs CIN in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "CIN gives up the 22nd-most receiving yards to receivers (116.4 a game, 9 games).",
+     "rec": "CIN gives up the 17th-most catches to receivers (9.4 a game, 9 games)."
+    },
+    "group": "WR",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 116.4,
+      "rank": 22,
+      "of": 32,
+      "color": "red"
+     },
+     "rec": {
+      "value": 9.4,
+      "rank": 17,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 40,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rec",
+    "note": "CIN gives up the 17th-most catches to receivers (9.4 a game, 9 games)."
+   },
+   "career": [
+    {
+     "label": "Hometown games",
+     "text": " In his hometown area: 5 times (avg 4.6 rec, 53.6 yds, 0.2 TD).",
+     "scope": "since 2019"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rec",
+      "proj": 4.3,
+      "lo": 2.8,
+      "hi": 5.7
+     },
+     {
+      "label": "Rec yds",
+      "proj": 48,
+      "lo": 27,
+      "hi": 87
+     }
+    ],
+    "games_used": 8,
+    "sims": 1000,
+    "weather_factor": 0.97,
+    "opp_factor": 0.97,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "high",
+     "headline": "Hometown game.",
+     "detail": "Born in Gaithersburg, MD, about 24 miles from the stadium.",
+     "sources": [
+      {
+       "label": "Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q752719"
+      }
+     ]
+    }
+   ],
+   "headshot": "img/nfl/players/2976212.png",
+   "team_logo": "img/nfl/teams/WSH.png",
+   "opponent_logo": "img/nfl/teams/CIN.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "CIN",
+   "home": "WSH",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/CIN.png",
+   "home_logo": "img/nfl/teams/WSH.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-17T14:21:38+00:00"
+}

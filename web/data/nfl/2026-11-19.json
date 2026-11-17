@@ -1,0 +1,211 @@
+{
+ "date": "2026-11-19",
+ "sport": "nfl",
+ "week": 11,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 2971281,
+   "name": "Pharaoh Brown",
+   "team": "IND",
+   "team_name": "Colts",
+   "team_color": "#003b75",
+   "team_alt": "#ffffff",
+   "opponent": "HOU",
+   "opponent_name": "Texans",
+   "opponent_color": "#021018",
+   "position": "TE",
+   "jersey": "49",
+   "home_away": "away",
+   "game_id": "401873066",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-11-20T01:15:00+00:00",
+   "weather": {
+    "indoor": true,
+    "roof": "retractable"
+   },
+   "weather_text": "Retractable roof, open or closed unknown: not adjusted",
+   "arena": "Reliant Stadium",
+   "location": "Houston, TX",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Texans, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/2971281",
+   "recent": {
+    "cols": [
+     "REC",
+     "TGT",
+     "YDS",
+     "TD"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 0.2 rec, 1.4 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-15",
+       "home": true,
+       "opp": "MIA",
+       "result": "W",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "TEN",
+       "result": "L",
+       "cells": [
+        "1",
+        "1",
+        "7",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-01-04",
+       "home": false,
+       "opp": "LAR",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2025-12-21",
+       "home": true,
+       "opp": "ATL",
+       "result": "L",
+       "cells": [
+        "0",
+        "0",
+        "0",
+        "0"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "HOU",
+     "n": 2,
+     "text": "avg 1.5 rec, 6 yds, 0 TD",
+     "games": [
+      {
+       "date": "2025-12-14",
+       "home": false,
+       "opp": "HOU",
+       "result": "L",
+       "cells": [
+        "2",
+        "2",
+        "1",
+        "0"
+       ]
+      },
+      {
+       "date": "2022-12-04",
+       "home": false,
+       "opp": "HOU",
+       "result": "W",
+       "cells": [
+        "1",
+        "1",
+        "11",
+        "0"
+       ]
+      }
+     ],
+     "note": "No games vs HOU in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rec_yds": "HOU gives up the 17th-most receiving yards to tight ends (48.9 a game, 9 games).",
+     "rec": "HOU gives up the 21st-most catches to tight ends (4.6 a game, 9 games)."
+    },
+    "group": "TE",
+    "games": 9,
+    "stats": {
+     "rec_yds": {
+      "value": 48.9,
+      "rank": 17,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec": {
+      "value": 4.6,
+      "rank": 21,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rec_yds": "REC YDS",
+     "rec": "REC"
+    },
+    "score": 42,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rec_yds",
+    "note": "HOU gives up the 17th-most receiving yards to tight ends (48.9 a game, 9 games)."
+   },
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Texans.",
+     "detail": "Played for the Texans from 2020 to 2022 (29 games).",
+     "how_left": "Released TE Pharaoh Brown. (Oct 4, 2022)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2022-10-04"
+    }
+   ],
+   "headshot": "img/nfl/players/2971281.png",
+   "team_logo": "img/nfl/teams/IND.png",
+   "opponent_logo": "img/nfl/teams/HOU.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "IND",
+   "home": "HOU",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/IND.png",
+   "home_logo": "img/nfl/teams/HOU.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-17T14:19:55+00:00"
+}

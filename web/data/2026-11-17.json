@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-16T23:11:11Z",
+ "generated_at": "2026-11-17T14:15:51Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -213,16 +213,16 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 25th-most points to forwards (36.5 a game, 13 games).",
+     "pts": "NYK gives up the 26th-most points to forwards (36.5 a game, 13 games).",
      "reb": "NYK gives up the 22nd-most rebounds to forwards (17.3 a game, 13 games).",
-     "ast": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+     "ast": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
     },
     "group": "F",
     "games": 13,
     "stats": {
      "pts": {
       "value": 36.5,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -234,16 +234,16 @@
      },
      "ast": {
       "value": 8.4,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 37,
+    "score": 34,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
-    "note": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+    "note": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
    },
    "injury": {
     "status": "Out",
@@ -478,27 +478,27 @@
    "opponent_logo": "img/teams/POR.png",
    "matchup": {
     "notes": {
-     "pts": "POR gives up the 9th-most points to guards (59.4 a game, 12 games).",
-     "reb": "POR gives up the 22nd-most rebounds to guards (14.1 a game, 12 games).",
-     "ast": "POR gives up the 30th-most assists to guards (12.4 a game, 12 games)."
+     "pts": "POR gives up the 8th-most points to guards (58.9 a game, 13 games).",
+     "reb": "POR gives up the 23rd-most rebounds to guards (14.2 a game, 13 games).",
+     "ast": "POR gives up the 30th-most assists to guards (12.5 a game, 13 games)."
     },
     "group": "G",
-    "games": 12,
+    "games": 13,
     "stats": {
      "pts": {
-      "value": 59.4,
-      "rank": 9,
+      "value": 58.9,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 14.1,
-      "rank": 22,
+      "value": 14.2,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
      "ast": {
-      "value": 12.4,
+      "value": 12.5,
       "rank": 30,
       "of": 30,
       "color": "red"
@@ -508,7 +508,7 @@
     "grade": "D",
     "color": "red",
     "best": "pts",
-    "note": "POR gives up the 9th-most points to guards (59.4 a game, 12 games)."
+    "note": "POR gives up the 8th-most points to guards (58.9 a game, 13 games)."
    },
    "injury": {
     "status": "Out",
@@ -518,6 +518,293 @@
    "status_note": "Out",
    "career": [],
    "projection": null
+  },
+  {
+   "player_id": 4683021,
+   "name": "Deni Avdija",
+   "team": "POR",
+   "team_name": "Trail Blazers",
+   "opponent": "MIN",
+   "opponent_name": "Timberwolves",
+   "position": "F",
+   "jersey": "8",
+   "home_away": "away",
+   "game_id": "401910003",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-18T01:00:00+00:00",
+   "arena": "Target Center",
+   "location": "Minneapolis, MN",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 43 PTS to reach 6,000 career points.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "round",
+     "stat": "pts",
+     "confidence": "high",
+     "headline": "Needs 43 PTS to reach 6,000 career points.",
+     "needed": 43,
+     "current": 5957,
+     "detail": "Deni Avdija has 5,957 career regular-season points. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 30,
+   "stats": {
+    "gp": 12,
+    "min": 32.7,
+    "pts": 23.9,
+    "reb": 6.1,
+    "ast": 6.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4683021",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909999",
+       "date": "2026-11-16",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": false,
+       "result": "L",
+       "score": "106-98",
+       "min": 30,
+       "pts": 27,
+       "reb": 8,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909303",
+       "date": "2026-11-13",
+       "venue": "SAC",
+       "opp": "SAC",
+       "tm": "POR",
+       "home": false,
+       "result": "W",
+       "score": "120-107",
+       "min": 35,
+       "pts": 34,
+       "reb": 6,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909975",
+       "date": "2026-11-11",
+       "venue": "POR",
+       "opp": "OKC",
+       "tm": "POR",
+       "home": true,
+       "result": "W",
+       "score": "118-108",
+       "min": 35,
+       "pts": 28,
+       "reb": 3,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401909965",
+       "date": "2026-11-10",
+       "venue": "POR",
+       "opp": "OKC",
+       "tm": "POR",
+       "home": true,
+       "result": "W",
+       "score": "123-103",
+       "min": 34,
+       "pts": 24,
+       "reb": 6,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401909944",
+       "date": "2026-11-07",
+       "venue": "POR",
+       "opp": "SAS",
+       "tm": "POR",
+       "home": true,
+       "result": "L",
+       "score": "125-103",
+       "min": 24,
+       "pts": 15,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 25.6,
+     "reb": 5.4,
+     "ast": 4.6,
+     "min": 31.6
+    },
+    "vs": {
+     "opp": "MIN",
+     "games": [
+      {
+       "gid": "401909999",
+       "date": "2026-11-16",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": false,
+       "result": "L",
+       "score": "106-98",
+       "min": 30,
+       "pts": 27,
+       "reb": 8,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401810875",
+       "date": "2026-03-20",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": false,
+       "result": "W",
+       "score": "108-104",
+       "min": 36,
+       "pts": 25,
+       "reb": 8,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401810638",
+       "date": "2026-02-11",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": false,
+       "result": "L",
+       "score": "133-109",
+       "min": 27,
+       "pts": 11,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401809942",
+       "date": "2025-10-22",
+       "venue": "POR",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": true,
+       "result": "L",
+       "score": "118-114",
+       "min": 33,
+       "pts": 20,
+       "reb": 7,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401705313",
+       "date": "2025-02-08",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "POR",
+       "home": false,
+       "result": "L",
+       "score": "114-98",
+       "min": 23,
+       "pts": 8,
+       "reb": 3,
+       "ast": 4,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 18.2,
+     "reb": 6.2,
+     "ast": 3.4,
+     "min": 29.8,
+     "note": "No games vs MIN in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4683021.png",
+   "team_logo": "img/teams/POR.png",
+   "opponent_logo": "img/teams/MIN.png",
+   "matchup": {
+    "notes": {
+     "pts": "MIN gives up the 19th-most points to forwards (41.6 a game, 14 games).",
+     "reb": "MIN gives up the 20th-most rebounds to forwards (17.7 a game, 14 games).",
+     "ast": "MIN gives up the 13th-most assists to forwards (8.3 a game, 14 games)."
+    },
+    "group": "F",
+    "games": 14,
+    "stats": {
+     "pts": {
+      "value": 41.6,
+      "rank": 19,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 17.7,
+      "rank": 20,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 8.3,
+      "rank": 13,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 44,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "MIN gives up the 13th-most assists to forwards (8.3 a game, 14 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 24,
+      "lo": 17,
+      "hi": 33
+     },
+     {
+      "label": "Reb",
+      "proj": 6.2,
+      "lo": 3,
+      "hi": 9
+     },
+     {
+      "label": "Ast",
+      "proj": 6.2,
+      "lo": 2,
+      "hi": 11
+     }
+    ],
+    "games_used": 13,
+    "minutes": 33,
+    "sims": 1000,
+    "opp_factor": 0.99,
+    "locked": false
+   }
   },
   {
    "player_id": 4395723,
@@ -728,18 +1015,18 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 10th-most points to forwards (44.2 a game, 12 games).",
+     "pts": "DET gives up the 12th-most points to forwards (44.2 a game, 12 games).",
      "reb": "DET gives up the 2nd-most rebounds to forwards (21.8 a game, 12 games).",
-     "ast": "DET gives up the 16th-most assists to forwards (8.2 a game, 12 games)."
+     "ast": "DET gives up the 15th-most assists to forwards (8.2 a game, 12 games)."
     },
     "group": "F",
     "games": 12,
     "stats": {
      "pts": {
       "value": 44.2,
-      "rank": 10,
+      "rank": 12,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 21.8,
@@ -749,12 +1036,12 @@
      },
      "ast": {
       "value": 8.2,
-      "rank": 16,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 71,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -1118,10 +1405,10 @@
    ],
    "score": 15.21,
    "stats": {
-    "gp": 12,
-    "min": 17.8,
-    "pts": 10.3,
-    "reb": 1.8,
+    "gp": 13,
+    "min": 18.2,
+    "pts": 10.7,
+    "reb": 1.7,
     "ast": 2.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277811",
@@ -1242,37 +1529,37 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 14th-most points to guards (57.5 a game, 13 games).",
-     "reb": "CHA gives up the 10th-most rebounds to guards (16.5 a game, 13 games).",
-     "ast": "CHA gives up the 12th-most assists to guards (16.0 a game, 13 games)."
+     "pts": "CHA gives up the 13th-most points to guards (57.5 a game, 13 games).",
+     "reb": "CHA gives up the 9th-most rebounds to guards (16.5 a game, 13 games).",
+     "ast": "CHA gives up the 11th-most assists to guards (16.0 a game, 13 games)."
     },
     "group": "G",
     "games": 13,
     "stats": {
      "pts": {
       "value": 57.5,
-      "rank": 14,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 16.5,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 16.0,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 62,
+    "score": 66,
     "grade": "B",
     "color": "yellow",
     "best": "reb",
-    "note": "CHA gives up the 10th-most rebounds to guards (16.5 a game, 13 games)."
+    "note": "CHA gives up the 9th-most rebounds to guards (16.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1458,16 +1745,16 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 18th-most points to guards (55.5 a game, 13 games).",
+     "pts": "NYK gives up the 19th-most points to guards (55.5 a game, 13 games).",
      "reb": "NYK gives up the 14th-most rebounds to guards (15.8 a game, 13 games).",
-     "ast": "NYK gives up the 27th-most assists to guards (13.1 a game, 13 games)."
+     "ast": "NYK gives up the 28th-most assists to guards (13.1 a game, 13 games)."
     },
     "group": "G",
     "games": 13,
     "stats": {
      "pts": {
       "value": 55.5,
-      "rank": 18,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -1479,14 +1766,14 @@
      },
      "ast": {
       "value": 13.1,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 36,
+    "score": 33,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "reb",
     "note": "NYK gives up the 14th-most rebounds to guards (15.8 a game, 13 games)."
    },
@@ -1641,18 +1928,18 @@
    "opponent_logo": "img/teams/DET.png",
    "matchup": {
     "notes": {
-     "pts": "DET gives up the 10th-most points to forwards (44.2 a game, 12 games).",
+     "pts": "DET gives up the 12th-most points to forwards (44.2 a game, 12 games).",
      "reb": "DET gives up the 2nd-most rebounds to forwards (21.8 a game, 12 games).",
-     "ast": "DET gives up the 16th-most assists to forwards (8.2 a game, 12 games)."
+     "ast": "DET gives up the 15th-most assists to forwards (8.2 a game, 12 games)."
     },
     "group": "F",
     "games": 12,
     "stats": {
      "pts": {
       "value": 44.2,
-      "rank": 10,
+      "rank": 12,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "reb": {
       "value": 21.8,
@@ -1662,12 +1949,12 @@
      },
      "ast": {
       "value": 8.2,
-      "rank": 16,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 71,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -1906,16 +2193,16 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 18th-most points to guards (55.5 a game, 13 games).",
+     "pts": "NYK gives up the 19th-most points to guards (55.5 a game, 13 games).",
      "reb": "NYK gives up the 14th-most rebounds to guards (15.8 a game, 13 games).",
-     "ast": "NYK gives up the 27th-most assists to guards (13.1 a game, 13 games)."
+     "ast": "NYK gives up the 28th-most assists to guards (13.1 a game, 13 games)."
     },
     "group": "G",
     "games": 13,
     "stats": {
      "pts": {
       "value": 55.5,
-      "rank": 18,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -1927,14 +2214,14 @@
      },
      "ast": {
       "value": 13.1,
-      "rank": 27,
+      "rank": 28,
       "of": 30,
       "color": "red"
      }
     },
-    "score": 36,
+    "score": 33,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "reb",
     "note": "NYK gives up the 14th-most rebounds to guards (15.8 a game, 13 games)."
    },
@@ -2020,11 +2307,11 @@
    ],
    "score": 14.8,
    "stats": {
-    "gp": 11,
-    "min": 32.7,
-    "pts": 16.5,
+    "gp": 13,
+    "min": 33.7,
+    "pts": 16.4,
     "reb": 5.4,
-    "ast": 2.4
+    "ast": 2.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3934719",
    "recent": {
@@ -2204,7 +2491,7 @@
    "opponent_logo": "img/teams/TOR.png",
    "matchup": {
     "notes": {
-     "pts": "TOR gives up the 22nd-most points to forwards (38.5 a game, 13 games).",
+     "pts": "TOR gives up the 23rd-most points to forwards (38.5 a game, 13 games).",
      "reb": "TOR gives up the 29th-most rebounds to forwards (15.1 a game, 13 games).",
      "ast": "TOR gives up the 30th-most assists to forwards (6.2 a game, 13 games)."
     },
@@ -2213,7 +2500,7 @@
     "stats": {
      "pts": {
       "value": 38.5,
-      "rank": 22,
+      "rank": 23,
       "of": 30,
       "color": "red"
      },
@@ -2230,11 +2517,11 @@
       "color": "red"
      }
     },
-    "score": 10,
+    "score": 9,
     "grade": "F",
     "color": "red",
     "best": "pts",
-    "note": "TOR gives up the 22nd-most points to forwards (38.5 a game, 13 games)."
+    "note": "TOR gives up the 23rd-most points to forwards (38.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2502,16 +2789,16 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 25th-most points to forwards (36.5 a game, 13 games).",
+     "pts": "NYK gives up the 26th-most points to forwards (36.5 a game, 13 games).",
      "reb": "NYK gives up the 22nd-most rebounds to forwards (17.3 a game, 13 games).",
-     "ast": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+     "ast": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
     },
     "group": "F",
     "games": 13,
     "stats": {
      "pts": {
       "value": 36.5,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -2523,16 +2810,16 @@
      },
      "ast": {
       "value": 8.4,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 37,
+    "score": 34,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
-    "note": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+    "note": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2741,7 +3028,7 @@
    "matchup": {
     "notes": {
      "pts": "LAC gives up the 10th-most points to centers (15.7 a game, 12 games).",
-     "reb": "LAC gives up the 15th-most rebounds to centers (9.5 a game, 12 games).",
+     "reb": "LAC gives up the 17th-most rebounds to centers (9.5 a game, 12 games).",
      "ast": "LAC gives up the 16th-most assists to centers (2.8 a game, 12 games)."
     },
     "group": "C",
@@ -2755,7 +3042,7 @@
      },
      "reb": {
       "value": 9.5,
-      "rank": 15,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      },
@@ -2766,7 +3053,7 @@
       "color": "yellow"
      }
     },
-    "score": 56,
+    "score": 54,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
@@ -3038,8 +3325,8 @@
    "opponent_logo": "img/teams/UTA.png",
    "matchup": {
     "notes": {
-     "pts": "UTA gives up the 17th-most points to guards (56.8 a game, 14 games).",
-     "reb": "UTA gives up the 17th-most rebounds to guards (14.9 a game, 14 games).",
+     "pts": "UTA gives up the 16th-most points to guards (56.8 a game, 14 games).",
+     "reb": "UTA gives up the 19th-most rebounds to guards (14.9 a game, 14 games).",
      "ast": "UTA gives up the 25th-most assists to guards (13.6 a game, 14 games)."
     },
     "group": "G",
@@ -3047,13 +3334,13 @@
     "stats": {
      "pts": {
       "value": 56.8,
-      "rank": 17,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 14.9,
-      "rank": 17,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
@@ -3064,11 +3351,11 @@
       "color": "red"
      }
     },
-    "score": 36,
+    "score": 34,
     "grade": "D",
     "color": "yellow",
     "best": "pts",
-    "note": "UTA gives up the 17th-most points to guards (56.8 a game, 14 games)."
+    "note": "UTA gives up the 16th-most points to guards (56.8 a game, 14 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3108,7 +3395,7 @@
     "games_used": 12,
     "minutes": 26,
     "sims": 1000,
-    "opp_factor": 1.0,
+    "opp_factor": 1.01,
     "locked": false
    }
   },
@@ -3336,7 +3623,7 @@
    "opponent_logo": "img/teams/LAL.png",
    "matchup": {
     "notes": {
-     "pts": "LAL gives up the 3rd-most points to guards (65.0 a game, 14 games).",
+     "pts": "LAL gives up the 4th-most points to guards (65.0 a game, 14 games).",
      "reb": "LAL gives up the 5th-most rebounds to guards (17.4 a game, 14 games).",
      "ast": "LAL gives up the 3rd-most assists to guards (17.9 a game, 14 games)."
     },
@@ -3345,7 +3632,7 @@
     "stats": {
      "pts": {
       "value": 65.0,
-      "rank": 3,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
@@ -3362,11 +3649,11 @@
       "color": "green"
      }
     },
-    "score": 91,
+    "score": 90,
     "grade": "A",
     "color": "green",
-    "best": "pts",
-    "note": "LAL gives up the 3rd-most points to guards (65.0 a game, 14 games)."
+    "best": "ast",
+    "note": "LAL gives up the 3rd-most assists to guards (17.9 a game, 14 games)."
    },
    "injury": {
     "status": "Out",
@@ -3585,16 +3872,16 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 25th-most points to forwards (36.5 a game, 13 games).",
+     "pts": "NYK gives up the 26th-most points to forwards (36.5 a game, 13 games).",
      "reb": "NYK gives up the 22nd-most rebounds to forwards (17.3 a game, 13 games).",
-     "ast": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+     "ast": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
     },
     "group": "F",
     "games": 13,
     "stats": {
      "pts": {
       "value": 36.5,
-      "rank": 25,
+      "rank": 26,
       "of": 30,
       "color": "red"
      },
@@ -3606,16 +3893,16 @@
      },
      "ast": {
       "value": 8.4,
-      "rank": 11,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 37,
+    "score": 34,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
-    "note": "NYK gives up the 11th-most assists to forwards (8.4 a game, 13 games)."
+    "note": "NYK gives up the 12th-most assists to forwards (8.4 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
@@ -3826,16 +4113,16 @@
    "opponent_logo": "img/teams/SAS.png",
    "matchup": {
     "notes": {
-     "pts": "SAS gives up the 21st-most points to forwards (39.2 a game, 14 games).",
+     "pts": "SAS gives up the 22nd-most points to forwards (39.2 a game, 14 games).",
      "reb": "SAS gives up the 22nd-most rebounds to forwards (17.3 a game, 14 games).",
-     "ast": "SAS gives up the 18th-most assists to forwards (7.9 a game, 14 games)."
+     "ast": "SAS gives up the 17th-most assists to forwards (7.9 a game, 14 games)."
     },
     "group": "F",
     "games": 14,
     "stats": {
      "pts": {
       "value": 39.2,
-      "rank": 21,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -3847,7 +4134,7 @@
      },
      "ast": {
       "value": 7.9,
-      "rank": 18,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      }
@@ -3856,7 +4143,7 @@
     "grade": "D",
     "color": "red",
     "best": "ast",
-    "note": "SAS gives up the 18th-most assists to forwards (7.9 a game, 14 games)."
+    "note": "SAS gives up the 17th-most assists to forwards (7.9 a game, 14 games)."
    },
    "injury": {
     "status": "Out",
@@ -4034,37 +4321,37 @@
    "opponent_logo": "img/teams/CHA.png",
    "matchup": {
     "notes": {
-     "pts": "CHA gives up the 14th-most points to guards (57.5 a game, 13 games).",
-     "reb": "CHA gives up the 10th-most rebounds to guards (16.5 a game, 13 games).",
-     "ast": "CHA gives up the 12th-most assists to guards (16.0 a game, 13 games)."
+     "pts": "CHA gives up the 13th-most points to guards (57.5 a game, 13 games).",
+     "reb": "CHA gives up the 9th-most rebounds to guards (16.5 a game, 13 games).",
+     "ast": "CHA gives up the 11th-most assists to guards (16.0 a game, 13 games)."
     },
     "group": "G",
     "games": 13,
     "stats": {
      "pts": {
       "value": 57.5,
-      "rank": 14,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 16.5,
-      "rank": 10,
+      "rank": 9,
       "of": 30,
       "color": "green"
      },
      "ast": {
       "value": 16.0,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 62,
+    "score": 66,
     "grade": "B",
     "color": "yellow",
     "best": "reb",
-    "note": "CHA gives up the 10th-most rebounds to guards (16.5 a game, 13 games)."
+    "note": "CHA gives up the 9th-most rebounds to guards (16.5 a game, 13 games)."
    },
    "injury": null,
    "status_note": null,
