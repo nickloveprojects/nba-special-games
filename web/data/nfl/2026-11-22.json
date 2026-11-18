@@ -21,8 +21,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 59,
+    "wind": 5,
+    "gust": 20,
+    "rain": 28
+   },
+   "weather_text": "59\u00b0F, wind 5 mph",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -183,8 +189,14 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-22T21:25:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 60,
+    "wind": 11,
+    "gust": 33,
+    "rain": 31
+   },
+   "weather_text": "60\u00b0F, wind 11 mph, 31% rain",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -906,8 +918,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 59,
+    "wind": 10,
+    "gust": 28,
+    "rain": 23
+   },
+   "weather_text": "59\u00b0F, wind 10 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1037,18 +1055,18 @@
       "label": "Rec",
       "proj": 2.1,
       "lo": 0.0,
-      "hi": 2.8
+      "hi": 2.7
      },
      {
       "label": "Rec yds",
-      "proj": 28,
+      "proj": 27,
       "lo": 0,
-      "hi": 45
+      "hi": 43
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.12,
     "locked": false
    },
@@ -1195,8 +1213,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 51,
+    "wind": 14,
+    "gust": 18,
+    "rain": 10
+   },
+   "weather_text": "51\u00b0F, wind 14 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1324,20 +1348,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 7.8,
-      "lo": 5.3,
-      "hi": 10.5
+      "proj": 7.5,
+      "lo": 5.1,
+      "hi": 10.2
      },
      {
       "label": "Rec yds",
-      "proj": 65,
-      "lo": 33,
-      "hi": 133
+      "proj": 63,
+      "lo": 32,
+      "hi": 129
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -1436,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-18T14:21:58+00:00"
+ "generated_at": "2026-11-18T22:42:54+00:00"
 }

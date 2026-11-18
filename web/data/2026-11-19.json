@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-18T14:19:57Z",
+ "generated_at": "2026-11-18T22:42:44Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -1052,13 +1052,39 @@
     "note": "MIL gives up the 15th-most rebounds to forwards (18.6 a game, 14 games)."
    },
    "injury": {
-    "status": "Out",
+    "status": "Day-To-Day",
     "note": "Avdija (foot) won't play Tuesday versus Minnesota.",
-    "date": "2026-11-18T00:28Z"
+    "date": "2026-11-18T15:04Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 24,
+      "lo": 17,
+      "hi": 33
+     },
+     {
+      "label": "Reb",
+      "proj": 6.3,
+      "lo": 3,
+      "hi": 9
+     },
+     {
+      "label": "Ast",
+      "proj": 6.3,
+      "lo": 2,
+      "hi": 11
+     }
+    ],
+    "games_used": 13,
+    "minutes": 33,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
   },
   {
    "player_id": 4395723,

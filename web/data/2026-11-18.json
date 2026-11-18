@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-18T14:19:07Z",
+ "generated_at": "2026-11-18T22:42:19Z",
  "season": "2026-27",
  "games": 12,
  "entries": [
@@ -3690,12 +3690,8 @@
     "best": "reb",
     "note": "UTA gives up the 15th-most rebounds to centers (9.9 a game, 15 games)."
    },
-   "injury": {
-    "status": "Out",
-    "note": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-    "date": "2026-11-18T02:57Z"
-   },
-   "status_note": "Out",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -3708,7 +3704,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 14,
+      "lo": 10,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 11.2,
+      "lo": 8,
+      "hi": 15
+     },
+     {
+      "label": "Ast",
+      "proj": 1.9,
+      "lo": 0,
+      "hi": 4
+     }
+    ],
+    "games_used": 14,
+    "minutes": 31,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
   },
   {
    "player_id": 5105623,
@@ -5029,11 +5051,11 @@
     "note": "LAL gives up the 29th-most points to centers (10.8 a game, 15 games)."
    },
    "injury": {
-    "status": "Out",
-    "note": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
-    "date": "2026-11-17T01:08Z"
+    "status": "Day-To-Day",
+    "note": "Hayes (knee) is questionable for Wednesday's game against the Lakers.",
+    "date": "2026-11-18T21:05Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
@@ -5046,7 +5068,33 @@
      "scope": ""
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 9,
+      "lo": 2,
+      "hi": 16
+     },
+     {
+      "label": "Reb",
+      "proj": 5.6,
+      "lo": 5,
+      "hi": 8
+     },
+     {
+      "label": "Ast",
+      "proj": 1.4,
+      "lo": 0,
+      "hi": 3
+     }
+    ],
+    "games_used": 12,
+    "minutes": 24,
+    "sims": 1000,
+    "opp_factor": 0.96,
+    "locked": false
+   }
   },
   {
    "player_id": 2596112,
@@ -5736,8 +5784,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
-    "date": "2026-11-10T21:24Z"
+    "note": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
+    "date": "2026-11-18T17:12Z"
    },
    "status_note": "Out",
    "career": [],
@@ -6305,7 +6353,13 @@
     }
    ],
    "score": 13.97,
-   "stats": null,
+   "stats": {
+    "gp": 1,
+    "min": 5.0,
+    "pts": 2.0,
+    "reb": 0.0,
+    "ast": 0.0
+   },
    "espn_url": "https://www.espn.com/nba/player/_/id/2488653",
    "recent": {
     "form": {
