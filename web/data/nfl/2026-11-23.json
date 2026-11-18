@@ -21,14 +21,8 @@
    "game_kind": "Regular season",
    "tip": "8:15 PM ET",
    "tip_utc": "2026-11-24T01:15:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 53,
-    "wind": 13,
-    "gust": 29,
-    "rain": 3
-   },
-   "weather_text": "53\u00b0F, wind 13 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -159,21 +153,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "CIN gives up the 22nd-most receiving yards to receivers (116.4 a game, 9 games).",
-     "rec": "CIN gives up the 17th-most catches to receivers (9.4 a game, 9 games)."
+     "rec_yds": "CIN gives up the 25th-most receiving yards to receivers (110.1 a game, 9 games).",
+     "rec": "CIN gives up the 19th-most catches to receivers (8.8 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 116.4,
-      "rank": 22,
+      "value": 110.1,
+      "rank": 25,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 9.4,
-      "rank": 17,
+      "value": 8.8,
+      "rank": 19,
       "of": 32,
       "color": "yellow"
      }
@@ -182,11 +176,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 40,
-    "grade": "C",
-    "color": "yellow",
+    "score": 32,
+    "grade": "D",
+    "color": "red",
     "best": "rec",
-    "note": "CIN gives up the 17th-most catches to receivers (9.4 a game, 9 games)."
+    "note": "CIN gives up the 19th-most catches to receivers (8.8 a game, 9 games)."
    },
    "career": [
     {
@@ -200,20 +194,20 @@
      {
       "label": "Rec",
       "proj": 4.3,
-      "lo": 2.8,
+      "lo": 2.9,
       "hi": 5.7
      },
      {
       "label": "Rec yds",
       "proj": 48,
-      "lo": 27,
-      "hi": 87
+      "lo": 28,
+      "hi": 88
      }
     ],
     "games_used": 8,
     "sims": 1000,
-    "weather_factor": 0.97,
-    "opp_factor": 0.97,
+    "weather_factor": 1.0,
+    "opp_factor": 0.95,
     "locked": false
    },
    "tags": [
@@ -246,5 +240,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-17T22:45:15+00:00"
+ "generated_at": "2026-11-18T14:23:37+00:00"
 }
