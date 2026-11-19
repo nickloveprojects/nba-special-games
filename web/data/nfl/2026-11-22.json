@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
-    "wind": 5,
-    "gust": 20,
-    "rain": 28
+    "temp": 55,
+    "wind": 10,
+    "gust": 29,
+    "rain": 17
    },
-   "weather_text": "59\u00b0F, wind 5 mph",
+   "weather_text": "55\u00b0F, wind 10 mph",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 60,
-    "wind": 11,
-    "gust": 33,
-    "rain": 31
+    "temp": 58,
+    "wind": 6,
+    "gust": 15,
+    "rain": 36
    },
-   "weather_text": "60\u00b0F, wind 11 mph, 31% rain",
+   "weather_text": "58\u00b0F, wind 6 mph, 36% rain",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -364,7 +364,7 @@
    "summary": "Faces the 49ers, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3886598",
    "recent": {
     "cols": [
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
-    "wind": 10,
-    "gust": 28,
-    "rain": 23
+    "temp": 58,
+    "wind": 7,
+    "gust": 20,
+    "rain": 13
    },
-   "weather_text": "59\u00b0F, wind 10 mph",
+   "weather_text": "58\u00b0F, wind 7 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1055,18 +1055,18 @@
       "label": "Rec",
       "proj": 2.1,
       "lo": 0.0,
-      "hi": 2.7
+      "hi": 2.8
      },
      {
       "label": "Rec yds",
-      "proj": 27,
+      "proj": 28,
       "lo": 0,
-      "hi": 43
+      "hi": 45
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.12,
     "locked": false
    },
@@ -1217,7 +1217,7 @@
     "indoor": false,
     "temp": 51,
     "wind": 14,
-    "gust": 18,
+    "gust": 19,
     "rain": 10
    },
    "weather_text": "51\u00b0F, wind 14 mph",
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-18T22:42:54+00:00"
+ "generated_at": "2026-11-19T14:25:06+00:00"
 }
