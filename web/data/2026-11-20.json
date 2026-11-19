@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-19T14:24:41Z",
+ "generated_at": "2026-11-19T22:40:25Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -1058,8 +1058,12 @@
     "best": "pts",
     "note": "CLE gives up the 6th-most points to guards (61.0 a game, 16 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland.",
+    "date": "2026-11-19T22:14Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [],
    "projection": {
     "lines": [
@@ -2318,11 +2322,11 @@
    ],
    "score": 15.0,
    "stats": {
-    "gp": 12,
-    "min": 18.3,
-    "pts": 10.8,
+    "gp": 14,
+    "min": 17.9,
+    "pts": 10.4,
     "reb": 3.4,
-    "ast": 1.5
+    "ast": 1.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3150844",
    "recent": {
@@ -4670,11 +4674,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 8,
+    "gp": 10,
     "min": 22.8,
-    "pts": 12.0,
-    "reb": 2.0,
-    "ast": 3.6
+    "pts": 11.4,
+    "reb": 1.8,
+    "ast": 3.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/5101761",
    "recent": {

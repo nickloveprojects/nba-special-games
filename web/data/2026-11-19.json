@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T14:21:47Z",
+ "generated_at": "2026-11-19T22:38:27Z",
  "season": "2026-27",
  "games": 4,
  "entries": [
@@ -563,10 +563,10 @@
    ],
    "score": 30,
    "stats": {
-    "gp": 12,
+    "gp": 13,
     "min": 24.4,
-    "pts": 14.1,
-    "reb": 5.3,
+    "pts": 14.8,
+    "reb": 5.4,
     "ast": 1.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3448",
@@ -1599,36 +1599,14 @@
     "best": "pts",
     "note": "POR gives up the 11th-most points to centers (14.9 a game, 14 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
+    "date": "2026-11-19T19:15Z"
+   },
+   "status_note": "Out",
    "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 8,
-      "lo": 0,
-      "hi": 16
-     },
-     {
-      "label": "Reb",
-      "proj": 5.9,
-      "lo": 3,
-      "hi": 9
-     },
-     {
-      "label": "Ast",
-      "proj": 2.4,
-      "lo": 1,
-      "hi": 5
-     }
-    ],
-    "games_used": 14,
-    "minutes": 26,
-    "sims": 1000,
-    "opp_factor": 1.0,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4683935,
@@ -4135,8 +4113,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Jerome (hip) has been ruled out for Wednesday's game in Cleveland.",
-    "date": "2026-11-17T22:07Z"
+    "note": "Jerome (hip) has been ruled out for Thursday's game against the Warriors.",
+    "date": "2026-11-19T19:07Z"
    },
    "status_note": "Out",
    "career": [
