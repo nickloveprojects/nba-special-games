@@ -21,14 +21,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 54,
-    "wind": 9,
-    "gust": 18,
-    "rain": 52
-   },
-   "weather_text": "54\u00b0F, wind 9 mph, 52% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -189,14 +183,8 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-22T21:25:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 57,
-    "wind": 10,
-    "gust": 22,
-    "rain": 78
-   },
-   "weather_text": "57\u00b0F, wind 10 mph, 78% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -918,14 +906,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 63,
-    "wind": 9,
-    "gust": 19,
-    "rain": 36
-   },
-   "weather_text": "63\u00b0F, wind 9 mph, 36% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1053,20 +1035,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.1,
+      "proj": 2.2,
       "lo": 0.0,
-      "hi": 2.7
+      "hi": 2.8
      },
      {
       "label": "Rec yds",
-      "proj": 27,
+      "proj": 28,
       "lo": 0,
-      "hi": 43
+      "hi": 45
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.12,
     "locked": false
    },
@@ -1213,14 +1195,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 52,
-    "wind": 14,
-    "gust": 18,
-    "rain": 21
-   },
-   "weather_text": "52\u00b0F, wind 14 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1348,20 +1324,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 7.5,
-      "lo": 5.1,
-      "hi": 10.2
+      "proj": 7.8,
+      "lo": 5.3,
+      "hi": 10.5
      },
      {
       "label": "Rec yds",
-      "proj": 63,
-      "lo": 32,
-      "hi": 129
+      "proj": 65,
+      "lo": 33,
+      "hi": 133
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -1460,5 +1436,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-20T14:19:49+00:00"
+ "generated_at": "2026-11-20T22:39:11+00:00"
 }

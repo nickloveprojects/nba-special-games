@@ -1,6 +1,6 @@
 {
  "week": 11,
- "generated_at": "2026-11-20T14:19:50+00:00",
+ "generated_at": "2026-11-20T22:40:16+00:00",
  "games": [
   {
    "id": "401873070",
@@ -21,67 +21,67 @@
       "utc": "2026-11-22T18:00Z",
       "temp": 64,
       "feels": 58,
-      "humidity": 43,
+      "humidity": 49,
       "rain": 1,
       "precip_in": 0.0,
-      "wind": 9,
-      "gust": 12,
-      "dir": 204,
+      "wind": 12,
+      "gust": 19,
+      "dir": 194,
       "dir_txt": "SSW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T19:00Z",
-      "temp": 63,
+      "temp": 64,
       "feels": 58,
-      "humidity": 47,
-      "rain": 9,
+      "humidity": 52,
+      "rain": 2,
       "precip_in": 0.0,
-      "wind": 8,
-      "gust": 14,
-      "dir": 213,
+      "wind": 12,
+      "gust": 20,
+      "dir": 196,
       "dir_txt": "SSW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T20:00Z",
-      "temp": 64,
-      "feels": 59,
-      "humidity": 49,
-      "rain": 9,
+      "temp": 63,
+      "feels": 58,
+      "humidity": 58,
+      "rain": 2,
       "precip_in": 0.0,
-      "wind": 8,
-      "gust": 15,
-      "dir": 203,
+      "wind": 11,
+      "gust": 23,
+      "dir": 193,
       "dir_txt": "SSW",
-      "cloud": 89,
+      "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 61,
-      "feels": 56,
-      "humidity": 59,
-      "rain": 9,
+      "temp": 60,
+      "feels": 55,
+      "humidity": 66,
+      "rain": 2,
       "precip_in": 0.0,
-      "wind": 8,
-      "gust": 17,
-      "dir": 198,
+      "wind": 11,
+      "gust": 24,
+      "dir": 192,
       "dir_txt": "SSW",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (9 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (12 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
      "pct": 3,
      "level": "minor",
      "drivers": [
-      "wind up to 9 mph"
+      "wind up to 12 mph"
      ]
     }
    }
@@ -103,70 +103,70 @@
     "hours": [
      {
       "utc": "2026-11-22T18:00Z",
-      "temp": 56,
-      "feels": 52,
-      "humidity": 89,
-      "rain": 48,
-      "precip_in": 0.04,
-      "wind": 10,
-      "gust": 21,
-      "dir": 274,
-      "dir_txt": "W",
+      "temp": 55,
+      "feels": 50,
+      "humidity": 87,
+      "rain": 31,
+      "precip_in": 0.03,
+      "wind": 11,
+      "gust": 18,
+      "dir": 296,
+      "dir_txt": "WNW",
       "cloud": 100,
-      "cond": "Drizzle"
+      "cond": "Light drizzle"
      },
      {
       "utc": "2026-11-22T19:00Z",
       "temp": 53,
       "feels": 47,
       "humidity": 76,
-      "rain": 71,
+      "rain": 89,
       "precip_in": 0.0,
-      "wind": 13,
-      "gust": 25,
-      "dir": 318,
+      "wind": 11,
+      "gust": 23,
+      "dir": 324,
       "dir_txt": "NW",
       "cloud": 100,
       "cond": "Light drizzle"
      },
      {
       "utc": "2026-11-22T20:00Z",
-      "temp": 52,
-      "feels": 46,
+      "temp": 53,
+      "feels": 47,
       "humidity": 71,
-      "rain": 71,
+      "rain": 89,
       "precip_in": 0.0,
       "wind": 11,
-      "gust": 23,
-      "dir": 317,
+      "gust": 21,
+      "dir": 319,
       "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 52,
-      "feels": 45,
+      "temp": 53,
+      "feels": 46,
       "humidity": 67,
-      "rain": 71,
+      "rain": 89,
       "precip_in": 0.0,
-      "wind": 12,
-      "gust": 20,
-      "dir": 317,
+      "wind": 10,
+      "gust": 19,
+      "dir": 318,
       "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (10 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
      "pct": 3,
      "level": "minor",
      "drivers": [
-      "wind up to 13 mph",
-      "71% chance of precipitation (not scored)"
+      "wind up to 11 mph",
+      "89% chance of precipitation (not scored)"
      ]
     }
    }
@@ -188,57 +188,57 @@
     "hours": [
      {
       "utc": "2026-11-22T18:00Z",
-      "temp": 68,
-      "feels": 64,
-      "humidity": 56,
-      "rain": 0,
+      "temp": 66,
+      "feels": 61,
+      "humidity": 58,
+      "rain": 1,
       "precip_in": 0.0,
-      "wind": 12,
-      "gust": 14,
-      "dir": 311,
+      "wind": 14,
+      "gust": 18,
+      "dir": 312,
       "dir_txt": "NW",
-      "cloud": 0,
-      "cond": "Clear"
+      "cloud": 19,
+      "cond": "Partly cloudy"
      },
      {
       "utc": "2026-11-22T19:00Z",
-      "temp": 69,
-      "feels": 64,
-      "humidity": 53,
+      "temp": 66,
+      "feels": 61,
+      "humidity": 58,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 14,
-      "gust": 14,
-      "dir": 320,
+      "wind": 15,
+      "gust": 17,
+      "dir": 308,
       "dir_txt": "NW",
-      "cloud": 0,
-      "cond": "Clear"
+      "cloud": 20,
+      "cond": "Mostly clear"
      },
      {
       "utc": "2026-11-22T20:00Z",
-      "temp": 67,
-      "feels": 62,
-      "humidity": 56,
+      "temp": 65,
+      "feels": 58,
+      "humidity": 60,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 14,
-      "gust": 15,
-      "dir": 320,
+      "wind": 16,
+      "gust": 18,
+      "dir": 314,
       "dir_txt": "NW",
-      "cloud": 19,
-      "cond": "Clear"
+      "cloud": 58,
+      "cond": "Partly cloudy"
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 66,
-      "feels": 60,
-      "humidity": 59,
+      "temp": 63,
+      "feels": 57,
+      "humidity": 63,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 16,
-      "dir": 329,
-      "dir_txt": "NNW",
+      "gust": 18,
+      "dir": 319,
+      "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      }
@@ -252,10 +252,10 @@
      "drivers": []
     },
     "if_open": {
-     "pct": 3,
-     "level": "minor",
+     "pct": 7,
+     "level": "moderate",
      "drivers": [
-      "wind up to 14 mph"
+      "wind up to 16 mph"
      ]
     }
    }
@@ -300,42 +300,42 @@
     "hours": [
      {
       "utc": "2026-11-22T18:00Z",
-      "temp": 52,
-      "feels": 43,
-      "humidity": 58,
-      "rain": 21,
+      "temp": 50,
+      "feels": 41,
+      "humidity": 61,
+      "rain": 36,
       "precip_in": 0.0,
-      "wind": 14,
-      "gust": 18,
-      "dir": 355,
+      "wind": 15,
+      "gust": 20,
+      "dir": 354,
       "dir_txt": "N",
-      "cloud": 5,
-      "cond": "Clear"
+      "cloud": 10,
+      "cond": "Mostly clear"
      },
      {
       "utc": "2026-11-22T19:00Z",
       "temp": 52,
       "feels": 43,
-      "humidity": 54,
-      "rain": 3,
+      "humidity": 52,
+      "rain": 1,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 17,
-      "dir": 354,
+      "gust": 18,
+      "dir": 358,
       "dir_txt": "N",
       "cloud": 5,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-22T20:00Z",
-      "temp": 52,
+      "temp": 53,
       "feels": 43,
-      "humidity": 52,
-      "rain": 3,
+      "humidity": 49,
+      "rain": 1,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 17,
-      "dir": 355,
+      "gust": 18,
+      "dir": 360,
       "dir_txt": "N",
       "cloud": 5,
       "cond": "Clear"
@@ -344,25 +344,25 @@
       "utc": "2026-11-22T21:00Z",
       "temp": 52,
       "feels": 42,
-      "humidity": 51,
-      "rain": 3,
+      "humidity": 48,
+      "rain": 1,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 17,
-      "dir": 358,
+      "gust": 18,
+      "dir": 4,
       "dir_txt": "N",
       "cloud": 5,
       "cond": "Clear"
      }
     ],
     "effects": [
-     "Breezy (14 mph). A small trim is applied to passing and receiving projections."
+     "Wind of 15 mph. In past games this much wind cut passing about 15%, and our projections trim passing and receiving yards."
     ],
     "impact": {
-     "pct": 3,
-     "level": "minor",
+     "pct": 5,
+     "level": "moderate",
      "drivers": [
-      "wind up to 14 mph"
+      "wind up to 15 mph"
      ]
     }
    }
@@ -384,70 +384,70 @@
     "hours": [
      {
       "utc": "2026-11-22T18:00Z",
-      "temp": 63,
-      "feels": 60,
-      "humidity": 71,
-      "rain": 36,
+      "temp": 59,
+      "feels": 58,
+      "humidity": 87,
+      "rain": 31,
+      "precip_in": 0.01,
+      "wind": 7,
+      "gust": 20,
+      "dir": 41,
+      "dir_txt": "NE",
+      "cloud": 100,
+      "cond": "Light rain"
+     },
+     {
+      "utc": "2026-11-22T19:00Z",
+      "temp": 59,
+      "feels": 58,
+      "humidity": 85,
+      "rain": 67,
       "precip_in": 0.0,
-      "wind": 9,
+      "wind": 7,
       "gust": 19,
-      "dir": 59,
-      "dir_txt": "ENE",
+      "dir": 42,
+      "dir_txt": "NE",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
-      "utc": "2026-11-22T19:00Z",
-      "temp": 65,
-      "feels": 62,
-      "humidity": 70,
-      "rain": 80,
-      "precip_in": 0.0,
-      "wind": 10,
-      "gust": 17,
-      "dir": 57,
-      "dir_txt": "ENE",
-      "cloud": 99,
-      "cond": "Overcast"
-     },
-     {
       "utc": "2026-11-22T20:00Z",
-      "temp": 62,
-      "feels": 60,
-      "humidity": 78,
-      "rain": 80,
+      "temp": 60,
+      "feels": 58,
+      "humidity": 85,
+      "rain": 67,
       "precip_in": 0.0,
-      "wind": 10,
-      "gust": 20,
-      "dir": 41,
+      "wind": 7,
+      "gust": 19,
+      "dir": 44,
       "dir_txt": "NE",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 60,
-      "feels": 57,
-      "humidity": 81,
-      "rain": 80,
+      "temp": 59,
+      "feels": 58,
+      "humidity": 88,
+      "rain": 67,
       "precip_in": 0.0,
-      "wind": 10,
-      "gust": 20,
-      "dir": 32,
-      "dir_txt": "NNE",
+      "wind": 8,
+      "gust": 19,
+      "dir": 40,
+      "dir_txt": "NE",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (9 mph). A small trim is applied to passing and receiving projections."
+     "No weather concerns. Nothing is adjusted in the projections."
     ],
     "impact": {
-     "pct": 3,
+     "pct": 1,
      "level": "minor",
      "drivers": [
-      "wind up to 10 mph",
-      "80% chance of precipitation (not scored)"
+      "wind up to 8 mph",
+      "67% chance of precipitation (not scored)"
      ]
     }
    }
@@ -469,72 +469,68 @@
     "hours": [
      {
       "utc": "2026-11-22T18:00Z",
-      "temp": 54,
-      "feels": 52,
+      "temp": 58,
+      "feels": 57,
       "humidity": 95,
-      "rain": 52,
-      "precip_in": 0.0,
-      "wind": 9,
-      "gust": 18,
-      "dir": 10,
+      "rain": 44,
+      "precip_in": 0.01,
+      "wind": 6,
+      "gust": 13,
+      "dir": 9,
       "dir_txt": "N",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T19:00Z",
-      "temp": 54,
-      "feels": 51,
-      "humidity": 94,
-      "rain": 14,
+      "temp": 57,
+      "feels": 56,
+      "humidity": 96,
+      "rain": 30,
       "precip_in": 0.01,
-      "wind": 9,
-      "gust": 20,
-      "dir": 6,
+      "wind": 6,
+      "gust": 12,
+      "dir": 358,
       "dir_txt": "N",
       "cloud": 100,
-      "cond": "Overcast"
+      "cond": "Light drizzle"
      },
      {
       "utc": "2026-11-22T20:00Z",
-      "temp": 54,
-      "feels": 51,
+      "temp": 56,
+      "feels": 55,
       "humidity": 95,
-      "rain": 14,
-      "precip_in": 0.04,
-      "wind": 8,
-      "gust": 20,
-      "dir": 357,
+      "rain": 30,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 14,
+      "dir": 360,
       "dir_txt": "N",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 54,
-      "feels": 52,
-      "humidity": 94,
-      "rain": 14,
-      "precip_in": 0.01,
-      "wind": 8,
-      "gust": 20,
-      "dir": 3,
+      "temp": 56,
+      "feels": 54,
+      "humidity": 95,
+      "rain": 30,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 15,
+      "dir": 360,
       "dir_txt": "N",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (9 mph). A small trim is applied to passing and receiving projections.",
-     "Wet conditions likely. This is not factored into projections: we found no reliable effect to measure."
+     "No weather concerns. Nothing is adjusted in the projections."
     ],
     "impact": {
-     "pct": 3,
-     "level": "minor",
-     "drivers": [
-      "wind up to 9 mph",
-      "52% chance of precipitation (not scored)"
-     ]
+     "pct": 0,
+     "level": "none",
+     "drivers": []
     }
    }
   },
@@ -578,14 +574,14 @@
     "hours": [
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 46,
+      "temp": 45,
       "feels": 38,
-      "humidity": 21,
+      "humidity": 25,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 2,
+      "wind": 4,
       "gust": 2,
-      "dir": 13,
+      "dir": 15,
       "dir_txt": "NNE",
       "cloud": 100,
       "cond": "Overcast"
@@ -594,42 +590,42 @@
       "utc": "2026-11-22T22:00Z",
       "temp": 46,
       "feels": 38,
-      "humidity": 21,
+      "humidity": 25,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 4,
-      "gust": 4,
-      "dir": 354,
+      "gust": 3,
+      "dir": 357,
       "dir_txt": "N",
-      "cloud": 100,
-      "cond": "Overcast"
+      "cloud": 5,
+      "cond": "Clear"
      },
      {
       "utc": "2026-11-22T23:00Z",
       "temp": 46,
-      "feels": 38,
-      "humidity": 23,
+      "feels": 37,
+      "humidity": 25,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 4,
-      "gust": 4,
-      "dir": 351,
-      "dir_txt": "N",
+      "wind": 6,
+      "gust": 6,
+      "dir": 348,
+      "dir_txt": "NNW",
       "cloud": 5,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-23T00:00Z",
       "temp": 44,
-      "feels": 37,
-      "humidity": 25,
+      "feels": 36,
+      "humidity": 27,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 3,
-      "gust": 5,
-      "dir": 352,
-      "dir_txt": "N",
-      "cloud": 6,
+      "wind": 6,
+      "gust": 8,
+      "dir": 343,
+      "dir_txt": "NNW",
+      "cloud": 0,
       "cond": "Clear"
      }
     ],
@@ -661,70 +657,69 @@
      {
       "utc": "2026-11-22T21:00Z",
       "temp": 57,
-      "feels": 54,
-      "humidity": 89,
-      "rain": 78,
+      "feels": 55,
+      "humidity": 91,
+      "rain": 69,
       "precip_in": 0.02,
-      "wind": 10,
-      "gust": 22,
-      "dir": 50,
+      "wind": 6,
+      "gust": 15,
+      "dir": 49,
       "dir_txt": "NE",
       "cloud": 100,
       "cond": "Drizzle"
      },
      {
       "utc": "2026-11-22T22:00Z",
-      "temp": 57,
-      "feels": 54,
-      "humidity": 93,
-      "rain": 78,
-      "precip_in": 0.04,
-      "wind": 10,
-      "gust": 24,
-      "dir": 45,
+      "temp": 56,
+      "feels": 55,
+      "humidity": 95,
+      "rain": 69,
+      "precip_in": 0.02,
+      "wind": 8,
+      "gust": 18,
+      "dir": 55,
       "dir_txt": "NE",
       "cloud": 100,
-      "cond": "Heavy drizzle"
+      "cond": "Light drizzle"
      },
      {
       "utc": "2026-11-22T23:00Z",
       "temp": 57,
-      "feels": 54,
+      "feels": 55,
       "humidity": 96,
-      "rain": 78,
-      "precip_in": 0.3,
-      "wind": 10,
-      "gust": 29,
-      "dir": 38,
+      "rain": 69,
+      "precip_in": 0.03,
+      "wind": 8,
+      "gust": 20,
+      "dir": 45,
       "dir_txt": "NE",
       "cloud": 100,
-      "cond": "Heavy rain"
+      "cond": "Drizzle"
      },
      {
       "utc": "2026-11-23T00:00Z",
       "temp": 57,
       "feels": 55,
-      "humidity": 96,
-      "rain": 78,
-      "precip_in": 0.26,
-      "wind": 10,
-      "gust": 29,
-      "dir": 27,
+      "humidity": 97,
+      "rain": 69,
+      "precip_in": 0.13,
+      "wind": 9,
+      "gust": 23,
+      "dir": 31,
       "dir_txt": "NNE",
       "cloud": 100,
       "cond": "Rain"
      }
     ],
     "effects": [
-     "Breezy (10 mph). A small trim is applied to passing and receiving projections.",
      "Wet conditions likely. This is not factored into projections: we found no reliable effect to measure."
     ],
     "impact": {
-     "pct": 3,
+     "pct": 2,
      "level": "minor",
      "drivers": [
-      "wind up to 10 mph",
-      "78% chance of precipitation (not scored)"
+      "wind up to 9 mph",
+      "69% chance of precipitation (not scored)"
      ]
     }
    }
@@ -759,69 +754,69 @@
     "hours": [
      {
       "utc": "2026-11-24T01:00Z",
-      "temp": 52,
-      "feels": 46,
-      "humidity": 59,
-      "rain": 1,
+      "temp": 55,
+      "feels": 50,
+      "humidity": 62,
+      "rain": 5,
       "precip_in": 0.0,
-      "wind": 7,
-      "gust": 18,
-      "dir": 333,
+      "wind": 9,
+      "gust": 20,
+      "dir": 342,
       "dir_txt": "NNW",
-      "cloud": 0,
-      "cond": "Clear"
+      "cloud": 96,
+      "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T02:00Z",
-      "temp": 50,
-      "feels": 44,
+      "temp": 54,
+      "feels": 48,
       "humidity": 60,
-      "rain": 1,
+      "rain": 5,
       "precip_in": 0.0,
-      "wind": 6,
-      "gust": 14,
-      "dir": 328,
+      "wind": 8,
+      "gust": 18,
+      "dir": 333,
       "dir_txt": "NNW",
       "cloud": 5,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-24T03:00Z",
-      "temp": 49,
-      "feels": 43,
-      "humidity": 59,
-      "rain": 1,
+      "temp": 52,
+      "feels": 46,
+      "humidity": 63,
+      "rain": 5,
       "precip_in": 0.0,
       "wind": 7,
       "gust": 16,
-      "dir": 334,
+      "dir": 330,
       "dir_txt": "NNW",
       "cloud": 5,
       "cond": "Clear"
      },
      {
       "utc": "2026-11-24T04:00Z",
-      "temp": 48,
-      "feels": 41,
-      "humidity": 56,
-      "rain": 1,
+      "temp": 51,
+      "feels": 45,
+      "humidity": 63,
+      "rain": 5,
       "precip_in": 0.0,
-      "wind": 8,
-      "gust": 19,
-      "dir": 342,
+      "wind": 7,
+      "gust": 17,
+      "dir": 328,
       "dir_txt": "NNW",
       "cloud": 0,
       "cond": "Clear"
      }
     ],
     "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
+     "Breezy (9 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 1,
+     "pct": 2,
      "level": "minor",
      "drivers": [
-      "wind up to 8 mph"
+      "wind up to 9 mph"
      ]
     }
    }

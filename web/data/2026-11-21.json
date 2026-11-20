@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-20T14:19:28Z",
+ "generated_at": "2026-11-20T22:37:09Z",
  "season": "2026-27",
  "games": 6,
  "entries": [
@@ -260,12 +260,8 @@
     "best": "ast",
     "note": "PHI gives up the 3rd-most assists to centers (3.4 a game, 16 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
-    "date": "2026-11-20T03:55Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -825,8 +821,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Avdija (foot) is listed as out for Thursday's game against the Bucks.",
-    "date": "2026-11-20T03:55Z"
+    "note": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.",
+    "date": "2026-11-20T22:08Z"
    },
    "status_note": "Day-To-Day",
    "career": [],
@@ -4369,12 +4365,8 @@
     "best": "pts",
     "note": "PHI gives up the 10th-most points to forwards (44.3 a game, 16 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
-    "date": "2026-11-20T03:55Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
