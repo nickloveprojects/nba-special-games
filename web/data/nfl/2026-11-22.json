@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 63,
-    "wind": 4,
-    "gust": 16,
-    "rain": 39
+    "temp": 54,
+    "wind": 9,
+    "gust": 18,
+    "rain": 52
    },
-   "weather_text": "63\u00b0F, wind 4 mph, 39% rain",
+   "weather_text": "54\u00b0F, wind 9 mph, 52% rain",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
-    "wind": 12,
-    "gust": 30,
-    "rain": 62
+    "temp": 57,
+    "wind": 10,
+    "gust": 22,
+    "rain": 78
    },
-   "weather_text": "56\u00b0F, wind 12 mph, 62% rain",
+   "weather_text": "57\u00b0F, wind 10 mph, 78% rain",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -828,21 +828,21 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "DAL gives up the 6th-most rushing yards to running backs (105 a game, 10 games).",
-     "rec_yds": "DAL gives up the 3rd-most receiving yards to running backs (41.6 a game, 10 games)."
+     "rush_yds": "DAL gives up the 6th-most rushing yards to running backs (102.2 a game, 10 games).",
+     "rec_yds": "DAL gives up the 5th-most receiving yards to running backs (37.7 a game, 10 games)."
     },
     "group": "RB",
     "games": 10,
     "stats": {
      "rush_yds": {
-      "value": 105.0,
+      "value": 102.2,
       "rank": 6,
       "of": 32,
       "color": "green"
      },
      "rec_yds": {
-      "value": 41.6,
-      "rank": 3,
+      "value": 37.7,
+      "rank": 5,
       "of": 32,
       "color": "green"
      }
@@ -851,20 +851,20 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 89,
+    "score": 85,
     "grade": "A",
     "color": "green",
     "best": "rec_yds",
-    "note": "DAL gives up the 3rd-most receiving yards to running backs (41.6 a game, 10 games)."
+    "note": "DAL gives up the 5th-most receiving yards to running backs (37.7 a game, 10 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 82,
-      "lo": 26,
-      "hi": 159
+      "proj": 80,
+      "lo": 25,
+      "hi": 157
      },
      {
       "label": "Rec",
@@ -876,13 +876,13 @@
       "label": "Rec yds",
       "proj": 24,
       "lo": 0,
-      "hi": 93
+      "hi": 92
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.12,
+    "opp_factor": 1.1,
     "locked": false
    },
    "tags": [
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 56,
-    "wind": 13,
-    "gust": 32,
-    "rain": 41
+    "temp": 63,
+    "wind": 9,
+    "gust": 19,
+    "rain": 36
    },
-   "weather_text": "56\u00b0F, wind 13 mph, 41% rain",
+   "weather_text": "63\u00b0F, wind 9 mph, 36% rain",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1216,11 +1216,11 @@
    "weather": {
     "indoor": false,
     "temp": 52,
-    "wind": 16,
-    "gust": 20,
-    "rain": 18
+    "wind": 14,
+    "gust": 18,
+    "rain": 21
    },
-   "weather_text": "52\u00b0F, wind 16 mph",
+   "weather_text": "52\u00b0F, wind 14 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1348,20 +1348,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 6.8,
-      "lo": 4.6,
-      "hi": 9.2
+      "proj": 7.5,
+      "lo": 5.1,
+      "hi": 10.2
      },
      {
       "label": "Rec yds",
-      "proj": 57,
-      "lo": 29,
-      "hi": 117
+      "proj": 63,
+      "lo": 32,
+      "hi": 129
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.88,
+    "weather_factor": 0.97,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-19T23:11:50+00:00"
+ "generated_at": "2026-11-20T14:19:49+00:00"
 }
