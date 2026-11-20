@@ -1,30 +1,48 @@
-# Beef candidates (generated 2026-11-19, covers games 2026-11-19 to 2026-11-20)
+# Beef candidates — run of 2026-11-20
 
-Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml. Reply yes/no per item.
+Games checked: NBA 2026-11-20 and 2026-11-21 (15 games); NFL 2026-11-22 (7 games). Nothing was added to config/rivalries.yaml or config/rivalries_nfl.yaml. Pairs already in rivalries.yaml were skipped.
 
-## 1. Kevin Durant vs. Bruce Brown
-- Game: Rockets at Nuggets, Fri 2026-11-20, 10:00 PM ET, Ball Arena (Denver)
-- Kind: Feud
-- Reason: In the Rockets' 115-101 win at Denver on Dec. 20, 2025, Durant and Brown traded words, and afterward Brown said Durant "crossed the line" and was disrespectful, while Durant said he was "definitely disrespectful" but that it is part of the game.
-- Sources:
-  - Sports Illustrated (Houston Rockets On SI), Dec 22, 2025: https://www.si.com/nba/rockets/onsi/news/listen-audio-between-kevin-durant-and-bruce-brown-in-recent-rockets-nuggets-contest
-  - Dunkest, Dec 21, 2025 (Brown: "I wish we could fight (in the NBA)"): https://www.dunkest.com/en/nba/news/227814/sparks-fly-between-durant-and-brown-i-wish-we-could-fight
-- Caveats: SI describes the postgame remarks as paraphrase, not direct quotes. The on-court audio lines come from a third-party post and are NOT used in the reason. Durant on HOU is confirmed in a 2026-season CBS recap (Nov 9, 2026); Brown on DEN is shown only on a SportBusy roster table for the Nov 20 game (not confirmed in a news article). Check ESPN roster spellings before pasting.
+**Roster caveat:** ESPN roster pages could not be fetched in this run, so neither player's current (Nov 2026) team is confirmed for the two items below; the articles only place them on those teams at the time. The app only shows a History box when both players are on the two teams in a game, so an entry for a player who has moved would simply not display. Please glance at both rosters before pasting.
+
+## 1. Lu Dort (OKC) vs Jeremiah Fears (NOP)
+
+- Game: Pelicans at Thunder, Fri 2026-11-20 (NBA).
+- Kind: Altercation
+- Reason: In the Thunder's 104-95 win on Jan. 27, 2026, Dort shoved Fears as time expired and both benches cleared; the NBA fined both players.
+- Sources fetched: Sports Illustrated (Jan. 28, 2026), theScore (undated page, after Jan. 28, 2026; fines, no suspensions), Fox News (Jan. 30, 2026; Fears called Dort "soft" on social media, exact post not visible). Fine amount: theScore says $25,000 but does not say each or combined; the Fox10 headline from a search result (not fetched) says $25,000 each, so the YAML below avoids the amount.
 
 ```yaml
-  - players: ["Kevin Durant", "Bruce Brown"]
-    kind: Feud
-    date: "2025-12-20"
-    reason: "Durant and Brown traded words in the Rockets' 115-101 win at Denver on Dec. 20, 2025; afterward Brown said Durant crossed the line and was disrespectful, and Durant said he was definitely disrespectful but that it was part of the game."
+  - players: ["Luguentz Dort", "Jeremiah Fears"]
+    kind: Altercation
+    date: "2026-01-27"
+    reason: "Dort shoved Fears as time expired in the Thunder's 104-95 win over the Pelicans on Jan. 27, 2026, and both benches cleared; the NBA fined both players and did not suspend either."
     sources:
-      - {label: "Sports Illustrated", url: "https://www.si.com/nba/rockets/onsi/news/listen-audio-between-kevin-durant-and-bruce-brown-in-recent-rockets-nuggets-contest"}
-      - {label: "Dunkest", url: "https://www.dunkest.com/en/nba/news/227814/sparks-fly-between-durant-and-brown-i-wish-we-could-fight"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/lu-dort-jeremiah-fears-get-into-postgame-altercation-after-thunder-win-over-pelicans"}
+      - {label: "theScore", url: "https://thescore.com/nba/news/3466993"}
 ```
 
-## Claims not verified / rejected
-- Wembanyama vs. Zubac (Jan 29, 2025 shove, SI/AP): verified, but Zubac was traded to the Pacers in Feb 2026, so he is not on the Clippers for Spurs-Clippers on Nov 19. Not a candidate.
-- Draymond Green vs. Jaren Jackson Jr./Desmond Bane: Ja Morant, Bane and Jackson are no longer with Memphis per a Oct 2026 preview; no 2026 beef found.
-- Knicks-Wolves: the DiVincenzo vs. Rick Brunson exchange (CBS, Oct 2024) involves a coach, not two players. No Towns dispute with any Wolves player found.
-- Colts-Texans (NFL, Nov 19): only old T.Y. Hilton / Johnathan Joseph fight (2017), neither is likely on the rosters; nothing current found.
-- Games not turning up anything checkable: Blazers-Bucks, Hornets-Hawks, Pacers-Cavs, Pelicans-Thunder, Magic-Nets, Suns-Jazz, Kings-Lakers, Raptors-Pistons, Wizards-Bulls (searches were broad, only 1-2 queries covered several games, so coverage is partial).
-- Already listed pairs (Missi/Grant, Mitchell/Champagnie, Jokic/Randle, etc.) skipped.
+## 2. Bennedict Mathurin (IND) vs De'Andre Hunter (CLE)
+
+- Game: Cavaliers at Pacers, Fri 2026-11-20 (NBA).
+- Kind: Altercation
+- Reason: In Game 4 of their 2025 playoff series, Mathurin hit Hunter in the chest with a closed fist and was ejected (flagrant 2); Hunter and Myles Turner got technicals.
+- Sources fetched: NBA.com/AP (May 12, 2025), ESPN (May 12, 2025). Neither mentions fines or suspensions.
+
+```yaml
+  - players: ["Bennedict Mathurin", "De'Andre Hunter"]
+    kind: Altercation
+    date: "2025-05-12"
+    reason: "Mathurin hit Hunter in the chest with a closed fist in Game 4 of the 2025 Cavaliers-Pacers playoff series and was ejected with a flagrant 2; Hunter was given a technical foul."
+    sources:
+      - {label: "NBA.com", url: "https://www.nba.com/news/pacers-bennedict-mathurin-ejected-game-4-hitting-deandre-hunter-cavaliers-2025-playoffs"}
+      - {label: "ESPN", url: "https://africa.espn.com/nba/story/_/id/45103701/mathurin-ejected-hunter-turner-techs-cavs-pacers-altercation"}
+```
+
+## Claims not verified / left out
+
+- Russell Westbrook vs Chris Boucher (Celtics at Kings, 11-21): NESN page has no publish date or byline date and does not name Westbrook's team; the two embraced afterward and Boucher's team is uncertain (trade speculation). Left out.
+- Anthony Edwards vs Ja Morant (Grizzlies at Timberwolves, 11-21): Larry Brown Sports (Feb. 2, 2026) reports Edwards yelling "You can't do that, Ja!" at an injured Morant, with friendly words after the game; too mild and current teams unconfirmed. Left out.
+- Dennis Schroder vs Luka Doncic (Lakers/Kings, 11-20): Dec. 28, 2025 tunnel incident and a 3-game suspension are documented (CBS Sports, Jan. 12, 2026), but today's data shows Schroder on Charlotte, so he is not in this game. Left out.
+- Darius Slay vs Darnell Washington (Steelers at Eagles, 11-22): Dec. 2024 fight is documented (CBS, SI, PFT), but PFT reports Slay retired in March 2026. Left out.
+- Eagles/Steelers Quinyon Mitchell vs Calvin Austin III (same Dec. 2024 scuffle): current rosters not verified. Left out.
+- Searches for Nuggets-Rockets, Hornets-Hawks, Raptors-Pistons, Jazz-Suns, Nets-Magic, Bulls-Wizards, Bucks-76ers, Knicks-Blazers, Mavericks-Clippers, Pelicans-Spurs, Celtics-Kings and the other NFL games (Ravens-Panthers, Giants-Jaguars, Vikings-49ers, Cowboys-Titans, Cardinals-Chiefs) turned up no two-player item from a fetched, dated article that fit these games. Nuggets-Rockets only showed a coach ejection.
