@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T13:57:45Z",
+ "generated_at": "2026-11-21T22:27:03Z",
  "season": "2026-27",
  "games": 6,
  "entries": [
@@ -288,7 +288,7 @@
     "minutes": 26,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -575,7 +575,7 @@
     "minutes": 30,
     "sims": 1000,
     "opp_factor": 0.99,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -819,12 +819,8 @@
     "best": "ast",
     "note": "NYK gives up the 12th-most assists to forwards (8.3 a game, 15 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.",
-    "date": "2026-11-20T22:08Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -4404,7 +4400,7 @@
     "minutes": 27,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4926,8 +4922,12 @@
     "best": "pts",
     "note": "POR gives up the 14th-most points to centers (14.7 a game, 15 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness.",
+    "date": "2026-11-21T16:05Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",

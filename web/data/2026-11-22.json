@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-21T13:59:42Z",
+ "generated_at": "2026-11-21T22:27:54Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -220,7 +220,7 @@
    "matchup": {
     "notes": {
      "pts": "CHI gives up the 5th-most points to guards (61.5 a game, 15 games).",
-     "reb": "CHI gives up the 9th-most rebounds to guards (16.5 a game, 15 games).",
+     "reb": "CHI gives up the 8th-most rebounds to guards (16.5 a game, 15 games).",
      "ast": "CHI gives up the 10th-most assists to guards (16.2 a game, 15 games)."
     },
     "group": "G",
@@ -234,7 +234,7 @@
      },
      "reb": {
       "value": 16.5,
-      "rank": 9,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
@@ -245,7 +245,7 @@
       "color": "green"
      }
     },
-    "score": 76,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "pts",
@@ -741,7 +741,7 @@
    "opponent_logo": "img/teams/NYK.png",
    "matchup": {
     "notes": {
-     "pts": "NYK gives up the 21st-most points to guards (53.7 a game, 15 games).",
+     "pts": "NYK gives up the 22nd-most points to guards (53.7 a game, 15 games).",
      "reb": "NYK gives up the 16th-most rebounds to guards (15.1 a game, 15 games).",
      "ast": "NYK gives up the 25th-most assists to guards (13.4 a game, 15 games)."
     },
@@ -750,7 +750,7 @@
     "stats": {
      "pts": {
       "value": 53.7,
-      "rank": 21,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -767,7 +767,7 @@
       "color": "red"
      }
     },
-    "score": 32,
+    "score": 31,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -776,7 +776,7 @@
    "injury": {
     "status": "Out",
     "note": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
-    "date": "2026-11-21T04:58Z"
+    "date": "2026-11-21T22:26Z"
    },
    "status_note": "Out",
    "career": [],
@@ -1397,7 +1397,7 @@
    "matchup": {
     "notes": {
      "pts": "NYK gives up the 23rd-most points to forwards (38.7 a game, 15 games).",
-     "reb": "NYK gives up the 23rd-most rebounds to forwards (16.9 a game, 15 games).",
+     "reb": "NYK gives up the 22nd-most rebounds to forwards (16.9 a game, 15 games).",
      "ast": "NYK gives up the 12th-most assists to forwards (8.3 a game, 15 games)."
     },
     "group": "F",
@@ -1411,7 +1411,7 @@
      },
      "reb": {
       "value": 16.9,
-      "rank": 23,
+      "rank": 22,
       "of": 30,
       "color": "red"
      },
@@ -1422,7 +1422,7 @@
       "color": "yellow"
      }
     },
-    "score": 37,
+    "score": 38,
     "grade": "D",
     "color": "yellow",
     "best": "ast",
@@ -2129,8 +2129,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
-    "date": "2026-11-20T22:40Z"
+    "note": "Washington (illness/shoulder) has been downgraded from questionable to doubtful ahead of Saturday's game against the Clippers.",
+    "date": "2026-11-21T19:22Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -2640,7 +2640,7 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 12th-most points to guards (58.5 a game, 15 games).",
-     "reb": "DAL gives up the 12th-most rebounds to guards (16.1 a game, 15 games).",
+     "reb": "DAL gives up the 11th-most rebounds to guards (16.1 a game, 15 games).",
      "ast": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
     },
     "group": "G",
@@ -2654,7 +2654,7 @@
      },
      "reb": {
       "value": 16.1,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
@@ -2665,7 +2665,7 @@
       "color": "green"
      }
     },
-    "score": 69,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "ast",
@@ -4415,7 +4415,7 @@
    "opponent_logo": "img/teams/OKC.png",
    "matchup": {
     "notes": {
-     "pts": "OKC gives up the 23rd-most points to guards (52.7 a game, 16 games).",
+     "pts": "OKC gives up the 24th-most points to guards (52.7 a game, 16 games).",
      "reb": "OKC gives up the 20th-most rebounds to guards (14.8 a game, 16 games).",
      "ast": "OKC gives up the 24th-most assists to guards (13.6 a game, 16 games)."
     },
@@ -4424,7 +4424,7 @@
     "stats": {
      "pts": {
       "value": 52.7,
-      "rank": 23,
+      "rank": 24,
       "of": 30,
       "color": "red"
      },
@@ -4441,7 +4441,7 @@
       "color": "red"
      }
     },
-    "score": 26,
+    "score": 25,
     "grade": "D",
     "color": "red",
     "best": "reb",
@@ -4875,7 +4875,7 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 14th-most points to forwards (43.5 a game, 15 games).",
+     "pts": "DAL gives up the 13th-most points to forwards (43.5 a game, 15 games).",
      "reb": "DAL gives up the 15th-most rebounds to forwards (18.1 a game, 15 games).",
      "ast": "DAL gives up the 18th-most assists to forwards (7.9 a game, 15 games)."
     },
@@ -4884,7 +4884,7 @@
     "stats": {
      "pts": {
       "value": 43.5,
-      "rank": 14,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      },
@@ -4901,11 +4901,11 @@
       "color": "yellow"
      }
     },
-    "score": 49,
+    "score": 51,
     "grade": "C",
     "color": "yellow",
     "best": "pts",
-    "note": "DAL gives up the 14th-most points to forwards (43.5 a game, 15 games)."
+    "note": "DAL gives up the 13th-most points to forwards (43.5 a game, 15 games)."
    },
    "injury": null,
    "status_note": null,
@@ -4983,7 +4983,7 @@
        "score": "111-101",
        "min": 36,
        "pts": 14,
-       "reb": 3,
+       "reb": 2,
        "ast": 6,
        "playoff": false
       },
@@ -5050,7 +5050,7 @@
      ],
      "n": 5,
      "pts": 22.8,
-     "reb": 2.8,
+     "reb": 2.6,
      "ast": 8.4,
      "min": 36.4
     },
@@ -5147,7 +5147,7 @@
    "matchup": {
     "notes": {
      "pts": "DAL gives up the 12th-most points to guards (58.5 a game, 15 games).",
-     "reb": "DAL gives up the 12th-most rebounds to guards (16.1 a game, 15 games).",
+     "reb": "DAL gives up the 11th-most rebounds to guards (16.1 a game, 15 games).",
      "ast": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
     },
     "group": "G",
@@ -5161,7 +5161,7 @@
      },
      "reb": {
       "value": 16.1,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
@@ -5172,7 +5172,7 @@
       "color": "green"
      }
     },
-    "score": 69,
+    "score": 70,
     "grade": "B",
     "color": "green",
     "best": "ast",
@@ -5754,8 +5754,12 @@
     "best": "pts",
     "note": "IND gives up the 8th-most points to centers (15.6 a game, 16 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness.",
+    "date": "2026-11-21T16:05Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -5778,7 +5782,7 @@
      },
      {
       "label": "Reb",
-      "proj": 14.4,
+      "proj": 14.3,
       "lo": 11,
       "hi": 18
      },
