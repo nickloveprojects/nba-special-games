@@ -1,0 +1,6075 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-21T13:59:42Z",
+ "season": "2026-27",
+ "games": 7,
+ "entries": [
+  {
+   "player_id": 3978,
+   "name": "DeMar DeRozan",
+   "team": "DEN",
+   "team_name": "Nuggets",
+   "opponent": "CHI",
+   "opponent_name": "Bulls",
+   "position": "G",
+   "jersey": "10",
+   "home_away": "away",
+   "game_id": "401910032",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "United Center",
+   "location": "Chicago, IL",
+   "categories": [
+    "Milestone",
+    "Revenge"
+   ],
+   "summary": "Faces the Bulls, who traded him on Jul 8, 2024. Needs 7 FGM to pass Robert Parish for 20th on the all-time field goals made list.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Bulls, who traded him on Jul 8, 2024.",
+     "how_left": "Traded to the Kings (Jul 8, 2024).",
+     "detail": "Faces the Bulls, who traded him on Jul 8, 2024. Traded to the Kings (Jul 8, 2024).",
+     "games_with_team": "229 games with the Bulls",
+     "when": "2024-07-08",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/d/derozde01.html#all_transactions"
+      }
+     ]
+    },
+    {
+     "category": "Milestone",
+     "kind": "rank",
+     "stat": "fgm",
+     "confidence": "high",
+     "headline": "Needs 7 FGM to pass Robert Parish for 20th on the all-time field goals made list.",
+     "needed": 7,
+     "current": 9608,
+     "detail": "DeMar DeRozan has 9,608 career regular-season field goals made; Robert Parish has 9,614. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "Basketball-Reference, Milestones Watch: Field Goals",
+       "url": "https://www.basketball-reference.com/friv/milestones.fcgi?stat=fg"
+      },
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 45,
+   "stats": {
+    "gp": 12,
+    "min": 22.9,
+    "pts": 9.9,
+    "reb": 2.0,
+    "ast": 2.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3978",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909312",
+       "date": "2026-11-20",
+       "venue": "DEN",
+       "opp": "HOU",
+       "tm": "DEN",
+       "home": true,
+       "result": "W",
+       "score": "133-124",
+       "min": 22,
+       "pts": 15,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910015",
+       "date": "2026-11-18",
+       "venue": "DEN",
+       "opp": "BOS",
+       "tm": "DEN",
+       "home": true,
+       "result": "W",
+       "score": "105-101",
+       "min": 25,
+       "pts": 18,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910001",
+       "date": "2026-11-16",
+       "venue": "DEN",
+       "opp": "PHX",
+       "tm": "DEN",
+       "home": true,
+       "result": "L",
+       "score": "117-105",
+       "min": 14,
+       "pts": 2,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909980",
+       "date": "2026-11-14",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "DEN",
+       "home": false,
+       "result": "W",
+       "score": "116-108",
+       "min": 24,
+       "pts": 9,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909970",
+       "date": "2026-11-11",
+       "venue": "MEM",
+       "opp": "MEM",
+       "tm": "DEN",
+       "home": false,
+       "result": "W",
+       "score": "123-118",
+       "min": 20,
+       "pts": 8,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 10.4,
+     "reb": 1.8,
+     "ast": 2.2,
+     "min": 21.0
+    },
+    "vs": {
+     "opp": "CHI",
+     "games": [
+      {
+       "gid": "401809987",
+       "date": "2025-10-29",
+       "venue": "CHI",
+       "opp": "CHI",
+       "tm": "SAC",
+       "home": false,
+       "result": "L",
+       "score": "126-113",
+       "min": 35,
+       "pts": 19,
+       "reb": 6,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401705579",
+       "date": "2025-03-20",
+       "venue": "SAC",
+       "opp": "CHI",
+       "tm": "SAC",
+       "home": true,
+       "result": "L",
+       "score": "128-116",
+       "min": 36,
+       "pts": 22,
+       "reb": 3,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401705107",
+       "date": "2025-01-12",
+       "venue": "CHI",
+       "opp": "CHI",
+       "tm": "SAC",
+       "home": false,
+       "result": "W",
+       "score": "124-119",
+       "min": 37,
+       "pts": 21,
+       "reb": 0,
+       "ast": 3,
+       "playoff": false
+      }
+     ],
+     "n": 3,
+     "pts": 20.7,
+     "reb": 3.0,
+     "ast": 4.3,
+     "min": 36.0,
+     "note": "No games vs CHI in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3978.png",
+   "team_logo": "img/teams/DEN.png",
+   "opponent_logo": "img/teams/CHI.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHI gives up the 5th-most points to guards (61.5 a game, 15 games).",
+     "reb": "CHI gives up the 9th-most rebounds to guards (16.5 a game, 15 games).",
+     "ast": "CHI gives up the 10th-most assists to guards (16.2 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 61.5,
+      "rank": 5,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 16.5,
+      "rank": 9,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 16.2,
+      "rank": 10,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 76,
+    "grade": "B",
+    "color": "green",
+    "best": "pts",
+    "note": "CHI gives up the 5th-most points to guards (61.5 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Bulls 3 times since leaving them (avg 20.7 pts, 3.0 reb, 4.3 ast).",
+     "n": 3,
+     "pts": 20.7,
+     "reb": 3.0,
+     "ast": 4.3,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 11,
+      "lo": 2,
+      "hi": 18
+     },
+     {
+      "label": "Reb",
+      "proj": 2.0,
+      "lo": 1,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 2.6,
+      "lo": 1,
+      "hi": 5
+     }
+    ],
+    "games_used": 13,
+    "minutes": 22,
+    "sims": 1000,
+    "opp_factor": 1.02,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 3975,
+   "name": "Stephen Curry",
+   "team": "GSW",
+   "team_name": "Warriors",
+   "opponent": "BOS",
+   "opponent_name": "Celtics",
+   "position": "G",
+   "jersey": "30",
+   "home_away": "home",
+   "game_id": "401910035",
+   "game_kind": "Regular season",
+   "tip": "8:30 PM ET",
+   "tip_utc": "2026-11-23T01:30:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 40 PTS to pass DeMar DeRozan for 16th on the all-time points list.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "rank",
+     "stat": "pts",
+     "confidence": "high",
+     "headline": "Needs 40 PTS to pass DeMar DeRozan for 16th on the all-time points list.",
+     "needed": 40,
+     "current": 26806,
+     "detail": "Stephen Curry has 26,806 career regular-season points; DeMar DeRozan has 26,845. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "Land of Basketball, all-time points leaders",
+       "url": "https://landofbasketball.com/all_time_leaders/points_total_career_season.htm"
+      },
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 35,
+   "stats": {
+    "gp": 10,
+    "min": 26.3,
+    "pts": 27.8,
+    "reb": 3.7,
+    "ast": 3.9
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3975",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909974",
+       "date": "2026-11-11",
+       "venue": "HOU",
+       "opp": "HOU",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "115-108",
+       "min": 6,
+       "pts": 3,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909959",
+       "date": "2026-11-09",
+       "venue": "GSW",
+       "opp": "NOP",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "138-87",
+       "min": 21,
+       "pts": 25,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909942",
+       "date": "2026-11-07",
+       "venue": "GSW",
+       "opp": "ORL",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "126-119 OT",
+       "min": 36,
+       "pts": 41,
+       "reb": 6,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401909937",
+       "date": "2026-11-05",
+       "venue": "GSW",
+       "opp": "MIA",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "120-100",
+       "min": 28,
+       "pts": 29,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909919",
+       "date": "2026-11-02",
+       "venue": "GSW",
+       "opp": "PHX",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "116-113",
+       "min": 33,
+       "pts": 34,
+       "reb": 6,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 26.4,
+     "reb": 3.6,
+     "ast": 3.8,
+     "min": 24.8
+    },
+    "vs": {
+     "opp": "BOS",
+     "games": [
+      {
+       "gid": "401705170",
+       "date": "2025-01-20",
+       "venue": "GSW",
+       "opp": "BOS",
+       "tm": "GSW",
+       "home": true,
+       "result": "L",
+       "score": "125-85",
+       "min": 27,
+       "pts": 18,
+       "reb": 3,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401704738",
+       "date": "2024-11-06",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "GSW",
+       "home": false,
+       "result": "W",
+       "score": "118-112",
+       "min": 34,
+       "pts": 27,
+       "reb": 7,
+       "ast": 9,
+       "playoff": false
+      }
+     ],
+     "n": 2,
+     "pts": 22.5,
+     "reb": 5.0,
+     "ast": 6.5,
+     "min": 30.5,
+     "note": "No games vs BOS in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3975.png",
+   "team_logo": "img/teams/GSW.png",
+   "opponent_logo": "img/teams/BOS.png",
+   "matchup": {
+    "notes": {
+     "pts": "BOS gives up the 30th-most points to guards (47.1 a game, 15 games).",
+     "reb": "BOS gives up the 23rd-most rebounds to guards (14.1 a game, 15 games).",
+     "ast": "BOS gives up the 29th-most assists to guards (13.1 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 47.1,
+      "rank": 30,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 14.1,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 13.1,
+      "rank": 29,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 9,
+    "grade": "F",
+    "color": "red",
+    "best": "reb",
+    "note": "BOS gives up the 23rd-most rebounds to guards (14.1 a game, 15 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
+    "date": "2026-11-12T17:03Z"
+   },
+   "status_note": "Out",
+   "career": [],
+   "projection": null
+  },
+  {
+   "player_id": 2530530,
+   "name": "T.J. McConnell",
+   "team": "IND",
+   "team_name": "Pacers",
+   "opponent": "NYK",
+   "opponent_name": "Knicks",
+   "position": "G",
+   "jersey": "9",
+   "home_away": "away",
+   "game_id": "401910034",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-23T01:00:00+00:00",
+   "arena": "Madison Square Garden",
+   "location": "New York, NY",
+   "categories": [
+    "Milestone"
+   ],
+   "summary": "Needs 30 PTS to reach 6,000 career points.",
+   "tags": [
+    {
+     "category": "Milestone",
+     "kind": "round",
+     "stat": "pts",
+     "confidence": "high",
+     "headline": "Needs 30 PTS to reach 6,000 career points.",
+     "needed": 30,
+     "current": 5970,
+     "detail": "T.J. McConnell has 5,970 career regular-season points. Totals are through the last finished game.",
+     "sources": [
+      {
+       "label": "ESPN career totals",
+       "url": "https://www.espn.com/nba/"
+      }
+     ]
+    }
+   ],
+   "score": 30,
+   "stats": {
+    "gp": 6,
+    "min": 14.3,
+    "pts": 7.8,
+    "reb": 2.5,
+    "ast": 4.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/2530530",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909307",
+       "date": "2026-11-20",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "128-119",
+       "min": 11,
+       "pts": 2,
+       "reb": 1,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910008",
+       "date": "2026-11-18",
+       "venue": "IND",
+       "opp": "HOU",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "119-104",
+       "min": 18,
+       "pts": 14,
+       "reb": 2,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909985",
+       "date": "2026-11-15",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "131-124",
+       "min": 19,
+       "pts": 12,
+       "reb": 5,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "106-104",
+       "min": 17,
+       "pts": 6,
+       "reb": 3,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909966",
+       "date": "2026-11-11",
+       "venue": "IND",
+       "opp": "WAS",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "114-101",
+       "min": 14,
+       "pts": 7,
+       "reb": 3,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 8.2,
+     "reb": 2.8,
+     "ast": 5.2,
+     "min": 15.8
+    },
+    "vs": {
+     "opp": "NYK",
+     "games": [
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "106-104",
+       "min": 17,
+       "pts": 6,
+       "reb": 3,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401810849",
+       "date": "2026-03-17",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "136-110",
+       "min": 20,
+       "pts": 10,
+       "reb": 3,
+       "ast": 10,
+       "playoff": false
+      },
+      {
+       "gid": "401810817",
+       "date": "2026-03-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "101-92",
+       "min": 20,
+       "pts": 10,
+       "reb": 3,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401810626",
+       "date": "2026-02-10",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": false,
+       "result": "W",
+       "score": "137-134 OT",
+       "min": 16,
+       "pts": 13,
+       "reb": 1,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810227",
+       "date": "2025-12-18",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "114-113",
+       "min": 18,
+       "pts": 8,
+       "reb": 5,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 9.4,
+     "reb": 3.0,
+     "ast": 6.2,
+     "min": 18.2,
+     "note": "No games vs NYK in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/2530530.png",
+   "team_logo": "img/teams/IND.png",
+   "opponent_logo": "img/teams/NYK.png",
+   "matchup": {
+    "notes": {
+     "pts": "NYK gives up the 21st-most points to guards (53.7 a game, 15 games).",
+     "reb": "NYK gives up the 16th-most rebounds to guards (15.1 a game, 15 games).",
+     "ast": "NYK gives up the 25th-most assists to guards (13.4 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 53.7,
+      "rank": 21,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 15.1,
+      "rank": 16,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 13.4,
+      "rank": 25,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 32,
+    "grade": "D",
+    "color": "red",
+    "best": "reb",
+    "note": "NYK gives up the 16th-most rebounds to guards (15.1 a game, 15 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
+    "date": "2026-11-21T04:58Z"
+   },
+   "status_note": "Out",
+   "career": [],
+   "projection": null
+  },
+  {
+   "player_id": 3102530,
+   "name": "Jusuf Nurkic",
+   "team": "UTA",
+   "team_name": "Jazz",
+   "opponent": "DAL",
+   "opponent_name": "Mavericks",
+   "position": "C",
+   "jersey": "30",
+   "home_away": "home",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "History"
+   ],
+   "summary": "Altercation history with Naji Marshall. Altercation history with P.J. Washington.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with Naji Marshall.",
+     "reason": "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "detail": "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "when": "2024-12-27",
+     "with": "Naji Marshall",
+     "with_id": 4278594,
+     "with_team": "DAL",
+     "sources": [
+      {
+       "label": "Sports Illustrated",
+       "url": "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 6,
+      "me": {
+       "n": 6,
+       "min": 26.5,
+       "pts": 10.0,
+       "reb": 10.8,
+       "ast": 2.7
+      },
+      "them": {
+       "n": 6,
+       "min": 20.0,
+       "pts": 6.2,
+       "reb": 2.3,
+       "ast": 2.0
+      },
+      "record": "4-2",
+      "recent": [
+       {
+        "date": "2024-12-27",
+        "me": 3,
+        "them": 4,
+        "playoff": false
+       },
+       {
+        "date": "2024-11-08",
+        "me": 15,
+        "them": 18,
+        "playoff": false
+       },
+       {
+        "date": "2024-10-26",
+        "me": 18,
+        "them": 2,
+        "playoff": false
+       },
+       {
+        "date": "2024-04-01",
+        "me": 19,
+        "them": 4,
+        "playoff": false
+       },
+       {
+        "date": "2024-01-19",
+        "me": 5,
+        "them": 5,
+        "playoff": false
+       }
+      ]
+     }
+    },
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with P.J. Washington.",
+     "reason": "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "detail": "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "when": "2024-12-27",
+     "with": "P.J. Washington",
+     "with_id": 4278078,
+     "with_team": "DAL",
+     "sources": [
+      {
+       "label": "Sports Illustrated",
+       "url": "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 8,
+      "me": {
+       "n": 8,
+       "min": 24.1,
+       "pts": 14.1,
+       "reb": 9.8,
+       "ast": 2.2
+      },
+      "them": {
+       "n": 8,
+       "min": 28.2,
+       "pts": 14.4,
+       "reb": 5.0,
+       "ast": 1.5
+      },
+      "record": "4-4",
+      "recent": [
+       {
+        "date": "2024-12-27",
+        "me": 3,
+        "them": 7,
+        "playoff": false
+       },
+       {
+        "date": "2024-10-26",
+        "me": 18,
+        "them": 5,
+        "playoff": false
+       },
+       {
+        "date": "2024-02-22",
+        "me": 5,
+        "them": 12,
+        "playoff": false
+       },
+       {
+        "date": "2023-12-29",
+        "me": 24,
+        "them": 13,
+        "playoff": false
+       },
+       {
+        "date": "2022-12-26",
+        "me": 28,
+        "them": 22,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 28,
+   "stats": null,
+   "espn_url": "https://www.espn.com/nba/player/_/id/3102530",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401810641",
+       "date": "2026-02-11",
+       "venue": "UTA",
+       "opp": "SAC",
+       "tm": "UTA",
+       "home": true,
+       "result": "W",
+       "score": "121-93",
+       "min": 26,
+       "pts": 8,
+       "reb": 9,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401810618",
+       "date": "2026-02-09",
+       "venue": "MIA",
+       "opp": "MIA",
+       "tm": "UTA",
+       "home": false,
+       "result": "W",
+       "score": "115-111",
+       "min": 25,
+       "pts": 10,
+       "reb": 16,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810605",
+       "date": "2026-02-07",
+       "venue": "ORL",
+       "opp": "ORL",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "120-117",
+       "min": 24,
+       "pts": 3,
+       "reb": 14,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401810561",
+       "date": "2026-02-01",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "107-100",
+       "min": 33,
+       "pts": 11,
+       "reb": 13,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810533",
+       "date": "2026-01-28",
+       "venue": "UTA",
+       "opp": "GSW",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "140-124",
+       "min": 23,
+       "pts": 11,
+       "reb": 5,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 8.6,
+     "reb": 11.4,
+     "ast": 3.4,
+     "min": 26.2
+    },
+    "vs": {
+     "opp": "DAL",
+     "games": [
+      {
+       "gid": "401704991",
+       "date": "2024-12-27",
+       "venue": "PHX",
+       "opp": "DAL",
+       "tm": "PHX",
+       "home": true,
+       "result": "L",
+       "score": "98-89",
+       "min": 14,
+       "pts": 3,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401704756",
+       "date": "2024-11-08",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "PHX",
+       "home": false,
+       "result": "W",
+       "score": "114-113",
+       "min": 34,
+       "pts": 15,
+       "reb": 10,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401704661",
+       "date": "2024-10-26",
+       "venue": "PHX",
+       "opp": "DAL",
+       "tm": "PHX",
+       "home": true,
+       "result": "W",
+       "score": "114-102",
+       "min": 30,
+       "pts": 18,
+       "reb": 14,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 3,
+     "pts": 12.0,
+     "reb": 9.7,
+     "ast": 1.0,
+     "min": 26.0,
+     "note": "No games vs DAL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3102530.png",
+   "team_logo": "img/teams/UTA.png",
+   "opponent_logo": "img/teams/DAL.png",
+   "matchup": {
+    "notes": {
+     "pts": "DAL gives up the 27th-most points to centers (11.2 a game, 15 games).",
+     "reb": "DAL gives up the 17th-most rebounds to centers (9.4 a game, 15 games).",
+     "ast": "DAL gives up the 10th-most assists to centers (3.1 a game, 15 games)."
+    },
+    "group": "C",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 11.2,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 9.4,
+      "rank": 17,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 3.1,
+      "rank": 10,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 41,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "DAL gives up the 10th-most assists to centers (3.1 a game, 15 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.",
+    "date": "2026-11-20T22:40Z"
+   },
+   "status_note": "Out",
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 6,
+     "pts": 10.0,
+     "reb": 10.8,
+     "ast": 2.7,
+     "text": "Has faced Naji Marshall 6 times (avg 10.0 pts, 10.8 reb, 2.7 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    },
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 8,
+     "pts": 14.1,
+     "reb": 9.8,
+     "ast": 2.2,
+     "text": "Has faced P.J. Washington 8 times (avg 14.1 pts, 9.8 reb, 2.2 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 4278355,
+   "name": "Obi Toppin",
+   "team": "IND",
+   "team_name": "Pacers",
+   "opponent": "NYK",
+   "opponent_name": "Knicks",
+   "position": "F",
+   "jersey": "1",
+   "home_away": "away",
+   "game_id": "401910034",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-23T01:00:00+00:00",
+   "arena": "Madison Square Garden",
+   "location": "New York, NY",
+   "categories": [
+    "Hometown",
+    "Revenge"
+   ],
+   "summary": "Born near here; couldn't confirm he grew up here. Faces the Knicks, who traded him on Jul 7, 2023.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "low",
+     "headline": "Born near here; couldn't confirm he grew up here.",
+     "detail": "Born in Brooklyn, NY (high school not found).",
+     "miles": 7,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q18419"
+      }
+     ]
+    },
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Knicks, who traded him on Jul 7, 2023.",
+     "how_left": "Traded to the Pacers for a 2028 2nd round draft pick and a 2029 2nd round draft pick. 2028 2nd-rd pick is least favorable 2029 2nd-rd pick is least... (Jul 7, 2023).",
+     "detail": "Faces the Knicks, who traded him on Jul 7, 2023. Traded to the Pacers for a 2028 2nd round draft pick and a 2029 2nd round draft pick. 2028 2nd-rd pick is least favorable 2029 2nd-rd pick is least... (Jul 7, 2023).",
+     "games_with_team": "201 games with the Knicks",
+     "when": "2023-07-07",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/t/toppiob01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 24.8,
+   "stats": {
+    "gp": 12,
+    "min": 19.9,
+    "pts": 11.3,
+    "reb": 4.1,
+    "ast": 1.4
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4278355",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909307",
+       "date": "2026-11-20",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "128-119",
+       "min": 26,
+       "pts": 17,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910008",
+       "date": "2026-11-18",
+       "venue": "IND",
+       "opp": "HOU",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "119-104",
+       "min": 17,
+       "pts": 6,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909985",
+       "date": "2026-11-15",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "131-124",
+       "min": 14,
+       "pts": 5,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "106-104",
+       "min": 16,
+       "pts": 9,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909966",
+       "date": "2026-11-11",
+       "venue": "IND",
+       "opp": "WAS",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "114-101",
+       "min": 16,
+       "pts": 8,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 9.0,
+     "reb": 2.4,
+     "ast": 1.2,
+     "min": 17.8
+    },
+    "vs": {
+     "opp": "NYK",
+     "games": [
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "106-104",
+       "min": 16,
+       "pts": 9,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810849",
+       "date": "2026-03-17",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "136-110",
+       "min": 18,
+       "pts": 15,
+       "reb": 3,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810817",
+       "date": "2026-03-13",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "L",
+       "score": "101-92",
+       "min": 16,
+       "pts": 9,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401772994",
+       "date": "2025-05-31",
+       "venue": "IND",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": true,
+       "result": "W",
+       "score": "125-108",
+       "min": 25,
+       "pts": 18,
+       "reb": 6,
+       "ast": 0,
+       "playoff": true
+      },
+      {
+       "gid": "401772993",
+       "date": "2025-05-29",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "111-94",
+       "min": 18,
+       "pts": 11,
+       "reb": 4,
+       "ast": 0,
+       "playoff": true
+      }
+     ],
+     "n": 5,
+     "pts": 12.4,
+     "reb": 4.0,
+     "ast": 1.0,
+     "min": 18.6,
+     "note": "No games vs NYK in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4278355.png",
+   "team_logo": "img/teams/IND.png",
+   "opponent_logo": "img/teams/NYK.png",
+   "matchup": {
+    "notes": {
+     "pts": "NYK gives up the 23rd-most points to forwards (38.7 a game, 15 games).",
+     "reb": "NYK gives up the 23rd-most rebounds to forwards (16.9 a game, 15 games).",
+     "ast": "NYK gives up the 12th-most assists to forwards (8.3 a game, 15 games)."
+    },
+    "group": "F",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 38.7,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 16.9,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 8.3,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 37,
+    "grade": "D",
+    "color": "yellow",
+    "best": "ast",
+    "note": "NYK gives up the 12th-most assists to forwards (8.3 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 133 times (avg 7.2 pts, 3.1 reb, 0.8 ast).",
+     "n": 133,
+     "pts": 7.2,
+     "reb": 3.1,
+     "ast": 0.8,
+     "scope": ""
+    },
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Knicks 21 times since leaving them (avg 9.7 pts, 3.7 reb, 1.6 ast).",
+     "n": 21,
+     "pts": 9.7,
+     "reb": 3.7,
+     "ast": 1.6,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 11,
+      "lo": 5,
+      "hi": 17
+     },
+     {
+      "label": "Reb",
+      "proj": 3.9,
+      "lo": 1,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 1.7,
+      "lo": 1,
+      "hi": 2
+     }
+    ],
+    "games_used": 13,
+    "minutes": 20,
+    "sims": 1000,
+    "opp_factor": 0.97,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4278594,
+   "name": "Naji Marshall",
+   "team": "DAL",
+   "team_name": "Mavericks",
+   "opponent": "UTA",
+   "opponent_name": "Jazz",
+   "position": "F",
+   "jersey": "3",
+   "home_away": "away",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "History"
+   ],
+   "summary": "Altercation history with Jusuf Nurkic.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with Jusuf Nurkic.",
+     "reason": "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "detail": "Nurkic slapped Marshall and Marshall punched Nurkic in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "when": "2024-12-27",
+     "with": "Jusuf Nurkic",
+     "with_id": 3102530,
+     "with_team": "UTA",
+     "sources": [
+      {
+       "label": "Sports Illustrated",
+       "url": "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 6,
+      "me": {
+       "n": 6,
+       "min": 20.0,
+       "pts": 6.2,
+       "reb": 2.3,
+       "ast": 2.0
+      },
+      "them": {
+       "n": 6,
+       "min": 26.5,
+       "pts": 10.0,
+       "reb": 10.8,
+       "ast": 2.7
+      },
+      "record": "2-4",
+      "recent": [
+       {
+        "date": "2024-12-27",
+        "me": 4,
+        "them": 3,
+        "playoff": false
+       },
+       {
+        "date": "2024-11-08",
+        "me": 18,
+        "them": 15,
+        "playoff": false
+       },
+       {
+        "date": "2024-10-26",
+        "me": 2,
+        "them": 18,
+        "playoff": false
+       },
+       {
+        "date": "2024-04-01",
+        "me": 4,
+        "them": 19,
+        "playoff": false
+       },
+       {
+        "date": "2024-01-19",
+        "me": 5,
+        "them": 5,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 12,
+    "min": 25.0,
+    "pts": 11.6,
+    "reb": 2.9,
+    "ast": 4.1
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4278594",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910016",
+       "date": "2026-11-18",
+       "venue": "DAL",
+       "opp": "GSW",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "116-94",
+       "min": 27,
+       "pts": 12,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909989",
+       "date": "2026-11-15",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "131-94",
+       "min": 23,
+       "pts": 13,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909981",
+       "date": "2026-11-14",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "127-117",
+       "min": 30,
+       "pts": 12,
+       "reb": 3,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909978",
+       "date": "2026-11-12",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "133-94",
+       "min": 23,
+       "pts": 13,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909956",
+       "date": "2026-11-09",
+       "venue": "DAL",
+       "opp": "IND",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "125-122",
+       "min": 25,
+       "pts": 6,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 11.2,
+     "reb": 3.2,
+     "ast": 3.0,
+     "min": 25.6
+    },
+    "vs": {
+     "opp": "UTA",
+     "games": [
+      {
+       "gid": "401909290",
+       "date": "2026-11-06",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "112-100",
+       "min": 25,
+       "pts": 7,
+       "reb": 1,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401810448",
+       "date": "2026-01-17",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "138-120",
+       "min": 29,
+       "pts": 16,
+       "reb": 5,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401810438",
+       "date": "2026-01-15",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "144-122",
+       "min": 24,
+       "pts": 22,
+       "reb": 6,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401810386",
+       "date": "2026-01-08",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "116-114",
+       "min": 37,
+       "pts": 17,
+       "reb": 2,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401836805",
+       "date": "2025-12-15",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "140-133 OT",
+       "min": 36,
+       "pts": 15,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 15.4,
+     "reb": 3.4,
+     "ast": 4.0,
+     "min": 30.2,
+     "note": "No games vs UTA in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4278594.png",
+   "team_logo": "img/teams/DAL.png",
+   "opponent_logo": "img/teams/UTA.png",
+   "matchup": {
+    "notes": {
+     "pts": "UTA gives up the 7th-most points to forwards (45.1 a game, 17 games).",
+     "reb": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games).",
+     "ast": "UTA gives up the 27th-most assists to forwards (7.0 a game, 17 games)."
+    },
+    "group": "F",
+    "games": 17,
+    "stats": {
+     "pts": {
+      "value": 45.1,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 20.4,
+      "rank": 4,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 7.0,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 60,
+    "grade": "B",
+    "color": "yellow",
+    "best": "reb",
+    "note": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 6,
+     "pts": 6.2,
+     "reb": 2.3,
+     "ast": 2.0,
+     "text": "Has faced Jusuf Nurkic 6 times (avg 6.2 pts, 2.3 reb, 2.0 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 12,
+      "lo": 6,
+      "hi": 17
+     },
+     {
+      "label": "Reb",
+      "proj": 3.2,
+      "lo": 1,
+      "hi": 5
+     },
+     {
+      "label": "Ast",
+      "proj": 3.5,
+      "lo": 2,
+      "hi": 6
+     }
+    ],
+    "games_used": 12,
+    "minutes": 25,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4278078,
+   "name": "P.J. Washington",
+   "team": "DAL",
+   "team_name": "Mavericks",
+   "opponent": "UTA",
+   "opponent_name": "Jazz",
+   "position": "F",
+   "jersey": "25",
+   "home_away": "away",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "History"
+   ],
+   "summary": "Altercation history with Jusuf Nurkic.",
+   "tags": [
+    {
+     "category": "History",
+     "kind": "rivalry",
+     "label": "Altercation",
+     "confidence": "high",
+     "headline": "Altercation history with Jusuf Nurkic.",
+     "reason": "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "detail": "Washington shoved Nurkic to the ground during a scuffle in a Suns-Mavericks game on Dec. 27, 2024; both were ejected.",
+     "when": "2024-12-27",
+     "with": "Jusuf Nurkic",
+     "with_id": 3102530,
+     "with_team": "UTA",
+     "sources": [
+      {
+       "label": "Sports Illustrated",
+       "url": "https://www.si.com/nba/three-players-ejected-jusuf-nurkic-naji-marshall-suns-vs-mavericks-fight"
+      }
+     ],
+     "h2h": {
+      "scope": "2017-18 to now, regular season and playoffs",
+      "games": 8,
+      "me": {
+       "n": 8,
+       "min": 28.2,
+       "pts": 14.4,
+       "reb": 5.0,
+       "ast": 1.5
+      },
+      "them": {
+       "n": 8,
+       "min": 24.1,
+       "pts": 14.1,
+       "reb": 9.8,
+       "ast": 2.2
+      },
+      "record": "4-4",
+      "recent": [
+       {
+        "date": "2024-12-27",
+        "me": 7,
+        "them": 3,
+        "playoff": false
+       },
+       {
+        "date": "2024-10-26",
+        "me": 5,
+        "them": 18,
+        "playoff": false
+       },
+       {
+        "date": "2024-02-22",
+        "me": 12,
+        "them": 5,
+        "playoff": false
+       },
+       {
+        "date": "2023-12-29",
+        "me": 13,
+        "them": 24,
+        "playoff": false
+       },
+       {
+        "date": "2022-12-26",
+        "me": 22,
+        "them": 28,
+        "playoff": false
+       }
+      ]
+     }
+    }
+   ],
+   "score": 18,
+   "stats": {
+    "gp": 15,
+    "min": 30.8,
+    "pts": 14.0,
+    "reb": 6.7,
+    "ast": 1.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4278078",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910016",
+       "date": "2026-11-18",
+       "venue": "DAL",
+       "opp": "GSW",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "116-94",
+       "min": 25,
+       "pts": 21,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909989",
+       "date": "2026-11-15",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "131-94",
+       "min": 25,
+       "pts": 8,
+       "reb": 5,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909981",
+       "date": "2026-11-14",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "127-117",
+       "min": 26,
+       "pts": 10,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909978",
+       "date": "2026-11-12",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "133-94",
+       "min": 16,
+       "pts": 10,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909956",
+       "date": "2026-11-09",
+       "venue": "DAL",
+       "opp": "IND",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "125-122",
+       "min": 35,
+       "pts": 13,
+       "reb": 9,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 12.4,
+     "reb": 5.0,
+     "ast": 1.6,
+     "min": 25.4
+    },
+    "vs": {
+     "opp": "UTA",
+     "games": [
+      {
+       "gid": "401909290",
+       "date": "2026-11-06",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "112-100",
+       "min": 33,
+       "pts": 26,
+       "reb": 6,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401836805",
+       "date": "2025-12-15",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "140-133 OT",
+       "min": 39,
+       "pts": 25,
+       "reb": 14,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401704870",
+       "date": "2024-11-30",
+       "venue": "UTA",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": false,
+       "result": "W",
+       "score": "106-94",
+       "min": 35,
+       "pts": 16,
+       "reb": 11,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401704676",
+       "date": "2024-10-28",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "110-102",
+       "min": 33,
+       "pts": 12,
+       "reb": 11,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 4,
+     "pts": 19.8,
+     "reb": 10.5,
+     "ast": 1.0,
+     "min": 35.0,
+     "note": "No games vs UTA in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4278078.png",
+   "team_logo": "img/teams/DAL.png",
+   "opponent_logo": "img/teams/UTA.png",
+   "matchup": {
+    "notes": {
+     "pts": "UTA gives up the 7th-most points to forwards (45.1 a game, 17 games).",
+     "reb": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games).",
+     "ast": "UTA gives up the 27th-most assists to forwards (7.0 a game, 17 games)."
+    },
+    "group": "F",
+    "games": 17,
+    "stats": {
+     "pts": {
+      "value": 45.1,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 20.4,
+      "rank": 4,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 7.0,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 60,
+    "grade": "B",
+    "color": "yellow",
+    "best": "reb",
+    "note": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games)."
+   },
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
+    "date": "2026-11-20T22:40Z"
+   },
+   "status_note": "Day-To-Day",
+   "career": [
+    {
+     "kind": "history",
+     "label": "Rivalry",
+     "n": 8,
+     "pts": 14.4,
+     "reb": 5.0,
+     "ast": 1.5,
+     "text": "Has faced Jusuf Nurkic 8 times (avg 14.4 pts, 5.0 reb, 1.5 ast).",
+     "scope": "2017-18 to now, regular season and playoffs"
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 14,
+      "lo": 6,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 6.5,
+      "lo": 3,
+      "hi": 10
+     },
+     {
+      "label": "Ast",
+      "proj": 1.3,
+      "lo": 0,
+      "hi": 3
+     }
+    ],
+    "games_used": 15,
+    "minutes": 30,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4896372,
+   "name": "Walter Clayton Jr.",
+   "team": "DAL",
+   "team_name": "Mavericks",
+   "opponent": "UTA",
+   "opponent_name": "Jazz",
+   "position": "G",
+   "jersey": "1",
+   "home_away": "away",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Jazz, who traded him on Feb 3, 2026.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Jazz, who traded him on Feb 3, 2026.",
+     "how_left": "Traded to the Grizzlies for Jaren Jackson, John Konchar, Jock Landale and Vince Williams. 2027 1st-rd pick is more favorable conditional 2027 1st-rd pick... (Feb 3, 2026).",
+     "detail": "Faces the Jazz, who traded him on Feb 3, 2026. Traded to the Grizzlies for Jaren Jackson, John Konchar, Jock Landale and Vince Williams. 2027 1st-rd pick is more favorable conditional 2027 1st-rd pick... (Feb 3, 2026).",
+     "games_with_team": "45 games with the Jazz",
+     "when": "2026-02-03",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/c/claytwa01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.22,
+   "stats": {
+    "gp": 14,
+    "min": 17.8,
+    "pts": 7.1,
+    "reb": 2.9,
+    "ast": 3.6
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4896372",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910016",
+       "date": "2026-11-18",
+       "venue": "DAL",
+       "opp": "GSW",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "116-94",
+       "min": 27,
+       "pts": 8,
+       "reb": 2,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909989",
+       "date": "2026-11-15",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "131-94",
+       "min": 23,
+       "pts": 13,
+       "reb": 4,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909981",
+       "date": "2026-11-14",
+       "venue": "CLE",
+       "opp": "CLE",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "127-117",
+       "min": 13,
+       "pts": 2,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909978",
+       "date": "2026-11-12",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "133-94",
+       "min": 22,
+       "pts": 5,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909956",
+       "date": "2026-11-09",
+       "venue": "DAL",
+       "opp": "IND",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "125-122",
+       "min": 25,
+       "pts": 6,
+       "reb": 6,
+       "ast": 4,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 6.8,
+     "reb": 3.0,
+     "ast": 4.0,
+     "min": 22.0
+    },
+    "vs": {
+     "opp": "UTA",
+     "games": [
+      {
+       "gid": "401909290",
+       "date": "2026-11-06",
+       "venue": "DAL",
+       "opp": "UTA",
+       "tm": "DAL",
+       "home": true,
+       "result": "W",
+       "score": "112-100",
+       "min": 23,
+       "pts": 12,
+       "reb": 4,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 1,
+     "pts": 12.0,
+     "reb": 4.0,
+     "ast": 2.0,
+     "min": 23.0,
+     "note": "No games vs UTA in his NBA career so far."
+    }
+   },
+   "headshot": "img/players/4896372.png",
+   "team_logo": "img/teams/DAL.png",
+   "opponent_logo": "img/teams/UTA.png",
+   "matchup": {
+    "notes": {
+     "pts": "UTA gives up the 15th-most points to guards (57.3 a game, 17 games).",
+     "reb": "UTA gives up the 18th-most rebounds to guards (14.9 a game, 17 games).",
+     "ast": "UTA gives up the 20th-most assists to guards (14.1 a game, 17 games)."
+    },
+    "group": "G",
+    "games": 17,
+    "stats": {
+     "pts": {
+      "value": 57.3,
+      "rank": 15,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 14.9,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 14.1,
+      "rank": 20,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 43,
+    "grade": "C",
+    "color": "yellow",
+    "best": "pts",
+    "note": "UTA gives up the 15th-most points to guards (57.3 a game, 17 games)."
+   },
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Clayton (knee) is questionable for Saturday's game against the Clippers.",
+    "date": "2026-11-20T22:35Z"
+   },
+   "status_note": "Day-To-Day",
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Jazz 1 time since leaving them (avg 12.0 pts, 4.0 reb, 2.0 ast).",
+     "n": 1,
+     "pts": 12.0,
+     "reb": 4.0,
+     "ast": 2.0,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 8,
+      "lo": 2,
+      "hi": 15
+     },
+     {
+      "label": "Reb",
+      "proj": 3.0,
+      "lo": 1,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 3.6,
+      "lo": 2,
+      "hi": 6
+     }
+    ],
+    "games_used": 14,
+    "minutes": 19,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4432811,
+   "name": "Josh Green",
+   "team": "UTA",
+   "team_name": "Jazz",
+   "opponent": "DAL",
+   "opponent_name": "Mavericks",
+   "position": "G",
+   "jersey": "5",
+   "home_away": "home",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Mavericks, who traded him on Jul 6, 2024.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Mavericks, who traded him on Jul 6, 2024.",
+     "how_left": "Traded to the Hornets (Jul 6, 2024).",
+     "detail": "Faces the Mavericks, who traded him on Jul 6, 2024. Traded to the Hornets (Jul 6, 2024).",
+     "games_with_team": "223 games with the Mavericks",
+     "when": "2024-07-06",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/g/greenjo02.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.2,
+   "stats": {
+    "gp": 14,
+    "min": 19.4,
+    "pts": 4.6,
+    "reb": 1.6,
+    "ast": 1.0
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4432811",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909311",
+       "date": "2026-11-20",
+       "venue": "UTA",
+       "opp": "PHX",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "111-101",
+       "min": 29,
+       "pts": 8,
+       "reb": 4,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401910017",
+       "date": "2026-11-18",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "W",
+       "score": "109-97",
+       "min": 28,
+       "pts": 11,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910006",
+       "date": "2026-11-17",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "UTA",
+       "home": false,
+       "result": "W",
+       "score": "132-107",
+       "min": 13,
+       "pts": 9,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909988",
+       "date": "2026-11-15",
+       "venue": "UTA",
+       "opp": "SAS",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "110-102",
+       "min": 15,
+       "pts": 6,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909301",
+       "date": "2026-11-13",
+       "venue": "HOU",
+       "opp": "HOU",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "125-118",
+       "min": 14,
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 7.2,
+     "reb": 1.6,
+     "ast": 0.6,
+     "min": 19.8
+    },
+    "vs": {
+     "opp": "DAL",
+     "games": [
+      {
+       "gid": "401909290",
+       "date": "2026-11-06",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "112-100",
+       "min": 24,
+       "pts": 3,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810738",
+       "date": "2026-03-03",
+       "venue": "CHA",
+       "opp": "DAL",
+       "tm": "CHA",
+       "home": true,
+       "result": "W",
+       "score": "117-90",
+       "min": 25,
+       "pts": 11,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810538",
+       "date": "2026-01-29",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "CHA",
+       "home": false,
+       "result": "W",
+       "score": "123-121",
+       "min": 15,
+       "pts": 2,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401705413",
+       "date": "2025-02-27",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "CHA",
+       "home": false,
+       "result": "L",
+       "score": "103-96",
+       "min": 36,
+       "pts": 7,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705165",
+       "date": "2025-01-20",
+       "venue": "CHA",
+       "opp": "DAL",
+       "tm": "CHA",
+       "home": true,
+       "result": "W",
+       "score": "110-105",
+       "min": 27,
+       "pts": 4,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 5.4,
+     "reb": 3.2,
+     "ast": 1.6,
+     "min": 25.4,
+     "note": "No games vs DAL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4432811.png",
+   "team_logo": "img/teams/UTA.png",
+   "opponent_logo": "img/teams/DAL.png",
+   "matchup": {
+    "notes": {
+     "pts": "DAL gives up the 12th-most points to guards (58.5 a game, 15 games).",
+     "reb": "DAL gives up the 12th-most rebounds to guards (16.1 a game, 15 games).",
+     "ast": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 58.5,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 16.1,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 16.8,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 69,
+    "grade": "B",
+    "color": "green",
+    "best": "ast",
+    "note": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Mavericks 5 times since leaving them (avg 5.4 pts, 3.2 reb, 1.6 ast).",
+     "n": 5,
+     "pts": 5.4,
+     "reb": 3.2,
+     "ast": 1.6,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 6,
+      "lo": 2,
+      "hi": 10
+     },
+     {
+      "label": "Reb",
+      "proj": 1.8,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 1.0,
+      "lo": 0,
+      "hi": 2
+     }
+    ],
+    "games_used": 15,
+    "minutes": 21,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 3102531,
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "team_name": "Warriors",
+   "opponent": "BOS",
+   "opponent_name": "Celtics",
+   "position": "C",
+   "jersey": "7",
+   "home_away": "home",
+   "game_id": "401910035",
+   "game_kind": "Regular season",
+   "tip": "8:30 PM ET",
+   "tip_utc": "2026-11-23T01:30:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Celtics, who traded him on Jul 7, 2025.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Celtics, who traded him on Jul 7, 2025.",
+     "how_left": "Traded to the Hawks (Jul 7, 2025).",
+     "detail": "Faces the Celtics, who traded him on Jul 7, 2025. Traded to the Hawks (Jul 7, 2025).",
+     "games_with_team": "99 games with the Celtics",
+     "when": "2025-07-07",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/p/porzikr01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 15.09,
+   "stats": null,
+   "espn_url": "https://www.espn.com/nba/player/_/id/3102531",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401866759",
+       "date": "2026-04-17",
+       "venue": "PHX",
+       "opp": "PHX",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "111-96",
+       "min": 15,
+       "pts": 11,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401866756",
+       "date": "2026-04-15",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "GSW",
+       "home": false,
+       "result": "W",
+       "score": "126-121",
+       "min": 28,
+       "pts": 20,
+       "reb": 5,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401811054",
+       "date": "2026-04-12",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "115-110",
+       "min": 24,
+       "pts": 12,
+       "reb": 8,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401811039",
+       "date": "2026-04-10",
+       "venue": "SAC",
+       "opp": "SAC",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "124-118",
+       "min": 26,
+       "pts": 11,
+       "reb": 7,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810997",
+       "date": "2026-04-05",
+       "venue": "GSW",
+       "opp": "HOU",
+       "tm": "GSW",
+       "home": true,
+       "result": "L",
+       "score": "117-116",
+       "min": 23,
+       "pts": 9,
+       "reb": 8,
+       "ast": 3,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 12.6,
+     "reb": 5.8,
+     "ast": 2.2,
+     "min": 23.2
+    },
+    "vs": {
+     "opp": "BOS",
+     "games": [
+      {
+       "gid": "401810854",
+       "date": "2026-03-18",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "120-99",
+       "min": 23,
+       "pts": 11,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810654",
+       "date": "2026-02-19",
+       "venue": "GSW",
+       "opp": "BOS",
+       "tm": "GSW",
+       "home": true,
+       "result": "L",
+       "score": "121-110",
+       "min": 17,
+       "pts": 12,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 2,
+     "pts": 11.5,
+     "reb": 3.0,
+     "ast": 1.5,
+     "min": 20.0,
+     "note": "No games vs BOS in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3102531.png",
+   "team_logo": "img/teams/GSW.png",
+   "opponent_logo": "img/teams/BOS.png",
+   "matchup": {
+    "notes": {
+     "pts": "BOS gives up the 19th-most points to centers (13.9 a game, 15 games).",
+     "reb": "BOS gives up the 27th-most rebounds to centers (7.9 a game, 15 games).",
+     "ast": "BOS gives up the 6th-most assists to centers (3.3 a game, 15 games)."
+    },
+    "group": "C",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 13.9,
+      "rank": 19,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 7.9,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 3.3,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 44,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "BOS gives up the 6th-most assists to centers (3.3 a game, 15 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Porzingis announced on his social media that he's stepping away from basketball.",
+    "date": "2026-11-06T21:26Z"
+   },
+   "status_note": "Out",
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Celtics 2 times since leaving them (avg 11.5 pts, 3.0 reb, 1.5 ast).",
+     "n": 2,
+     "pts": 11.5,
+     "reb": 3.0,
+     "ast": 1.5,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 3908845,
+   "name": "John Collins",
+   "team": "DET",
+   "team_name": "Pistons",
+   "opponent": "ATL",
+   "opponent_name": "Hawks",
+   "position": "F",
+   "jersey": "20",
+   "home_away": "away",
+   "game_id": "401910029",
+   "game_kind": "Regular season",
+   "tip": "3:30 PM ET",
+   "tip_utc": "2026-11-22T20:30:00+00:00",
+   "arena": "State Farm Arena",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Hawks, who traded him on Jul 7, 2023.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Hawks, who traded him on Jul 7, 2023.",
+     "how_left": "Traded to the Jazz for Rudy Gay and a 2026 2nd round draft pick. 2026 2nd-rd pick was MEM own and conveyed (Jul 7, 2023).",
+     "detail": "Faces the Hawks, who traded him on Jul 7, 2023. Traded to the Jazz for Rudy Gay and a 2026 2nd round draft pick. 2026 2nd-rd pick was MEM own and conveyed (Jul 7, 2023).",
+     "games_with_team": "364 games with the Hawks",
+     "when": "2023-07-07",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/c/collijo01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 14.8,
+   "stats": {
+    "gp": 15,
+    "min": 25.9,
+    "pts": 10.6,
+    "reb": 5.7,
+    "ast": 0.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3908845",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909308",
+       "date": "2026-11-20",
+       "venue": "DET",
+       "opp": "TOR",
+       "tm": "DET",
+       "home": true,
+       "result": "L",
+       "score": "105-102",
+       "min": 20,
+       "pts": 3,
+       "reb": 6,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401910013",
+       "date": "2026-11-18",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "122-109",
+       "min": 30,
+       "pts": 20,
+       "reb": 7,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910004",
+       "date": "2026-11-17",
+       "venue": "SAS",
+       "opp": "SAS",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "105-93",
+       "min": 23,
+       "pts": 11,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909982",
+       "date": "2026-11-14",
+       "venue": "MIA",
+       "opp": "MIA",
+       "tm": "DET",
+       "home": false,
+       "result": "L",
+       "score": "137-117",
+       "min": 26,
+       "pts": 8,
+       "reb": 7,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909977",
+       "date": "2026-11-12",
+       "venue": "WAS",
+       "opp": "WAS",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "144-140 2OT",
+       "min": 25,
+       "pts": 10,
+       "reb": 4,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 10.4,
+     "reb": 5.0,
+     "ast": 0.6,
+     "min": 24.8
+    },
+    "vs": {
+     "opp": "ATL",
+     "games": [
+      {
+       "gid": "401810182",
+       "date": "2025-12-03",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "LAC",
+       "home": false,
+       "result": "W",
+       "score": "115-92",
+       "min": 32,
+       "pts": 15,
+       "reb": 9,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810061",
+       "date": "2025-11-10",
+       "venue": "LAC",
+       "opp": "ATL",
+       "tm": "LAC",
+       "home": true,
+       "result": "L",
+       "score": "105-102",
+       "min": 31,
+       "pts": 9,
+       "reb": 7,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 2,
+     "pts": 12.0,
+     "reb": 8.0,
+     "ast": 0.5,
+     "min": 31.5,
+     "note": "No games vs ATL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3908845.png",
+   "team_logo": "img/teams/DET.png",
+   "opponent_logo": "img/teams/ATL.png",
+   "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 10th-most points to forwards (44.8 a game, 16 games).",
+     "reb": "ATL gives up the 7th-most rebounds to forwards (19.6 a game, 16 games).",
+     "ast": "ATL gives up the 14th-most assists to forwards (8.2 a game, 16 games)."
+    },
+    "group": "F",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 44.8,
+      "rank": 10,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 19.6,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 8.2,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 68,
+    "grade": "B",
+    "color": "green",
+    "best": "reb",
+    "note": "ATL gives up the 7th-most rebounds to forwards (19.6 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Hawks 4 times since leaving them (avg 11.8 pts, 9.2 reb, 1.2 ast).",
+     "n": 4,
+     "pts": 11.8,
+     "reb": 9.2,
+     "ast": 1.2,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 11,
+      "lo": 3,
+      "hi": 23
+     },
+     {
+      "label": "Reb",
+      "proj": 5.7,
+      "lo": 1,
+      "hi": 10
+     },
+     {
+      "label": "Ast",
+      "proj": 0.8,
+      "lo": 0,
+      "hi": 2
+     }
+    ],
+    "games_used": 15,
+    "minutes": 26,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4432808,
+   "name": "James Wiseman",
+   "team": "NYK",
+   "team_name": "Knicks",
+   "opponent": "IND",
+   "opponent_name": "Pacers",
+   "position": "C",
+   "jersey": "35",
+   "home_away": "home",
+   "game_id": "401910034",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-23T01:00:00+00:00",
+   "arena": "Madison Square Garden",
+   "location": "New York, NY",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Pacers, who waived him on Dec 26, 2025.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Faces the Pacers, who waived him on Dec 26, 2025.",
+     "how_left": "Waived (Dec 26, 2025).",
+     "detail": "Faces the Pacers, who waived him on Dec 26, 2025. Waived (Dec 26, 2025).",
+     "games_with_team": "5 games with the Pacers",
+     "when": "2025-12-26",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/w/wisemja01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 14.62,
+   "stats": {
+    "gp": 6,
+    "min": 4.8,
+    "pts": 1.3,
+    "reb": 2.5,
+    "ast": 0.0
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4432808",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909990",
+       "date": "2026-11-15",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "112-108 OT",
+       "min": 3,
+       "pts": 0,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909960",
+       "date": "2026-11-10",
+       "venue": "NYK",
+       "opp": "MIL",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "117-85",
+       "min": 5,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909926",
+       "date": "2026-11-04",
+       "venue": "NYK",
+       "opp": "CHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "135-105",
+       "min": 10,
+       "pts": 8,
+       "reb": 8,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909878",
+       "date": "2026-10-27",
+       "venue": "NYK",
+       "opp": "DET",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "111-97",
+       "min": 1,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909863",
+       "date": "2026-10-25",
+       "venue": "NYK",
+       "opp": "ORL",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "111-102",
+       "min": 7,
+       "pts": 0,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 1.6,
+     "reb": 3.0,
+     "ast": 0.0,
+     "min": 5.2
+    },
+    "vs": {
+     "opp": "IND",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "First meeting with the Pacers since he left."
+    }
+   },
+   "headshot": "img/players/4432808.png",
+   "team_logo": "img/teams/NYK.png",
+   "opponent_logo": "img/teams/IND.png",
+   "matchup": {
+    "notes": {
+     "pts": "IND gives up the 8th-most points to centers (15.6 a game, 16 games).",
+     "reb": "IND gives up the 8th-most rebounds to centers (11.8 a game, 16 games).",
+     "ast": "IND gives up the 18th-most assists to centers (2.8 a game, 16 games)."
+    },
+    "group": "C",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 15.6,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 11.8,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 2.8,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 64,
+    "grade": "B",
+    "color": "yellow",
+    "best": "pts",
+    "note": "IND gives up the 8th-most points to centers (15.6 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": null
+  },
+  {
+   "player_id": 3213,
+   "name": "Al Horford",
+   "team": "GSW",
+   "team_name": "Warriors",
+   "opponent": "BOS",
+   "opponent_name": "Celtics",
+   "position": "C",
+   "jersey": "20",
+   "home_away": "home",
+   "game_id": "401910035",
+   "game_kind": "Regular season",
+   "tip": "8:30 PM ET",
+   "tip_utc": "2026-11-23T01:30:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces his former team, the Celtics. He left in free agency in 2025.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "free_agency",
+     "confidence": "medium",
+     "headline": "Faces his former team, the Celtics. He left in free agency in 2025.",
+     "how_left": "Contract ended; signed with the Warriors as a free agent (Oct 1, 2025).",
+     "detail": "Faces his former team, the Celtics. He left in free agency in 2025. Contract ended; signed with the Warriors as a free agent (Oct 1, 2025).",
+     "games_with_team": "465 games with the Celtics",
+     "when": "2025-10-01",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/h/horfoal01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 14.6,
+   "stats": {
+    "gp": 12,
+    "min": 17.0,
+    "pts": 3.9,
+    "reb": 3.8,
+    "ast": 1.8
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3213",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910019",
+       "date": "2026-11-19",
+       "venue": "MEM",
+       "opp": "MEM",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "126-98",
+       "min": 17,
+       "pts": 3,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401910000",
+       "date": "2026-11-16",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "115-94",
+       "min": 14,
+       "pts": 0,
+       "reb": 5,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909302",
+       "date": "2026-11-13",
+       "venue": "SAS",
+       "opp": "SAS",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "123-85",
+       "min": 10,
+       "pts": 0,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909974",
+       "date": "2026-11-11",
+       "venue": "HOU",
+       "opp": "HOU",
+       "tm": "GSW",
+       "home": false,
+       "result": "L",
+       "score": "115-108",
+       "min": 21,
+       "pts": 2,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909959",
+       "date": "2026-11-09",
+       "venue": "GSW",
+       "opp": "NOP",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "138-87",
+       "min": 15,
+       "pts": 5,
+       "reb": 2,
+       "ast": 6,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 2.0,
+     "reb": 2.6,
+     "ast": 2.6,
+     "min": 15.4
+    },
+    "vs": {
+     "opp": "BOS",
+     "games": [
+      {
+       "gid": "401810654",
+       "date": "2026-02-19",
+       "venue": "GSW",
+       "opp": "BOS",
+       "tm": "GSW",
+       "home": true,
+       "result": "L",
+       "score": "121-110",
+       "min": 28,
+       "pts": 5,
+       "reb": 8,
+       "ast": 4,
+       "playoff": false
+      }
+     ],
+     "n": 1,
+     "pts": 5.0,
+     "reb": 8.0,
+     "ast": 4.0,
+     "min": 28.0,
+     "note": "No games vs BOS in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3213.png",
+   "team_logo": "img/teams/GSW.png",
+   "opponent_logo": "img/teams/BOS.png",
+   "matchup": {
+    "notes": {
+     "pts": "BOS gives up the 19th-most points to centers (13.9 a game, 15 games).",
+     "reb": "BOS gives up the 27th-most rebounds to centers (7.9 a game, 15 games).",
+     "ast": "BOS gives up the 6th-most assists to centers (3.3 a game, 15 games)."
+    },
+    "group": "C",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 13.9,
+      "rank": 19,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 7.9,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 3.3,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 44,
+    "grade": "C",
+    "color": "yellow",
+    "best": "ast",
+    "note": "BOS gives up the 6th-most assists to centers (3.3 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Celtics 1 time since leaving them (avg 5.0 pts, 8.0 reb, 4.0 ast).",
+     "n": 1,
+     "pts": 5.0,
+     "reb": 8.0,
+     "ast": 4.0,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 5,
+      "lo": 0,
+      "hi": 11
+     },
+     {
+      "label": "Reb",
+      "proj": 3.5,
+      "lo": 1,
+      "hi": 5
+     },
+     {
+      "label": "Ast",
+      "proj": 2.0,
+      "lo": 0,
+      "hi": 4
+     }
+    ],
+    "games_used": 13,
+    "minutes": 17,
+    "sims": 1000,
+    "opp_factor": 0.98,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4066372,
+   "name": "Kevin Huerter",
+   "team": "DET",
+   "team_name": "Pistons",
+   "opponent": "ATL",
+   "opponent_name": "Hawks",
+   "position": "G",
+   "jersey": "27",
+   "home_away": "away",
+   "game_id": "401910029",
+   "game_kind": "Regular season",
+   "tip": "3:30 PM ET",
+   "tip_utc": "2026-11-22T20:30:00+00:00",
+   "arena": "State Farm Arena",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Hawks, who traded him on Jul 6, 2022.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Hawks, who traded him on Jul 6, 2022.",
+     "how_left": "Traded to the Kings for Maurice Harkless, Justin Holiday and a 2025 1st round draft pick. conditional 2024 1st-rd pick was SAC own, did not convey,... (Jul 6, 2022).",
+     "detail": "Faces the Hawks, who traded him on Jul 6, 2022. Traded to the Kings for Maurice Harkless, Justin Holiday and a 2025 1st round draft pick. conditional 2024 1st-rd pick was SAC own, did not convey,... (Jul 6, 2022).",
+     "games_with_team": "274 games with the Hawks",
+     "when": "2022-07-06",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/h/huertke01.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 14.4,
+   "stats": {
+    "gp": 15,
+    "min": 26.7,
+    "pts": 10.6,
+    "reb": 2.7,
+    "ast": 2.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4066372",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909308",
+       "date": "2026-11-20",
+       "venue": "DET",
+       "opp": "TOR",
+       "tm": "DET",
+       "home": true,
+       "result": "L",
+       "score": "105-102",
+       "min": 36,
+       "pts": 20,
+       "reb": 3,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401910013",
+       "date": "2026-11-18",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "122-109",
+       "min": 36,
+       "pts": 11,
+       "reb": 1,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401910004",
+       "date": "2026-11-17",
+       "venue": "SAS",
+       "opp": "SAS",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "105-93",
+       "min": 36,
+       "pts": 9,
+       "reb": 7,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909982",
+       "date": "2026-11-14",
+       "venue": "MIA",
+       "opp": "MIA",
+       "tm": "DET",
+       "home": false,
+       "result": "L",
+       "score": "137-117",
+       "min": 38,
+       "pts": 20,
+       "reb": 4,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401909977",
+       "date": "2026-11-12",
+       "venue": "WAS",
+       "opp": "WAS",
+       "tm": "DET",
+       "home": false,
+       "result": "W",
+       "score": "144-140 2OT",
+       "min": 24,
+       "pts": 11,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 14.2,
+     "reb": 3.2,
+     "ast": 3.6,
+     "min": 34.0
+    },
+    "vs": {
+     "opp": "ATL",
+     "games": [
+      {
+       "gid": "401810906",
+       "date": "2026-03-25",
+       "venue": "DET",
+       "opp": "ATL",
+       "tm": "DET",
+       "home": true,
+       "result": "L",
+       "score": "130-129 OT",
+       "min": 20,
+       "pts": 8,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810266",
+       "date": "2025-12-23",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "CHI",
+       "home": false,
+       "result": "W",
+       "score": "126-123",
+       "min": 27,
+       "pts": 9,
+       "reb": 7,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810251",
+       "date": "2025-12-21",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "CHI",
+       "home": false,
+       "result": "W",
+       "score": "152-150",
+       "min": 21,
+       "pts": 16,
+       "reb": 1,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401809970",
+       "date": "2025-10-27",
+       "venue": "CHI",
+       "opp": "ATL",
+       "tm": "CHI",
+       "home": true,
+       "result": "W",
+       "score": "128-123",
+       "min": 21,
+       "pts": 15,
+       "reb": 0,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401704816",
+       "date": "2024-11-18",
+       "venue": "SAC",
+       "opp": "ATL",
+       "tm": "SAC",
+       "home": true,
+       "result": "L",
+       "score": "109-108",
+       "min": 39,
+       "pts": 9,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 11.4,
+     "reb": 3.0,
+     "ast": 2.6,
+     "min": 25.6,
+     "note": "No games vs ATL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4066372.png",
+   "team_logo": "img/teams/DET.png",
+   "opponent_logo": "img/teams/ATL.png",
+   "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 27th-most points to guards (50.2 a game, 16 games).",
+     "reb": "ATL gives up the 27th-most rebounds to guards (13.5 a game, 16 games).",
+     "ast": "ATL gives up the 23rd-most assists to guards (13.8 a game, 16 games)."
+    },
+    "group": "G",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 50.2,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 13.5,
+      "rank": 27,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 13.8,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 15,
+    "grade": "F",
+    "color": "red",
+    "best": "ast",
+    "note": "ATL gives up the 23rd-most assists to guards (13.8 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Hawks 10 times since leaving them (avg 11.9 pts, 2.9 reb, 3.1 ast).",
+     "n": 10,
+     "pts": 11.9,
+     "reb": 2.9,
+     "ast": 3.1,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 11,
+      "lo": 5,
+      "hi": 20
+     },
+     {
+      "label": "Reb",
+      "proj": 2.9,
+      "lo": 1,
+      "hi": 6
+     },
+     {
+      "label": "Ast",
+      "proj": 3.0,
+      "lo": 0,
+      "hi": 7
+     }
+    ],
+    "games_used": 15,
+    "minutes": 28,
+    "sims": 1000,
+    "opp_factor": 0.98,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 2990962,
+   "name": "Taurean Prince",
+   "team": "DET",
+   "team_name": "Pistons",
+   "opponent": "ATL",
+   "opponent_name": "Hawks",
+   "position": "F",
+   "jersey": "12",
+   "home_away": "away",
+   "game_id": "401910029",
+   "game_kind": "Regular season",
+   "tip": "3:30 PM ET",
+   "tip_utc": "2026-11-22T20:30:00+00:00",
+   "arena": "State Farm Arena",
+   "location": "Atlanta, GA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Hawks, who traded him on Jul 6, 2019.",
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "trade",
+     "confidence": "high",
+     "headline": "Faces the Hawks, who traded him on Jul 6, 2019.",
+     "how_left": "Traded to the Nets for Nickeil Alexander-Walker, Allen Crabbe and a 2020 1st round draft pick (Jul 6, 2019).",
+     "detail": "Faces the Hawks, who traded him on Jul 6, 2019. Traded to the Nets for Nickeil Alexander-Walker, Allen Crabbe and a 2020 1st round draft pick (Jul 6, 2019).",
+     "games_with_team": "196 games with the Hawks",
+     "when": "2019-07-06",
+     "sources": [
+      {
+       "label": "Basketball-Reference transactions",
+       "url": "https://www.basketball-reference.com/players/p/princta02.html#all_transactions"
+      }
+     ]
+    }
+   ],
+   "score": 13.98,
+   "stats": {
+    "gp": 3,
+    "min": 7.3,
+    "pts": 2.0,
+    "reb": 0.7,
+    "ast": 0.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/2990962",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909982",
+       "date": "2026-11-14",
+       "venue": "MIA",
+       "opp": "MIA",
+       "tm": "DET",
+       "home": false,
+       "result": "L",
+       "score": "137-117",
+       "min": 8,
+       "pts": 2,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909883",
+       "date": "2026-10-28",
+       "venue": "DET",
+       "opp": "CHA",
+       "tm": "DET",
+       "home": true,
+       "result": "W",
+       "score": "97-89",
+       "min": 6,
+       "pts": 1,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909878",
+       "date": "2026-10-27",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "DET",
+       "home": false,
+       "result": "L",
+       "score": "111-97",
+       "min": 7,
+       "pts": 3,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401811046",
+       "date": "2026-04-12",
+       "venue": "PHI",
+       "opp": "PHI",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "126-106",
+       "min": 32,
+       "pts": 14,
+       "reb": 5,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401811034",
+       "date": "2026-04-10",
+       "venue": "MIL",
+       "opp": "BKN",
+       "tm": "MIL",
+       "home": true,
+       "result": "W",
+       "score": "125-108",
+       "min": 35,
+       "pts": 18,
+       "reb": 10,
+       "ast": 5,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 7.6,
+     "reb": 3.4,
+     "ast": 1.6,
+     "min": 17.6
+    },
+    "vs": {
+     "opp": "ATL",
+     "games": [
+      {
+       "gid": "401810825",
+       "date": "2026-03-14",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "122-99",
+       "min": 12,
+       "pts": 0,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401705649",
+       "date": "2025-03-30",
+       "venue": "MIL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": true,
+       "result": "L",
+       "score": "145-124",
+       "min": 26,
+       "pts": 7,
+       "reb": 4,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401705450",
+       "date": "2025-03-04",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": false,
+       "result": "W",
+       "score": "127-121",
+       "min": 29,
+       "pts": 8,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401705302",
+       "date": "2025-02-07",
+       "venue": "ATL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "115-110",
+       "min": 31,
+       "pts": 9,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401734906",
+       "date": "2024-12-14",
+       "venue": "MIL",
+       "opp": "ATL",
+       "tm": "MIL",
+       "home": true,
+       "result": "W",
+       "score": "110-102",
+       "min": 20,
+       "pts": 6,
+       "reb": 3,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 6.0,
+     "reb": 2.4,
+     "ast": 0.8,
+     "min": 23.6,
+     "note": "No games vs ATL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/2990962.png",
+   "team_logo": "img/teams/DET.png",
+   "opponent_logo": "img/teams/ATL.png",
+   "matchup": {
+    "notes": {
+     "pts": "ATL gives up the 10th-most points to forwards (44.8 a game, 16 games).",
+     "reb": "ATL gives up the 7th-most rebounds to forwards (19.6 a game, 16 games).",
+     "ast": "ATL gives up the 14th-most assists to forwards (8.2 a game, 16 games)."
+    },
+    "group": "F",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 44.8,
+      "rank": 10,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 19.6,
+      "rank": 7,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 8.2,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 68,
+    "grade": "B",
+    "color": "green",
+    "best": "reb",
+    "note": "ATL gives up the 7th-most rebounds to forwards (19.6 a game, 16 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
+    "date": "2026-11-20T23:02Z"
+   },
+   "status_note": "Out",
+   "career": [
+    {
+     "kind": "revenge",
+     "label": "Revenge",
+     "text": "Has faced the Hawks 18 times since leaving them (avg 9.5 pts, 3.4 reb, 1.4 ast).",
+     "n": 18,
+     "pts": 9.5,
+     "reb": 3.4,
+     "ast": 1.4,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 2528210,
+   "name": "Tim Hardaway Jr.",
+   "team": "MIA",
+   "team_name": "Heat",
+   "opponent": "OKC",
+   "opponent_name": "Thunder",
+   "position": "G",
+   "jersey": "10",
+   "home_away": "home",
+   "game_id": "401910030",
+   "game_kind": "Regular season",
+   "tip": "6:00 PM ET",
+   "tip_utc": "2026-11-22T23:00:00+00:00",
+   "arena": "Kaseya Center",
+   "location": "Miami, FL",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to Miami Palmetto in Pinecrest, Florida (about 10 mi away). Born in Alameda, CA.",
+     "miles": 10,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/h/hardati02.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q3286127"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 11,
+    "min": 15.2,
+    "pts": 4.5,
+    "reb": 1.5,
+    "ast": 0.7
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/2528210",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909298",
+       "date": "2026-11-13",
+       "venue": "MIA",
+       "opp": "CLE",
+       "tm": "MIA",
+       "home": true,
+       "result": "W",
+       "score": "133-121",
+       "min": 20,
+       "pts": 4,
+       "reb": 3,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909951",
+       "date": "2026-11-08",
+       "venue": "SAC",
+       "opp": "SAC",
+       "tm": "MIA",
+       "home": false,
+       "result": "W",
+       "score": "114-108",
+       "min": 7,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909937",
+       "date": "2026-11-05",
+       "venue": "GSW",
+       "opp": "GSW",
+       "tm": "MIA",
+       "home": false,
+       "result": "L",
+       "score": "120-100",
+       "min": 4,
+       "pts": 0,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909935",
+       "date": "2026-11-04",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "MIA",
+       "home": false,
+       "result": "W",
+       "score": "117-116 OT",
+       "min": 7,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909921",
+       "date": "2026-11-02",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "MIA",
+       "home": false,
+       "result": "L",
+       "score": "138-117",
+       "min": 19,
+       "pts": 9,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 2.6,
+     "reb": 0.6,
+     "ast": 0.6,
+     "min": 11.4
+    },
+    "vs": {
+     "opp": "OKC",
+     "games": [
+      {
+       "gid": "401811037",
+       "date": "2026-04-10",
+       "venue": "DEN",
+       "opp": "OKC",
+       "tm": "DEN",
+       "home": true,
+       "result": "W",
+       "score": "127-107",
+       "min": 28,
+       "pts": 13,
+       "reb": 1,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810788",
+       "date": "2026-03-09",
+       "venue": "OKC",
+       "opp": "OKC",
+       "tm": "DEN",
+       "home": false,
+       "result": "L",
+       "score": "129-126",
+       "min": 33,
+       "pts": 28,
+       "reb": 2,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810717",
+       "date": "2026-02-27",
+       "venue": "OKC",
+       "opp": "OKC",
+       "tm": "DEN",
+       "home": false,
+       "result": "L",
+       "score": "127-121 OT",
+       "min": 33,
+       "pts": 16,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810566",
+       "date": "2026-02-01",
+       "venue": "DEN",
+       "opp": "OKC",
+       "tm": "DEN",
+       "home": true,
+       "result": "L",
+       "score": "121-111",
+       "min": 25,
+       "pts": 3,
+       "reb": 6,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401705674",
+       "date": "2025-04-02",
+       "venue": "OKC",
+       "opp": "OKC",
+       "tm": "DET",
+       "home": false,
+       "result": "L",
+       "score": "119-103",
+       "min": 37,
+       "pts": 23,
+       "reb": 3,
+       "ast": 3,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 16.6,
+     "reb": 2.8,
+     "ast": 1.8,
+     "min": 31.2,
+     "note": "No games vs OKC in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/2528210.png",
+   "team_logo": "img/teams/MIA.png",
+   "opponent_logo": "img/teams/OKC.png",
+   "matchup": {
+    "notes": {
+     "pts": "OKC gives up the 23rd-most points to guards (52.7 a game, 16 games).",
+     "reb": "OKC gives up the 20th-most rebounds to guards (14.8 a game, 16 games).",
+     "ast": "OKC gives up the 24th-most assists to guards (13.6 a game, 16 games)."
+    },
+    "group": "G",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 52.7,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 14.8,
+      "rank": 20,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 13.6,
+      "rank": 24,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 26,
+    "grade": "D",
+    "color": "red",
+    "best": "reb",
+    "note": "OKC gives up the 20th-most rebounds to guards (14.8 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 20 times (avg 11.3 pts, 2.6 reb, 1.4 ast).",
+     "n": 20,
+     "pts": 11.3,
+     "reb": 2.6,
+     "ast": 1.4,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 5,
+      "lo": 0,
+      "hi": 9
+     },
+     {
+      "label": "Reb",
+      "proj": 1.3,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 0.7,
+      "lo": 0,
+      "hi": 2
+     }
+    ],
+    "games_used": 11,
+    "minutes": 14,
+    "sims": 1000,
+    "opp_factor": 0.98,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4565698,
+   "name": "Bryce Hopkins",
+   "team": "DEN",
+   "team_name": "Nuggets",
+   "opponent": "CHI",
+   "opponent_name": "Bulls",
+   "position": "F",
+   "jersey": "13",
+   "home_away": "away",
+   "game_id": "401910032",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "United Center",
+   "location": "Chicago, IL",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Born near here; couldn't confirm he grew up here.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "low",
+     "headline": "Born near here; couldn't confirm he grew up here.",
+     "detail": "Born in Oak Park, IL (high school not found).",
+     "miles": 8,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q331397"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 8,
+    "min": 12.9,
+    "pts": 4.8,
+    "reb": 1.9,
+    "ast": 0.4
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4565698",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910001",
+       "date": "2026-11-16",
+       "venue": "DEN",
+       "opp": "PHX",
+       "tm": "DEN",
+       "home": true,
+       "result": "L",
+       "score": "117-105",
+       "min": 4,
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909957",
+       "date": "2026-11-09",
+       "venue": "HOU",
+       "opp": "HOU",
+       "tm": "DEN",
+       "home": false,
+       "result": "L",
+       "score": "110-100",
+       "min": 3,
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909938",
+       "date": "2026-11-07",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "DEN",
+       "home": true,
+       "result": "W",
+       "score": "114-102",
+       "min": 3,
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909931",
+       "date": "2026-11-04",
+       "venue": "DEN",
+       "opp": "TOR",
+       "tm": "DEN",
+       "home": true,
+       "result": "W",
+       "score": "128-109",
+       "min": 28,
+       "pts": 18,
+       "reb": 4,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909889",
+       "date": "2026-10-28",
+       "venue": "NOP",
+       "opp": "NOP",
+       "tm": "DEN",
+       "home": false,
+       "result": "W",
+       "score": "104-91",
+       "min": 14,
+       "pts": 0,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 4.6,
+     "reb": 1.6,
+     "ast": 0.2,
+     "min": 10.4
+    },
+    "vs": {
+     "opp": "CHI",
+     "games": [],
+     "n": 0,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "min": 0,
+     "note": "No games vs CHI in his NBA career so far."
+    }
+   },
+   "headshot": "img/players/4565698.png",
+   "team_logo": "img/teams/DEN.png",
+   "opponent_logo": "img/teams/CHI.png",
+   "matchup": {
+    "notes": {
+     "pts": "CHI gives up the 10th-most points to forwards (44.8 a game, 15 games).",
+     "reb": "CHI gives up the 18th-most rebounds to forwards (17.9 a game, 15 games).",
+     "ast": "CHI gives up the 2nd-most assists to forwards (9.9 a game, 15 games)."
+    },
+    "group": "F",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 44.8,
+      "rank": 10,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 17.9,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 9.9,
+      "rank": 2,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 69,
+    "grade": "B",
+    "color": "green",
+    "best": "ast",
+    "note": "CHI gives up the 2nd-most assists to forwards (9.9 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 5,
+      "lo": 0,
+      "hi": 18
+     },
+     {
+      "label": "Reb",
+      "proj": 1.8,
+      "lo": 0,
+      "hi": 4
+     },
+     {
+      "label": "Ast",
+      "proj": 0.4,
+      "lo": 0,
+      "hi": 1
+     }
+    ],
+    "games_used": 8,
+    "minutes": 12,
+    "sims": 1000,
+    "opp_factor": 1.02,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4433618,
+   "name": "Harrison Ingram",
+   "team": "UTA",
+   "team_name": "Jazz",
+   "opponent": "DAL",
+   "opponent_name": "Mavericks",
+   "position": "F",
+   "jersey": "00",
+   "home_away": "home",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Faces a team from where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Faces a team from where he grew up.",
+     "detail": "Went to St. Mark's in Dallas, Texas (under a mile away). Born in Dallas, TX.",
+     "miles": 1,
+     "where": "opponent",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/i/ingraha01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q16557"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": null,
+   "espn_url": "https://www.espn.com/nba/player/_/id/4433618",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401811035",
+       "date": "2026-04-10",
+       "venue": "SAS",
+       "opp": "DAL",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "139-120",
+       "min": 6,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401810974",
+       "date": "2026-04-02",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "118-99",
+       "min": 3,
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401810670",
+       "date": "2026-02-21",
+       "venue": "SAS",
+       "opp": "SAC",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "139-122",
+       "min": 4,
+       "pts": 2,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401810558",
+       "date": "2026-02-01",
+       "venue": "SAS",
+       "opp": "ORL",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "112-103",
+       "min": 2,
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401810009",
+       "date": "2025-11-02",
+       "venue": "PHX",
+       "opp": "PHX",
+       "tm": "SAS",
+       "home": false,
+       "result": "L",
+       "score": "130-118",
+       "min": 5,
+       "pts": 2,
+       "reb": 2,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 1.6,
+     "reb": 0.4,
+     "ast": 0.2,
+     "min": 4.0
+    },
+    "vs": {
+     "opp": "DAL",
+     "games": [
+      {
+       "gid": "401811035",
+       "date": "2026-04-10",
+       "venue": "SAS",
+       "opp": "DAL",
+       "tm": "SAS",
+       "home": true,
+       "result": "W",
+       "score": "139-120",
+       "min": 6,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401809235",
+       "date": "2025-10-22",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "SAS",
+       "home": false,
+       "result": "W",
+       "score": "125-92",
+       "min": 4,
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 2,
+     "pts": 1.5,
+     "reb": 0.5,
+     "ast": 0.0,
+     "min": 5.0,
+     "note": "No games vs DAL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4433618.png",
+   "team_logo": "img/teams/UTA.png",
+   "opponent_logo": "img/teams/DAL.png",
+   "matchup": {
+    "notes": {
+     "pts": "DAL gives up the 14th-most points to forwards (43.5 a game, 15 games).",
+     "reb": "DAL gives up the 15th-most rebounds to forwards (18.1 a game, 15 games).",
+     "ast": "DAL gives up the 18th-most assists to forwards (7.9 a game, 15 games)."
+    },
+    "group": "F",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 43.5,
+      "rank": 14,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 18.1,
+      "rank": 15,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 7.9,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 49,
+    "grade": "C",
+    "color": "yellow",
+    "best": "pts",
+    "note": "DAL gives up the 14th-most points to forwards (43.5 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 1 time (avg 3.0 pts, 1.0 reb, 0.0 ast).",
+     "n": 1,
+     "pts": 3.0,
+     "reb": 1.0,
+     "ast": 0.0,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 4433627,
+   "name": "Keyonte George",
+   "team": "UTA",
+   "team_name": "Jazz",
+   "opponent": "DAL",
+   "opponent_name": "Mavericks",
+   "position": "G",
+   "jersey": "3",
+   "home_away": "home",
+   "game_id": "401910033",
+   "game_kind": "Regular season",
+   "tip": "7:00 PM ET",
+   "tip_utc": "2026-11-23T00:00:00+00:00",
+   "arena": "Delta Center",
+   "location": "Salt Lake City, UT",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Born near here; couldn't confirm he grew up here.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "birthplace",
+     "confidence": "low",
+     "headline": "Born near here; couldn't confirm he grew up here.",
+     "detail": "Born in Lewisville, TX (high school not found).",
+     "miles": 21,
+     "where": "opponent",
+     "sources": [
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q26495"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 15,
+    "min": 33.3,
+    "pts": 21.6,
+    "reb": 4.1,
+    "ast": 7.1
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4433627",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909311",
+       "date": "2026-11-20",
+       "venue": "UTA",
+       "opp": "PHX",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "111-101",
+       "min": 36,
+       "pts": 14,
+       "reb": 3,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401910017",
+       "date": "2026-11-18",
+       "venue": "LAL",
+       "opp": "LAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "W",
+       "score": "109-97",
+       "min": 39,
+       "pts": 30,
+       "reb": 1,
+       "ast": 10,
+       "playoff": false
+      },
+      {
+       "gid": "401910006",
+       "date": "2026-11-17",
+       "venue": "LAC",
+       "opp": "LAC",
+       "tm": "UTA",
+       "home": false,
+       "result": "W",
+       "score": "132-107",
+       "min": 35,
+       "pts": 30,
+       "reb": 2,
+       "ast": 11,
+       "playoff": false
+      },
+      {
+       "gid": "401909988",
+       "date": "2026-11-15",
+       "venue": "UTA",
+       "opp": "SAS",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "110-102",
+       "min": 34,
+       "pts": 13,
+       "reb": 4,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401909301",
+       "date": "2026-11-13",
+       "venue": "HOU",
+       "opp": "HOU",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "125-118",
+       "min": 38,
+       "pts": 27,
+       "reb": 4,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 22.8,
+     "reb": 2.8,
+     "ast": 8.4,
+     "min": 36.4
+    },
+    "vs": {
+     "opp": "DAL",
+     "games": [
+      {
+       "gid": "401909290",
+       "date": "2026-11-06",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "112-100",
+       "min": 32,
+       "pts": 16,
+       "reb": 6,
+       "ast": 9,
+       "playoff": false
+      },
+      {
+       "gid": "401810448",
+       "date": "2026-01-17",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "138-120",
+       "min": 37,
+       "pts": 29,
+       "reb": 1,
+       "ast": 6,
+       "playoff": false
+      },
+      {
+       "gid": "401810438",
+       "date": "2026-01-15",
+       "venue": "DAL",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": false,
+       "result": "L",
+       "score": "144-122",
+       "min": 29,
+       "pts": 17,
+       "reb": 3,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401810386",
+       "date": "2026-01-08",
+       "venue": "UTA",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": true,
+       "result": "W",
+       "score": "116-114",
+       "min": 37,
+       "pts": 19,
+       "reb": 3,
+       "ast": 7,
+       "playoff": false
+      },
+      {
+       "gid": "401836805",
+       "date": "2025-12-15",
+       "venue": "UTA",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": true,
+       "result": "W",
+       "score": "140-133 OT",
+       "min": 41,
+       "pts": 37,
+       "reb": 5,
+       "ast": 6,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 23.6,
+     "reb": 3.6,
+     "ast": 6.2,
+     "min": 35.2,
+     "note": "No games vs DAL in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4433627.png",
+   "team_logo": "img/teams/UTA.png",
+   "opponent_logo": "img/teams/DAL.png",
+   "matchup": {
+    "notes": {
+     "pts": "DAL gives up the 12th-most points to guards (58.5 a game, 15 games).",
+     "reb": "DAL gives up the 12th-most rebounds to guards (16.1 a game, 15 games).",
+     "ast": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 58.5,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 16.1,
+      "rank": 12,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 16.8,
+      "rank": 6,
+      "of": 30,
+      "color": "green"
+     }
+    },
+    "score": 69,
+    "grade": "B",
+    "color": "green",
+    "best": "ast",
+    "note": "DAL gives up the 6th-most assists to guards (16.8 a game, 15 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 6 times (avg 17.3 pts, 3.5 reb, 6.5 ast).",
+     "n": 6,
+     "pts": 17.3,
+     "reb": 3.5,
+     "ast": 6.5,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 21,
+      "lo": 8,
+      "hi": 31
+     },
+     {
+      "label": "Reb",
+      "proj": 3.8,
+      "lo": 1,
+      "hi": 7
+     },
+     {
+      "label": "Ast",
+      "proj": 7.2,
+      "lo": 3,
+      "hi": 10
+     }
+    ],
+    "games_used": 16,
+    "minutes": 34,
+    "sims": 1000,
+    "opp_factor": 1.0,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4277869,
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "team_name": "Knicks",
+   "opponent": "IND",
+   "opponent_name": "Pacers",
+   "position": "G",
+   "jersey": "5",
+   "home_away": "home",
+   "game_id": "401910034",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-23T01:00:00+00:00",
+   "arena": "Madison Square Garden",
+   "location": "New York, NY",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to Christ the King in Queens, New York (about 9 mi away). Born in Brooklyn, NY.",
+     "miles": 9,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/a/alvarjo01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q18424"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 8,
+    "min": 9.1,
+    "pts": 1.8,
+    "reb": 1.0,
+    "ast": 1.8
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4277869",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910021",
+       "date": "2026-11-19",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "102-99",
+       "min": 13,
+       "pts": 2,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401910002",
+       "date": "2026-11-17",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "111-102",
+       "min": 7,
+       "pts": 2,
+       "reb": 0,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909990",
+       "date": "2026-11-15",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "112-108 OT",
+       "min": 2,
+       "pts": 0,
+       "reb": 0,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909960",
+       "date": "2026-11-10",
+       "venue": "NYK",
+       "opp": "MIL",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "117-85",
+       "min": 6,
+       "pts": 0,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401909926",
+       "date": "2026-11-04",
+       "venue": "NYK",
+       "opp": "CHI",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "135-105",
+       "min": 9,
+       "pts": 0,
+       "reb": 0,
+       "ast": 2,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 0.8,
+     "reb": 0.6,
+     "ast": 1.8,
+     "min": 7.4
+    },
+    "vs": {
+     "opp": "IND",
+     "games": [
+      {
+       "gid": "401810849",
+       "date": "2026-03-17",
+       "venue": "NYK",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "136-110",
+       "min": 27,
+       "pts": 16,
+       "reb": 2,
+       "ast": 10,
+       "playoff": false
+      },
+      {
+       "gid": "401810817",
+       "date": "2026-03-13",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "101-92",
+       "min": 13,
+       "pts": 0,
+       "reb": 0,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810626",
+       "date": "2026-02-10",
+       "venue": "NYK",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "137-134 OT",
+       "min": 18,
+       "pts": 4,
+       "reb": 1,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401810244",
+       "date": "2025-12-20",
+       "venue": "NOP",
+       "opp": "IND",
+       "tm": "NOP",
+       "home": true,
+       "result": "W",
+       "score": "128-109",
+       "min": 22,
+       "pts": 3,
+       "reb": 1,
+       "ast": 1,
+       "playoff": false
+      },
+      {
+       "gid": "401704704",
+       "date": "2024-11-01",
+       "venue": "NOP",
+       "opp": "IND",
+       "tm": "NOP",
+       "home": true,
+       "result": "W",
+       "score": "125-118",
+       "min": 32,
+       "pts": 12,
+       "reb": 6,
+       "ast": 7,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 7.0,
+     "reb": 2.0,
+     "ast": 5.0,
+     "min": 22.4,
+     "note": "No games vs IND in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4277869.png",
+   "team_logo": "img/teams/NYK.png",
+   "opponent_logo": "img/teams/IND.png",
+   "matchup": {
+    "notes": {
+     "pts": "IND gives up the 18th-most points to guards (55.6 a game, 16 games).",
+     "reb": "IND gives up the 17th-most rebounds to guards (15.0 a game, 16 games).",
+     "ast": "IND gives up the 18th-most assists to guards (14.4 a game, 16 games)."
+    },
+    "group": "G",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 55.6,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     },
+     "reb": {
+      "value": 15.0,
+      "rank": 17,
+      "of": 30,
+      "color": "yellow"
+     },
+     "ast": {
+      "value": 14.4,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 43,
+    "grade": "C",
+    "color": "yellow",
+    "best": "reb",
+    "note": "IND gives up the 17th-most rebounds to guards (15.0 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 32 times (avg 5.9 pts, 1.6 reb, 3.1 ast).",
+     "n": 32,
+     "pts": 5.9,
+     "reb": 1.6,
+     "ast": 3.1,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  },
+  {
+   "player_id": 3136195,
+   "name": "Karl-Anthony Towns",
+   "team": "NYK",
+   "team_name": "Knicks",
+   "opponent": "IND",
+   "opponent_name": "Pacers",
+   "position": "C",
+   "jersey": "32",
+   "home_away": "home",
+   "game_id": "401910034",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-23T01:00:00+00:00",
+   "arena": "Madison Square Garden",
+   "location": "New York, NY",
+   "categories": [
+    "Hometown"
+   ],
+   "summary": "Plays near where he grew up.",
+   "tags": [
+    {
+     "category": "Hometown",
+     "kind": "high_school",
+     "confidence": "high",
+     "headline": "Plays near where he grew up.",
+     "detail": "Went to St. Joseph in Metuchen, New Jersey (about 24 mi away). Born in Edison, NJ.",
+     "miles": 24,
+     "where": "here",
+     "sources": [
+      {
+       "label": "Basketball-Reference",
+       "url": "https://www.basketball-reference.com/players/t/townska01.html"
+      },
+      {
+       "label": "Place on Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q1021527"
+      }
+     ]
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 15,
+    "min": 32.8,
+    "pts": 21.3,
+    "reb": 13.9,
+    "ast": 3.9
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/3136195",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401910021",
+       "date": "2026-11-19",
+       "venue": "MIN",
+       "opp": "MIN",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "102-99",
+       "min": 33,
+       "pts": 22,
+       "reb": 12,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401910002",
+       "date": "2026-11-17",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "111-102",
+       "min": 36,
+       "pts": 16,
+       "reb": 16,
+       "ast": 8,
+       "playoff": false
+      },
+      {
+       "gid": "401909990",
+       "date": "2026-11-15",
+       "venue": "TOR",
+       "opp": "TOR",
+       "tm": "NYK",
+       "home": false,
+       "result": "W",
+       "score": "112-108 OT",
+       "min": 43,
+       "pts": 28,
+       "reb": 17,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": false,
+       "result": "L",
+       "score": "106-104",
+       "min": 34,
+       "pts": 23,
+       "reb": 15,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401909967",
+       "date": "2026-11-11",
+       "venue": "NYK",
+       "opp": "CLE",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "115-107",
+       "min": 34,
+       "pts": 21,
+       "reb": 11,
+       "ast": 8,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 22.0,
+     "reb": 14.2,
+     "ast": 5.6,
+     "min": 36.0
+    },
+    "vs": {
+     "opp": "IND",
+     "games": [
+      {
+       "gid": "401909296",
+       "date": "2026-11-13",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": false,
+       "result": "L",
+       "score": "106-104",
+       "min": 34,
+       "pts": 23,
+       "reb": 15,
+       "ast": 5,
+       "playoff": false
+      },
+      {
+       "gid": "401810849",
+       "date": "2026-03-17",
+       "venue": "NYK",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "136-110",
+       "min": 32,
+       "pts": 22,
+       "reb": 11,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401810626",
+       "date": "2026-02-10",
+       "venue": "NYK",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": true,
+       "result": "L",
+       "score": "137-134 OT",
+       "min": 32,
+       "pts": 22,
+       "reb": 14,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401772994",
+       "date": "2025-05-31",
+       "venue": "IND",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": false,
+       "result": "L",
+       "score": "125-108",
+       "min": 38,
+       "pts": 22,
+       "reb": 14,
+       "ast": 2,
+       "playoff": true
+      },
+      {
+       "gid": "401772993",
+       "date": "2025-05-29",
+       "venue": "NYK",
+       "opp": "IND",
+       "tm": "NYK",
+       "home": true,
+       "result": "W",
+       "score": "111-94",
+       "min": 36,
+       "pts": 24,
+       "reb": 13,
+       "ast": 3,
+       "playoff": true
+      }
+     ],
+     "n": 5,
+     "pts": 22.6,
+     "reb": 13.4,
+     "ast": 3.0,
+     "min": 34.4,
+     "note": "No games vs IND in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/3136195.png",
+   "team_logo": "img/teams/NYK.png",
+   "opponent_logo": "img/teams/IND.png",
+   "matchup": {
+    "notes": {
+     "pts": "IND gives up the 8th-most points to centers (15.6 a game, 16 games).",
+     "reb": "IND gives up the 8th-most rebounds to centers (11.8 a game, 16 games).",
+     "ast": "IND gives up the 18th-most assists to centers (2.8 a game, 16 games)."
+    },
+    "group": "C",
+    "games": 16,
+    "stats": {
+     "pts": {
+      "value": 15.6,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "reb": {
+      "value": 11.8,
+      "rank": 8,
+      "of": 30,
+      "color": "green"
+     },
+     "ast": {
+      "value": 2.8,
+      "rank": 18,
+      "of": 30,
+      "color": "yellow"
+     }
+    },
+    "score": 64,
+    "grade": "B",
+    "color": "yellow",
+    "best": "pts",
+    "note": "IND gives up the 8th-most points to centers (15.6 a game, 16 games)."
+   },
+   "injury": null,
+   "status_note": null,
+   "career": [
+    {
+     "kind": "hometown",
+     "label": "Hometown",
+     "text": "Has played in his hometown area 112 times (avg 21.9 pts, 12.0 reb, 2.9 ast).",
+     "n": 112,
+     "pts": 21.9,
+     "reb": 12.0,
+     "ast": 2.9,
+     "scope": ""
+    }
+   ],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 21,
+      "lo": 16,
+      "hi": 28
+     },
+     {
+      "label": "Reb",
+      "proj": 14.4,
+      "lo": 11,
+      "hi": 18
+     },
+     {
+      "label": "Ast",
+      "proj": 4.1,
+      "lo": 1,
+      "hi": 8
+     }
+    ],
+    "games_used": 15,
+    "minutes": 33,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
+  },
+  {
+   "player_id": 4397040,
+   "name": "Brandon Williams",
+   "team": "GSW",
+   "team_name": "Warriors",
+   "opponent": "BOS",
+   "opponent_name": "Celtics",
+   "position": "G",
+   "jersey": "12",
+   "home_away": "home",
+   "game_id": "401910035",
+   "game_kind": "Regular season",
+   "tip": "8:30 PM ET",
+   "tip_utc": "2026-11-23T01:30:00+00:00",
+   "arena": "Chase Center",
+   "location": "San Francisco, CA",
+   "categories": [
+    "Birthday"
+   ],
+   "summary": "Turns 27 today.",
+   "tags": [
+    {
+     "category": "Birthday",
+     "kind": "birthday",
+     "confidence": "high",
+     "headline": "Turns 27 today.",
+     "detail": "Turns 27 today",
+     "sources": []
+    }
+   ],
+   "score": 10,
+   "stats": {
+    "gp": 10,
+    "min": 16.1,
+    "pts": 10.4,
+    "reb": 2.1,
+    "ast": 2.3
+   },
+   "espn_url": "https://www.espn.com/nba/player/_/id/4397040",
+   "recent": {
+    "form": {
+     "games": [
+      {
+       "gid": "401909959",
+       "date": "2026-11-09",
+       "venue": "GSW",
+       "opp": "NOP",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "138-87",
+       "min": 2,
+       "pts": 4,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      },
+      {
+       "gid": "401909942",
+       "date": "2026-11-07",
+       "venue": "GSW",
+       "opp": "ORL",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "126-119 OT",
+       "min": 17,
+       "pts": 9,
+       "reb": 0,
+       "ast": 2,
+       "playoff": false
+      },
+      {
+       "gid": "401909937",
+       "date": "2026-11-05",
+       "venue": "GSW",
+       "opp": "MIA",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "120-100",
+       "min": 21,
+       "pts": 10,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401909905",
+       "date": "2026-11-01",
+       "venue": "GSW",
+       "opp": "LAC",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "124-112",
+       "min": 25,
+       "pts": 17,
+       "reb": 3,
+       "ast": 3,
+       "playoff": false
+      },
+      {
+       "gid": "401909285",
+       "date": "2026-10-30",
+       "venue": "GSW",
+       "opp": "LAL",
+       "tm": "GSW",
+       "home": true,
+       "result": "W",
+       "score": "112-95",
+       "min": 17,
+       "pts": 9,
+       "reb": 2,
+       "ast": 1,
+       "playoff": false
+      }
+     ],
+     "n": 5,
+     "pts": 9.8,
+     "reb": 1.2,
+     "ast": 2.0,
+     "min": 16.4
+    },
+    "vs": {
+     "opp": "BOS",
+     "games": [
+      {
+       "gid": "401810763",
+       "date": "2026-03-06",
+       "venue": "BOS",
+       "opp": "BOS",
+       "tm": "DAL",
+       "home": false,
+       "result": "L",
+       "score": "120-100",
+       "min": 19,
+       "pts": 11,
+       "reb": 7,
+       "ast": 4,
+       "playoff": false
+      },
+      {
+       "gid": "401705201",
+       "date": "2025-01-25",
+       "venue": "DAL",
+       "opp": "BOS",
+       "tm": "DAL",
+       "home": true,
+       "result": "L",
+       "score": "122-107",
+       "min": 2,
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "playoff": false
+      }
+     ],
+     "n": 2,
+     "pts": 5.5,
+     "reb": 3.5,
+     "ast": 2.0,
+     "min": 10.5,
+     "note": "No games vs BOS in the last 3 seasons."
+    }
+   },
+   "headshot": "img/players/4397040.png",
+   "team_logo": "img/teams/GSW.png",
+   "opponent_logo": "img/teams/BOS.png",
+   "matchup": {
+    "notes": {
+     "pts": "BOS gives up the 30th-most points to guards (47.1 a game, 15 games).",
+     "reb": "BOS gives up the 23rd-most rebounds to guards (14.1 a game, 15 games).",
+     "ast": "BOS gives up the 29th-most assists to guards (13.1 a game, 15 games)."
+    },
+    "group": "G",
+    "games": 15,
+    "stats": {
+     "pts": {
+      "value": 47.1,
+      "rank": 30,
+      "of": 30,
+      "color": "red"
+     },
+     "reb": {
+      "value": 14.1,
+      "rank": 23,
+      "of": 30,
+      "color": "red"
+     },
+     "ast": {
+      "value": 13.1,
+      "rank": 29,
+      "of": 30,
+      "color": "red"
+     }
+    },
+    "score": 9,
+    "grade": "F",
+    "color": "red",
+    "best": "reb",
+    "note": "BOS gives up the 23rd-most rebounds to guards (14.1 a game, 15 games)."
+   },
+   "injury": {
+    "status": "Out",
+    "note": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
+    "date": "2026-11-18T17:12Z"
+   },
+   "status_note": "Out",
+   "career": [
+    {
+     "kind": "birthday",
+     "label": "Birthday",
+     "text": "Has played on his birthday 1 time (avg 18.0 pts, 3.0 reb, 4.0 ast).",
+     "n": 1,
+     "pts": 18.0,
+     "reb": 3.0,
+     "ast": 4.0,
+     "scope": ""
+    }
+   ],
+   "projection": null
+  }
+ ],
+ "warnings": [],
+ "matchups": [
+  {
+   "away": "DET",
+   "home": "ATL",
+   "tip": "3:30 PM ET",
+   "away_logo": "img/teams/DET.png",
+   "home_logo": "img/teams/ATL.png"
+  },
+  {
+   "away": "OKC",
+   "home": "MIA",
+   "tip": "6:00 PM ET",
+   "away_logo": "img/teams/OKC.png",
+   "home_logo": "img/teams/MIA.png"
+  },
+  {
+   "away": "ORL",
+   "home": "WAS",
+   "tip": "7:00 PM ET",
+   "away_logo": "img/teams/ORL.png",
+   "home_logo": "img/teams/WAS.png"
+  },
+  {
+   "away": "DEN",
+   "home": "CHI",
+   "tip": "7:00 PM ET",
+   "away_logo": "img/teams/DEN.png",
+   "home_logo": "img/teams/CHI.png"
+  },
+  {
+   "away": "DAL",
+   "home": "UTA",
+   "tip": "7:00 PM ET",
+   "away_logo": "img/teams/DAL.png",
+   "home_logo": "img/teams/UTA.png"
+  },
+  {
+   "away": "IND",
+   "home": "NYK",
+   "tip": "8:00 PM ET",
+   "away_logo": "img/teams/IND.png",
+   "home_logo": "img/teams/NYK.png"
+  },
+  {
+   "away": "BOS",
+   "home": "GSW",
+   "tip": "8:30 PM ET",
+   "away_logo": "img/teams/BOS.png",
+   "home_logo": "img/teams/GSW.png"
+  }
+ ]
+}

@@ -21,8 +21,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 59,
+    "wind": 7,
+    "gust": 13,
+    "rain": 36
+   },
+   "weather_text": "59\u00b0F, wind 7 mph, 36% rain",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -183,8 +189,14 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-22T21:25:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 60,
+    "wind": 5,
+    "gust": 11,
+    "rain": 44
+   },
+   "weather_text": "60\u00b0F, wind 5 mph, 44% rain",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -906,8 +918,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 66,
+    "wind": 7,
+    "gust": 16,
+    "rain": 36
+   },
+   "weather_text": "66\u00b0F, wind 7 mph, 36% rain",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1195,8 +1213,14 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-22T18:00:00+00:00",
-   "weather": null,
-   "weather_text": "",
+   "weather": {
+    "indoor": false,
+    "temp": 45,
+    "wind": 15,
+    "gust": 25,
+    "rain": 0
+   },
+   "weather_text": "45\u00b0F, wind 15 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1324,20 +1348,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 7.8,
-      "lo": 5.3,
-      "hi": 10.5
+      "proj": 6.8,
+      "lo": 4.6,
+      "hi": 9.2
      },
      {
       "label": "Rec yds",
-      "proj": 65,
-      "lo": 33,
-      "hi": 133
+      "proj": 57,
+      "lo": 29,
+      "hi": 117
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.88,
     "opp_factor": 1.08,
     "locked": false
    },
@@ -1436,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-20T22:39:11+00:00"
+ "generated_at": "2026-11-21T14:00:09+00:00"
 }
