@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 7,
-    "gust": 13,
-    "rain": 24
+    "temp": 59,
+    "wind": 8,
+    "gust": 14,
+    "rain": 12
    },
-   "weather_text": "58\u00b0F, wind 7 mph",
+   "weather_text": "59\u00b0F, wind 8 mph",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 62,
-    "wind": 7,
-    "gust": 12,
-    "rain": 12
+    "temp": 59,
+    "wind": 6,
+    "gust": 13,
+    "rain": 2
    },
-   "weather_text": "62\u00b0F, wind 7 mph",
+   "weather_text": "59\u00b0F, wind 6 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -883,7 +883,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.1,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 65,
-    "wind": 7,
-    "gust": 16,
+    "temp": 62,
+    "wind": 6,
+    "gust": 17,
     "rain": 2
    },
-   "weather_text": "65\u00b0F, wind 7 mph",
+   "weather_text": "62\u00b0F, wind 6 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1068,7 +1068,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.13,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1215,12 +1215,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 45,
+    "temp": 46,
     "wind": 15,
     "gust": 26,
     "rain": 0
    },
-   "weather_text": "45\u00b0F, wind 15 mph",
+   "weather_text": "46\u00b0F, wind 15 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1363,7 +1363,7 @@
     "sims": 1000,
     "weather_factor": 0.88,
     "opp_factor": 1.08,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-22T16:17:25+00:00"
+ "generated_at": "2026-11-22T18:10:01+00:00"
 }
