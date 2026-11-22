@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 62,
-    "wind": 6,
-    "gust": 17,
+    "temp": 63,
+    "wind": 8,
+    "gust": 12,
     "rain": 2
    },
-   "weather_text": "62\u00b0F, wind 6 mph",
+   "weather_text": "63\u00b0F, wind 8 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1215,12 +1215,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 46,
-    "wind": 15,
+    "temp": 48,
+    "wind": 16,
     "gust": 26,
     "rain": 0
    },
-   "weather_text": "46\u00b0F, wind 15 mph",
+   "weather_text": "48\u00b0F, wind 16 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-22T18:10:01+00:00"
+ "generated_at": "2026-11-22T20:18:28+00:00"
 }

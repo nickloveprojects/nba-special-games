@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T18:06:36Z",
+ "generated_at": "2026-11-22T20:14:39Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -2129,8 +2129,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Washington (illness/shoulder) is listed as out for Saturday's game against the Clippers.",
-    "date": "2026-11-22T15:02Z"
+    "note": "Washington (illness) is doubtful to play Sunday's game against the Jazz.",
+    "date": "2026-11-22T19:07Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -2369,8 +2369,12 @@
     "best": "pts",
     "note": "UTA gives up the 14th-most points to guards (57.3 a game, 17 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Clayton (knee) is listed as questionable for Sunday's game against the Jazz.",
+    "date": "2026-11-22T19:07Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
@@ -5752,8 +5756,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Towns (illness) won't play in Saturday's game versus the Trail Blazers.",
-    "date": "2026-11-22T03:05Z"
+    "note": "Towns (illness) is questionable to play in Sunday's game against the Pacers.",
+    "date": "2026-11-22T18:09Z"
    },
    "status_note": "Day-To-Day",
    "career": [
