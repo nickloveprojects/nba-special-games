@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-24T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 53,
-    "wind": 9,
-    "gust": 24,
+    "temp": 44,
+    "wind": 7,
+    "gust": 16,
     "rain": 0
    },
-   "weather_text": "53\u00b0F, wind 9 mph",
+   "weather_text": "44\u00b0F, wind 7 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -159,34 +159,34 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "CIN gives up the 25th-most receiving yards to receivers (108.4 a game, 9 games).",
-     "rec": "CIN gives up the 23rd-most catches to receivers (8.6 a game, 9 games)."
+     "rec_yds": "CIN gives up the 22nd-most receiving yards to receivers (115.1 a game, 9 games).",
+     "rec": "CIN gives up the 18th-most catches to receivers (8.9 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 108.4,
-      "rank": 25,
+      "value": 115.1,
+      "rank": 22,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 8.6,
-      "rank": 23,
+      "value": 8.9,
+      "rank": 18,
       "of": 32,
-      "color": "red"
+      "color": "yellow"
      }
     },
     "labels": {
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 26,
+    "score": 39,
     "grade": "D",
-    "color": "red",
+    "color": "yellow",
     "best": "rec",
-    "note": "CIN gives up the 23rd-most catches to receivers (8.6 a game, 9 games)."
+    "note": "CIN gives up the 18th-most catches to receivers (8.9 a game, 9 games)."
    },
    "career": [
     {
@@ -199,21 +199,21 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 4.1,
-      "lo": 2.7,
-      "hi": 5.5
+      "proj": 4.3,
+      "lo": 2.9,
+      "hi": 5.8
      },
      {
       "label": "Rec yds",
-      "proj": 47,
-      "lo": 27,
-      "hi": 85
+      "proj": 50,
+      "lo": 28,
+      "hi": 90
      }
     ],
     "games_used": 8,
     "sims": 1000,
-    "weather_factor": 0.97,
-    "opp_factor": 0.94,
+    "weather_factor": 1.0,
+    "opp_factor": 0.95,
     "locked": false
    },
    "tags": [
@@ -246,5 +246,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-21T22:28:05+00:00"
+ "generated_at": "2026-11-22T14:00:03+00:00"
 }

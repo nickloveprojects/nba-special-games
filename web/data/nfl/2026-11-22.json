@@ -26,7 +26,7 @@
     "temp": 59,
     "wind": 8,
     "gust": 19,
-    "rain": 28
+    "rain": 22
    },
    "weather_text": "59\u00b0F, wind 8 mph",
    "arena": "Bank of America Stadium",
@@ -122,21 +122,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "CAR gives up the 13th-most receiving yards to receivers (137 a game, 9 games).",
-     "rec": "CAR gives up the 3rd-most catches to receivers (12.3 a game, 9 games)."
+     "rec_yds": "CAR gives up the 14th-most receiving yards to receivers (134.3 a game, 9 games).",
+     "rec": "CAR gives up the 6th-most catches to receivers (12.1 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 137.0,
-      "rank": 13,
+      "value": 134.3,
+      "rank": 14,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
-      "value": 12.3,
-      "rank": 3,
+      "value": 12.1,
+      "rank": 6,
       "of": 32,
       "color": "green"
      }
@@ -145,11 +145,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 77,
+    "score": 71,
     "grade": "B",
     "color": "green",
     "best": "rec",
-    "note": "CAR gives up the 3rd-most catches to receivers (12.3 a game, 9 games)."
+    "note": "CAR gives up the 6th-most catches to receivers (12.1 a game, 9 games)."
    },
    "career": [],
    "projection": null,
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 57,
-    "wind": 5,
-    "gust": 9,
-    "rain": 71
+    "temp": 58,
+    "wind": 8,
+    "gust": 17,
+    "rain": 26
    },
-   "weather_text": "57\u00b0F, wind 5 mph, 71% rain",
+   "weather_text": "58\u00b0F, wind 8 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -635,7 +635,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "SF gives up the 32nd-most rushing yards to running backs (49.2 a game, 9 games).",
-     "rec_yds": "SF gives up the 23rd-most receiving yards to running backs (24.8 a game, 9 games)."
+     "rec_yds": "SF gives up the 21st-most receiving yards to running backs (24.8 a game, 9 games)."
     },
     "group": "RB",
     "games": 9,
@@ -648,20 +648,20 @@
      },
      "rec_yds": {
       "value": 24.8,
-      "rank": 23,
+      "rank": 21,
       "of": 32,
-      "color": "red"
+      "color": "yellow"
      }
     },
     "labels": {
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 15,
+    "score": 18,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "SF gives up the 23rd-most receiving yards to running backs (24.8 a game, 9 games)."
+    "note": "SF gives up the 21st-most receiving yards to running backs (24.8 a game, 9 games)."
    },
    "career": [],
    "projection": {
@@ -862,7 +862,7 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 80,
+      "proj": 81,
       "lo": 25,
       "hi": 157
      },
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 5,
-    "gust": 9,
-    "rain": 54
+    "temp": 64,
+    "wind": 8,
+    "gust": 17,
+    "rain": 6
    },
-   "weather_text": "58\u00b0F, wind 5 mph, 54% rain",
+   "weather_text": "64\u00b0F, wind 8 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1019,21 +1019,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "PIT gives up the 9th-most receiving yards to receivers (147.7 a game, 9 games).",
-     "rec": "PIT gives up the 3rd-most catches to receivers (12.3 a game, 9 games)."
+     "rec_yds": "PIT gives up the 8th-most receiving yards to receivers (147.7 a game, 9 games).",
+     "rec": "PIT gives up the 4th-most catches to receivers (12.3 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
       "value": 147.7,
-      "rank": 9,
+      "rank": 8,
       "of": 32,
       "color": "green"
      },
      "rec": {
       "value": 12.3,
-      "rank": 3,
+      "rank": 4,
       "of": 32,
       "color": "green"
      }
@@ -1046,28 +1046,28 @@
     "grade": "A",
     "color": "green",
     "best": "rec",
-    "note": "PIT gives up the 3rd-most catches to receivers (12.3 a game, 9 games)."
+    "note": "PIT gives up the 4th-most catches to receivers (12.3 a game, 9 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.2,
+      "proj": 2.1,
       "lo": 0.0,
-      "hi": 2.8
+      "hi": 2.7
      },
      {
       "label": "Rec yds",
-      "proj": 28,
+      "proj": 27,
       "lo": 0,
-      "hi": 45
+      "hi": 43
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
-    "opp_factor": 1.12,
+    "weather_factor": 0.97,
+    "opp_factor": 1.13,
     "locked": false
    },
    "tags": [
@@ -1151,20 +1151,20 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "TEN gives up the 1st-most receiving yards to receivers (201.8 a game, 9 games).",
-     "rec": "TEN gives up the 1st-most catches to receivers (15 a game, 9 games)."
+     "rec_yds": "TEN gives up the 1st-most receiving yards to receivers (193.6 a game, 9 games).",
+     "rec": "TEN gives up the 1st-most catches to receivers (14.4 a game, 9 games)."
     },
     "group": "WR",
     "games": 9,
     "stats": {
      "rec_yds": {
-      "value": 201.8,
+      "value": 193.6,
       "rank": 1,
       "of": 32,
       "color": "green"
      },
      "rec": {
-      "value": 15.0,
+      "value": 14.4,
       "rank": 1,
       "of": 32,
       "color": "green"
@@ -1178,7 +1178,7 @@
     "grade": "A",
     "color": "green",
     "best": "rec_yds",
-    "note": "TEN gives up the 1st-most receiving yards to receivers (201.8 a game, 9 games)."
+    "note": "TEN gives up the 1st-most receiving yards to receivers (193.6 a game, 9 games)."
    },
    "career": [],
    "projection": null,
@@ -1215,12 +1215,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 46,
+    "temp": 45,
     "wind": 15,
-    "gust": 24,
+    "gust": 25,
     "rain": 0
    },
-   "weather_text": "46\u00b0F, wind 15 mph",
+   "weather_text": "45\u00b0F, wind 15 mph",
    "arena": "Arrowhead Stadium",
    "location": "Kansas City, MO",
    "categories": [
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-21T22:28:04+00:00"
+ "generated_at": "2026-11-22T14:00:02+00:00"
 }
