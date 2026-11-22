@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T13:57:08Z",
+ "generated_at": "2026-11-22T16:12:30Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -2128,11 +2128,11 @@
     "note": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games)."
    },
    "injury": {
-    "status": "Out",
+    "status": "Day-To-Day",
     "note": "Washington (illness/shoulder) is listed as out for Saturday's game against the Clippers.",
-    "date": "2026-11-21T23:14Z"
+    "date": "2026-11-22T15:02Z"
    },
-   "status_note": "Out",
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "history",
@@ -2145,7 +2145,33 @@
      "scope": "2017-18 to now, regular season and playoffs"
     }
    ],
-   "projection": null
+   "projection": {
+    "lines": [
+     {
+      "label": "Pts",
+      "proj": 14,
+      "lo": 6,
+      "hi": 21
+     },
+     {
+      "label": "Reb",
+      "proj": 6.5,
+      "lo": 3,
+      "hi": 10
+     },
+     {
+      "label": "Ast",
+      "proj": 1.3,
+      "lo": 0,
+      "hi": 3
+     }
+    ],
+    "games_used": 15,
+    "minutes": 30,
+    "sims": 1000,
+    "opp_factor": 1.01,
+    "locked": false
+   }
   },
   {
    "player_id": 4896372,
@@ -2425,11 +2451,11 @@
    ],
    "score": 15.2,
    "stats": {
-    "gp": 14,
-    "min": 19.4,
-    "pts": 4.6,
-    "reb": 1.6,
-    "ast": 1.0
+    "gp": 15,
+    "min": 20.0,
+    "pts": 4.8,
+    "reb": 1.7,
+    "ast": 0.9
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4432811",
    "recent": {
@@ -3386,10 +3412,10 @@
    ],
    "score": 14.6,
    "stats": {
-    "gp": 12,
-    "min": 17.0,
-    "pts": 3.9,
-    "reb": 3.8,
+    "gp": 13,
+    "min": 16.9,
+    "pts": 3.8,
+    "reb": 3.6,
     "ast": 1.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3213",
@@ -4932,10 +4958,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 15,
-    "min": 33.3,
-    "pts": 21.6,
-    "reb": 4.1,
+    "gp": 16,
+    "min": 33.5,
+    "pts": 21.1,
+    "reb": 3.9,
     "ast": 7.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4433627",

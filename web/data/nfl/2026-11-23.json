@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-24T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 44,
-    "wind": 7,
-    "gust": 16,
-    "rain": 0
+    "temp": 49,
+    "wind": 11,
+    "gust": 28,
+    "rain": 1
    },
-   "weather_text": "44\u00b0F, wind 7 mph",
+   "weather_text": "49\u00b0F, wind 11 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -199,20 +199,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 4.3,
-      "lo": 2.9,
-      "hi": 5.8
+      "proj": 4.2,
+      "lo": 2.8,
+      "hi": 5.6
      },
      {
       "label": "Rec yds",
-      "proj": 50,
+      "proj": 48,
       "lo": 28,
-      "hi": 90
+      "hi": 87
      }
     ],
     "games_used": 8,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 0.95,
     "locked": false
    },
@@ -246,5 +246,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-22T14:00:03+00:00"
+ "generated_at": "2026-11-22T16:17:26+00:00"
 }

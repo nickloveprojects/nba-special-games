@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 59,
-    "wind": 8,
-    "gust": 19,
-    "rain": 22
+    "temp": 58,
+    "wind": 7,
+    "gust": 13,
+    "rain": 24
    },
-   "weather_text": "59\u00b0F, wind 8 mph",
+   "weather_text": "58\u00b0F, wind 7 mph",
    "arena": "Bank of America Stadium",
    "location": "Charlotte, NC",
    "categories": [
@@ -191,12 +191,12 @@
    "tip_utc": "2026-11-22T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 58,
-    "wind": 8,
-    "gust": 17,
-    "rain": 26
+    "temp": 62,
+    "wind": 7,
+    "gust": 12,
+    "rain": 12
    },
-   "weather_text": "58\u00b0F, wind 8 mph",
+   "weather_text": "62\u00b0F, wind 7 mph",
    "arena": "MetLife Stadium",
    "location": "East Rutherford, NJ",
    "categories": [
@@ -920,12 +920,12 @@
    "tip_utc": "2026-11-22T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
-    "wind": 8,
-    "gust": 17,
-    "rain": 6
+    "temp": 65,
+    "wind": 7,
+    "gust": 16,
+    "rain": 2
    },
-   "weather_text": "64\u00b0F, wind 8 mph",
+   "weather_text": "65\u00b0F, wind 7 mph",
    "arena": "Lincoln Financial Field",
    "location": "Philadelphia, PA",
    "categories": [
@@ -1053,20 +1053,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.1,
+      "proj": 2.2,
       "lo": 0.0,
-      "hi": 2.7
+      "hi": 2.8
      },
      {
       "label": "Rec yds",
-      "proj": 27,
+      "proj": 28,
       "lo": 0,
-      "hi": 43
+      "hi": 45
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.13,
     "locked": false
    },
@@ -1217,7 +1217,7 @@
     "indoor": false,
     "temp": 45,
     "wind": 15,
-    "gust": 25,
+    "gust": 26,
     "rain": 0
    },
    "weather_text": "45\u00b0F, wind 15 mph",
@@ -1460,5 +1460,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-22T14:00:02+00:00"
+ "generated_at": "2026-11-22T16:17:25+00:00"
 }
