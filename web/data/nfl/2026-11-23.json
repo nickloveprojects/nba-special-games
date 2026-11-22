@@ -26,7 +26,7 @@
     "temp": 51,
     "wind": 13,
     "gust": 29,
-    "rain": 1
+    "rain": 2
    },
    "weather_text": "51\u00b0F, wind 13 mph",
    "arena": "Northwest Stadium",
@@ -246,5 +246,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-22T20:18:29+00:00"
+ "generated_at": "2026-11-22T22:36:00+00:00"
 }

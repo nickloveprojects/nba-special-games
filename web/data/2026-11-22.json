@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T20:14:39Z",
+ "generated_at": "2026-11-22T22:33:00Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -2128,11 +2128,11 @@
     "note": "UTA gives up the 4th-most rebounds to forwards (20.4 a game, 17 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Washington (illness) is doubtful to play Sunday's game against the Jazz.",
-    "date": "2026-11-22T19:07Z"
+    "status": "Out",
+    "note": "Washington (illness) has been ruled out for Sunday's game against the Jazz.",
+    "date": "2026-11-22T22:24Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "history",
@@ -2145,33 +2145,7 @@
      "scope": "2017-18 to now, regular season and playoffs"
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 14,
-      "lo": 6,
-      "hi": 21
-     },
-     {
-      "label": "Reb",
-      "proj": 6.5,
-      "lo": 3,
-      "hi": 10
-     },
-     {
-      "label": "Ast",
-      "proj": 1.3,
-      "lo": 0,
-      "hi": 3
-     }
-    ],
-    "games_used": 15,
-    "minutes": 30,
-    "sims": 1000,
-    "opp_factor": 1.01,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4896372,
@@ -2369,12 +2343,8 @@
     "best": "pts",
     "note": "UTA gives up the 14th-most points to guards (57.3 a game, 17 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Clayton (knee) is listed as questionable for Sunday's game against the Jazz.",
-    "date": "2026-11-22T19:07Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "revenge",
@@ -3188,7 +3158,7 @@
     "minutes": 26,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3909,7 +3879,7 @@
     "minutes": 28,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {

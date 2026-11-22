@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-22T20:17:56Z",
+ "generated_at": "2026-11-22T22:35:30Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -6804,11 +6804,11 @@
     "note": "MEM gives up the 20th-most points to guards (54.8 a game, 17 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Allen (concussion) has been ruled out for Friday's game against Atlanta.",
-    "date": "2026-11-21T14:49Z"
+    "status": "Out",
+    "note": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
+    "date": "2026-11-22T22:08Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "revenge",
@@ -6821,33 +6821,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 15,
-      "lo": 5,
-      "hi": 27
-     },
-     {
-      "label": "Reb",
-      "proj": 3.1,
-      "lo": 2,
-      "hi": 5
-     },
-     {
-      "label": "Ast",
-      "proj": 3.4,
-      "lo": 1,
-      "hi": 6
-     }
-    ],
-    "games_used": 13,
-    "minutes": 27,
-    "sims": 1000,
-    "opp_factor": 0.99,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 3133602,
@@ -7362,11 +7336,11 @@
     "note": "MEM gives up the 14th-most points to forwards (43.2 a game, 17 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "Williams (hamstring) is listed as out for Friday's game versus the Hawks.",
-    "date": "2026-11-21T14:49Z"
+    "status": "Out",
+    "note": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
+    "date": "2026-11-22T22:05Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [
     {
      "kind": "hometown",
@@ -7379,33 +7353,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 9,
-      "lo": 2,
-      "hi": 12
-     },
-     {
-      "label": "Reb",
-      "proj": 3.2,
-      "lo": 2,
-      "hi": 4
-     },
-     {
-      "label": "Ast",
-      "proj": 0.9,
-      "lo": 0,
-      "hi": 3
-     }
-    ],
-    "games_used": 3,
-    "minutes": 21,
-    "sims": 1000,
-    "opp_factor": 1.0,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 4711297,
