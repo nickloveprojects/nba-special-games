@@ -383,6 +383,11 @@ a.wx:hover{color:var(--ink)}
 .atab[data-c=Revenge]{--c:var(--red);--bg-t:var(--red-bg)}.atab[data-c=Hometown]{--c:var(--green);--bg-t:var(--green-bg)}.atab[data-c=Birthday]{--c:var(--yellow-line);--bg-t:var(--yellow-bg)}.atab[data-c=History]{--c:var(--blue-line);--bg-t:var(--blue-bg)}.atab[data-c=Holiday]{--c:var(--violet-line);--bg-t:var(--violet-bg)}.atab[data-c=Milestone]{--c:var(--teal-line);--bg-t:var(--teal-bg)}
 .atab[aria-selected=true][data-c=Revenge]{color:var(--red)}.atab[aria-selected=true][data-c=Hometown]{color:var(--green)}.atab[aria-selected=true][data-c=Birthday]{color:var(--yellow)}.atab[aria-selected=true][data-c=History]{color:var(--blue)}.atab[aria-selected=true][data-c=Holiday]{color:var(--violet)}.atab[aria-selected=true][data-c=Milestone]{color:var(--teal)}
 .angles .flag{margin:0 0 8px}
+.also{display:flex;align-items:center;gap:8px;width:100%;text-align:left;margin:0 0 6px;padding:6px 10px;min-height:0;border-radius:8px;border:1px solid var(--line);background:var(--chip);color:var(--muted);font:500 13px var(--font-body);line-height:1.35}
+.also b{flex:none;font:700 12px var(--font-display);letter-spacing:.05em;text-transform:uppercase;color:var(--ink)}
+.also span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.also[data-c=Revenge] b{color:var(--red)}.also[data-c=Hometown] b{color:var(--green)}.also[data-c=Birthday] b{color:var(--yellow)}.also[data-c=History] b{color:var(--blue-line)}.also[data-c=Milestone] b{color:var(--teal,var(--ink))}
+.also:hover{border-color:var(--ink)}
 
 /* visual refresh preview */
 .game{background:linear-gradient(90deg,color-mix(in srgb,var(--tc) 16%,var(--chip)),var(--chip) 70%)}
@@ -758,9 +763,10 @@ function flagTabs(e){
   const first=cats.find(c=>active.has(c))||cats[0];
   const id="t"+e.player_id+"-"+e.game_id;
   const n=c=>e.tags.filter(t=>t.category===c).length;
-  return `<div class="angles"><div class="anglelist" role="tablist" aria-label="Angles for ${esc(e.name)}">${cats.map(c=>`<button type="button" role="tab" class="atab" data-c="${c}" id="${id}-${c}" aria-controls="${id}-p-${c}" aria-selected="${c===first}" tabindex="${c===first?0:-1}">${icon(c)}${c}${n(c)>1?`<b>${n(c)}</b>`:""}</button>`).join("")}</div>${cats.map(c=>`<div role="tabpanel" id="${id}-p-${c}" aria-labelledby="${id}-${c}" ${c===first?"":"hidden"}>${e.tags.filter(t=>t.category===c).map(g=>flag(g,e)).join("")}</div>`).join("")}</div>`;
+  return `<div class="angles"><div class="anglelist" role="tablist" aria-label="Angles for ${esc(e.name)}">${cats.map(c=>`<button type="button" role="tab" class="atab" data-c="${c}" id="${id}-${c}" aria-controls="${id}-p-${c}" aria-selected="${c===first}" tabindex="${c===first?0:-1}">${icon(c)}${c}${n(c)>1?`<b>${n(c)}</b>`:""}</button>`).join("")}</div>${cats.map(c=>`<div role="tabpanel" id="${id}-p-${c}" aria-labelledby="${id}-${c}" ${c===first?"":"hidden"}>${e.tags.filter(t=>t.category===c).map(g=>flag(g,e)).join("")}${cats.filter(o=>o!==c).map(o=>{const t=e.tags.find(x=>x.category===o);return `<button type="button" class="also" data-go="${id}-${o}" data-c="${o}">${icon(o)}<b>Also ${o}</b><span>${esc(t.headline||t.detail||"")}</span></button>`}).join("")}</div>`).join("")}</div>`;
 }
 document.addEventListener("click",ev=>{
+  const a=ev.target.closest(".also[data-go]"); if(a){const t=document.getElementById(a.dataset.go); if(t) t.click(); return;}
   const b=ev.target.closest(".atab[role=tab]"); if(!b) return;
   const list=b.parentElement,card=b.closest(".card");
   if(card) card.dataset.main=b.dataset.c;   // the colour stripe follows the open tab
