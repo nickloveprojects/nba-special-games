@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T22:33:00Z",
+ "generated_at": "2026-11-23T04:25:45Z",
  "season": "2026-27",
  "games": 7,
  "entries": [
@@ -290,7 +290,7 @@
     "minutes": 22,
     "sims": 1000,
     "opp_factor": 1.03,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -1477,7 +1477,7 @@
     "minutes": 20,
     "sims": 1000,
     "opp_factor": 0.97,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -1829,7 +1829,7 @@
     "minutes": 24,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2382,7 +2382,7 @@
     "minutes": 20,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -2680,7 +2680,7 @@
     "minutes": 21,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -3581,7 +3581,7 @@
     "minutes": 17,
     "sims": 1000,
     "opp_factor": 0.97,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4456,7 +4456,7 @@
     "minutes": 14,
     "sims": 1000,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -4666,7 +4666,7 @@
     "minutes": 12,
     "sims": 1000,
     "opp_factor": 1.02,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -5187,7 +5187,7 @@
     "minutes": 34,
     "sims": 1000,
     "opp_factor": 1.0,
-    "locked": false
+    "locked": true
    }
   },
   {
@@ -5724,12 +5724,8 @@
     "best": "pts",
     "note": "IND gives up the 8th-most points to centers (15.6 a game, 16 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Towns (illness) is questionable to play in Sunday's game against the Pacers.",
-    "date": "2026-11-22T18:09Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -5767,7 +5763,7 @@
     "minutes": 33,
     "sims": 1000,
     "opp_factor": 1.01,
-    "locked": false
+    "locked": true
    }
   },
   {

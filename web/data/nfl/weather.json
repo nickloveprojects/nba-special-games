@@ -1,197 +1,7 @@
 {
  "week": 11,
- "generated_at": "2026-11-22T22:36:00+00:00",
+ "generated_at": "2026-11-23T04:27:39+00:00",
  "games": [
-  {
-   "id": "401873074",
-   "date": "2026-11-22",
-   "away": "NYJ",
-   "home": "LAC",
-   "away_logo": "img/nfl/teams/NYJ.png",
-   "home_logo": "img/nfl/teams/LAC.png",
-   "tip": "4:05 PM ET",
-   "tip_utc": "2026-11-22T21:05:00+00:00",
-   "arena": "SoFi Stadium",
-   "location": "Inglewood, CA",
-   "report": {
-    "indoor": true,
-    "roof": "canopy",
-    "hours": [],
-    "effects": [],
-    "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
-    }
-   }
-  },
-  {
-   "id": "401873075",
-   "date": "2026-11-22",
-   "away": "LV",
-   "home": "DEN",
-   "away_logo": "img/nfl/teams/LV.png",
-   "home_logo": "img/nfl/teams/DEN.png",
-   "tip": "4:25 PM ET",
-   "tip_utc": "2026-11-22T21:25:00+00:00",
-   "arena": "Empower Field at Mile High",
-   "location": "Denver, CO",
-   "report": {
-    "indoor": false,
-    "roof": "open",
-    "hours": [
-     {
-      "utc": "2026-11-22T21:00Z",
-      "temp": 43,
-      "feels": 35,
-      "humidity": 49,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 9,
-      "dir": 15,
-      "dir_txt": "NNE",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-22T22:00Z",
-      "temp": 42,
-      "feels": 34,
-      "humidity": 50,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 8,
-      "gust": 11,
-      "dir": 1,
-      "dir_txt": "N",
-      "cloud": 12,
-      "cond": "Clear"
-     },
-     {
-      "utc": "2026-11-22T23:00Z",
-      "temp": 40,
-      "feels": 32,
-      "humidity": 52,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 11,
-      "dir": 352,
-      "dir_txt": "N",
-      "cloud": 95,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-23T00:00Z",
-      "temp": 36,
-      "feels": 29,
-      "humidity": 60,
-      "rain": 0,
-      "precip_in": 0.0,
-      "wind": 4,
-      "gust": 10,
-      "dir": 340,
-      "dir_txt": "NNW",
-      "cloud": 100,
-      "cond": "Overcast"
-     }
-    ],
-    "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
-    ],
-    "impact": {
-     "pct": 2,
-     "level": "minor",
-     "drivers": [
-      "wind up to 8 mph",
-      "cold, down to 36\u00b0F"
-     ]
-    }
-   }
-  },
-  {
-   "id": "401873069",
-   "date": "2026-11-22",
-   "away": "JAX",
-   "home": "NYG",
-   "away_logo": "img/nfl/teams/JAX.png",
-   "home_logo": "img/nfl/teams/NYG.png",
-   "tip": "4:25 PM ET",
-   "tip_utc": "2026-11-22T21:25:00+00:00",
-   "arena": "MetLife Stadium",
-   "location": "East Rutherford, NJ",
-   "report": {
-    "indoor": false,
-    "roof": "open",
-    "hours": [
-     {
-      "utc": "2026-11-22T21:00Z",
-      "temp": 59,
-      "feels": 58,
-      "humidity": 90,
-      "rain": 2,
-      "precip_in": 0.0,
-      "wind": 7,
-      "gust": 12,
-      "dir": 65,
-      "dir_txt": "ENE",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-22T22:00Z",
-      "temp": 56,
-      "feels": 56,
-      "humidity": 94,
-      "rain": 3,
-      "precip_in": 0.0,
-      "wind": 5,
-      "gust": 14,
-      "dir": 48,
-      "dir_txt": "NE",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-22T23:00Z",
-      "temp": 56,
-      "feels": 56,
-      "humidity": 96,
-      "rain": 5,
-      "precip_in": 0.0,
-      "wind": 5,
-      "gust": 14,
-      "dir": 31,
-      "dir_txt": "NNE",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-23T00:00Z",
-      "temp": 56,
-      "feels": 55,
-      "humidity": 96,
-      "rain": 4,
-      "precip_in": 0.0,
-      "wind": 4,
-      "gust": 10,
-      "dir": 12,
-      "dir_txt": "NNE",
-      "cloud": 100,
-      "cond": "Overcast"
-     }
-    ],
-    "effects": [
-     "No weather concerns. Nothing is adjusted in the projections."
-    ],
-    "impact": {
-     "pct": 0,
-     "level": "none",
-     "drivers": []
-    }
-   }
-  },
   {
    "id": "401873070",
    "date": "2026-11-22",
@@ -252,13 +62,13 @@
      {
       "utc": "2026-11-22T21:00Z",
       "temp": 64,
-      "feels": 58,
-      "humidity": 49,
+      "feels": 59,
+      "humidity": 47,
       "rain": 1,
       "precip_in": 0.0,
-      "wind": 9,
-      "gust": 21,
-      "dir": 192,
+      "wind": 8,
+      "gust": 18,
+      "dir": 195,
       "dir_txt": "SSW",
       "cloud": 0,
       "cond": "Clear"
@@ -336,13 +146,13 @@
      {
       "utc": "2026-11-22T21:00Z",
       "temp": 49,
-      "feels": 42,
-      "humidity": 85,
+      "feels": 43,
+      "humidity": 82,
       "rain": 2,
       "precip_in": 0.0,
       "wind": 11,
-      "gust": 22,
-      "dir": 302,
+      "gust": 19,
+      "dir": 298,
       "dir_txt": "WNW",
       "cloud": 100,
       "cond": "Overcast"
@@ -422,16 +232,16 @@
      {
       "utc": "2026-11-22T21:00Z",
       "temp": 56,
-      "feels": 49,
-      "humidity": 73,
+      "feels": 50,
+      "humidity": 70,
       "rain": 0,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 23,
-      "dir": 347,
+      "gust": 20,
+      "dir": 339,
       "dir_txt": "NNW",
-      "cloud": 49,
-      "cond": "Mostly clear"
+      "cloud": 100,
+      "cond": "Overcast"
      }
     ],
     "effects": [
@@ -533,16 +343,16 @@
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 49,
-      "feels": 39,
+      "temp": 50,
+      "feels": 41,
       "humidity": 46,
       "rain": 0,
       "precip_in": 0.0,
-      "wind": 14,
+      "wind": 13,
       "gust": 21,
-      "dir": 344,
+      "dir": 343,
       "dir_txt": "NNW",
-      "cloud": 1,
+      "cloud": 0,
       "cond": "Clear"
      }
     ],
@@ -617,17 +427,17 @@
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 62,
+      "temp": 63,
       "feels": 62,
-      "humidity": 88,
+      "humidity": 85,
       "rain": 2,
       "precip_in": 0.0,
-      "wind": 7,
-      "gust": 14,
-      "dir": 59,
-      "dir_txt": "ENE",
-      "cloud": 66,
-      "cond": "Partly cloudy"
+      "wind": 8,
+      "gust": 15,
+      "dir": 44,
+      "dir_txt": "NE",
+      "cloud": 100,
+      "cond": "Overcast"
      }
     ],
     "effects": [
@@ -701,15 +511,15 @@
      },
      {
       "utc": "2026-11-22T21:00Z",
-      "temp": 60,
-      "feels": 59,
-      "humidity": 92,
+      "temp": 59,
+      "feels": 60,
+      "humidity": 96,
       "rain": 10,
       "precip_in": 0.0,
-      "wind": 8,
+      "wind": 6,
       "gust": 14,
-      "dir": 14,
-      "dir_txt": "NNE",
+      "dir": 6,
+      "dir_txt": "N",
       "cloud": 100,
       "cond": "Overcast"
      }
@@ -723,6 +533,195 @@
      "drivers": [
       "wind up to 8 mph"
      ]
+    }
+   }
+  },
+  {
+   "id": "401873074",
+   "date": "2026-11-22",
+   "away": "NYJ",
+   "home": "LAC",
+   "away_logo": "img/nfl/teams/NYJ.png",
+   "home_logo": "img/nfl/teams/LAC.png",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-22T21:05:00+00:00",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "report": {
+    "indoor": true,
+    "roof": "canopy",
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873075",
+   "date": "2026-11-22",
+   "away": "LV",
+   "home": "DEN",
+   "away_logo": "img/nfl/teams/LV.png",
+   "home_logo": "img/nfl/teams/DEN.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-22T21:25:00+00:00",
+   "arena": "Empower Field at Mile High",
+   "location": "Denver, CO",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-22T21:00Z",
+      "temp": 44,
+      "feels": 37,
+      "humidity": 44,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 7,
+      "dir": 16,
+      "dir_txt": "NNE",
+      "cloud": 5,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-22T22:00Z",
+      "temp": 43,
+      "feels": 35,
+      "humidity": 47,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 9,
+      "dir": 357,
+      "dir_txt": "N",
+      "cloud": 23,
+      "cond": "Mostly clear"
+     },
+     {
+      "utc": "2026-11-22T23:00Z",
+      "temp": 41,
+      "feels": 33,
+      "humidity": 47,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 11,
+      "dir": 1,
+      "dir_txt": "N",
+      "cloud": 47,
+      "cond": "Mostly clear"
+     },
+     {
+      "utc": "2026-11-23T00:00Z",
+      "temp": 36,
+      "feels": 30,
+      "humidity": 62,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 10,
+      "dir": 25,
+      "dir_txt": "NNE",
+      "cloud": 3,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "No weather concerns. Nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 1,
+     "level": "minor",
+     "drivers": [
+      "cold, down to 36\u00b0F"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873069",
+   "date": "2026-11-22",
+   "away": "JAX",
+   "home": "NYG",
+   "away_logo": "img/nfl/teams/JAX.png",
+   "home_logo": "img/nfl/teams/NYG.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-22T21:25:00+00:00",
+   "arena": "MetLife Stadium",
+   "location": "East Rutherford, NJ",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-22T21:00Z",
+      "temp": 60,
+      "feels": 59,
+      "humidity": 81,
+      "rain": 2,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 12,
+      "dir": 54,
+      "dir_txt": "NE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-22T22:00Z",
+      "temp": 59,
+      "feels": 59,
+      "humidity": 88,
+      "rain": 3,
+      "precip_in": 0.0,
+      "wind": 5,
+      "gust": 13,
+      "dir": 25,
+      "dir_txt": "NNE",
+      "cloud": 68,
+      "cond": "Partly cloudy"
+     },
+     {
+      "utc": "2026-11-22T23:00Z",
+      "temp": 59,
+      "feels": 60,
+      "humidity": 90,
+      "rain": 5,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 11,
+      "dir": 22,
+      "dir_txt": "NNE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-23T00:00Z",
+      "temp": 59,
+      "feels": 59,
+      "humidity": 85,
+      "rain": 8,
+      "precip_in": 0.0,
+      "wind": 5,
+      "gust": 16,
+      "dir": 4,
+      "dir_txt": "N",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "No weather concerns. Nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
     }
    }
   },
@@ -756,69 +755,69 @@
     "hours": [
      {
       "utc": "2026-11-24T01:00Z",
-      "temp": 51,
-      "feels": 42,
+      "temp": 52,
+      "feels": 44,
       "humidity": 55,
-      "rain": 2,
+      "rain": 26,
       "precip_in": 0.0,
-      "wind": 13,
-      "gust": 29,
-      "dir": 322,
-      "dir_txt": "NW",
-      "cloud": 76,
-      "cond": "Partly cloudy"
+      "wind": 11,
+      "gust": 28,
+      "dir": 327,
+      "dir_txt": "NNW",
+      "cloud": 48,
+      "cond": "Mostly clear"
      },
      {
       "utc": "2026-11-24T02:00Z",
-      "temp": 49,
-      "feels": 39,
-      "humidity": 56,
-      "rain": 2,
+      "temp": 51,
+      "feels": 43,
+      "humidity": 53,
+      "rain": 12,
       "precip_in": 0.0,
-      "wind": 15,
-      "gust": 31,
-      "dir": 325,
+      "wind": 11,
+      "gust": 27,
+      "dir": 324,
       "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T03:00Z",
-      "temp": 46,
-      "feels": 37,
-      "humidity": 56,
-      "rain": 1,
+      "temp": 50,
+      "feels": 41,
+      "humidity": 52,
+      "rain": 2,
       "precip_in": 0.0,
-      "wind": 13,
-      "gust": 29,
-      "dir": 328,
-      "dir_txt": "NNW",
+      "wind": 12,
+      "gust": 28,
+      "dir": 326,
+      "dir_txt": "NW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T04:00Z",
-      "temp": 45,
-      "feels": 35,
-      "humidity": 55,
+      "temp": 49,
+      "feels": 40,
+      "humidity": 51,
       "rain": 1,
       "precip_in": 0.0,
-      "wind": 13,
-      "gust": 31,
-      "dir": 334,
-      "dir_txt": "NNW",
-      "cloud": 58,
-      "cond": "Partly cloudy"
+      "wind": 12,
+      "gust": 27,
+      "dir": 324,
+      "dir_txt": "NW",
+      "cloud": 100,
+      "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (13 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
-     "pct": 5,
-     "level": "moderate",
+     "pct": 3,
+     "level": "minor",
      "drivers": [
-      "wind up to 15 mph"
+      "wind up to 12 mph"
      ]
     }
    }
