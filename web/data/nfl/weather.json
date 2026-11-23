@@ -1,6 +1,6 @@
 {
  "week": 11,
- "generated_at": "2026-11-23T14:29:24+00:00",
+ "generated_at": "2026-11-23T22:45:40+00:00",
  "games": [
   {
    "id": "401873078",
@@ -19,69 +19,69 @@
     "hours": [
      {
       "utc": "2026-11-24T01:00Z",
-      "temp": 55,
-      "feels": 48,
-      "humidity": 56,
-      "rain": 3,
+      "temp": 57,
+      "feels": 50,
+      "humidity": 50,
+      "rain": 15,
       "precip_in": 0.0,
-      "wind": 12,
+      "wind": 11,
       "gust": 23,
-      "dir": 330,
+      "dir": 334,
       "dir_txt": "NNW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T02:00Z",
-      "temp": 52,
+      "temp": 54,
       "feels": 45,
-      "humidity": 53,
-      "rain": 4,
+      "humidity": 47,
+      "rain": 17,
       "precip_in": 0.0,
-      "wind": 11,
-      "gust": 22,
-      "dir": 331,
+      "wind": 14,
+      "gust": 26,
+      "dir": 330,
       "dir_txt": "NNW",
       "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T03:00Z",
-      "temp": 51,
-      "feels": 43,
-      "humidity": 50,
-      "rain": 3,
+      "temp": 52,
+      "feels": 44,
+      "humidity": 53,
+      "rain": 4,
       "precip_in": 0.0,
-      "wind": 10,
-      "gust": 24,
-      "dir": 336,
+      "wind": 13,
+      "gust": 26,
+      "dir": 340,
       "dir_txt": "NNW",
-      "cloud": 92,
+      "cloud": 100,
       "cond": "Overcast"
      },
      {
       "utc": "2026-11-24T04:00Z",
-      "temp": 50,
-      "feels": 41,
-      "humidity": 50,
-      "rain": 1,
-      "precip_in": 0.0,
-      "wind": 11,
+      "temp": 51,
+      "feels": 42,
+      "humidity": 56,
+      "rain": 3,
+      "precip_in": 0.02,
+      "wind": 12,
       "gust": 26,
-      "dir": 336,
+      "dir": 346,
       "dir_txt": "NNW",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (12 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
      "pct": 3,
      "level": "minor",
      "drivers": [
-      "wind up to 12 mph"
+      "wind up to 14 mph"
      ]
     }
    }
