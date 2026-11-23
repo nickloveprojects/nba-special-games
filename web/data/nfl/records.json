@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-23T22:26:44+00:00",
+ "chases": [
+  {
+   "record_id": "nfl_qb_4td",
+   "title": "Consecutive games with 4+ passing and rushing touchdowns",
+   "short": "4+ TD games in a row",
+   "status": "break",
+   "line": "Tied the record at 5; one more game breaks it.",
+   "player_id": 3915511,
+   "name": "Joe Burrow",
+   "team": "CIN",
+   "opponent": "WSH",
+   "tip": "8:15 PM ET",
+   "date": "2026-11-23",
+   "current": 5,
+   "record": 5,
+   "threshold": 4,
+   "holders": [
+    {
+     "name": "Peyton Manning",
+     "detail": "2004"
+    }
+   ],
+   "sources": [
+    {
+     "label": "WKRC",
+     "url": "https://local12.com/sports/bengals/joe-burrow-ties-nfl-record-with-historic-start-against-steelers-peyton-manning-aaron-rodgers-bengals-quarterback"
+    }
+   ],
+   "games": [
+    {
+     "date": "2026-10-11",
+     "opp": "MIA",
+     "home": false,
+     "result": "W",
+     "total": 4.0
+    },
+    {
+     "date": "2026-10-25",
+     "opp": "BAL",
+     "home": false,
+     "result": "W",
+     "total": 4.0
+    },
+    {
+     "date": "2026-11-01",
+     "opp": "TEN",
+     "home": true,
+     "result": "W",
+     "total": 6.0
+    },
+    {
+     "date": "2026-11-08",
+     "opp": "ATL",
+     "home": true,
+     "result": "W",
+     "total": 4.0
+    },
+    {
+     "date": "2026-11-15",
+     "opp": "PIT",
+     "home": true,
+     "result": "W",
+     "total": 4.0
+    }
+   ]
+  }
+ ]
+}

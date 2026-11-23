@@ -439,6 +439,11 @@ a.wx:hover{color:var(--ink)}
 .wchip[aria-pressed=true][data-l=strong]{background:var(--red);color:#fff}.wchip[aria-pressed=true][data-l=moderate]{background:var(--orange-line);color:#1b1006}.wchip[aria-pressed=true]{background:var(--wt,var(--chip))}
 .wchip[data-l=minor][aria-pressed=true]{background:var(--yellow-bg);color:var(--yellow)}.wchip[data-l=none][aria-pressed=true]{background:var(--green-bg);color:var(--green)}.wchip[data-l=indoor][aria-pressed=true],.wchip[data-l=roof][aria-pressed=true]{background:var(--chip);color:var(--ink)}
 .wchip.clear{border-color:var(--line);color:var(--muted);font-weight:600}
+.rcard{border:1px solid var(--line);border-left:4px solid var(--teal-line);border-radius:12px;padding:14px 16px;margin:0 0 12px;background:var(--card,transparent)}
+.rcard h3{margin:0 0 2px;font-size:17px}.rcard .meta{color:var(--muted);font-size:13.5px;margin:0 0 8px}.rcard .big{font-size:15px;margin:0 0 8px}
+.rcard .tag{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:2px 9px;margin-right:6px;background:var(--teal-bg);color:var(--teal)}
+.rcard .tag.break,.rcard .tag.extends{background:var(--red-bg);color:var(--red)}
+.rcard table{border-collapse:collapse;font-size:13.5px;margin:6px 0}.rcard td,.rcard th{padding:3px 12px 3px 0;text-align:left}.rcard .src{font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -448,6 +453,7 @@ a.wx:hover{color:var(--ink)}
     <a class="tab" id="tab-nba" href="#/nba">NBA</a>
     <span class="tab soon" aria-disabled="true">MLB <small>Soon</small></span>
     <a class="tab" id="tab-nfl" href="#/nfl">NFL</a>
+    <a class="tab" id="tab-rec" href="#/records">Records</a>
     <a class="tab" id="tab-wx" href="#/weather">Weather</a>
   </nav>
   <div class="themes" role="radiogroup" aria-label="Theme">
@@ -483,6 +489,12 @@ a.wx:hover{color:var(--ink)}
     <section id="hx-hero" hidden><h2 class="sec">Hometown hero</h2><div id="hx-hm"></div></section>
   </div>
   <section id="hx-bd" hidden><h2 class="sec">Birthdays <small id="hx-bdw"></small></h2><div class="mini" style="--c:var(--yellow-line)" id="hx-bdl"></div></section>
+</main>
+<main id="recv" class="view" hidden>
+  <h1>Record watch</h1>
+  <p class="sub" id="recsub">Loading…</p>
+  <div id="reclist"></div>
+  <p class="legend">A player appears here when his active streak is within one game of an all-time record, so the next game could tie or break it. Streaks are computed from ESPN game logs and count consecutive games played. Each record links to the article that states it.</p>
 </main>
 <main id="wxv" class="view" hidden>
   <h1>NFL game weather</h1>
@@ -1021,7 +1033,29 @@ async function showWeather(id){
   const el=id&&document.getElementById("g-"+id);
   if(el){el.classList.add("hl");el.scrollIntoView({block:"start"})}else window.scrollTo(0,0);
 }
+let recData;
+async function showRecords(){
+  if(recData===undefined){try{recData=await (await fetch("data/nfl/records.json")).json()}catch(e){recData=null}}
+  const L=$("reclist");
+  if(!recData||!recData.chases.length){$("recsub").textContent="No active record chases in the upcoming games.";L.innerHTML="";return}
+  const n=recData.chases.length;
+  $("recsub").textContent=`${n} record chase${n===1?"":"s"} in the upcoming NFL games`;
+  L.innerHTML=recData.chases.map(c=>`<article class="rcard"><span class="tag ${esc(c.status)}">${c.status==="tie"?"Can tie":c.status==="break"?"Can break":"Extends record"}</span>
+<h3><a href="#/nfl/${esc(c.player_id)}">${esc(c.name)}</a> <small>${esc(c.team)} vs ${esc(c.opponent)} \u00b7 ${esc(c.date)} \u00b7 ${esc(c.tip)}</small></h3>
+<p class="meta">${esc(c.title)}</p>
+<p class="big"><b>${c.current}</b> straight (record: <b>${c.record}</b>, ${c.holders.map(h=>esc(h.name)+(h.detail?" "+esc(h.detail):"")).join(", ")}). ${esc(c.line)}</p>
+<table><tr><th>Date</th><th>Opp</th><th>Total</th></tr>${c.games.map(g=>`<tr><td>${esc(g.date)}</td><td>${g.home?"vs":"@"} ${esc(g.opp)}</td><td>${g.total}</td></tr>`).join("")}</table>
+<p class="src">Record source: ${c.sources.map(x=>`<a href="${esc(x.url)}" rel="noopener">${esc(x.label)}</a>`).join(", ")}</p></article>`).join("");
+}
 function route(){
+  const rm=location.hash.match(/^#\/records/);
+  if(rm){
+    $("home").hidden=true;$("nba").hidden=true;$("wxv").hidden=true;$("recv").hidden=false;
+    for(const k of Object.keys(SPORTS))$("tab-"+k).removeAttribute("aria-current");
+    $("tab-wx").removeAttribute("aria-current");$("tab-rec").setAttribute("aria-current","page");
+    document.title="Record watch | Backstory Sports";window.scrollTo(0,0);showRecords();return;
+  }
+  $("recv").hidden=true;$("tab-rec").removeAttribute("aria-current");
   const wm=location.hash.match(/^#\/weather(?:\/(\w+))?/);
   if(wm){
     $("home").hidden=true;$("nba").hidden=true;$("wxv").hidden=false;

@@ -1,0 +1,21 @@
+# Record chases. Each entry defines a streak (consecutive games where the summed ESPN game-log fields reach a
+# threshold), the all-time mark it is measured against, and the sources for that mark.
+# The build computes every active streak from ESPN game logs; an entry only shows on the Records tab when a player
+# on that day's slate has a streak within `show_within` games of the record (so tonight could tie or break it).
+# Rules for adding one: "record" and "holders" must be checkable facts, and "sources" needs at least one link that
+# states the record. Entries without a source are ignored. Counts are consecutive games played (ESPN logs list only
+# games the player appeared in).
+records:
+  - id: nfl_qb_4td
+    sport: nfl
+    title: "Consecutive games with 4+ passing and rushing touchdowns"
+    short: "4+ TD games in a row"
+    positions: [QB]
+    fields: [passingTouchdowns, rushingTouchdowns]
+    threshold: 4
+    record: 5
+    holders:
+      - {name: "Peyton Manning", detail: "2004"}
+    show_within: 1
+    sources:
+      - {label: "WKRC", url: "https://local12.com/sports/bengals/joe-burrow-ties-nfl-record-with-historic-start-against-steelers-peyton-manning-aaron-rodgers-bengals-quarterback"}

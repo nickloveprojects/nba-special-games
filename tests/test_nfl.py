@@ -189,3 +189,20 @@ def test_no_games_note_does_not_claim_seasons_he_never_played():
     note = nfl.recent_block(rookie, [], "CHI")["vs"]["note"]
     assert "8 seasons" not in note and "career" in note
     assert "last 8 seasons" in nfl.recent_block({**rookie, "years": 9}, [], "CHI")["vs"]["note"]
+
+
+def test_record_streak_and_chase():
+    from app import records
+    L = lambda d, p, r=0: {"gid": d, "date": d, "season": 2026, "post": False, "team_id": 1, "opp_id": 2, "opp": "PIT",
+                           "home": True, "home_id": 1, "result": "W", "week": 1, "row": {"passingTouchdowns": p, "rushingTouchdowns": r}}
+    logs = [L("2026-10-01", 1), L("2026-10-08", 4), L("2026-10-15", 3, 1), L("2026-10-22", 5), L("2026-10-29", 4),
+            L("2026-11-05", 4), L("2026-11-12", 4)]
+    assert records.active_streak(logs, ["passingTouchdowns", "rushingTouchdowns"], 4)[0] == 6
+    assert records.active_streak(logs + [L("2026-11-19", 2)], ["passingTouchdowns", "rushingTouchdowns"], 4)[0] == 0
+    rec = {"id": "r", "title": "t", "short": "s", "positions": ["QB"], "fields": ["passingTouchdowns", "rushingTouchdowns"],
+           "threshold": 4, "record": 5, "holders": [], "sources": [{"label": "x", "url": "u"}], "show_within": 1}
+    p = {"id": 1, "name": "A B", "pos": "QB"}
+    c = records.chase(rec, p, logs, "CIN", "8:15 PM ET", "2026-11-23", "WSH")
+    assert c["status"] == "extends" and c["current"] == 6
+    assert records.chase(rec, p, logs[:3], "CIN", "", "2026-11-23", "WSH") is None
+    assert records.chase(rec, {"id": 2, "name": "C", "pos": "WR"}, logs, "CIN", "", "2026-11-23", "WSH") is None

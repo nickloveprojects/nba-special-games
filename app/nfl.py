@@ -10,7 +10,7 @@ from pathlib import Path
 
 import yaml
 
-from . import career, config, nfl_feed as feed, projection, weather
+from . import career, config, nfl_feed as feed, projection, records as recmod, weather
 from .matchups import _color, _letter, _ordinal
 from .net import SourceError
 from .rules import norm_name
@@ -429,6 +429,7 @@ def build_slates(today: date | None = None) -> list[dict]:
         return tx_seen[y]
     rivalries = load_rivalries(warn)
     curated = load_exits(warn)
+    rec_cfg, chases, rec_logs = recmod.load("nfl"), [], {}
     needs = []
     geocode.reset()
     slates = []
@@ -451,6 +452,16 @@ def build_slates(today: date | None = None) -> list[dict]:
                 except SourceError:
                     roster_names = {p["name"] for p in rosters.get(oid, [])}
                 for p in rosters.get(tid, []):
+                    for rc in (rc for rc in rec_cfg if p["pos"] in rc["positions"] and p["years"] > 0):
+                        try:
+                            if p["id"] not in rec_logs:
+                                rec_logs[p["id"]] = feed.career_logs(conn, p["id"], 1, year)
+                        except SourceError as ex:
+                            warn.add("gamelog", f"Game log unavailable for {p['name']} ({ex})")
+                            rec_logs[p["id"]] = []
+                        ch = recmod.chase(rc, p, rec_logs[p["id"]], oi["abbr"], e["tip"], day, mi["abbr"])
+                        if ch:
+                            chases.append(ch)
                     tags, tx_logs = [], None
                     # cheap flags first (no extra requests)
                     if p["dob"] and p["dob"][5:] == day[5:]:
@@ -535,6 +546,8 @@ def build_slates(today: date | None = None) -> list[dict]:
                          "location": ", ".join(x for x in (e["venue_city"], e["venue_state"]) if x),
                          "report": rep.get(e["game_id"])})
     if slates:
+        slates[0]["_records"] = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                "chases": sorted(chases, key=lambda c: (c["date"], -c["current"], c["name"]))}
         slates[0]["_weather"] = {"week": week, "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "games": games_wx}
     if needs:
         log.info("NEEDS RESEARCH (exit not confirmed): %s", "; ".join(sorted(set(needs))))
@@ -560,6 +573,9 @@ def write(slates: list[dict]):
     OUT.mkdir(parents=True, exist_ok=True)
     keep = []
     for s in slates:
+        rc = s.pop("_records", None)
+        if rc:
+            (OUT / "records.json").write_text(json.dumps(rc, indent=1))
         wx = s.pop("_weather", None)
         if wx:
             (OUT / "weather.json").write_text(json.dumps(wx, indent=1))
