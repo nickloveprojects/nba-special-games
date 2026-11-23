@@ -1,6 +1,6 @@
 {
  "week": 11,
- "generated_at": "2026-11-23T22:45:40+00:00",
+ "generated_at": "2026-11-23T23:22:33+00:00",
  "games": [
   {
    "id": "401873078",
@@ -22,7 +22,7 @@
       "temp": 57,
       "feels": 50,
       "humidity": 50,
-      "rain": 15,
+      "rain": 8,
       "precip_in": 0.0,
       "wind": 11,
       "gust": 23,
@@ -36,7 +36,7 @@
       "temp": 54,
       "feels": 45,
       "humidity": 47,
-      "rain": 17,
+      "rain": 6,
       "precip_in": 0.0,
       "wind": 14,
       "gust": 26,
@@ -50,7 +50,7 @@
       "temp": 52,
       "feels": 44,
       "humidity": 53,
-      "rain": 4,
+      "rain": 8,
       "precip_in": 0.0,
       "wind": 13,
       "gust": 26,
@@ -64,7 +64,7 @@
       "temp": 51,
       "feels": 42,
       "humidity": 56,
-      "rain": 3,
+      "rain": 5,
       "precip_in": 0.02,
       "wind": 12,
       "gust": 26,
