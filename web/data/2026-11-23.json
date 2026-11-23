@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T04:27:33Z",
+ "generated_at": "2026-11-23T14:28:16Z",
  "season": "2026-27",
  "games": 10,
  "entries": [
@@ -2580,6 +2580,21 @@
     "form": {
      "games": [
       {
+       "gid": "401910032",
+       "date": "2026-11-22",
+       "venue": "CHI",
+       "opp": "DEN",
+       "tm": "CHI",
+       "home": true,
+       "result": "L",
+       "score": "151-145 OT",
+       "min": 42,
+       "pts": 11,
+       "reb": 1,
+       "ast": 2,
+       "playoff": false
+      },
+      {
        "gid": "401909309",
        "date": "2026-11-20",
        "venue": "CHI",
@@ -2638,28 +2653,13 @@
        "reb": 7,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909299",
-       "date": "2026-11-13",
-       "venue": "CHI",
-       "opp": "ATL",
-       "tm": "CHI",
-       "home": true,
-       "result": "W",
-       "score": "125-117 OT",
-       "min": 41,
-       "pts": 15,
-       "reb": 3,
-       "ast": 2,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 11.6,
-     "reb": 5.2,
+     "pts": 10.8,
+     "reb": 4.8,
      "ast": 2.6,
-     "min": 31.6
+     "min": 31.8
     },
     "vs": {
      "opp": "CLE",
@@ -2788,13 +2788,13 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 8,
+      "proj": 9,
       "lo": 0,
       "hi": 13
      },
      {
       "label": "Reb",
-      "proj": 2.9,
+      "proj": 2.8,
       "lo": 1,
       "hi": 7
      },
@@ -2805,8 +2805,8 @@
       "hi": 4
      }
     ],
-    "games_used": 15,
-    "minutes": 25,
+    "games_used": 16,
+    "minutes": 26,
     "sims": 1000,
     "opp_factor": 0.99,
     "locked": false
@@ -3925,6 +3925,21 @@
     "form": {
      "games": [
       {
+       "gid": "401910033",
+       "date": "2026-11-22",
+       "venue": "UTA",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "116-114",
+       "min": 12,
+       "pts": 8,
+       "reb": 3,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909311",
        "date": "2026-11-20",
        "venue": "UTA",
@@ -3983,28 +3998,13 @@
        "reb": 8,
        "ast": 0,
        "playoff": false
-      },
-      {
-       "gid": "401909963",
-       "date": "2026-11-10",
-       "venue": "UTA",
-       "opp": "MIA",
-       "tm": "UTA",
-       "home": true,
-       "result": "L",
-       "score": "115-109",
-       "min": 17,
-       "pts": 6,
-       "reb": 2,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 10.6,
-     "reb": 7.2,
+     "pts": 11.0,
+     "reb": 7.4,
      "ast": 0.8,
-     "min": 22.6
+     "min": 21.6
     },
     "vs": {
      "opp": "LAL",
@@ -6331,6 +6331,21 @@
     "form": {
      "games": [
       {
+       "gid": "401910033",
+       "date": "2026-11-22",
+       "venue": "UTA",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "116-114",
+       "min": 23,
+       "pts": 6,
+       "reb": 10,
+       "ast": 1,
+       "playoff": false
+      },
+      {
        "gid": "401909311",
        "date": "2026-11-20",
        "venue": "UTA",
@@ -6389,28 +6404,13 @@
        "reb": 5,
        "ast": 4,
        "playoff": false
-      },
-      {
-       "gid": "401909301",
-       "date": "2026-11-13",
-       "venue": "HOU",
-       "opp": "HOU",
-       "tm": "UTA",
-       "home": false,
-       "result": "L",
-       "score": "125-118",
-       "min": 20,
-       "pts": 9,
-       "reb": 9,
-       "ast": 1,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 11.6,
-     "reb": 8.4,
+     "pts": 11.0,
+     "reb": 8.6,
      "ast": 1.6,
-     "min": 26.0
+     "min": 26.6
     },
     "vs": {
      "opp": "LAL",
@@ -6509,13 +6509,13 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 9,
+      "proj": 8,
       "lo": 2,
       "hi": 14
      },
      {
       "label": "Reb",
-      "proj": 6.8,
+      "proj": 7.0,
       "lo": 2,
       "hi": 16
      },
@@ -6526,8 +6526,8 @@
       "hi": 3
      }
     ],
-    "games_used": 13,
-    "minutes": 21,
+    "games_used": 14,
+    "minutes": 22,
     "sims": 1000,
     "opp_factor": 0.95,
     "locked": false
@@ -6860,6 +6860,21 @@
     "form": {
      "games": [
       {
+       "gid": "401910033",
+       "date": "2026-11-22",
+       "venue": "UTA",
+       "opp": "DAL",
+       "tm": "UTA",
+       "home": true,
+       "result": "L",
+       "score": "116-114",
+       "min": 32,
+       "pts": 39,
+       "reb": 5,
+       "ast": 3,
+       "playoff": false
+      },
+      {
        "gid": "401909311",
        "date": "2026-11-20",
        "venue": "UTA",
@@ -6918,28 +6933,13 @@
        "reb": 2,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401909301",
-       "date": "2026-11-13",
-       "venue": "HOU",
-       "opp": "HOU",
-       "tm": "UTA",
-       "home": false,
-       "result": "L",
-       "score": "125-118",
-       "min": 7,
-       "pts": 0,
-       "reb": 1,
-       "ast": 0,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 8.0,
-     "reb": 4.0,
-     "ast": 3.0,
-     "min": 24.6
+     "pts": 15.8,
+     "reb": 4.8,
+     "ast": 3.6,
+     "min": 29.6
     },
     "vs": {
      "opp": "LAL",
@@ -7083,25 +7083,25 @@
     "lines": [
      {
       "label": "Pts",
-      "proj": 7,
+      "proj": 9,
       "lo": 0,
-      "hi": 13
+      "hi": 17
      },
      {
       "label": "Reb",
-      "proj": 2.5,
+      "proj": 2.7,
       "lo": 0,
       "hi": 7
      },
      {
       "label": "Ast",
-      "proj": 1.9,
+      "proj": 2.1,
       "lo": 0,
       "hi": 5
      }
     ],
-    "games_used": 17,
-    "minutes": 20,
+    "games_used": 18,
+    "minutes": 21,
     "sims": 1000,
     "opp_factor": 1.02,
     "locked": false
@@ -7636,6 +7636,21 @@
     "form": {
      "games": [
       {
+       "gid": "401910034",
+       "date": "2026-11-22",
+       "venue": "NYK",
+       "opp": "NYK",
+       "tm": "IND",
+       "home": false,
+       "result": "L",
+       "score": "113-106",
+       "min": 18,
+       "pts": 6,
+       "reb": 1,
+       "ast": 4,
+       "playoff": false
+      },
+      {
        "gid": "401909307",
        "date": "2026-11-20",
        "venue": "CLE",
@@ -7694,28 +7709,13 @@
        "reb": 0,
        "ast": 2,
        "playoff": false
-      },
-      {
-       "gid": "401909927",
-       "date": "2026-11-04",
-       "venue": "MEM",
-       "opp": "MEM",
-       "tm": "IND",
-       "home": false,
-       "result": "W",
-       "score": "107-103",
-       "min": 24,
-       "pts": 10,
-       "reb": 1,
-       "ast": 5,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 4.6,
+     "pts": 3.8,
      "reb": 1.8,
-     "ast": 3.0,
-     "min": 15.0
+     "ast": 2.8,
+     "min": 13.8
     },
     "vs": {
      "opp": "OKC",
@@ -7785,7 +7785,7 @@
       "label": "Pts",
       "proj": 5,
       "lo": 0,
-      "hi": 19
+      "hi": 10
      },
      {
       "label": "Reb",
@@ -7795,13 +7795,13 @@
      },
      {
       "label": "Ast",
-      "proj": 3.0,
+      "proj": 3.1,
       "lo": 0,
-      "hi": 10
+      "hi": 5
      }
     ],
-    "games_used": 9,
-    "minutes": 15,
+    "games_used": 10,
+    "minutes": 16,
     "sims": 1000,
     "opp_factor": 0.98,
     "locked": false

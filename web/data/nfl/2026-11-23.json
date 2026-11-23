@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-24T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 52,
-    "wind": 11,
-    "gust": 28,
-    "rain": 26
+    "temp": 55,
+    "wind": 12,
+    "gust": 23,
+    "rain": 3
    },
-   "weather_text": "52\u00b0F, wind 11 mph",
+   "weather_text": "55\u00b0F, wind 12 mph",
    "arena": "Northwest Stadium",
    "location": "Landover, MD",
    "categories": [
@@ -246,5 +246,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-23T04:27:39+00:00"
+ "generated_at": "2026-11-23T14:29:24+00:00"
 }
