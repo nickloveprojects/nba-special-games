@@ -1,11 +1,14 @@
-# Beef candidates — run of 2026-11-22
+# Beef candidates (run 2026-11-23)
 
-Window: NBA 2026-11-22 and 2026-11-23 (17 games); NFL 2026-11-22 and 2026-11-23 (12 games). Existing pairs in config/rivalries.yaml and config/rivalries_nfl.yaml were skipped. Nothing here has been added to either config file.
+Games checked (next 2 days): NBA 11/23-11/24 slate (10 games: Trail Blazers-76ers, Raptors-Bucks, Cavaliers-Bulls, Rockets-Clippers, Hornets-Grizzlies, Lakers-Jazz, Spurs-Kings, Timberwolves-Nets, Thunder-Pacers, Suns-Pelicans) and 11/25 (Celtics-Wizards, Magic-Pistons, Nuggets-Mavericks); NFL Bengals-Commanders.
 
 ## No new candidates
 
-## Claims I could not verify or chose not to list
+Nothing met the bar (two named players, named outlet, dated, confirmed by reading the article).
 
-- Jose Alvarado vs. Mark Williams (Pelicans-Suns fight, Dec. 27, 2025; NBA.com and CBS Sports, Dec. 28, 2025): the fight is confirmed (both ejected; Alvarado suspended two games, Williams one). But Alvarado's ESPN profile lists him on the Knicks for 2026-27, so he does not face Williams in PHX at NOP on 2026-11-23. Mark Williams's current team was not confirmed. Not listed.
-- Luguentz Dort vs. Jeremiah Fears (Jan. 27, 2026, NBA.com, each fined $25,000): confirmed, but OKC does not play NOP in this window. Not listed.
-- Searches for the other games (DEN at CHI, BOS at GSW, IND at NYK, OKC at MIA, OKC at IND, the NFL slate, and others) returned only incidents involving teammates, teams not playing in this window, or pairs already in config/rivalries.yaml. None could be confirmed by fetching an article that names two opposing players. These searches were quick, so coverage is not exhaustive.
+## Claims I could not verify / rejected
+
+- Cam Taylor-Britt (Bengals) vs. Commanders (SI, Sep 24, 2024): the article says he mocked the Commanders' offense as a "college offense"; it targets the team/offense, not a specific player. Dated 2024; no current-roster check. Not listed.
+- Malik Monk (Kings) and De'Aaron Fox (Spurs), Kings-Spurs (EssentiallySports): the argument was between Monk and Fox's wife, details "murky", no quotes, no article date. Not two players. Not listed.
+- Jordan Clarkson / Ron Holland II ejections (SI, Dec 20, 2024): confirmed, but neither is shown to be on a team in the upcoming Lakers-Jazz or Magic-Pistons games; Holland already has entries in rivalries.yaml for other pairs. Not listed.
+- Search results for Rockets-Clippers, Nuggets-Mavericks, Magic-Pistons, Lakers-Jazz and Spurs-Kings were mostly old (2018-2023) or involved players not confirmed on current rosters; the AOL Vanderbilt/Sochan article could not be fetched. Searches were limited and not exhaustive for every game.
