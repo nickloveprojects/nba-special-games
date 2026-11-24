@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-30",
+ "sport": "nfl",
+ "week": 12,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 3052587,
+   "name": "Baker Mayfield",
+   "team": "TB",
+   "team_name": "Buccaneers",
+   "team_color": "#bd1c36",
+   "team_alt": "#3e3a35",
+   "opponent": "CAR",
+   "opponent_name": "Panthers",
+   "opponent_color": "#0085ca",
+   "position": "QB",
+   "jersey": "6",
+   "home_away": "home",
+   "game_id": "401873094",
+   "game_kind": "Regular season",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-12-01T01:15:00+00:00",
+   "weather": {
+    "indoor": false,
+    "temp": 72,
+    "wind": 8,
+    "gust": 19,
+    "rain": 12
+   },
+   "weather_text": "72\u00b0F, wind 8 mph",
+   "arena": "Raymond James Stadium",
+   "location": "Tampa, FL",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Panthers, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/3052587",
+   "recent": {
+    "cols": [
+     "C/ATT",
+     "YDS",
+     "TD",
+     "INT",
+     "RUSH"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 142.2 pass yds, 0.8 TD, 0.6 INT",
+     "games": [
+      {
+       "date": "2026-11-22",
+       "home": false,
+       "opp": "DET",
+       "result": "L",
+       "cells": [
+        "20/33",
+        "187",
+        "2",
+        "0",
+        "36"
+       ]
+      },
+      {
+       "date": "2026-11-08",
+       "home": false,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "18/32",
+        "243",
+        "0",
+        "2",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": true,
+       "opp": "ATL",
+       "result": "W",
+       "cells": [
+        "0/3",
+        "0",
+        "0",
+        "0",
+        "14"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "CAR",
+       "result": "W",
+       "cells": [
+        "7/11",
+        "64",
+        "1",
+        "0",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-09-27",
+       "home": true,
+       "opp": "MIN",
+       "result": "L",
+       "cells": [
+        "17/34",
+        "217",
+        "1",
+        "1",
+        "6"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "CAR",
+     "n": 5,
+     "text": "avg 201.2 pass yds, 1.8 TD, 0.8 INT",
+     "games": [
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "CAR",
+       "result": "W",
+       "cells": [
+        "7/11",
+        "64",
+        "1",
+        "0",
+        "1"
+       ]
+      },
+      {
+       "date": "2026-01-03",
+       "home": true,
+       "opp": "CAR",
+       "result": "W",
+       "cells": [
+        "16/22",
+        "203",
+        "1",
+        "1",
+        "31"
+       ]
+      },
+      {
+       "date": "2025-12-21",
+       "home": false,
+       "opp": "CAR",
+       "result": "L",
+       "cells": [
+        "18/26",
+        "145",
+        "1",
+        "1",
+        "49"
+       ]
+      },
+      {
+       "date": "2024-12-29",
+       "home": true,
+       "opp": "CAR",
+       "result": "W",
+       "cells": [
+        "27/32",
+        "359",
+        "5",
+        "0",
+        "2"
+       ]
+      },
+      {
+       "date": "2024-12-01",
+       "home": false,
+       "opp": "CAR",
+       "result": "W",
+       "cells": [
+        "21/33",
+        "235",
+        "1",
+        "2",
+        "8"
+       ]
+      }
+     ],
+     "note": "No games vs CAR in the last 8 seasons."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "pass_yds": "CAR gives up the 13th-most passing yards to quarterbacks (223.7 a game, 10 games).",
+     "pass_td": "CAR gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
+    },
+    "group": "QB",
+    "games": 10,
+    "stats": {
+     "pass_yds": {
+      "value": 223.7,
+      "rank": 13,
+      "of": 32,
+      "color": "yellow"
+     },
+     "pass_td": {
+      "value": 1.4,
+      "rank": 16,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "pass_yds": "PASS YDS",
+     "pass_td": "PASS TD"
+    },
+    "score": 56,
+    "grade": "C",
+    "color": "yellow",
+    "best": "pass_yds",
+    "note": "CAR gives up the 13th-most passing yards to quarterbacks (223.7 a game, 10 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Pass yds",
+      "proj": 173,
+      "lo": 0,
+      "hi": 262
+     },
+     {
+      "label": "Pass TD",
+      "proj": 0.9,
+      "lo": 0.0,
+      "hi": 2.0
+     },
+     {
+      "label": "Rush yds",
+      "proj": 17,
+      "lo": 0,
+      "hi": 37
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 0.97,
+    "opp_factor": 1.03,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Panthers.",
+     "detail": "Played for the Panthers in 2022 (7 games).",
+     "how_left": "Waived QB Baker Mayfield. (Dec 5, 2022)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2022-12-05"
+    }
+   ],
+   "headshot": "img/nfl/players/3052587.png",
+   "team_logo": "img/nfl/teams/TB.png",
+   "opponent_logo": "img/nfl/teams/CAR.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "CAR",
+   "home": "TB",
+   "tip": "8:15 PM ET",
+   "away_logo": "img/nfl/teams/CAR.png",
+   "home_logo": "img/nfl/teams/TB.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-24T14:30:47+00:00"
+}

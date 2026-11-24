@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-23T23:22:15Z",
+ "generated_at": "2026-11-24T14:21:42Z",
  "season": "2026-27",
  "games": 3,
  "entries": [
@@ -232,18 +232,18 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 11th-most points to guards (59.6 a game, 17 games).",
+     "pts": "DAL gives up the 10th-most points to guards (59.6 a game, 17 games).",
      "reb": "DAL gives up the 4th-most rebounds to guards (17.2 a game, 17 games).",
-     "ast": "DAL gives up the 4th-most assists to guards (17.2 a game, 17 games)."
+     "ast": "DAL gives up the 5th-most assists to guards (17.2 a game, 17 games)."
     },
     "group": "G",
     "games": 17,
     "stats": {
      "pts": {
       "value": 59.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
       "value": 17.2,
@@ -253,7 +253,7 @@
      },
      "ast": {
       "value": 17.2,
-      "rank": 4,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
@@ -443,18 +443,18 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 11th-most points to guards (59.6 a game, 17 games).",
+     "pts": "DAL gives up the 10th-most points to guards (59.6 a game, 17 games).",
      "reb": "DAL gives up the 4th-most rebounds to guards (17.2 a game, 17 games).",
-     "ast": "DAL gives up the 4th-most assists to guards (17.2 a game, 17 games)."
+     "ast": "DAL gives up the 5th-most assists to guards (17.2 a game, 17 games)."
     },
     "group": "G",
     "games": 17,
     "stats": {
      "pts": {
       "value": 59.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
       "value": 17.2,
@@ -464,7 +464,7 @@
      },
      "ast": {
       "value": 17.2,
-      "rank": 4,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
@@ -689,18 +689,18 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 11th-most points to guards (59.6 a game, 17 games).",
+     "pts": "DAL gives up the 10th-most points to guards (59.6 a game, 17 games).",
      "reb": "DAL gives up the 4th-most rebounds to guards (17.2 a game, 17 games).",
-     "ast": "DAL gives up the 4th-most assists to guards (17.2 a game, 17 games)."
+     "ast": "DAL gives up the 5th-most assists to guards (17.2 a game, 17 games)."
     },
     "group": "G",
     "games": 17,
     "stats": {
      "pts": {
       "value": 59.6,
-      "rank": 11,
+      "rank": 10,
       "of": 30,
-      "color": "yellow"
+      "color": "green"
      },
      "reb": {
       "value": 17.2,
@@ -710,7 +710,7 @@
      },
      "ast": {
       "value": 17.2,
-      "rank": 4,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
@@ -950,28 +950,28 @@
    "opponent_logo": "img/teams/DAL.png",
    "matchup": {
     "notes": {
-     "pts": "DAL gives up the 21st-most points to forwards (40.5 a game, 17 games).",
-     "reb": "DAL gives up the 19th-most rebounds to forwards (17.3 a game, 17 games).",
-     "ast": "DAL gives up the 23rd-most assists to forwards (7.4 a game, 17 games)."
+     "pts": "DAL gives up the 20th-most points to forwards (40.5 a game, 17 games).",
+     "reb": "DAL gives up the 18th-most rebounds to forwards (17.3 a game, 17 games).",
+     "ast": "DAL gives up the 25th-most assists to forwards (7.4 a game, 17 games)."
     },
     "group": "F",
     "games": 17,
     "stats": {
      "pts": {
       "value": 40.5,
-      "rank": 21,
+      "rank": 20,
       "of": 30,
-      "color": "red"
+      "color": "yellow"
      },
      "reb": {
       "value": 17.3,
-      "rank": 19,
+      "rank": 18,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 7.4,
-      "rank": 23,
+      "rank": 25,
       "of": 30,
       "color": "red"
      }
@@ -980,7 +980,7 @@
     "grade": "D",
     "color": "red",
     "best": "reb",
-    "note": "DAL gives up the 19th-most rebounds to forwards (17.3 a game, 17 games)."
+    "note": "DAL gives up the 18th-most rebounds to forwards (17.3 a game, 17 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1212,7 +1212,7 @@
     "notes": {
      "pts": "DET gives up the 8th-most points to forwards (45.2 a game, 16 games).",
      "reb": "DET gives up the 2nd-most rebounds to forwards (22.4 a game, 16 games).",
-     "ast": "DET gives up the 12th-most assists to forwards (8.2 a game, 16 games)."
+     "ast": "DET gives up the 13th-most assists to forwards (8.2 a game, 16 games)."
     },
     "group": "F",
     "games": 16,
@@ -1231,12 +1231,12 @@
      },
      "ast": {
       "value": 8.2,
-      "rank": 12,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 78,
+    "score": 77,
     "grade": "B",
     "color": "green",
     "best": "reb",
@@ -1327,10 +1327,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 15,
+    "gp": 16,
     "min": 26.1,
-    "pts": 11.4,
-    "reb": 7.6,
+    "pts": 11.7,
+    "reb": 7.4,
     "ast": 2.3
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4278562",
@@ -1732,16 +1732,16 @@
    "opponent_logo": "img/teams/BOS.png",
    "matchup": {
     "notes": {
-     "pts": "BOS gives up the 14th-most points to forwards (42.8 a game, 17 games).",
+     "pts": "BOS gives up the 12th-most points to forwards (42.8 a game, 17 games).",
      "reb": "BOS gives up the 2nd-most rebounds to forwards (22.4 a game, 17 games).",
-     "ast": "BOS gives up the 7th-most assists to forwards (8.7 a game, 17 games)."
+     "ast": "BOS gives up the 9th-most assists to forwards (8.7 a game, 17 games)."
     },
     "group": "F",
     "games": 17,
     "stats": {
      "pts": {
       "value": 42.8,
-      "rank": 14,
+      "rank": 12,
       "of": 30,
       "color": "yellow"
      },
@@ -1753,7 +1753,7 @@
      },
      "ast": {
       "value": 8.7,
-      "rank": 7,
+      "rank": 9,
       "of": 30,
       "color": "green"
      }
@@ -2018,37 +2018,37 @@
    "opponent_logo": "img/teams/WAS.png",
    "matchup": {
     "notes": {
-     "pts": "WAS gives up the 19th-most points to centers (13.6 a game, 18 games).",
-     "reb": "WAS gives up the 10th-most rebounds to centers (10.7 a game, 18 games).",
-     "ast": "WAS gives up the 20th-most assists to centers (2.8 a game, 18 games)."
+     "pts": "WAS gives up the 20th-most points to centers (13.6 a game, 18 games).",
+     "reb": "WAS gives up the 12th-most rebounds to centers (10.7 a game, 18 games).",
+     "ast": "WAS gives up the 19th-most assists to centers (2.8 a game, 18 games)."
     },
     "group": "C",
     "games": 18,
     "stats": {
      "pts": {
       "value": 13.6,
-      "rank": 19,
+      "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 10.7,
-      "rank": 10,
+      "rank": 12,
       "of": 30,
-      "color": "green"
+      "color": "yellow"
      },
      "ast": {
       "value": 2.8,
-      "rank": 20,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 47,
+    "score": 45,
     "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "WAS gives up the 10th-most rebounds to centers (10.7 a game, 18 games)."
+    "note": "WAS gives up the 12th-most rebounds to centers (10.7 a game, 18 games)."
    },
    "injury": null,
    "status_note": null,

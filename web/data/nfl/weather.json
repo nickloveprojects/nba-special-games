@@ -1,87 +1,1127 @@
 {
- "week": 11,
- "generated_at": "2026-11-23T23:22:33+00:00",
+ "week": 12,
+ "generated_at": "2026-11-24T14:30:48+00:00",
  "games": [
   {
-   "id": "401873078",
-   "date": "2026-11-23",
-   "away": "CIN",
-   "home": "WSH",
-   "away_logo": "img/nfl/teams/CIN.png",
-   "home_logo": "img/nfl/teams/WSH.png",
-   "tip": "8:15 PM ET",
-   "tip_utc": "2026-11-24T01:15:00+00:00",
-   "arena": "Northwest Stadium",
-   "location": "Landover, MD",
+   "id": "401873079",
+   "date": "2026-11-25",
+   "away": "GB",
+   "home": "LAR",
+   "away_logo": "img/nfl/teams/GB.png",
+   "home_logo": "img/nfl/teams/LAR.png",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-26T01:00:00+00:00",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "report": {
+    "indoor": true,
+    "roof": "canopy",
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873081",
+   "date": "2026-11-26",
+   "away": "CHI",
+   "home": "DET",
+   "away_logo": "img/nfl/teams/CHI.png",
+   "home_logo": "img/nfl/teams/DET.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-26T18:00:00+00:00",
+   "arena": "Ford Field",
+   "location": "Detroit, MI",
+   "report": {
+    "indoor": true,
+    "roof": "fixed",
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873080",
+   "date": "2026-11-26",
+   "away": "PHI",
+   "home": "DAL",
+   "away_logo": "img/nfl/teams/PHI.png",
+   "home_logo": "img/nfl/teams/DAL.png",
+   "tip": "4:30 PM ET",
+   "tip_utc": "2026-11-26T21:30:00+00:00",
+   "arena": "AT&T Stadium",
+   "location": "Arlington, TX",
+   "report": {
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-26T21:00Z",
+      "temp": 56,
+      "feels": 48,
+      "humidity": 25,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 8,
+      "dir": 346,
+      "dir_txt": "NNW",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-26T22:00Z",
+      "temp": 56,
+      "feels": 48,
+      "humidity": 27,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 8,
+      "dir": 352,
+      "dir_txt": "N",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-26T23:00Z",
+      "temp": 55,
+      "feels": 48,
+      "humidity": 29,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 8,
+      "dir": 348,
+      "dir_txt": "NNW",
+      "cloud": 0,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-27T00:00Z",
+      "temp": 54,
+      "feels": 48,
+      "humidity": 31,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 8,
+      "dir": 357,
+      "dir_txt": "N",
+      "cloud": 0,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873082",
+   "date": "2026-11-26",
+   "away": "KC",
+   "home": "BUF",
+   "away_logo": "img/nfl/teams/KC.png",
+   "home_logo": "img/nfl/teams/BUF.png",
+   "tip": "8:20 PM ET",
+   "tip_utc": "2026-11-27T01:20:00+00:00",
+   "arena": "Highmark Stadium",
+   "location": "Orchard Park, NY",
    "report": {
     "indoor": false,
     "roof": "open",
     "hours": [
      {
-      "utc": "2026-11-24T01:00Z",
-      "temp": 57,
-      "feels": 50,
-      "humidity": 50,
-      "rain": 8,
-      "precip_in": 0.0,
-      "wind": 11,
-      "gust": 23,
-      "dir": 334,
-      "dir_txt": "NNW",
+      "utc": "2026-11-27T01:00Z",
+      "temp": 36,
+      "feels": 26,
+      "humidity": 96,
+      "rain": 98,
+      "precip_in": 0.01,
+      "wind": 18,
+      "gust": 34,
+      "dir": 60,
+      "dir_txt": "ENE",
       "cloud": 100,
-      "cond": "Overcast"
+      "cond": "Light drizzle"
      },
      {
-      "utc": "2026-11-24T02:00Z",
-      "temp": 54,
-      "feels": 45,
-      "humidity": 47,
-      "rain": 6,
+      "utc": "2026-11-27T02:00Z",
+      "temp": 36,
+      "feels": 27,
+      "humidity": 97,
+      "rain": 98,
+      "precip_in": 0.01,
+      "wind": 15,
+      "gust": 30,
+      "dir": 55,
+      "dir_txt": "NE",
+      "cloud": 100,
+      "cond": "Light drizzle"
+     },
+     {
+      "utc": "2026-11-27T03:00Z",
+      "temp": 37,
+      "feels": 28,
+      "humidity": 97,
+      "rain": 98,
       "precip_in": 0.0,
       "wind": 14,
-      "gust": 26,
-      "dir": 330,
-      "dir_txt": "NNW",
+      "gust": 30,
+      "dir": 55,
+      "dir_txt": "NE",
       "cloud": 100,
-      "cond": "Overcast"
+      "cond": "Light drizzle"
      },
      {
-      "utc": "2026-11-24T03:00Z",
-      "temp": 52,
-      "feels": 44,
-      "humidity": 53,
-      "rain": 8,
-      "precip_in": 0.0,
-      "wind": 13,
-      "gust": 26,
-      "dir": 340,
-      "dir_txt": "NNW",
-      "cloud": 100,
-      "cond": "Overcast"
-     },
-     {
-      "utc": "2026-11-24T04:00Z",
-      "temp": 51,
-      "feels": 42,
-      "humidity": 56,
-      "rain": 5,
+      "utc": "2026-11-27T04:00Z",
+      "temp": 37,
+      "feels": 29,
+      "humidity": 97,
+      "rain": 98,
       "precip_in": 0.02,
-      "wind": 12,
-      "gust": 26,
-      "dir": 346,
-      "dir_txt": "NNW",
+      "wind": 13,
+      "gust": 28,
+      "dir": 57,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Drizzle"
+     }
+    ],
+    "effects": [
+     "Wind of 18 mph. In past games this much wind cut passing about 15%, and our projections trim passing and receiving yards.",
+     "Cold (36\u00b0F). Passing projections are trimmed slightly.",
+     "Wet conditions likely. This is not factored into projections: we found no reliable effect to measure."
+    ],
+    "impact": {
+     "pct": 12,
+     "level": "strong",
+     "drivers": [
+      "wind up to 18 mph",
+      "cold, down to 36\u00b0F",
+      "98% chance of precipitation (not scored)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873083",
+   "date": "2026-11-27",
+   "away": "DEN",
+   "home": "PIT",
+   "away_logo": "img/nfl/teams/DEN.png",
+   "home_logo": "img/nfl/teams/PIT.png",
+   "tip": "3:00 PM ET",
+   "tip_utc": "2026-11-27T20:00:00+00:00",
+   "arena": "Acrisure Stadium",
+   "location": "Pittsburgh, PA",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-27T20:00Z",
+      "temp": 36,
+      "feels": 27,
+      "humidity": 95,
+      "rain": 65,
+      "precip_in": 0.0,
+      "wind": 15,
+      "gust": 32,
+      "dir": 257,
+      "dir_txt": "WSW",
+      "cloud": 100,
+      "cond": "Light drizzle"
+     },
+     {
+      "utc": "2026-11-27T21:00Z",
+      "temp": 37,
+      "feels": 27,
+      "humidity": 96,
+      "rain": 65,
+      "precip_in": 0.0,
+      "wind": 15,
+      "gust": 32,
+      "dir": 259,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Light drizzle"
+     },
+     {
+      "utc": "2026-11-27T22:00Z",
+      "temp": 37,
+      "feels": 28,
+      "humidity": 96,
+      "rain": 65,
+      "precip_in": 0.0,
+      "wind": 15,
+      "gust": 32,
+      "dir": 259,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Fog"
+     },
+     {
+      "utc": "2026-11-27T23:00Z",
+      "temp": 37,
+      "feels": 28,
+      "humidity": 95,
+      "rain": 65,
+      "precip_in": 0.0,
+      "wind": 14,
+      "gust": 31,
+      "dir": 263,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Fog"
+     }
+    ],
+    "effects": [
+     "Wind of 15 mph. In past games this much wind cut passing about 15%, and our projections trim passing and receiving yards.",
+     "Cold (36\u00b0F). Passing projections are trimmed slightly.",
+     "Wet conditions likely. This is not factored into projections: we found no reliable effect to measure."
+    ],
+    "impact": {
+     "pct": 14,
+     "level": "strong",
+     "drivers": [
+      "wind up to 15 mph",
+      "cold, down to 36\u00b0F",
+      "65% chance of precipitation (not scored)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873087",
+   "date": "2026-11-29",
+   "away": "NO",
+   "home": "CIN",
+   "away_logo": "img/nfl/teams/NO.png",
+   "home_logo": "img/nfl/teams/CIN.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "Paycor Stadium",
+   "location": "Cincinnati, OH",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-29T18:00Z",
+      "temp": 55,
+      "feels": 49,
+      "humidity": 59,
+      "rain": 24,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 17,
+      "dir": 251,
+      "dir_txt": "WSW",
+      "cloud": 95,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T19:00Z",
+      "temp": 56,
+      "feels": 50,
+      "humidity": 58,
+      "rain": 22,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 16,
+      "dir": 257,
+      "dir_txt": "WSW",
+      "cloud": 97,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T20:00Z",
+      "temp": 56,
+      "feels": 50,
+      "humidity": 59,
+      "rain": 22,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 16,
+      "dir": 262,
+      "dir_txt": "W",
+      "cloud": 99,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 55,
+      "feels": 50,
+      "humidity": 62,
+      "rain": 22,
+      "precip_in": 0.0,
+      "wind": 7,
+      "gust": 15,
+      "dir": 264,
+      "dir_txt": "W",
       "cloud": 100,
       "cond": "Overcast"
      }
     ],
     "effects": [
-     "Breezy (11 mph). A small trim is applied to passing and receiving projections."
+     "Breezy (10 mph). A small trim is applied to passing and receiving projections."
+    ],
+    "impact": {
+     "pct": 2,
+     "level": "minor",
+     "drivers": [
+      "wind up to 10 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873088",
+   "date": "2026-11-29",
+   "away": "NYG",
+   "home": "IND",
+   "away_logo": "img/nfl/teams/NYG.png",
+   "home_logo": "img/nfl/teams/IND.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "Lucas Oil Stadium",
+   "location": "Indianapolis, IN",
+   "report": {
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-29T18:00Z",
+      "temp": 52,
+      "feels": 45,
+      "humidity": 65,
+      "rain": 27,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 17,
+      "dir": 263,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T19:00Z",
+      "temp": 53,
+      "feels": 46,
+      "humidity": 61,
+      "rain": 31,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 17,
+      "dir": 266,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T20:00Z",
+      "temp": 53,
+      "feels": 47,
+      "humidity": 58,
+      "rain": 31,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 17,
+      "dir": 269,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 53,
+      "feels": 47,
+      "humidity": 57,
+      "rain": 31,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 17,
+      "dir": 270,
+      "dir_txt": "W",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 9 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873089",
+   "date": "2026-11-29",
+   "away": "NYJ",
+   "home": "MIA",
+   "away_logo": "img/nfl/teams/NYJ.png",
+   "home_logo": "img/nfl/teams/MIA.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "Hard Rock Stadium",
+   "location": "Miami Gardens, FL",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-29T18:00Z",
+      "temp": 73,
+      "feels": 77,
+      "humidity": 87,
+      "rain": 28,
+      "precip_in": 0.03,
+      "wind": 8,
+      "gust": 12,
+      "dir": 74,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T19:00Z",
+      "temp": 74,
+      "feels": 78,
+      "humidity": 85,
+      "rain": 42,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 12,
+      "dir": 70,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T20:00Z",
+      "temp": 75,
+      "feels": 79,
+      "humidity": 81,
+      "rain": 42,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 12,
+      "dir": 70,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 76,
+      "feels": 80,
+      "humidity": 78,
+      "rain": 42,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 12,
+      "dir": 69,
+      "dir_txt": "ENE",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Breezy (8 mph). A small trim is applied to passing and receiving projections."
     ],
     "impact": {
      "pct": 3,
      "level": "minor",
      "drivers": [
-      "wind up to 14 mph"
+      "wind up to 10 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873084",
+   "date": "2026-11-29",
+   "away": "ATL",
+   "home": "MIN",
+   "away_logo": "img/nfl/teams/ATL.png",
+   "home_logo": "img/nfl/teams/MIN.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "U.S. Bank Stadium",
+   "location": "Minneapolis, MN",
+   "report": {
+    "indoor": true,
+    "roof": "fixed",
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873090",
+   "date": "2026-11-29",
+   "away": "TEN",
+   "home": "JAX",
+   "away_logo": "img/nfl/teams/TEN.png",
+   "home_logo": "img/nfl/teams/JAX.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "EverBank Stadium",
+   "location": "Jacksonville, FL",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-29T18:00Z",
+      "temp": 70,
+      "feels": 65,
+      "humidity": 27,
+      "rain": 5,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 4,
+      "dir": 145,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T19:00Z",
+      "temp": 69,
+      "feels": 64,
+      "humidity": 28,
+      "rain": 13,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 4,
+      "dir": 141,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T20:00Z",
+      "temp": 66,
+      "feels": 62,
+      "humidity": 32,
+      "rain": 13,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 4,
+      "dir": 133,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 64,
+      "feels": 60,
+      "humidity": 36,
+      "rain": 13,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 4,
+      "dir": 124,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "No weather concerns. Nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873085",
+   "date": "2026-11-29",
+   "away": "BAL",
+   "home": "HOU",
+   "away_logo": "img/nfl/teams/BAL.png",
+   "home_logo": "img/nfl/teams/HOU.png",
+   "tip": "1:00 PM ET",
+   "tip_utc": "2026-11-29T18:00:00+00:00",
+   "arena": "Reliant Stadium",
+   "location": "Houston, TX",
+   "report": {
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-29T18:00Z",
+      "temp": 77,
+      "feels": 78,
+      "humidity": 63,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 11,
+      "dir": 147,
+      "dir_txt": "SSE",
+      "cloud": 94,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T19:00Z",
+      "temp": 77,
+      "feels": 78,
+      "humidity": 62,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 11,
+      "dir": 144,
+      "dir_txt": "SE",
+      "cloud": 95,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T20:00Z",
+      "temp": 76,
+      "feels": 78,
+      "humidity": 64,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 9,
+      "gust": 10,
+      "dir": 138,
+      "dir_txt": "SE",
+      "cloud": 98,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 76,
+      "feels": 77,
+      "humidity": 67,
+      "rain": 1,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 10,
+      "dir": 132,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 9 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873093",
+   "date": "2026-11-29",
+   "away": "NE",
+   "home": "LAC",
+   "away_logo": "img/nfl/teams/NE.png",
+   "home_logo": "img/nfl/teams/LAC.png",
+   "tip": "4:05 PM ET",
+   "tip_utc": "2026-11-29T21:05:00+00:00",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "report": {
+    "indoor": true,
+    "roof": "canopy",
+    "hours": [],
+    "effects": [],
+    "impact": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873092",
+   "date": "2026-11-29",
+   "away": "WSH",
+   "home": "ARI",
+   "away_logo": "img/nfl/teams/WSH.png",
+   "home_logo": "img/nfl/teams/ARI.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-29T21:25:00+00:00",
+   "arena": "State Farm Stadium",
+   "location": "Glendale, AZ",
+   "report": {
+    "indoor": false,
+    "roof": "retractable",
+    "hours": [
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 74,
+      "feels": 67,
+      "humidity": 17,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 4,
+      "gust": 3,
+      "dir": 128,
+      "dir_txt": "SE",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T22:00Z",
+      "temp": 74,
+      "feels": 68,
+      "humidity": 17,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 3,
+      "dir": 135,
+      "dir_txt": "SE",
+      "cloud": 83,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-11-29T23:00Z",
+      "temp": 74,
+      "feels": 68,
+      "humidity": 17,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 3,
+      "dir": 144,
+      "dir_txt": "SE",
+      "cloud": 55,
+      "cond": "Partly cloudy"
+     },
+     {
+      "utc": "2026-11-30T00:00Z",
+      "temp": 74,
+      "feels": 68,
+      "humidity": 17,
+      "rain": 0,
+      "precip_in": 0.0,
+      "wind": 3,
+      "gust": 3,
+      "dir": 160,
+      "dir_txt": "SSE",
+      "cloud": 35,
+      "cond": "Mostly clear"
+     }
+    ],
+    "effects": [
+     "Retractable roof. The home team decides whether to open it close to kickoff, and it is not announced ahead of time. These readings are what the weather is outside; nothing is adjusted in the projections."
+    ],
+    "impact": {
+     "pct": 0,
+     "level": "roof",
+     "drivers": []
+    },
+    "if_open": {
+     "pct": 0,
+     "level": "none",
+     "drivers": []
+    }
+   }
+  },
+  {
+   "id": "401873091",
+   "date": "2026-11-29",
+   "away": "SEA",
+   "home": "SF",
+   "away_logo": "img/nfl/teams/SEA.png",
+   "home_logo": "img/nfl/teams/SF.png",
+   "tip": "4:25 PM ET",
+   "tip_utc": "2026-11-29T21:25:00+00:00",
+   "arena": "Levi's Stadium",
+   "location": "Santa Clara, CA",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-29T21:00Z",
+      "temp": 64,
+      "feels": 60,
+      "humidity": 67,
+      "rain": 72,
+      "precip_in": 0.04,
+      "wind": 13,
+      "gust": 22,
+      "dir": 243,
+      "dir_txt": "WSW",
+      "cloud": 69,
+      "cond": "Drizzle"
+     },
+     {
+      "utc": "2026-11-29T22:00Z",
+      "temp": 64,
+      "feels": 59,
+      "humidity": 67,
+      "rain": 72,
+      "precip_in": 0.0,
+      "wind": 12,
+      "gust": 21,
+      "dir": 244,
+      "dir_txt": "WSW",
+      "cloud": 59,
+      "cond": "Partly cloudy"
+     },
+     {
+      "utc": "2026-11-29T23:00Z",
+      "temp": 63,
+      "feels": 59,
+      "humidity": 68,
+      "rain": 72,
+      "precip_in": 0.0,
+      "wind": 10,
+      "gust": 18,
+      "dir": 243,
+      "dir_txt": "WSW",
+      "cloud": 39,
+      "cond": "Mostly clear"
+     },
+     {
+      "utc": "2026-11-30T00:00Z",
+      "temp": 62,
+      "feels": 58,
+      "humidity": 69,
+      "rain": 72,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 17,
+      "dir": 238,
+      "dir_txt": "WSW",
+      "cloud": 23,
+      "cond": "Mostly clear"
+     }
+    ],
+    "effects": [
+     "Breezy (13 mph). A small trim is applied to passing and receiving projections.",
+     "Wet conditions likely. This is not factored into projections: we found no reliable effect to measure."
+    ],
+    "impact": {
+     "pct": 3,
+     "level": "minor",
+     "drivers": [
+      "wind up to 13 mph",
+      "72% chance of precipitation (not scored)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873086",
+   "date": "2026-11-29",
+   "away": "LV",
+   "home": "CLE",
+   "away_logo": "img/nfl/teams/LV.png",
+   "home_logo": "img/nfl/teams/CLE.png",
+   "tip": "8:20 PM ET",
+   "tip_utc": "2026-11-30T01:20:00+00:00",
+   "arena": "Huntington Bank Field",
+   "location": "Cleveland, OH",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-11-30T01:00Z",
+      "temp": 48,
+      "feels": 39,
+      "humidity": 67,
+      "rain": 35,
+      "precip_in": 0.0,
+      "wind": 16,
+      "gust": 26,
+      "dir": 259,
+      "dir_txt": "W",
+      "cloud": 64,
+      "cond": "Partly cloudy"
+     },
+     {
+      "utc": "2026-11-30T02:00Z",
+      "temp": 48,
+      "feels": 38,
+      "humidity": 66,
+      "rain": 35,
+      "precip_in": 0.0,
+      "wind": 16,
+      "gust": 25,
+      "dir": 266,
+      "dir_txt": "W",
+      "cloud": 31,
+      "cond": "Mostly clear"
+     },
+     {
+      "utc": "2026-11-30T03:00Z",
+      "temp": 47,
+      "feels": 37,
+      "humidity": 66,
+      "rain": 35,
+      "precip_in": 0.0,
+      "wind": 15,
+      "gust": 23,
+      "dir": 269,
+      "dir_txt": "W",
+      "cloud": 6,
+      "cond": "Clear"
+     },
+     {
+      "utc": "2026-11-30T04:00Z",
+      "temp": 45,
+      "feels": 37,
+      "humidity": 69,
+      "rain": 35,
+      "precip_in": 0.0,
+      "wind": 13,
+      "gust": 22,
+      "dir": 263,
+      "dir_txt": "W",
+      "cloud": 0,
+      "cond": "Clear"
+     }
+    ],
+    "effects": [
+     "Wind of 16 mph. In past games this much wind cut passing about 15%, and our projections trim passing and receiving yards."
+    ],
+    "impact": {
+     "pct": 10,
+     "level": "moderate",
+     "drivers": [
+      "wind up to 16 mph"
+     ]
+    }
+   }
+  },
+  {
+   "id": "401873094",
+   "date": "2026-11-30",
+   "away": "CAR",
+   "home": "TB",
+   "away_logo": "img/nfl/teams/CAR.png",
+   "home_logo": "img/nfl/teams/TB.png",
+   "tip": "8:15 PM ET",
+   "tip_utc": "2026-12-01T01:15:00+00:00",
+   "arena": "Raymond James Stadium",
+   "location": "Tampa, FL",
+   "report": {
+    "indoor": false,
+    "roof": "open",
+    "hours": [
+     {
+      "utc": "2026-12-01T01:00Z",
+      "temp": 72,
+      "feels": 77,
+      "humidity": 95,
+      "rain": 12,
+      "precip_in": 0.0,
+      "wind": 8,
+      "gust": 19,
+      "dir": 198,
+      "dir_txt": "SSW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-12-01T02:00Z",
+      "temp": 72,
+      "feels": 78,
+      "humidity": 95,
+      "rain": 12,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 15,
+      "dir": 221,
+      "dir_txt": "SW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-12-01T03:00Z",
+      "temp": 72,
+      "feels": 77,
+      "humidity": 95,
+      "rain": 12,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 12,
+      "dir": 242,
+      "dir_txt": "WSW",
+      "cloud": 100,
+      "cond": "Overcast"
+     },
+     {
+      "utc": "2026-12-01T04:00Z",
+      "temp": 71,
+      "feels": 76,
+      "humidity": 96,
+      "rain": 12,
+      "precip_in": 0.0,
+      "wind": 6,
+      "gust": 11,
+      "dir": 246,
+      "dir_txt": "WSW",
+      "cloud": 99,
+      "cond": "Overcast"
+     }
+    ],
+    "effects": [
+     "Breezy (8 mph). A small trim is applied to passing and receiving projections."
+    ],
+    "impact": {
+     "pct": 1,
+     "level": "minor",
+     "drivers": [
+      "wind up to 8 mph"
      ]
     }
    }

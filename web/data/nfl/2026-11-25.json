@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-25",
+ "sport": "nfl",
+ "week": 12,
+ "games": 1,
+ "entries": [
+  {
+   "player_id": 16339,
+   "name": "Brandon McManus",
+   "team": "LAR",
+   "team_name": "Rams",
+   "team_color": "#003594",
+   "team_alt": "#ffd100",
+   "opponent": "GB",
+   "opponent_name": "Packers",
+   "opponent_color": "#204e32",
+   "position": "K",
+   "jersey": "19",
+   "home_away": "home",
+   "game_id": "401873079",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-26T01:00:00+00:00",
+   "weather": {
+    "indoor": true,
+    "roof": "canopy"
+   },
+   "weather_text": "Covered, open sides: not adjusted",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "categories": [
+    "Revenge"
+   ],
+   "summary": "Faces the Packers, who released him.",
+   "score": 4.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/16339",
+   "recent": {
+    "cols": [
+     "FG",
+     "XP"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 1 FG, 3.4 XP",
+     "games": [
+      {
+       "date": "2026-11-15",
+       "home": false,
+       "opp": "ARI",
+       "result": "W",
+       "cells": [
+        "2/2",
+        "4/4"
+       ]
+      },
+      {
+       "date": "2026-11-08",
+       "home": false,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "2/2",
+        "2/2"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "3/3"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "0/0",
+        "5/5"
+       ]
+      },
+      {
+       "date": "2026-01-10",
+       "home": false,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "0/2",
+        "3/4"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "GB",
+     "n": 1,
+     "text": "avg 1 FG, 1 XP",
+     "games": [
+      {
+       "date": "2019-09-22",
+       "home": false,
+       "opp": "GB",
+       "result": "L",
+       "cells": [
+        "1/1",
+        "1/2"
+       ]
+      }
+     ],
+     "note": "No games vs GB in the last 8 seasons."
+    }
+   },
+   "matchup": null,
+   "career": [],
+   "projection": null,
+   "tags": [
+    {
+     "category": "Revenge",
+     "kind": "waived",
+     "confidence": "high",
+     "headline": "Released by the Packers.",
+     "detail": "Played for the Packers from 2024 to 2025 (27 games).",
+     "how_left": "Released K Brandon McManus with a post-June 1 designation. (May 8, 2026)",
+     "sources": [
+      {
+       "label": "ESPN transactions",
+       "url": "https://www.espn.com/nfl/transactions"
+      }
+     ],
+     "when": "2026-05-08"
+    }
+   ],
+   "headshot": "img/nfl/players/16339.png",
+   "team_logo": "img/nfl/teams/LAR.png",
+   "opponent_logo": "img/nfl/teams/GB.png"
+  },
+  {
+   "player_id": 4429096,
+   "name": "Blake Corum",
+   "team": "LAR",
+   "team_name": "Rams",
+   "team_color": "#003594",
+   "team_alt": "#ffd100",
+   "opponent": "GB",
+   "opponent_name": "Packers",
+   "opponent_color": "#204e32",
+   "position": "RB",
+   "jersey": "24",
+   "home_away": "home",
+   "game_id": "401873079",
+   "game_kind": "Regular season",
+   "tip": "8:00 PM ET",
+   "tip_utc": "2026-11-26T01:00:00+00:00",
+   "weather": {
+    "indoor": true,
+    "roof": "canopy"
+   },
+   "weather_text": "Covered, open sides: not adjusted",
+   "arena": "SoFi Stadium",
+   "location": "Inglewood, CA",
+   "categories": [
+    "Birthday"
+   ],
+   "summary": "Birthday game.",
+   "score": 1.0,
+   "stats": {},
+   "status_note": "",
+   "espn_url": "https://www.espn.com/nfl/player/_/id/4429096",
+   "recent": {
+    "cols": [
+     "ATT",
+     "YDS",
+     "TD",
+     "REC",
+     "REC YDS"
+    ],
+    "form": {
+     "n": 5,
+     "text": "avg 73.2 rush yds, 1 TD, 1.2 rec",
+     "games": [
+      {
+       "date": "2026-11-15",
+       "home": false,
+       "opp": "ARI",
+       "result": "W",
+       "cells": [
+        "17",
+        "100",
+        "1",
+        "3",
+        "19"
+       ]
+      },
+      {
+       "date": "2026-11-08",
+       "home": false,
+       "opp": "WSH",
+       "result": "W",
+       "cells": [
+        "11",
+        "58",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-11-01",
+       "home": true,
+       "opp": "LAC",
+       "result": "W",
+       "cells": [
+        "11",
+        "73",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
+       "date": "2026-10-25",
+       "home": false,
+       "opp": "LV",
+       "result": "W",
+       "cells": [
+        "17",
+        "93",
+        "1",
+        "1",
+        "8"
+       ]
+      },
+      {
+       "date": "2026-10-18",
+       "home": true,
+       "opp": "ARI",
+       "result": "L",
+       "cells": [
+        "9",
+        "42",
+        "1",
+        "2",
+        "18"
+       ]
+      }
+     ]
+    },
+    "vs": {
+     "opp": "GB",
+     "n": 1,
+     "text": "avg 25 rush yds, 0 TD, 1 rec",
+     "games": [
+      {
+       "date": "2024-10-06",
+       "home": true,
+       "opp": "GB",
+       "result": "L",
+       "cells": [
+        "5",
+        "25",
+        "0",
+        "1",
+        "8"
+       ]
+      }
+     ],
+     "note": "No games vs GB in his NFL career so far."
+    }
+   },
+   "matchup": {
+    "notes": {
+     "rush_yds": "GB gives up the 16th-most rushing yards to running backs (89.5 a game, 10 games).",
+     "rec_yds": "GB gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
+    },
+    "group": "RB",
+    "games": 10,
+    "stats": {
+     "rush_yds": {
+      "value": 89.5,
+      "rank": 16,
+      "of": 32,
+      "color": "yellow"
+     },
+     "rec_yds": {
+      "value": 31.4,
+      "rank": 15,
+      "of": 32,
+      "color": "yellow"
+     }
+    },
+    "labels": {
+     "rush_yds": "RUSH YDS",
+     "rec_yds": "REC YDS"
+    },
+    "score": 53,
+    "grade": "C",
+    "color": "yellow",
+    "best": "rec_yds",
+    "note": "GB gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
+   },
+   "career": [],
+   "projection": {
+    "lines": [
+     {
+      "label": "Rush yds",
+      "proj": 57,
+      "lo": 4,
+      "hi": 109
+     },
+     {
+      "label": "Rec",
+      "proj": 1.6,
+      "lo": 0.0,
+      "hi": 3.5
+     },
+     {
+      "label": "Rec yds",
+      "proj": 14,
+      "lo": 0,
+      "hi": 69
+     }
+    ],
+    "games_used": 10,
+    "sims": 1000,
+    "weather_factor": 1.0,
+    "opp_factor": 1.02,
+    "locked": false
+   },
+   "tags": [
+    {
+     "category": "Birthday",
+     "kind": "birthday",
+     "confidence": "high",
+     "headline": "Birthday game.",
+     "detail": "Turns 26 today.",
+     "sources": []
+    }
+   ],
+   "headshot": "img/nfl/players/4429096.png",
+   "team_logo": "img/nfl/teams/LAR.png",
+   "opponent_logo": "img/nfl/teams/GB.png"
+  }
+ ],
+ "matchups": [
+  {
+   "away": "GB",
+   "home": "LAR",
+   "tip": "8:00 PM ET",
+   "away_logo": "img/nfl/teams/GB.png",
+   "home_logo": "img/nfl/teams/LAR.png"
+  }
+ ],
+ "warnings": [],
+ "generated_at": "2026-11-24T14:25:38+00:00"
+}
