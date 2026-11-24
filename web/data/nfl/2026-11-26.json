@@ -2351,9 +2351,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -2847,9 +2847,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -3597,9 +3597,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -5168,9 +5168,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -6847,9 +6847,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -7554,9 +7554,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8049,9 +8049,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8325,9 +8325,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10320,9 +10320,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10579,9 +10579,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10855,9 +10855,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11042,9 +11042,9 @@
     "temp": 36,
     "wind": 18,
     "gust": 34,
-    "rain": 98
+    "rain": 96
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 98% rain",
+   "weather_text": "36\u00b0F, wind 18 mph, 96% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11280,5 +11280,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-24T14:29:20+00:00"
+ "generated_at": "2026-11-24T14:59:00+00:00"
 }

@@ -26,9 +26,9 @@
     "temp": 36,
     "wind": 15,
     "gust": 32,
-    "rain": 65
+    "rain": 58
    },
-   "weather_text": "36\u00b0F, wind 15 mph, 65% rain",
+   "weather_text": "36\u00b0F, wind 15 mph, 58% rain",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -137,5 +137,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-24T14:29:21+00:00"
+ "generated_at": "2026-11-24T14:59:00+00:00"
 }
