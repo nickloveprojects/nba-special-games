@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-24T14:54:58Z",
+ "generated_at": "2026-11-24T22:46:29Z",
  "season": "2026-27",
  "games": 9,
  "entries": [
@@ -2742,8 +2742,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.",
-    "date": "2026-11-22T18:05Z"
+    "note": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
+    "date": "2026-11-24T21:56Z"
    },
    "status_note": "Out",
    "career": [
@@ -4027,12 +4027,8 @@
     "best": "ast",
     "note": "CHI gives up the 3rd-most assists to forwards (9.3 a game, 17 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-    "date": "2026-11-24T04:32Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [
     {
      "kind": "hometown",
@@ -5213,8 +5209,12 @@
     "best": "reb",
     "note": "CLE gives up the 3rd-most rebounds to centers (12.4 a game, 18 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
+    "date": "2026-11-24T21:50Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
