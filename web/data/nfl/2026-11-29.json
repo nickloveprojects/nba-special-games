@@ -25,8 +25,8 @@
     "indoor": false,
     "temp": 78,
     "wind": 9,
-    "gust": 10,
-    "rain": 14
+    "gust": 11,
+    "rain": 16
    },
    "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
@@ -164,8 +164,8 @@
     "indoor": false,
     "temp": 78,
     "wind": 9,
-    "gust": 10,
-    "rain": 14
+    "gust": 11,
+    "rain": 16
    },
    "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
@@ -589,8 +589,8 @@
     "indoor": false,
     "temp": 78,
     "wind": 9,
-    "gust": 10,
-    "rain": 14
+    "gust": 11,
+    "rain": 16
    },
    "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
@@ -818,12 +818,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 61,
+    "temp": 69,
     "wind": 5,
-    "gust": 15,
+    "gust": 9,
     "rain": 2
    },
-   "weather_text": "61\u00b0F, wind 5 mph",
+   "weather_text": "69\u00b0F, wind 5 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -1227,12 +1227,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
-    "wind": 11,
+    "temp": 66,
+    "wind": 12,
     "gust": 23,
-    "rain": 63
+    "rain": 59
    },
-   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
+   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2041,12 +2041,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 51,
-    "wind": 9,
-    "gust": 37,
-    "rain": 37
+    "temp": 54,
+    "wind": 12,
+    "gust": 34,
+    "rain": 56
    },
-   "weather_text": "51\u00b0F, wind 9 mph, 37% rain",
+   "weather_text": "54\u00b0F, wind 12 mph, 56% rain",
    "arena": "Paycor Stadium",
    "location": "Cincinnati, OH",
    "categories": [
@@ -2251,12 +2251,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
-    "wind": 11,
+    "temp": 66,
+    "wind": 12,
     "gust": 23,
-    "rain": 63
+    "rain": 59
    },
-   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
+   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2942,12 +2942,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
-    "wind": 11,
+    "temp": 66,
+    "wind": 12,
     "gust": 23,
-    "rain": 63
+    "rain": 59
    },
-   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
+   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -3205,5 +3205,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-25T14:27:23+00:00"
+ "generated_at": "2026-11-25T22:47:25+00:00"
 }

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-25T14:26:13Z",
+ "generated_at": "2026-11-25T22:46:24Z",
  "season": "2026-27",
  "games": 11,
  "entries": [
@@ -2229,11 +2229,11 @@
    ],
    "score": 18,
    "stats": {
-    "gp": 12,
-    "min": 18.3,
+    "gp": 13,
+    "min": 18.5,
     "pts": 10.6,
     "reb": 3.3,
-    "ast": 0.9
+    "ast": 0.8
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4432810",
    "recent": {
@@ -4379,9 +4379,9 @@
    ],
    "score": 13.88,
    "stats": {
-    "gp": 14,
-    "min": 13.9,
-    "pts": 4.6,
+    "gp": 15,
+    "min": 13.7,
+    "pts": 4.8,
     "reb": 1.9,
     "ast": 0.5
    },
@@ -6548,8 +6548,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
-    "date": "2026-11-24T21:50Z"
+    "note": "Towns (knee) is probable for Wednesday's game against Cleveland.",
+    "date": "2026-11-25T17:54Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -7856,11 +7856,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 16,
-    "min": 29.7,
-    "pts": 20.6,
+    "gp": 17,
+    "min": 29.6,
+    "pts": 20.4,
     "reb": 3.2,
-    "ast": 4.0
+    "ast": 4.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/6606",
    "recent": {
@@ -8100,7 +8100,13 @@
     }
    ],
    "score": 10,
-   "stats": null,
+   "stats": {
+    "gp": 1,
+    "min": 1.0,
+    "pts": 0.0,
+    "reb": 0.0,
+    "ast": 0.0
+   },
    "espn_url": "https://www.espn.com/nba/player/_/id/4433618",
    "recent": {
     "form": {
