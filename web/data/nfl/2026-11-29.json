@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 76,
+    "temp": 78,
     "wind": 9,
-    "gust": 13,
-    "rain": 30
+    "gust": 10,
+    "rain": 14
    },
-   "weather_text": "76\u00b0F, wind 9 mph, 30% rain",
+   "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -162,12 +162,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 76,
+    "temp": 78,
     "wind": 9,
-    "gust": 13,
-    "rain": 30
+    "gust": 10,
+    "rain": 14
    },
-   "weather_text": "76\u00b0F, wind 9 mph, 30% rain",
+   "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -328,7 +328,7 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 187,
+      "proj": 188,
       "lo": 120,
       "hi": 280
      },
@@ -498,7 +498,7 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "LAC gives up the 21st-most receiving yards to receivers (122.2 a game, 10 games).",
+     "rec_yds": "LAC gives up the 20th-most receiving yards to receivers (122.2 a game, 10 games).",
      "rec": "LAC gives up the 23rd-most catches to receivers (8.4 a game, 10 games)."
     },
     "group": "WR",
@@ -506,7 +506,7 @@
     "stats": {
      "rec_yds": {
       "value": 122.2,
-      "rank": 21,
+      "rank": 20,
       "of": 32,
       "color": "yellow"
      },
@@ -521,11 +521,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 32,
+    "score": 34,
     "grade": "D",
-    "color": "red",
+    "color": "yellow",
     "best": "rec_yds",
-    "note": "LAC gives up the 21st-most receiving yards to receivers (122.2 a game, 10 games)."
+    "note": "LAC gives up the 20th-most receiving yards to receivers (122.2 a game, 10 games)."
    },
    "career": [],
    "projection": {
@@ -587,12 +587,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 76,
+    "temp": 78,
     "wind": 9,
-    "gust": 13,
-    "rain": 30
+    "gust": 10,
+    "rain": 14
    },
-   "weather_text": "76\u00b0F, wind 9 mph, 30% rain",
+   "weather_text": "78\u00b0F, wind 9 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -818,12 +818,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 69,
-    "wind": 1,
-    "gust": 1,
-    "rain": 4
+    "temp": 61,
+    "wind": 5,
+    "gust": 15,
+    "rain": 2
    },
-   "weather_text": "69\u00b0F, wind 1 mph",
+   "weather_text": "61\u00b0F, wind 5 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -954,21 +954,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "JAX gives up the 13th-most receiving yards to receivers (139.3 a game, 10 games).",
-     "rec": "JAX gives up the 10th-most catches to receivers (10.9 a game, 10 games)."
+     "rec_yds": "JAX gives up the 13th-most receiving yards to receivers (137.9 a game, 10 games).",
+     "rec": "JAX gives up the 11th-most catches to receivers (10.8 a game, 10 games)."
     },
     "group": "WR",
     "games": 10,
     "stats": {
      "rec_yds": {
-      "value": 139.3,
+      "value": 137.9,
       "rank": 13,
       "of": 32,
       "color": "yellow"
      },
      "rec": {
-      "value": 10.9,
-      "rank": 10,
+      "value": 10.8,
+      "rank": 11,
       "of": 32,
       "color": "green"
      }
@@ -977,11 +977,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 66,
+    "score": 65,
     "grade": "B",
     "color": "yellow",
     "best": "rec",
-    "note": "JAX gives up the 10th-most catches to receivers (10.9 a game, 10 games)."
+    "note": "JAX gives up the 11th-most catches to receivers (10.8 a game, 10 games)."
    },
    "career": [],
    "projection": {
@@ -996,13 +996,13 @@
       "label": "Rec yds",
       "proj": 20,
       "lo": 0,
-      "hi": 80
+      "hi": 79
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.05,
+    "opp_factor": 1.04,
     "locked": false
    },
    "tags": [
@@ -1227,12 +1227,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 64,
     "wind": 11,
-    "gust": 17,
-    "rain": 59
+    "gust": 23,
+    "rain": 63
    },
-   "weather_text": "66\u00b0F, wind 11 mph, 59% rain",
+   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2041,12 +2041,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 55,
+    "temp": 51,
     "wind": 9,
-    "gust": 15,
-    "rain": 23
+    "gust": 37,
+    "rain": 37
    },
-   "weather_text": "55\u00b0F, wind 9 mph",
+   "weather_text": "51\u00b0F, wind 9 mph, 37% rain",
    "arena": "Paycor Stadium",
    "location": "Cincinnati, OH",
    "categories": [
@@ -2251,12 +2251,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 64,
     "wind": 11,
-    "gust": 17,
-    "rain": 59
+    "gust": 23,
+    "rain": 63
    },
-   "weather_text": "66\u00b0F, wind 11 mph, 59% rain",
+   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2422,7 +2422,7 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "SF gives up the 15th-most passing yards to quarterbacks (219.3 a game, 10 games).",
+     "pass_yds": "SF gives up the 13th-most passing yards to quarterbacks (219.3 a game, 10 games).",
      "pass_td": "SF gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
     },
     "group": "QB",
@@ -2430,7 +2430,7 @@
     "stats": {
      "pass_yds": {
       "value": 219.3,
-      "rank": 15,
+      "rank": 13,
       "of": 32,
       "color": "yellow"
      },
@@ -2445,7 +2445,7 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 63,
+    "score": 66,
     "grade": "B",
     "color": "yellow",
     "best": "pass_td",
@@ -2898,7 +2898,7 @@
      },
      {
       "label": "Rec yds",
-      "proj": 53,
+      "proj": 54,
       "lo": 34,
       "hi": 99
      }
@@ -2942,12 +2942,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 64,
     "wind": 11,
-    "gust": 17,
-    "rain": 59
+    "gust": 23,
+    "rain": 63
    },
-   "weather_text": "66\u00b0F, wind 11 mph, 59% rain",
+   "weather_text": "64\u00b0F, wind 11 mph, 63% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -3205,5 +3205,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-24T22:47:32+00:00"
+ "generated_at": "2026-11-25T14:27:23+00:00"
 }

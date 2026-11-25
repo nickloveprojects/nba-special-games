@@ -646,7 +646,7 @@
       "label": "Rec yds",
       "proj": 29,
       "lo": 0,
-      "hi": 112
+      "hi": 113
      }
     ],
     "games_used": 10,
@@ -2024,9 +2024,9 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 265,
+      "proj": 266,
       "lo": 174,
-      "hi": 342
+      "hi": 343
      },
      {
       "label": "Pass TD",
@@ -2297,7 +2297,7 @@
       "label": "Rec yds",
       "proj": 114,
       "lo": 50,
-      "hi": 235
+      "hi": 236
      }
     ],
     "games_used": 10,
@@ -2348,12 +2348,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -2472,21 +2472,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "KC gives up the 29th-most receiving yards to receivers (100.2 a game, 10 games).",
-     "rec": "KC gives up the 29th-most catches to receivers (8 a game, 10 games)."
+     "rec_yds": "KC gives up the 29th-most receiving yards to receivers (98.1 a game, 10 games).",
+     "rec": "KC gives up the 30th-most catches to receivers (7.8 a game, 10 games)."
     },
     "group": "WR",
     "games": 10,
     "stats": {
      "rec_yds": {
-      "value": 100.2,
+      "value": 98.1,
       "rank": 29,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 8.0,
-      "rank": 29,
+      "value": 7.8,
+      "rank": 30,
       "of": 32,
       "color": "red"
      }
@@ -2495,11 +2495,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 8,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "KC gives up the 29th-most receiving yards to receivers (100.2 a game, 10 games)."
+    "note": "KC gives up the 29th-most receiving yards to receivers (98.1 a game, 10 games)."
    },
    "career": [
     {
@@ -2526,7 +2526,7 @@
     "games_used": 8,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 0.9,
+    "opp_factor": 0.89,
     "locked": false
    },
    "tags": [
@@ -2779,9 +2779,9 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 305,
+      "proj": 306,
       "lo": 181,
-      "hi": 376
+      "hi": 377
      },
      {
       "label": "Pass TD",
@@ -2844,12 +2844,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -3541,7 +3541,7 @@
      },
      {
       "label": "Rec yds",
-      "proj": 91,
+      "proj": 92,
       "lo": 41,
       "hi": 170
      }
@@ -3594,12 +3594,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -4920,7 +4920,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "Doubtful",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4242355",
    "recent": {
     "cols": [
@@ -5102,27 +5102,7 @@
      "scope": "since 2022"
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Rec",
-      "proj": 1.8,
-      "lo": 0.0,
-      "hi": 2.9
-     },
-     {
-      "label": "Rec yds",
-      "proj": 15,
-      "lo": 0,
-      "hi": 29
-     }
-    ],
-    "games_used": 10,
-    "sims": 1000,
-    "weather_factor": 1.0,
-    "opp_factor": 0.95,
-    "locked": false
-   },
+   "projection": null,
    "tags": [
     {
      "category": "Holiday",
@@ -5165,12 +5145,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -6040,7 +6020,7 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "CHI gives up the 16th-most passing yards to quarterbacks (218.9 a game, 10 games).",
+     "pass_yds": "CHI gives up the 14th-most passing yards to quarterbacks (218.9 a game, 10 games).",
      "pass_td": "CHI gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
     },
     "group": "QB",
@@ -6048,7 +6028,7 @@
     "stats": {
      "pass_yds": {
       "value": 218.9,
-      "rank": 16,
+      "rank": 14,
       "of": 32,
       "color": "yellow"
      },
@@ -6063,11 +6043,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 52,
+    "score": 55,
     "grade": "C",
     "color": "yellow",
     "best": "pass_yds",
-    "note": "CHI gives up the 16th-most passing yards to quarterbacks (218.9 a game, 10 games)."
+    "note": "CHI gives up the 14th-most passing yards to quarterbacks (218.9 a game, 10 games)."
    },
    "career": [
     {
@@ -6081,8 +6061,8 @@
      {
       "label": "Pass yds",
       "proj": 264,
-      "lo": 147,
-      "hi": 344
+      "lo": 148,
+      "hi": 345
      },
      {
       "label": "Pass TD",
@@ -6844,12 +6824,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -7055,7 +7035,7 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 191,
+      "proj": 192,
       "lo": 139,
       "hi": 242
      },
@@ -7551,12 +7531,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -7711,21 +7691,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "KC gives up the 29th-most receiving yards to receivers (100.2 a game, 10 games).",
-     "rec": "KC gives up the 29th-most catches to receivers (8 a game, 10 games)."
+     "rec_yds": "KC gives up the 29th-most receiving yards to receivers (98.1 a game, 10 games).",
+     "rec": "KC gives up the 30th-most catches to receivers (7.8 a game, 10 games)."
     },
     "group": "WR",
     "games": 10,
     "stats": {
      "rec_yds": {
-      "value": 100.2,
+      "value": 98.1,
       "rank": 29,
       "of": 32,
       "color": "red"
      },
      "rec": {
-      "value": 8.0,
-      "rank": 29,
+      "value": 7.8,
+      "rank": 30,
       "of": 32,
       "color": "red"
      }
@@ -7734,11 +7714,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 10,
+    "score": 8,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
-    "note": "KC gives up the 29th-most receiving yards to receivers (100.2 a game, 10 games)."
+    "note": "KC gives up the 29th-most receiving yards to receivers (98.1 a game, 10 games)."
    },
    "career": [
     {
@@ -7751,21 +7731,21 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.8,
-      "lo": 1.5,
+      "proj": 2.7,
+      "lo": 1.4,
       "hi": 3.6
      },
      {
       "label": "Rec yds",
       "proj": 38,
       "lo": 13,
-      "hi": 77
+      "hi": 76
      }
     ],
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 0.9,
+    "opp_factor": 0.89,
     "locked": false
    },
    "tags": [
@@ -8046,12 +8026,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8257,9 +8237,9 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 247,
+      "proj": 248,
       "lo": 121,
-      "hi": 323
+      "hi": 324
      },
      {
       "label": "Pass TD",
@@ -8322,12 +8302,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8459,7 +8439,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "BUF gives up the 24th-most receiving yards to receivers (111.6 a game, 10 games).",
-     "rec": "BUF gives up the 30th-most catches to receivers (7.9 a game, 10 games)."
+     "rec": "BUF gives up the 29th-most catches to receivers (7.9 a game, 10 games)."
     },
     "group": "WR",
     "games": 10,
@@ -8472,7 +8452,7 @@
      },
      "rec": {
       "value": 7.9,
-      "rank": 30,
+      "rank": 29,
       "of": 32,
       "color": "red"
      }
@@ -8481,7 +8461,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 16,
+    "score": 18,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
@@ -9543,7 +9523,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4430027",
    "recent": {
     "cols": [
@@ -9802,7 +9782,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3929630",
    "recent": {
     "cols": [
@@ -10317,12 +10297,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10576,12 +10556,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10852,12 +10832,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11039,12 +11019,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 36,
-    "wind": 18,
-    "gust": 40,
-    "rain": 95
+    "temp": 37,
+    "wind": 19,
+    "gust": 44,
+    "rain": 92
    },
-   "weather_text": "36\u00b0F, wind 18 mph, 95% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 92% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11176,7 +11156,7 @@
    "matchup": {
     "notes": {
      "rec_yds": "BUF gives up the 24th-most receiving yards to receivers (111.6 a game, 10 games).",
-     "rec": "BUF gives up the 30th-most catches to receivers (7.9 a game, 10 games)."
+     "rec": "BUF gives up the 29th-most catches to receivers (7.9 a game, 10 games)."
     },
     "group": "WR",
     "games": 10,
@@ -11189,7 +11169,7 @@
      },
      "rec": {
       "value": 7.9,
-      "rank": 30,
+      "rank": 29,
       "of": 32,
       "color": "red"
      }
@@ -11198,7 +11178,7 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 16,
+    "score": 18,
     "grade": "F",
     "color": "red",
     "best": "rec_yds",
@@ -11280,5 +11260,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-24T22:47:24+00:00"
+ "generated_at": "2026-11-25T14:27:15+00:00"
 }
