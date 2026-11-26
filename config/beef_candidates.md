@@ -1,48 +1,90 @@
-# Beef candidates (run: 2026-11-25)
+# Beef candidates (run of 2026-11-26)
 
-Scope: NBA games 2026-11-25 and 2026-11-27, NFL games 2026-11-25 to 2026-11-27. Nothing here has been added to config/rivalries*.yaml. Approve a pair and paste its YAML block.
+Window checked: NBA games 2026-11-27 and 2026-11-28 (16 games); NFL games 2026-11-26 and 2026-11-27 (4 games; no NFL games on 11-28).
+Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml. Approve or reject each one.
 
-Verification note: article text was read by a fetch subagent, not by me directly. Only what the article states is used below.
+**Roster caveat for every item below:** the article confirms the incident, but I could not confirm from the repo data or a fetched page that both players are on those teams for the game. The data files only list featured players. Check the ESPN rosters before pasting a block.
 
-## 1. Jalen Green (PHX) vs Amen Thompson (HOU)
+---
 
-- Game: Suns at Rockets, 2026-11-25, 8:30 PM ET (Toyota Center)
+## 1. Jarred Vanderbilt (Lakers) vs Jeremy Sochan (Spurs)
+- Game: Lakers at Spurs, 2026-11-27, 9:30 PM ET (NBA)
 - Kind: Altercation
-- Reason: In a Rockets-Suns game in Phoenix in April 2026 (Rockets won 119-105), after Thompson's layup was blocked by Green, the two former teammates "got physical and got into a tussle" away from the play. No ejections, technicals or fines are mentioned.
-- Source: Maanav Gupta, Rockets On SI (SI.com), published 2026-04-09: https://www.si.com/nba/rockets/onsi/news/watch-rockets-get-into-multiple-scuffles-with-suns-as-former-players-clash
-- Caveats: The article gives the day as "Tuesday night" with a photo caption of Apr 7, 2026; the exact date is inferred, so the YAML uses 2026-04. The Thompson quote ("I'm on you boy!") comes via an embedded post, so it is left out of the reason. Single outlet.
+- Reason: Both were ejected for fighting technicals after a shoving exchange in a March 2025 Lakers-Spurs game (SI), and in January 2026 Vanderbilt poked Sochan in the face after a Spurs win while teammates stepped in (ESPN).
+- Sources: ESPN, Michael C. Wright, Jan 8, 2026; Sports Illustrated, Stephen Douglas, Mar 18, 2025
+  - https://africa.espn.com/nba/story/_/id/47547923/spurs-sochan-downplays-confrontation-lakers-vanderbilt
+  - https://www.si.com/nba/jarred-vanderbilt-jeremy-sochan-ejected-fighting-lakers-spurs
+- Notes: ESPN says no ejections, fines or suspensions for the January incident and gives no calendar date ("Wednesday"). SI gives no calendar date either ("Monday"). Both dates in the YAML are month-level.
+- Roster check needed: Vanderbilt on the Lakers and Sochan on the Spurs for 2026-27.
 
 ```yaml
-  - players: ["Jalen Green", "Amen Thompson"]
+  - players: ["Jarred Vanderbilt", "Jeremy Sochan"]
     kind: Altercation
-    date: "2026-04"
-    reason: "In a Rockets-Suns game in Phoenix in April 2026, the former teammates got into a tussle away from the play after Thompson's layup was blocked by Green."
+    date: "2026-01"
+    reason: "Both were ejected for fighting technicals after a shoving exchange in a March 2025 Lakers-Spurs game, and in January 2026 Vanderbilt poked Sochan in the face after a Spurs win while teammates stepped in."
     sources:
-      - {label: "Rockets On SI", url: "https://www.si.com/nba/rockets/onsi/news/watch-rockets-get-into-multiple-scuffles-with-suns-as-former-players-clash"}
+      - {label: "ESPN", url: "https://africa.espn.com/nba/story/_/id/47547923/spurs-sochan-downplays-confrontation-lakers-vanderbilt"}
+      - {label: "Sports Illustrated", url: "https://www.si.com/nba/jarred-vanderbilt-jeremy-sochan-ejected-fighting-lakers-spurs"}
 ```
 
-## 2. Kevin Durant (HOU) vs Dillon Brooks (PHX)  (weaker, your call)
-
-- Game: Suns at Rockets, 2026-11-25, 8:30 PM ET
-- Kind: Feud
-- Reason: Same April 2026 Rockets-Suns game: the article says Brooks was "constantly after Durant early," and Durant afterward said Brooks "is not that much of a concern to me."
-- Source: Rockets On SI, 2026-04-09 (same link as above)
-- Caveats: The widely shared "My worst season is better than your best" line is attributed only to social-media lip readers ("supposedly"), so it is NOT used. Mild chippiness rather than a fight; no penalties mentioned. The Durant quote is relayed by the fetch subagent in part; re-read before approving.
+## 2. Tyrique Stevenson (Bears) vs Jameson Williams (Lions)
+- Game: Bears at Lions, 2026-11-26, 1:00 PM ET (NFL, today)
+- Kind: Altercation
+- Reason: On Thanksgiving 2024 Stevenson tripped Williams on the sideline, Williams threw the ball at Stevenson and drew a taunting penalty, and Stevenson was fined nearly $20,000. The article says both denied any bad blood afterward.
+- Source: SideLion Report, Brad Berreman, Dec 22, 2024
+  - https://sidelionreport.com/jameson-williams-and-tyrique-stevenson-both-dismiss-idea-of-a-feud-between-them
+- Notes: The fine amount is the article's wording ("nearly $20,000"); it links to a separate article I did not fetch. Both players called it "no bad blood" in the same article, so "Altercation" fits better than "Feud". Single source, Lions fan site.
+- Roster check needed: Stevenson on the Bears and Williams on the Lions for 2026.
 
 ```yaml
-  - players: ["Kevin Durant", "Dillon Brooks"]
-    kind: Feud
-    date: "2026-04"
-    reason: "In an April 2026 Rockets-Suns game, Brooks was \"constantly after Durant early\" per Rockets On SI; afterward Durant said Brooks \"is not that much of a concern to me.\""
+  - players: ["Jameson Williams", "Tyrique Stevenson"]
+    kind: Altercation
+    date: "2024-11"
+    reason: "On Thanksgiving 2024 Stevenson tripped Williams on the sideline, Williams threw the ball at Stevenson and drew a taunting penalty, and Stevenson was fined nearly $20,000; both later said there was no bad blood."
     sources:
-      - {label: "Rockets On SI", url: "https://www.si.com/nba/rockets/onsi/news/watch-rockets-get-into-multiple-scuffles-with-suns-as-former-players-clash"}
+      - {label: "SideLion Report", url: "https://sidelionreport.com/jameson-williams-and-tyrique-stevenson-both-dismiss-idea-of-a-feud-between-them"}
 ```
 
-## Not listed / could not verify
+## 3. Jalen Carter (Eagles) vs Dak Prescott (Cowboys)
+- Game: Eagles at Cowboys, 2026-11-26, 4:30 PM ET (NFL, today)
+- Kind: Altercation
+- Reason: Carter was ejected in Week 1 of the 2025 season for spitting on Prescott.
+- Source: CBS Sports, Garrett Podell, Nov 21, 2025
+  - https://www.cbssports.com/nfl/news/dak-prescott-cowboys-rematch-eagles-jalen-carter
+- Notes: The fetch of the article body was truncated; the ejection-for-spitting claim is in the verbatim headline/subhead and meta description. Prescott is confirmed on DAL in the repo data. Carter's 2026 roster status is not confirmed. No fine or suspension is stated.
 
-- Trey Smith (KC) vs Dorian Williams (BUF), Chiefs-Bills 2026-11-26: FanSided (2024-11-17) describes a skirmish with offsetting unnecessary-roughness penalties (Smith and Epenesa), no ejections. It is older than 12 months and minor, and neither is a QB/RB/WR/TE/K so no card would show. Not listed.
-- D'Andre Swift (CHI) vs Lions, 2026-11-26: the only article found (FOX 32, 2024) quotes Swift saying "It's just another team"; no named Lions player. No beef.
-- Durant/Ishbia social-media spat: involves the Suns owner, not two players. Excluded.
-- Coby White (CHA) vs Bulls: SI headlines suggest he "took the high road"; no player-vs-player beef found.
-- Search snippets only, not fetched or confirmed: Timberwolves-Thunder (a Finch ejection, not a player feud), Knicks-Cavaliers (no relevant result).
-- Not searched this run: MIA@PHI (LeBron vs Heat), the 2026-11-27 NBA slate, and the NFL games GB@LAR, PHI@DAL, DEN@PIT.
+```yaml
+  - players: ["Jalen Carter", "Dak Prescott"]
+    kind: Altercation
+    date: "2025-09"
+    reason: "Carter was ejected in Week 1 of the 2025 season for spitting on Prescott."
+    sources:
+      - {label: "CBS Sports", url: "https://www.cbssports.com/nfl/news/dak-prescott-cowboys-rematch-eagles-jalen-carter"}
+```
+
+## 4. Travis Kelce (Chiefs) vs Jordan Phillips (Bills)  -- weakest, probably skip
+- Game: Chiefs at Bills, 2026-11-26, 8:20 PM ET (NFL, today)
+- Kind: Altercation
+- Reason: After the AFC Championship Game, Phillips was fined $6,722 for hitting Kelce in the head with his helmet, and Kelce was fined $11,255 for taunting Damar Hamlin.
+- Source: Bolavip US, Miguel Angel Fernandez Castro, Feb 2, 2025
+  - https://bolavip.com/en/nfl/nfl-imposes-strong-fine-on-josh-allen-teammate-for-incident-with-travis-kelce-after-bills-loss-to-chiefs-in-playoffs
+- Notes: Lower-tier outlet, single source, no calendar date for the game in the article. I could not confirm Phillips is still on the Bills; if he is not, this does not apply. Do not approve unless the roster check passes.
+
+```yaml
+  - players: ["Travis Kelce", "Jordan Phillips"]
+    kind: Altercation
+    date: "2025-01"
+    reason: "After the 2025 AFC Championship Game, Phillips was fined $6,722 for hitting Kelce in the head with his helmet, and Kelce was fined $11,255 for taunting Damar Hamlin."
+    sources:
+      - {label: "Bolavip US", url: "https://bolavip.com/en/nfl/nfl-imposes-strong-fine-on-josh-allen-teammate-for-incident-with-travis-kelce-after-bills-loss-to-chiefs-in-playoffs"}
+```
+
+---
+
+## Claims I could not verify (not listed above)
+- Trey Smith (Chiefs) vs Dorian Williams (Bills): FanSided (Nov 17, 2024) describes a mini-brawl with offsetting unnecessary-roughness penalties and no ejections or fines. Too minor and roster status unconfirmed, so left out.
+- Hawks-Celtics (11-27): search results show a Tatum/Brown "heated tussle" with Hawks players and a Marcus Smart/Trae Young fight (Smart is no longer on either team as far as I could tell). I did not fetch these, so no pair is listed. Boston.com (Nov 12, 2026) covers a Tatum-Brown pregame interaction, but that is a Celtics-76ers game, not this one.
+- 76ers-Rockets (11-28): a B/R item about Joel Embiid trolling Alperen Sengun on Instagram after a 76ers win. Not fetched and the item is a social media jab; not verified.
+- Thunder-Bucks (11-28): an SI piece on an OKC big man's dust-up with Bucks' Andre Jackson (December 2024). Not fetched; Jackson's current team unconfirmed.
+- Magic-Wizards, Nets-Raptors, Nets-Hornets, Pacers-Bulls, Nuggets-Jazz, Pelicans-Clippers, Mavericks-Suns, Warriors-Blazers, Grizzlies-Wolves, Heat-Knicks, Pistons-Bucks, Pacers-76ers: searches surfaced only incidents that involve other teams, pairs already in rivalries.yaml (Nurkic/Marshall, Nurkic/Washington, Dyson Daniels/Mitchell Robinson, Jokic/McDaniels, Champagnie/Mitchell, Suggs/Drummond, Bridges/Duren, Stewart/Bridges), or teammates (Maxey/Edgecombe). Nothing new that I confirmed.
+- NFL Broncos-Steelers (11-27): only results about Josh Allen/Cam Heyward and Ramsey/Chase, neither involving this game. Nothing found.
