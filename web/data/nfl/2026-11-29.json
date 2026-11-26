@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 9,
-    "gust": 11,
-    "rain": 16
+    "temp": 77,
+    "wind": 7,
+    "gust": 7,
+    "rain": 2
    },
-   "weather_text": "78\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -162,12 +162,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 9,
-    "gust": 11,
-    "rain": 16
+    "temp": 77,
+    "wind": 7,
+    "gust": 7,
+    "rain": 2
    },
-   "weather_text": "78\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -294,21 +294,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "MIA gives up the 27th-most passing yards to quarterbacks (184.4 a game, 10 games).",
-     "pass_td": "MIA gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
+     "pass_yds": "MIA gives up the 23rd-most passing yards to quarterbacks (184.4 a game, 10 games).",
+     "pass_td": "MIA gives up the 9th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
       "value": 184.4,
-      "rank": 27,
+      "rank": 23,
       "of": 32,
       "color": "red"
      },
      "pass_td": {
       "value": 1.5,
-      "rank": 10,
+      "rank": 9,
       "of": 32,
       "color": "green"
      }
@@ -317,26 +317,26 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 44,
+    "score": 52,
     "grade": "C",
     "color": "yellow",
     "best": "pass_td",
-    "note": "MIA gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
+    "note": "MIA gives up the 9th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 188,
-      "lo": 120,
-      "hi": 280
+      "proj": 196,
+      "lo": 126,
+      "hi": 294
      },
      {
       "label": "Pass TD",
-      "proj": 1.4,
+      "proj": 1.5,
       "lo": 0.0,
-      "hi": 3.0
+      "hi": 3.1
      },
      {
       "label": "Rush yds",
@@ -347,8 +347,8 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
-    "opp_factor": 0.94,
+    "weather_factor": 1.0,
+    "opp_factor": 0.95,
     "locked": false
    },
    "tags": [
@@ -587,12 +587,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 78,
-    "wind": 9,
-    "gust": 11,
-    "rain": 16
+    "temp": 77,
+    "wind": 7,
+    "gust": 7,
+    "rain": 2
    },
-   "weather_text": "78\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -763,20 +763,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.6,
+      "proj": 2.7,
       "lo": 0.9,
-      "hi": 4.5
+      "hi": 4.7
      },
      {
       "label": "Rec yds",
       "proj": 23,
       "lo": 0,
-      "hi": 67
+      "hi": 69
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.96,
     "locked": false
    },
@@ -818,12 +818,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 69,
-    "wind": 5,
-    "gust": 9,
+    "temp": 66,
+    "wind": 8,
+    "gust": 13,
     "rain": 2
    },
-   "weather_text": "69\u00b0F, wind 5 mph",
+   "weather_text": "66\u00b0F, wind 8 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -990,18 +990,18 @@
       "label": "Rec",
       "proj": 1.5,
       "lo": 0.0,
-      "hi": 5.3
+      "hi": 5.1
      },
      {
       "label": "Rec yds",
-      "proj": 20,
+      "proj": 19,
       "lo": 0,
-      "hi": 79
+      "hi": 77
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 1.0,
+    "weather_factor": 0.97,
     "opp_factor": 1.04,
     "locked": false
    },
@@ -1227,12 +1227,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 67,
     "wind": 12,
-    "gust": 23,
-    "rain": 59
+    "gust": 20,
+    "rain": 68
    },
-   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
+   "weather_text": "67\u00b0F, wind 12 mph, 68% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -1813,21 +1813,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "ATL gives up the 9th-most passing yards to quarterbacks (231.8 a game, 10 games).",
-     "pass_td": "ATL gives up the 5th-most passing touchdowns to quarterbacks (1.7 a game, 10 games)."
+     "pass_yds": "ATL gives up the 16th-most passing yards to quarterbacks (209.7 a game, 10 games).",
+     "pass_td": "ATL gives up the 6th-most passing touchdowns to quarterbacks (1.6 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
-      "value": 231.8,
-      "rank": 9,
+      "value": 209.7,
+      "rank": 16,
       "of": 32,
-      "color": "green"
+      "color": "yellow"
      },
      "pass_td": {
-      "value": 1.7,
-      "rank": 5,
+      "value": 1.6,
+      "rank": 6,
       "of": 32,
       "color": "green"
      }
@@ -1836,11 +1836,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 81,
-    "grade": "A",
+    "score": 68,
+    "grade": "B",
     "color": "green",
     "best": "pass_td",
-    "note": "ATL gives up the 5th-most passing touchdowns to quarterbacks (1.7 a game, 10 games)."
+    "note": "ATL gives up the 6th-most passing touchdowns to quarterbacks (1.6 a game, 10 games)."
    },
    "career": [],
    "projection": null,
@@ -2041,12 +2041,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 54,
-    "wind": 12,
-    "gust": 34,
-    "rain": 56
+    "temp": 49,
+    "wind": 8,
+    "gust": 29,
+    "rain": 54
    },
-   "weather_text": "54\u00b0F, wind 12 mph, 56% rain",
+   "weather_text": "49\u00b0F, wind 8 mph, 54% rain",
    "arena": "Paycor Stadium",
    "location": "Cincinnati, OH",
    "categories": [
@@ -2251,12 +2251,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 67,
     "wind": 12,
-    "gust": 23,
-    "rain": 59
+    "gust": 20,
+    "rain": 68
    },
-   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
+   "weather_text": "67\u00b0F, wind 12 mph, 68% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2265,7 +2265,7 @@
    "summary": "Faces the 49ers, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "",
    "espn_url": "https://www.espn.com/nfl/player/_/id/3912547",
    "recent": {
     "cols": [
@@ -2422,21 +2422,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "SF gives up the 13th-most passing yards to quarterbacks (219.3 a game, 10 games).",
-     "pass_td": "SF gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
+     "pass_yds": "SF gives up the 9th-most passing yards to quarterbacks (219.3 a game, 10 games).",
+     "pass_td": "SF gives up the 9th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
       "value": 219.3,
-      "rank": 13,
+      "rank": 9,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      },
      "pass_td": {
       "value": 1.5,
-      "rank": 10,
+      "rank": 9,
       "of": 32,
       "color": "green"
      }
@@ -2445,26 +2445,26 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 66,
+    "score": 74,
     "grade": "B",
-    "color": "yellow",
-    "best": "pass_td",
-    "note": "SF gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
+    "color": "green",
+    "best": "pass_yds",
+    "note": "SF gives up the 9th-most passing yards to quarterbacks (219.3 a game, 10 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 215,
-      "lo": 100,
-      "hi": 374
+      "proj": 219,
+      "lo": 101,
+      "hi": 381
      },
      {
       "label": "Pass TD",
       "proj": 1.5,
       "lo": 0.0,
-      "hi": 3.0
+      "hi": 3.1
      },
      {
       "label": "Rush yds",
@@ -2476,7 +2476,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.97,
-    "opp_factor": 1.02,
+    "opp_factor": 1.04,
     "locked": false
    },
    "tags": [
@@ -2525,7 +2525,7 @@
    "summary": "Birthday game.",
    "score": 1.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4360939",
    "recent": {
     "cols": [
@@ -2754,7 +2754,7 @@
    "summary": "Birthday game.",
    "score": 1.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/2976212",
    "recent": {
     "cols": [
@@ -2942,12 +2942,12 @@
    "tip_utc": "2026-11-29T21:25:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 66,
+    "temp": 67,
     "wind": 12,
-    "gust": 23,
-    "rain": 59
+    "gust": 20,
+    "rain": 68
    },
-   "weather_text": "66\u00b0F, wind 12 mph, 59% rain",
+   "weather_text": "67\u00b0F, wind 12 mph, 68% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -3205,5 +3205,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-25T22:47:25+00:00"
+ "generated_at": "2026-11-26T14:25:02+00:00"
 }

@@ -23,12 +23,12 @@
    "tip_utc": "2026-12-01T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 70,
-    "wind": 8,
-    "gust": 15,
-    "rain": 28
+    "temp": 69,
+    "wind": 5,
+    "gust": 9,
+    "rain": 32
    },
-   "weather_text": "70\u00b0F, wind 8 mph",
+   "weather_text": "69\u00b0F, wind 5 mph, 32% rain",
    "arena": "Raymond James Stadium",
    "location": "Tampa, FL",
    "categories": [
@@ -194,21 +194,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "CAR gives up the 16th-most passing yards to quarterbacks (215.1 a game, 10 games).",
-     "pass_td": "CAR gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
+     "pass_yds": "CAR gives up the 13th-most passing yards to quarterbacks (215.1 a game, 10 games).",
+     "pass_td": "CAR gives up the 15th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
       "value": 215.1,
-      "rank": 16,
+      "rank": 13,
       "of": 32,
       "color": "yellow"
      },
      "pass_td": {
       "value": 1.4,
-      "rank": 16,
+      "rank": 15,
       "of": 32,
       "color": "yellow"
      }
@@ -217,26 +217,26 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 52,
+    "score": 58,
     "grade": "C",
     "color": "yellow",
     "best": "pass_yds",
-    "note": "CAR gives up the 16th-most passing yards to quarterbacks (215.1 a game, 10 games)."
+    "note": "CAR gives up the 13th-most passing yards to quarterbacks (215.1 a game, 10 games)."
    },
    "career": [],
    "projection": {
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 170,
+      "proj": 178,
       "lo": 0,
-      "hi": 257
+      "hi": 269
      },
      {
       "label": "Pass TD",
       "proj": 0.9,
       "lo": 0.0,
-      "hi": 2.0
+      "hi": 2.1
      },
      {
       "label": "Rush yds",
@@ -247,8 +247,8 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
-    "opp_factor": 1.01,
+    "weather_factor": 1.0,
+    "opp_factor": 1.03,
     "locked": false
    },
    "tags": [
@@ -283,5 +283,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-25T22:47:25+00:00"
+ "generated_at": "2026-11-26T14:25:02+00:00"
 }

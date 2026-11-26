@@ -179,7 +179,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "DET gives up the 27th-most rushing yards to running backs (64.1 a game, 10 games).",
+     "rush_yds": "DET gives up the 26th-most rushing yards to running backs (64.1 a game, 10 games).",
      "rec_yds": "DET gives up the 12th-most receiving yards to running backs (32.9 a game, 10 games)."
     },
     "group": "RB",
@@ -187,7 +187,7 @@
     "stats": {
      "rush_yds": {
       "value": 64.1,
-      "rank": 27,
+      "rank": 26,
       "of": 32,
       "color": "red"
      },
@@ -202,7 +202,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 40,
+    "score": 42,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
@@ -219,9 +219,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 53,
+      "proj": 54,
       "lo": 22,
-      "hi": 81
+      "hi": 82
      },
      {
       "label": "Rec",
@@ -239,7 +239,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 0.87,
+    "opp_factor": 0.88,
     "locked": false
    },
    "tags": [
@@ -2024,9 +2024,9 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 266,
-      "lo": 174,
-      "hi": 343
+      "proj": 270,
+      "lo": 177,
+      "hi": 349
      },
      {
       "label": "Pass TD",
@@ -2044,7 +2044,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.07,
+    "opp_factor": 1.09,
     "locked": false
    },
    "tags": [
@@ -2349,11 +2349,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -2739,21 +2739,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "PHI gives up the 5th-most passing yards to quarterbacks (237.7 a game, 10 games).",
-     "pass_td": "PHI gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
+     "pass_yds": "PHI gives up the 14th-most passing yards to quarterbacks (215 a game, 10 games).",
+     "pass_td": "PHI gives up the 18th-most passing touchdowns to quarterbacks (1.3 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
-      "value": 237.7,
-      "rank": 5,
+      "value": 215.0,
+      "rank": 14,
       "of": 32,
-      "color": "green"
+      "color": "yellow"
      },
      "pass_td": {
-      "value": 1.4,
-      "rank": 16,
+      "value": 1.3,
+      "rank": 18,
       "of": 32,
       "color": "yellow"
      }
@@ -2762,11 +2762,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 69,
-    "grade": "B",
-    "color": "green",
+    "score": 52,
+    "grade": "C",
+    "color": "yellow",
     "best": "pass_yds",
-    "note": "PHI gives up the 5th-most passing yards to quarterbacks (237.7 a game, 10 games)."
+    "note": "PHI gives up the 14th-most passing yards to quarterbacks (215 a game, 10 games)."
    },
    "career": [
     {
@@ -2779,15 +2779,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 306,
-      "lo": 181,
-      "hi": 377
+      "proj": 295,
+      "lo": 175,
+      "hi": 364
      },
      {
       "label": "Pass TD",
       "proj": 2.5,
       "lo": 1.0,
-      "hi": 4.9
+      "hi": 4.8
      },
      {
       "label": "Rush yds",
@@ -2799,7 +2799,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.06,
+    "opp_factor": 1.03,
     "locked": false
    },
    "tags": [
@@ -2845,11 +2845,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -3246,7 +3246,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "DAL gives up the 4th-most rushing yards to running backs (107.6 a game, 11 games).",
-     "rec_yds": "DAL gives up the 9th-most receiving yards to running backs (34.9 a game, 11 games)."
+     "rec_yds": "DAL gives up the 8th-most receiving yards to running backs (34.9 a game, 11 games)."
     },
     "group": "RB",
     "games": 11,
@@ -3259,7 +3259,7 @@
      },
      "rec_yds": {
       "value": 34.9,
-      "rank": 9,
+      "rank": 8,
       "of": 32,
       "color": "green"
      }
@@ -3268,7 +3268,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 82,
+    "score": 84,
     "grade": "A",
     "color": "green",
     "best": "rush_yds",
@@ -3285,7 +3285,7 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 24,
+      "proj": 25,
       "lo": 4,
       "hi": 53
      },
@@ -3305,7 +3305,7 @@
     "games_used": 3,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.13,
+    "opp_factor": 1.14,
     "locked": false
    },
    "tags": [
@@ -3595,11 +3595,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -3949,7 +3949,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "PHI gives up the 12th-most rushing yards to running backs (92.3 a game, 10 games).",
+     "rush_yds": "PHI gives up the 11th-most rushing yards to running backs (92.3 a game, 10 games).",
      "rec_yds": "PHI gives up the 32nd-most receiving yards to running backs (14.1 a game, 10 games)."
     },
     "group": "RB",
@@ -3957,9 +3957,9 @@
     "stats": {
      "rush_yds": {
       "value": 92.3,
-      "rank": 12,
+      "rank": 11,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      },
      "rec_yds": {
       "value": 14.1,
@@ -3972,11 +3972,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 32,
+    "score": 34,
     "grade": "D",
-    "color": "red",
+    "color": "yellow",
     "best": "rush_yds",
-    "note": "PHI gives up the 12th-most rushing yards to running backs (92.3 a game, 10 games)."
+    "note": "PHI gives up the 11th-most rushing yards to running backs (92.3 a game, 10 games)."
    },
    "career": [
     {
@@ -4664,9 +4664,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 102,
+      "proj": 103,
       "lo": 34,
-      "hi": 149
+      "hi": 150
      },
      {
       "label": "Rec",
@@ -4920,7 +4920,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Doubtful",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4242355",
    "recent": {
     "cols": [
@@ -5146,11 +5146,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -5316,15 +5316,15 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "KC gives up the 28th-most rushing yards to running backs (62 a game, 10 games).",
+     "rush_yds": "KC gives up the 29th-most rushing yards to running backs (57.1 a game, 10 games).",
      "rec_yds": "KC gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
     },
     "group": "RB",
     "games": 10,
     "stats": {
      "rush_yds": {
-      "value": 62.0,
-      "rank": 28,
+      "value": 57.1,
+      "rank": 29,
       "of": 32,
       "color": "red"
      },
@@ -5339,9 +5339,9 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 34,
+    "score": 32,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "rec_yds",
     "note": "KC gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
    },
@@ -5356,9 +5356,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 91,
-      "lo": 57,
-      "hi": 144
+      "proj": 90,
+      "lo": 56,
+      "hi": 142
      },
      {
       "label": "Rec",
@@ -5376,7 +5376,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 0.86,
+    "opp_factor": 0.85,
     "locked": false
    },
    "tags": [
@@ -6020,21 +6020,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "CHI gives up the 14th-most passing yards to quarterbacks (218.9 a game, 10 games).",
-     "pass_td": "CHI gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
+     "pass_yds": "CHI gives up the 10th-most passing yards to quarterbacks (218.9 a game, 10 games).",
+     "pass_td": "CHI gives up the 15th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
       "value": 218.9,
-      "rank": 14,
+      "rank": 10,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      },
      "pass_td": {
       "value": 1.4,
-      "rank": 16,
+      "rank": 15,
       "of": 32,
       "color": "yellow"
      }
@@ -6043,11 +6043,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 55,
-    "grade": "C",
+    "score": 63,
+    "grade": "B",
     "color": "yellow",
     "best": "pass_yds",
-    "note": "CHI gives up the 14th-most passing yards to quarterbacks (218.9 a game, 10 games)."
+    "note": "CHI gives up the 10th-most passing yards to quarterbacks (218.9 a game, 10 games)."
    },
    "career": [
     {
@@ -6060,15 +6060,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 264,
-      "lo": 148,
-      "hi": 345
+      "proj": 269,
+      "lo": 150,
+      "hi": 351
      },
      {
       "label": "Pass TD",
-      "proj": 1.8,
+      "proj": 1.9,
       "lo": 0.0,
-      "hi": 2.9
+      "hi": 3.0
      },
      {
       "label": "Rush yds",
@@ -6080,7 +6080,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.02,
+    "opp_factor": 1.04,
     "locked": false
    },
    "tags": [
@@ -6283,7 +6283,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "PHI gives up the 12th-most rushing yards to running backs (92.3 a game, 10 games).",
+     "rush_yds": "PHI gives up the 11th-most rushing yards to running backs (92.3 a game, 10 games).",
      "rec_yds": "PHI gives up the 32nd-most receiving yards to running backs (14.1 a game, 10 games)."
     },
     "group": "RB",
@@ -6291,9 +6291,9 @@
     "stats": {
      "rush_yds": {
       "value": 92.3,
-      "rank": 12,
+      "rank": 11,
       "of": 32,
-      "color": "yellow"
+      "color": "green"
      },
      "rec_yds": {
       "value": 14.1,
@@ -6306,11 +6306,11 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 32,
+    "score": 34,
     "grade": "D",
-    "color": "red",
+    "color": "yellow",
     "best": "rush_yds",
-    "note": "PHI gives up the 12th-most rushing yards to running backs (92.3 a game, 10 games)."
+    "note": "PHI gives up the 11th-most rushing yards to running backs (92.3 a game, 10 games)."
    },
    "career": [
     {
@@ -6323,9 +6323,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 76,
+      "proj": 77,
       "lo": 35,
-      "hi": 113
+      "hi": 114
      },
      {
       "label": "Rec",
@@ -6343,7 +6343,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.04,
+    "opp_factor": 1.05,
     "locked": false
    },
    "tags": [
@@ -6623,7 +6623,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4426485",
    "recent": {
     "cols": [
@@ -6825,11 +6825,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -6995,21 +6995,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "KC gives up the 30th-most passing yards to quarterbacks (178.5 a game, 10 games).",
-     "pass_td": "KC gives up the 32nd-most passing touchdowns to quarterbacks (0.7 a game, 10 games)."
+     "pass_yds": "KC gives up the 27th-most passing yards to quarterbacks (178.5 a game, 10 games).",
+     "pass_td": "KC gives up the 31st-most passing touchdowns to quarterbacks (0.7 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
       "value": 178.5,
-      "rank": 30,
+      "rank": 27,
       "of": 32,
       "color": "red"
      },
      "pass_td": {
       "value": 0.7,
-      "rank": 32,
+      "rank": 31,
       "of": 32,
       "color": "red"
      }
@@ -7018,11 +7018,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 3,
+    "score": 10,
     "grade": "F",
     "color": "red",
     "best": "pass_yds",
-    "note": "KC gives up the 30th-most passing yards to quarterbacks (178.5 a game, 10 games)."
+    "note": "KC gives up the 27th-most passing yards to quarterbacks (178.5 a game, 10 games)."
    },
    "career": [
     {
@@ -7035,9 +7035,9 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 192,
-      "lo": 139,
-      "hi": 242
+      "proj": 195,
+      "lo": 141,
+      "hi": 246
      },
      {
       "label": "Pass TD",
@@ -7055,7 +7055,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 0.92,
+    "opp_factor": 0.94,
     "locked": false
    },
    "tags": [
@@ -7532,11 +7532,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8027,11 +8027,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8198,7 +8198,7 @@
    "matchup": {
     "notes": {
      "pass_yds": "BUF gives up the 2nd-most passing yards to quarterbacks (240.9 a game, 10 games).",
-     "pass_td": "BUF gives up the 10th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
+     "pass_td": "BUF gives up the 9th-most passing touchdowns to quarterbacks (1.5 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
@@ -8211,7 +8211,7 @@
      },
      "pass_td": {
       "value": 1.5,
-      "rank": 10,
+      "rank": 9,
       "of": 32,
       "color": "green"
      }
@@ -8220,7 +8220,7 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 84,
+    "score": 85,
     "grade": "A",
     "color": "green",
     "best": "pass_yds",
@@ -8237,15 +8237,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 248,
-      "lo": 121,
-      "hi": 324
+      "proj": 252,
+      "lo": 123,
+      "hi": 330
      },
      {
       "label": "Pass TD",
       "proj": 2.1,
       "lo": 0.0,
-      "hi": 4.2
+      "hi": 4.3
      },
      {
       "label": "Rush yds",
@@ -8257,7 +8257,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 1.07,
+    "opp_factor": 1.09,
     "locked": false
    },
    "tags": [
@@ -8303,11 +8303,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8783,7 +8783,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "Questionable",
+   "status_note": "Out",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4426386",
    "recent": {
     "cols": [
@@ -8940,7 +8940,7 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "DET gives up the 27th-most rushing yards to running backs (64.1 a game, 10 games).",
+     "rush_yds": "DET gives up the 26th-most rushing yards to running backs (64.1 a game, 10 games).",
      "rec_yds": "DET gives up the 12th-most receiving yards to running backs (32.9 a game, 10 games)."
     },
     "group": "RB",
@@ -8948,7 +8948,7 @@
     "stats": {
      "rush_yds": {
       "value": 64.1,
-      "rank": 27,
+      "rank": 26,
       "of": 32,
       "color": "red"
      },
@@ -8963,7 +8963,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 40,
+    "score": 42,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
@@ -8976,33 +8976,7 @@
      "scope": "since 2023"
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Rush yds",
-      "proj": 10,
-      "lo": 0,
-      "hi": 58
-     },
-     {
-      "label": "Rec",
-      "proj": 0.8,
-      "lo": 0.0,
-      "hi": 1.9
-     },
-     {
-      "label": "Rec yds",
-      "proj": 7,
-      "lo": 0,
-      "hi": 34
-     }
-    ],
-    "games_used": 10,
-    "sims": 1000,
-    "weather_factor": 1.0,
-    "opp_factor": 0.87,
-    "locked": false
-   },
+   "projection": null,
    "tags": [
     {
      "category": "Holiday",
@@ -9433,21 +9407,21 @@
    },
    "matchup": {
     "notes": {
-     "pass_yds": "PHI gives up the 5th-most passing yards to quarterbacks (237.7 a game, 10 games).",
-     "pass_td": "PHI gives up the 16th-most passing touchdowns to quarterbacks (1.4 a game, 10 games)."
+     "pass_yds": "PHI gives up the 14th-most passing yards to quarterbacks (215 a game, 10 games).",
+     "pass_td": "PHI gives up the 18th-most passing touchdowns to quarterbacks (1.3 a game, 10 games)."
     },
     "group": "QB",
     "games": 10,
     "stats": {
      "pass_yds": {
-      "value": 237.7,
-      "rank": 5,
+      "value": 215.0,
+      "rank": 14,
       "of": 32,
-      "color": "green"
+      "color": "yellow"
      },
      "pass_td": {
-      "value": 1.4,
-      "rank": 16,
+      "value": 1.3,
+      "rank": 18,
       "of": 32,
       "color": "yellow"
      }
@@ -9456,11 +9430,11 @@
      "pass_yds": "PASS YDS",
      "pass_td": "PASS TD"
     },
-    "score": 69,
-    "grade": "B",
-    "color": "green",
+    "score": 52,
+    "grade": "C",
+    "color": "yellow",
     "best": "pass_yds",
-    "note": "PHI gives up the 5th-most passing yards to quarterbacks (237.7 a game, 10 games)."
+    "note": "PHI gives up the 14th-most passing yards to quarterbacks (215 a game, 10 games)."
    },
    "career": [
     {
@@ -9940,7 +9914,7 @@
    "matchup": {
     "notes": {
      "rush_yds": "DAL gives up the 4th-most rushing yards to running backs (107.6 a game, 11 games).",
-     "rec_yds": "DAL gives up the 9th-most receiving yards to running backs (34.9 a game, 11 games)."
+     "rec_yds": "DAL gives up the 8th-most receiving yards to running backs (34.9 a game, 11 games)."
     },
     "group": "RB",
     "games": 11,
@@ -9953,7 +9927,7 @@
      },
      "rec_yds": {
       "value": 34.9,
-      "rank": 9,
+      "rank": 8,
       "of": 32,
       "color": "green"
      }
@@ -9962,7 +9936,7 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 82,
+    "score": 84,
     "grade": "A",
     "color": "green",
     "best": "rush_yds",
@@ -9979,9 +9953,9 @@
     "lines": [
      {
       "label": "Rush yds",
-      "proj": 57,
+      "proj": 58,
       "lo": 0,
-      "hi": 104
+      "hi": 105
      },
      {
       "label": "Rec",
@@ -9999,7 +9973,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 1.0,
-    "opp_factor": 1.13,
+    "opp_factor": 1.14,
     "locked": false
    },
    "tags": [
@@ -10298,11 +10272,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10557,11 +10531,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10727,15 +10701,15 @@
    },
    "matchup": {
     "notes": {
-     "rush_yds": "KC gives up the 28th-most rushing yards to running backs (62 a game, 10 games).",
+     "rush_yds": "KC gives up the 29th-most rushing yards to running backs (57.1 a game, 10 games).",
      "rec_yds": "KC gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
     },
     "group": "RB",
     "games": 10,
     "stats": {
      "rush_yds": {
-      "value": 62.0,
-      "rank": 28,
+      "value": 57.1,
+      "rank": 29,
       "of": 32,
       "color": "red"
      },
@@ -10750,9 +10724,9 @@
      "rush_yds": "RUSH YDS",
      "rec_yds": "REC YDS"
     },
-    "score": 34,
+    "score": 32,
     "grade": "D",
-    "color": "yellow",
+    "color": "red",
     "best": "rec_yds",
     "note": "KC gives up the 15th-most receiving yards to running backs (31.4 a game, 10 games)."
    },
@@ -10787,7 +10761,7 @@
     "games_used": 10,
     "sims": 1000,
     "weather_factor": 0.84,
-    "opp_factor": 0.86,
+    "opp_factor": 0.85,
     "locked": false
    },
    "tags": [
@@ -10833,11 +10807,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11020,11 +10994,11 @@
    "weather": {
     "indoor": false,
     "temp": 37,
-    "wind": 22,
-    "gust": 49,
+    "wind": 19,
+    "gust": 39,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 22 mph, 100% rain",
+   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11260,5 +11234,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-25T22:47:17+00:00"
+ "generated_at": "2026-11-26T14:24:53+00:00"
 }
