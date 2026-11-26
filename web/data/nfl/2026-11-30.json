@@ -23,12 +23,12 @@
    "tip_utc": "2026-12-01T01:15:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 64,
+    "temp": 68,
     "wind": 7,
     "gust": 12,
     "rain": 40
    },
-   "weather_text": "64\u00b0F, wind 7 mph, 40% rain",
+   "weather_text": "68\u00b0F, wind 7 mph, 40% rain",
    "arena": "Raymond James Stadium",
    "location": "Tampa, FL",
    "categories": [
@@ -283,5 +283,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-26T22:45:24+00:00"
+ "generated_at": "2026-11-26T23:24:45+00:00"
 }
