@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-26T14:22:45Z",
+ "generated_at": "2026-11-26T22:43:42Z",
  "season": "2026-27",
  "games": 11,
  "entries": [
@@ -279,8 +279,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
-    "date": "2026-11-24T19:43Z"
+    "note": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
+    "date": "2026-11-26T22:29Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -1143,8 +1143,12 @@
     "best": "ast",
     "note": "NYK gives up the 25th-most assists to forwards (7.3 a game, 18 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
+    "date": "2026-11-26T21:15Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [],
    "projection": {
     "lines": [
@@ -2640,8 +2644,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
-    "date": "2026-11-23T21:09Z"
+    "note": "Robinson (illness) is questionable for Friday's game against the Hawks.",
+    "date": "2026-11-26T19:00Z"
    },
    "status_note": "Out",
    "career": [
@@ -4870,8 +4874,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Mathurin (foot) has been ruled out for Friday's game against the Thunder.",
-    "date": "2026-11-19T21:07Z"
+    "note": "Mathurin (foot) is doubtful for Friday's game against the Clippers.",
+    "date": "2026-11-26T21:21Z"
    },
    "status_note": "Out",
    "career": [

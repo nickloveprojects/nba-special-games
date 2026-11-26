@@ -47,8 +47,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 54.6 rush yds, 1.4 TD, 2.4 rec",
+     "text": "avg 58.8 rush yds, 1.2 TD, 3 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "9",
+        "65",
+        "1",
+        "7",
+        "97"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -100,27 +113,27 @@
         "4",
         "12"
        ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "16",
-        "44",
-        "2",
-        "4",
-        "26"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "DET",
-     "n": 4,
-     "text": "avg 40.5 rush yds, 0.2 TD, 2.2 rec",
+     "n": 5,
+     "text": "avg 45.4 rush yds, 0.4 TD, 3.2 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "9",
+        "65",
+        "1",
+        "7",
+        "97"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": true,
@@ -240,7 +253,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.88,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -524,8 +537,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 1.8 rec, 15.6 yds, 0 TD",
+     "text": "avg 2 rec, 16 yds, 0 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "3",
+        "5",
+        "20",
+        "0"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -573,26 +598,27 @@
         "0",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "2",
-        "2",
-        "18",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "DET",
-     "n": 0,
-     "text": "",
-     "games": [],
+     "n": 1,
+     "text": "avg 3 rec, 20 yds, 0 TD",
+     "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "3",
+        "5",
+        "20",
+        "0"
+       ]
+      }
+     ],
      "note": "No games vs DET in the last 8 seasons."
     }
    },
@@ -653,7 +679,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.06,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -726,8 +752,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 6.6 rec, 84 yds, 0.6 TD",
+     "text": "avg 6.2 rec, 82.6 yds, 0.6 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "7",
+        "10",
+        "146",
+        "0"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -775,26 +813,26 @@
         "46",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "9",
-        "11",
-        "153",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
      "n": 5,
-     "text": "avg 6.8 rec, 83.6 yds, 0.8 TD",
+     "text": "avg 7.6 rec, 108.6 yds, 0.8 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "7",
+        "10",
+        "146",
+        "0"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -840,18 +878,6 @@
         "5",
         "7",
         "73",
-        "0"
-       ]
-      },
-      {
-       "date": "2023-12-10",
-       "home": false,
-       "opp": "CHI",
-       "result": "L",
-       "cells": [
-        "3",
-        "8",
-        "21",
         "0"
        ]
       }
@@ -916,7 +942,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1359,7 +1385,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.95,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -1428,6 +1454,18 @@
      "text": "avg 0.8 rec, 10.6 yds, 0 TD",
      "games": [
       {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
+      {
        "date": "2026-11-22",
        "home": true,
        "opp": "TB",
@@ -1474,18 +1512,6 @@
         "0",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "0",
-        "0",
-        "0",
-        "0"
-       ]
       }
      ]
     },
@@ -1494,6 +1520,18 @@
      "n": 5,
      "text": "avg 1.2 rec, 9.4 yds, 0.2 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
       {
        "date": "2025-09-14",
        "home": true,
@@ -1539,18 +1577,6 @@
         "2",
         "2",
         "6",
-        "0"
-       ]
-      },
-      {
-       "date": "2023-11-19",
-       "home": true,
-       "opp": "CHI",
-       "result": "W",
-       "cells": [
-        "0",
-        "0",
-        "0",
         "0"
        ]
       }
@@ -1665,6 +1691,16 @@
      "text": "avg 2 FG, 3 XP",
      "games": [
       {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "4/4"
+       ]
+      },
+      {
        "date": "2026-11-22",
        "home": true,
        "opp": "NO",
@@ -1703,24 +1739,24 @@
         "3/4",
         "3/3"
        ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "1/2",
-        "4/4"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "DET",
      "n": 5,
-     "text": "avg 0.8 FG, 1.6 XP",
+     "text": "avg 0.4 FG, 2.2 XP",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "1/1",
+        "4/4"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": true,
@@ -1759,16 +1795,6 @@
        "cells": [
         "0/0",
         "2/2"
-       ]
-      },
-      {
-       "date": "2023-12-10",
-       "home": true,
-       "opp": "DET",
-       "result": "W",
-       "cells": [
-        "3/3",
-        "1/2"
        ]
       }
      ],
@@ -1840,7 +1866,7 @@
    "summary": "Thanksgiving game.",
    "score": 2.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4431611",
    "recent": {
     "cols": [
@@ -1852,8 +1878,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 264 pass yds, 1.6 TD, 1 INT",
+     "text": "avg 272 pass yds, 1.8 TD, 1 INT",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "30/44",
+        "345",
+        "2",
+        "0",
+        "15"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -1905,27 +1944,27 @@
         "0",
         "18"
        ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "30/36",
-        "305",
-        "1",
-        "0",
-        "3"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "DET",
-     "n": 4,
-     "text": "avg 252.2 pass yds, 2.2 TD, 0.5 INT",
+     "n": 5,
+     "text": "avg 270.8 pass yds, 2.2 TD, 0.4 INT",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "30/44",
+        "345",
+        "2",
+        "0",
+        "15"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": true,
@@ -2045,7 +2084,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.09,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2304,7 +2343,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.06,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2348,12 +2387,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -2800,7 +2839,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.03,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -2844,12 +2883,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -3306,7 +3345,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.14,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -3550,7 +3589,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.06,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -3594,12 +3633,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -4050,8 +4089,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 0.8 rec, 7.6 yds, 0.2 TD",
+     "text": "avg 0.6 rec, 5.6 yds, 0.2 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -4099,26 +4150,26 @@
         "0",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "1",
-        "2",
-        "10",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
-     "n": 2,
-     "text": "avg 1 rec, 23.5 yds, 0 TD",
+     "n": 3,
+     "text": "avg 0.7 rec, 15.7 yds, 0 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "0",
+        "1",
+        "0",
+        "0"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -4204,7 +4255,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -4479,8 +4530,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 118.8 rush yds, 1.2 TD, 3.6 rec",
+     "text": "avg 136.6 rush yds, 1.8 TD, 3.6 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "21",
+        "205",
+        "3",
+        "5",
+        "47"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -4532,27 +4596,27 @@
         "2",
         "15"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "29",
-        "116",
-        "0",
-        "5",
-        "27"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
      "n": 5,
-     "text": "avg 87.2 rush yds, 0.8 TD, 3 rec",
+     "text": "avg 115 rush yds, 1.2 TD, 3.4 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "21",
+        "205",
+        "3",
+        "5",
+        "47"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -4603,19 +4667,6 @@
         "0",
         "2",
         "17"
-       ]
-      },
-      {
-       "date": "2023-12-10",
-       "home": false,
-       "opp": "CHI",
-       "result": "L",
-       "cells": [
-        "11",
-        "66",
-        "1",
-        "3",
-        "16"
        ]
       }
      ],
@@ -4685,7 +4736,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.93,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -4752,8 +4803,18 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 1.8 FG, 2.6 XP",
+     "text": "avg 1.8 FG, 2.8 XP",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "2/2",
+        "3/4"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -4793,24 +4854,24 @@
         "2/3",
         "1/1"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "2/2",
-        "2/2"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
-     "n": 4,
-     "text": "avg 2.5 FG, 3.5 XP",
+     "n": 5,
+     "text": "avg 2.4 FG, 3.4 XP",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "2/2",
+        "3/4"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -5145,12 +5206,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -5615,8 +5676,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 3.6 rec, 67 yds, 0.8 TD",
+     "text": "avg 3.8 rec, 62.4 yds, 0.4 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "6",
+        "9",
+        "68",
+        "0"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -5664,26 +5737,26 @@
         "70",
         "1"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "5",
-        "9",
-        "91",
-        "2"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
      "n": 5,
-     "text": "avg 3.6 rec, 70.6 yds, 0.4 TD",
+     "text": "avg 4.8 rec, 84.2 yds, 0.4 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "6",
+        "9",
+        "68",
+        "0"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -5729,18 +5802,6 @@
         "5",
         "7",
         "28",
-        "0"
-       ]
-      },
-      {
-       "date": "2023-12-10",
-       "home": false,
-       "opp": "CHI",
-       "result": "L",
-       "cells": [
-        "0",
-        "2",
-        "0",
         "0"
        ]
       }
@@ -5805,7 +5866,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.98,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -5875,8 +5936,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 246.2 pass yds, 1.6 TD, 0.8 INT",
+     "text": "avg 248.2 pass yds, 1.4 TD, 1 INT",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "25/36",
+        "313",
+        "1",
+        "1",
+        "10"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -5928,27 +6002,27 @@
         "1",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "22/32",
-        "303",
-        "2",
-        "0",
-        "-1"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
      "n": 5,
-     "text": "avg 276.6 pass yds, 2.4 TD, 0.6 INT",
+     "text": "avg 307 pass yds, 2.4 TD, 0.4 INT",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "25/36",
+        "313",
+        "1",
+        "1",
+        "10"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -5999,19 +6073,6 @@
         "2",
         "0",
         "1"
-       ]
-      },
-      {
-       "date": "2023-12-10",
-       "home": false,
-       "opp": "CHI",
-       "result": "L",
-       "cells": [
-        "20/35",
-        "161",
-        "1",
-        "2",
-        "0"
        ]
       }
      ],
@@ -6081,7 +6142,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.04,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -6344,7 +6405,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.05,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -6824,12 +6885,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -7531,12 +7592,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8026,12 +8087,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8302,12 +8363,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -8559,8 +8620,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 3.8 rec, 60 yds, 0.2 TD",
+     "text": "avg 4.4 rec, 69.6 yds, 0.6 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "6",
+        "9",
+        "87",
+        "2"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -8608,26 +8681,26 @@
         "69",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-18",
-       "home": false,
-       "opp": "ATL",
-       "result": "W",
-       "cells": [
-        "3",
-        "4",
-        "39",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "DET",
-     "n": 3,
-     "text": "avg 4.3 rec, 76.7 yds, 0.7 TD",
+     "n": 4,
+     "text": "avg 4.8 rec, 79.2 yds, 1 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": false,
+       "opp": "DET",
+       "result": "W",
+       "cells": [
+        "6",
+        "9",
+        "87",
+        "2"
+       ]
+      },
       {
        "date": "2025-09-14",
        "home": false,
@@ -8725,7 +8798,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.06,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -9234,7 +9307,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.06,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -9508,8 +9581,20 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 2.4 rec, 32.2 yds, 0 TD",
+     "text": "avg 3 rec, 37.4 yds, 0.2 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "4",
+        "5",
+        "44",
+        "1"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -9557,26 +9642,26 @@
         "33",
         "0"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "1",
-        "2",
-        "18",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
      "n": 5,
-     "text": "avg 3 rec, 23.2 yds, 0.6 TD",
+     "text": "avg 3.2 rec, 28.4 yds, 0.8 TD",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "4",
+        "5",
+        "44",
+        "1"
+       ]
+      },
       {
        "date": "2025-09-14",
        "home": true,
@@ -9622,18 +9707,6 @@
         "2",
         "6",
         "23",
-        "0"
-       ]
-      },
-      {
-       "date": "2023-11-19",
-       "home": true,
-       "opp": "CHI",
-       "result": "W",
-       "cells": [
-        "3",
-        "5",
-        "18",
         "0"
        ]
       }
@@ -9698,7 +9771,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.91,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -9974,7 +10047,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 1.14,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -10044,8 +10117,21 @@
     ],
     "form": {
      "n": 5,
-     "text": "avg 22.2 rush yds, 0 TD, 1 rec",
+     "text": "avg 25 rush yds, 0 TD, 1.4 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "6",
+        "19",
+        "0",
+        "2",
+        "-4"
+       ]
+      },
       {
        "date": "2026-11-22",
        "home": true,
@@ -10097,27 +10183,27 @@
         "1",
         "5"
        ]
-      },
-      {
-       "date": "2026-10-25",
-       "home": true,
-       "opp": "GB",
-       "result": "W",
-       "cells": [
-        "1",
-        "5",
-        "0",
-        "0",
-        "0"
-       ]
       }
      ]
     },
     "vs": {
      "opp": "CHI",
-     "n": 3,
-     "text": "avg 0 rush yds, 0 TD, 0.7 rec",
+     "n": 4,
+     "text": "avg 4.8 rush yds, 0 TD, 1 rec",
      "games": [
+      {
+       "date": "2026-11-26",
+       "home": true,
+       "opp": "CHI",
+       "result": "L",
+       "cells": [
+        "6",
+        "19",
+        "0",
+        "2",
+        "-4"
+       ]
+      },
       {
        "date": "2026-01-04",
        "home": false,
@@ -10224,7 +10310,7 @@
     "sims": 1000,
     "weather_factor": 1.0,
     "opp_factor": 0.93,
-    "locked": false
+    "locked": true
    },
    "tags": [
     {
@@ -10271,12 +10357,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10530,12 +10616,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10806,12 +10892,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -10993,12 +11079,12 @@
    "tip_utc": "2026-11-27T01:20:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 37,
-    "wind": 19,
-    "gust": 39,
+    "temp": 36,
+    "wind": 23,
+    "gust": 46,
     "rain": 100
    },
-   "weather_text": "37\u00b0F, wind 19 mph, 100% rain",
+   "weather_text": "36\u00b0F, wind 23 mph, 100% rain",
    "arena": "Highmark Stadium",
    "location": "Orchard Park, NY",
    "categories": [
@@ -11212,18 +11298,18 @@
  ],
  "matchups": [
   {
-   "away": "CHI",
-   "home": "DET",
-   "tip": "1:00 PM ET",
-   "away_logo": "img/nfl/teams/CHI.png",
-   "home_logo": "img/nfl/teams/DET.png"
-  },
-  {
    "away": "PHI",
    "home": "DAL",
    "tip": "4:30 PM ET",
    "away_logo": "img/nfl/teams/PHI.png",
    "home_logo": "img/nfl/teams/DAL.png"
+  },
+  {
+   "away": "CHI",
+   "home": "DET",
+   "tip": "1:00 PM ET",
+   "away_logo": "img/nfl/teams/CHI.png",
+   "home_logo": "img/nfl/teams/DET.png"
   },
   {
    "away": "KC",
@@ -11234,5 +11320,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-26T14:24:53+00:00"
+ "generated_at": "2026-11-26T22:45:18+00:00"
 }

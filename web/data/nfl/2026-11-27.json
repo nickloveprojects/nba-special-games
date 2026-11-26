@@ -23,12 +23,12 @@
    "tip_utc": "2026-11-27T20:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 42,
+    "temp": 40,
     "wind": 12,
-    "gust": 29,
-    "rain": 48
+    "gust": 30,
+    "rain": 49
    },
-   "weather_text": "42\u00b0F, wind 12 mph, 48% rain",
+   "weather_text": "40\u00b0F, wind 12 mph, 49% rain",
    "arena": "Acrisure Stadium",
    "location": "Pittsburgh, PA",
    "categories": [
@@ -137,5 +137,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-26T14:24:54+00:00"
+ "generated_at": "2026-11-26T22:45:18+00:00"
 }
