@@ -1,90 +1,64 @@
-# Beef candidates (run of 2026-11-26)
+# Beef candidates (run: 2026-11-27)
 
-Window checked: NBA games 2026-11-27 and 2026-11-28 (16 games); NFL games 2026-11-26 and 2026-11-27 (4 games; no NFL games on 11-28).
-Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml. Approve or reject each one.
+Window checked: NBA 2026-11-27 and 11-28; NFL 2026-11-27 through 11-29.
+Nothing here has been added to config/rivalries.yaml or config/rivalries_nfl.yaml. Reply yes or no per item.
 
-**Roster caveat for every item below:** the article confirms the incident, but I could not confirm from the repo data or a fetched page that both players are on those teams for the game. The data files only list featured players. Check the ESPN rosters before pasting a block.
+## NBA
+No new candidates. Searches surfaced Marcus Smart / Charles Bassey (Eurohoops, 2026-11-12) but Bassey's team is not stated in the article and the pair is not scheduled to meet in this window (Rockets host the 76ers on 11-28). Other hits (Draymond Green / Dillon Brooks, Ja Morant / Klay Thompson) involve players on teams not playing each other in the window.
 
----
+## NFL
 
-## 1. Jarred Vanderbilt (Lakers) vs Jeremy Sochan (Spurs)
-- Game: Lakers at Spurs, 2026-11-27, 9:30 PM ET (NBA)
-- Kind: Altercation
-- Reason: Both were ejected for fighting technicals after a shoving exchange in a March 2025 Lakers-Spurs game (SI), and in January 2026 Vanderbilt poked Sochan in the face after a Spurs win while teammates stepped in (ESPN).
-- Sources: ESPN, Michael C. Wright, Jan 8, 2026; Sports Illustrated, Stephen Douglas, Mar 18, 2025
-  - https://africa.espn.com/nba/story/_/id/47547923/spurs-sochan-downplays-confrontation-lakers-vanderbilt
-  - https://www.si.com/nba/jarred-vanderbilt-jeremy-sochan-ejected-fighting-lakers-spurs
-- Notes: ESPN says no ejections, fines or suspensions for the January incident and gives no calendar date ("Wednesday"). SI gives no calendar date either ("Monday"). Both dates in the YAML are month-level.
-- Roster check needed: Vanderbilt on the Lakers and Sochan on the Spurs for 2026-27.
+### 1. Mike Evans vs. Trevon Diggs
+- Game: Seahawks at 49ers, Sun 2026-11-29, 1 PM ET (Evans is a 49ers WR; Diggs a Seahawks CB per the articles)
+- Kind: Feud
+- Reason: In the 49ers' 32-29 win over Seattle on Oct. 11, 2026, Diggs talked trash to Evans, who grabbed Diggs' jersey and turned him around to read his name; Diggs swatted Evans' hand away.
+- Sources: Newsweek, Oct. 11, 2026 (fetched, confirms the above); CBS Sports, Oct. 11, 2026 (fetched, headline/subhead confirms the "Who are you?" exchange).
+- Unverified: both are still on those rosters as of today (not confirmed); the CBS body was only partly readable, and its description of who pushed first differs from Newsweek, so the reason uses Newsweek's wording only.
 
 ```yaml
-  - players: ["Jarred Vanderbilt", "Jeremy Sochan"]
-    kind: Altercation
-    date: "2026-01"
-    reason: "Both were ejected for fighting technicals after a shoving exchange in a March 2025 Lakers-Spurs game, and in January 2026 Vanderbilt poked Sochan in the face after a Spurs win while teammates stepped in."
+  - players: ["Mike Evans", "Trevon Diggs"]
+    kind: Feud
+    date: "2026-10-11"
+    reason: "In the 49ers' 32-29 win over Seattle on Oct. 11, 2026, Diggs talked trash to Evans, who grabbed Diggs' jersey and turned him around to read his name; Diggs swatted Evans' hand away."
     sources:
-      - {label: "ESPN", url: "https://africa.espn.com/nba/story/_/id/47547923/spurs-sochan-downplays-confrontation-lakers-vanderbilt"}
-      - {label: "Sports Illustrated", url: "https://www.si.com/nba/jarred-vanderbilt-jeremy-sochan-ejected-fighting-lakers-spurs"}
+      - {label: "Newsweek", url: "https://www.newsweek.com/sports/nfl/49ers-mike-evans-hilariously-burned-seahawks-trevon-diggs-who-are-you-12553596"}
+      - {label: "CBS Sports", url: "https://www.cbssports.com/nfl/news/49ers-seahawks-mike-evans-trolls-trevon-diggs"}
 ```
 
-## 2. Tyrique Stevenson (Bears) vs Jameson Williams (Lions)
-- Game: Bears at Lions, 2026-11-26, 1:00 PM ET (NFL, today)
+### 2. Julius Chestnut vs. Logan Cooke
+- Game: Titans at Jaguars, Sun 2026-11-29, 1 PM ET (Chestnut a Titans RB, Cooke a Jaguars punter per the 2025 articles)
 - Kind: Altercation
-- Reason: On Thanksgiving 2024 Stevenson tripped Williams on the sideline, Williams threw the ball at Stevenson and drew a taunting penalty, and Stevenson was fined nearly $20,000. The article says both denied any bad blood afterward.
-- Source: SideLion Report, Brad Berreman, Dec 22, 2024
-  - https://sidelionreport.com/jameson-williams-and-tyrique-stevenson-both-dismiss-idea-of-a-feud-between-them
-- Notes: The fine amount is the article's wording ("nearly $20,000"); it links to a separate article I did not fetch. Both players called it "no bad blood" in the same article, so "Altercation" fits better than "Feud". Single source, Lions fan site.
-- Roster check needed: Stevenson on the Bears and Williams on the Lions for 2026.
+- Reason: In the Jaguars' 25-3 win over the Titans on Nov. 30, 2025, Cooke and Chestnut were involved in a scuffle, and Chestnut said after the game that Cooke "said he was going to kill me."
+- Source: Fox News (Ryan Gaydos), Dec. 1, 2025 (fetched). The article's own text calls Cooke's alleged remark "vile"; the "kill me" claim is Chestnut's account only.
+- Unverified: whether both are still on these rosters (a year-old story; not confirmed); part of the fetched article came back summarized rather than verbatim.
+- Note: neither player is in a card position that this repo shows for a punter, but Chestnut is an RB so the card can appear.
 
 ```yaml
-  - players: ["Jameson Williams", "Tyrique Stevenson"]
+  - players: ["Julius Chestnut", "Logan Cooke"]
     kind: Altercation
-    date: "2024-11"
-    reason: "On Thanksgiving 2024 Stevenson tripped Williams on the sideline, Williams threw the ball at Stevenson and drew a taunting penalty, and Stevenson was fined nearly $20,000; both later said there was no bad blood."
+    date: "2025-11-30"
+    reason: "In the Jaguars' 25-3 win over the Titans on Nov. 30, 2025, the two were involved in a scuffle, and Chestnut said afterward that Cooke told him he was going to kill him."
     sources:
-      - {label: "SideLion Report", url: "https://sidelionreport.com/jameson-williams-and-tyrique-stevenson-both-dismiss-idea-of-a-feud-between-them"}
+      - {label: "Fox News", url: "https://www.foxnews.com/sports/jaguars-pro-bowl-punter-accused-threatening-titans-player-during-game"}
 ```
 
-## 3. Jalen Carter (Eagles) vs Dak Prescott (Cowboys)
-- Game: Eagles at Cowboys, 2026-11-26, 4:30 PM ET (NFL, today)
+### 3. Arden Key vs. Anton Harrison
+- Game: Titans at Jaguars, Sun 2026-11-29
 - Kind: Altercation
-- Reason: Carter was ejected in Week 1 of the 2025 season for spitting on Prescott.
-- Source: CBS Sports, Garrett Podell, Nov 21, 2025
-  - https://www.cbssports.com/nfl/news/dak-prescott-cowboys-rematch-eagles-jalen-carter
-- Notes: The fetch of the article body was truncated; the ejection-for-spitting claim is in the verbatim headline/subhead and meta description. Prescott is confirmed on DAL in the repo data. Carter's 2026 roster status is not confirmed. No fine or suspension is stated.
+- Reason: On Nov. 30, 2025, Harrison took exception to Key's hit on Trevor Lawrence and the two locked horns; Key was penalized for roughing the passer and a personal foul.
+- Source: Fox News (Ryan Gaydos), Nov. 30, 2025 (fetched).
+- Unverified: current rosters; the repo only shows cards for QB/RB/WR/TE/K, so neither (DE, OT) would display a card. Probably not worth adding.
 
 ```yaml
-  - players: ["Jalen Carter", "Dak Prescott"]
+  - players: ["Arden Key", "Anton Harrison"]
     kind: Altercation
-    date: "2025-09"
-    reason: "Carter was ejected in Week 1 of the 2025 season for spitting on Prescott."
+    date: "2025-11-30"
+    reason: "On Nov. 30, 2025, Harrison took exception to Key's hit on Trevor Lawrence and the two locked horns; Key was penalized for roughing the passer and a personal foul."
     sources:
-      - {label: "CBS Sports", url: "https://www.cbssports.com/nfl/news/dak-prescott-cowboys-rematch-eagles-jalen-carter"}
+      - {label: "Fox News", url: "https://www.foxnews.com/sports/titans-jaguars-players-fight-after-big-hit-trevor-lawrence"}
 ```
 
-## 4. Travis Kelce (Chiefs) vs Jordan Phillips (Bills)  -- weakest, probably skip
-- Game: Chiefs at Bills, 2026-11-26, 8:20 PM ET (NFL, today)
-- Kind: Altercation
-- Reason: After the AFC Championship Game, Phillips was fined $6,722 for hitting Kelce in the head with his helmet, and Kelce was fined $11,255 for taunting Damar Hamlin.
-- Source: Bolavip US, Miguel Angel Fernandez Castro, Feb 2, 2025
-  - https://bolavip.com/en/nfl/nfl-imposes-strong-fine-on-josh-allen-teammate-for-incident-with-travis-kelce-after-bills-loss-to-chiefs-in-playoffs
-- Notes: Lower-tier outlet, single source, no calendar date for the game in the article. I could not confirm Phillips is still on the Bills; if he is not, this does not apply. Do not approve unless the roster check passes.
-
-```yaml
-  - players: ["Travis Kelce", "Jordan Phillips"]
-    kind: Altercation
-    date: "2025-01"
-    reason: "After the 2025 AFC Championship Game, Phillips was fined $6,722 for hitting Kelce in the head with his helmet, and Kelce was fined $11,255 for taunting Damar Hamlin."
-    sources:
-      - {label: "Bolavip US", url: "https://bolavip.com/en/nfl/nfl-imposes-strong-fine-on-josh-allen-teammate-for-incident-with-travis-kelce-after-bills-loss-to-chiefs-in-playoffs"}
-```
-
----
-
-## Claims I could not verify (not listed above)
-- Trey Smith (Chiefs) vs Dorian Williams (Bills): FanSided (Nov 17, 2024) describes a mini-brawl with offsetting unnecessary-roughness penalties and no ejections or fines. Too minor and roster status unconfirmed, so left out.
-- Hawks-Celtics (11-27): search results show a Tatum/Brown "heated tussle" with Hawks players and a Marcus Smart/Trae Young fight (Smart is no longer on either team as far as I could tell). I did not fetch these, so no pair is listed. Boston.com (Nov 12, 2026) covers a Tatum-Brown pregame interaction, but that is a Celtics-76ers game, not this one.
-- 76ers-Rockets (11-28): a B/R item about Joel Embiid trolling Alperen Sengun on Instagram after a 76ers win. Not fetched and the item is a social media jab; not verified.
-- Thunder-Bucks (11-28): an SI piece on an OKC big man's dust-up with Bucks' Andre Jackson (December 2024). Not fetched; Jackson's current team unconfirmed.
-- Magic-Wizards, Nets-Raptors, Nets-Hornets, Pacers-Bulls, Nuggets-Jazz, Pelicans-Clippers, Mavericks-Suns, Warriors-Blazers, Grizzlies-Wolves, Heat-Knicks, Pistons-Bucks, Pacers-76ers: searches surfaced only incidents that involve other teams, pairs already in rivalries.yaml (Nurkic/Marshall, Nurkic/Washington, Dyson Daniels/Mitchell Robinson, Jokic/McDaniels, Champagnie/Mitchell, Suggs/Drummond, Bridges/Duren, Stewart/Bridges), or teammates (Maxey/Edgecombe). Nothing new that I confirmed.
-- NFL Broncos-Steelers (11-27): only results about Josh Allen/Cam Heyward and Ramsey/Chase, neither involving this game. Nothing found.
+## Claims not verified
+- Current-roster status of every player above (the data files list only featured players).
+- Marcus Smart / Charles Bassey team details (Bassey's team not stated in the article).
+- No other game in the window produced an article-confirmed two-player item.
