@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T14:21:55Z",
+ "generated_at": "2026-11-27T22:47:46Z",
  "season": "2026-27",
  "games": 11,
  "entries": [
@@ -554,8 +554,12 @@
     "best": "ast",
     "note": "GSW gives up the 13th-most assists to guards (15.7 a game, 18 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Out",
+    "note": "Lillard (calf) has been ruled out for Friday's game against the Warriors. The veteran guard is dealing with right calf tightness and soreness.",
+    "date": "2026-11-27T18:38Z"
+   },
+   "status_note": "Out",
    "career": [
     {
      "kind": "hometown",
@@ -568,33 +572,7 @@
      "scope": ""
     }
    ],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 20,
-      "lo": 8,
-      "hi": 28
-     },
-     {
-      "label": "Reb",
-      "proj": 3.1,
-      "lo": 2,
-      "hi": 6
-     },
-     {
-      "label": "Ast",
-      "proj": 4.3,
-      "lo": 2,
-      "hi": 7
-     }
-    ],
-    "games_used": 18,
-    "minutes": 30,
-    "sims": 1000,
-    "opp_factor": 0.98,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 3978,
@@ -640,11 +618,11 @@
    ],
    "score": 35,
    "stats": {
-    "gp": 14,
-    "min": 22.5,
-    "pts": 9.9,
-    "reb": 1.9,
-    "ast": 2.5
+    "gp": 15,
+    "min": 22.1,
+    "pts": 9.8,
+    "reb": 2.1,
+    "ast": 2.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3978",
    "recent": {
@@ -927,11 +905,11 @@
    ],
    "score": 30,
    "stats": {
-    "gp": 15,
-    "min": 32.1,
-    "pts": 28.2,
-    "reb": 12.6,
-    "ast": 5.5
+    "gp": 16,
+    "min": 32.4,
+    "pts": 28.4,
+    "reb": 12.7,
+    "ast": 5.4
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3032977",
    "recent": {
@@ -1143,12 +1121,8 @@
     "best": "ast",
     "note": "NYK gives up the 25th-most assists to forwards (7.3 a game, 18 games)."
    },
-   "injury": {
-    "status": "Day-To-Day",
-    "note": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
-    "date": "2026-11-26T21:15Z"
-   },
-   "status_note": "Day-To-Day",
+   "injury": null,
+   "status_note": null,
    "career": [],
    "projection": {
     "lines": [
@@ -1733,11 +1707,11 @@
    ],
    "score": 30,
    "stats": {
-    "gp": 16,
-    "min": 27.4,
-    "pts": 13.3,
+    "gp": 17,
+    "min": 27.8,
+    "pts": 13.4,
     "reb": 3.6,
-    "ast": 3.0
+    "ast": 3.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4437244",
    "recent": {
@@ -2644,8 +2618,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Robinson (illness) is questionable for Friday's game against the Hawks.",
-    "date": "2026-11-26T19:00Z"
+    "note": "Robinson has been ruled out Marc D'Amico of the Celtics' official sitefor Friday's game.",
+    "date": "2026-11-27T17:31Z"
    },
    "status_note": "Out",
    "career": [
@@ -3352,10 +3326,10 @@
    ],
    "score": 15.6,
    "stats": {
-    "gp": 1,
+    "gp": 2,
     "min": 27.0,
-    "pts": 16.0,
-    "reb": 7.0,
+    "pts": 17.0,
+    "reb": 6.0,
     "ast": 4.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3913176",
@@ -3768,11 +3742,11 @@
    ],
    "score": 15.3,
    "stats": {
-    "gp": 4,
-    "min": 8.0,
-    "pts": 2.8,
-    "reb": 1.8,
-    "ast": 0.8
+    "gp": 5,
+    "min": 8.8,
+    "pts": 2.6,
+    "reb": 1.6,
+    "ast": 1.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2991043",
    "recent": {
@@ -6357,9 +6331,9 @@
    ],
    "score": 12.33,
    "stats": {
-    "gp": 16,
-    "min": 19.9,
-    "pts": 7.6,
+    "gp": 17,
+    "min": 19.6,
+    "pts": 7.5,
     "reb": 5.5,
     "ast": 1.5
    },
@@ -6654,11 +6628,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 16,
-    "min": 32.6,
-    "pts": 19.2,
-    "reb": 8.2,
-    "ast": 3.7
+    "gp": 17,
+    "min": 32.8,
+    "pts": 19.1,
+    "reb": 8.4,
+    "ast": 3.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4066261",
    "recent": {
@@ -6955,11 +6929,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 10,
-    "min": 11.0,
-    "pts": 3.3,
+    "gp": 11,
+    "min": 11.8,
+    "pts": 4.9,
     "reb": 1.1,
-    "ast": 1.9
+    "ast": 2.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4277869",
    "recent": {
@@ -7211,11 +7185,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 16,
+    "gp": 17,
     "min": 32.6,
-    "pts": 21.8,
-    "reb": 13.9,
-    "ast": 4.0
+    "pts": 21.2,
+    "reb": 13.6,
+    "ast": 4.2
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/3136195",
    "recent": {
@@ -7427,8 +7401,12 @@
     "best": "reb",
     "note": "MIA gives up the 24th-most rebounds to centers (8.9 a game, 17 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Towns is questionable for Friday's game against the Heat due to a right abdominal contusion.",
+    "date": "2026-11-27T16:51Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "hometown",
@@ -8432,10 +8410,10 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 14,
-    "min": 23.4,
-    "pts": 5.9,
-    "reb": 5.3,
+    "gp": 15,
+    "min": 23.2,
+    "pts": 6.4,
+    "reb": 5.1,
     "ast": 3.1
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4601023",

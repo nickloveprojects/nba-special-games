@@ -1,6 +1,6 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-27T14:22:24Z",
+ "generated_at": "2026-11-27T22:49:02Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -44,11 +44,11 @@
    ],
    "score": 30,
    "stats": {
-    "gp": 17,
-    "min": 33.7,
+    "gp": 18,
+    "min": 33.9,
     "pts": 32.1,
     "reb": 4.1,
-    "ast": 4.6
+    "ast": 4.7
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4278073",
    "recent": {
@@ -763,8 +763,12 @@
     "best": "ast",
     "note": "PHI gives up the 2nd-most assists to centers (3.8 a game, 19 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Adams (knee) is questionable for Saturday's game against the 76ers.",
+    "date": "2026-11-27T22:06Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [],
    "projection": {
     "lines": [
@@ -1072,11 +1076,11 @@
    ],
    "score": 14.99,
    "stats": {
-    "gp": 15,
-    "min": 18.5,
+    "gp": 16,
+    "min": 19.1,
     "pts": 10.3,
-    "reb": 2.8,
-    "ast": 1.9
+    "reb": 2.9,
+    "ast": 2.0
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/2990984",
    "recent": {
@@ -2132,8 +2136,8 @@
    },
    "injury": {
     "status": "Day-To-Day",
-    "note": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
-    "date": "2026-11-26T05:29Z"
+    "note": "Smith (illness) is listed as probable for Saturday's game against Indiana.",
+    "date": "2026-11-27T18:36Z"
    },
    "status_note": "Day-To-Day",
    "career": [
@@ -2475,11 +2479,11 @@
    ],
    "score": 10,
    "stats": {
-    "gp": 17,
-    "min": 31.0,
-    "pts": 21.9,
-    "reb": 4.5,
-    "ast": 4.5
+    "gp": 18,
+    "min": 31.3,
+    "pts": 22.3,
+    "reb": 4.4,
+    "ast": 4.6
    },
    "espn_url": "https://www.espn.com/nba/player/_/id/4395725",
    "recent": {
