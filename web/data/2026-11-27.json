@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-26T23:23:56Z",
+ "generated_at": "2026-11-27T14:21:55Z",
  "season": "2026-27",
  "games": 11,
  "entries": [
@@ -3266,8 +3266,12 @@
     "best": "ast",
     "note": "MIN gives up the 5th-most assists to centers (3.4 a game, 19 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness.",
+    "date": "2026-11-26T23:27Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "history",
@@ -4351,8 +4355,12 @@
     "best": "reb",
     "note": "PHI gives up the 3rd-most rebounds to guards (17.7 a game, 19 games)."
    },
-   "injury": null,
-   "status_note": null,
+   "injury": {
+    "status": "Day-To-Day",
+    "note": "Oubre is questionable for Friday's game against the 76ers due to a right hand laceration.",
+    "date": "2026-11-27T00:42Z"
+   },
+   "status_note": "Day-To-Day",
    "career": [
     {
      "kind": "revenge",
@@ -5725,8 +5733,8 @@
    },
    "injury": {
     "status": "Out",
-    "note": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.",
-    "date": "2026-11-20T22:40Z"
+    "note": "Nurkic (foot) is questionable for Friday's game against the Nuggets.",
+    "date": "2026-11-27T00:08Z"
    },
    "status_note": "Out",
    "career": [
@@ -8860,9 +8868,7 @@
    "projection": null
   }
  ],
- "warnings": [
-  "No games on 2026-11-26; showing next game day 2026-11-27"
- ],
+ "warnings": [],
  "matchups": [
   {
    "away": "MIA",

@@ -24,11 +24,11 @@
    "weather": {
     "indoor": false,
     "temp": 77,
-    "wind": 9,
-    "gust": 11,
-    "rain": 5
+    "wind": 7,
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "77\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -163,11 +163,11 @@
    "weather": {
     "indoor": false,
     "temp": 77,
-    "wind": 9,
-    "gust": 11,
-    "rain": 5
+    "wind": 7,
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "77\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -328,15 +328,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 191,
-      "lo": 122,
-      "hi": 285
+      "proj": 196,
+      "lo": 126,
+      "hi": 294
      },
      {
       "label": "Pass TD",
-      "proj": 1.4,
+      "proj": 1.5,
       "lo": 0.0,
-      "hi": 3.0
+      "hi": 3.1
      },
      {
       "label": "Rush yds",
@@ -347,7 +347,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.95,
     "locked": false
    },
@@ -588,11 +588,11 @@
    "weather": {
     "indoor": false,
     "temp": 77,
-    "wind": 9,
-    "gust": 11,
-    "rain": 5
+    "wind": 7,
+    "gust": 10,
+    "rain": 1
    },
-   "weather_text": "77\u00b0F, wind 9 mph",
+   "weather_text": "77\u00b0F, wind 7 mph",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -763,20 +763,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.6,
+      "proj": 2.7,
       "lo": 0.9,
-      "hi": 4.5
+      "hi": 4.7
      },
      {
       "label": "Rec yds",
       "proj": 23,
       "lo": 0,
-      "hi": 67
+      "hi": 69
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.96,
     "locked": false
    },
@@ -818,12 +818,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 62,
-    "wind": 9,
-    "gust": 17,
+    "temp": 67,
+    "wind": 4,
+    "gust": 10,
     "rain": 3
    },
-   "weather_text": "62\u00b0F, wind 9 mph",
+   "weather_text": "67\u00b0F, wind 4 mph",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -990,18 +990,18 @@
       "label": "Rec",
       "proj": 1.5,
       "lo": 0.0,
-      "hi": 5.1
+      "hi": 5.3
      },
      {
       "label": "Rec yds",
-      "proj": 19,
+      "proj": 20,
       "lo": 0,
-      "hi": 77
+      "hi": 79
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.04,
     "locked": false
    },
@@ -1229,10 +1229,10 @@
     "indoor": false,
     "temp": 66,
     "wind": 10,
-    "gust": 23,
-    "rain": 76
+    "gust": 20,
+    "rain": 69
    },
-   "weather_text": "66\u00b0F, wind 10 mph, 76% rain",
+   "weather_text": "66\u00b0F, wind 10 mph, 69% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2041,12 +2041,12 @@
    "tip_utc": "2026-11-29T18:00:00+00:00",
    "weather": {
     "indoor": false,
-    "temp": 47,
-    "wind": 9,
-    "gust": 34,
-    "rain": 77
+    "temp": 51,
+    "wind": 10,
+    "gust": 32,
+    "rain": 91
    },
-   "weather_text": "47\u00b0F, wind 9 mph, 77% rain",
+   "weather_text": "51\u00b0F, wind 10 mph, 91% rain",
    "arena": "Paycor Stadium",
    "location": "Cincinnati, OH",
    "categories": [
@@ -2253,10 +2253,10 @@
     "indoor": false,
     "temp": 66,
     "wind": 10,
-    "gust": 23,
-    "rain": 76
+    "gust": 20,
+    "rain": 69
    },
-   "weather_text": "66\u00b0F, wind 10 mph, 76% rain",
+   "weather_text": "66\u00b0F, wind 10 mph, 69% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2852,21 +2852,21 @@
    },
    "matchup": {
     "notes": {
-     "rec_yds": "ARI gives up the 10th-most receiving yards to receivers (142.1 a game, 11 games).",
-     "rec": "ARI gives up the 19th-most catches to receivers (9.3 a game, 11 games)."
+     "rec_yds": "ARI gives up the 11th-most receiving yards to receivers (142.1 a game, 11 games).",
+     "rec": "ARI gives up the 20th-most catches to receivers (9.3 a game, 11 games)."
     },
     "group": "WR",
     "games": 11,
     "stats": {
      "rec_yds": {
       "value": 142.1,
-      "rank": 10,
+      "rank": 11,
       "of": 32,
       "color": "green"
      },
      "rec": {
       "value": 9.3,
-      "rank": 19,
+      "rank": 20,
       "of": 32,
       "color": "yellow"
      }
@@ -2875,11 +2875,11 @@
      "rec_yds": "REC YDS",
      "rec": "REC"
     },
-    "score": 56,
+    "score": 53,
     "grade": "C",
     "color": "yellow",
     "best": "rec_yds",
-    "note": "ARI gives up the 10th-most receiving yards to receivers (142.1 a game, 11 games)."
+    "note": "ARI gives up the 11th-most receiving yards to receivers (142.1 a game, 11 games)."
    },
    "career": [
     {
@@ -2944,10 +2944,10 @@
     "indoor": false,
     "temp": 66,
     "wind": 10,
-    "gust": 23,
-    "rain": 76
+    "gust": 20,
+    "rain": 69
    },
-   "weather_text": "66\u00b0F, wind 10 mph, 76% rain",
+   "weather_text": "66\u00b0F, wind 10 mph, 69% rain",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -3205,5 +3205,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-26T23:24:45+00:00"
+ "generated_at": "2026-11-27T14:22:49+00:00"
 }
