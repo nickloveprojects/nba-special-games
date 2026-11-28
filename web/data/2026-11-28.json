@@ -1,6 +1,6 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-27T22:49:02Z",
+ "generated_at": "2026-11-28T14:02:03Z",
  "season": "2026-27",
  "games": 5,
  "entries": [
@@ -213,37 +213,37 @@
    "opponent_logo": "img/teams/MIL.png",
    "matchup": {
     "notes": {
-     "pts": "MIL gives up the 13th-most points to guards (57.3 a game, 19 games).",
-     "reb": "MIL gives up the 15th-most rebounds to guards (15.5 a game, 19 games).",
-     "ast": "MIL gives up the 15th-most assists to guards (15.4 a game, 19 games)."
+     "pts": "MIL gives up the 11th-most points to guards (58.4 a game, 20 games).",
+     "reb": "MIL gives up the 11th-most rebounds to guards (16.1 a game, 20 games).",
+     "ast": "MIL gives up the 13th-most assists to guards (15.8 a game, 20 games)."
     },
     "group": "G",
-    "games": 19,
+    "games": 20,
     "stats": {
      "pts": {
-      "value": 57.3,
-      "rank": 13,
+      "value": 58.4,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 15.5,
-      "rank": 15,
+      "value": 16.1,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 15.4,
-      "rank": 15,
+      "value": 15.8,
+      "rank": 13,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 54,
-    "grade": "C",
+    "score": 63,
+    "grade": "B",
     "color": "yellow",
     "best": "pts",
-    "note": "MIL gives up the 13th-most points to guards (57.3 a game, 19 games)."
+    "note": "MIL gives up the 11th-most points to guards (58.4 a game, 20 games)."
    },
    "injury": null,
    "status_note": null,
@@ -258,7 +258,7 @@
      },
      {
       "label": "Reb",
-      "proj": 4.0,
+      "proj": 4.1,
       "lo": 2,
       "hi": 6
      },
@@ -272,7 +272,7 @@
     "games_used": 18,
     "minutes": 34,
     "sims": 1000,
-    "opp_factor": 1.01,
+    "opp_factor": 1.02,
     "locked": false
    }
   },
@@ -502,7 +502,7 @@
     "notes": {
      "pts": "CHI gives up the 3rd-most points to guards (61.7 a game, 18 games).",
      "reb": "CHI gives up the 7th-most rebounds to guards (16.7 a game, 18 games).",
-     "ast": "CHI gives up the 12th-most assists to guards (15.9 a game, 18 games)."
+     "ast": "CHI gives up the 11th-most assists to guards (15.9 a game, 18 games)."
     },
     "group": "G",
     "games": 18,
@@ -521,51 +521,25 @@
      },
      "ast": {
       "value": 15.9,
-      "rank": 12,
+      "rank": 11,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 78,
+    "score": 79,
     "grade": "B",
     "color": "green",
     "best": "pts",
     "note": "CHI gives up the 3rd-most points to guards (61.7 a game, 18 games)."
    },
    "injury": {
-    "status": "Day-To-Day",
-    "note": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
-    "date": "2026-11-26T22:29Z"
+    "status": "Out",
+    "note": "McConnell (hamstring) has been ruled out for Friday's game against the 76ers, Alex Golden of SI.com reports.",
+    "date": "2026-11-27T23:02Z"
    },
-   "status_note": "Day-To-Day",
+   "status_note": "Out",
    "career": [],
-   "projection": {
-    "lines": [
-     {
-      "label": "Pts",
-      "proj": 8,
-      "lo": 2,
-      "hi": 15
-     },
-     {
-      "label": "Reb",
-      "proj": 2.3,
-      "lo": 0,
-      "hi": 5
-     },
-     {
-      "label": "Ast",
-      "proj": 4.7,
-      "lo": 2,
-      "hi": 7
-     }
-    ],
-    "games_used": 7,
-    "minutes": 15,
-    "sims": 1000,
-    "opp_factor": 1.03,
-    "locked": false
-   }
+   "projection": null
   },
   {
    "player_id": 2991235,
@@ -731,37 +705,37 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "notes": {
-     "pts": "PHI gives up the 9th-most points to centers (15.2 a game, 19 games).",
-     "reb": "PHI gives up the 10th-most rebounds to centers (10.9 a game, 19 games).",
-     "ast": "PHI gives up the 2nd-most assists to centers (3.8 a game, 19 games)."
+     "pts": "PHI gives up the 8th-most points to centers (15.6 a game, 20 games).",
+     "reb": "PHI gives up the 8th-most rebounds to centers (11.2 a game, 20 games).",
+     "ast": "PHI gives up the 3rd-most assists to centers (3.7 a game, 20 games)."
     },
     "group": "C",
-    "games": 19,
+    "games": 20,
     "stats": {
      "pts": {
-      "value": 15.2,
-      "rank": 9,
+      "value": 15.6,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 10.9,
-      "rank": 10,
+      "value": 11.2,
+      "rank": 8,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 3.8,
-      "rank": 2,
+      "value": 3.7,
+      "rank": 3,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 79,
-    "grade": "B",
+    "score": 82,
+    "grade": "A",
     "color": "green",
     "best": "ast",
-    "note": "PHI gives up the 2nd-most assists to centers (3.8 a game, 19 games)."
+    "note": "PHI gives up the 3rd-most assists to centers (3.7 a game, 20 games)."
    },
    "injury": {
     "status": "Day-To-Day",
@@ -963,7 +937,7 @@
    "matchup": {
     "notes": {
      "pts": "OKC gives up the 16th-most points to forwards (42.5 a game, 19 games).",
-     "reb": "OKC gives up the 5th-most rebounds to forwards (20.6 a game, 19 games).",
+     "reb": "OKC gives up the 4th-most rebounds to forwards (20.6 a game, 19 games).",
      "ast": "OKC gives up the 10th-most assists to forwards (8.7 a game, 19 games)."
     },
     "group": "F",
@@ -977,7 +951,7 @@
      },
      "reb": {
       "value": 20.6,
-      "rank": 5,
+      "rank": 4,
       "of": 30,
       "color": "green"
      },
@@ -988,11 +962,11 @@
       "color": "green"
      }
     },
-    "score": 68,
+    "score": 69,
     "grade": "B",
     "color": "green",
     "best": "reb",
-    "note": "OKC gives up the 5th-most rebounds to forwards (20.6 a game, 19 games)."
+    "note": "OKC gives up the 4th-most rebounds to forwards (20.6 a game, 19 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1245,28 +1219,28 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "notes": {
-     "pts": "IND gives up the 9th-most points to guards (58.9 a game, 18 games).",
-     "reb": "IND gives up the 9th-most rebounds to guards (16.6 a game, 18 games).",
-     "ast": "IND gives up the 17th-most assists to guards (15.2 a game, 18 games)."
+     "pts": "IND gives up the 10th-most points to guards (58.6 a game, 19 games).",
+     "reb": "IND gives up the 10th-most rebounds to guards (16.2 a game, 19 games).",
+     "ast": "IND gives up the 15th-most assists to guards (15.4 a game, 19 games)."
     },
     "group": "G",
-    "games": 18,
+    "games": 19,
     "stats": {
      "pts": {
-      "value": 58.9,
-      "rank": 9,
+      "value": 58.6,
+      "rank": 10,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 16.6,
-      "rank": 9,
+      "value": 16.2,
+      "rank": 10,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 15.2,
-      "rank": 17,
+      "value": 15.4,
+      "rank": 15,
       "of": 30,
       "color": "yellow"
      }
@@ -1275,7 +1249,7 @@
     "grade": "B",
     "color": "yellow",
     "best": "pts",
-    "note": "IND gives up the 9th-most points to guards (58.9 a game, 18 games)."
+    "note": "IND gives up the 10th-most points to guards (58.6 a game, 19 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1543,37 +1517,37 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "notes": {
-     "pts": "BKN gives up the 5th-most points to forwards (47.2 a game, 17 games).",
-     "reb": "BKN gives up the 17th-most rebounds to forwards (17.8 a game, 17 games).",
-     "ast": "BKN gives up the 6th-most assists to forwards (8.9 a game, 17 games)."
+     "pts": "BKN gives up the 2nd-most points to forwards (48.6 a game, 18 games).",
+     "reb": "BKN gives up the 17th-most rebounds to forwards (17.9 a game, 18 games).",
+     "ast": "BKN gives up the 7th-most assists to forwards (8.8 a game, 18 games)."
     },
     "group": "F",
-    "games": 17,
+    "games": 18,
     "stats": {
      "pts": {
-      "value": 47.2,
-      "rank": 5,
+      "value": 48.6,
+      "rank": 2,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 17.8,
+      "value": 17.9,
       "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 8.9,
-      "rank": 6,
+      "value": 8.8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 71,
+    "score": 74,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "BKN gives up the 5th-most points to forwards (47.2 a game, 17 games)."
+    "note": "BKN gives up the 2nd-most points to forwards (48.6 a game, 18 games)."
    },
    "injury": null,
    "status_note": null,
@@ -1841,37 +1815,37 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "notes": {
-     "pts": "BKN gives up the 18th-most points to guards (55.8 a game, 17 games).",
-     "reb": "BKN gives up the 18th-most rebounds to guards (15.1 a game, 17 games).",
-     "ast": "BKN gives up the 10th-most assists to guards (16.2 a game, 17 games)."
+     "pts": "BKN gives up the 19th-most points to guards (54.7 a game, 18 games).",
+     "reb": "BKN gives up the 16th-most rebounds to guards (15.1 a game, 18 games).",
+     "ast": "BKN gives up the 5th-most assists to guards (16.6 a game, 18 games)."
     },
     "group": "G",
-    "games": 17,
+    "games": 18,
     "stats": {
      "pts": {
-      "value": 55.8,
-      "rank": 18,
+      "value": 54.7,
+      "rank": 19,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
       "value": 15.1,
-      "rank": 18,
+      "rank": 16,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 16.2,
-      "rank": 10,
+      "value": 16.6,
+      "rank": 5,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 51,
+    "score": 57,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "BKN gives up the 10th-most assists to guards (16.2 a game, 17 games)."
+    "note": "BKN gives up the 5th-most assists to guards (16.6 a game, 18 games)."
    },
    "injury": {
     "status": "Out",
@@ -2102,12 +2076,12 @@
    "opponent_logo": "img/teams/IND.png",
    "matchup": {
     "notes": {
-     "pts": "IND gives up the 21st-most points to forwards (40.1 a game, 18 games).",
-     "reb": "IND gives up the 17th-most rebounds to forwards (17.8 a game, 18 games).",
-     "ast": "IND gives up the 13th-most assists to forwards (8.2 a game, 18 games)."
+     "pts": "IND gives up the 21st-most points to forwards (40.1 a game, 19 games).",
+     "reb": "IND gives up the 17th-most rebounds to forwards (17.9 a game, 19 games).",
+     "ast": "IND gives up the 14th-most assists to forwards (8.2 a game, 19 games)."
     },
     "group": "F",
-    "games": 18,
+    "games": 19,
     "stats": {
      "pts": {
       "value": 40.1,
@@ -2116,23 +2090,23 @@
       "color": "red"
      },
      "reb": {
-      "value": 17.8,
+      "value": 17.9,
       "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
       "value": 8.2,
-      "rank": 13,
+      "rank": 14,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 45,
+    "score": 44,
     "grade": "C",
     "color": "yellow",
     "best": "ast",
-    "note": "IND gives up the 13th-most assists to forwards (8.2 a game, 18 games)."
+    "note": "IND gives up the 14th-most assists to forwards (8.2 a game, 19 games)."
    },
    "injury": {
     "status": "Day-To-Day",
@@ -2362,37 +2336,37 @@
    "opponent_logo": "img/teams/BKN.png",
    "matchup": {
     "notes": {
-     "pts": "BKN gives up the 5th-most points to forwards (47.2 a game, 17 games).",
-     "reb": "BKN gives up the 17th-most rebounds to forwards (17.8 a game, 17 games).",
-     "ast": "BKN gives up the 6th-most assists to forwards (8.9 a game, 17 games)."
+     "pts": "BKN gives up the 2nd-most points to forwards (48.6 a game, 18 games).",
+     "reb": "BKN gives up the 17th-most rebounds to forwards (17.9 a game, 18 games).",
+     "ast": "BKN gives up the 7th-most assists to forwards (8.8 a game, 18 games)."
     },
     "group": "F",
-    "games": 17,
+    "games": 18,
     "stats": {
      "pts": {
-      "value": 47.2,
-      "rank": 5,
+      "value": 48.6,
+      "rank": 2,
       "of": 30,
       "color": "green"
      },
      "reb": {
-      "value": 17.8,
+      "value": 17.9,
       "rank": 17,
       "of": 30,
       "color": "yellow"
      },
      "ast": {
-      "value": 8.9,
-      "rank": 6,
+      "value": 8.8,
+      "rank": 7,
       "of": 30,
       "color": "green"
      }
     },
-    "score": 71,
+    "score": 74,
     "grade": "B",
     "color": "green",
     "best": "pts",
-    "note": "BKN gives up the 5th-most points to forwards (47.2 a game, 17 games)."
+    "note": "BKN gives up the 2nd-most points to forwards (48.6 a game, 18 games)."
    },
    "injury": null,
    "status_note": null,
@@ -2490,6 +2464,21 @@
     "form": {
      "games": [
       {
+       "gid": "401909327",
+       "date": "2026-11-27",
+       "venue": "DET",
+       "opp": "DET",
+       "tm": "MIL",
+       "home": false,
+       "result": "L",
+       "score": "113-98",
+       "min": 35,
+       "pts": 20,
+       "reb": 3,
+       "ast": 4,
+       "playoff": false
+      },
+      {
        "gid": "401909322",
        "date": "2026-11-25",
        "venue": "MIL",
@@ -2548,28 +2537,13 @@
        "reb": 4,
        "ast": 3,
        "playoff": false
-      },
-      {
-       "gid": "401910009",
-       "date": "2026-11-18",
-       "venue": "MIA",
-       "opp": "MIA",
-       "tm": "MIL",
-       "home": false,
-       "result": "L",
-       "score": "137-130",
-       "min": 24,
-       "pts": 8,
-       "reb": 2,
-       "ast": 4,
-       "playoff": false
       }
      ],
      "n": 5,
-     "pts": 27.4,
-     "reb": 5.0,
+     "pts": 29.8,
+     "reb": 5.2,
      "ast": 5.4,
-     "min": 33.8
+     "min": 36.0
     },
     "vs": {
      "opp": "OKC",
@@ -2685,22 +2659,22 @@
       "label": "Pts",
       "proj": 22,
       "lo": 7,
-      "hi": 33
+      "hi": 31
      },
      {
       "label": "Reb",
-      "proj": 4.4,
+      "proj": 4.3,
       "lo": 1,
       "hi": 10
      },
      {
       "label": "Ast",
-      "proj": 4.6,
+      "proj": 4.5,
       "lo": 2,
       "hi": 8
      }
     ],
-    "games_used": 18,
+    "games_used": 19,
     "minutes": 32,
     "sims": 1000,
     "opp_factor": 0.99,
@@ -2772,37 +2746,37 @@
    "opponent_logo": "img/teams/PHI.png",
    "matchup": {
     "notes": {
-     "pts": "PHI gives up the 20th-most points to guards (54.8 a game, 19 games).",
-     "reb": "PHI gives up the 3rd-most rebounds to guards (17.7 a game, 19 games).",
-     "ast": "PHI gives up the 14th-most assists to guards (15.5 a game, 19 games)."
+     "pts": "PHI gives up the 20th-most points to guards (54.0 a game, 20 games).",
+     "reb": "PHI gives up the 3rd-most rebounds to guards (17.6 a game, 20 games).",
+     "ast": "PHI gives up the 17th-most assists to guards (14.9 a game, 20 games)."
     },
     "group": "G",
-    "games": 19,
+    "games": 20,
     "stats": {
      "pts": {
-      "value": 54.8,
+      "value": 54.0,
       "rank": 20,
       "of": 30,
       "color": "yellow"
      },
      "reb": {
-      "value": 17.7,
+      "value": 17.6,
       "rank": 3,
       "of": 30,
       "color": "green"
      },
      "ast": {
-      "value": 15.5,
-      "rank": 14,
+      "value": 14.9,
+      "rank": 17,
       "of": 30,
       "color": "yellow"
      }
     },
-    "score": 61,
-    "grade": "B",
+    "score": 57,
+    "grade": "C",
     "color": "yellow",
     "best": "reb",
-    "note": "PHI gives up the 3rd-most rebounds to guards (17.7 a game, 19 games)."
+    "note": "PHI gives up the 3rd-most rebounds to guards (17.6 a game, 20 games)."
    },
    "injury": null,
    "status_note": null,

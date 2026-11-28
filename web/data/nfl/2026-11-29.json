@@ -21,14 +21,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-29T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 76,
-    "wind": 8,
-    "gust": 10,
-    "rain": 1
-   },
-   "weather_text": "76\u00b0F, wind 8 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -160,14 +154,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-29T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 76,
-    "wind": 8,
-    "gust": 10,
-    "rain": 1
-   },
-   "weather_text": "76\u00b0F, wind 8 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -328,15 +316,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 191,
-      "lo": 122,
-      "hi": 285
+      "proj": 196,
+      "lo": 126,
+      "hi": 294
      },
      {
       "label": "Pass TD",
-      "proj": 1.4,
+      "proj": 1.5,
       "lo": 0.0,
-      "hi": 3.0
+      "hi": 3.1
      },
      {
       "label": "Rush yds",
@@ -347,7 +335,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.95,
     "locked": false
    },
@@ -585,14 +573,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-29T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 76,
-    "wind": 8,
-    "gust": 10,
-    "rain": 1
-   },
-   "weather_text": "76\u00b0F, wind 8 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "Hard Rock Stadium",
    "location": "Miami Gardens, FL",
    "categories": [
@@ -763,20 +745,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 2.6,
+      "proj": 2.7,
       "lo": 0.9,
-      "hi": 4.5
+      "hi": 4.7
      },
      {
       "label": "Rec yds",
       "proj": 23,
       "lo": 0,
-      "hi": 67
+      "hi": 69
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.96,
     "locked": false
    },
@@ -816,14 +798,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-29T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 68,
-    "wind": 7,
-    "gust": 11,
-    "rain": 3
-   },
-   "weather_text": "68\u00b0F, wind 7 mph",
+   "weather": null,
+   "weather_text": "",
    "arena": "EverBank Stadium",
    "location": "Jacksonville, FL",
    "categories": [
@@ -1225,14 +1201,8 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-29T21:25:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 67,
-    "wind": 11,
-    "gust": 20,
-    "rain": 47
-   },
-   "weather_text": "67\u00b0F, wind 11 mph, 47% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2039,14 +2009,8 @@
    "game_kind": "Regular season",
    "tip": "1:00 PM ET",
    "tip_utc": "2026-11-29T18:00:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 52,
-    "wind": 12,
-    "gust": 35,
-    "rain": 70
-   },
-   "weather_text": "52\u00b0F, wind 12 mph, 70% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Paycor Stadium",
    "location": "Cincinnati, OH",
    "categories": [
@@ -2055,7 +2019,7 @@
    "summary": "Faces the Bengals, his former team.",
    "score": 2.0,
    "stats": {},
-   "status_note": "",
+   "status_note": "Questionable",
    "espn_url": "https://www.espn.com/nfl/player/_/id/4036131",
    "recent": {
     "cols": [
@@ -2199,20 +2163,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 1.6,
+      "proj": 1.7,
       "lo": 0.0,
-      "hi": 5.0
+      "hi": 5.1
      },
      {
       "label": "Rec yds",
-      "proj": 16,
+      "proj": 17,
       "lo": 0,
-      "hi": 56
+      "hi": 58
      }
     ],
     "games_used": 9,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.09,
     "locked": false
    },
@@ -2249,14 +2213,8 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-29T21:25:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 67,
-    "wind": 11,
-    "gust": 20,
-    "rain": 47
-   },
-   "weather_text": "67\u00b0F, wind 11 mph, 47% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -2456,15 +2414,15 @@
     "lines": [
      {
       "label": "Pass yds",
-      "proj": 219,
-      "lo": 101,
-      "hi": 381
+      "proj": 226,
+      "lo": 105,
+      "hi": 393
      },
      {
       "label": "Pass TD",
       "proj": 1.5,
       "lo": 0.0,
-      "hi": 3.1
+      "hi": 3.2
      },
      {
       "label": "Rush yds",
@@ -2475,7 +2433,7 @@
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 1.04,
     "locked": false
    },
@@ -2940,14 +2898,8 @@
    "game_kind": "Regular season",
    "tip": "4:25 PM ET",
    "tip_utc": "2026-11-29T21:25:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 67,
-    "wind": 11,
-    "gust": 20,
-    "rain": 47
-   },
-   "weather_text": "67\u00b0F, wind 11 mph, 47% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Levi's Stadium",
    "location": "Santa Clara, CA",
    "categories": [
@@ -3100,20 +3052,20 @@
     "lines": [
      {
       "label": "Rec",
-      "proj": 1.3,
+      "proj": 1.4,
       "lo": 0.0,
-      "hi": 3.1
+      "hi": 3.2
      },
      {
       "label": "Rec yds",
       "proj": 15,
       "lo": 0,
-      "hi": 59
+      "hi": 60
      }
     ],
     "games_used": 10,
     "sims": 1000,
-    "weather_factor": 0.97,
+    "weather_factor": 1.0,
     "opp_factor": 0.99,
     "locked": false
    },
@@ -3205,5 +3157,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-27T22:49:15+00:00"
+ "generated_at": "2026-11-28T14:06:59+00:00"
 }

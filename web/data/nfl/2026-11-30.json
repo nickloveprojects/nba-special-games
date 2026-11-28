@@ -21,14 +21,8 @@
    "game_kind": "Regular season",
    "tip": "8:15 PM ET",
    "tip_utc": "2026-12-01T01:15:00+00:00",
-   "weather": {
-    "indoor": false,
-    "temp": 69,
-    "wind": 4,
-    "gust": 6,
-    "rain": 34
-   },
-   "weather_text": "69\u00b0F, wind 4 mph, 34% rain",
+   "weather": null,
+   "weather_text": "",
    "arena": "Raymond James Stadium",
    "location": "Tampa, FL",
    "categories": [
@@ -283,5 +277,5 @@
   }
  ],
  "warnings": [],
- "generated_at": "2026-11-27T22:49:15+00:00"
+ "generated_at": "2026-11-28T14:08:37+00:00"
 }
